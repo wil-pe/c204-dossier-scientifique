@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1M2er+cDmzJnykBRvogvHdCGvH8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.02389,gr-qc/0505065,0711.4796,0711.4767,0906.1337,1009.4634,1008.1911,1511.08145,1510.00621,1612.06180,1809.00913,1808.09244,1910.09363,2111.11092,2308.10773,hep-th/9306083,0708.4025,0909.1038,1207.3123,1409.1231&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=2405.02389,gr-qc/0505065,0711.4796,0711.4767,0906.1337,1009.4634,1008.1911,1511.08145,1510.00621,1612.06180,1809.00913,1808.09244,1910.09363,2111.11092,2308.10773,hep-th/9306083,0708.4025,0909.1038,1207.3123,1409.1231" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0909.1038v2</id>
+    <title>The information paradox: A pedagogical introduction</title>
+    <updated>2011-01-25T19:57:37Z</updated>
+    <link href="https://arxiv.org/abs/0909.1038v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.1038v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The black hole information paradox is a very poorly understood problem. It is often believed that Hawking's argument is not precisely formulated, and a more careful accounting of naturally occurring quantum corrections will allow the radiation process to become unitary. We show that such is not the case, by proving that small corrections to the leading order Hawking computation cannot remove the entanglement between the radiation and the hole. We formulate Hawking's argument as a `theorem': assuming `traditional' physics at the horizon and usual assumptions of locality we will be forced into mixed states or remnants. We also argue that one cannot explain away the problem by invoking AdS/CFT duality. We conclude with recent results on the quantum physics of black holes which show the the interior of black holes have a `fuzzball' structure. This nontrivial structure of microstates resolves the information paradox, and gives a qualitative picture of how classical intuition can break down in black hole physics.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-05T15:44:54Z</published>
+    <arxiv:comment>38 pages, 7 figures, Latex (Expanded form of lectures given at CERN for the RTN Winter School, Feb 09), typo corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Class.Quant.Grav.26:224001,2009</arxiv:journal_ref>
+    <author>
+      <name>Samir D. Mathur</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/26/22/224001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/26/22/224001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4634v1</id>
+    <title>Hawking radiation from ultrashort laser pulse filaments</title>
+    <updated>2010-09-23T15:20:41Z</updated>
+    <link href="https://arxiv.org/abs/1009.4634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.4634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Event horizons of astrophysical black holes and gravitational analogues have been predicted to excite the quantum vacuum and give rise to the emission of quanta, known as Hawking radiation. We experimentally create such a gravitational analogue using ultrashort laser pulse filaments and our measurements demonstrate a spontaneous emission of photons that confirms theoretical predictions.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-23T15:20:41Z</published>
+    <arxiv:comment>4 pages, 4 figures, Phys. Rev. Lett. (accepted)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>F. Belgiorno</name>
+    </author>
+    <author>
+      <name>S. L. Cacciatori</name>
+    </author>
+    <author>
+      <name>M. Clerici</name>
+    </author>
+    <author>
+      <name>V. Gorini</name>
+    </author>
+    <author>
+      <name>G. Ortenzi</name>
+    </author>
+    <author>
+      <name>L. Rizzi</name>
+    </author>
+    <author>
+      <name>E. Rubino</name>
+    </author>
+    <author>
+      <name>V. G. Sala</name>
+    </author>
+    <author>
+      <name>D. Faccio</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.105.203901</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.105.203901" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06180v1</id>
+    <title>Observation of superradiance in a vortex flow</title>
+    <updated>2016-12-19T13:52:42Z</updated>
+    <link href="https://arxiv.org/abs/1612.06180v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.06180v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wave scattering phenomena are ubiquitous to almost all Sciences, from Biology to Physics. When an incident wave scatters off of an obstacle, it is partially reflected and partially transmitted. Since the scatterer absorbs part of the incident energy, the reflected wave carries less energy than the incident one. However, if the obstacle is rotating, this process can be reversed and waves can be amplified, extracting energy from the scatterer. Even though this phenomenon, known as superradiance, has been thoroughly analysed in several theoretical scenarios (from eletromagnetic radiation scattering on a rotating cylinder to gravitational waves incident upon a rotating black hole), it has never been observed. Here we describe in detail the first laboratory detection of superradiance. We observed that plane waves propagating on the surface of water are amplified after being scattered by a draining vortex. The maximum amplification measured in the experiment was 20%, obtained for 3.70 Hz waves, in a 6.25 cm deep fluid. Our results are consistent with superradiant scattering caused by rapid rotation. In particular, a draining fluid can transfer part of its rotational energy to incident low-frequency waves. Our experimental findings will shed new light on Black Hole Physics, since shallow water waves scattering on a draining fluid constitute an analogue of a black hole. We believe, especially in view of the recent observations of gravitational waves, that our results will motivate further research (both theoretical and experimental) on the observation of superradiance of gravitational waves.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-19T13:52:42Z</published>
+    <arxiv:comment>22 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Nature Physics 13, 833-836 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Theo Torres</name>
+    </author>
+    <author>
+      <name>Sam Patrick</name>
+    </author>
+    <author>
+      <name>Antonin Coutant</name>
+    </author>
+    <author>
+      <name>Mauricio Richartz</name>
+    </author>
+    <author>
+      <name>Edmund W. Tedford</name>
+    </author>
+    <author>
+      <name>Silke Weinfurtner</name>
+    </author>
+    <arxiv:doi>10.1038/nphys4151</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nphys4151" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.00913v2</id>
+    <title>Observation of thermal Hawking radiation at the Hawking temperature in an analogue black hole</title>
+    <updated>2018-09-14T16:44:00Z</updated>
+    <link href="https://arxiv.org/abs/1809.00913v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.00913v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We measure the correlation spectrum of the Hawking radiation emitted by an analogue black hole and find it to be thermal at the Hawking temperature implied by the analogue surface gravity. The Hawking radiation is in the regime of linear dispersion, in analogy with a real black hole. Furthermore, the radiation inside of the black hole is seen to be composed of negative-energy partners only. This work confirms the prediction of Hawking's theory regarding the value of the Hawking temperature, as well as the thermality of the spectrum. The thermality of Hawking radiation is the root of the information paradox. The correlations between the Hawking and partner particles imply that the analogue black hole has no analogue firewall.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-04T12:10:51Z</published>
+    <arxiv:comment>11 pages, 4 figures. Minor improvements added with respect to v1</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Nature 569, 688-691 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Juan Ramón Muñoz de Nova</name>
+    </author>
+    <author>
+      <name>Katrine Golubkov</name>
+    </author>
+    <author>
+      <name>Victor I. Kolobov</name>
+    </author>
+    <author>
+      <name>Jeff Steinhauer</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-1241-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-1241-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0505065v4</id>
+    <title>Analogue Gravity</title>
+    <updated>2024-11-29T09:27:50Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0505065v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0505065v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Analogue gravity is a research programme that explores analogues of general relativistic gravitational fields within other physical systems, particularly but not exclusively in condensed matter systems, with the aim of gaining new insights into related problems. Analogue models of gravity boast a long and distinguished history, dating back to the early years of general relativity. This review article delves into the history, aims, results, and future prospects of various analogue models. We begin by presenting a particularly simple example of an analogue model, then traverse the rich history and complex array of models discussed in the literature. The last decade has witnessed significant and sustained advances in analogue gravity, resulting in hundreds of published articles, workshops, and books. The future of the analogue gravity programme looks promising, with rapid technological advances on the experimental front and the potential for analogue models to inspire innovative approaches to the problem of quantum gravity on the theoretical front. Most of all, these recent years have seen the rise of an unprecedented collaboration and interplay between different communities that we believe will set a new standard for interdisciplinary research in the years to come.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-05-13T03:50:40Z</published>
+    <arxiv:comment>V1: 151 pages; 12 figures; 427 references. V2: 152 pages, 435 references. V3: Major update as of 10 May 2011; Extended and updated various sections and figures. Now 702 references. V4: Major update as of 29 Nov 2024; Significantly extended and updated various sections and figures. Now over 160 pages of text and over 1000 references. 220 pages total. Community feedback welcome</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Living Rev.Rel.8:12,2005</arxiv:journal_ref>
+    <author>
+      <name>Carlos Barcelo</name>
+      <arxiv:affiliation>IAA, Granada</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stefano Liberati</name>
+      <arxiv:affiliation>SISSA/ISAS, Trieste</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matt Visser</name>
+      <arxiv:affiliation>Victoria University of Wellington</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.12942/lrr-2005-12</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.12942/lrr-2005-12" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0708.4025v2</id>
+    <title>Black holes as mirrors: quantum information in random subsystems</title>
+    <updated>2007-09-21T15:23:15Z</updated>
+    <link href="https://arxiv.org/abs/0708.4025v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0708.4025v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study information retrieval from evaporating black holes, assuming that the internal dynamics of a black hole is unitary and rapidly mixing, and assuming that the retriever has unlimited control over the emitted Hawking radiation. If the evaporation of the black hole has already proceeded past the "half-way" point, where half of the initial entropy has been radiated away, then additional quantum information deposited in the black hole is revealed in the Hawking radiation very rapidly. Information deposited prior to the half-way point remains concealed until the half-way point, and then emerges quickly. These conclusions hold because typical local quantum circuits are efficient encoders for quantum error-correcting codes that nearly achieve the capacity of the quantum erasure channel. Our estimate of a black hole's information retention time, based on speculative dynamical assumptions, is just barely compatible with the black hole complementarity hypothesis.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-08-29T22:35:15Z</published>
+    <arxiv:comment>18 pages, 2 figures. (v2): discussion of decoding complexity clarified</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0709:120,2007</arxiv:journal_ref>
+    <author>
+      <name>Patrick Hayden</name>
+    </author>
+    <author>
+      <name>John Preskill</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2007/09/120</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2007/09/120" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.4767v3</id>
+    <title>Observation of negative-frequency waves in a water tank: A classical analogue to the Hawking effect?</title>
+    <updated>2008-03-01T11:52:39Z</updated>
+    <link href="https://arxiv.org/abs/0711.4767v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.4767v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The conversion of positive-frequency waves into negative-frequency waves at the event horizon is the mechanism at the heart of the Hawking radiation of black holes. In black-hole analogues, horizons are formed for waves propagating in a medium against the current when and where the flow exceeds the wave velocity. We report on the first direct observation of negative-frequency waves converted from positive-frequency waves in a moving medium. The measured degree of mode conversion is significantly higher than expected from theory.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-29T16:33:08Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>NewJ.Phys.10:053015,2008</arxiv:journal_ref>
+    <author>
+      <name>Germain Rousseaux</name>
+    </author>
+    <author>
+      <name>Christian Mathis</name>
+    </author>
+    <author>
+      <name>Philippe Maissa</name>
+    </author>
+    <author>
+      <name>Thomas G. Philbin</name>
+    </author>
+    <author>
+      <name>Ulf Leonhardt</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/10/5/053015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/10/5/053015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.3123v4</id>
+    <title>Black Holes: Complementarity or Firewalls?</title>
+    <updated>2013-04-13T00:39:27Z</updated>
+    <link href="https://arxiv.org/abs/1207.3123v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.3123v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that the following three statements cannot all be true: (i) Hawking radiation is in a pure state, (ii) the information carried by the radiation is emitted from the region near the horizon, with low energy effective field theory valid beyond some microscopic distance from the horizon, and (iii) the infalling observer encounters nothing unusual at the horizon. Perhaps the most conservative resolution is that the infalling observer burns up at the horizon. Alternatives would seem to require novel dynamics that nevertheless cause notable violations of semiclassical physics at macroscopic distances from the horizon.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-13T00:22:37Z</published>
+    <arxiv:comment>22 pages, 1 figure. v2: We have not changed our minds. Various arguments are expanded and sharpened. v3: Relation to previous work clarified. v4: Additional reference to earlier work</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ahmed Almheiri</name>
+    </author>
+    <author>
+      <name>Donald Marolf</name>
+    </author>
+    <author>
+      <name>Joseph Polchinski</name>
+    </author>
+    <author>
+      <name>James Sully</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP02(2013)062</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP02(2013)062" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.1231v5</id>
+    <title>Jerusalem Lectures on Black Holes and Quantum Information</title>
+    <updated>2022-02-14T16:20:29Z</updated>
+    <link href="https://arxiv.org/abs/1409.1231v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.1231v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In these lectures I give an introduction to the quantum physics of black holes, including recent developments based on quantum information theory such as the firewall paradox and its various cousins. I also give an introduction to holography and the AdS/CFT correspondence, focusing on those aspects which are relevant for the black hole information problem.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-03T20:00:13Z</published>
+    <arxiv:comment>v1: a lot of pages and figures. v2: still a lot of pages and figures, now with typos corrected. v3: version accepted to reviews of modern physics. more typo corrections, and a rewrite of section 4.6 for clarity. v4: Dedication to Jacob Bekenstein added, as well as a few references v5: more detailed explanation of Hawking's evaporation rate, minor corrections</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Rev. Mod. Phys. 88, 15002 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Harlow</name>
+    </author>
+    <arxiv:doi>10.1103/RevModPhys.88.015002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/RevModPhys.88.015002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.08145v4</id>
+    <title>Observation of noise correlated by the Hawking effect in a water tank</title>
+    <updated>2016-07-29T18:31:45Z</updated>
+    <link href="https://arxiv.org/abs/1511.08145v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.08145v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We measured the power spectrum and two-point correlation function for the randomly fluctuating free surface on the downstream side of a stationary flow with a maximum Froude number $F_{\rm max} \approx 0.85$ reached above a localised obstacle. On such a flow the scattering of incident long wavelength modes is analogous to that responsible for black hole radiation (the Hawking effect). Our measurements of the noise show a clear correlation between pairs of modes of opposite energies. We also measure the scattering coefficients by applying the same analysis of correlations to waves produced by a wave maker.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-25T18:40:17Z</published>
+    <arxiv:comment>11 pages, 14 figures. several points clarified; two new subsections in the Supplemental Material on the wave equation and the links with experiments in BECs</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 117, 121301 (2016)</arxiv:journal_ref>
+    <author>
+      <name>L. -P. Euvé</name>
+    </author>
+    <author>
+      <name>F. Michel</name>
+    </author>
+    <author>
+      <name>R. Parentani</name>
+    </author>
+    <author>
+      <name>T. G. Philbin</name>
+    </author>
+    <author>
+      <name>G. Rousseaux</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.117.121301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.117.121301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.4796v2</id>
+    <title>Fiber-optical analogue of the event horizon</title>
+    <updated>2008-02-13T07:43:29Z</updated>
+    <link href="https://arxiv.org/abs/0711.4796v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.4796v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The physics at the event horizon resembles the behavior of waves in moving media. Horizons are formed where the local speed of the medium exceeds the wave velocity. We use ultrashort pulses in microstructured optical fibers to demonstrate the formation of an artificial event horizon in optics. We observed a classical optical effect, the blue-shifting of light at a white-hole horizon. We also show by theoretical calculations that such a system is capable of probing the quantum effects of horizons, in particular Hawking radiation.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-29T19:04:10Z</published>
+    <arxiv:comment>MEDIA EMBARGO. This paper is subject to the media embargo of Science</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Science319:1367-1370,2008</arxiv:journal_ref>
+    <author>
+      <name>Thomas G. Philbin</name>
+    </author>
+    <author>
+      <name>Chris Kuklewicz</name>
+    </author>
+    <author>
+      <name>Scott Robertson</name>
+    </author>
+    <author>
+      <name>Stephen Hill</name>
+    </author>
+    <author>
+      <name>Friedrich Konig</name>
+    </author>
+    <author>
+      <name>Ulf Leonhardt</name>
+    </author>
+    <arxiv:doi>10.1126/science.1153625</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.1153625" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.00621v3</id>
+    <title>Observation of quantum Hawking radiation and its entanglement in an analogue black hole</title>
+    <updated>2017-08-08T12:22:51Z</updated>
+    <link href="https://arxiv.org/abs/1510.00621v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.00621v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We observe spontaneous Hawking radiation, stimulated by quantum vacuum fluctuations, emanating from an analogue black hole in an atomic Bose-Einstein condensate. Correlations are observed between the Hawking particles outside the black hole and the partner particles inside. These correlations indicate an approximately thermal distribution of Hawking radiation. We find that the high energy pairs are entangled, while the low energy pairs are not, within the reasonable assumption that excitations with different frequencies are not correlated. The entanglement verifies the quantum nature of the Hawking radiation. The results are consistent with a driven oscillation experiment and a numerical simulation.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-02T15:27:27Z</published>
+    <arxiv:comment>The latest version has additional data and explanations</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Nature Phys. 12, 959 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Jeff Steinhauer</name>
+    </author>
+    <arxiv:doi>10.1038/nphys3863</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nphys3863" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.10773v4</id>
+    <title>Rotating Curved Spacetime Signatures from a Giant Quantum Vortex</title>
+    <updated>2024-01-23T20:28:25Z</updated>
+    <link href="https://arxiv.org/abs/2308.10773v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.10773v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gravity simulators are laboratory systems where small excitations like sound or surface waves behave as fields propagating on a curved spacetime geometry. The analogy between gravity and fluids requires vanishing viscosity, a feature naturally realised in superfluids like liquid helium or cold atomic clouds. Such systems have been successful in verifying key predictions of quantum field theory in curved spacetime. In particular, quantum simulations of rotating curved spacetimes indicative of astrophysical black holes require the realisation of an extensive vortex flow in superfluid systems. Here we demonstrate that despite the inherent instability of multiply quantised vortices, a stationary giant quantum vortex can be stabilised in superfluid $^4$He. Its compact core carries thousands of circulation quanta, prevailing over current limitations in other physical systems such as magnons, atomic clouds and polaritons. We introduce a minimally invasive way to characterise the vortex flow by exploiting the interaction of micrometre-scale waves on the superfluid interface with the background velocity field. Intricate wave-vortex interactions, including the detection of bound states and distinctive analogue black hole ringdown signatures, have been observed. These results open new avenues to explore quantum-to-classical vortex transitions and utilise superfluid helium as a finite temperature quantum field theory simulator for rotating curved spacetimes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-21T15:04:29Z</published>
+    <arxiv:comment>9 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Nature 628, 66-70 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Patrik Švančara</name>
+    </author>
+    <author>
+      <name>Pietro Smaniotto</name>
+    </author>
+    <author>
+      <name>Leonardo Solidoro</name>
+    </author>
+    <author>
+      <name>James F. MacDonald</name>
+    </author>
+    <author>
+      <name>Sam Patrick</name>
+    </author>
+    <author>
+      <name>Ruth Gregory</name>
+    </author>
+    <author>
+      <name>Carlo F. Barenghi</name>
+    </author>
+    <author>
+      <name>Silke Weinfurtner</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-024-07176-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-024-07176-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.09363v2</id>
+    <title>Observation of stationary spontaneous Hawking radiation and the time evolution of an analogue black hole</title>
+    <updated>2025-10-28T09:28:04Z</updated>
+    <link href="https://arxiv.org/abs/1910.09363v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.09363v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emission of Hawking radiation from a black hole was predicted to be stationary, which is necessary for the correspondence between Hawking radiation and black-body radiation. Spontaneous Hawking radiation was observed in analogue black holes in atomic Bose-Einstein condensates, although the stationarity was not probed. Here, we confirm that the spontaneous Hawking radiation is stationary, by observing such a system at six different times. Furthermore, we follow the time evolution of Hawking radiation and compare and contrast it with predictions for real black holes. We observe the ramp up of Hawking radiation followed by stationary spontaneous emission, similar to a real black hole. The end of the spontaneous Hawking radiation is marked by the formation of an inner horizon, which is seen to cause stimulated Hawking radiation as predicted. We find that the stimulated Hawking and partner particles are directly observable, and that the stimulated emission evolves from multi-mode to monochromatic. Numerical simulations suggest that Bogoliubov-Cherenkov-Landau stimulation predominates, rather than black-hole lasing.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-21T13:34:29Z</published>
+    <arxiv:comment>15 pages, 6 figures. This is the published version, including a new title (edited for style)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Nature Phys. 17, 362-367 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Victor I. Kolobov</name>
+    </author>
+    <author>
+      <name>Katrine Golubkov</name>
+    </author>
+    <author>
+      <name>Juan Ramón Muñoz de Nova</name>
+    </author>
+    <author>
+      <name>Jeff Steinhauer</name>
+    </author>
+    <arxiv:doi>10.1038/s41567-020-01076-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41567-020-01076-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.11092v3</id>
+    <title>Quantum simulation of Hawking radiation and curved spacetime with a superconducting on-chip black hole</title>
+    <updated>2023-06-03T07:17:43Z</updated>
+    <link href="https://arxiv.org/abs/2111.11092v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.11092v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hawking radiation is one of the quantum features of a black hole that can be understood as a quantum tunneling across the event horizon of the black hole, but it is quite difficult to directly observe the Hawking radiation of an astrophysical black hole. Here, we report a fermionic lattice-model-type realization of an analogue black hole by using a chain of 10 superconducting transmon qubits with interactions mediated by 9 transmon-type tunable couplers. The quantum walks of quasi-particle in the curved spacetime reflect the gravitational effect near the black hole, resulting in the behaviour of stimulated Hawking radiation, which is verified by the state tomography measurement of all 7 qubits outside the horizon. In addition, the dynamics of entanglement in the curved spacetime is directly measured. Our results would stimulate more interests to explore the related features of black holes using the programmable superconducting processor with tunable couplers.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-22T10:17:23Z</published>
+    <arxiv:comment>25 pages, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nat. Comm. 14, 3263 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Yun-Hao Shi</name>
+    </author>
+    <author>
+      <name>Run-Qiu Yang</name>
+    </author>
+    <author>
+      <name>Zhongcheng Xiang</name>
+    </author>
+    <author>
+      <name>Zi-Yong Ge</name>
+    </author>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Yong-Yi Wang</name>
+    </author>
+    <author>
+      <name>Kaixuan Huang</name>
+    </author>
+    <author>
+      <name>Ye Tian</name>
+    </author>
+    <author>
+      <name>Xiaohui Song</name>
+    </author>
+    <author>
+      <name>Dongning Zheng</name>
+    </author>
+    <author>
+      <name>Kai Xu</name>
+    </author>
+    <author>
+      <name>Rong-Gen Cai</name>
+    </author>
+    <author>
+      <name>Heng Fan</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-023-39064-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-023-39064-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0906.1337v2</id>
+    <title>Realization of a sonic black hole analogue in a Bose-Einstein condensate</title>
+    <updated>2010-12-12T11:12:33Z</updated>
+    <link href="https://arxiv.org/abs/0906.1337v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0906.1337v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have created an analogue of a black hole in a Bose-Einstein condensate. In this sonic black hole, sound waves, rather than light waves, cannot escape the event horizon. A step-like potential accelerates the flow of the condensate to velocities which cross and exceed the speed of sound by an order of magnitude. The Landau critical velocity is therefore surpassed. The point where the flow velocity equals the speed of sound is the sonic event horizon. The effective gravity is determined from the profiles of the velocity and speed of sound. A simulation finds negative energy excitations, by means of Bragg spectroscopy.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-06-07T09:56:15Z</published>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.105:240401,2010</arxiv:journal_ref>
+    <author>
+      <name>Oren Lahav</name>
+    </author>
+    <author>
+      <name>Amir Itah</name>
+    </author>
+    <author>
+      <name>Alex Blumkin</name>
+    </author>
+    <author>
+      <name>Carmit Gordon</name>
+    </author>
+    <author>
+      <name>Shahar Rinott</name>
+    </author>
+    <author>
+      <name>Alona Zayats</name>
+    </author>
+    <author>
+      <name>Jeff Steinhauer</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.105.240401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.105.240401" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.1911v2</id>
+    <title>Measurement of stimulated Hawking emission in an analogue system</title>
+    <updated>2010-08-18T01:42:50Z</updated>
+    <link href="https://arxiv.org/abs/1008.1911v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.1911v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is a mathematical analogy between the propagation of fields in a general relativistic space-time and long (shallow water) surface waves on moving water. Hawking argued that black holes emit thermal radiation via a quantum spontaneous emission. Similar arguments predict the same effect near wave horizons in fluid flow. By placing a streamlined obstacle into an open channel flow we create a region of high velocity over the obstacle that can include wave horizons. Long waves propagating upstream towards this region are blocked and converted into short (deep water) waves. This is the analogue of the stimulated emission by a white hole (the time inverse of a black hole), and our measurements of the amplitudes of the converted waves demonstrate the thermal nature of the conversion process for this system. Given the close relationship between stimulated and spontaneous emission, our findings attest to the generality of the Hawking process.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-11T14:10:45Z</published>
+    <arxiv:comment>7 pages, 5 figures. This version corrects a processing error in the final graph 5b which multiplied the vertical axis by 2. The graph, and the data used from it, have been corrected. Some minor typos have also been corrected. This version also uses TeX rather than Word</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.106:021302,2011</arxiv:journal_ref>
+    <author>
+      <name>Silke Weinfurtner</name>
+    </author>
+    <author>
+      <name>Edmund W. Tedford</name>
+    </author>
+    <author>
+      <name>Matthew C. J. Penrice</name>
+    </author>
+    <author>
+      <name>William G. Unruh</name>
+    </author>
+    <author>
+      <name>Gregory A. Lawrence</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.106.021302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.106.021302" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.09244v4</id>
+    <title>Observation of Stimulated Hawking Radiation in Optics</title>
+    <updated>2019-01-13T11:11:05Z</updated>
+    <link href="https://arxiv.org/abs/1808.09244v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.09244v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The theory of Hawking radiation can be tested in laboratory analogues of black holes. We use light pulses in nonlinear fiber optics to establish artificial event horizons. Each pulse generates a moving perturbation of the refractive index via the Kerr effect. Probe light perceives this as an event horizon when its group velocity, slowed down by the perturbation, matches the speed of the pulse. We have observed in our experiment that the probe stimulates Hawking radiation, which occurs in a regime of extreme nonlinear fiber optics where positive and negative frequencies mix.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-28T12:06:36Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 122, 010404 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Jonathan Drori</name>
+    </author>
+    <author>
+      <name>Yuval Rosenberg</name>
+    </author>
+    <author>
+      <name>David Bermudez</name>
+    </author>
+    <author>
+      <name>Yaron Silberberg</name>
+    </author>
+    <author>
+      <name>Ulf Leonhardt</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.122.010404</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.122.010404" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9306083v2</id>
+    <title>Information in Black Hole Radiation</title>
+    <updated>1993-08-26T22:59:01Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9306083v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9306083v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  If black hole formation and evaporation can be described by an $S$ matrix, information would be expected to come out in black hole radiation. An estimate shows that it may come out initially so slowly, or else be so spread out, that it would never show up in an analysis perturbative in $M_{Planck}/M$, or in 1/N for two-dimensional dilatonic black holes with a large number $N$ of minimally coupled scalar fields.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-06-18T01:10:14Z</published>
+    <arxiv:comment>12 pages, 1 PostScript figure, LaTeX, Alberta-Thy-24-93 (In response to Phys. Rev. Lett. referees' comments, the connection between expansions in inverse mass and in 1/N are spelled out, and a figure is added. An argument against perturbatively predicting even late-time information is also provided, as well as various minor changes.)</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.Lett. 71 (1993) 3743-3746</arxiv:journal_ref>
+    <author>
+      <name>Don N. Page</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.71.3743</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.71.3743" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.02389v2</id>
+    <title>No black holes from light</title>
+    <updated>2024-07-30T04:57:01Z</updated>
+    <link href="https://arxiv.org/abs/2405.02389v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.02389v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that it is not possible to concentrate enough light to precipitate the formation of an event horizon. We argue that the dissipative quantum effects coming from the self-interaction of light (such as vacuum polarization) are enough to prevent any meaningful buildup of energy that could create a black hole in any realistic scenario.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-03T18:00:00Z</published>
+    <arxiv:comment>13 pages. RevTeX 4.2. v2: Updated to match published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Physical Review Letters 133, 041401 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Álvaro Álvarez-Domínguez</name>
+    </author>
+    <author>
+      <name>Luis J. Garay</name>
+    </author>
+    <author>
+      <name>Eduardo Martín-Martínez</name>
+    </author>
+    <author>
+      <name>José Polo-Gómez</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.133.041401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.133.041401" title="doi"/>
+  </entry>
+</feed>

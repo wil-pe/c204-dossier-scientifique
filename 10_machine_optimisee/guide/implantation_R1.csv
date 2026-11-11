@@ -1,0 +1,35 @@
+repere_nomenclature,piece,sous_ensemble,x_centre_mm,y_centre_mm,z_centre_mm,dx_mm,dy_mm,dz_mm,z_dessous_mm,remarque
+R1-03,"Batterie LiFePO4 4S 105 Ah (1,34 kWh)",Énergie,90,130,87,130,200,150,12,
+R1-05,Coupe-batterie et relais de sécurité à double canal,Sécurité,200,85,105,70,120,50,80,
+R1-04,"Convertisseurs DC/DC, régulateurs et barres de distribution",Énergie,200,115,42,70,180,60,12,
+R1-15,"Bobine de fibre optique, 500 m sur Ø 70 mm",Logement de direction — gyromètre Sagnac,325,104,172,76,76,14,165,
+R1-15,Mandrin de la bobine,Logement de direction — gyromètre Sagnac,325,104,172,46,46,16,164,
+R1-15,"Boîtier optique : source fibrée de classe 1, coupleur, modulateur, photodiode",Logement de direction — gyromètre Sagnac,325,104,130,70,60,25,118,
+R1-16,Carte de démodulation (logement de direction),Logement de direction — gyromètre Sagnac,325,104,30,55,75,30,15,
+R1-14,Tube-support transparent du télescope,Logement principal — télescope à muons,325,197,122,78,78,125,60,
+R1-14,Tuile scintillante supérieure 50 × 50 × 10 mm,Logement principal — télescope à muons,325,197,175,50,50,10,170,dans une enceinte
+R1-14,Tuile scintillante inférieure 50 × 50 × 10 mm,Logement principal — télescope à muons,325,197,75,50,50,10,70,dans une enceinte
+R1-16,Carte de coïncidence et de comptage (logement principal),Logement principal — télescope à muons,325,197,30,55,75,30,15,
+R1-14,Photomultiplicateur au silicium supérieur,Logement principal — télescope à muons,354,197,175,8,20,10,170,dans une enceinte
+R1-14,Photomultiplicateur au silicium inférieur,Logement principal — télescope à muons,354,197,75,8,20,10,70,dans une enceinte
+R1-02,Châssis interne amorti (platine instruments),Structure R1,420,130,10,780,200,3,8,
+R1-17,"Réservoir tampon n°1 (0,25 L)",Boucle thermique,432,50,80,50,50,130,15,
+R1-17,Micro-pompe 12 V,Boucle thermique,432,130,30,60,35,30,15,
+R1-17,Échangeur et ventilateur (évent d'air tiède),Boucle thermique,432,130,150,60,60,25,137,
+R1-17,"Réservoir tampon n°2 (0,25 L)",Boucle thermique,432,210,80,50,50,130,15,
+R1-06,Horloge atomique miniature au césium n°1 (CSAC),Temps — horloges au césium,522,140,50,41,36,12,44,dans une enceinte
+R1-06,Horloge atomique miniature au césium n°3 (CSAC),Temps — horloges au césium,522,190,50,41,36,12,44,dans une enceinte
+R1-10,Calculateur n°1 (architecture différente),Calcul — trois calculateurs à vote,530,30,50,100,18,75,13,
+R1-10,Calculateur n°2 (architecture différente),Calcul — trois calculateurs à vote,530,52,50,100,18,75,13,
+R1-11,Voteur médian matériel et chien de garde,Calcul — trois calculateurs à vote,530,52,105,100,60,20,95,
+R1-10,Calculateur n°3 (architecture différente),Calcul — trois calculateurs à vote,530,74,50,100,18,75,13,
+R1-17,Plaque froide de l'enceinte des horloges,Boucle thermique,550,165,14,140,140,5,12,
+R1-09,"Enceinte des horloges : blindage mu-métal, bobines de compensation, régulation thermique",Temps — horloges au césium,550,165,58,140,140,80,18,
+R1-07,Comparateur de phase à 6 voies et distribution 10 MHz / 1 PPS,Temps — horloges au césium,550,165,114,140,120,25,101,
+R1-08,Récepteur GNSS à sortie de temps,Temps — horloges au césium,550,165,150,100,60,25,137,
+R1-06,Horloge atomique miniature au césium n°2 (CSAC),Temps — horloges au césium,578,140,50,41,36,12,44,dans une enceinte
+R1-06,Horloge atomique miniature au césium n°4 (CSAC),Temps — horloges au césium,578,190,50,41,36,12,44,dans une enceinte
+R1-12,Triade d'accéléromètres à quartz (« VGL » de classe milligal),Gravité et inertie,685,200,45,60,60,60,15,
+R1-13,"Baromètre, thermomètres, hygromètre, magnétomètre",Gravité et inertie,685,200,95,60,40,25,82,
+R1-18,"Dosimètre à semi-conducteur du rayonnement ambiant (sans source, ≤ 30 V)",Rayonnement,690,60,30,110,60,30,15,
+R1-20,"Électronique de façade : écran de secours, voyants, avertisseur",Commande,690,110,165,100,80,30,150,

@@ -1,0 +1,4 @@
+construction,nom,competences,cout_bas_EUR_estimation,cout_haut_EUR_estimation,duree_h_estimation,ce_que_fait_l_objet,masse_estimation
+A,Réplique inerte du coffre,"bricolage du bois, peinture",142,240,15 à 25,aucune fonction ; maquette de présentation,≈ 6 à 8 kg
+B,C204-R1 Lite,"électronique d'amateur, programmation",351,734,40 à 80,calcule et affiche le décalage relativiste du trajet ; compare des oscillateurs ; vote à trois voies ; compte des muons ; ne mesure aucun effet relativiste,≈ 1 à 2 kg hors boîtier
+C,"C204-R1 complet (configuration A, coffre seul)","électronique confirmée, mécanique, métrologie du temps",44055,63635,300 à 600,"idem, avec quatre horloges atomiques miniatures, comparaison à mieux que 0,1 ns et gyromètre à fibre ; ne mesure toujours pas le décalage de son trajet",≈ 36 kg

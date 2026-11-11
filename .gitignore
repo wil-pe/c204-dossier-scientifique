@@ -1,0 +1,18 @@
+# Environnement Python local (à recréer : voir README.md)
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Contenus de tiers non redistribués (pages web, messages de forums, copies d'images, PDF).
+# Leur provenance exacte (URL, date de capture, empreinte SHA-256) est dans 01_archive/journal_provenance.csv.
+01_archive/copies_alternatives/
+01_archive/sources_web/
+
+# Pièce C204-DOC-016 (lettre administrative contenant des données nominatives de tiers) et planches qui la montrent
+01_archive/analyses/form_*.png
+01_archive/analyses/planche_*.png
+01_archive/analyses/JohnPics_gif_planche_contact.png
+
+# Sauvegardes et fichiers de travail
+*.bak

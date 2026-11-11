@@ -1,0 +1,17 @@
+== timetravel16_07 (550x594)
+   cote 8 (REAR, 8 m)           95.0 px  -> 11.88 px/m
+   cote 9 (FORWARD, 11 m)      151.0 px  -> 13.73 px/m
+   cote 7 (OFFSET, 5 m)         62.0 px  -> 12.40 px/m
+   cote 6 (VERTICAL, 6 m)       67.0 px  -> 11.17 px/m
+   échelle moyenne 12.29 ± 1.08 px/m (dispersion 9 %) ; incertitude de pointé ±1,5 px
+   rapport cote 8 / cote 9 : dessiné 0.629 ; inscrit 8/11 = 0.727
+   envergures (détection automatique FRAGILE, traits interrompus : valeurs indicatives) : 315 px = 25.6 m, 359 px = 29.2 m, 444 px = 36.1 m, 309 px = 25.1 m
+   lecture retenue au rapport (copie de 550 px) : cote 11 ≈ 316 px, cote 12 ≈ 399 px (lue sur agrandissement), cote 13 ≈ 445 px → 26, 32 et 36 m
+== OP4 (460x600)
+   cote 8 (REAR, 8 m)           73.5 px  ->  9.19 px/m
+   cote 9 (FORWARD, 11 m)      117.0 px  -> 10.64 px/m
+   cote 7 (OFFSET, 5 m)         46.0 px  ->  9.20 px/m
+   cote 6 (VERTICAL, 6 m)       52.0 px  ->  8.67 px/m
+   échelle moyenne 9.42 ± 0.85 px/m (dispersion 9 %) ; incertitude de pointé ±1,5 px
+   rapport cote 8 / cote 9 : dessiné 0.628 ; inscrit 8/11 = 0.727
+   envergures (détection automatique FRAGILE, traits interrompus : valeurs indicatives) : 292 px = 31.0 m, 411 px = 43.6 m

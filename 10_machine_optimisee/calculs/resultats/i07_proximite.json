@@ -1,0 +1,79 @@
+{
+ "O": {
+  "libelle": "C204 d'origine (fonctions revendiquées, physique réelle)",
+  "A": 100.0,
+  "F": 40.0,
+  "C": 20.0,
+  "D": 29.166666666666668,
+  "indice": 39.083567284115034,
+  "coherence_min": 0.0,
+  "TRL_min": 0,
+  "indice_strict": 0.0,
+  "F_sans_ampleur_du_trajet": 50.0,
+  "indice_sans_ampleur_du_trajet": 41.32584091896901,
+  "indice_moyenne_arithmetique": 47.291666666666664
+ },
+ "R1": {
+  "libelle": "C204-R1 (constructible aujourd'hui)",
+  "A": 70.3125,
+  "F": 49.97200036710356,
+  "C": 100.0,
+  "D": 95.13888888888889,
+  "indice": 76.03776400181276,
+  "coherence_min": 1.0,
+  "TRL_min": 6,
+  "indice_strict": 50.69184266787517,
+  "F_sans_ampleur_du_trajet": 52.083333333333336,
+  "indice_sans_ampleur_du_trajet": 76.82849866153163,
+  "indice_moyenne_arithmetique": 78.85584731399811
+ },
+ "R2": {
+  "libelle": "C204-R2 (laboratoire de recherche)",
+  "A": 59.375,
+  "F": 53.02058674828082,
+  "C": 100.0,
+  "D": 80.55555555555554,
+  "indice": 70.96364462051577,
+  "coherence_min": 1.0,
+  "TRL_min": 4,
+  "indice_strict": 31.539397609118115,
+  "F_sans_ampleur_du_trajet": 56.25,
+  "indice_sans_ampleur_du_trajet": 72.02038051980892,
+  "indice_moyenne_arithmetique": 73.2377855759591
+ },
+ "R3": {
+  "libelle": "C204-R3 (limite théorique : vaisseau à trou noir)",
+  "A": 59.375,
+  "F": 50.66391558719696,
+  "C": 62.499999999999986,
+  "D": 36.11111111111111,
+  "indice": 51.045305896879846,
+  "coherence_min": 0.2,
+  "TRL_min": 1,
+  "indice_strict": 1.1343401310417744,
+  "F_sans_ampleur_du_trajet": 41.66666666666667,
+  "indice_sans_ampleur_du_trajet": 48.610301243123935,
+  "indice_moyenne_arithmetique": 52.16250667457701
+ },
+ "O_rev": {
+  "libelle": "C204 d'origine, fonctions prises telles que revendiquées (pour mémoire)",
+  "A": 100.0,
+  "F": 100.0,
+  "C": 20.0,
+  "D": 29.166666666666668,
+  "indice": 49.14498405430853,
+  "coherence_min": 0.0,
+  "TRL_min": 0,
+  "indice_strict": 0.0,
+  "F_sans_ampleur_du_trajet": 100.0,
+  "indice_sans_ampleur_du_trajet": 49.14498405430853,
+  "indice_moyenne_arithmetique": 62.291666666666664
+ },
+ "echelle_fonction_1": {
+  "zero_s_par_h": 6.068658171923773e-22,
+  "un_s_par_h": 315576000.0,
+  "R1_s_par_h": 1.3278902336820787e-09,
+  "R2_s_par_h": 5.012853291215043e-10,
+  "R3_s_par_h": 34109.98848629969
+ }
+}

@@ -1,0 +1,69 @@
+i04 — PERFORMANCES DU PALIER 2 (C204-R2)
+====================================================================================================
+M1 — HORLOGES OPTIQUES
+  Ion unique ²⁷Al⁺ (Marshall et al. 2025)            u = 5.5e-19 → 5.04e-03 m de dénivelé ; résolution 2.0e-15 s par heure ; 10⁻¹⁸ atteint en 34.0 h de moyenne
+  Ion unique ¹⁷⁶Lu⁺ (Arnold et al. 2026)             u = 1.2e-19 → 1.10e-03 m de dénivelé ; résolution 4.3e-16 s par heure ; 10⁻¹⁸ atteint en 64.0 h de moyenne
+  Réseau ⁸⁷Sr transportable (Koller et al. 2017)     u = 7.0e-17 → 6.42e-01 m de dénivelé ; résolution 2.5e-13 s par heure
+  Horloge à iode de 35 L (Roslund et al. 2024)       u = 3.5e-15 → 3.18e+01 m de dénivelé ; résolution 1.3e-11 s par heure
+  Une comparaison à 10⁻¹⁸ résout : 9.2 mm de dénivelé terrestre ; à 10⁻¹⁹ : 0.92 mm.
+  Les deux logements (entraxe 92.5 mm) : si l'un est surélevé de 10 mm, Δf/f = 1.09e-18 ; de 100 mm : 1.09e-17.
+  Masse dont le potentiel à 1 m vaut 1e-18 : 1.35e+09 kg (une masse de laboratoire de 1 t donne 7.4e-25 : indétectable).
+  Masse dont le potentiel à 1 m vaut 1e-19 : 1.35e+08 kg (une masse de laboratoire de 1 t donne 7.4e-25 : indétectable).
+  Si deux « singularités » de 4,4×10¹² kg existaient, une horloge à 10⁻¹⁸ verrait leur potentiel jusqu'à 6.5 km.
+  Rapport signal / résolution (10⁻¹⁸) sur les scénarios du palier 1 : ≈ 1e+05 (dénivelé de 1 000 m), ≈ 1e+05 (130 km/h vers l'est).
+  Limite : une horloge optique est un étalon de FRÉQUENCE à fonctionnement intermittent ; on mesure un taux (par lien fibré
+  stabilisé ou par comparaison locale avant/après), pas directement un temps accumulé sur 48 h.
+
+M2 — GRAVIMÈTRE ET GRADIOMÈTRE À ATOMES FROIDS
+  Stabilité 10 nm/s² = 1 µGal (Ménoret et al. 2018) ↔ 3.2 mm de dénivelé (gradient à l'air libre 308,6 µGal/m).
+  Masse de   1000 kg détectée à 3 σ (3 µGal) jusqu'à 1.49 m.
+  Masse de  10000 kg détectée à 3 σ (3 µGal) jusqu'à 4.72 m.
+  Masse de    227 kg détectée à 3 σ (3 µGal) jusqu'à 0.71 m.
+  Gradiomètre 20 E (Stray et al. 2022) : une tonne à 1.88 m donne ce gradient (2GM/r³).
+  Gradiomètre 0,1 E à long terme (Janvier et al. 2022) : une tonne à 11.01 m donne ce gradient (2GM/r³).
+  Rôle dans la machine : fournir la prédiction classique ΔW = ∫g·dh du décalage d'horloge. Avec g à 1 µGal (10⁻⁹ g) et Δh à
+  1 cm sur 1 000 m (10⁻⁵), la prédiction est limitée par le nivellement, à ~10⁻⁵ en valeur relative, soit ~10⁻¹⁸ sur 10⁻¹³.
+  Aux distances cotées sur DOC-014 (Équipe A) — ce que des instruments réels y distinguent :
+       5 m (décalage de masse) : un dénivelé de cette valeur décale les horloges de 5.46e-16 ; une masse n'y est vue par le gravimètre (3 µGal) qu'au-delà de 11 t.
+       6 m (distance verticale de sécurité) : un dénivelé de cette valeur décale les horloges de 6.55e-16 ; une masse n'y est vue par le gravimètre (3 µGal) qu'au-delà de 16 t.
+       8 m (distance arrière) : un dénivelé de cette valeur décale les horloges de 8.73e-16 ; une masse n'y est vue par le gravimètre (3 µGal) qu'au-delà de 29 t.
+      11 m (distance avant) : un dénivelé de cette valeur décale les horloges de 1.20e-15 ; une masse n'y est vue par le gravimètre (3 µGal) qu'au-delà de 54 t.
+
+M3 — SIMULATEUR ANALOGIQUE DE KERR À DEUX VORTEX (paramètres de conception : choix de notre part)
+  Cuve 3 m × 1,5 m, h = 6.25 cm : célérité des ondes longues 0.78 m/s.
+  Par vortex (débit 0.5 L/s, circulation 1.5e-02 m²/s) : horizon analogue r = 1.6 mm ; ergosurface r = 19.2 mm ;
+    rotation à l'ergosurface 40.6 rad/s ; ondes amplifiables (critère idéal ω < mΩ) : f < 6.46 Hz (m = 1), < 12.91 Hz (m = 2).
+    Température de Hawking analogue : 5.9e-10 K (inobservable dans de l'eau à 293 K : seuls les effets STIMULÉS sont mesurables).
+  Deux vortex distants de 0.60 m : premier mode de cavité entre les deux ergorégions ≈ 0.65 Hz ; paire libre de même sens :
+    rotation mutuelle 0.083 rad/s ; paire de sens opposés : translation 2.5 cm/s (d'où des orifices fixes pour les épingler).
+  Repère publié : amplification maximale de 20 % à 3,70 Hz pour h = 6,25 cm, un seul vortex (Torres et al. 2017, résumé).
+  À notre connaissance, aucune expérience publiée ne porte sur DEUX vortex de vidange en interaction (question Q9 de l'Équipe H).
+
+M4 — SIMULATEUR QUANTIQUE DE COURBES TEMPORELLES FERMÉES (calcul matriciel exact)
+  (a) P-CTC (téléportation post-sélectionnée, Lloyd et al. 2011) : le qubit de la boucle subit U(θ) = exp(−iθX/2).
+      θ =   0° : fraction d'essais conservés p = |Tr U|²/4 = 1.0000
+      θ =  45° : fraction d'essais conservés p = |Tr U|²/4 = 0.8536
+      θ =  90° : fraction d'essais conservés p = |Tr U|²/4 = 0.5000
+      θ = 135° : fraction d'essais conservés p = |Tr U|²/4 = 0.1464
+      θ = 170° : fraction d'essais conservés p = |Tr U|²/4 = 0.0076
+      θ = 180° : fraction d'essais conservés p = |Tr U|²/4 = 0.0000   ← « paradoxe du grand-père » : aucun essai n'est jamais post-sélectionné
+      Source de 10⁴ paires/s : 5000 essais conservés par seconde à θ = 90°.
+      Source de 10⁴ paires/s : 76 essais conservés par seconde à θ = 170°.
+  (b) D-CTC (Deutsch 1991) — porte NON sur la boucle : point fixe ρ = diag(0.50, 0.50), entropie 1.00 bit : l'état est
+      maximalement mélangé ; le « paradoxe » est remplacé par une perte totale d'information.
+      Circuit ÉCHANGE + Hadamard contrôlé : états d'entrée |0⟩ et |−⟩ (recouvrement |⟨0|−⟩|² = 0,5).
+        entrée |0⟩ → probabilité de lire « 1 » en sortie : 0.0001
+        entrée |-⟩ → probabilité de lire « 1 » en sortie : 0.9999
+      → discrimination parfaite, alors que la mécanique quantique linéaire impose une erreur ≥ 0.146 (borne de Helstrom).
+      C'est la signature de la NON-LINÉARITÉ du modèle ; l'expérience (Ringbauer et al. 2014) la simule en préparant
+      l'état de la boucle qui satisfait la condition de cohérence (de mémoire) : simulation, pas boucle temporelle.
+  (c) Interrupteur quantique (Procopio et al. 2015) : contrôle en |+⟩, cible quelconque ; mesure du contrôle dans la base ±.
+        A, B = X, X (commutent)             P(contrôle = +) = 1.000
+        A, B = X, Z (anticommutent)         P(contrôle = +) = 0.000
+        A, B = Y, Z (anticommutent)         P(contrôle = +) = 0.000
+        A, B = Z, Z (commutent)             P(contrôle = +) = 1.000
+        A, B = X, H (ni l'un ni l'autre)    P(contrôle = +) = 0.500
+      Un seul usage de chaque porte suffit, contre deux pour tout circuit à ordre fixe : avantage de calcul réel,
+      mais l'ordre « indéfini » est plongé dans un espace-temps ordinaire : aucune boucle causale.
+
+Aucun des quatre modules ne transmet d'information vers le passé ; M3 et M4 sont des SIMULATIONS.

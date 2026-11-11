@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Hry4CdNjhGEzm3HTqUxT31+Ud48</id>
+  <title>arXiv Query: search_query=ti:"Could We Observe an Exploding Black Hole in the Near Future"&amp;id_list=&amp;start=0&amp;max_results=8</title>
+  <updated>2026-11-11T02:49:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Could+We+Observe+an+Exploding+Black+Hole+in+the+Near+Future%22&amp;start=0&amp;max_results=8&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.10755v2</id>
+    <title>Could We Observe an Exploding Black Hole in the Near Future?</title>
+    <updated>2025-10-07T14:07:17Z</updated>
+    <link href="https://arxiv.org/abs/2503.10755v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.10755v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Observation of an exploding black hole would provide the first direct evidence of primordial black holes, the first direct evidence of Hawking radiation, and definitive information on the particles present in nature. However, indirect constraints suggest that direct observation of an exploding Schwarzschild black hole is implausible. We introduce a dark-QED toy model consisting of a dark photon and a heavy dark electron. In this scenario a population of light primordial black holes charged under the dark $u(1)$ symmetry can become quasi-extremal, so they survive much longer than if they were uncharged, before discharging and exhibiting a Schwarzschild-like final explosion. We show that the answer is "yes", in this scenario the probability of observing an exploding black hole over the next $10$ years could potentially be over $90\%$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-13T18:00:01Z</published>
+    <arxiv:comment>6 pages, 3 figures. Same version as in PRL</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Michael J. Baker</name>
+    </author>
+    <author>
+      <name>Joaquim Iguaz Juan</name>
+    </author>
+    <author>
+      <name>Aidan Symons</name>
+    </author>
+    <author>
+      <name>Andrea Thamm</name>
+    </author>
+  </entry>
+</feed>

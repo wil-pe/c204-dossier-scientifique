@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XRE22Wjk9od7e0d9RGr5LPWXCyo</id>
+  <title>arXiv Query: search_query=ti:"Holography of time machines"&amp;id_list=&amp;start=0&amp;max_results=8</title>
+  <updated>2026-11-11T02:50:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Holography+of+time+machines%22&amp;start=0&amp;max_results=8&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2107.14200v3</id>
+    <title>Holography of time machines</title>
+    <updated>2022-04-03T18:21:00Z</updated>
+    <link href="https://arxiv.org/abs/2107.14200v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.14200v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use holography to examine the response of interacting quantum fields to the appearance of closed timelike curves in a dynamically evolving background that initially does not contain them. For this purpose, we study a family of two-dimensional spacetimes that model very broad classes of wormhole time machines. The behavior of strongly coupled conformal theories in these spacetimes is then holographically described by three-dimensional AdS bulk geometries that we explicitly construct. The dual bulk spacetime is free from any divergences, but splits into two disconnected components, without and with CTCs, which are joined only through the boundary; then, passages across the chronology horizon are impossible for any field excitations. In dual terms, the strong self-interaction of the CFT decouples the pathological part from the rest of the spacetime. We also find that entangling the CFTs in two separate time machines connects them through a traversable bulk wormhole. Nevertheless, any entanglement-assisted chronology violations will be prevented by quantum bulk corrections, i.e., subleading 1/N effects, again without needing any gravitational backreaction of the CFT. We are led to speculate that chronology may be protected without involving Planck scale physics.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-29T17:39:39Z</published>
+    <arxiv:comment>31 pages, 3 figures. v2: 32 pages, 5 figures; substantially improved discussion and analysis. v3: 33 pages, 5 figures; revised intro. Matches published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 03 (2022) 212</arxiv:journal_ref>
+    <author>
+      <name>Roberto Emparan</name>
+    </author>
+    <author>
+      <name>Marija Tomašević</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP03(2022)212</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP03(2022)212" title="doi"/>
+  </entry>
+</feed>

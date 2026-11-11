@@ -1,0 +1,13 @@
+L_m,rapports_de_forme,P_ext_m,H_fermee_m,L_int_m,P_int_m,H_int_sous_platine_m,H_int_couvercle_ferme_m,diametre_logement_mm,entraxe_logements_mm,volume_ext_L,volume_int_L,occupation_R1A_pct,R1A_tient,pieces_trop_grandes,gravimetre_CG6_tient,cesium_5071A_tient,tiroir_19_pouces_tient,deuxieme_batterie_possible,masse_volumique_si_227kg_kg_m3
+0.60,E,0.183,0.171,0.579,0.162,0.124,0.157,57,65,18.8,11.6,98,NON,R1-03,NON,NON,NON,NON,12091
+0.60,A,0.182,0.200,0.579,0.161,0.131,0.186,57,65,21.8,12.2,94,NON,,NON,NON,NON,NON,10404
+0.70,E,0.214,0.199,0.675,0.190,0.148,0.185,67,76,29.8,19.0,60,NON,,NON,NON,NON,NON,7614
+0.70,A,0.212,0.233,0.675,0.188,0.156,0.219,67,76,34.6,19.8,58,oui,,NON,NON,NON,NON,6552
+0.85,E,0.260,0.242,0.820,0.230,0.185,0.228,81,93,53.4,34.9,33,oui,,NON,NON,NON,oui,4253
+0.85,A,0.258,0.283,0.820,0.228,0.195,0.269,81,92,62.0,36.4,31,oui,,oui,NON,NON,oui,3659
+1.00,E,0.306,0.284,0.965,0.271,0.222,0.270,95,109,86.9,58.0,20,oui,,oui,NON,NON,oui,2612
+1.00,A,0.303,0.333,0.965,0.268,0.234,0.319,95,108,101.0,60.4,19,oui,,oui,NON,NON,oui,2247
+1.15,E,0.352,0.327,1.110,0.311,0.259,0.313,109,125,132.2,89.5,13,oui,,oui,NON,NON,oui,1717
+1.15,A,0.348,0.383,1.110,0.308,0.272,0.369,109,124,153.6,93.1,12,oui,,oui,NON,NON,oui,1478
+1.20,E,0.367,0.341,1.158,0.325,0.271,0.327,114,131,150.2,102.1,11,oui,,oui,NON,NON,oui,1511
+1.20,A,0.364,0.400,1.158,0.322,0.285,0.386,114,129,174.5,106.2,11,oui,,oui,NON,NON,oui,1301

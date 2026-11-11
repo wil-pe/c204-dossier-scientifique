@@ -1,0 +1,130 @@
+{
+ "M1": {
+  "Ion unique ²⁷Al⁺ (Marshall et al. 2025)": {
+   "incertitude": 5.5e-19,
+   "denivele_equivalent_m": 0.0050406137499069475,
+   "resolution_s_par_h": 1.98e-15,
+   "source": "résumé vérifié",
+   "temps_pour_1e-18_s": 122500.0,
+   "temps_pour_incertitude_s": 404958.6776859506
+  },
+  "Ion unique ¹⁷⁶Lu⁺ (Arnold et al. 2026)": {
+   "incertitude": 1.2e-19,
+   "denivele_equivalent_m": 0.0010997702727069706,
+   "resolution_s_par_h": 4.32e-16,
+   "source": "résumé vérifié (instabilité de la comparaison)",
+   "temps_pour_1e-18_s": 230400.0,
+   "temps_pour_incertitude_s": 15999999.999999996
+  },
+  "Réseau ⁸⁷Sr transportable (Koller et al. 2017)": {
+   "incertitude": 7e-17,
+   "denivele_equivalent_m": 0.6415326590790661,
+   "resolution_s_par_h": 2.5200000000000004e-13,
+   "source": "titre vérifié (7×10⁻¹⁷) ; instabilité non lue"
+  },
+  "Horloge à iode de 35 L (Roslund et al. 2024)": {
+   "incertitude": 3.472222222222222e-15,
+   "denivele_equivalent_m": 31.8220565019378,
+   "resolution_s_par_h": 1.25e-11,
+   "source": "résumé vérifié : < 300 ps/jour, soit 3,5×10⁻¹⁵ en valeur relative sur un jour"
+  },
+  "masse_detectable_a_1m_pour_y=1e-18": 1346590921.500109,
+  "masse_detectable_a_1m_pour_y=1e-19": 134659092.15001088,
+  "distance_detection_2x4.4e12kg_m": 6535.021036824425,
+  "signal_scenarios_R1_vs_resolution": {
+   "+1000 m": 109099.99999999999,
+   "130 km/h est": 139200.0
+  }
+ },
+ "M2": {
+  "stabilite_m_s2": 1e-08,
+  "denivele_equivalent_mm": 3.240440699935191,
+  "portee_3sigma_masse_1000kg_m": 1.4915651734559459,
+  "portee_3sigma_masse_10000kg_m": 4.716743226704912,
+  "portee_3sigma_masse_227kg_m": 0.710649022607738,
+  "portee_gradiometre_1t_20 E (Stray et al. 2022)": 1.8827901079446416,
+  "portee_gradiometre_1t_0,1 E à long terme (Janvier et al. 2022)": 11.010623345923698,
+  "limite_prediction_relative": 1e-05
+ },
+ "DOC-014": {
+  "décalage de masse": {
+   "distance_m": 5.0,
+   "decalage_si_denivele": 5.455684836099108e-16,
+   "masse_detectable_3microGal_kg": 11237.133482162926
+  },
+  "distance verticale de sécurité": {
+   "distance_m": 6.0,
+   "decalage_si_denivele": 6.54682180331893e-16,
+   "masse_detectable_3microGal_kg": 16181.472214314615
+  },
+  "distance arrière": {
+   "distance_m": 8.0,
+   "decalage_si_denivele": 8.729095737758574e-16,
+   "masse_detectable_3microGal_kg": 28767.06171433709
+  },
+  "distance avant": {
+   "distance_m": 11.0,
+   "decalage_si_denivele": 1.2002506639418038e-15,
+   "masse_detectable_3microGal_kg": 54387.72605366856
+  }
+ },
+ "M3": {
+  "profondeur_m": 0.0625,
+  "celerite_ondes_longues_m_s": 0.7828892801667423,
+  "debit_par_orifice_L_s": 0.5,
+  "D_m2_s": 0.0012732395447351628,
+  "C_m2_s": 0.015,
+  "r_horizon_mm": 1.6263341151688577,
+  "r_ergo_mm": 19.22869728624943,
+  "rotation_ergo_rad_s": 40.568741371933555,
+  "temperature_Hawking_analogue_K": 5.851990121312332e-10,
+  "entraxe_m": 0.6,
+  "frequence_cavite_Hz": 0.6524077334722853,
+  "rotation_paire_libre_rad_s": 0.08333333333333333,
+  "translation_paire_opposee_m_s": 0.025,
+  "bande_superradiante_Hz": {
+   "1": 6.456715724359905,
+   "2": 12.91343144871981
+  },
+  "amplification_publiee": "jusqu'à 20 % à 3,70 Hz, h = 6,25 cm (résumé arXiv de Torres et al. 2017 ; 14 ± 8 % dans la version publiée selon l'Équipe F)"
+ },
+ "M4": {
+  "P-CTC": {
+   "theta=0": 1.0,
+   "theta=45": 0.8535533905932737,
+   "theta=90": 0.5000000000000001,
+   "theta=135": 0.1464466094067263,
+   "theta=170": 0.007596123493895964,
+   "theta=180": 3.749399456654644e-33
+  },
+  "D-CTC_grand_pere": {
+   "rho": [
+    [
+     0.5,
+     0.0
+    ],
+    [
+     0.0,
+     0.5
+    ]
+   ],
+   "entropie_bits": 1.0
+  },
+  "D-CTC_discrimination": {
+   "|0>": {
+    "P_sortie_1": 0.00012499999999999992
+   },
+   "|->": {
+    "P_sortie_1": 0.9998749999992446
+   },
+   "erreur_minimale_mecanique_quantique_lineaire": 0.1464466094067262
+  },
+  "interrupteur": {
+   "X, X (commutent)": 0.9999999999999999,
+   "X, Z (anticommutent)": 0.0,
+   "Y, Z (anticommutent)": 0.0,
+   "Z, Z (commutent)": 0.9999999999999999,
+   "X, H (ni l'un ni l'autre)": 0.49999999999999994
+  }
+ }
+}

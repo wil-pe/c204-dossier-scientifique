@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XYpfXkjquSZqIcxBw6PkgEYV16c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.07346&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:48:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2512.07346" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.07346v2</id>
+    <title>Lu$^+$ optical frequency references with accuracy verified at the 19th digit</title>
+    <updated>2026-09-28T02:44:35Z</updated>
+    <link href="https://arxiv.org/abs/2512.07346v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.07346v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report a comprehensive evaluation of all known sources of systematic uncertainty for two independent $^{176}$Lu$^+$ single-ion optical references, finding total systematic uncertainty of $1.2\times10^{-19}$ and $1.3\times10^{-19}$ for the two individual systems and $1.0\times10^{-19}$ for the difference. Through direct comparison via correlation spectroscopy, we demonstrate a relative frequency agreement of $-0.1\pm(5.7)_\mathrm{stat}\pm(1.0)_\mathrm{sys}\times10^{-19}$, where `stat' and `sys' indicate the statistical and systematic uncertainty, respectively. The comparison uncertainty is statistically limited after approximately 200 hours of averaging with a measurement instability of $4.8\times10^{-16}(τ/\mathrm{s})^{-1/2}$.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-08T09:37:35Z</published>
+    <arxiv:comment>25 pages, 10 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature, 2026</arxiv:journal_ref>
+    <author>
+      <name>K. J. Arnold</name>
+    </author>
+    <author>
+      <name>M. D. K. Lee</name>
+    </author>
+    <author>
+      <name>Zhao Qi</name>
+    </author>
+    <author>
+      <name>Qichen Qin</name>
+    </author>
+    <author>
+      <name>Zhang Zhao</name>
+    </author>
+    <author>
+      <name>N. Jayjong</name>
+    </author>
+    <author>
+      <name>M. D. Barrett</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-026-11072-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-026-11072-8" title="doi"/>
+  </entry>
+</feed>

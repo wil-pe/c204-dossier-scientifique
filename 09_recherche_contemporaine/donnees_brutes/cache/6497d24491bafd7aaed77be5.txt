@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T1TtoB3d6vp27/shIcYklfj9+a4</id>
+  <title>arXiv Query: search_query=&amp;id_list=1011.5219,1105.4714,1111.5608,1401.6940,gr-qc/9410043,gr-qc/9510071,gr-qc/0507013,0705.3193,0910.5751,1208.5399,1507.00297,1506.02669,1509.02542,1605.08072,1610.05308,1807.03808,2003.01815,2012.11569,1202.2537,1202.2539&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=1011.5219,1105.4714,1111.5608,1401.6940,gr-qc/9410043,gr-qc/9510071,gr-qc/0507013,0705.3193,0910.5751,1208.5399,1507.00297,1506.02669,1509.02542,1605.08072,1610.05308,1807.03808,2003.01815,2012.11569,1202.2537,1202.2539" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2003.01815v2</id>
+    <title>Energy conditions in general relativity and quantum field theory</title>
+    <updated>2020-06-05T02:22:16Z</updated>
+    <link href="https://arxiv.org/abs/2003.01815v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.01815v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This review summarizes the current status of the energy conditions in general relativity and quantum field theory. We provide a historical review and a summary of technical results and applications, complemented with a few new derivations and discussions. We pay special attention to the role of the equations of motion and to the relation between classical and quantum theories.
+  Pointwise energy conditions were first introduced as physically reasonable restrictions on matter in the context of general relativity. They aim to express e.g. the positivity of mass or the attractiveness of gravity. Perhaps more importantly, they have been used as assumptions in mathematical relativity to prove singularity theorems and the non-existence of wormholes and similar exotic phenomena. However, the delicate balance between conceptual simplicity, general validity and strong results has faced serious challenges, because all pointwise energy conditions are systematically violated by quantum fields and also by some rather simple classical fields. In response to these challenges, weaker statements were introduced, such as quantum energy inequalities and averaged energy conditions. These have a larger range of validity and may still suffice to prove at least some of the earlier results. One of these conditions, the achronal averaged null energy condition, has recently received increased attention. It is expected to be a universal property of the dynamics of all gravitating physical matter, even in the context of semiclassical or quantum gravity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-03T22:30:02Z</published>
+    <arxiv:comment>61 pages, 6 figures, Topical review accepted by Classical and Quantum Gravity</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Eleni-Alexandra Kontou</name>
+    </author>
+    <author>
+      <name>Ko Sanders</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ab8fcf</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ab8fcf" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.02669v1</id>
+    <title>A Quantum Focussing Conjecture</title>
+    <updated>2015-06-08T20:01:27Z</updated>
+    <link href="https://arxiv.org/abs/1506.02669v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.02669v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a universal inequality that unifies the Bousso bound with the classical focussing theorem. Given a surface $σ$ that need not lie on a horizon, we define a finite generalized entropy $S_\text{gen}$ as the area of $σ$ in Planck units, plus the von Neumann entropy of its exterior. Given a null congruence $N$ orthogonal to $σ$, the rate of change of $S_\text{gen}$ per unit area defines a quantum expansion. We conjecture that the quantum expansion cannot increase along $N$. This extends the notion of universal focussing to cases where quantum matter may violate the null energy condition. Integrating the conjecture yields a precise version of the Strominger-Thompson Quantum Bousso Bound. Applied to locally parallel light-rays, the conjecture implies a Quantum Null Energy Condition: a lower bound on the stress tensor in terms of the second derivative of the von Neumann entropy. We sketch a proof of this novel relation in quantum field theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-08T20:01:27Z</published>
+    <arxiv:comment>45 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 93, 064044 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Raphael Bousso</name>
+    </author>
+    <author>
+      <name>Zachary Fisher</name>
+    </author>
+    <author>
+      <name>Stefan Leichenauer</name>
+    </author>
+    <author>
+      <name>and Aron C. Wall</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.93.064044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.93.064044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.02542v2</id>
+    <title>Proof of the Quantum Null Energy Condition</title>
+    <updated>2015-09-15T19:22:53Z</updated>
+    <link href="https://arxiv.org/abs/1509.02542v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.02542v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the Quantum Null Energy Condition (QNEC), a lower bound on the stress tensor in terms of the second variation in a null direction of the entropy of a region. The QNEC arose previously as a consequence of the Quantum Focussing Conjecture, a proposal about quantum gravity. The QNEC itself does not involve gravity, so a proof within quantum field theory is possible. Our proof is somewhat nontrivial, suggesting that there may be alternative formulations of quantum field theory that make the QNEC more manifest.
+  Our proof applies to free and superrenormalizable bosonic field theories, and to any points that lie on stationary null surfaces. An example is Minkowski space, where any point $p$ and null vector $k^a$ define a null plane $N$ (a Rindler horizon). Given any codimension-2 surface $Σ$ that contains $p$ and lies on $N$, one can consider the von Neumann entropy $S_\text{out}$ of the quantum state restricted to one side of $Σ$. A second variation $S_\text{out}^{\prime\prime}$ can be defined by deforming $Σ$ along $N$, in a small neighborhood of $p$ with area $\cal A$. The QNEC states that $\langle T_{kk}(p) \rangle \ge \frac{\hbar}{2π} \lim_{{\cal A}\to 0}S_\text{out}^{ \prime\prime}/{\cal A}$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-08T20:17:24Z</published>
+    <arxiv:comment>32 pages, 3 figures. v2: references and minor typos</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 93, 024017 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Raphael Bousso</name>
+    </author>
+    <author>
+      <name>Zachary Fisher</name>
+    </author>
+    <author>
+      <name>Jason Koeller</name>
+    </author>
+    <author>
+      <name>Stefan Leichenauer</name>
+    </author>
+    <author>
+      <name>Aron C. Wall</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.93.024017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.93.024017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0507013v1</id>
+    <title>On wormholes with arbitrarily small quantities of exotic matter</title>
+    <updated>2005-07-04T14:54:11Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0507013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0507013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recently several models of traversable wormholes have been proposed which require only arbitrarily small amounts of negative energy to hold them open against self-collapse. If the exotic matter is assumed to be provided by quantum fields, then quantum inequalities can be used to place constraints on the negative energy densities required. In this paper, we introduce an alternative method for obtaining constraints on wormhole geometries, using a recently derived quantum inequality bound on the null-contracted stress-energy averaged over a timelike worldline. The bound allows us to perform a simplified analysis of general wormhole models, not just those with small quantities of exotic matter. We then use it to study, in particular, the models of Visser, Kar, and Dadhich (VKD) and the models of Kuhfittig. The VKD models are constrained to be either submicroscopic or to have a large discrepancy between throat size and curvature radius. A recent model of Kuhfittig is shown to be non-traversable. This is due to the fact that the throat of his wormhole flares outward so slowly that light rays and particles, starting from outside the throat, require an infinite lapse of affine parameter to reach the throat.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-07-04T14:54:11Z</published>
+    <arxiv:comment>30 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev. D72 (2005) 044023</arxiv:journal_ref>
+    <author>
+      <name>C. J. Fewster</name>
+    </author>
+    <author>
+      <name>T. A. Roman</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.72.044023</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.72.044023" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.11569v2</id>
+    <title>The Return of the Singularities: Applications of the Smeared Null Energy Condition</title>
+    <updated>2021-11-15T17:17:02Z</updated>
+    <link href="https://arxiv.org/abs/2012.11569v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.11569v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The classic singularity theorems of General Relativity rely on energy conditions that can be violated in semiclassical gravity. Here, we provide motivation for an energy condition obeyed by semiclassical gravity: the smeared null energy condition (SNEC), a proposed bound on the weighted average of the null energy along a finite portion of a null geodesic. We then prove a semiclassical singularity theorem using SNEC as an assumption. This theorem extends the Penrose theorem to semiclassical gravity. We also apply our bound to evaporating black holes and the traversable wormhole of Maldacena-Milekhin-Popov, and comment on the relationship of our results to other proposed semiclassical singularity theorems.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-21T18:46:37Z</published>
+    <arxiv:comment>28 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>SciPost Phys. 13, 001 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Ben Freivogel</name>
+    </author>
+    <author>
+      <name>Eleni-Alexandra Kontou</name>
+    </author>
+    <author>
+      <name>Dimitrios Krommydas</name>
+    </author>
+    <arxiv:doi>10.21468/SciPostPhys.13.1.001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21468/SciPostPhys.13.1.001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.5751v2</id>
+    <title>Proving the Achronal Averaged Null Energy Condition from the Generalized Second Law</title>
+    <updated>2010-02-16T01:57:35Z</updated>
+    <link href="https://arxiv.org/abs/0910.5751v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.5751v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A null line is a complete achronal null geodesic. It is proven that for any quantum fields minimally coupled to semiclassical Einstein gravity, the averaged null energy condition (ANEC) on null lines is a consequence of the generalized second law of thermodynamics for causal horizons. Auxiliary assumptions include CPT and the existence of a suitable renormalization scheme for the generalized entropy.
+  Although the ANEC can be violated on general geodesics in curved spacetimes, as long as the ANEC holds on null lines there exist theorems showing that semiclassical gravity should satisfy positivity of energy, topological censorship, and should not admit closed timelike curves. It is pointed out that these theorems fail once the linearized graviton field is quantized, because then the renormalized shear squared term in the Raychaudhuri equation can be negative. A "shear-inclusive" generalization of the ANEC is proposed to remedy this, and is proven under an additional assumption about perturbations to horizons in classical general relativity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-29T23:43:08Z</published>
+    <arxiv:comment>19 pages, 1 figure. Added 2 paragraphs to end of section 2</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D81:024038,2010</arxiv:journal_ref>
+    <author>
+      <name>Aron C. Wall</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.81.024038</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.81.024038" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.5399v1</id>
+    <title>Lectures on quantum energy inequalities</title>
+    <updated>2012-08-27T13:53:07Z</updated>
+    <link href="https://arxiv.org/abs/1208.5399v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.5399v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum field theory violates all the classical energy conditions of general relativity. Nonetheless, it turns out that quantum field theories satisfy remnants of the classical energy conditions, known as Quantum Energy Inequalities (QEIs), that have been developed by various authors since the original pioneering work of Ford in 1978. These notes provide an introduction to QEIs and also to some of the techniques of quantum field theory in curved spacetime (particularly, the use of microlocal analysis together with the algebraic formulation of QFT) that enable rigorous and general QEIs to be derived. Specific examples are computed for the free scalar field and their consequences are discussed. QEIs are also derived for the class of unitary, positive energy conformal field theories in two spacetime dimensions. In that setting it is also possible to determine the probability distribution for individual measurements of certain smearings of the stress-energy tensor in the vacuum state.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-27T13:53:07Z</published>
+    <arxiv:comment>50pp, Lectures given at the Albert Einstein Institute, Golm</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Christopher J. Fewster</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.2537v2</id>
+    <title>Classical Time Crystals</title>
+    <updated>2012-07-12T15:52:03Z</updated>
+    <link href="https://arxiv.org/abs/1202.2537v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.2537v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the possibility that classical dynamical systems display motion in their lowest energy state, forming a time analogue of crystalline spatial order. Challenges facing that idea are identified and overcome. We display arbitrary orbits of an angular variable as lowest-energy trajectories for nonsingular Lagrangian systems. Dynamics within orbits of broken symmetry provide a natural arena for formation of time crystals. We exhibit models of that kind, including a model with traveling density waves.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-12T15:48:47Z</published>
+    <arxiv:comment>5 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>Alfred Shapere</name>
+    </author>
+    <author>
+      <name>Frank Wilczek</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.109.160402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.109.160402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.6940v2</id>
+    <title>Towards weighing the condensation energy to ascertain the Archimedes force of vacuum</title>
+    <updated>2014-06-22T20:47:15Z</updated>
+    <link href="https://arxiv.org/abs/1401.6940v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.6940v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The force exerted by the gravitational field on a Casimir cavity in terms of Archimedes force of vacuum is discussed, the force that can be tested against observation is identified, and it is shown that the present technology makes it possible to perform the first experimental tests. The use of suitable high-Tc superconductors as modulators of Archimedes force is motivated. The possibility is analyzed of using gravitational wave interferometers as detectors of the force, transported through an optical spring from the Archimedes vacuum force apparatus to the gravitational interferometer test masses to maintain the two systems well separated. The use of balances to actuate and detect the force is also analyzed, the different solutions are compared, and the most important experimental issues are discussed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-27T17:30:03Z</published>
+    <arxiv:comment>Revtex, 33 pages, 8 figures. In the final version, the title has been changed, and all sections have been improved, while 2 appendices have been added</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Enrico Calloni</name>
+    </author>
+    <author>
+      <name>Martina De Laurentis</name>
+    </author>
+    <author>
+      <name>Rosario De Rosa</name>
+    </author>
+    <author>
+      <name>Luciano Di Fiore</name>
+    </author>
+    <author>
+      <name>Giampiero Esposito</name>
+    </author>
+    <author>
+      <name>Fabio Garufi</name>
+    </author>
+    <author>
+      <name>Luigi Rosa</name>
+    </author>
+    <author>
+      <name>Carlo Rovelli</name>
+    </author>
+    <author>
+      <name>Paolo Ruggi</name>
+    </author>
+    <author>
+      <name>Francesco Tafuri</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.90.022002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.90.022002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.08072v1</id>
+    <title>Modular Hamiltonians for Deformed Half-Spaces and the Averaged Null Energy Condition</title>
+    <updated>2016-05-25T21:02:28Z</updated>
+    <link href="https://arxiv.org/abs/1605.08072v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.08072v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study modular Hamiltonians corresponding to the vacuum state for deformed half-spaces in relativistic quantum field theories on $\mathbb{R}^{1,d-1}$. We show that in addition to the usual boost generator, there is a contribution to the modular Hamiltonian at first order in the shape deformation, proportional to the integral of the null components of the stress tensor along the Rindler horizon. We use this fact along with monotonicity of relative entropy to prove the averaged null energy condition in Minkowski space-time. This subsequently gives a new proof of the Hofman-Maldacena bounds on the parameters appearing in CFT three-point functions. Our main technical advance involves adapting newly developed perturbative methods for calculating entanglement entropy to the problem at hand. These methods were recently used to prove certain results on the shape dependence of entanglement in CFTs and here we generalize these results to excited states and real time dynamics. We also discuss the AdS/CFT counterpart of this result, making connection with the recently proposed gravitational dual for modular Hamiltonians in holographic theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-25T21:02:28Z</published>
+    <arxiv:comment>40 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Thomas Faulkner</name>
+    </author>
+    <author>
+      <name>Robert G. Leigh</name>
+    </author>
+    <author>
+      <name>Onkar Parrikar</name>
+    </author>
+    <author>
+      <name>Huajia Wang</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP09(2016)038</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP09(2016)038" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.4714v1</id>
+    <title>Observation of the Dynamical Casimir Effect in a Superconducting Circuit</title>
+    <updated>2011-05-24T09:31:26Z</updated>
+    <link href="https://arxiv.org/abs/1105.4714v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.4714v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the most surprising predictions of modern quantum theory is that the vacuum of space is not empty. In fact, quantum theory predicts that it teems with virtual particles flitting in and out of existence. While initially a curiosity, it was quickly realized that these vacuum fluctuations had measurable consequences, for instance producing the Lamb shift of atomic spectra and modifying the magnetic moment for the electron. This type of renormalization due to vacuum fluctuations is now central to our understanding of nature. However, these effects provide indirect evidence for the existence of vacuum fluctuations. From early on, it was discussed if it might instead be possible to more directly observe the virtual particles that compose the quantum vacuum. 40 years ago, Moore suggested that a mirror undergoing relativistic motion could convert virtual photons into directly observable real photons. This effect was later named the dynamical Casimir effect (DCE). Using a superconducting circuit, we have observed the DCE for the first time. The circuit consists of a coplanar transmission line with an electrical length that can be changed at a few percent of the speed of light. The length is changed by modulating the inductance of a superconducting quantum interference device (SQUID) at high frequencies (~11 GHz). In addition to observing the creation of real photons, we observe two-mode squeezing of the emitted radiation, which is a signature of the quantum character of the generation process.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-24T09:31:26Z</published>
+    <arxiv:comment>12 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature 479, 376-379 (2011)</arxiv:journal_ref>
+    <author>
+      <name>C. M. Wilson</name>
+    </author>
+    <author>
+      <name>G. Johansson</name>
+    </author>
+    <author>
+      <name>A. Pourkabirian</name>
+    </author>
+    <author>
+      <name>J. R. Johansson</name>
+    </author>
+    <author>
+      <name>T. Duty</name>
+    </author>
+    <author>
+      <name>F. Nori</name>
+    </author>
+    <author>
+      <name>P. Delsing</name>
+    </author>
+    <arxiv:doi>10.1038/nature10561</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature10561" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9510071v1</id>
+    <title>Quantum Field Theory Constrains Traversable Wormhole Geometries</title>
+    <updated>1995-10-31T23:42:50Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9510071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9510071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recently a bound on negative energy densities in four-dimensional Minkowski spacetime was derived for a minimally coupled, quantized, massless, scalar field in an arbitrary quantum state. The bound has the form of an uncertainty principle-type constraint on the magnitude and duration of the negative energy density seen by a timelike geodesic observer. When spacetime is curved and/or has boundaries, we argue that the bound should hold in regions small compared to the minimum local characteristic radius of curvature or the distance to any boundaries, since spacetime can be considered approximately Minkowski on these scales. We apply the bound to the stress-energy of static traversable wormhole spacetimes. Our analysis implies that either the wormhole must be only a little larger than Planck size or that there is a large discrepancy in the length scales which characterize the wormhole. In the latter case, the negative energy must typically be concentrated in a thin band many orders of magnitude smaller than the throat size. These results would seem to make the existence of macroscopic traversable wormholes very improbable.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-10-31T23:42:50Z</published>
+    <arxiv:comment>26 pages, plain LaTex</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev. D53 (1996) 5496-5507</arxiv:journal_ref>
+    <author>
+      <name>L. H. Ford</name>
+    </author>
+    <author>
+      <name>Thomas A. Roman</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.53.5496</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.53.5496" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.2539v2</id>
+    <title>Quantum Time Crystals</title>
+    <updated>2012-07-11T13:33:56Z</updated>
+    <link href="https://arxiv.org/abs/1202.2539v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.2539v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Difficulties around the idea of spontaneous breaking of time translation symmetry in a closed quantum mechanical system are identified, and then overcome in a simple model. The possibility of ordering in imaginary time is also discussed.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-12T15:57:10Z</published>
+    <arxiv:comment>6 pages, no figures. v2: tightened format, additional references, small improvements</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Frank Wilczek</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.109.160401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.109.160401" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1011.5219v1</id>
+    <title>Observation of the thermal Casimir force</title>
+    <updated>2010-11-23T20:59:23Z</updated>
+    <link href="https://arxiv.org/abs/1011.5219v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.5219v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum theory predicts the existence of the Casimir force between macroscopic bodies, due to the zero-point energy of electromagnetic field modes around them. This quantum fluctuation-induced force has been experimentally observed for metallic and semiconducting bodies, although the measurements to date have been unable to clearly settle the question of the correct low-frequency form of the dielectric constant dispersion (the Drude model or the plasma model) to be used for calculating the Casimir forces. At finite temperature a thermal Casimir force, due to thermal, rather than quantum, fluctuations of the electromagnetic field, has been theoretically predicted long ago. Here we report the experimental observation of the thermal Casimir force between two gold plates. We measured the attractive force between a flat and a spherical plate for separations between 0.7 $μ$m and 7 $μ$m. An electrostatic force caused by potential patches on the plates' surfaces is included in the analysis. The experimental results are in excellent agreement (reduced $χ^2$ of 1.04) with the Casimir force calculated using the Drude model, including the T=300 K thermal force, which dominates over the quantum fluctuation-induced force at separations greater than 3 $μ$m. The plasma model result is excluded in the measured separation range.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-23T20:59:23Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature Phys. 7:230-233,2011</arxiv:journal_ref>
+    <author>
+      <name>A. O. Sushkov</name>
+    </author>
+    <author>
+      <name>W. J. Kim</name>
+    </author>
+    <author>
+      <name>D. A. R. Dalvit</name>
+    </author>
+    <author>
+      <name>S. K. Lamoreaux</name>
+    </author>
+    <arxiv:doi>10.1038/nphys1909</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nphys1909" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0705.3193v2</id>
+    <title>Achronal averaged null energy condition</title>
+    <updated>2007-08-27T18:54:45Z</updated>
+    <link href="https://arxiv.org/abs/0705.3193v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.3193v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The averaged null energy condition (ANEC) requires that the integral over a complete null geodesic of the stress-energy tensor projected onto the geodesic tangent vector is never negative. This condition is sufficient to prove many important theorems in general relativity, but it is violated by quantum fields in curved spacetime. However there is a weaker condition, which is free of known violations, requiring only that there is no self-consistent space-time in semiclassical gravity in which ANEC is violated on a complete, {\em achronal} null geodesic. We indicate why such a condition might be expected to hold and show that it is sufficient to rule out wormholes and closed timelike curves.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-22T15:24:36Z</published>
+    <arxiv:comment>8 pages, RevTeX; v2: qualify conditions on theorem 1, fix typos</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D76:064001,2007</arxiv:journal_ref>
+    <author>
+      <name>Noah Graham</name>
+    </author>
+    <author>
+      <name>Ken D. Olum</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.76.064001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.76.064001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.03808v4</id>
+    <title>The Smeared Null Energy Condition</title>
+    <updated>2021-04-19T09:54:21Z</updated>
+    <link href="https://arxiv.org/abs/1807.03808v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.03808v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new bound on the average null energy along a finite portion of a null geodesic. We believe our bound is valid on scales small compared to the radius of curvature in any quantum field theory that is consistently coupled to gravity. If correct, our bound implies that regions of negative energy density are never strongly gravitating, and that isolated regions of negative energy are forbidden.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-10T18:19:33Z</published>
+    <arxiv:comment>28 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ben Freivogel</name>
+    </author>
+    <author>
+      <name>Dimitrios Krommydas</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP12(2018)067</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP12(2018)067" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.00297v2</id>
+    <title>Proof of the averaged null energy condition in a classical curved spacetime using a null-projected quantum inequality</title>
+    <updated>2015-10-27T02:27:20Z</updated>
+    <link href="https://arxiv.org/abs/1507.00297v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.00297v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum inequalities are constraints on how negative the weighted average of the renormalized stress-energy tensor of a quantum field can be. A null-projected quantum inequality can be used to prove the averaged null energy condition (ANEC), which would then rule out exotic phenomena such as wormholes and time machines. In this work we derive such an inequality for a massless minimally coupled scalar field, working to first order of the Riemann tensor and its derivatives. We then use this inequality to prove ANEC on achronal geodesics in a curved background that obeys the null convergence condition.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-01T17:45:19Z</published>
+    <arxiv:comment>29 pages, 1 figure, references added</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 92, 124009 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Eleni-Alexandra Kontou</name>
+    </author>
+    <author>
+      <name>Ken D. Olum</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.92.124009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.92.124009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.05308v1</id>
+    <title>Averaged Null Energy Condition from Causality</title>
+    <updated>2016-10-17T20:00:02Z</updated>
+    <link href="https://arxiv.org/abs/1610.05308v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.05308v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unitary, Lorentz-invariant quantum field theories in flat spacetime obey microcausality: commutators vanish at spacelike separation. For interacting theories in more than two dimensions, we show that this implies that the averaged null energy, $\int du T_{uu}$, must be positive. This non-local operator appears in the operator product expansion of local operators in the lightcone limit, and therefore contributes to $n$-point functions. We derive a sum rule that isolates this contribution and is manifestly positive. The argument also applies to certain higher spin operators other than the stress tensor, generating an infinite family of new constraints of the form $\int du X_{uuu\cdots u} \geq 0$. These lead to new inequalities for the coupling constants of spinning operators in conformal field theory, which include as special cases (but are generally stronger than) the existing constraints from the lightcone bootstrap, deep inelastic scattering, conformal collider methods, and relative entropy. We also comment on the relation to the recent derivation of the averaged null energy condition from relative entropy, and suggest a more general connection between causality and information-theoretic inequalities in QFT.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-17T20:00:02Z</published>
+    <arxiv:comment>31+8 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Thomas Hartman</name>
+    </author>
+    <author>
+      <name>Sandipan Kundu</name>
+    </author>
+    <author>
+      <name>Amirhossein Tajdini</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP07(2017)066</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP07(2017)066" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.5608v2</id>
+    <title>Dynamical Casimir effect in a Josephson metamaterial</title>
+    <updated>2011-12-01T15:16:29Z</updated>
+    <link href="https://arxiv.org/abs/1111.5608v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.5608v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vacuum modes confined into an electromagnetic cavity give rise to an attractive interaction between the opposite walls. When the distance between the walls is changed non-adiabatically, virtual vacuum modes are turned into real particles, i.e. photons are generated out of the vacuum. These effects are known as the static and dynamical Casimir effect, respectively. Here we demonstrate the dynamical Casimir effect using a Josephson metamaterial embedded in a microwave cavity at 5.4 GHz. We achieve the non-adiabatic change in the effective length of the cavity by flux-modulation of the SQUID-based metamaterial, which results in a few percent variation in the velocity of light. We show that energy-correlated photons are generated from the ground state of the cavity and that their power spectra display a bimodal frequency distribution. These results are in excellent agreement with theoretical predictions, all the way to the regime where classical parametric effects cannot be of consequence.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-23T20:42:25Z</published>
+    <arxiv:comment>4 pages, 3 figures, supplement at http://ltl.tkk.fi/~pjh/DCE/</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Proc. Natl. Acad. Sci. U.S.A. {\bf 110}, 4234 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Pasi Lähteenmäki</name>
+    </author>
+    <author>
+      <name>G. S. Paraoanu</name>
+    </author>
+    <author>
+      <name>Juha Hassel</name>
+    </author>
+    <author>
+      <name>Pertti J. Hakonen</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.1212705110</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.1212705110" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9410043v1</id>
+    <title>Averaged Energy Conditions and Quantum Inequalities</title>
+    <updated>1994-10-29T01:33:00Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9410043v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9410043v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Connections are uncovered between the averaged weak (AWEC) and averaged null (ANEC) energy conditions, and quantum inequality restrictions on negative energy for free massless scalar fields. In a two-dimensional compactified Minkowski universe, we derive a covariant quantum inequality-type bound on the difference of the expectation values of the energy density in an arbitrary quantum state and in the Casimir vacuum state. From this bound, it is shown that the difference of expectation values also obeys AWEC and ANEC-type integral conditions. In contrast, it is well-known that the stress tensor in the Casimir vacuum state alone satisfies neither quantum inequalities nor averaged energy conditions. Such difference inequalities represent limits on the degree of energy condition violation that is allowed over and above any violation due to negative energy densities in a background vacuum state. In our simple two-dimensional model, they provide physically interesting examples of new constraints on negative energy which hold even when the usual AWEC, ANEC, and quantum inequality restrictions fail. In the limit when the size of the space is allowed to go to infinity, we derive quantum inequalities for timelike and null geodesics which, in appropriate limits, reduce to AWEC and ANEC in ordinary two-dimensional Minkowski spacetime. We also derive a quantum inequality bound on the energy density seen by an inertial observer in four-dimensional Minkowski spacetime. The bound implies that any inertial observer in flat spacetime cannot see an arbitrarily large negative energy density which lasts for an arbitrarily long period of time.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1994-10-29T01:33:00Z</published>
+    <arxiv:comment>20pp, plain LATEX, TUTP-94-16</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D51:4277-4286,1995</arxiv:journal_ref>
+    <author>
+      <name>L. H. Ford</name>
+    </author>
+    <author>
+      <name>Thomas A. Roman</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.51.4277</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.51.4277" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,2 @@
+# Passe 5 (phase 7, corrections post-validation) : référence ajoutée à la demande de la Red Team (lot mineur du n° 57-58).
+Tipler76|3|doi|10.1103/PhysRevLett.37.879|causality violation in asymptotically flat space-times|Tipler

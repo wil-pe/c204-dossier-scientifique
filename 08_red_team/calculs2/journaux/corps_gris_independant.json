@@ -1,0 +1,32 @@
+{
+ "0": {
+  "P_par_ddl": 7.438661778228457e-05,
+  "pic_puissance_E_sur_kT": 2.9205078125,
+  "equipe_B": 7.439e-05,
+  "ecart_vs_B_pct": -0.004546602655497445
+ },
+ "0.5": {
+  "P_par_ddl": 4.091624073633865e-05,
+  "pic_puissance_E_sur_kT": 4.54296875,
+  "equipe_B": 4.092e-05,
+  "ecart_vs_B_pct": -0.009186861342491692,
+  "Page1976_par_ddl": 4.092385e-05,
+  "ecart_vs_Page_pct": -0.01859371408444721
+ },
+ "1": {
+  "P_par_ddl": 1.681927389723092e-05,
+  "pic_puissance_E_sur_kT": 6.0406249999999995,
+  "equipe_B": 1.682e-05,
+  "ecart_vs_B_pct": -0.004316901124135075,
+  "Page1976_par_ddl": 1.679185e-05,
+  "ecart_vs_Page_pct": 0.16331671156495364
+ },
+ "2": {
+  "P_par_ddl": 1.9183699541787123e-06,
+  "pic_puissance_E_sur_kT": 9.1607421875,
+  "equipe_B": 1.918e-06,
+  "ecart_vs_B_pct": 0.019288539036099728,
+  "Page1976_par_ddl": 1.91045e-06,
+  "ecart_vs_Page_pct": 0.41455961572991473
+ }
+}

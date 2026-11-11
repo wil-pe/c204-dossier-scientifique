@@ -1,0 +1,407 @@
+# Liste des références candidates à vérifier (Équipe H).
+# Format : clé|thème|type|identifiant|fragment de titre attendu|auteur attendu
+# type = arxiv (identifiant arXiv), doi (DOI Crossref), search (requête API arXiv), biblio (requête Crossref libre)
+# Le fragment et l'auteur viennent de la MÉMOIRE du rédacteur : ils servent de test. Une référence n'est
+# déclarée « vérifiée » que si l'API renvoie un titre contenant le fragment ET un auteur concordant.
+#
+# ---- Thème 1 : micro-trous noirs, LHC, trous noirs primordiaux ----
+ADD98|1|arxiv|hep-ph/9803315|hierarchy problem and new dimensions|Arkani-Hamed
+ADM98|1|arxiv|hep-th/9808138|black holes and sub-millimeter dimensions|Argyres
+RS99|1|arxiv|hep-ph/9905221|large mass hierarchy from a small extra dimension|Randall
+BF99|1|arxiv|hep-th/9906038|model for high energy scattering in quantum gravity|Banks
+BJSW00|1|arxiv|hep-ph/9910333|disaster scenarios|Busza
+DL01|1|arxiv|hep-ph/0106295|black holes at the lhc|Dimopoulos
+GT01|1|arxiv|hep-ph/0106219|high energy colliders as black hole factories|Giddings
+EG02|1|arxiv|gr-qc/0201034|classical black hole production|Eardley
+Kanti04|1|arxiv|hep-ph/0402168|black holes in theories with large extra dimensions|Kanti
+CP10|1|arxiv|0908.1780|ultra relativistic particle collisions|Choptuik
+EP13|1|arxiv|1210.0443|ultrarelativistic black hole formation|East
+GM08|1|arxiv|0806.3381|astrophysical implications of hypothetical stable tev-scale black holes|Giddings
+LSAG08|1|arxiv|0806.3414|review of the safety of lhc collisions|Ellis
+CMS11|1|arxiv|1012.3375|microscopic black hole signatures|CMS
+CMS17|1|arxiv|1705.01403|search for black holes in high-multiplicity final states|CMS
+CMS18|1|arxiv|1805.06013|black holes and sphalerons|CMS
+ATLAS16a|1|arxiv|1512.02586|strong gravity in multijet final states|ATLAS
+ATLAS16b|1|arxiv|1606.02265|tev-scale gravity signatures|ATLAS
+ATLAS20|1|arxiv|1910.08447|new resonances in mass distributions of jet pairs|ATLAS
+Park12|1|arxiv|1203.4683|black holes and the lhc|Park
+HiggsATLAS|1|arxiv|1207.7214|observation of a new particle in the search for the standard model higgs boson|ATLAS
+HiggsCMS|1|arxiv|1207.7235|observation of a new boson at a mass of 125 gev|CMS
+CKSY21|1|arxiv|2002.12778|constraints on primordial black holes|Carr
+CK20|1|arxiv|2006.02838|primordial black holes as dark matter|Carr
+GK21|1|arxiv|2007.10722|primordial black holes as a dark matter candidate|Green
+Auffinger23|1|arxiv|2206.02672|primordial black hole constraints with hawking radiation|Auffinger
+Laha19|1|arxiv|1906.09994|511 kev|Laha
+BC19|1|arxiv|1807.03075|voyager 1|Boudaud
+Coogan21|1|arxiv|2010.04797|direct detection of hawking radiation from asteroid-mass primordial black holes|Coogan
+Niikura19|1|arxiv|1701.02151|microlensing constraints on primordial black holes with|Niikura
+MC19|1|arxiv|1906.05950|revisiting constraints on asteroid-mass primordial black holes|Montero-Camacho
+HAWC20|1|arxiv|1911.04356|local burst rate density of primordial black holes|Albert
+Fermi18|1|arxiv|1802.00100|gamma-ray emission from local primordial black holes|Ackermann
+HESS23|1|arxiv|2303.12855|evaporation of primordial black holes with h.e.s.s|
+MCP08|1|arxiv|0709.2380|do evaporating black holes form photospheres|MacGibbon
+Dvali20|1|arxiv|2006.00011|memory burden|Dvali
+ADK24|1|arxiv|2402.14069|new mass window for primordial black holes as dark matter from memory burden|Alexandre
+Thoss24|1|arxiv|2402.17823|breakdown of hawking evaporation|Thoss
+BlackHawk|1|arxiv|1905.04268|blackhawk|Arbey
+CW09|1|arxiv|0908.1803|are black hole starships possible|Crane
+Kugel24|1|arxiv|2405.02389|no black holes from light|lvarez
+Hawking71|1|doi|10.1093/mnras/152.1.75|gravitationally collapsed objects of very low mass|Hawking
+CarrHawking74|1|doi|10.1093/mnras/168.2.399|black holes in the early universe|Carr
+Hawking74|1|doi|10.1038/248030a0|black hole explosions|Hawking
+Hawking75|1|doi|10.1007/BF02345020|particle creation by black holes|Hawking
+Page76a|1|doi|10.1103/PhysRevD.13.198|particle emission rates from a black hole|Page
+Page76b|1|doi|10.1103/PhysRevD.14.3260|particle emission rates from a black hole|Page
+MW90|1|doi|10.1103/PhysRevD.41.3052|quark- and gluon-jet emission from primordial black holes|MacGibbon
+MacGibbon91|1|doi|10.1103/PhysRevD.44.376|quark- and gluon-jet emission from primordial black holes|MacGibbon
+LHCMachine|1|doi|10.1088/1748-0221/3/08/S08001|lhc machine|Evans
+LSAGJPG|1|doi|10.1088/0954-3899/35/11/115004|review of the safety of lhc collisions|Ellis
+Gibbons75|1|doi|10.1007/BF01609829|vacuum polarization and the spontaneous loss of charge|Gibbons
+Zaumen74|1|doi|10.1038/247530a0|upper bound on the electric charge of a black hole|Zaumen
+Sinars20|1|doi|10.1063/5.0007476|pulsed power|Sinars
+KM3NeT25|1|doi|10.1038/s41586-024-08543-1|ultra-high-energy cosmic neutrino|
+Baker25|1|search|ti:"Could We Observe an Exploding Black Hole in the Near Future"|exploding black hole|Baker
+LHAASOPBH|1|search|ti:"primordial black holes" AND ti:LHAASO|primordial black hole|
+# ---- Thème 2 : rayonnement de Hawking, analogues, courbe de Page ----
+Unruh81|2|doi|10.1103/PhysRevLett.46.1351|experimental black-hole evaporation|Unruh
+BLV11|2|arxiv|gr-qc/0505065|analogue gravity|Barcel
+Philbin08|2|arxiv|0711.4796|fiber-optical analog of the event horizon|Philbin
+Rousseaux08|2|arxiv|0711.4767|negative-frequency waves in a water tank|Rousseaux
+Lahav10|2|arxiv|0906.1337|sonic black hole analog|Lahav
+Belgiorno10|2|arxiv|1009.4634|hawking radiation from ultrashort laser pulse filaments|Belgiorno
+Weinfurtner11|2|arxiv|1008.1911|measurement of stimulated hawking emission|Weinfurtner
+Euve16|2|arxiv|1511.08145|noise correlated by the hawking effect|Euv
+Steinhauer16|2|arxiv|1510.00621|observation of quantum hawking radiation and its entanglement|Steinhauer
+Torres17|2|arxiv|1612.06180|rotational superradiant scattering in a vortex flow|Torres
+MdN19|2|arxiv|1809.00913|observation of thermal hawking radiation|Nova
+Drori19|2|arxiv|1808.09244|observation of stimulated hawking radiation in an optical analogue|Drori
+Kolobov21|2|arxiv|1910.09363|stationary spontaneous hawking radiation|Kolobov
+Shi23|2|arxiv|2111.11092|superconducting on-chip black hole|Shi
+Svancara24|2|arxiv|2308.10773|giant quantum vortex|
+Falque|2|search|ti:"Polariton fluids as quantum field theory simulators"|polariton|Falque
+Page93|2|arxiv|hep-th/9306083|information in black hole radiation|Page
+HP07|2|arxiv|0708.4025|black holes as mirrors|Hayden
+Mathur09|2|arxiv|0909.1038|information paradox|Mathur
+AMPS12|2|arxiv|1207.3123|complementarity or firewalls|Almheiri
+Harlow16|2|arxiv|1409.1231|jerusalem lectures|Harlow
+HPS16|2|arxiv|1601.00921|soft hair on black holes|Hawking
+UW17|2|arxiv|1703.02140|information loss|Unruh
+Marolf17|2|arxiv|1703.02143|black hole information problem|Marolf
+Penington19|2|arxiv|1905.08255|entanglement wedge reconstruction and the information paradox|Penington
+AEMM19|2|arxiv|1905.08762|entropy of bulk quantum fields and the entanglement wedge of an evaporating black hole|Almheiri
+AMMZ19|2|arxiv|1908.10996|page curve of hawking radiation from semiclassical geometry|Almheiri
+PSSY19|2|arxiv|1911.11977|replica wormholes and the black hole interior|Penington
+AHMST19|2|arxiv|1911.12333|replica wormholes and the entropy of hawking radiation|Almheiri
+AHMST20|2|arxiv|2006.06872|entropy of hawking radiation|Almheiri
+Raju22|2|arxiv|2012.05770|lessons from the information paradox|Raju
+# ---- Thème 3 : géométrie de Kerr, observations, résultats mathématiques ----
+Kerr63|3|doi|10.1103/PhysRevLett.11.237|gravitational field of a spinning mass|Kerr
+Penrose65|3|doi|10.1103/PhysRevLett.14.57|gravitational collapse and space-time singularities|Penrose
+Carter68|3|doi|10.1103/PhysRev.174.1559|global structure of the kerr family|Carter
+PI90|3|doi|10.1103/PhysRevD.41.1796|internal structure of black holes|Poisson
+GW150914|3|arxiv|1602.03837|observation of gravitational waves from a binary black hole merger|LIGO
+Isi19|3|arxiv|1905.00869|testing the no-hair theorem with gw150914|Isi
+Isi21|3|arxiv|2012.04486|testing the black-hole area law with gw150914|Isi
+GWTC3|3|arxiv|2111.03606|gwtc-3|LIGO
+TGR3|3|arxiv|2112.06861|tests of general relativity with gwtc-3|LIGO
+GW250114|3|search|ti:GW250114|gw250114|
+GW231123|3|search|ti:GW231123|gw231123|
+GWTC4|3|search|ti:"GWTC-4.0"|gwtc-4|
+GW170817GRB|3|arxiv|1710.05834|gravitational waves and gamma-rays from a binary neutron star merger|LIGO
+EHTM87|3|arxiv|1906.11238|first m87 event horizon telescope results. i|Event Horizon
+EHTSgrA1|3|doi|10.3847/2041-8213/ac6674|first sagittarius a* event horizon telescope results. i|
+EHTSgrA6|3|doi|10.3847/2041-8213/ac6756|testing the black hole metric|
+Psaltis20|3|arxiv|2010.01055|gravitational test beyond the first post-newtonian order with the shadow|Psaltis
+GPB11|3|arxiv|1105.3456|gravity probe b: final results|Everitt
+Ciufolini04|3|doi|10.1038/nature03007|lense|Ciufolini
+Ciufolini16|3|arxiv|1603.09674|test of general relativity using the lares and lageos satellites|Ciufolini
+Ciufolini19|3|arxiv|1910.09908|improved test of the general relativistic effect of frame-dragging|Ciufolini
+VK20|3|arxiv|2001.11405|frame dragging induced by a fast-rotating white dwarf|Krishnan
+GRAVITY18|3|arxiv|1807.09409|detection of the gravitational redshift in the orbit of the star s2|GRAVITY
+GRAVITY20|3|arxiv|2004.07187|detection of the schwarzschild precession|GRAVITY
+Do19|3|arxiv|1907.10731|relativistic redshift of the star s0-2|Do
+Reynolds21|3|arxiv|2011.08948|observational constraints on black hole spin|Reynolds
+CardosoPani19|3|arxiv|1904.05363|testing the nature of dark compact objects|Cardoso
+Christodoulou09|3|arxiv|0805.3880|formation of black holes in general relativity|Christodoulou
+DHRT21|3|arxiv|2104.08222|non-linear stability of the schwarzschild family|Dafermos
+KS21|3|arxiv|2104.11857|kerr stability for small angular momentum|Klainerman
+GKS22|3|arxiv|2205.14808|wave equations estimates and the nonlinear stability of slowly rotating kerr|Giorgi
+DL17|3|arxiv|1710.01722|interior of dynamical vacuum black holes|Dafermos
+LukOh19|3|arxiv|1702.05715|strong cosmic censorship in spherical symmetry|Luk
+Sbierski18|3|arxiv|1507.00601|inextendibility of the schwarzschild spacetime|Sbierski
+MO12|3|arxiv|1109.5139|outgoing gravitational shock-wave at the inner horizon|Marolf
+BKZ16|3|arxiv|1601.05120|cauchy-horizon singularity inside perturbed kerr black holes|Burko
+Cardoso18|3|arxiv|1711.10502|quasinormal modes and strong cosmic censorship|Cardoso
+DRS18|3|arxiv|1808.02895|strong cosmic censorship: taking the rough with the smooth|Dias
+HWZ20|3|arxiv|1912.06047|quantum instability of the cauchy horizon|Hollands
+Zilberman22|3|arxiv|2203.08502|quantum fluxes at the inner horizon of a spinning black hole|Zilberman
+Aretakis12|3|arxiv|1206.6598|horizon instability of extremal black holes|Aretakis
+MRT13|3|arxiv|1307.6800|what happens at the horizon|Murata
+SW17|3|arxiv|1707.05862|gedanken experiments to destroy a black hole|Sorce
+KU22|3|arxiv|2211.15742|gravitational collapse to extremal black holes|Kehle
+KU24|3|arxiv|2402.10190|extremal black hole formation as a critical phenomenon|Kehle
+HKS23|3|arxiv|2210.02473|almost all extremal black holes in ads are singular|Horowitz
+HKRS23|3|arxiv|2303.07358|extremal kerr black holes as amplifiers of new physics|Horowitz
+IT21|3|arxiv|2003.02860|statistical mechanics of near-extremal black holes|Iliesiu
+BIPU24|3|arxiv|2411.03447|evaporation of charged black holes|Brown
+Kerr23|3|arxiv|2312.00841|do black holes have singularities|Kerr
+Bueno24|3|arxiv|2403.04827|regular black holes from pure gravity|Bueno
+CR25|3|arxiv|2501.05505|non-singular paradigm of black hole physics|Carballo
+Wall13|3|arxiv|1010.5513|generalized second law implies a quantum singularity theorem|Wall
+BSM22|3|arxiv|2201.11132|singularities from entropy|Bousso
+Tipler74|3|doi|10.1103/PhysRevD.9.2203|rotating cylinders and the possibility of global causality violation|Tipler
+Tipler77|3|doi|10.1016/0003-4916(77)90348-7|singularities and causality violation|Tipler
+# ---- Thème 4 : trous de ver traversables ----
+MT88|4|doi|10.1119/1.15620|wormholes in spacetime and their use for interstellar travel|Morris
+MTY88|4|doi|10.1103/PhysRevLett.61.1446|wormholes, time machines, and the weak energy condition|Morris
+KT91|4|doi|10.1103/PhysRevD.43.3929|do vacuum fluctuations prevent the creation of closed timelike curves|Kim
+FSW93|4|arxiv|gr-qc/9305017|topological censorship|Friedman
+HV98|4|arxiv|gr-qc/9802048|null energy condition in dynamic wormholes|Hochberg
+GW00|4|arxiv|gr-qc/0007021|theorems on gravitational time delay|Gao
+VKD03|4|arxiv|gr-qc/0301003|traversable wormholes with arbitrarily small energy condition violations|Visser
+MS13|4|arxiv|1306.0533|cool horizons for entangled black holes|Maldacena
+GJW17|4|arxiv|1608.05687|traversable wormholes via a double trace deformation|Gao
+MSY17|4|arxiv|1704.05333|diving into traversable wormholes|Maldacena
+MQ18|4|arxiv|1804.00491|eternal traversable wormhole|Maldacena
+MMP18|4|arxiv|1807.04726|traversable wormholes in four dimensions|Maldacena
+FGM19|4|arxiv|1807.07917|perturbative perspective on self-supporting wormholes|Fu
+Freivogel19|4|arxiv|1907.13140|traversable wormholes in ads and bounds on information transfer|Freivogel
+MM20|4|arxiv|2008.06618|humanly traversable wormholes|Maldacena
+BKR21|4|arxiv|2010.07317|traversable wormholes in einstein-dirac-maxwell theory|Salcedo
+KZ22|4|arxiv|2106.05034|traversable wormholes in general relativity|Konoplya
+Landsman19|4|arxiv|1806.02807|verified quantum information scrambling|Landsman
+Brown19|4|arxiv|1911.06314|quantum gravity in the lab|Brown
+Nezami21|4|arxiv|2102.01064|quantum gravity in the lab|Nezami
+Schuster22|4|arxiv|2102.00010|many-body quantum teleportation via operator spreading|Schuster
+Jafferis22|4|doi|10.1038/s41586-022-05424-3|traversable wormhole dynamics on a quantum processor|Jafferis
+KSY23|4|arxiv|2302.07897|traversable wormhole dynamics on a quantum processor|Kobrin
+Jafferis23|4|arxiv|2303.15423|comment on|Jafferis
+Kundu22|4|arxiv|2110.14958|wormholes and holography|Kundu
+# ---- Thème 5 : métriques de distorsion ----
+Alc94|5|arxiv|gr-qc/0009013|warp drive: hyper-fast travel within general relativity|Alcubierre
+Everett96|5|doi|10.1103/PhysRevD.53.7365|warp drive and causality|Everett
+PF97|5|arxiv|gr-qc/9702026|unphysical nature of|Pfenning
+Hiscock97|5|arxiv|gr-qc/9707024|quantum effects in the alcubierre warp drive spacetime|Hiscock
+Krasnikov98|5|arxiv|gr-qc/9511068|hyperfast|Krasnikov
+ER97|5|arxiv|gr-qc/9702049|superluminal subway|Everett
+Olum98|5|arxiv|gr-qc/9805003|superluminal travel requires negative energies|Olum
+VDB99|5|arxiv|gr-qc/9905084|more reasonable total energy requirements|Broeck
+Nat02|5|arxiv|gr-qc/0110086|warp drive with zero expansion|Nat
+LV04|5|arxiv|gr-qc/0406083|fundamental limitations on|Lobo
+FLB09|5|arxiv|0904.0141|semiclassical instability of dynamical warp drives|Finazzi
+AL17|5|arxiv|2103.05610|warp drive basics|Alcubierre
+Lentz21|5|arxiv|2006.07125|breaking the warp barrier|Lentz
+BM21|5|arxiv|2102.06824|introducing physical warp drives|Bobrick
+FH21|5|arxiv|2104.06488|positive energy warp drive from hidden geometric structures|Fell
+SSV22|5|arxiv|2105.03079|generic warp drives violate the null energy condition|Santiago
+SSV23|5|arxiv|2205.15950|adm mass in warp drive spacetimes|Schuster
+White21|5|doi|10.1140/epjc/s10052-021-09484-z|worldline numerics applied to custom casimir geometry|White
+Helmerich24|5|arxiv|2404.03095|warp factory|Helmerich
+Fuchs24w|5|arxiv|2405.02709|constant velocity physical warp drive solution|Fuchs
+Clough24|5|arxiv|2406.02466|gravitational waveforms from warp drive collapse|Clough
+# ---- Thème 6 : courbes temporelles fermées, causalité ----
+Godel49|6|doi|10.1103/RevModPhys.21.447|new type of cosmological solutions|del
+FMN90|6|doi|10.1103/PhysRevD.42.1915|cauchy problem in spacetimes with closed timelike curves|Friedman
+Gott91|6|doi|10.1103/PhysRevLett.66.1126|closed timelike curves produced by pairs of moving cosmic strings|Gott
+DJT92|6|doi|10.1103/PhysRevLett.68.267|physical cosmic strings do not generate closed timelike curves|Deser
+EKT91|6|doi|10.1103/PhysRevD.44.1077|billiard balls in wormhole spacetimes|Echeverria
+Deutsch91|6|doi|10.1103/PhysRevD.44.3197|quantum mechanics near closed timelike lines|Deutsch
+Hawking92|6|doi|10.1103/PhysRevD.46.603|chronology protection conjecture|Hawking
+KRW97|6|arxiv|gr-qc/9603012|compactly generated cauchy horizon|Kay
+Visser02|6|arxiv|gr-qc/0204022|quantum physics of chronology protection|Visser
+Krasnikov02|6|arxiv|gr-qc/0111054|no time machines in classical general relativity|Krasnikov
+BGHV03|6|arxiv|hep-th/0212087|holographic protection of chronology|Boyda
+Dyson03|6|arxiv|hep-th/0302052|chronology protection in string theory|Dyson
+CKS05|6|arxiv|hep-th/0411203|chronology protection in anti-de sitter|Caldarelli
+Mallett03|6|doi|10.1023/A:1025689110828|gravitational field of a circulating light beam|Mallett
+OE05|6|arxiv|gr-qc/0410078|can a circulating light beam produce a time machine|Olum
+Everett04|6|arxiv|gr-qc/0410035|time travel paradoxes, path integrals, and the many worlds interpretation|Everett
+Ori05|6|arxiv|gr-qc/0503077|class of time-machine solutions with a compact vacuum core|Ori
+Ori07|6|arxiv|gr-qc/0701024|formation of closed timelike curves in a composite vacuum/dust|Ori
+ESW09|6|doi|10.1007/s11229-008-9338-2|do the laws of physics forbid the operation of time machines|Earman
+AW09|6|arxiv|0808.2669|closed timelike curves make quantum and classical computing equivalent|Aaronson
+BHW09|6|arxiv|0811.1209|localized closed timelike curves can perfectly distinguish quantum states|Brun
+BLSS09|6|arxiv|0908.3023|can closed timelike curves or nonlinear quantum mechanics improve|Bennett
+Lloyd11a|6|arxiv|1005.2219|closed timelike curves via post|Lloyd
+Lloyd11b|6|arxiv|1007.2615|quantum mechanics of time travel through post-selected teleportation|Lloyd
+Ringbauer14|6|arxiv|1501.05014|experimental simulation of closed timelike curves|Ringbauer
+Allen14|6|arxiv|1401.4933|treating time travel quantum mechanically|Allen
+TT17|6|arxiv|1310.7985|traversable acausal retrograde domains|Tippett
+Baumeler19|6|arxiv|1703.00779|reversible time travel with freedom of choice|Baumeler
+Shoshany19|6|arxiv|1907.04178|lectures on faster-than-light travel and time travel|Shoshany
+TC20|6|arxiv|2001.02511|reversible dynamics with closed time-like curves and freedom of choice|Tobar
+Bishop21|6|arxiv|2007.12677|billiard-ball clocks|Bishop
+Luminet21|6|arxiv|2101.08592|closed timelike curves, singularities and causality|Luminet
+ET21|6|search|ti:"Holography of time machines"|holography of time machines|Emparan
+Gavassino|6|search|ti:"Life on a closed timelike curve"|life on a closed timelike curve|Gavassino
+ASMY23|6|arxiv|2207.07666|nonclassical advantage in metrology established via quantum simulations of hypothetical closed timelike curves|Arvidsson
+Hardy07|6|arxiv|gr-qc/0608043|non-fixed causal structure|Hardy
+Chiribella13|6|arxiv|0912.0195|quantum computations without definite causal structure|Chiribella
+OCB12|6|arxiv|1105.4464|quantum correlations with no causal order|Oreshkov
+Procopio15|6|arxiv|1412.4006|experimental superposition of orders of quantum gates|Procopio
+Araujo15|6|arxiv|1506.03776|witnessing causal nonseparability|Ara
+Rubino17|6|arxiv|1608.01683|experimental verification of an indefinite causal order|Rubino
+Goswami18|6|arxiv|1803.04302|indefinite causal order in a quantum switch|Goswami
+Zych19|6|arxiv|1708.00248|bell's theorem for temporal order|Zych
+vdLugt23|6|arxiv|2208.00719|device-independent certification of indefinite causal order|Lugt
+VR24|6|arxiv|2203.11245|embedding cyclic|Vilasini
+Rozema24|6|arxiv|2405.00767|experimental aspects of indefinite causal order|Rozema
+Lesovik19|6|arxiv|1712.10057|arrow of time and its reversal on the ibm quantum computer|Lesovik
+Navascues18|6|arxiv|1710.02470|resetting uncontrolled quantum systems|Navascu
+Quintino19|6|arxiv|1810.06944|reversing unknown quantum transformations|Quintino
+Schiansky23|6|arxiv|2205.01122|demonstration of universal time-reversal for qubit processes|Schiansky
+CL22|6|arxiv|2012.03859|quantum operations with indefinite time direction|Chiribella
+Stromberg24|6|arxiv|2211.01283|experimental superposition of a quantum evolution with its time reverse|Str
+# ---- Thème 7 : gravité quantique, expériences de table ----
+Maldacena97|7|arxiv|hep-th/9711200|large n limit of superconformal field theories and supergravity|Maldacena
+SV96|7|arxiv|hep-th/9601029|microscopic origin of the bekenstein-hawking entropy|Strominger
+Mathur05|7|arxiv|hep-th/0502050|fuzzball proposal for black holes|Mathur
+Bojowald01|7|arxiv|gr-qc/0102069|absence of singularity in loop quantum cosmology|Bojowald
+AB06|7|arxiv|gr-qc/0509075|quantum geometry and the schwarzschild singularity|Ashtekar
+APS06|7|arxiv|gr-qc/0602086|quantum nature of the big bang|Ashtekar
+AOS18|7|arxiv|1806.00648|quantum transfiguration of kruskal black holes|Ashtekar
+HR15|7|arxiv|1407.0989|black hole fireworks|Haggard
+BR00|7|arxiv|hep-th/0002196|renormalization group improved black hole spacetimes|Bonanno
+Eichhorn19|7|arxiv|1810.07615|asymptotically safe guide to quantum gravity and matter|Eichhorn
+Surya19|7|arxiv|1903.11544|causal set approach to quantum gravity|Surya
+Loll20|7|arxiv|1905.08669|quantum gravity from causal dynamical triangulations|Loll
+Addazi22|7|arxiv|2111.05659|quantum gravity phenomenology at the dawn of the multi-messenger era|Addazi
+LHAASO24|7|arxiv|2402.06009|lorentz invariance violation from lhaaso|
+Kapner07|7|arxiv|hep-ph/0611184|tests of the gravitational inverse-square law below the dark-energy length scale|Kapner
+Lee20|7|arxiv|2002.11761|new test of the gravitational|Lee
+Tan20|7|doi|10.1103/PhysRevLett.124.051301|improvement for testing the gravitational inverse-square law at the submillimeter range|Tan
+Penrose96|7|doi|10.1007/BF02105068|on gravity's role in quantum state reduction|Penrose
+Bose17|7|arxiv|1707.06050|spin entanglement witness for quantum gravity|Bose
+MV17|7|arxiv|1707.06036|gravitationally-induced entanglement between two massive particles|Marletto
+Carney19|7|arxiv|1807.11494|tabletop experiments for quantum gravity|Carney
+Fein19|7|doi|10.1038/s41567-019-0663-9|quantum superposition of molecules beyond 25 kda|Fein
+Delic20|7|arxiv|1911.04406|cooling of a levitated nanoparticle to the motional quantum ground state|Deli
+Donadi21|7|doi|10.1038/s41567-020-1008-4|underground test of gravity-related wave function collapse|Donadi
+Westphal21|7|arxiv|2009.09546|measurement of gravitational coupling between millimetre-sized masses|Westphal
+Aspelmeyer22|7|arxiv|2203.05587|when zeh meets feynman|Aspelmeyer
+DSW22a|7|arxiv|2112.10798|gravitationally mediated entanglement: newtonian field|Danielson
+DSW22b|7|arxiv|2205.06279|black holes decohere quantum superpositions|Danielson
+Overstreet22|7|doi|10.1126/science.abl7152|observation of a gravitational aharonov-bohm effect|Overstreet
+Bild23|7|arxiv|2211.00449|cat states of a 16-microgram mechanical oscillator|Bild
+Oppenheim23|7|arxiv|1811.03116|theory of classical gravity|Oppenheim
+OSSW23|7|arxiv|2203.01982|gravitationally induced decoherence vs space-time diffusion|Oppenheim
+Fuchs24g|7|arxiv|2303.03545|measuring gravity with milligram levitated masses|Fuchs
+Panda24|7|arxiv|2310.01344|measuring gravitational attraction with a lattice atom interferometer|Panda
+Tobar24|7|arxiv|2308.15440|detecting single gravitons with quantum sensing|Tobar
+Bose25|7|arxiv|2311.09218|massive quantum systems as interfaces of quantum mechanics and gravity|Bose
+# ---- Thème 8 : métrologie du temps ----
+HK72a|8|doi|10.1126/science.177.4044.166|around-the-world atomic clocks: predicted relativistic time gains|Hafele
+HK72b|8|doi|10.1126/science.177.4044.168|around-the-world atomic clocks: observed relativistic time gains|Hafele
+Vessot80|8|doi|10.1103/PhysRevLett.45.2081|test of relativistic gravitation with a space-borne hydrogen maser|Vessot
+Ashby03|8|doi|10.12942/lrr-2003-1|relativity in the global positioning system|Ashby
+Cutler05|8|doi|10.1088/0026-1394/42/3/S10|fifty years of commercial caesium clocks|Cutler
+Knappe04|8|doi|10.1063/1.1787942|microfabricated atomic clock|Knappe
+Kitching18|8|doi|10.1063/1.5026238|chip-scale atomic devices|Kitching
+Chou10|8|doi|10.1126/science.1192720|optical clocks and relativity|Chou
+Heavner14|8|doi|10.1088/0026-1394/51/3/174|first accuracy evaluation of nist-f2|Heavner
+Weyers18|8|doi|10.1088/1681-7575/aae008|primary fountain clocks|Weyers
+Ludlow15|8|arxiv|1407.3493|optical atomic clocks|Ludlow
+Ushijima15|8|arxiv|1405.4071|cryogenic optical lattice clocks|Ushijima
+Lisdat16|8|arxiv|1511.07735|clock network for geodesy and fundamental science|Lisdat
+Grotti18|8|arxiv|1705.04089|geodesy and metrology with a transportable optical clock|Grotti
+McGrew18|8|arxiv|1807.11282|atomic clock performance enabling geodesy below the centimetre level|McGrew
+Delva18|8|arxiv|1812.03711|gravitational redshift test using eccentric galileo satellites|Delva
+Herrmann18|8|arxiv|1812.09161|test of the gravitational redshift with galileo satellites in an eccentric orbit|Herrmann
+Brewer19|8|arxiv|1902.07694|quantum-logic clock with a systematic uncertainty below|Brewer
+Oelker19|8|arxiv|1902.02741|stability at 1 s for two independent optical clocks|Oelker
+Takamoto20|8|doi|10.1038/s41566-020-0619-8|test of general relativity by a pair of transportable optical lattice clocks|Takamoto
+BACON21|8|arxiv|2005.14694|frequency ratio measurements at 18-digit accuracy|
+Burt21|8|doi|10.1038/s41586-021-03571-7|demonstration of a trapped-ion atomic clock in space|Burt
+Bothwell22|8|arxiv|2109.12238|resolving the gravitational redshift|Bothwell
+Zheng22|8|arxiv|2109.12237|differential clock comparisons with a multiplexed optical lattice clock|Zheng
+Aeppli24|8|arxiv|2403.10664|systematic uncertainty|Aeppli
+Marshall25|8|search|ti:"single-ion clock" AND au:Marshall|single-ion clock|Marshall
+Roslund24|8|arxiv|2308.12457|optical clocks at sea|Roslund
+PT03|8|doi|10.1209/epl/i2003-00210-x|nuclear laser spectroscopy of the 3.5 ev transition in th-229|Peik
+Seiferle19|8|arxiv|1905.06308|nuclear clock transition|Seiferle
+Kraemer23|8|arxiv|2209.10276|observation of the radiative decay of the|Kraemer
+Tiedau24|8|doi|10.1103/PhysRevLett.132.182501|laser excitation of the th-229 nucleus|Tiedau
+Elwell24|8|arxiv|2404.12311|laser excitation of the|Elwell
+Zhang24|8|arxiv|2406.18719|frequency ratio of the|Zhang
+Zhang24b|8|arxiv|2410.01753|thin films for solid-state nuclear clocks|Zhang
+Dimarcq24|8|arxiv|2307.14141|roadmap towards the redefinition of the second|Dimarcq
+ACES09|8|doi|10.1140/epjst/e2009-01041-7|space clocks and fundamental tests: the aces experiment|Cacciapuoti
+# ---- Thème 9 : gravimétrie de précision ----
+Peters99|9|doi|10.1038/23655|measurement of gravitational acceleration by dropping atoms|Peters
+Goodkind99|9|doi|10.1063/1.1150092|superconducting gravimeter|Goodkind
+Jekeli06|9|doi|10.2514/1.15368|precision free-inertial navigation with gravity compensation by an onboard gradiometer|Jekeli
+Rosi14|9|arxiv|1412.7954|precision measurement of the newtonian gravitational constant using cold atoms|Rosi
+Asenbaum17|9|arxiv|1610.03832|phase shift in an atom interferometer due to spacetime curvature|Asenbaum
+RS17|9|doi|10.1063/1.4994619|measurements of the newtonian constant of gravitation|Rothleitner
+VanCamp17|9|doi|10.1002/2017RG000566|geophysics from terrestrial time-variable gravity measurements|Van Camp
+Menoret18|9|doi|10.1038/s41598-018-30608-1|gravity measurements below|noret
+Bidel18|9|doi|10.1038/s41467-018-03040-2|absolute marine gravimetry with matter-wave interferometry|Bidel
+Li18|9|doi|10.1038/s41586-018-0431-5|measurements of the gravitational constant using two independent methods|Li
+Bongs19|9|doi|10.1038/s42254-019-0117-4|taking atom interferometric quantum sensors from the laboratory to real-world applications|Bongs
+Wu19|9|arxiv|1904.09084|gravity surveys using a mobile atom interferometer|Wu
+Bidel20|9|arxiv|1910.06666|absolute airborne gravimetry with a cold atom sensor|Bidel
+Asenbaum20|9|arxiv|2005.11624|atom-interferometric test of the equivalence principle|Asenbaum
+Landerer20|9|doi|10.1029/2020GL088306|grace follow-on|Landerer
+Stray22|9|doi|10.1038/s41586-021-04315-3|quantum sensing for gravity cartography|Stray
+Janvier22|9|arxiv|2201.03345|compact differential gravimeter at the quantum projection-noise limit|Janvier
+Templier22|9|arxiv|2209.13209|tracking the vector acceleration with a hybrid quantum accelerometer triad|Templier
+MICROSCOPE22|9|arxiv|2209.15487|microscope mission: final results|Touboul
+Abend23|9|doi|10.1116/5.0098119|technology roadmap for cold-atoms based quantum inertial sensor in space|Abend
+CARIOQA|9|search|ti:CARIOQA|carioqa|
+Elliott23|9|doi|10.1038/s41586-023-06645-w|quantum gas mixtures and dual-species atom interferometry in space|Elliott
+QCTRL25|9|arxiv|2504.08167|quantum-assured magnetic navigation|
+# ---- Thème 10 : énergie négative, effet Casimir, conditions d'énergie ----
+Lamoreaux97|10|doi|10.1103/PhysRevLett.78.5|demonstration of the casimir force in the 0.6 to 6|Lamoreaux
+MR98|10|arxiv|physics/9805038|precision measurement of the casimir force from 0.1 to 0.9|Mohideen
+Bressi02|10|arxiv|quant-ph/0203002|measurement of the casimir force between parallel metallic surfaces|Bressi
+Jaffe05|10|arxiv|hep-th/0503158|casimir effect and the quantum vacuum|Jaffe
+Decca07|10|arxiv|hep-ph/0703290|tests of new physics from precise measurements of the casimir pressure|Decca
+KMM09|10|arxiv|0902.4022|casimir force between real materials|Klimchitskaya
+Munday09|10|doi|10.1038/nature07610|measured long-range repulsive casimir|Munday
+Sushkov11|10|arxiv|1011.5219|observation of the thermal casimir force|Sushkov
+Wilson11|10|arxiv|1105.4714|observation of the dynamical casimir effect in a superconducting circuit|Wilson
+Lahteenmaki13|10|arxiv|1111.5608|dynamical casimir effect in a josephson metamaterial|hteenm
+Garrett18|10|doi|10.1103/PhysRevLett.120.040401|casimir force between two spheres|Garrett
+Somers18|10|doi|10.1038/s41586-018-0777-8|measurement of the casimir torque|Somers
+Zhao19|10|doi|10.1126/science.aax0916|stable casimir equilibria and quantum trapping|Zhao
+Calloni14|10|arxiv|1401.6940|weighing|Calloni
+Riek15|10|doi|10.1126/science.aac9788|direct sampling of electric-field vacuum fluctuations|Riek
+Riek17|10|doi|10.1038/nature21024|subcycle quantum electrodynamics|Riek
+Vahlbruch16|10|doi|10.1103/PhysRevLett.117.110801|detection of 15 db squeezed states of light|Vahlbruch
+Tse19|10|doi|10.1103/PhysRevLett.123.231107|quantum-enhanced advanced ligo detectors|Tse
+Ganapathy23|10|doi|10.1103/PhysRevX.13.041021|broadband quantum enhancement of the ligo detectors with frequency-dependent squeezing|Ganapathy
+FR95|10|arxiv|gr-qc/9410043|averaged energy conditions and quantum inequalities|Ford
+FR96|10|arxiv|gr-qc/9510071|quantum field theory constrains traversable wormhole geometries|Ford
+FR05|10|arxiv|gr-qc/0507013|wormholes with arbitrarily small quantities of exotic matter|Fewster
+GO07|10|arxiv|0705.3193|achronal averaged null energy condition|Graham
+Wall10|10|arxiv|0910.5751|proving the achronal averaged null energy condition from the generalized second law|Wall
+Fewster12|10|arxiv|1208.5399|lectures on quantum energy inequalities|Fewster
+KO15|10|arxiv|1507.00297|proof of the averaged null energy condition in a classical curved spacetime|Kontou
+BFLW16|10|arxiv|1506.02669|quantum focusing conjecture|Bousso
+BFKLW16|10|arxiv|1509.02542|proof of the quantum null energy condition|Bousso
+FLPW16|10|arxiv|1605.08072|modular hamiltonians for deformed half-spaces and the averaged null energy condition|Faulkner
+HKT17|10|arxiv|1610.05308|averaged null energy condition from causality|Hartman
+FK18|10|arxiv|1807.03808|smeared null energy condition|Freivogel
+KS20|10|arxiv|2003.01815|energy conditions in general relativity and quantum field theory|Kontou
+FKK22|10|arxiv|2012.11569|return of the singularities|Freivogel
+# ---- Thème 11 : cristaux temporels et faux amis du « temps » ----
+SW12|11|arxiv|1202.2537|classical time crystals|Shapere
+Wilczek12|11|arxiv|1202.2539|quantum time crystals|Wilczek
+Bruno13|11|arxiv|1306.6275|impossibility of spontaneously rotating time crystals|Bruno
+WO15|11|arxiv|1410.2143|absence of quantum time crystals|Watanabe
+KLMS16|11|arxiv|1508.03344|phase structure of driven quantum systems|Khemani
+EBN16|11|arxiv|1603.08001|floquet time crystals|Else
+Yao17|11|arxiv|1608.02589|discrete time crystals: rigidity, criticality, and realizations|Yao
+Zhang17|11|arxiv|1609.08684|observation of a discrete time crystal|Zhang
+Choi17|11|arxiv|1610.08057|observation of discrete time-crystalline order|Choi
+SZ18|11|arxiv|1704.03735|time crystals: a review|Sacha
+Randall21|11|arxiv|2107.00736|many-body-localized discrete time crystal|Randall
+Mi22|11|arxiv|2107.13571|time-crystalline eigenstate order on a quantum processor|Mi
+FR22|11|arxiv|2105.06632|realization of a discrete time crystal on 57 qubits|Frey
+Kongkhambut22|11|arxiv|2202.06980|observation of a continuous time crystal|Kongkhambut
+Zaletel23|11|arxiv|2305.08904|quantum and classical discrete time crystals|Zaletel
+Angulo24|11|arxiv|2409.03680|negative amount of time|Angulo
+Moussa23|11|arxiv|2208.07236|temporal reflection|Moussa
+# ---- Thème 12 : IBM 5100, an 2038 ----
+Roberson76|12|biblio|Roberson A microprocessor-based portable computer: The IBM 5100 Proceedings of the IEEE 1976|microprocessor-based portable computer|Roberson
+Hassitt76|12|biblio|Hassitt Lyon An APL emulator on System/370 IBM Systems Journal 1976|apl emulator on system/370|Hassitt

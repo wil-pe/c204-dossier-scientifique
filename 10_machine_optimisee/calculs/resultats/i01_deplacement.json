@@ -1,0 +1,385 @@
+{
+ "latitude_deg": 45.0,
+ "scenarios": {
+  "S00": {
+   "libelle": "Parking, à côté de la référence",
+   "h_m": 0,
+   "v_est": 0,
+   "v_nord": 0,
+   "y_grav": 0.0,
+   "y_cin": -0.0,
+   "y": 0.0,
+   "avance_horloge_ns_par_h": 0.0,
+   "D_futur_ns_par_h": -0.0,
+   "D_futur_s_par_h": -0.0,
+   "ecart_48h_ns": 0.0,
+   "palier": "R1",
+   "remarque": "témoin : écart nul attendu"
+  },
+  "S01": {
+   "libelle": "Séjour statique à +1 000 m (col de montagne)",
+   "h_m": 1000,
+   "v_est": 0,
+   "v_nord": 0,
+   "y_grav": 1.0924787486804872e-13,
+   "y_cin": -1.8848522139324785e-16,
+   "y": 1.0905938964665548e-13,
+   "avance_horloge_ns_par_h": 0.39261380272795976,
+   "D_futur_ns_par_h": -0.39261380272795976,
+   "D_futur_s_par_h": -3.9261380272795974e-10,
+   "ecart_48h_ns": 18.84546253094207,
+   "palier": "R1",
+   "remarque": "g·Δh/c²"
+  },
+  "S02": {
+   "libelle": "Séjour statique à +2 000 m",
+   "h_m": 2000,
+   "v_est": 0,
+   "v_nord": 0,
+   "y_grav": 2.1846146513704858e-13,
+   "y_cin": -3.770000253371918e-16,
+   "y": 2.180844651117114e-13,
+   "avance_horloge_ns_par_h": 0.785104074402161,
+   "D_futur_ns_par_h": -0.785104074402161,
+   "D_futur_s_par_h": -7.851040744021611e-10,
+   "ecart_48h_ns": 37.68499557130373,
+   "palier": "R1",
+   "remarque": ""
+  },
+  "S03": {
+   "libelle": "Séjour statique à +3 000 m (observatoire d'altitude)",
+   "h_m": 3000,
+   "v_est": 0,
+   "v_nord": 0,
+   "y_grav": 3.276407869434342e-13,
+   "y_cin": -5.655444118317508e-16,
+   "y": 3.270752425316024e-13,
+   "avance_horloge_ns_par_h": 1.1774708731137686,
+   "D_futur_ns_par_h": -1.1774708731137686,
+   "D_futur_s_par_h": -1.1774708731137688e-09,
+   "ecart_48h_ns": 56.5186019094609,
+   "palier": "R1",
+   "remarque": ""
+  },
+  "S04": {
+   "libelle": "Séjour statique à −1 000 m (mine profonde)",
+   "h_m": -1000,
+   "v_est": 0,
+   "v_nord": 0,
+   "y_grav": -1.0928217561364583e-13,
+   "y_cin": 1.8845563884263276e-16,
+   "y": -1.090937199748032e-13,
+   "avance_horloge_ns_par_h": -0.3927373919092915,
+   "D_futur_ns_par_h": 0.3927373919092915,
+   "D_futur_s_par_h": 3.927373919092915e-10,
+   "ecart_48h_ns": -18.851394811645992,
+   "palier": "R1",
+   "remarque": "approximation g·Δh (potentiel intérieur non modélisé)"
+  },
+  "S05": {
+   "libelle": "Route, 130 km/h plein est, à plat",
+   "h_m": 0,
+   "v_est": 36.11111111111111,
+   "v_nord": 0,
+   "y_grav": 0.0,
+   "y_cin": -1.392459247559734e-13,
+   "y": -1.392459247559734e-13,
+   "avance_horloge_ns_par_h": -0.5012853291215043,
+   "D_futur_ns_par_h": 0.5012853291215043,
+   "D_futur_s_par_h": 5.012853291215042e-10,
+   "ecart_48h_ns": -24.061695797832204,
+   "palier": "R1",
+   "remarque": "terme de Sagnac dominant"
+  },
+  "S06": {
+   "libelle": "Route, 130 km/h plein ouest, à plat",
+   "h_m": 0,
+   "v_est": -36.11111111111111,
+   "v_nord": 0,
+   "y_grav": 0.0,
+   "y_cin": 1.247368306608298e-13,
+   "y": 1.247368306608298e-13,
+   "avance_horloge_ns_par_h": 0.44905259037898726,
+   "D_futur_ns_par_h": -0.44905259037898726,
+   "D_futur_s_par_h": -4.490525903789873e-10,
+   "ecart_48h_ns": 21.55452433819139,
+   "palier": "R1",
+   "remarque": ""
+  },
+  "S07": {
+   "libelle": "Route, 130 km/h nord-sud, à plat",
+   "h_m": 0,
+   "v_est": 0,
+   "v_nord": 36.11111111111111,
+   "y_grav": 0.0,
+   "y_cin": -7.254547047571844e-15,
+   "y": -7.254547047571844e-15,
+   "avance_horloge_ns_par_h": -0.02611636937125864,
+   "D_futur_ns_par_h": 0.02611636937125864,
+   "D_futur_s_par_h": 2.611636937125864e-11,
+   "ecart_48h_ns": -1.2535857298204147,
+   "palier": "R1",
+   "remarque": "seul v²/2c² subsiste"
+  },
+  "S08": {
+   "libelle": "Train à grande vitesse, 320 km/h plein est",
+   "h_m": 0,
+   "v_est": 88.88888888888889,
+   "v_nord": 0,
+   "y_grav": 0.0,
+   "y_cin": -3.688583982450218e-13,
+   "y": -3.688583982450218e-13,
+   "avance_horloge_ns_par_h": -1.3278902336820786,
+   "D_futur_ns_par_h": 1.3278902336820786,
+   "D_futur_s_par_h": 1.3278902336820785e-09,
+   "ecart_48h_ns": -63.73873121673977,
+   "palier": "R1",
+   "remarque": ""
+  },
+  "S09": {
+   "libelle": "Train à grande vitesse, 320 km/h plein ouest",
+   "h_m": 0,
+   "v_est": -88.88888888888889,
+   "v_nord": 0,
+   "y_grav": 0.0,
+   "y_cin": 2.809453073963407e-13,
+   "y": 2.809453073963407e-13,
+   "avance_horloge_ns_par_h": 1.0114031066268265,
+   "D_futur_ns_par_h": -1.0114031066268265,
+   "D_futur_s_par_h": -1.0114031066268266e-09,
+   "ecart_48h_ns": 48.54734911808767,
+   "palier": "R1",
+   "remarque": ""
+  },
+  "S10": {
+   "libelle": "Avion de ligne, 10,7 km, 250 m/s plein est",
+   "h_m": 10700,
+   "v_est": 250,
+   "v_nord": 0,
+   "y_grav": 1.1671754873549874e-12,
+   "y_cin": -1.2650426214375972e-12,
+   "y": -9.786713408260976e-14,
+   "avance_horloge_ns_par_h": -0.3523216826973951,
+   "D_futur_ns_par_h": 0.3523216826973951,
+   "D_futur_s_par_h": 3.523216826973951e-10,
+   "ecart_48h_ns": -16.911440769474964,
+   "palier": "R1",
+   "remarque": "soute pressurisée"
+  },
+  "S11": {
+   "libelle": "Avion de ligne, 10,7 km, 250 m/s plein ouest",
+   "h_m": 10700,
+   "v_est": -250,
+   "v_nord": 0,
+   "y_grav": 1.1671754873549874e-12,
+   "y_cin": 5.655996822933383e-13,
+   "y": 1.7327751696483259e-12,
+   "avance_horloge_ns_par_h": 6.2379906107339735,
+   "D_futur_ns_par_h": -6.2379906107339735,
+   "D_futur_s_par_h": -6.237990610733973e-09,
+   "ecart_48h_ns": 299.42354931523073,
+   "palier": "R1",
+   "remarque": ""
+  },
+  "S20": {
+   "libelle": "Orbite basse 420 km (Station spatiale)",
+   "h_m": 420000.0,
+   "v_orbitale": 7661.29213082409,
+   "y_grav": 4.3053089771294057e-11,
+   "y_cin": -3.259368118888049e-10,
+   "y": -2.8288372211751085e-10,
+   "avance_horloge_ns_par_h": -1018.3813996230391,
+   "D_futur_ns_par_h": 1018.3813996230391,
+   "D_futur_s_par_h": 1.0183813996230391e-06,
+   "ecart_par_jour_us": -24.441153590952936,
+   "palier": "hors palier 1"
+  },
+  "S21": {
+   "libelle": "Orbite GPS 20 184 km",
+   "h_m": 20184000.0,
+   "v_orbitale": 3874.3221990889715,
+   "y_grav": 5.291145405978912e-10,
+   "y_cin": -8.290608647550628e-11,
+   "y": 4.4620845412238494e-10,
+   "avance_horloge_ns_par_h": 1606.3504348405859,
+   "D_futur_ns_par_h": -1606.3504348405859,
+   "D_futur_s_par_h": -1.6063504348405857e-06,
+   "ecart_par_jour_us": 38.55241043617406,
+   "palier": "hors palier 1"
+  },
+  "S22": {
+   "libelle": "Orbite géostationnaire 35 786 km",
+   "h_m": 35786000.0,
+   "v_orbitale": 3074.921541506354,
+   "y_grav": 5.90924810484086e-10,
+   "y_cin": -5.2000951532408876e-11,
+   "y": 5.389238589516772e-10,
+   "avance_horloge_ns_par_h": 1940.1258922260379,
+   "D_futur_ns_par_h": -1940.1258922260379,
+   "D_futur_s_par_h": -1.9401258922260377e-06,
+   "ecart_par_jour_us": 46.563021413424906,
+   "palier": "hors palier 1"
+  }
+ },
+ "controle_GPS_us_par_jour": 38.60428262493823,
+ "controle_HK": {
+  "est": {
+   "grav_ns": 145.64994075470034,
+   "cin_ns": -190.3938483083813,
+   "total_ns": -44.74390755368095
+  },
+  "ouest": {
+   "grav_ns": 171.81036700675816,
+   "cin_ns": 120.79429763590868,
+   "total_ns": 292.6046646426668
+  }
+ },
+ "controle_GREAT_ns": 22.09512279950984,
+ "sagnac_ps_par_km_est": 3.655145844232663,
+ "vitesse_bascule_m_s": 657.0162513084927,
+ "potentiel_propre_227kg_1m": {
+  "y": 1.685738381089937e-25,
+  "s_par_h": 6.068658171923773e-22
+ },
+ "potentiel_2x4.4e12kg_1m": {
+  "y": 6.5350210368244255e-15,
+  "s_par_h": 2.352607573256793e-11
+ },
+ "revendique_s_par_h": 315576000.0,
+ "detectabilite_48h": {
+  "CSAC au césium (SA.45s)": {
+   "bruit_ns": 1234.5428303627216,
+   "environnement_ns": 8640.0,
+   "total_ns": 8727.754350346944,
+   "SB": {
+    "1000": 0.00215925675430965,
+    "2000": 0.004317834125316059,
+    "3000": 0.006475732432503004
+   },
+   "dh_min_3sigma_m": 1388675.4603588698,
+   "dims_mm": [
+    41,
+    36,
+    12
+   ],
+   "masse_kg": 0.035,
+   "puissance_W": 0.12,
+   "statut": "a : fiche constructeur vérifiée par l'Équipe C ; plancher et environnement : estimation"
+  },
+  "Rubidium miniature (classe PRS10), nu": {
+   "bruit_ns": 244.65878279759343,
+   "environnement_ns": 17280.0,
+   "total_ns": 17281.731913208238,
+   "SB": {
+    "1000": 0.001090484601056604,
+    "2000": 0.002180626094685655,
+    "3000": 0.003270424642235328
+   },
+   "dh_min_3sigma_m": 2749701.2469672714,
+   "dims_mm": [
+    51,
+    76,
+    102
+   ],
+   "masse_kg": 0.6,
+   "puissance_W": 14,
+   "statut": "paramètres de l'Équipe F (calc01) ; environnement : pression, température, champ"
+  },
+  "Rubidium miniature en enceinte étanche thermostatée blindée [à démontrer]": {
+   "bruit_ns": 74.24965454465091,
+   "environnement_ns": 51.839999999999996,
+   "total_ns": 90.55604231634683,
+   "SB": {
+    "1000": 0.2081082835434401,
+    "2000": 0.4161510884017618,
+    "3000": 0.6241284453666807
+   },
+   "dh_min_3sigma_m": 14408.397475913296,
+   "dims_mm": [
+    120,
+    120,
+    160
+   ],
+   "masse_kg": 3.0,
+   "puissance_W": 20,
+   "statut": "hypothèse de conception : gain ×300 sur l'environnement ; plancher : estimation"
+  },
+  "Césium à jet 5071A, tube standard": {
+   "bruit_ns": 20.031015950270724,
+   "environnement_ns": 0.0,
+   "total_ns": 20.031015950270724,
+   "SB": {
+    "1000": 0.9408141143578574,
+    "2000": 1.8813322132467478,
+    "3000": 2.8215544358695914
+   },
+   "dh_min_3sigma_m": 3187.1406068036613,
+   "dims_mm": [
+    425.5,
+    523.9,
+    133.4
+   ],
+   "masse_kg": 30,
+   "puissance_W": 50,
+   "statut": "dimensions et masse : fiche vérifiée par l'Équipe C ; bruit : paramètres de l'Équipe F"
+  },
+  "Césium à jet 5071A, tube haute performance": {
+   "bruit_ns": 5.562514539306843,
+   "environnement_ns": 0.0,
+   "total_ns": 5.562514539306843,
+   "SB": {
+    "1000": 3.38793946474618,
+    "2000": 6.774812956443928,
+    "3000": 10.160620976373
+   },
+   "dh_min_3sigma_m": 885.0532598133644,
+   "dims_mm": [
+    425.5,
+    523.9,
+    133.4
+   ],
+   "masse_kg": 30,
+   "puissance_W": 50,
+   "statut": "idem ; plancher ≤ 1e-14 vérifié par l'Équipe C"
+  },
+  "Horloge optique à iode, 35 L (Roslund et al. 2024)": {
+   "bruit_ns": 0.6,
+   "environnement_ns": 0.0,
+   "total_ns": 0.6,
+   "SB": {
+    "1000": 31.40910421823678,
+    "2000": 62.808325952172886,
+    "3000": 94.1976698491015
+   },
+   "dh_min_3sigma_m": 95.4661695058134,
+   "dims_mm": [
+    null,
+    null,
+    null
+   ],
+   "masse_kg": null,
+   "puissance_W": null,
+   "statut": "résumé de l'article : erreur de temps < 300 ps par jour en mer ; volume 35 L"
+  }
+ },
+ "essai_T6": {
+  "bruit_un_etalon_48h_ns": 3.9332917511926313,
+  "signal_1000m_48h_ns": 18.84546253094207,
+  "option_a_3_etalons_de_reference_au_sol": {
+   "bruit_ns": 3.211519266640012,
+   "SB": 5.868083285908092,
+   "cout_supplementaire_kEUR": 240,
+   "masse_hors_vehicule_kg": 90
+  },
+  "option_b_lien_GNSS, vue commune sur le code [estimation : 1 ns par comparaison]": {
+   "bruit_lien_par_comparaison_ns": 1.0,
+   "bruit_total_ns": 2.6752435403155355,
+   "SB": 7.044391378558123
+  },
+  "option_b_lien_GNSS, phase de la porteuse avec récepteurs étalonnés [estimation : 0,2 ns par comparaison]": {
+   "bruit_lien_par_comparaison_ns": 0.2,
+   "bruit_total_ns": 2.2884335253618358,
+   "SB": 8.23509283625021
+  }
+ }
+}

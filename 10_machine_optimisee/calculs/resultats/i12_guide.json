@@ -1,0 +1,53 @@
+{
+ "lite": {
+  "cout_bas": 351.0,
+  "cout_haut": 734.0,
+  "sans_muons": [
+   171.0,
+   414.0
+  ],
+  "un_detecteur": [
+   261.0,
+   574.0
+  ],
+  "puissance_W": 4.5,
+  "autonomie_h": 8.88888888888889
+ },
+ "protections": {
+  "puissance_totale_W": 57.38,
+  "courant_A": 5.27389705882353,
+  "fusible_general_A": 10
+ },
+ "synthese": [
+  [
+   "A",
+   "Réplique inerte du coffre",
+   "bricolage du bois, peinture",
+   "142",
+   "240",
+   "15 à 25",
+   "aucune fonction ; maquette de présentation",
+   "≈ 6 à 8 kg"
+  ],
+  [
+   "B",
+   "C204-R1 Lite",
+   "électronique d'amateur, programmation",
+   "351",
+   "734",
+   "40 à 80",
+   "calcule et affiche le décalage relativiste du trajet ; compare des oscillateurs ; vote à trois voies ; compte des muons ; ne mesure aucun effet relativiste",
+   "≈ 1 à 2 kg hors boîtier"
+  ],
+  [
+   "C",
+   "C204-R1 complet (configuration A, coffre seul)",
+   "électronique confirmée, mécanique, métrologie du temps",
+   "44055",
+   "63635",
+   "300 à 600",
+   "idem, avec quatre horloges atomiques miniatures, comparaison à mieux que 0,1 ns et gyromètre à fibre ; ne mesure toujours pas le décalage de son trajet",
+   "≈ 36 kg"
+  ]
+ ]
+}

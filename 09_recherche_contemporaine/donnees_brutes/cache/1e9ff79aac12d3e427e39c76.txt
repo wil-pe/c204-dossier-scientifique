@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xRyeQJ6OOErPsY+AUL2DYpDQ+28</id>
+  <title>arXiv Query: search_query=ti:GW231123&amp;id_list=&amp;start=0&amp;max_results=8</title>
+  <updated>2026-11-11T02:50:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:GW231123&amp;start=0&amp;max_results=8&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>
+  <opensearch:totalResults>42</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.14363v2</id>
+    <title>Is GW231123 a hierarchical merger?</title>
+    <updated>2026-03-27T01:45:13Z</updated>
+    <link href="https://arxiv.org/abs/2510.14363v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.14363v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The binary black hole merger GW231123 is both the most massive gravitational-wave event observed and has the highest component spins measured to date. The dimensionless spins of the more massive (primary) and less massive (secondary) black holes are measured to be $χ_1 = 0.90^{+0.10}_{-0.19}$ and $χ_2 = 0.80^{+0.20}_{-0.51}$ ($90\%$ credible intervals), respectively. Its large mass and extremal spins are challenging to explain through standard binary stellar physics, though a flurry of hypothetical scenarios have been proposed. Hierarchical assembly - i.e., mergers of black holes that are themselves formed from previous generations of mergers - is generally a promising way to explain massive and rapidly spinning black holes. Here, we investigate the possibility that GW231123 was assembled hierarchically in a dense star cluster as the merger of two second-generation black holes. Taking the inferred spin values at face value, we find that it is possible ($p\approx 5\%$) that a compact binary with component spins like GW231123 could form in a cluster from hierarchical assembly.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-16T06:58:59Z</published>
+    <arxiv:comment>9 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Lachlan Passenger</name>
+    </author>
+    <author>
+      <name>Sharan Banagiri</name>
+    </author>
+    <author>
+      <name>Eric Thrane</name>
+    </author>
+    <author>
+      <name>Paul D. Lasky</name>
+    </author>
+    <author>
+      <name>Angela Borchers</name>
+    </author>
+    <author>
+      <name>Maya Fishbach</name>
+    </author>
+    <author>
+      <name>Claire S. Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.21788v2</id>
+    <title>Superradiance Constraints from GW231123</title>
+    <updated>2026-03-27T13:17:27Z</updated>
+    <link href="https://arxiv.org/abs/2507.21788v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.21788v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gravitational wave observations have recently revealed with high significance, and high precision, the existence of $\mathcal{O}(100) \, M_\odot$ rapidly rotating black holes, allowing gravitational wave events to be used for the first time to probe unexplored axion parameter space using the phenomenon known as black hole superradiance. Here, we present new limits on axions using the binary black hole merger event GW231123, whose constituent black holes are among the fastest spinning observed with gravitational waves to date. We demonstrate that the most viable binary formation channels lead to conservative constraints on axion masses $μ\sim [0.6-5] \times \, 10^{-13}$ eV and decay constants $f_Φ\gtrsim 10^{14}$ GeV, extending existing superradiance constraints derived using x-ray observations to yet lower axion masses.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-29T13:20:04Z</published>
+    <arxiv:comment>v2: 18 pages, 8 figures. Published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Andrea Caputo</name>
+    </author>
+    <author>
+      <name>Gabriele Franciolini</name>
+    </author>
+    <author>
+      <name>Samuel J. Witte</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.07228v2</id>
+    <title>GW231123: extreme spins or microglitches?</title>
+    <updated>2025-10-09T13:43:41Z</updated>
+    <link href="https://arxiv.org/abs/2510.07228v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.07228v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recently reported binary black hole merger, GW231123, has unusual properties that make it hard to explain astrophysically. Parameter estimation studies are consistent with maximally spinning black holes and the dimensionless spin of the more massive component is constrained to be $χ_1\gtrsim 0.8$. Analysis of data also revealed potential systematics that could not be fully replicated with simulated studies. We explore the possibility that these measurements are biased due to unmodeled non-Gaussian noise in the detectors, and that the actual black hole spins are more modest. We present evidence for a population of \textit{microglitches} in LIGO gravitational-wave strain data that can lead to biases in the parameter estimation of short-duration signals such as GW231123. Using simulated data of a massive event like GW231123, we demonstrate how microglitches can bias our measurements of black hole spins toward $χ\approx1$ with negligible posterior support for the true value of $χ\approx0.7$. We develop a noise model to account for microglitches and show that this model successfully reduces biases in the recovery of signal parameters. We characterize the microglitch population in real interferometer data surrounding GW231123 and find a single detector glitch duty cycle of $0.57_{-0.19}^{+0.21}$, which implies nearly a $100\%$ probability that at least one event through the fourth gravitational wave transient catalog coincides with microglitches in two detectors. We argue that further investigations are required before we can have a confident picture of the astrophysical properties of GW231123.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-08T16:58:19Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Anarya Ray</name>
+    </author>
+    <author>
+      <name>Sharan Banagiri</name>
+    </author>
+    <author>
+      <name>Eric Thrane</name>
+    </author>
+    <author>
+      <name>Paul D. Lasky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.08298v1</id>
+    <title>The Hierarchical Merger Scenario for GW231123</title>
+    <updated>2025-09-10T05:36:59Z</updated>
+    <link href="https://arxiv.org/abs/2509.08298v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.08298v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GW231123 exhibits exceedingly massive components and high spins, which challenges the formation of first-generation (1G) black holes from stellar collapse and implies that this event might originate from hierarchical mergers. Here we show that the \texttt{2G+2G} merger scenario for GW231123 is favored over a \texttt{2G+1G} (or \texttt{3G+2G}) merger, with odds ratios of $&gt;$$\mathcal{O}(10^3)$. The primary (secondary) black hole is consistent with merging binary black holes with masses of $75^{+7}_{-7}\,M_\odot$ and $66^{+4}_{-10}\,M_\odot$ ($64^{+8}_{-10}\,M_\odot$ and $59^{+7}_{-9}\,M_\odot$; 90\% credible intervals), respectively. Our results reveal that the treatment of spin priors from the population level and waveform model choice are decisive in interpreting potential hierarchical gravitational-wave signals.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-10T05:36:59Z</published>
+    <arxiv:comment>Comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Guo-Peng Li</name>
+    </author>
+    <author>
+      <name>Xi-Long Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01615v2</id>
+    <title>Testing the wormhole echo hypothesis for GW231123</title>
+    <updated>2026-10-01T02:26:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.01615v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01615v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The short-duration gravitational-wave (GW) event GW231123 has component masses inferred to lie in the pair-instability mass gap and exhibits a burst-like morphology without a clear inspiral phase, making it an interesting target for testing alternatives to the standard binary black hole (BBH) interpretation. Motivated by its phenomenological similarity to GW190521, we test a wormhole-echo interpretation by modeling a leading echo pulse with a phenomenological \texttt{sine-Gaussian} wavepacket. Bayesian model comparison against a BBH interpretation described by the \texttt{IMRPhenomXPHM-SpinTaylor} waveform yields $\ln \mathcal{B}^{\rm Echo}_{\rm BBH}=1.87$. This preference is sensitive to the BBH waveform family and Echo-prior choices, and the observed statistic is not unusual within the targeted BBH-null ensembles. The positive Bayes factor therefore does not provide robust evidence for a wormhole-echo interpretation, with the analyses considered here supporting the standard BBH interpretation of GW231123.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T04:06:40Z</published>
+    <arxiv:comment>26 pages, 7 figures and 5 tables</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Qi Lai</name>
+    </author>
+    <author>
+      <name>Qing-Yu Lan</name>
+    </author>
+    <author>
+      <name>Zhan-He Wang</name>
+    </author>
+    <author>
+      <name>Yun-Song Piao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.16425v1</id>
+    <title>Polarization Birefringence and Waveform Systematics in GW231123</title>
+    <updated>2026-05-14T15:23:15Z</updated>
+    <link href="https://arxiv.org/abs/2605.16425v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.16425v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GW231123 is a short, massive binary-black-hole event whose source properties show strong waveform dependence. We use this event to test gravitational-wave polarization birefringence, modeled as a frequency-dependent rotation of the tensor-polarization basis. Instead of sampling a distance-normalized coefficient directly, we sample the band-differential rotation $δ_{\rm br}=Δ(448\,\mathrm{Hz})-Δ(20\,\mathrm{Hz})$ with prior $[-π,π]$, and report the derived coefficient $β_{\rm br}^{\rm derived}$ for comparison with standard propagation parametrizations. We analyze three waveform families: IMRPhenomXPHM (XPHM), IMRPhenomXO4a (XO4a), and NRSur7dq4. The derived posteriors are consistent with the general relativity value, giving $90\%$ upper limits $|β_{\rm br}^{\rm derived}|_{90}=0.378,\,0.097,\,0.273$ for XPHM, XO4a, and NRSur7dq4, respectively. The directly sampled $δ_{\rm br}$ posterior remains broad, with $|δ_{\rm br}|_{90}\simeq2.8\,\mathrm{rad}$, so the accumulated rotation across the analysis band is weakly constrained. The Bayes factors are waveform dependent: $\ln\mathcal{B}_{\rm br/GR}=-1.26\pm0.30$, $+3.64\pm0.28$, and $-0.86\pm0.29$, respectively. We therefore find no waveform-robust evidence for parity-violating propagation. The positive XO4a result is better interpreted as a waveform-dependent birefringence-like response associated with the mass-ratio--distance--spin degeneracy of this short high-mass event.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-14T15:23:15Z</published>
+    <arxiv:comment>9 pages, 4 figures, comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Tonghua Liu</name>
+    </author>
+    <author>
+      <name>Chenggang Shao</name>
+    </author>
+    <author>
+      <name>Kai Liao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.10088v2</id>
+    <title>Can GW231123 have a stellar origin?</title>
+    <updated>2026-02-18T11:56:54Z</updated>
+    <link href="https://arxiv.org/abs/2508.10088v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.10088v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The gravitational wave event GW231123 detected by the LIGO interferometers during their fourth observing run features two black holes with source-frame masses of $137^{+23}_{-18} M_\odot$ and $101^{+22}_{-50} M_\odot$ -- in the range of the pair-instability black hole mass gap predicted by standard stellar evolution theory. Both black holes are also inferred to be rapidly spinning ($χ_1 \simeq 0.9$, $χ_2 \simeq 0.8$). The primary object in GW231123 is the heaviest stellar mass black hole detected to date, which, together with its extreme rotation, raises questions about its astrophysical origin. Accounting for the unusually large spin of $\sim 0.9$ with hierarchical mergers requires some degree of fine tuning. We investigate whether such a massive, highly spinning object could plausibly form from the collapse of a single rotating massive star. We simulate stars with an initial core mass of $160\,M_\odot$ -- sufficient to produce BH masses at the upper edge of the 90\% credible interval for $m_1$ in GW231123 -- across a range of rotation rates and $^{12}\mathrm{C}(α,γ)^{16}\mathrm{O}$ reaction rates. We allow for differential rotation to explore the high-spin regime. In this limit of weak angular momentum transport, we find that: (i) rotation shifts the pair-instability mass gap to higher masses, introducing an important correlation between masses and spins in gravitational wave predictions; and (ii) highly spinning BHs with masses $\gtrsim 150 \rm M_\odot$ can form above the mass gap. Our results suggest that the primary object of GW231123 may be the first directly observed black hole that formed via direct core collapse following the photodisintegration instability.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-13T18:00:00Z</published>
+    <arxiv:comment>5 pages, 2 figures. Updated to version published in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>Mon Not R Astron Soc (2026)</arxiv:journal_ref>
+    <author>
+      <name>Djuna Croon</name>
+    </author>
+    <author>
+      <name>Davide Gerosa</name>
+    </author>
+    <author>
+      <name>Jeremy Sakstein</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/stag073</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stag073" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.05634v2</id>
+    <title>On the Formation of GW231123 in Population III Star Clusters</title>
+    <updated>2025-11-02T08:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2510.05634v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.05634v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GW231123 is a binary black hole merger whose primary component lies within or above the pair-instability mass gap, while the secondary component falls within this gap. The standard theory of stellar evolution is significantly challenged by this event. We investigate the formation of candidate progenitors of GW231123 in Population III (Pop III) star clusters. We find that they could form through stellar mergers, binary black hole mergers, and mixed mergers. The mass distribution of these candidate progenitors covers the component masses of GW231123. Under our model assumptions, their predicted merger rate density spans the range of $0.001-0.26{\rm Gpc^{-3}yr^{-1}}$, encompassing that of GW231123. These findings suggest that GW231123 may originate from Pop III star clusters. Furthermore, such candidate progenitors are expected to be detectable by future gravitational wave detectors LISA/Taiji/TianQin/DECIGO/Cosmic Explorer/Einstein Telescope, which would provide valuable insights into the formation scenarios of events like GW231123.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-07T07:35:28Z</published>
+    <arxiv:comment>8 pages, 4 figures, and 1 table. Published in ApJL</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>ApJL, 993 (2025) L30</arxiv:journal_ref>
+    <author>
+      <name>Shuai Liu</name>
+    </author>
+    <author>
+      <name>Long Wang</name>
+    </author>
+    <author>
+      <name>Ataru Tanikawa</name>
+    </author>
+    <author>
+      <name>Weiwei Wu</name>
+    </author>
+    <author>
+      <name>Michiko S. Fujii</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/ae1024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/ae1024" title="doi"/>
+  </entry>
+</feed>

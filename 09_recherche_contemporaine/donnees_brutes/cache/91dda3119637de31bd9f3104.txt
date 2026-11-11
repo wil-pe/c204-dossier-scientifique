@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TEynEJHcUryxT/jlrrQiVq8h4g0</id>
+  <title>arXiv Query: search_query=&amp;id_list=hep-ph/9803315,hep-th/9808138,hep-ph/9905221,hep-th/9906038,hep-ph/9910333,hep-ph/0106295,hep-ph/0106219,gr-qc/0201034,hep-ph/0402168,0908.1780,1210.0443,0806.3381,0806.3414,1012.3375,1705.01403,1805.06013,1512.02586,1606.02265,1910.08447,1203.4683&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:48:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=hep-ph/9803315,hep-th/9808138,hep-ph/9905221,hep-th/9906038,hep-ph/9910333,hep-ph/0106295,hep-ph/0106219,gr-qc/0201034,hep-ph/0402168,0908.1780,1210.0443,0806.3381,0806.3414,1012.3375,1705.01403,1805.06013,1512.02586,1606.02265,1910.08447,1203.4683" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1606.02265v1</id>
+    <title>Search for TeV-scale gravity signatures in high-mass final states with leptons and jets with the ATLAS detector at $\sqrt{s}=13$ TeV</title>
+    <updated>2016-06-07T19:00:10Z</updated>
+    <link href="https://arxiv.org/abs/1606.02265v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.02265v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A search for physics beyond the Standard Model, in final states with at least one high transverse momentum charged lepton (electron or muon) and two additional high transverse momentum leptons or jets, is performed using 3.2 fb$^{-1}$ of proton--proton collision data recorded by the ATLAS detector at the Large Hadron Collider in 2015 at $\sqrt{s}=13$ TeV. The upper end of the distribution of the scalar sum of the transverse momenta of leptons and jets is sensitive to the production of high-mass objects. No excess of events beyond Standard Model predictions is observed. Exclusion limits are set for models of microscopic black holes with two to six extra dimensions.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-07T19:00:10Z</published>
+    <arxiv:comment>12 pages plus author list + cover pages (30 pages total), 3 figures, 2 tables, submitted to Phys. Lett. B, All figures including auxiliary figures are available at http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2015-14/</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Physics Letters B 760 (2016) 520-537</arxiv:journal_ref>
+    <author>
+      <name> ATLAS Collaboration</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2016.07.030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2016.07.030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.02586v2</id>
+    <title>Search for strong gravity in multijet final states produced in pp collisions at $\sqrt{s} =$ 13 TeV using the ATLAS detector at the LHC</title>
+    <updated>2016-03-15T01:03:56Z</updated>
+    <link href="https://arxiv.org/abs/1512.02586v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.02586v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A search is conducted for new physics in multijet final states using 3.6 inverse femtobarns of data from proton-proton collisions at $\sqrt{s}$ = 13 TeV taken at the CERN Large Hadron Collider with the ATLAS detector. Events are selected containing at least three jets with scalar sum of jet transverse momenta ($H_T$) greater than 1 TeV. No excess is seen at large $H_T$ and limits are presented on new physics: models which produce final states containing at least three jets and having cross sections larger than 1.6 fb with $H_T$ &gt; 5.8 TeV are excluded. Limits are also given in terms of new physics models of strong gravity that hypothesize additional space-time dimensions.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-08T18:53:22Z</published>
+    <arxiv:comment>23 pages plus author list + cover pages (40 pages total), 11 figures, 6 tables, submitted to JHEP, All figures including auxiliary figures are available at https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2015-09/</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>JHEP 03 (2016) 026</arxiv:journal_ref>
+    <author>
+      <name> ATLAS Collaboration</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP03(2016)026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP03(2016)026" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9905221v1</id>
+    <title>A Large Mass Hierarchy from a Small Extra Dimension</title>
+    <updated>1999-05-04T01:43:58Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9905221v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9905221v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a new higher-dimensional mechanism for solving the Hierarchy Problem. The Weak scale is generated from a large scale of order the Planck scale through an exponential hierarchy. However, this exponential arises not from gauge interactions but from the background metric (which is a slice of AdS_5 spacetime). This mechanism relies on the existence of only a single additional dimension. We demonstrate a simple explicit example of this mechanism with two three-branes, one of which contains the Standard Model fields. The experimental consequences of this scenario are new and dramatic. There are fundamental spin-2 excitations with mass of weak scale order, which are coupled with weak scale as opposed to gravitational strength to the standard model particles. The phenomenology of these models is quite distinct from that of large extra dimension scenarios; none of the current constraints on theories with very large extra dimensions apply.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-05-04T01:43:58Z</published>
+    <arxiv:comment>9 pages, LaTex</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.83:3370-3373,1999</arxiv:journal_ref>
+    <author>
+      <name>Lisa Randall</name>
+    </author>
+    <author>
+      <name>Raman Sundrum</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.83.3370</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.83.3370" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.08447v2</id>
+    <title>Search for new resonances in mass distributions of jet pairs using 139 fb$^{-1}$ of $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector</title>
+    <updated>2020-07-02T12:29:45Z</updated>
+    <link href="https://arxiv.org/abs/1910.08447v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.08447v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A search for new resonances decaying into a pair of jets is reported using the dataset of proton-proton collisions recorded at $\sqrt{s}=13$ TeV with the ATLAS detector at the Large Hadron Collider between 2015 and 2018, corresponding to an integrated luminosity of 139 fb$^{-1}$. The distribution of the invariant mass of the two leading jets is examined for local excesses above a data-derived estimate of the Standard Model background. In addition to an inclusive dijet search, events with jets identified as containing $b$-hadrons are examined specifically. No significant excess of events above the smoothly falling background spectra is observed. The results are used to set cross-section upper limits at 95% confidence level on a range of new physics scenarios. Model-independent limits on Gaussian-shaped signals are also reported. The analysis looking at jets containing $b$-hadrons benefits from improvements in the jet flavour identification at high transverse momentum, which increases its sensitivity relative to the previous analysis beyond that expected from the higher integrated luminosity.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-18T14:41:33Z</published>
+    <arxiv:comment>39 pages in total, author list starting page 23, 9 figures, 2 tables, submitted to JHEP. All figures including auxiliary figures are available at http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2019-03/</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>JHEP 03 (2020) 145</arxiv:journal_ref>
+    <author>
+      <name> ATLAS Collaboration</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP03(2020)145</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP03(2020)145" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0908.1780v2</id>
+    <title>Ultra Relativistic Particle Collisions</title>
+    <updated>2010-07-12T03:33:23Z</updated>
+    <link href="https://arxiv.org/abs/0908.1780v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.1780v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present results from numerical solution of the Einstein field equations describing the head-on collision of two solitons boosted to ultra relativistic energies. We show, for the first time, that at sufficiently high energies the collision leads to black hole formation, consistent with hoop conjecture arguments. This implies that the non-linear gravitational interaction between the kinetic energy of the solitons causes gravitational collapse, and that arguments for black hole formation in super-Planck scale particle collisions are robust.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-12T19:42:21Z</published>
+    <arxiv:comment>4 pages, 2 figures (replaced with version similar to published one)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.104:111101,2010</arxiv:journal_ref>
+    <author>
+      <name>Matthew W. Choptuik</name>
+    </author>
+    <author>
+      <name>Frans Pretorius</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.104.111101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.104.111101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.3375v1</id>
+    <title>Search for Microscopic Black Hole Signatures at the Large Hadron Collider</title>
+    <updated>2010-12-15T16:19:21Z</updated>
+    <link href="https://arxiv.org/abs/1012.3375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.3375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A search for microscopic black hole production and decay in pp collisions at a center-of-mass energy of 7 TeV has been conducted by the CMS Collaboration at the LHC, using a data sample corresponding to an integrated luminosity of 35 inverse picobarns. Events with large total transverse energy are analyzed for the presence of multiple high-energy jets, leptons, and photons, typical of a signal expected from a microscopic black hole. Good agreement with the expected standard model backgrounds, dominated by QCD multijet production, is observed for various final-state multiplicities. Limits on the minimum black hole mass are set, in the range 3.5 -- 4.5 TeV, for a variety of parameters in a model with large extra dimensions, along with model-independent limits on new physics in these final states. These are the first direct limits on black hole production at a particle accelerator.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-15T16:19:21Z</published>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Phys. Lett. B 697 (2011) 434</arxiv:journal_ref>
+    <author>
+      <name> CMS Collaboration</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2011.02.032</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2011.02.032" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.3381v2</id>
+    <title>Astrophysical implications of hypothetical stable TeV-scale black holes</title>
+    <updated>2008-09-23T09:50:15Z</updated>
+    <link href="https://arxiv.org/abs/0806.3381v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.3381v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We analyze macroscopic effects of TeV-scale black holes, such as could possibly be produced at the LHC, in what is regarded as an extremely hypothetical scenario in which they are stable and, if trapped inside Earth, begin to accrete matter. We examine a wide variety of TeV-scale gravity scenarios, basing the resulting accretion models on first-principles, basic, and well-tested physical laws. These scenarios fall into two classes, depending on whether accretion could have any macroscopic effect on the Earth at times shorter than the Sun's natural lifetime. We argue that cases with such effect at shorter times than the solar lifetime are ruled out, since in these scenarios black holes produced by cosmic rays impinging on much denser white dwarfs and neutron stars would then catalyze their decay on timescales incompatible with their known lifetimes. We also comment on relevant lifetimes for astronomical objects that capture primordial black holes. In short, this study finds no basis for concerns that TeV-scale black holes from the LHC could pose a risk to Earth on time scales shorter than the Earth's natural lifetime. Indeed, conservative arguments based on detailed calculations and the best-available scientific knowledge, including solid astronomical data, conclude, from multiple perspectives, that there is no risk of any significance whatsoever from such black holes.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-20T12:57:24Z</published>
+    <arxiv:comment>Version2: Minor corrections/fixed typos; updated references</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D78:035009,2008</arxiv:journal_ref>
+    <author>
+      <name>Steven B. Giddings</name>
+    </author>
+    <author>
+      <name>Michelangelo M. Mangano</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.78.035009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.78.035009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9910333v3</id>
+    <title>Review of Speculative "Disaster Scenarios" at RHIC</title>
+    <updated>2000-07-14T21:19:28Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9910333v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9910333v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss speculative disaster scenarios inspired by hypothetical new fundamental processes that might occur in high energy relativistic heavy ion collisions. We estimate the parameters relevant to black hole production; we find that they are absurdly small. We show that other accelerator and (especially) cosmic ray environments have already provided far more auspicious opportunities for transition to a new vacuum state, so that existing observations provide stringent bounds. We discuss in most detail the possibility of producing a dangerous strangelet. We argue that four separate requirements are necessary for this to occur: existence of large stable strangelets, metastability of intermediate size strangelets, negative charge for strangelets along the stability line, and production of intermediate size strangelets in the heavy ion environment. We discuss both theoretical and experimental reasons why each of these appears unlikely; in particular, we know of no plausible suggestion for why the third or especially the fourth might be true. Given minimal physical assumptions the continued existence of the Moon, in the form we know it, despite billions of years of cosmic ray exposure, provides powerful empirical evidence against the possibility of dangerous strangelet production.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-10-13T20:22:41Z</published>
+    <arxiv:comment>28 pages, REVTeX; minor revisions for publication (Reviews of Modern Physics, ca. Oct. 2000); email to jaffe@mit.edu</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Rev.Mod.Phys.72:1125-1140,2000</arxiv:journal_ref>
+    <author>
+      <name>R. L. Jaffe</name>
+    </author>
+    <author>
+      <name>W. Busza</name>
+    </author>
+    <author>
+      <name>J. Sandweiss</name>
+    </author>
+    <author>
+      <name>F. Wilczek</name>
+    </author>
+    <arxiv:doi>10.1103/RevModPhys.72.1125</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/RevModPhys.72.1125" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9803315v1</id>
+    <title>The Hierarchy Problem and New Dimensions at a Millimeter</title>
+    <updated>1998-03-11T23:45:15Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9803315v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9803315v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a new framework for solving the hierarchy problem which does not rely on either supersymmetry or technicolor. In this framework, the gravitational and gauge interactions become united at the weak scale, which we take as the only fundamental short distance scale in nature. The observed weakness of gravity on distances $\gsim$ 1 mm is due to the existence of $n \geq 2$ new compact spatial dimensions large compared to the weak scale. The Planck scale $M_{Pl} \sim G_N^{-1/2}$ is not a fundamental scale; its enormity is simply a consequence of the large size of the new dimensions. While gravitons can freely propagate in the new dimensions, at sub-weak energies the Standard Model (SM) fields must be localized to a 4-dimensional manifold of weak scale "thickness" in the extra dimensions. This picture leads to a number of striking signals for accelerator and laboratory experiments. For the case of $n=2$ new dimensions, planned sub-millimeter measurements of gravity may observe the transition from $1/r^2 \to 1/r^4$ Newtonian gravitation. For any number of new dimensions, the LHC and NLC could observe strong quantum gravitational interactions. Furthermore, SM particles can be kicked off our 4 dimensional manifold into the new dimensions, carrying away energy, and leading to an abrupt decrease in events with high transverse momentum $p_T \gsim$ TeV. For certain compact manifolds, such particles will keep circling in the extra dimensions, periodically returning, colliding with and depositing energy to our four dimensional vacuum with frequencies of $ \sim 10^{12}$ Hz or larger. As a concrete illustration, we construct a model with SM fields localised on the 4-dimensional throat of a vortex in 6 dimensions, with a Pati-Salam gauge symmetry $SU(4) \times SU(2) \times SU(2)$ in the bulk.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-03-11T23:45:15Z</published>
+    <arxiv:comment>16 pages, latex, no figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B429:263-272,1998</arxiv:journal_ref>
+    <author>
+      <name>Nima Arkani-Hamed</name>
+    </author>
+    <author>
+      <name>Savas Dimopoulos</name>
+    </author>
+    <author>
+      <name>Gia Dvali</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(98)00466-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(98)00466-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.4683v1</id>
+    <title>Black holes and the LHC: A review</title>
+    <updated>2012-03-21T09:04:42Z</updated>
+    <link href="https://arxiv.org/abs/1203.4683v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.4683v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In low-scale gravity models, a particle collider with trans-Planckian collision energies can be an ideal place for producing black holes because a large amount of energy can be concentrated at the collision point, which can ultimately lead to black hole formation. In this article, the theoretical foundation for microscopic higher dimensional black holes is reviewed and the possible production and detection at the LHC is described and critically examined.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-21T09:04:42Z</published>
+    <arxiv:comment>65 pages, invited review article to be published in Progress of Particle and Nuclear Physics</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Seong Chan Park</name>
+    </author>
+    <arxiv:doi>10.1016/j.ppnp.2012.03.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ppnp.2012.03.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9906038v1</id>
+    <title>A Model for High Energy Scattering in Quantum Gravity</title>
+    <updated>1999-06-04T15:02:44Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9906038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9906038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a model for high energy two body scattering in a quantum theory of gravity. The model is applicable for center of mass energies higher than the relevant Planck scale. At impact parameters smaller than the Schwarzchild radius appropriate to the center of mass energy and total charge of the initial state, the cross section is dominated by an inelastic process in which a single large black hole is formed. The black hole then decays by Hawking radiation. The elastic cross section is highly suppressed at these impact parameters because of the small phase space for thermal decay into a high energy two body state. For very large impact parameter the amplitude is dominated by eikonalized single graviton exchange. At intermediate impact parameters the scattering is more complicated, but since the Schwarzchild radius grows with energy, we speculate that a more sophisticated eikonal calculation which uses the nonlinear classical solutions of the field equations may provide a good approximation at all larger impact parameters. We discuss the extent to which black hole production will be observable in theories with low scale quantum gravity and large dimensions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-06-04T15:02:44Z</published>
+    <arxiv:comment>JHEP LaTeX, 12 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Tom Banks</name>
+    </author>
+    <author>
+      <name>Willy Fischler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0402168v2</id>
+    <title>Black Holes in Theories with Large Extra Dimensions: a Review</title>
+    <updated>2004-12-15T11:11:34Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0402168v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0402168v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We start by reviewing the existing literature on the creation of black holes during high-energy particle collisions, both in the absence and in the presence of extra, compact, spacelike dimensions. Then, we discuss in detail the properties of the produced higher-dimensional black holes, namely the horizon radius, temperature and life-time, as well as the physics that governs the evaporation of these objects, through the emission of Hawking radiation. We first study the emission of visible Hawking radiation on the brane: we derive a master equation for the propagation of fields with arbitrary spin in the induced-on-the-brane black hole background, and we review all existing results in the literature for the emission of scalars, fermions and gauge bosons during the spin-down and Schwarzschild phases of the life of the black hole. Both analytical and numerical results for the greybody factors and radiation spectra are reviewed and exact results for the number and type of fields emitted on the brane as a function of the dimensionality of spacetime are discussed. We finally study the emission of Hawking radiation in the bulk: greybody factors and radiation spectra are presented for the emission of scalar modes, and the ratio of the missing energy over the visible one is calculated for different values of the number of extra dimensions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-17T18:17:11Z</published>
+    <arxiv:comment>53 pages, 17 figures, Latex file, invited review to appear in the International Journal of Modern Physics A, typos corrected, references added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Int.J.Mod.Phys.A19:4899-4951,2004</arxiv:journal_ref>
+    <author>
+      <name>Panagiota Kanti</name>
+    </author>
+    <arxiv:doi>10.1142/S0217751X04018324</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217751X04018324" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0201034v2</id>
+    <title>Classical Black Hole Production in High-Energy Collisions</title>
+    <updated>2002-04-19T20:29:29Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0201034v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0201034v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate classical formation of a D-dimensional black hole in a high energy collision of two particles. The existence of an apparent horizon is related to the solution of an unusual boundary-value problem for Poisson's equation in flat space. For sufficiently small impact parameter, we construct solutions giving such apparent horizons in D=4. These supply improved estimates of the classical cross-section for black hole production, and of the mass of the resulting black holes. We also argue that a horizon can be found in a region of weak curvature, suggesting that these solutions are valid starting points for a semiclassical analysis of quantum black hole formation.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-10T18:39:28Z</published>
+    <arxiv:comment>16 pages, 1 figure, RevTeX4. v2: references and acknowledgements updated</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev. D66 (2002) 044011</arxiv:journal_ref>
+    <author>
+      <name>Douglas M. Eardley</name>
+    </author>
+    <author>
+      <name>Steven B. Giddings</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.66.044011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.66.044011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.06013v2</id>
+    <title>Search for black holes and sphalerons in high-multiplicity final states in proton-proton collisions at $\sqrt{s} =$ 13 TeV</title>
+    <updated>2018-11-14T20:03:53Z</updated>
+    <link href="https://arxiv.org/abs/1805.06013v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.06013v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A search in energetic, high-multiplicity final states for evidence of physics beyond the standard model, such as black holes, string balls, and electroweak sphalerons, is presented. The data sample corresponds to an integrated luminosity of 35.9 fb$^{-1}$ collected with the CMS experiment at the LHC in proton-proton collisions at a center-of-mass energy of 13 TeV in 2016. Standard model backgrounds, dominated by multijet production, are determined from control regions in data without any reliance on simulation. No evidence for excesses above the predicted background is observed. Model-independent 95% confidence level upper limits on the cross section of beyond the standard model signals in these final states are set and further interpreted in terms of limits on semiclassical black hole, string ball, and sphaleron production. In the context of models with large extra dimensions, semiclassical black holes with minimum masses as high as 10.1 TeV and string balls with masses as high as 9.5 TeV are excluded by this search. Results of the first dedicated search for electroweak sphalerons are presented. An upper limit of 0.021 is set on the fraction of all quark-quark interactions above the nominal threshold energy of 9 TeV resulting in the sphaleron transition.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-15T19:56:19Z</published>
+    <arxiv:comment>Replaced with the published version. Added the journal reference and the DOI. All the figures and tables can be found at http://cms-results.web.cern.ch/cms-results/public-results/publications/EXO-17-023 (CMS Public Pages)</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>JHEP 11 (2018) 042</arxiv:journal_ref>
+    <author>
+      <name> CMS Collaboration</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP11(2018)042</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP11(2018)042" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0106295v1</id>
+    <title>Black Holes at the LHC</title>
+    <updated>2001-06-27T19:37:51Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0106295v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0106295v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  If the scale of quantum gravity is near a TeV, the LHC will be producing one black hole (BH) about every second. The BH decays into prompt, hard photons and charged leptons is a clean signature with low background. The absence of significant missing energy allows the reconstruction of the mass of the decaying BH. The correlation between the BH mass and its temperature, deduced from the energy spectrum of the decay products, can test experimentally the higher dimensional Hawking evaporation law. It can also determine the number of large new dimensions and the scale of quantum gravity.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-27T19:37:51Z</published>
+    <arxiv:comment>5 pages, 3 figures, submitted to PRL. Results presented at the Les Houches Workshop "Physics at the TeV Colliders" (May 30, 2001) and the "Avatars of M-Theory" conference, ITP at Santa Barbara (June 7, 2001), http://online.itp.ucsb.edu/online/mtheory_c01/dimopoulos</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.87:161602,2001</arxiv:journal_ref>
+    <author>
+      <name>Savas Dimopoulos</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Greg Landsberg</name>
+      <arxiv:affiliation>Brown University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.87.161602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.87.161602" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.0443v2</id>
+    <title>Ultrarelativistic black hole formation</title>
+    <updated>2013-02-20T17:15:40Z</updated>
+    <link href="https://arxiv.org/abs/1210.0443v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.0443v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the ultrarelativistic head-on collision of equal mass particles, modeled as self-gravitating fluid spheres, by numerically solving the coupled Einstein-hydrodynamic equations. We focus on cases well within the kinetic energy dominated regime, where between 88-92% ($γ=8$ to 12) of the initial net energy of the spacetime resides in the translation kinetic energy of the particles. We find that for sufficiently large boosts, black hole formation occurs. Moreover, near yet above the threshold of black hole formation, the collision initially leads to the formation of two distinct apparent horizons that subsequently merge. We argue that this can be understood in terms of a focusing effect, where one boosted particle acts as a gravitational lens on the other and vice versa, and that this is further responsible for the threshold being lower (by a factor of a few) compared to simple hoop conjecture estimates. Cases slightly below threshold result in complete disruption of the model particles. The gravitational radiation emitted when black holes form reaches luminosities of 0.014 $c^5/G$, carrying $16\pm2%$ of the total energy.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-01T15:42:31Z</published>
+    <arxiv:comment>5 pages, 4 figures; revised to match PRL version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 110, 101101 (2013)</arxiv:journal_ref>
+    <author>
+      <name>William E. East</name>
+    </author>
+    <author>
+      <name>Frans Pretorius</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.110.101101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.110.101101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0106219v4</id>
+    <title>High Energy Colliders as Black Hole Factories: The End of Short Distance Physics</title>
+    <updated>2002-06-26T02:27:54Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0106219v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0106219v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  If the fundamental Planck scale is of order a TeV, as the case in some extra-dimensions scenarios, future hadron colliders such as the Large Hadron Collider will be black hole factories. The non-perturbative process of black hole formation and decay by Hawking evaporation gives rise to spectacular events with up to many dozens of relatively hard jets and leptons, with a characteristic ratio of hadronic to leptonic activity of roughly 5:1. The total transverse energy of such events is typically a sizeable fraction of the beam energy. Perturbative hard scattering processes at energies well above the Planck scale are cloaked behind a horizon, thus limiting the ability to probe short distances. The high energy black hole cross section grows with energy at a rate determined by the dimensionality and geometry of the extra dimensions. This dependence therefore probes the extra dimensions at distances larger than the Planck scale.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-19T22:58:46Z</published>
+    <arxiv:comment>Latex, 28 pages. v4: minor changes, largely to agree with published version; appendix added comparing conventions</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D65 (2002) 056010</arxiv:journal_ref>
+    <author>
+      <name>Steven B. Giddings</name>
+    </author>
+    <author>
+      <name>Scott Thomas</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.65.056010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.65.056010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9808138v1</id>
+    <title>Black Holes and Sub-millimeter Dimensions</title>
+    <updated>1998-08-21T22:54:25Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9808138v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9808138v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recently, a new framework for solving the hierarchy problem was proposed which does not rely on low energy supersymmetry or technicolor. The fundamental Planck mass is at a TeV and the observed weakness of gravity at long distances is due the existence of new sub-millimeter spatial dimensions. In this letter, we study how the properties of black holes are altered in these theories. Small black holes---with Schwarzschild radii smaller than the size of the new spatial dimensions---are quite different. They are bigger, colder, and longer-lived than a usual $(3+1)$-dimensional black hole of the same mass. Furthermore, they primarily decay into harmless bulk graviton modes rather than standard-model degrees of freedom. We discuss the interplay of our scenario with the holographic principle. Our results also have implications for the bounds on the spectrum of primordial black holes (PBHs) derived from the photo-dissociation of primordial nucleosynthesis products, distortion of the diffuse gamma-ray spectrum, overclosure of the universe, gravitational lensing, as well as the phenomenology of black hole production. For example, the bound on the spectral index of the primordial spectrum of density perturbations is relaxed from 1.25 to 1.45-1.60 depending on the epoch of the PBH formation. In these scenarios PBHs provide interesting dark matter candidates; for 6 extra dimensions MACHO candidates with mass $\sim 0.1M_\odot$ can arise. For 2 or 3 extra dimensions PBHs with mass $\sim 2000 M_\odot$ can occur and may act as both dark matter and seeds for early galaxy and QSO formation.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-08-21T22:54:25Z</published>
+    <arxiv:comment>LaTeX, 13 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett. B441 (1998) 96-104</arxiv:journal_ref>
+    <author>
+      <name>Philip C. Argyres</name>
+    </author>
+    <author>
+      <name>Savas Dimopoulos</name>
+    </author>
+    <author>
+      <name>John March-Russell</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(98)01184-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(98)01184-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.01403v2</id>
+    <title>Search for black holes and other new phenomena in high-multiplicity final states in proton-proton collisions at sqrt(s) = 13 TeV</title>
+    <updated>2017-12-15T21:08:34Z</updated>
+    <link href="https://arxiv.org/abs/1705.01403v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.01403v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A search for new physics in energetic, high-multiplicity final states has been performed using proton-proton collision data collected with the CMS detector at a center-of-mass energy of 13 TeV and corresponding to an integrated luminosity of 2.3 inverse femtobarns. The standard model background, dominated by multijet production, is determined exclusively from control regions in data. No statistically significant excess of events is observed. Model-independent limits on the product of the cross section and the acceptance of a new physics signal in these final states are set and further interpreted in terms of limits on the production of black holes. Semiclassical black holes and string balls with masses as high as 9.5 TeV, and quantum black holes with masses as high as 9.0 TeV are excluded by this search in the context of models with extra dimensions, thus significantly extending limits set at a center-of-mass energy of 8 TeV with the LHC Run 1 data.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-03T13:18:43Z</published>
+    <arxiv:comment>Replaced with the published version. Added the journal reference and DOI. All the figures and tables can be found at http://cms-results.web.cern.ch/cms-results/public-results/publications/EXO-15-007 (CMS Public Pages)</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Phys. Lett. B 774 (2017) 279</arxiv:journal_ref>
+    <author>
+      <name> CMS Collaboration</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2017.09.053</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2017.09.053" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.3414v2</id>
+    <title>Review of the Safety of LHC Collisions</title>
+    <updated>2008-09-18T14:21:37Z</updated>
+    <link href="https://arxiv.org/abs/0806.3414v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.3414v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The safety of collisions at the Large Hadron Collider (LHC) was studied in 2003 by the LHC Safety Study Group, who concluded that they presented no danger. Here we review their 2003 analysis in light of additional experimental results and theoretical understanding, which enable us to confirm, update and extend the conclusions of the LHC Safety Study Group. The LHC reproduces in the laboratory, under controlled conditions, collisions at centre-of-mass energies less than those reached in the atmosphere by some of the cosmic rays that have been bombarding the Earth for billions of years. We recall the rates for the collisions of cosmic rays with the Earth, Sun, neutron stars, white dwarfs and other astronomical bodies at energies higher than the LHC. The stability of astronomical bodies indicates that such collisions cannot be dangerous. Specifically, we study the possible production at the LHC of hypothetical objects such as vacuum bubbles, magnetic monopoles, microscopic black holes and strangelets, and find no associated risks. Any microscopic black holes produced at the LHC are expected to decay by Hawking radiation before they reach the detector walls. If some microscopic black holes were stable, those produced by cosmic rays would be stopped inside the Earth or other astronomical bodies. The stability of astronomical bodies constrains strongly the possible rate of accretion by any such microscopic black holes, so that they present no conceivable danger. In the case of strangelets, the good agreement of measurements of particle production at RHIC with simple thermodynamic models constrains severely the production of strangelets in heavy-ion collisions at the LHC, which also present no danger.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-20T15:30:29Z</published>
+    <arxiv:comment>This revised version incorporates the "Addendum on strangelets" as Appendix, and updates the bibliography</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>J.Phys.G35:115004,2008</arxiv:journal_ref>
+    <author>
+      <name>J. Ellis</name>
+    </author>
+    <author>
+      <name>G. Giudice</name>
+    </author>
+    <author>
+      <name>M. L. Mangano</name>
+    </author>
+    <author>
+      <name>I. Tkachev</name>
+    </author>
+    <author>
+      <name>U. Wiedemann</name>
+    </author>
+    <arxiv:doi>10.1088/0954-3899/35/11/115004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0954-3899/35/11/115004" title="doi"/>
+  </entry>
+</feed>

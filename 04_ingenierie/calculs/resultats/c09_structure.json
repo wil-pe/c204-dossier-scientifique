@@ -1,0 +1,397 @@
+{
+  "unite_227kg": {
+    "poids_N": 2224.11080763025,
+    "fraction_charge_utile": [
+      0.15119745666666667,
+      0.32399455
+    ],
+    "masse_volumique_moyenne_kg_m3": 3600.7967770103996,
+    "masse_volumique_sur_volume_utile_kg_m3": 6479.891,
+    "masse_volumique_ancienne_hypothese_H1_kg_m3": 1749.970563271605,
+    "volume_enveloppe_L": 62.985,
+    "volume_utile_L": 35.0,
+    "pression_au_plancher_Pa": 10063.849808281673,
+    "equivalent_passagers_de_75kg": 3.0239491333333333
+  },
+  "masse_pour_2g": {
+    "r = 0.5 m": 73465756708.5687,
+    "r = 1.0 m": 293863026834.2748,
+    "r = 2.0 m": 1175452107337.099,
+    "r = 3.0 m": 2644767241508.473,
+    "r = 3.7 m": 4022984837361.2217
+  },
+  "masse_pour_1p5g": {
+    "r = 1.0 m": 220397270125.7061,
+    "r = 3.0 m": 1983575431131.3545
+  },
+  "masse_si_resultante_2g_a_1m": 254492846471.47015,
+  "distance_2g_m": {
+    "M = 2.94e+11 kg": 1.0002330289892212,
+    "M = 8.44e+11 kg": 1.694723101381923,
+    "M = 1.09e+12 kg": 1.9259312284066192,
+    "M = 3.92e+12 kg": 3.6523346182607677,
+    "M = 4.38e+12 kg": 3.8606868955420492,
+    "M = 5.06e+12 kg": 4.1495670326318175
+  },
+  "profil_autour_de_2g_a_1m": {
+    "r = 0.1 m": {
+      "g_en_g": 199.99999999999997,
+      "maree_par_metre_en_g": 3999.9999999999995
+    },
+    "r = 0.3 m": {
+      "g_en_g": 22.22222222222222,
+      "maree_par_metre_en_g": 148.14814814814818
+    },
+    "r = 0.5 m": {
+      "g_en_g": 8.0,
+      "maree_par_metre_en_g": 32.0
+    },
+    "r = 1.0 m": {
+      "g_en_g": 2.0,
+      "maree_par_metre_en_g": 4.0
+    },
+    "r = 1.5 m": {
+      "g_en_g": 0.8888888888888888,
+      "maree_par_metre_en_g": 1.1851851851851851
+    },
+    "r = 2.0 m": {
+      "g_en_g": 0.5,
+      "maree_par_metre_en_g": 0.5
+    },
+    "r = 3.0 m": {
+      "g_en_g": 0.2222222222222222,
+      "maree_par_metre_en_g": 0.14814814814814814
+    }
+  },
+  "effort_sur_occupant_80kg_a_2g_N": 1569.0639999999999,
+  "charge_vehicule_et_sol": [
+    {
+      "cas": "2 x 100 kg",
+      "masse_totale_kg": 200.0,
+      "poids_N": 1961.33,
+      "rapport_a_la_charge_utile_max": 0.13333333333333333,
+      "pression_sous_les_pneus_Pa": 16344.416666666666,
+      "p / sol meuble (portance ~0,2 MPa) [ordre de grandeur]": 0.08172208333333333,
+      "p / béton (compression ~40 MPa) [ordre de grandeur]": 0.00040861041666666667,
+      "p / granite (compression ~200 MPa) [ordre de grandeur]": 8.172208333333333e-05,
+      "p / acier à haute résistance (~2 GPa) [ordre de grandeur]": 8.172208333333333e-06,
+      "p / diamant (compression ~100 GPa) [ordre de grandeur]": 1.6344416666666666e-07
+    },
+    {
+      "cas": "2 x 1,47e11 kg (2 g à 1 m à elles deux)",
+      "masse_totale_kg": 293863026834.2748,
+      "poids_N": 2881811852104.341,
+      "rapport_a_la_charge_utile_max": 195908684.5561832,
+      "pression_sous_les_pneus_Pa": 24015098767536.176,
+      "p / sol meuble (portance ~0,2 MPa) [ordre de grandeur]": 120075493.83768088,
+      "p / béton (compression ~40 MPa) [ordre de grandeur]": 600377.4691884044,
+      "p / granite (compression ~200 MPa) [ordre de grandeur]": 120075.49383768089,
+      "p / acier à haute résistance (~2 GPa) [ordre de grandeur]": 12007.549383768088,
+      "p / diamant (compression ~100 GPa) [ordre de grandeur]": 240.15098767536176
+    },
+    {
+      "cas": "2 x 2,94e11 kg (2 g à 1 m chacune)",
+      "masse_totale_kg": 588000000000.0,
+      "poids_N": 5766310200000.0,
+      "rapport_a_la_charge_utile_max": 392000000.0,
+      "pression_sous_les_pneus_Pa": 48052585000000.0,
+      "p / sol meuble (portance ~0,2 MPa) [ordre de grandeur]": 240262925.0,
+      "p / béton (compression ~40 MPa) [ordre de grandeur]": 1201314.625,
+      "p / granite (compression ~200 MPa) [ordre de grandeur]": 240262.925,
+      "p / acier à haute résistance (~2 GPa) [ordre de grandeur]": 24026.2925,
+      "p / diamant (compression ~100 GPa) [ordre de grandeur]": 480.52585
+    },
+    {
+      "cas": "2 x 4,38e12 kg (400 MW au total chacune)",
+      "masse_totale_kg": 8760000000000.0,
+      "poids_N": 85906254000000.0,
+      "rapport_a_la_charge_utile_max": 5840000000.0,
+      "pression_sous_les_pneus_Pa": 715885450000000.0,
+      "p / sol meuble (portance ~0,2 MPa) [ordre de grandeur]": 3579427250.0,
+      "p / béton (compression ~40 MPa) [ordre de grandeur]": 17897136.25,
+      "p / granite (compression ~200 MPa) [ordre de grandeur]": 3579427.25,
+      "p / acier à haute résistance (~2 GPa) [ordre de grandeur]": 357942.725,
+      "p / diamant (compression ~100 GPa) [ordre de grandeur]": 7158.8545
+    }
+  ],
+  "chute_dans_la_Terre": {
+    "traversee_aller_simple_min": 42.17424033415738,
+    "vitesse_au_centre_m_s": 7909.680821529872,
+    "friction_dynamique_N": 1888.1839420274275,
+    "poids_N": 42953127000000.0,
+    "rapport_friction_sur_poids": 4.3959173031277266e-11,
+    "accretion_kg_s": 8.308676638039387e-12,
+    "perte_Hawking_kg_s": 4.452028283906547e-09,
+    "rapport_perte_sur_accretion": 535.8288061812332
+  },
+  "contraintes_croisees": [
+    {
+      "M_kg": 100.0,
+      "r_s_m": 1.485232053823733e-25,
+      "kT_MeV": 105726119580.5805,
+      "puissance_Hawking_W": 7.540639722099957e+30,
+      "duree_de_vie_s": 3.973081825945035e-13,
+      "g_a_1m_en_g": 6.805891920278586e-10,
+      "poids_N": 980.665,
+      "C1_transportable_moins_de_227kg": "oui",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "NON",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "oui"
+    },
+    {
+      "M_kg": 10000.0,
+      "r_s_m": 1.4852320538237332e-23,
+      "kT_MeV": 1057261195.8058051,
+      "puissance_Hawking_W": 7.540639722099956e+26,
+      "duree_de_vie_s": 3.9730818259450413e-07,
+      "g_a_1m_en_g": 6.805891920278587e-08,
+      "poids_N": 98066.5,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "NON",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "oui"
+    },
+    {
+      "M_kg": 1000000.0,
+      "r_s_m": 1.485232053823733e-21,
+      "kT_MeV": 10572611.95805805,
+      "puissance_Hawking_W": 7.540639722099956e+22,
+      "duree_de_vie_s": 0.3973081825945026,
+      "g_a_1m_en_g": 6.8058919202785864e-06,
+      "poids_N": 9806650.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "NON",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "oui"
+    },
+    {
+      "M_kg": 100000000.0,
+      "r_s_m": 1.4852320538237332e-19,
+      "kT_MeV": 105726.1195805805,
+      "puissance_Hawking_W": 7.540639722099957e+18,
+      "duree_de_vie_s": 397308.18259450496,
+      "g_a_1m_en_g": 0.0006805891920278586,
+      "poids_N": 980665000.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "oui",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "oui"
+    },
+    {
+      "M_kg": 10000000000.0,
+      "r_s_m": 1.4852320538237332e-17,
+      "kT_MeV": 1057.261195805805,
+      "puissance_Hawking_W": 601198317493543.5,
+      "duree_de_vie_s": 498323856057.9376,
+      "g_a_1m_en_g": 0.06805891920278587,
+      "poids_N": 98066500000.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "oui",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "oui"
+    },
+    {
+      "M_kg": 100000000000.0,
+      "r_s_m": 1.4852320538237332e-16,
+      "kT_MeV": 105.72611958058049,
+      "puissance_Hawking_W": 1432427902769.6125,
+      "duree_de_vie_s": 1887796705733549.0,
+      "g_a_1m_en_g": 0.6805891920278586,
+      "poids_N": 980665000000.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "oui",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "oui"
+    },
+    {
+      "M_kg": 294000000000.0,
+      "r_s_m": 4.3665822382417753e-16,
+      "kT_MeV": 35.961265163462755,
+      "puissance_Hawking_W": 165721216017.5867,
+      "duree_de_vie_s": 5.294615004907706e+16,
+      "g_a_1m_en_g": 2.0009322245619043,
+      "poids_N": 2883155100000.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "oui",
+      "C4_survit_a_un_trajet_de_6h": "oui",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "oui"
+    },
+    {
+      "M_kg": 1000000000000.0,
+      "r_s_m": 1.4852320538237332e-15,
+      "kT_MeV": 10.57261195805805,
+      "puissance_Hawking_W": 7676222271.78146,
+      "duree_de_vie_s": 3.814153247263259e+18,
+      "g_a_1m_en_g": 6.805891920278587,
+      "poids_N": 9806650000000.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "≈",
+      "C3_2g_entre_1_et_3p7m": "oui",
+      "C4_survit_a_un_trajet_de_6h": "oui",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "oui"
+    },
+    {
+      "M_kg": 4400000000000.0,
+      "r_s_m": 6.5350210368244255e-15,
+      "kT_MeV": 2.4028663541041024,
+      "puissance_Hawking_W": 396499084.2862324,
+      "duree_de_vie_s": 3.32376090626061e+20,
+      "g_a_1m_en_g": 29.94592444922578,
+      "poids_N": 43149260000000.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "oui",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "oui",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "NON"
+    },
+    {
+      "M_kg": 10000000000000.0,
+      "r_s_m": 1.485232053823733e-14,
+      "kT_MeV": 1.0572611958058051,
+      "puissance_Hawking_W": 76762222.7178146,
+      "duree_de_vie_s": 3.902817835905779e+21,
+      "g_a_1m_en_g": 68.05891920278586,
+      "poids_N": 98066500000000.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "oui",
+      "C5_rayons_X_kT_1_100keV": "NON",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "NON"
+    },
+    {
+      "M_kg": 1000000000000000.0,
+      "r_s_m": 1.4852320538237332e-12,
+      "kT_MeV": 0.01057261195805805,
+      "puissance_Hawking_W": 4863.366252596149,
+      "duree_de_vie_s": 6.158972375056626e+27,
+      "g_a_1m_en_g": 6805.891920278586,
+      "poids_N": 9806650000000000.0,
+      "C1_transportable_moins_de_227kg": "NON",
+      "C2_puissance_300_500MW": "NON",
+      "C3_2g_entre_1_et_3p7m": "NON",
+      "C4_survit_a_un_trajet_de_6h": "oui",
+      "C5_rayons_X_kT_1_100keV": "oui",
+      "C6_plus_petite_qu_un_electron_r_s_inf_2p8fm": "NON"
+    }
+  ],
+  "budget_masse": {
+    "elements": [
+      {
+        "element": "coffre aluminium/acier + patins + charnières (parois : hors volume utile)",
+        "masse_kg": 30.0,
+        "volume_L": 0.0,
+        "source": "[HYP]"
+      },
+      {
+        "element": "pack Li-ion 7,5 kWh",
+        "masse_kg": 50.0,
+        "volume_L": 30.0,
+        "source": "150 Wh/kg ; 250 Wh/L [HYP]"
+      },
+      {
+        "element": "4 horloges CSAC + distribution",
+        "masse_kg": 0.5,
+        "volume_L": 0.5,
+        "source": "35 g et 17 cm³ pièce (fiche)"
+      },
+      {
+        "element": "3 calculateurs durcis + voteur + bus",
+        "masse_kg": 6.0,
+        "volume_L": 3.0,
+        "source": "[HYP]"
+      },
+      {
+        "element": "gravimètre relatif type CG-6",
+        "masse_kg": 5.5,
+        "volume_L": 10.836,
+        "source": "fiche constructeur : 21,5 x 21 x 24 cm"
+      },
+      {
+        "element": "2 bobines supraconductrices HTS compactes + cryostats (pré-refroidies, sans compresseur)",
+        "masse_kg": 40.0,
+        "volume_L": 30.0,
+        "source": "[HYP] 2 cryostats Ø 25 x 30 cm"
+      },
+      {
+        "element": "alimentations/régulateurs de champ (x2)",
+        "masse_kg": 10.0,
+        "volume_L": 6.0,
+        "source": "[HYP]"
+      },
+      {
+        "element": "canon à électrons + alimentation HT + collecteur sous vide",
+        "masse_kg": 8.0,
+        "volume_L": 6.0,
+        "source": "[HYP]"
+      },
+      {
+        "element": "boucle de refroidissement (pompe, 2 réservoirs de 15 L pleins, échangeur)",
+        "masse_kg": 40.0,
+        "volume_L": 36.0,
+        "source": "[HYP] borne haute"
+      },
+      {
+        "element": "télécommande filaire, panneau, câblage",
+        "masse_kg": 5.0,
+        "volume_L": 3.0,
+        "source": "[HYP]"
+      },
+      {
+        "element": "2 carters + blindage plomb local de 2 cm (rayon intérieur 4.00 cm)",
+        "masse_kg": 14.453001722594959,
+        "volume_L": 1.8095573684677204,
+        "source": "calcul"
+      }
+    ],
+    "total_kg": 209.45300172259496,
+    "reste_kg": 17.343183277405046,
+    "total_volume_L": 127.14555736846772
+  },
+  "verdict_masse_volume": {
+    "masse_configuration_genereuse_kg": 209.45300172259496,
+    "masse_revendiquee_kg": 226.796185,
+    "masse_OK": true,
+    "volume_configuration_genereuse_L": 127.14555736846772,
+    "volume_utile_L": 35.0,
+    "volume_enveloppe_L": 62.985,
+    "volume_OK": false,
+    "rapport_volume_sur_volume_utile": 3.632730210527649,
+    "rapport_volume_sur_enveloppe": 2.018664084598995,
+    "volume_enveloppe_ancienne_hypothese_H1_L": 129.6,
+    "rapport_volume_sur_enveloppe_H1": 0.9810613994480535,
+    "masse_volumique_de_la_configuration_genereuse_kg_m3": 1647.3481736809752,
+    "masse_volumique_requise_dans_le_volume_utile_kg_m3": 6479.891,
+    "masse_volumique_requise_dans_l_enveloppe_kg_m3": 3600.7967770103996,
+    "configuration_logeable": {
+      "masse_kg": 35.74000000000001,
+      "volume_L": 11.654168000000002,
+      "occupation": 0.3329762285714286,
+      "source": "10_machine_optimisee/nomenclature_R1.csv (Équipe I), R1-01 à R1-21"
+    },
+    "masse_volumique_configuration_logeable_kg_m3": 567.4366912757007,
+    "lest_pour_atteindre_227kg": {
+      "masse_kg": 191.056185,
+      "volume_de_plomb_L": 16.83314405286344,
+      "volume_libre_restant_L": 23.345831999999998,
+      "epaisseur_equivalente_autour_des_2_logements_m": 0.08751305390565559
+    },
+    "conclusion": "masse compatible (209 kg <= 227 kg) mais volume incompatible : 127 L à loger dans 35 L utiles (x 3.6) ; seule une configuration réduite tient (Équipe I, R1 : 36 kg, 33 % du volume utile)"
+  }
+}

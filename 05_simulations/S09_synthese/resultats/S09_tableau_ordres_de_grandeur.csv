@@ -1,0 +1,49 @@
+id;grandeur;valeur;unite;formule;hypotheses;source;etiquette;statut_physique;confiance
+S01-01;Rayon de Schwarzschild par unité de masse;1.48523e-27;m/kg;r_s = 2GM/c²;Schwarzschild;S01;[VÉR];Démontré (RG);élevé
+S01-02;Température de Hawking × masse;1.2269e+23;K·kg;T = ħc³/(8πGMk_B);semi-classique, M ≫ M_Planck;S01;[VÉR];Théoriquement possible (non observé);élevé
+S01-03;Puissance × M², photons, corps noir;3.56162e+32;W·kg²;P = ħc⁶/(15360πG²M²);surface 4πr_s², photons seuls;S01;[DÉD];Théoriquement possible;élevé
+S01-04;Puissance × M², photons, corps gris;5.785e+32;W·kg²;P = 3,366e-5 ħc⁶/(G²M²);Page 1976;S01;[VÉR];Théoriquement possible;élevé
+S01-05;Masse donnant 300–500 MW (photons, corps noir);8.44e+11 à 1.09e+12;kg;inversion de S01-03;—;S01;[DÉD];Théoriquement possible;élevé
+S01-06;Masse donnant 300–500 MW (toutes espèces);3.853e+12 à 4.963e+12;kg;P = α f(M) c²/M²;f(M) de MacGibbon 1991 (+ W, Z, H [HYP]);S01;[DÉD];Théoriquement possible;moyen
+S01-07;Masse donnant 1,5–2 g entre 1 et 3 m;2.204e+11 à 2.645e+12;kg;M = a r²/G;masse ponctuelle unique;S01;[DÉD];Démontré (Newton);élevé
+S01-08;Durée de vie d'un trou noir de 113 kg (toutes espèces);5.93375e-13;s;τ = ∫M²dM/(αf);semi-classique;S01;[DÉD];Théoriquement possible;moyen
+S01-09;Puissance d'un trou noir de 113 kg (toutes espèces);5.72528e+30;W;P = α f c²/M²;semi-classique;S01;[DÉD];Théoriquement possible;moyen
+S01-10;Masse minimale pour vivre 6 h / 1 an / 30 ans;3.738e+07 à 4.091e+08 à 1.232e+09;kg;τ(M) = durée;durées de mission [HYP];S01;[DÉD];Théoriquement possible;moyen
+S01-11;Masse d'un trou noir de rayon = rayon classique de l'électron;1.89731e+12;kg;M = r c²/(2G);« taille d'un électron » = 2,82 fm [HYP];S01;[DÉD];Démontré (RG);élevé
+S01-12;Écart entre la masse de l'unité et la masse requise;9.87173;ordres de grandeur;log10(M_P / 113 kg);—;S01;[DÉD];Contredit les connaissances actuelles (si l'on maintient les deux revendications);élevé
+S01-13;Température d'équilibre d'une paroi noire à 1 m de 300–500 MW;4530 à 5147;K;T = (P/(4πr²σ))^(1/4);absorption totale, équilibre radiatif;S01;[DÉD];Démontré;moyen
+S02-01;Rayon gravitationnel pour 1e12 kg;7.42616e-16;m;r_g = GM/c²;—;S02;[VÉR];Démontré (RG);élevé
+S02-02;Étendue radiale de la région à CTC (Kerr a = 0,9 M), 1e12 kg;7.04031e-16;m;racine de r³ + a²r + 2Ma² = 0;extension r < 0 de Kerr éternel;S02;[DÉD];Spéculatif (derrière un horizon de Cauchy instable);élevé (calcul) / faible (réalité physique)
+S02-03;Masse pour laquelle r_g = 1 m;1.34659e+27;kg;M = c²/G;—;S02;[VÉR];Démontré (RG);élevé
+S02-04;Moment cinétique maximal d'un trou noir de 1e12 kg;222631;kg·m²/s;J = GM²/c;Kerr extrémal;S02;[VÉR];Démontré (RG);élevé
+S03-01;Énergie minimale par unité de masse pour traverser le disque sur l'axe (a = 0,9 M);1.45297;c² (sans dimension);E² > 1 + M/a;géodésique axiale, Kerr éternel;S03;[DÉD];Spéculatif;élevé (calcul)
+S03-02;Temps propre de chute équatoriale 10 M → anneau, pour 1e12 kg;3.70042e-23;s;14,9 GM/c³;E = 1, L_z = 0,5 M;S03;[DÉD];Théoriquement possible;élevé (calcul)
+S03-03;dt/dτ maximal sur orbite circulaire stable (a = 0,998 M);10.7909;sans dimension;u^t à l'ISCO;Kerr;S03;[VÉR];Démontré (RG);élevé
+S03-04;Altitude au-dessus de l'horizon pour dt/dτ = 87 660 (statique, 1e12 kg);1.93282e-25;m;1 − r_s/r = 1/87 660²;Schwarzschild, observateur statique;S03;[DÉD];Théoriquement possible (irréalisable);élevé
+S04-01;Masse linéique minimale d'un cylindre de Tipler à CTC;1.68324e+26;kg/m;μ = c²/(8G) (aR = 1/2);cylindre de poussière INFINI en rotation rigide;S04;[DÉD];Spéculatif (solution non asymptotiquement plate);élevé (calcul)
+S04-02;Rapport entre cette masse linéique et 227 kg/m;7.42181e+23;sans dimension;c²/(8G) / 227;—;S04;[DÉD];—;élevé
+S04-03;Densité axiale d'un cylindre de rayon 0,1 m au seuil aR = 0,6;7.7154e+27;kg/m³;ρ₀ = (aRc/R)²/(2πG);van Stockum;S04;[DÉD];Contredit les connaissances actuelles (10¹⁰ fois la densité nucléaire);élevé
+S05-01;Pesanteur à 1 m de deux masses de 113 kg;1.49288e-09;g₀;g = 2GM/r²;champ faible;S05;[DÉD];Démontré (Newton);élevé
+S05-02;dt/dτ − 1 à 1 m de deux masses de 1e12 kg;1.4688e-15;sans dimension;−Φ/c²;champ faible;S05;[DÉD];Démontré (RG, champ faible);élevé
+S05-03;dt/dτ − 1 à 1 m de deux masses de 113 kg;1.66559e-25;sans dimension;−Φ/c²;champ faible;S05;[DÉD];Démontré (RG, champ faible);élevé
+S05-04;Marée sur 1 m à 1 m du centre (masses donnant 2 g à 1 m);6.1542;g₀;|g(r − ½) − g(r + ½)|;occupant d'étendue radiale 1 m [HYP];S05;[DÉD];Démontré (Newton);élevé
+S05-05;Entraînement des référentiels à 1 m (2 × 1e12 kg, d = 0,3 m, orbite képlérienne);4.6994e-15;rad/s;Ω_LT = 2GJ/(c²r³);gravito-électromagnétisme linéarisé;S05;[DÉD];Démontré (Gravity Probe B, LAGEOS pour la Terre);élevé
+S05-06;Puissance en ondes gravitationnelles (2 × 1e12 kg, d = 0,3 m);4.31641e-20;W;P = (32/5)G⁴M⁵·2/(c⁵d⁵);quadrupôle, orbite circulaire képlérienne;S05;[DÉD];Démontré (pulsars binaires, LIGO);élevé
+S05-07;Temps de coalescence (2 × 1e12 kg, d = 0,3 m [HYP]);2.04158e+25;ans;t = (5/256)c⁵d⁴/(2G³M³);Peters 1964;S05;[DÉD];Démontré;élevé
+S05-08;Idem à l'entraxe documentaire d = 0,098 m (DOC-007, Équipe A) : temps de coalescence ; pulsation orbitale ; entraînement à 1 m;2.325e+23 à 376.6 à 2.686e-15;ans ; rad/s ; rad/s;Peters ; Ω² = 2GM/d³ ; Ω_LT = 2GJ/(c²r³);entraxe 98 ± 25 mm [DÉD Équipe A];S05;[DÉD];Démontré;élevé
+S06-01;Rapport charge/masse extrémal;8.61752e-11;C/kg;Q/M = sqrt(4πε₀G);Kerr-Newman;S06;[VÉR];Démontré (RG);élevé
+S06-02;Champ électrique de lévitation (charge extrémale);1.13799e+11;V/m;E = g₀/(Q/M);pesanteur terrestre;S06;[DÉD];Contredit les connaissances actuelles (≫ champs de claquage);élevé
+S06-03;Champ magnétique minimal d'un piège de Penning (charge extrémale, d₀ = 5 cm);7.26789e+11;T;B = sqrt(2g/(f d₀))/(Q/M);affaissement ≤ 10 %;S06;[DÉD];Contredit les connaissances actuelles (> champ d'un magnétar);élevé
+S06-04;Charge d'un micro-trou noir : valeur typique (quadratique moyenne) ; borne supérieure d'ordre de grandeur;6.14 à 137;e;≈ 6,14 e (Page 1977) ; ≲ e/α;GMμ/ħc ≪ 1 ; r_s ≪ longueur de Compton de l'électron;S06;[VÉR] (typique, résumé vérifié par la Red Team) / [DÉD] (borne);Théoriquement possible;moyen
+S06-05;Poids d'une singularité de 1e12 kg transmis au véhicule;9.80665e+12;N;F = M g₀;troisième loi de Newton;S06;[DÉD];Démontré;élevé
+S07-01;Masse exotique d'un trou de ver de Morris-Thorne à gorge de 1 m;-6.73295e+26;kg;M = −b₀c²/(2G);Φ = 0, asymptotiquement plat;S07;[DÉD];Spéculatif;élevé (calcul)
+S07-02;Tension à la gorge (b₀ = 1 m);4.81545e+42;Pa;τ = c⁴/(8πG b₀²);—;S07;[DÉD];Spéculatif;élevé (calcul)
+S07-03;Énergie négative d'une bulle d'Alcubierre (R = 3 m, paroi 0,25 m, v = c);-2.42187e+44;J;E = −(c²v²/12G)∫r²f'²dr;observateurs eulériens;S07;[DÉD];Spéculatif;élevé (calcul)
+S07-04;Densité d'énergie Casimir à 100 nm;-4.33375;J/m³;u = −π²ħc/(720d⁴);plaques idéales, T = 0;S07;[VÉR];Démontré;élevé
+S07-05;Rapport énergie requise (Morris-Thorne 1 m) / Casimir disponible dans 1 m de rayon;6.66691e+42;sans dimension;—;cavités de 100 nm, remplissage 50 % [HYP];S07;[DÉD];—;moyen
+S08-01;Rapport d'axes du sphéroïde central de DOC-009;1.57504;sans dimension;a/b (ellipse ajustée);numérisation ±1 px;S08;[DÉD];— (dessin);moyen
+S08-02;Rapport d'axes du grand contour E1 (enveloppe des anneaux) de DOC-009;1.54427;sans dimension;a/b (ellipse ajustée);numérisation ±1 px;S08;[DÉD];— (dessin);moyen
+S08-03;Erreur de prédiction des pôles : ellipse / ergosurface de Kerr;0.761 à 5.313;px;distance pôles dessinés ↔ courbe ajustée sur les arcs;zone déclarée « not to scale » par le document : résultat descriptif, sans valeur de preuve;S08;[DÉD];— (dessin);faible (comme test physique)
+S08-04;Décalage du centre des anneaux par rapport aux masses;0.222387;demi-grand axe A;(X_centre − X_masses)/A;—;S08;[DOC] (lecture) / [DÉD];— (dessin);moyen
+S08-05;Échelle du dessin d'après les quatre cotes en mètres de la variante DOC-014 ; dispersion;7.574 à 0.08932;px de référence par mètre ; sans dimension;longueur dessinée / valeur inscrite (cotes 6, 7, 8, 9);DOC-014 seulement ; attribution à l'auteur non établie;S08;[DOC] (valeurs) / [DÉD] (échelle);— (dessin);moyen
+S08-06;Demi-envergures des trois paires d'anneaux à l'échelle de DOC-014;13.05 à 16.36 à 18.23;m;demi-envergure dessinée / échelle;échelle moyenne des quatre cotes;S08;[DÉD];— (dessin);moyen

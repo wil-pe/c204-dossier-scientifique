@@ -1,0 +1,71 @@
+==============================================================================
+SCRIPT 02 — Rayonnement de Hawking : facteurs de corps gris, espèces, durée de vie
+==============================================================================
+spin   0 : P/ddl = 7.4387e-05 hbar c^6/(G² M²) ; dN/dt/ddl = 6.6485e-04 c³/(G M) ; pic puissance x = E/kT = 2.92 ; pic flux x = 2.18 ; erreur relative de flux max = 8.6e-09   [17 s]
+spin 0.5 : P/ddl = 4.0916e-05 hbar c^6/(G² M²) ; dN/dt/ddl = 2.4284e-04 c³/(G M) ; pic puissance x = E/kT = 4.51 ; pic flux x = 4.03 ; erreur relative de flux max = 8.6e-09   [37 s]
+spin   1 : P/ddl = 1.6819e-05 hbar c^6/(G² M²) ; dN/dt/ddl = 7.3980e-05 c³/(G M) ; pic puissance x = E/kT = 6.06 ; pic flux x = 5.72 ; erreur relative de flux max = 8.7e-09   [55 s]
+spin   2 : P/ddl = 1.9184e-06 hbar c^6/(G² M²) ; dN/dt/ddl = 5.5455e-06 c³/(G M) ; pic puissance x = E/kT = 9.13 ; pic flux x = 8.90 ; erreur relative de flux max = 8.7e-09   [74 s]
+
+Contrôle contre Page (1976) :
+  neutrino+antineutrino (2 états) : 8.1833e-05   (publié 8,18e-5)   écart +0.00 %
+  photon (2 polarisations)        : 3.3639e-05   (publié 3,37e-5)   écart -0.06 %
+  graviton (2 polarisations)      : 3.8367e-06   (publié 3,84e-6)   écart -0.08 %
+  scalaire (1 ddl)                : 7.4387e-05
+  corps noir naïf, photons, aire de l'horizon : 2.0723e-05  -> le vrai flux de photons vaut 1.623 fois la formule du dossier
+  limite d'optique géométrique par ddl bosonique : 6.9941e-05
+
+Coefficient alpha(M) = P G² M² / (hbar c^6) :
+  M >> 1e14 kg (photon, graviton, 3 neutrinos)          : 2.8297e-04
+  M ~ 3e12 kg (+ e±)                                    : 4.4664e-04
+  M << 1e8 kg (tout le Modèle standard)                 : 4.2148e-03   (rapport au cas « photons corps noir » du dossier : 203)
+
+Tableau : masse, température, puissance, durée de vie
+    M (kg)    r_s (m)           kT  P totale (W) P photons (W) frac. nu                    tau
+       100   1.49e-25 1.06e+08 GeV     7.244e+30     5.781e+28     0.06            4.136e-13 s
+       114   1.69e-25 9.32e+07 GeV     5.623e+30     4.488e+28     0.06            6.047e-13 s
+       227   3.37e-25 4.66e+07 GeV     1.406e+30     1.122e+28     0.06            4.838e-12 s
+     1e+06   1.49e-21 1.06e+04 GeV     7.244e+22     5.781e+20     0.06            4.136e-01 s
+     1e+09   1.49e-18     10.6 GeV     6.055e+16     5.781e+14     0.07          1.535e+01 ans
+     1e+10   1.49e-17     1.06 GeV     5.745e+14     5.781e+12     0.07          1.613e+04 ans
+     1e+11   1.49e-16      106 MeV     3.612e+12     5.781e+10     0.12          2.417e+07 ans
+     5e+11   7.43e-16     21.1 MeV     3.564e+10     2.313e+09     0.47          1.134e+10 ans
+     1e+12   1.49e-15     10.6 MeV     7.724e+09     5.781e+08     0.55          1.161e+11 ans
+     2e+12   2.97e-15     5.29 MeV     1.919e+09     1.445e+08     0.55          9.814e+11 ans
+     4e+12   5.94e-15     2.64 MeV     4.798e+08     3.613e+07     0.55          7.907e+12 ans
+     5e+12   7.43e-15     2.11 MeV     3.070e+08     2.313e+07     0.55          1.545e+13 ans
+     1e+13   1.49e-14     1.06 MeV     7.676e+07     5.781e+06     0.55          1.237e+14 ans
+     1e+14   1.49e-13      106 keV     6.193e+05     5.781e+04     0.68          1.379e+17 ans
+     1e+15   1.49e-12     10.6 keV     4.863e+03     5.781e+02     0.87          1.951e+20 ans
+     1e+16   1.49e-11     1.06 keV     4.863e+01     5.781e+00     0.87          1.952e+23 ans
+
+Masse correspondant aux puissances revendiquées (300-500 MW) :
+  P = 300 MW : puissance TOTALE -> M = 5.058e+12 kg (kT = 2.09 MeV, r_s = 7.51 fm, tau = 1.60e+13 ans)
+               photons seuls (corps gris) -> M = 1.388e+12 kg ; photons corps noir (dossier) -> M = 1.090e+12 kg
+  P = 500 MW : puissance TOTALE -> M = 3.918e+12 kg (kT = 2.70 MeV, r_s = 5.82 fm, tau = 7.43e+12 ans)
+               photons seuls (corps gris) -> M = 1.075e+12 kg ; photons corps noir (dossier) -> M = 8.440e+11 kg
+
+Contrôle : masse dont la durée de vie vaut 13,8 Ga : M* = 5.287e+11 kg  (littérature : ≈ 5,0-5,1e11 kg, MacGibbon, Carr & Page 2008)
+
+Masse minimale pour une durée de vie donnée, et puissance correspondante :
+  tau = 1 seconde : M = 1.342e+06 kg ; P = 4.021e+22 W ; kT = 7.88e+03 GeV
+  tau =   1 heure : M = 2.057e+07 kg ; P = 1.712e+20 W ; kT = 514 GeV
+  tau =      1 an : M = 4.129e+08 kg ; P = 3.760e+17 W ; kT = 25.6 GeV
+  tau =    36 ans : M = 1.322e+09 kg ; P = 3.443e+16 W ; kT = 8 GeV
+  tau =   100 ans : M = 1.853e+09 kg ; P = 1.750e+16 W ; kT = 5.7 GeV
+  tau =   1e6 ans : M = 3.717e+10 kg ; P = 3.306e+13 W ; kT = 0.284 GeV
+
+Cas revendiqué : unité de 227 kg
+  M = 227.0 kg : tau = 4.838e-12 s (la lumière parcourt 1.450 mm) ; P initiale = 1.406e+30 W ; énergie libérée = 2.040e+19 J = 4.88 Gt TNT
+  M = 113.5 kg : tau = 6.047e-13 s (la lumière parcourt 0.181 mm) ; P initiale = 5.623e+30 W ; énergie libérée = 1.020e+19 J = 2.44 Gt TNT
+
+Pic du spectre de photons : x = E/kT ≈ 6.06 (puissance), 5.72 (flux)
+  M = 8.40e+11 kg : kT = 12.59 MeV ; énergie de photon au pic de puissance ≈ 76.3 MeV (gamma, pas X)
+  M = 1.09e+12 kg : kT = 9.70 MeV ; énergie de photon au pic de puissance ≈ 58.8 MeV (gamma, pas X)
+  M = 4.00e+12 kg : kT = 2.64 MeV ; énergie de photon au pic de puissance ≈ 16.0 MeV (gamma, pas X)
+  M = 5.00e+12 kg : kT = 2.11 MeV ; énergie de photon au pic de puissance ≈ 12.8 MeV (gamma, pas X)
+Trou noir dont le spectre de photons culmine dans les rayons X :
+  pic à     1 keV : kT = 0.165 keV ; M = 6.408e+16 kg ; puissance totale = 1.184e+00 W ; photons = 1.408e-01 W
+  pic à    10 keV : kT = 1.65 keV ; M = 6.408e+15 kg ; puissance totale = 1.184e+02 W ; photons = 1.408e+01 W
+  pic à   100 keV : kT = 16.5 keV ; M = 6.408e+14 kg ; puissance totale = 1.184e+04 W ; photons = 1.408e+03 W
+
+Temps de calcul : 78 s

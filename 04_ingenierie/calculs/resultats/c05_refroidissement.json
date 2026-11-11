@@ -1,0 +1,829 @@
+{
+  "fractions_de_puissance": {
+    "photons": 0.0753146695677503,
+    "neutrinos": 0.5496563126224816,
+    "electrons_positrons": 0.36643754174832105,
+    "gravitons": 0.008591476061447074
+  },
+  "fraction_deposee": 0.44175221131607134,
+  "charges_thermiques_W": {
+    "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)": 132525663.3948214,
+    "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)": 176700884.52642855,
+    "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)": 353401769.0528571,
+    "énoncé bas : 300 MW entièrement déposés": 300000000.0,
+    "énoncé haut : 2 x 500 MW entièrement déposés": 1000000000.0
+  },
+  "debits": [
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "fluide": "eau liquide, ΔT = 50 K",
+      "debit_kg_s": 633.1852049442017,
+      "debit_m3_s": 0.6395810150951532,
+      "vitesse_dans_tuyau_5cm_m_s": 325.7359361924024,
+      "puissance_pompe_W": 852774.6867935377,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 13676800.426794756
+    },
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "fluide": "eau vaporisée (20 → 100 °C + vaporisation)",
+      "debit_kg_s": 51.13109534192223,
+      "debit_m3_s": 0.0516475710524467,
+      "vitesse_dans_tuyau_5cm_m_s": 26.30389194139768,
+      "puissance_pompe_W": 68863.42806992894,
+      "autonomie_reservoirs_s": 0.009680997379184854,
+      "autonomie_reservoirs_borne_haute_s": 0.5808598427510911,
+      "masse_pour_6h_circuit_ouvert_kg": 1104431.6593855203
+    },
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "fluide": "sodium liquide, ΔT = 150 K",
+      "debit_kg_s": 695.6727737260966,
+      "debit_m3_s": 0.8184385573248195,
+      "vitesse_dans_tuyau_5cm_m_s": 416.8273344487826,
+      "puissance_pompe_W": 1091251.409766426,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 15026531.912483687
+    },
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "fluide": "hélium gazeux 70 bar, ΔT = 300 K",
+      "debit_kg_s": 85.06686141268464,
+      "debit_m3_s": 14.17781023544744,
+      "vitesse_dans_tuyau_5cm_m_s": 7220.699459809051,
+      "puissance_pompe_W": 18903746.980596587,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 1837444.2065139883
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "fluide": "eau liquide, ΔT = 50 K",
+      "debit_kg_s": 844.2469399256022,
+      "debit_m3_s": 0.8527746867935375,
+      "vitesse_dans_tuyau_5cm_m_s": 434.3145815898698,
+      "puissance_pompe_W": 1137032.9157247166,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 18235733.902393006
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "fluide": "eau vaporisée (20 → 100 °C + vaporisation)",
+      "debit_kg_s": 68.17479378922965,
+      "debit_m3_s": 0.06886342806992894,
+      "vitesse_dans_tuyau_5cm_m_s": 35.07185592186358,
+      "puissance_pompe_W": 91817.90409323858,
+      "autonomie_reservoirs_s": 0.007260748034388639,
+      "autonomie_reservoirs_borne_haute_s": 0.4356448820633183,
+      "masse_pour_6h_circuit_ouvert_kg": 1472575.5458473605
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "fluide": "sodium liquide, ΔT = 150 K",
+      "debit_kg_s": 927.5636983014622,
+      "debit_m3_s": 1.091251409766426,
+      "vitesse_dans_tuyau_5cm_m_s": 555.7697792650436,
+      "puissance_pompe_W": 1455001.8796885682,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 20035375.883311585
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "fluide": "hélium gazeux 70 bar, ΔT = 300 K",
+      "debit_kg_s": 113.42248188357954,
+      "debit_m3_s": 18.90374698059659,
+      "vitesse_dans_tuyau_5cm_m_s": 9627.599279745404,
+      "puissance_pompe_W": 25204995.974128786,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 2449925.608685318
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "fluide": "eau liquide, ΔT = 50 K",
+      "debit_kg_s": 1688.4938798512044,
+      "debit_m3_s": 1.705549373587075,
+      "vitesse_dans_tuyau_5cm_m_s": 868.6291631797396,
+      "puissance_pompe_W": 2274065.831449433,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 36471467.80478601
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "fluide": "eau vaporisée (20 → 100 °C + vaporisation)",
+      "debit_kg_s": 136.3495875784593,
+      "debit_m3_s": 0.13772685613985788,
+      "vitesse_dans_tuyau_5cm_m_s": 70.14371184372716,
+      "puissance_pompe_W": 183635.80818647717,
+      "autonomie_reservoirs_s": 0.0036303740171943193,
+      "autonomie_reservoirs_borne_haute_s": 0.21782244103165915,
+      "masse_pour_6h_circuit_ouvert_kg": 2945151.091694721
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "fluide": "sodium liquide, ΔT = 150 K",
+      "debit_kg_s": 1855.1273966029244,
+      "debit_m3_s": 2.182502819532852,
+      "vitesse_dans_tuyau_5cm_m_s": 1111.539558530087,
+      "puissance_pompe_W": 2910003.7593771364,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 40070751.76662317
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "fluide": "hélium gazeux 70 bar, ΔT = 300 K",
+      "debit_kg_s": 226.84496376715907,
+      "debit_m3_s": 37.80749396119318,
+      "vitesse_dans_tuyau_5cm_m_s": 19255.198559490807,
+      "puissance_pompe_W": 50409991.94825757,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 4899851.217370636
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "fluide": "eau liquide, ΔT = 50 K",
+      "debit_kg_s": 1433.349259436216,
+      "debit_m3_s": 1.4478275347840566,
+      "vitesse_dans_tuyau_5cm_m_s": 737.372508497394,
+      "puissance_pompe_W": 1930436.7130454087,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 30960344.003822267
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "fluide": "eau vaporisée (20 → 100 °C + vaporisation)",
+      "debit_kg_s": 115.7460993564517,
+      "debit_m3_s": 0.11691525187520373,
+      "vitesse_dans_tuyau_5cm_m_s": 59.544448828072504,
+      "puissance_pompe_W": 155887.00250027163,
+      "autonomie_reservoirs_s": 0.004276602,
+      "autonomie_reservoirs_borne_haute_s": 0.25659612,
+      "masse_pour_6h_circuit_ouvert_kg": 2500115.7460993566
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "fluide": "sodium liquide, ΔT = 150 K",
+      "debit_kg_s": 1574.8031496062993,
+      "debit_m3_s": 1.8527095877721167,
+      "vitesse_dans_tuyau_5cm_m_s": 943.5772448245763,
+      "puissance_pompe_W": 2470279.4503628225,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 34015748.03149606
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "fluide": "hélium gazeux 70 bar, ΔT = 300 K",
+      "debit_kg_s": 192.56691700365877,
+      "debit_m3_s": 32.094486167276465,
+      "vitesse_dans_tuyau_5cm_m_s": 16345.587582452825,
+      "puissance_pompe_W": 42792648.22303528,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 4159445.4072790295
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "fluide": "eau liquide, ΔT = 50 K",
+      "debit_kg_s": 4777.830864787386,
+      "debit_m3_s": 4.8260917826135215,
+      "vitesse_dans_tuyau_5cm_m_s": 2457.9083616579796,
+      "puissance_pompe_W": 6434789.043484695,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 103201146.67940755
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "fluide": "eau vaporisée (20 → 100 °C + vaporisation)",
+      "debit_kg_s": 385.8203311881723,
+      "debit_m3_s": 0.3897175062506791,
+      "vitesse_dans_tuyau_5cm_m_s": 198.481496093575,
+      "puissance_pompe_W": 519623.3416675721,
+      "autonomie_reservoirs_s": 0.0012829806,
+      "autonomie_reservoirs_borne_haute_s": 0.076978836,
+      "masse_pour_6h_circuit_ouvert_kg": 8333719.153664522
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "fluide": "sodium liquide, ΔT = 150 K",
+      "debit_kg_s": 5249.343832020997,
+      "debit_m3_s": 6.175698625907056,
+      "vitesse_dans_tuyau_5cm_m_s": 3145.257482748588,
+      "puissance_pompe_W": 8234264.834542741,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 113385826.77165353
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "fluide": "hélium gazeux 70 bar, ΔT = 300 K",
+      "debit_kg_s": 641.8897233455292,
+      "debit_m3_s": 106.9816205575882,
+      "vitesse_dans_tuyau_5cm_m_s": 54485.29194150941,
+      "puissance_pompe_W": 142642160.74345094,
+      "autonomie_reservoirs_s": NaN,
+      "autonomie_reservoirs_borne_haute_s": NaN,
+      "masse_pour_6h_circuit_ouvert_kg": 13864818.02426343
+    }
+  ],
+  "radiateurs": [
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "T_radiateur_K": 322.0,
+      "flux_net_W_m2": 145.35994407174326,
+      "surface_m2": 911706.8958791879,
+      "surface_sur_coffre": 848336.1830084561
+    },
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "T_radiateur_K": 600.0,
+      "flux_net_W_m2": 6210.65696448762,
+      "surface_m2": 21338.42911508393,
+      "surface_sur_coffre": 19855.24250031072
+    },
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "T_radiateur_K": 1000.0,
+      "flux_net_W_m2": 50630.10201461078,
+      "surface_m2": 2617.527086091537,
+      "surface_sur_coffre": 2435.588616443228
+    },
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "T_radiateur_K": 1500.0,
+      "flux_net_W_m2": 257953.16671604154,
+      "surface_m2": 513.7586216985951,
+      "surface_sur_coffre": 478.0484057863544
+    },
+    {
+      "charge": "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",
+      "Q_W": 132525663.3948214,
+      "T_radiateur_K": 3000.0,
+      "flux_net_W_m2": 4133299.683827401,
+      "surface_m2": 32.06292152329583,
+      "surface_sur_coffre": 29.834299361027103
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "T_radiateur_K": 322.0,
+      "flux_net_W_m2": 145.35994407174326,
+      "surface_m2": 1215609.194505584,
+      "surface_sur_coffre": 1131114.9106779417
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "T_radiateur_K": 600.0,
+      "flux_net_W_m2": 6210.65696448762,
+      "surface_m2": 28451.238820111907,
+      "surface_sur_coffre": 26473.65666708096
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "T_radiateur_K": 1000.0,
+      "flux_net_W_m2": 50630.10201461078,
+      "surface_m2": 3490.036114788716,
+      "surface_sur_coffre": 3247.4514885909707
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "T_radiateur_K": 1500.0,
+      "flux_net_W_m2": 257953.16671604154,
+      "surface_m2": 685.0114955981268,
+      "surface_sur_coffre": 637.3978743818059
+    },
+    {
+      "charge": "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",
+      "Q_W": 176700884.52642855,
+      "T_radiateur_K": 3000.0,
+      "flux_net_W_m2": 4133299.683827401,
+      "surface_m2": 42.7505620310611,
+      "surface_sur_coffre": 39.779065814702804
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "T_radiateur_K": 322.0,
+      "flux_net_W_m2": 145.35994407174326,
+      "surface_m2": 2431218.389011168,
+      "surface_sur_coffre": 2262229.8213558835
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "T_radiateur_K": 600.0,
+      "flux_net_W_m2": 6210.65696448762,
+      "surface_m2": 56902.47764022381,
+      "surface_sur_coffre": 52947.31333416192
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "T_radiateur_K": 1000.0,
+      "flux_net_W_m2": 50630.10201461078,
+      "surface_m2": 6980.072229577432,
+      "surface_sur_coffre": 6494.902977181941
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "T_radiateur_K": 1500.0,
+      "flux_net_W_m2": 257953.16671604154,
+      "surface_m2": 1370.0229911962535,
+      "surface_sur_coffre": 1274.7957487636118
+    },
+    {
+      "charge": "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",
+      "Q_W": 353401769.0528571,
+      "T_radiateur_K": 3000.0,
+      "flux_net_W_m2": 4133299.683827401,
+      "surface_m2": 85.5011240621222,
+      "surface_sur_coffre": 79.55813162940561
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "T_radiateur_K": 322.0,
+      "flux_net_W_m2": 145.35994407174326,
+      "surface_m2": 2063842.2910505058,
+      "surface_sur_coffre": 1920389.2165725373
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "T_radiateur_K": 600.0,
+      "flux_net_W_m2": 6210.65696448762,
+      "surface_m2": 48304.06858974702,
+      "surface_sur_coffre": 44946.56051897927
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "T_radiateur_K": 1000.0,
+      "flux_net_W_m2": 50630.10201461078,
+      "surface_m2": 5925.328768119533,
+      "surface_sur_coffre": 5513.472381240843
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "T_radiateur_K": 1500.0,
+      "flux_net_W_m2": 257953.16671604154,
+      "surface_m2": 1163.0018108296542,
+      "surface_sur_coffre": 1082.16414890635
+    },
+    {
+      "charge": "énoncé bas : 300 MW entièrement déposés",
+      "Q_W": 300000000.0,
+      "T_radiateur_K": 3000.0,
+      "flux_net_W_m2": 4133299.683827401,
+      "surface_m2": 72.58123604582248,
+      "surface_sur_coffre": 67.53627621273144
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "T_radiateur_K": 322.0,
+      "flux_net_W_m2": 145.35994407174326,
+      "surface_m2": 6879474.303501686,
+      "surface_sur_coffre": 6401297.388575125
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "T_radiateur_K": 600.0,
+      "flux_net_W_m2": 6210.65696448762,
+      "surface_m2": 161013.5619658234,
+      "surface_sur_coffre": 149821.86839659757
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "T_radiateur_K": 1000.0,
+      "flux_net_W_m2": 50630.10201461078,
+      "surface_m2": 19751.09589373178,
+      "surface_sur_coffre": 18378.24127080281
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "T_radiateur_K": 1500.0,
+      "flux_net_W_m2": 257953.16671604154,
+      "surface_m2": 3876.6727027655143,
+      "surface_sur_coffre": 3607.2138296878334
+    },
+    {
+      "charge": "énoncé haut : 2 x 500 MW entièrement déposés",
+      "Q_W": 1000000000.0,
+      "T_radiateur_K": 3000.0,
+      "flux_net_W_m2": 4133299.683827401,
+      "surface_m2": 241.9374534860749,
+      "surface_sur_coffre": 225.12092070910478
+    }
+  ],
+  "T_surface_coffre_K": {
+    "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)": 7011.161612609603,
+    "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)": 7533.981916195391,
+    "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)": 8959.462152202133,
+    "énoncé bas : 300 MW entièrement déposés": 8599.933574606499,
+    "énoncé haut : 2 x 500 MW entièrement déposés": 11620.22863960861
+  },
+  "puissance_coffre_a_T_revendiquee_W": {
+    "38 °C": 150.53181293557438,
+    "49 °C": 286.2817523550175,
+    "80 °C": 715.2082026973951
+  },
+  "geometrie": {
+    "L_m": 0.85,
+    "P_m": 0.26,
+    "H_m": 0.285,
+    "surface_m2": 1.0747,
+    "volume_m3": 0.062985,
+    "volume_utile_m3": 0.035,
+    "rayon_carter_m": 0.04,
+    "entraxe_m": 0.091,
+    "source": "Équipe A, dimensions.json v1.1 (valeurs figées dans c00_constantes.py)"
+  },
+  "sensibilite_H1": {
+    "surface_m2": 1.8,
+    "volume_m3": 0.1296,
+    "puissance_coffre_a_T_revendiquee_W": {
+      "38 °C": 252.1236282534976,
+      "49 °C": 479.48930328373643
+    },
+    "T_surface_coffre_K": {
+      "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)": 6163.024633688419,
+      "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)": 6622.598693340022,
+      "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)": 7875.63744182863,
+      "énoncé bas : 300 MW entièrement déposés": 7559.60125746335,
+      "énoncé haut : 2 x 500 MW entièrement déposés": 10214.530064219647
+    },
+    "rapport_T_rayonnement": 1.1376176305959471
+  },
+  "puissance_pour_chauffer_habitacle_W": {
+    "UA=60 W/K, ΔT=15 K": 900.0,
+    "UA=100 W/K, ΔT=25 K": 2500.0
+  },
+  "flux_de_reference_W_m2": {
+    "flux critique record, eau sous-refroidie (Mudawar & Bowers 1999)": 276000000.0,
+    "col de tuyère du moteur SSME": 163000000.0,
+    "divertor ITER (transitoires lents)": 20000000.0,
+    "divertor ITER (permanent)": 10000000.0,
+    "photosphère solaire (σT⁴, 5772 K)": 62938592.470335975
+  },
+  "flux_parietal": {
+    "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement) | carter r = 4 cm": {
+      "flux_W_m2": 6591285754.9432745,
+      "rapport_au_record_CHF": 23.881470126606068,
+      "rapport_au_Soleil": 104.72566189099095
+    },
+    "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement) | carter r = 5 cm": {
+      "flux_W_m2": 4218422883.1636953,
+      "rapport_au_record_CHF": 15.284140881027882,
+      "rapport_au_Soleil": 67.02442361023421
+    },
+    "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement) | carter r = 10 cm": {
+      "flux_W_m2": 1054605720.7909238,
+      "rapport_au_record_CHF": 3.8210352202569706,
+      "rapport_au_Soleil": 16.756105902558552
+    },
+    "réf. : 1 singularité, 400 MW au total (dépôt γ + e±) | carter r = 4 cm": {
+      "flux_W_m2": 8788381006.591034,
+      "rapport_au_record_CHF": 31.841960168808093,
+      "rapport_au_Soleil": 139.63421585465463
+    },
+    "réf. : 1 singularité, 400 MW au total (dépôt γ + e±) | carter r = 5 cm": {
+      "flux_W_m2": 5624563844.218261,
+      "rapport_au_record_CHF": 20.378854508037175,
+      "rapport_au_Soleil": 89.36589814697895
+    },
+    "réf. : 1 singularité, 400 MW au total (dépôt γ + e±) | carter r = 10 cm": {
+      "flux_W_m2": 1406140961.0545652,
+      "rapport_au_record_CHF": 5.094713627009294,
+      "rapport_au_Soleil": 22.341474536744737
+    },
+    "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±) | carter r = 4 cm": {
+      "flux_W_m2": 17576762013.182068,
+      "rapport_au_record_CHF": 63.683920337616186,
+      "rapport_au_Soleil": 279.26843170930925
+    },
+    "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±) | carter r = 5 cm": {
+      "flux_W_m2": 11249127688.436522,
+      "rapport_au_record_CHF": 40.75770901607435,
+      "rapport_au_Soleil": 178.7317962939579
+    },
+    "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±) | carter r = 10 cm": {
+      "flux_W_m2": 2812281922.1091304,
+      "rapport_au_record_CHF": 10.189427254018588,
+      "rapport_au_Soleil": 44.682949073489475
+    },
+    "énoncé bas : 300 MW entièrement déposés | carter r = 4 cm": {
+      "flux_W_m2": 14920775914.865189,
+      "rapport_au_record_CHF": 54.06078230023619,
+      "rapport_au_Soleil": 237.06878926308374
+    },
+    "énoncé bas : 300 MW entièrement déposés | carter r = 5 cm": {
+      "flux_W_m2": 9549296585.51372,
+      "rapport_au_record_CHF": 34.59890067215116,
+      "rapport_au_Soleil": 151.72402512837357
+    },
+    "énoncé bas : 300 MW entièrement déposés | carter r = 10 cm": {
+      "flux_W_m2": 2387324146.37843,
+      "rapport_au_record_CHF": 8.64972516803779,
+      "rapport_au_Soleil": 37.93100628209339
+    },
+    "énoncé haut : 2 x 500 MW entièrement déposés | carter r = 4 cm": {
+      "flux_W_m2": 49735919716.21729,
+      "rapport_au_record_CHF": 180.20260766745395,
+      "rapport_au_Soleil": 790.2292975436125
+    },
+    "énoncé haut : 2 x 500 MW entièrement déposés | carter r = 5 cm": {
+      "flux_W_m2": 31830988618.379066,
+      "rapport_au_record_CHF": 115.32966890717053,
+      "rapport_au_Soleil": 505.74675042791193
+    },
+    "énoncé haut : 2 x 500 MW entièrement déposés | carter r = 10 cm": {
+      "flux_W_m2": 7957747154.594767,
+      "rapport_au_record_CHF": 28.832417226792632,
+      "rapport_au_Soleil": 126.43668760697798
+    }
+  },
+  "flux_parietal_reference": {
+    "rayon_m": 0.04,
+    "flux_W_m2": 8788381006.591034,
+    "rapport_au_record_CHF": 31.841960168808093,
+    "rapport_au_Soleil": 139.63421585465463,
+    "rapport_SSME": 53.916447893196526,
+    "rapport_ITER_20MW": 439.4190503295517,
+    "rapport_ITER_10MW": 878.8381006591034
+  },
+  "densite_volumique_coffre_MW_par_L": {
+    "min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)": 2.1040829307743336,
+    "réf. : 1 singularité, 400 MW au total (dépôt γ + e±)": 2.805443907699112,
+    "réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)": 5.610887815398224,
+    "énoncé bas : 300 MW entièrement déposés": 4.763038818766373,
+    "énoncé haut : 2 x 500 MW entièrement déposés": 15.876796062554577
+  },
+  "densite_HFIR_MW_par_L": 1.7,
+  "absorbeur_tungstene": {
+    "rayon_m": 0.03504,
+    "volume_m3": 0.00018021083617515712,
+    "masse_kg": 3.4780691381805324,
+    "densite_de_puissance_W_m3": 980523082167.395,
+    "energie_volumique_de_fusion_J_m3": 12485749000.0,
+    "temps_avant_fusion_sans_refroidissement_s": 0.012733763464701824
+  },
+  "plomb_longueur_attenuation_cm": {
+    "1 MeV": 1.240576272490097,
+    "2 MeV": 1.9128468708694464,
+    "3 MeV": 2.0809099402986937,
+    "4 MeV": 2.099254869484076,
+    "5 MeV": 2.06239997360128,
+    "6 MeV": 2.0065071025335164,
+    "8 MeV": 1.8846144785507317,
+    "10 MeV": 1.7720379499647363,
+    "15 MeV": 1.5571885272578068,
+    "20 MeV": 1.4196862209514456,
+    "30 MeV": 1.2547098671638663,
+    "50 MeV": 1.093665924432059,
+    "100 MeV": 0.946355820324884
+  },
+  "plomb_TVL_faisceau_etroit_cm": {
+    "1 MeV": 2.856532431757817,
+    "2 MeV": 4.404492690044294,
+    "3 MeV": 4.791472208394902,
+    "4 MeV": 4.833712968869195,
+    "5 MeV": 4.748851435005621,
+    "6 MeV": 4.62015334328035,
+    "8 MeV": 4.339485204351662,
+    "10 MeV": 4.080268167808531,
+    "15 MeV": 3.5855590898451783,
+    "20 MeV": 3.2689483290918497,
+    "30 MeV": 2.8890762361640583,
+    "50 MeV": 2.518258854312812,
+    "100 MeV": 2.1790648045482297
+  },
+  "TVL_NCRP151_m": {
+    "plomb": 0.057,
+    "beton": 0.45
+  },
+  "eau_longueur_attenuation_20MeV_m": 0.5515719801434087,
+  "doses_sans_blindage": [
+    {
+      "cas": "1 singularité, 400 MW au total",
+      "distance_m": 1.0,
+      "P_photons_W": 30125867.82710012,
+      "P_e_W": 146575016.69932842,
+      "fluence_energetique_photons_W_m2": 2397340.38980804,
+      "debit_dose_photons_primaires_Gy_s": 3313.1244187147117,
+      "debit_dose_e_calorimetrique_Gy_s": 116640.69220737612,
+      "debit_dose_total_calorimetrique_Gy_s": 140614.0961054565,
+      "temps_pour_DL50_photons_seuls_s": [
+        0.0007545747409539923,
+        0.0015091494819079846
+      ],
+      "dose_photons_6h_Gy": 71563487.44423777,
+      "puissance_absorbee_par_un_corps_W": 9842986.727381954
+    },
+    {
+      "cas": "1 singularité, 400 MW au total",
+      "distance_m": 3.0,
+      "P_photons_W": 30125867.82710012,
+      "P_e_W": 146575016.69932842,
+      "fluence_energetique_photons_W_m2": 266371.1544231156,
+      "debit_dose_photons_primaires_Gy_s": 368.1249354127458,
+      "debit_dose_e_calorimetrique_Gy_s": 12960.07691193068,
+      "debit_dose_total_calorimetrique_Gy_s": 15623.788456161836,
+      "temps_pour_DL50_photons_seuls_s": [
+        0.00679117266858593,
+        0.01358234533717186
+      ],
+      "dose_photons_6h_Gy": 7951498.60491531,
+      "puissance_absorbee_par_un_corps_W": 1093665.1919313285
+    },
+    {
+      "cas": "2 singularités, 400 MW chacune",
+      "distance_m": 1.0,
+      "P_photons_W": 60251735.65420024,
+      "P_e_W": 293150033.39865685,
+      "fluence_energetique_photons_W_m2": 4794680.77961608,
+      "debit_dose_photons_primaires_Gy_s": 6626.2488374294235,
+      "debit_dose_e_calorimetrique_Gy_s": 233281.38441475225,
+      "debit_dose_total_calorimetrique_Gy_s": 281228.192210913,
+      "temps_pour_DL50_photons_seuls_s": [
+        0.00037728737047699616,
+        0.0007545747409539923
+      ],
+      "dose_photons_6h_Gy": 143126974.88847554,
+      "puissance_absorbee_par_un_corps_W": 19685973.454763908
+    },
+    {
+      "cas": "2 singularités, 400 MW chacune",
+      "distance_m": 3.0,
+      "P_photons_W": 60251735.65420024,
+      "P_e_W": 293150033.39865685,
+      "fluence_energetique_photons_W_m2": 532742.3088462312,
+      "debit_dose_photons_primaires_Gy_s": 736.2498708254916,
+      "debit_dose_e_calorimetrique_Gy_s": 25920.15382386136,
+      "debit_dose_total_calorimetrique_Gy_s": 31247.57691232367,
+      "temps_pour_DL50_photons_seuls_s": [
+        0.003395586334292965,
+        0.00679117266858593
+      ],
+      "dose_photons_6h_Gy": 15902997.20983062,
+      "puissance_absorbee_par_un_corps_W": 2187330.383862657
+    }
+  ],
+  "blindage_requis_a_1m": {
+    "1 mSv sur le trajet (limite annuelle du public)": {
+      "facteur_attenuation": 71563487444.23776,
+      "nombre_de_TVL": 10.854691496524786,
+      "epaisseur_plomb_m": 0.6187174153019128,
+      "masse_sphere_plomb_kg": 13585.7823181617,
+      "epaisseur_beton_m": 4.884611173436154,
+      "faisceau_etroit": {
+        "15 MeV": {
+          "TVL_m": 0.03585559089845178,
+          "epaisseur_plomb_m": 0.38920137762829604,
+          "masse_sphere_plomb_kg": 3755.9180274205205
+        },
+        "4 MeV": {
+          "TVL_m": 0.04833712968869195,
+          "epaisseur_plomb_m": 0.5246846305982603,
+          "masse_sphere_plomb_kg": 8557.521156443183
+        }
+      }
+    },
+    "20 mSv sur le trajet (limite annuelle moyenne des travailleurs)": {
+      "facteur_attenuation": 3578174372.2118883,
+      "nombre_de_TVL": 9.553661500860805,
+      "epaisseur_plomb_m": 0.5445587055490659,
+      "masse_sphere_plomb_kg": 9493.573071866309,
+      "epaisseur_beton_m": 4.2991476753873625,
+      "faisceau_etroit": {
+        "15 MeV": {
+          "TVL_m": 0.03585559089845178,
+          "epaisseur_plomb_m": 0.34255217835715385,
+          "masse_sphere_plomb_kg": 2658.6413532929173
+        },
+        "4 MeV": {
+          "TVL_m": 0.04833712968869195,
+          "epaisseur_plomb_m": 0.46179657496897214,
+          "masse_sphere_plomb_kg": 6004.094432226256
+        }
+      }
+    }
+  },
+  "blindage_logeable_par_direction": {
+    "profondeur, logement centré (cas favorable)": {
+      "epaisseur_plomb_m": 0.09,
+      "attenuation": 37.92690190732248,
+      "debit_dose_residuel_photons_1m_Gy_s": 87.35552476209644
+    },
+    "profondeur, vers la face la plus proche (DOC-007)": {
+      "epaisseur_plomb_m": 0.044500000000000005,
+      "attenuation": 6.035340185482207,
+      "debit_dose_residuel_photons_1m_Gy_s": 548.9540468131876
+    },
+    "vertical, demi-hauteur du corps": {
+      "epaisseur_plomb_m": 0.07,
+      "attenuation": 16.907141034735808,
+      "debit_dose_residuel_photons_1m_Gy_s": 195.96006278695378
+    },
+    "entre les deux logements (demi-intervalle)": {
+      "epaisseur_plomb_m": 0.005499999999999998,
+      "attenuation": 1.2487952210263629,
+      "debit_dose_residuel_photons_1m_Gy_s": 2653.056612429789
+    },
+    "ancienne hypothèse H1 (0,36 m de profondeur, carter 5 cm)": {
+      "epaisseur_plomb_m": 0.13,
+      "attenuation": 190.8542144006686,
+      "debit_dose_residuel_photons_1m_Gy_s": 17.359451186963703
+    }
+  },
+  "blindage_logeable": {
+    "epaisseur_plomb_m": 0.09,
+    "attenuation": 37.92690190732248,
+    "debit_dose_residuel_photons_1m_Gy_s": 87.35552476209644,
+    "masse_sphere_plomb_kg": 101.40872590228639,
+    "masse_unite_kg": 226.796185
+  },
+  "cone_collimation": {
+    "demi-angle 10°": {
+      "fraction_angle_solide": 0.00759612349389599,
+      "fraction_absorbee_par_le_collimateur": 0.9924038765061041
+    },
+    "demi-angle 30°": {
+      "fraction_angle_solide": 0.06698729810778065,
+      "fraction_absorbee_par_le_collimateur": 0.9330127018922194
+    },
+    "demi-angle 45°": {
+      "fraction_angle_solide": 0.1464466094067262,
+      "fraction_absorbee_par_le_collimateur": 0.8535533905932737
+    }
+  },
+  "longueur_attenuation_air_m": 508.5956478961813,
+  "dose_dans_le_cone": {
+    "10 m": {
+      "debit_Gy_s": 32.486180557933814,
+      "debit_Gy_h": 116950.25000856174
+    },
+    "100 m": {
+      "debit_Gy_s": 0.2721741212930094,
+      "debit_Gy_h": 979.8268366548338
+    },
+    "1000 m": {
+      "debit_Gy_s": 0.00046379769560214886,
+      "debit_Gy_h": 1.6696717041677358
+    }
+  },
+  "rayon_de_giration_e_m": {
+    "E = 10.0 MeV, B = 1.0 T": 0.0333564095198152,
+    "E = 10.0 MeV, B = 10.0 T": 0.00333564095198152,
+    "E = 10.0 MeV, B = 20.0 T": 0.00166782047599076,
+    "E = 40.0 MeV, B = 1.0 T": 0.1334256380792608,
+    "E = 40.0 MeV, B = 10.0 T": 0.01334256380792608,
+    "E = 40.0 MeV, B = 20.0 T": 0.00667128190396304
+  },
+  "neutrinos": {
+    "puissance_W": 219862525.04899263,
+    "fluence_energetique_1m_W_m2": 17496103.831106417,
+    "debit_dose_1m_Gy_s": 1.0536153727092284e-11
+  }
+}

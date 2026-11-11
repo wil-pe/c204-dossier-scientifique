@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 860" width="1500" height="860" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="1500" height="860" fill="#fcfcfb"/>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0b0b0b">C204-R3 — palier « limite théorique » : voies que la physique connue n&#x27;interdit pas</text>
+<text x="24" y="60" font-size="13" fill="#52514e">Chaque voie : principe → valeur atteignable → verrou. Vert : démontré ; jaune : théoriquement possible ; rose : spéculatif ; rouge : contredit.</text>
+<text x="24" y="78" font-size="13" fill="#52514e">Seule la colonne de droite concerne le passé, et elle exige une physique que rien n&#x27;indique aujourd&#x27;hui. Valeurs : script i05.</text>
+<rect x="30" y="110" width="250" height="120" rx="7" fill="#e34948" stroke="#e34948" stroke-width="2.2"/>
+<text x="46" y="130" font-size="13" font-weight="700" fill="#ffffff">But revendiqué</text>
+<text x="46" y="148.0" font-size="11.5" fill="#ffffff">Γ = 87 660 (« 10 ans par heure »)</text>
+<text x="46" y="163.5" font-size="11.5" fill="#ffffff">vers le passé, dans 227 kg,</text>
+<text x="46" y="179.0" font-size="11.5" fill="#ffffff">sur batterie</text>
+<rect x="320" y="110" width="270" height="120" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="320" y="110" width="7" height="120" rx="3" fill="#1baf7a"/>
+<text x="336" y="130" font-size="13" font-weight="700" fill="#0b0b0b">(a1) Vitesse</text>
+<text x="336" y="148.0" font-size="11.5" fill="#52514e">dilatation cinématique γ</text>
+<text x="336" y="163.5" font-size="11.5" fill="#52514e">muons en anneau : γ = 29,3 (réalisé)</text>
+<text x="336" y="179.0" font-size="11.5" fill="#52514e">électrons du LEP : γ = 89 000 (réalisé)</text>
+<text x="336" y="194.5" font-size="11.5" fill="#52514e">rendement : τ/(m·c²), indépendant de γ</text>
+<rect x="320" y="290" width="270" height="130" rx="7" fill="#ffffff" stroke="#6b7280" stroke-width="2.2"/>
+<rect x="320" y="290" width="7" height="130" rx="3" fill="#6b7280"/>
+<text x="336" y="310" font-size="13" font-weight="700" fill="#0b0b0b">Verrou</text>
+<text x="336" y="328.0" font-size="11.5" fill="#52514e">227 kg à Γ revendiqué : 1,8×10²⁴ J</text>
+<text x="336" y="343.5" font-size="11.5" fill="#52514e">(2 900 ans d&#x27;énergie mondiale)</text>
+<text x="336" y="359.0" font-size="11.5" fill="#52514e">à 1 g : 11,7 ans d&#x27;accélération</text>
+<text x="336" y="374.5" font-size="11.5" fill="#52514e">anneau « habitable » à 1 g :</text>
+<text x="336" y="390.0" font-size="11.5" fill="#52514e">rayon de 830 années-lumière (γ = 29)</text>
+<rect x="320" y="480" width="270" height="60" rx="7" fill="#1baf7a" stroke="#1baf7a" stroke-width="2.2"/>
+<text x="336" y="500" font-size="13" font-weight="700" fill="#ffffff">VERS LE FUTUR SEULEMENT</text>
+<path d="M455.0,230.0 L455.0,290.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M455.0,420.0 L455.0,480.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="610" y="110" width="270" height="120" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2"/>
+<rect x="610" y="110" width="7" height="120" rx="3" fill="#eda100"/>
+<text x="626" y="130" font-size="13" font-weight="700" fill="#0b0b0b">(a2) Gravité</text>
+<text x="626" y="148.0" font-size="11.5" fill="#52514e">orbite stable autour d&#x27;un trou noir</text>
+<text x="626" y="163.5" font-size="11.5" fill="#52514e">de Kerr a/M = 0,998 : Γ = 10,8</text>
+<text x="626" y="179.0" font-size="11.5" fill="#52514e">sans poussée ni pesanteur ressentie</text>
+<text x="626" y="194.5" font-size="11.5" fill="#52514e">coût du retour : 0,32 m·c²</text>
+<rect x="610" y="290" width="270" height="130" rx="7" fill="#ffffff" stroke="#6b7280" stroke-width="2.2"/>
+<rect x="610" y="290" width="7" height="130" rx="3" fill="#6b7280"/>
+<text x="626" y="310" font-size="13" font-weight="700" fill="#0b0b0b">Verrou</text>
+<text x="626" y="328.0" font-size="11.5" fill="#52514e">Γ revendiqué : 1 − a/M = 4,6×10⁻¹⁵</text>
+<text x="626" y="343.5" font-size="11.5" fill="#52514e">(limite admise : ~2×10⁻³)</text>
+<text x="626" y="359.0" font-size="11.5" fill="#52514e">immobile près d&#x27;un horizon :</text>
+<text x="626" y="374.5" font-size="11.5" fill="#52514e">3×10¹⁰ g de poussée</text>
+<text x="626" y="390.0" font-size="11.5" fill="#52514e">trou noir supermassif à ~26 000 a.l.</text>
+<rect x="610" y="480" width="270" height="60" rx="7" fill="#1baf7a" stroke="#1baf7a" stroke-width="2.2"/>
+<text x="626" y="500" font-size="13" font-weight="700" fill="#ffffff">VERS LE FUTUR SEULEMENT</text>
+<path d="M745.0,230.0 L745.0,290.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M745.0,420.0 L745.0,480.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="900" y="110" width="270" height="120" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2"/>
+<rect x="900" y="110" width="7" height="120" rx="3" fill="#eda100"/>
+<text x="916" y="130" font-size="13" font-weight="700" fill="#0b0b0b">(b) Trou noir moteur</text>
+<text x="916" y="148.0" font-size="11.5" fill="#52514e">rayonnement de Hawking :</text>
+<text x="916" y="163.5" font-size="11.5" fill="#52514e">10⁹ kg → 6×10¹⁶ W pendant ~15 ans</text>
+<text x="916" y="179.0" font-size="11.5" fill="#52514e">poussée ≤ P/c = 2×10⁸ N</text>
+<text x="916" y="194.5" font-size="11.5" fill="#52514e">γ final ≈ 10 (η = 0,44 ; R = 1 000)</text>
+<rect x="900" y="290" width="270" height="130" rx="7" fill="#ffffff" stroke="#6b7280" stroke-width="2.2"/>
+<rect x="900" y="290" width="7" height="130" rx="3" fill="#6b7280"/>
+<text x="916" y="310" font-size="13" font-weight="700" fill="#0b0b0b">Verrou</text>
+<text x="916" y="328.0" font-size="11.5" fill="#52514e">fabrication ≥ 9×10²⁵ J ; pas de</text>
+<text x="916" y="343.5" font-size="11.5" fill="#52514e">trou noir par concentration de lumière</text>
+<text x="916" y="359.0" font-size="11.5" fill="#52514e">(Álvarez-Domínguez et al. 2024)</text>
+<text x="916" y="374.5" font-size="11.5" fill="#52514e">aucun confinement ; aucun état sûr</text>
+<text x="916" y="390.0" font-size="11.5" fill="#52514e">jamais observé</text>
+<rect x="900" y="480" width="270" height="60" rx="7" fill="#1baf7a" stroke="#1baf7a" stroke-width="2.2"/>
+<text x="916" y="500" font-size="13" font-weight="700" fill="#ffffff">VERS LE FUTUR SEULEMENT</text>
+<path d="M1035.0,230.0 L1035.0,290.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M1035.0,420.0 L1035.0,480.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="1190" y="110" width="270" height="120" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="1190" y="110" width="7" height="120" rx="3" fill="#e87ba4"/>
+<text x="1206" y="130" font-size="13" font-weight="700" fill="#0b0b0b">(c) Trou de ver</text>
+<text x="1206" y="148.0" font-size="11.5" fill="#52514e">gorge de 2,5 m : −1,7×10²⁷ kg</text>
+<text x="1206" y="163.5" font-size="11.5" fill="#52514e">d&#x27;énergie négative (0,9 Jupiter)</text>
+<text x="1206" y="179.0" font-size="11.5" fill="#52514e">tension 8×10⁴¹ Pa</text>
+<text x="1206" y="194.5" font-size="11.5" fill="#52514e">décalage ≤ durée de fonctionnement</text>
+<rect x="1190" y="290" width="270" height="130" rx="7" fill="#ffffff" stroke="#6b7280" stroke-width="2.2"/>
+<rect x="1190" y="290" width="7" height="130" rx="3" fill="#6b7280"/>
+<text x="1206" y="310" font-size="13" font-weight="700" fill="#0b0b0b">Verrou</text>
+<text x="1206" y="328.0" font-size="11.5" fill="#52514e">inégalités quantiques : 10⁻²⁶ s</text>
+<text x="1206" y="343.5" font-size="11.5" fill="#52514e">condition d&#x27;énergie nulle moyennée</text>
+<text x="1206" y="359.0" font-size="11.5" fill="#52514e">protection chronologique</text>
+<text x="1206" y="374.5" font-size="11.5" fill="#52514e">jamais avant la mise en service :</text>
+<text x="1206" y="390.0" font-size="11.5" fill="#52514e">2036 → 1975 exclu par construction</text>
+<rect x="1190" y="480" width="270" height="60" rx="7" fill="#e87ba4" stroke="#e87ba4" stroke-width="2.2"/>
+<text x="1206" y="500" font-size="13" font-weight="700" fill="#ffffff">PASSÉ : seulement si…</text>
+<text x="1206" y="518.0" font-size="11.5" fill="#ffffff">énergie négative macroscopique</text>
+<path d="M1325.0,230.0 L1325.0,290.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M1325.0,420.0 L1325.0,480.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="30" y="600" width="1430" height="200" rx="7" fill="#ffffff" stroke="#6b7280" stroke-width="2.2"/>
+<rect x="30" y="600" width="7" height="200" rx="3" fill="#6b7280"/>
+<text x="46" y="620" font-size="13" font-weight="700" fill="#0b0b0b">(d) Ce qu&#x27;il faudrait découvrir pour qu&#x27;un déplacement vers le passé devienne envisageable — et les expériences qui le verraient</text>
+<text x="46" y="638.0" font-size="11.5" fill="#52514e">1. Une violation macroscopique et durable de la condition d&#x27;énergie nulle moyennée (énergie négative) → pesée de l&#x27;énergie du vide, géométries de Casimir, états comprimés : aucune indication.</text>
+<text x="46" y="653.5" font-size="11.5" fill="#52514e">2. Une mécanique quantique non linéaire (interaction entre branches d&#x27;Everett) → tests de linéarité (Polkovnikov et al. 2023 ; Broz et al. 2023) : effets nuls à ce jour.</text>
+<text x="46" y="669.0" font-size="11.5" fill="#52514e">3. L&#x27;échec de la protection chronologique en gravité quantique → aucun test direct ; indices théoriques contraires (holographie).</text>
+<text x="46" y="684.5" font-size="11.5" fill="#52514e">4. Un prolongement régulier au-delà de l&#x27;horizon interne de Kerr → mathématiquement défavorisé (Dafermos &amp; Luk 2025) ; inobservable de l&#x27;extérieur.</text>
+<text x="46" y="700.0" font-size="11.5" fill="#52514e">5. Une échelle de Planck abaissée ou des trous noirs primordiaux légers (source de « micro-singularités ») → LHC (exclusion jusqu&#x27;à ~10 TeV), LHAASO (&lt; 181 explosions par pc³ et par an) : rien.</text>
+<text x="46" y="715.5" font-size="11.5" fill="#52514e">6. Une violation de l&#x27;invariance de Lorentz ou une propagation supraluminique → GW170817 (10⁻¹⁴), sursauts gamma : rien.</text>
+<text x="46" y="731.0" font-size="11.5" fill="#52514e">Aucun de ces six résultats ne suffirait seul : il faudrait en outre une source d&#x27;énergie de l&#x27;ordre de la masse de Jupiter. Sources : Équipes B et H (références vérifiées).</text>
+<path d="M280.0,170.0 L320.0,170.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="280" width="14" height="12" rx="2" fill="#1baf7a"/>
+<text x="62" y="290" font-size="11.5" fill="#0b0b0b" text-anchor="start">démontré</text>
+<rect x="40" y="300" width="14" height="12" rx="2" fill="#eda100"/>
+<text x="62" y="310" font-size="11.5" fill="#0b0b0b" text-anchor="start">théoriquement possible</text>
+<rect x="40" y="320" width="14" height="12" rx="2" fill="#e87ba4"/>
+<text x="62" y="330" font-size="11.5" fill="#0b0b0b" text-anchor="start">spéculatif</text>
+<rect x="40" y="340" width="14" height="12" rx="2" fill="#e34948"/>
+<text x="62" y="350" font-size="11.5" fill="#0b0b0b" text-anchor="start">contredit</text>
+</svg>

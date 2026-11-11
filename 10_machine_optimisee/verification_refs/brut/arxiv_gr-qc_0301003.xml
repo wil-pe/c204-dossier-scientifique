@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/49nLAWkeGg1G1+ELLztsarHEEso</id>
+  <title>arXiv Query: search_query=&amp;id_list=gr-qc/0301003&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:47:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=gr-qc/0301003" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0301003v2</id>
+    <title>Traversable wormholes with arbitrarily small energy condition violations</title>
+    <updated>2003-04-23T02:14:32Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0301003v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0301003v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Traversable wormholes necessarily require violations of the averaged null energy condition; this being the definition of ``exotic matter''. However, the theorems which guarantee the energy condition violation are remarkably silent when it comes to making quantitative statements regarding the ``total amount'' of energy condition violating matter in the spacetime. We develop a suitable measure for quantifying this notion, and demonstrate the existence of spacetime geometries containing traversable wormholes that are supported by arbitrarily small quantities of ``exotic matter''.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-01-01T19:44:42Z</published>
+    <arxiv:comment>4 pages, revtex4; V2: discussion refined and strengthened in view of referee comments, no changes in physics conclusions. To appear in Physical Review Letters</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.90:201102,2003</arxiv:journal_ref>
+    <author>
+      <name>Matt Visser</name>
+      <arxiv:affiliation>Victoria University of Wellington</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sayan Kar</name>
+      <arxiv:affiliation>Indian Institute of Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Naresh Dadhich</name>
+      <arxiv:affiliation>IUCAA, Pune</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.90.201102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.90.201102" title="doi"/>
+  </entry>
+</feed>

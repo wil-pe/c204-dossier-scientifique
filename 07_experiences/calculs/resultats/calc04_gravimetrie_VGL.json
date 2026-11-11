@@ -1,0 +1,179 @@
+{
+  "gradients": {
+    "air_libre_uGal_m": 308.27972020291725,
+    "nord_sud_45_uGal_m": 0.8139897164207972,
+    "bouguer_uGal_m": 111.96875606754226,
+    "maree_cc_uGal": 279.16355906362145
+  },
+  "masses_proches": [
+    {
+      "cas": "personne de 80 kg à 1 m",
+      "a_uGal": 0.533944
+    },
+    {
+      "cas": "voiture de 1500 kg à 2 m",
+      "a_uGal": 2.5028625
+    },
+    {
+      "cas": "bloc de béton de 1 m³ (2400 kg) à 1 m",
+      "a_uGal": 16.01832
+    },
+    {
+      "cas": "camion de 20 t à 5 m",
+      "a_uGal": 5.33944
+    },
+    {
+      "cas": "immeuble de 10 000 t à 30 m",
+      "a_uGal": 74.15888888888888
+    },
+    {
+      "cas": "unité C204 revendiquée (227 kg) à 1 m",
+      "a_uGal": 1.5150660999999999
+    }
+  ],
+  "galerie_uGal": 27.957242463805805,
+  "capteurs": [
+    {
+      "capteur": "Accéléromètre de smartphone",
+      "sigma_m_s2": 0.002,
+      "sigma_uGal": 200000.0,
+      "dh_equivalent_m": 648.7614555649496,
+      "cout": "0 € (application phyphox)",
+      "niveau": "N1"
+    },
+    {
+      "capteur": "Accéléromètre MEMS bas bruit (type ADXL355)",
+      "sigma_m_s2": 0.0002,
+      "sigma_uGal": 20000.0,
+      "dh_equivalent_m": 64.87614555649496,
+      "cout": "40–80 € + microcontrôleur",
+      "niveau": "N1"
+    },
+    {
+      "capteur": "Pendule simple soigné (L ≈ 1 m, chrono optique)",
+      "sigma_m_s2": 0.001,
+      "sigma_uGal": 100000.0,
+      "dh_equivalent_m": 324.3807277824748,
+      "cout": "20–80 €",
+      "niveau": "N1"
+    },
+    {
+      "capteur": "Pendule réversible de Kater (TP)",
+      "sigma_m_s2": 0.0001,
+      "sigma_uGal": 10000.0,
+      "dh_equivalent_m": 32.43807277824748,
+      "cout": "matériel de TP",
+      "niveau": "N2"
+    },
+    {
+      "capteur": "Gravimètre MEMS de recherche (Middlemiss et al. 2016 : 40 µGal/√Hz)",
+      "sigma_m_s2": 4e-07,
+      "sigma_uGal": 40.0,
+      "dh_equivalent_m": 0.12975229111298991,
+      "cout": "prototype",
+      "niveau": "N3"
+    },
+    {
+      "capteur": "Gravimètre relatif à ressort (type CG-5/CG-6)",
+      "sigma_m_s2": 5e-08,
+      "sigma_uGal": 5.0,
+      "dh_equivalent_m": 0.01621903638912374,
+      "cout": "≈ 100 k€ (prêt/location en géophysique)",
+      "niveau": "N2/N3"
+    },
+    {
+      "capteur": "Gravimètre absolu à chute de coin de cube (type FG5)",
+      "sigma_m_s2": 2e-08,
+      "sigma_uGal": 2.0,
+      "dh_equivalent_m": 0.006487614555649496,
+      "cout": "plusieurs centaines de k€",
+      "niveau": "N3"
+    },
+    {
+      "capteur": "Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)",
+      "sigma_m_s2": 5e-08,
+      "sigma_uGal": 5.0,
+      "dh_equivalent_m": 0.01621903638912374,
+      "cout": "plusieurs centaines de k€",
+      "niveau": "N3"
+    },
+    {
+      "capteur": "Gravimètre supraconducteur (observatoire)",
+      "sigma_m_s2": 1e-10,
+      "sigma_uGal": 0.01,
+      "dh_equivalent_m": 3.243807277824748e-05,
+      "cout": "observatoire",
+      "niveau": "N3"
+    }
+  ],
+  "pendule": {
+    "T_s": 2.0064092925890407,
+    "dg_absolu": 0.0009807137192756209
+  },
+  "cellule_moyenne_m2": 98354885.21739914,
+  "detectabilite": {
+    "unité revendiquée, 227 kg": {
+      "M_kg": 227.0,
+      "g_1m": 1.5150661e-08,
+      "g_1m_en_g": 1.544937465903239e-09,
+      "Accéléromètre de smartphone": 0.001230880213505766,
+      "Accéléromètre MEMS bas bruit (type ADXL355)": 0.0038923850015125687,
+      "Gravimètre relatif à ressort (type CG-5/CG-6)": 0.24617604270115317,
+      "Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)": 0.24617604270115317
+    },
+    "une singularité, 3,9e12 kg": {
+      "M_kg": 3900000000000.0,
+      "g_1m": 260.29769999999996,
+      "g_1m_en_g": 26.542978489086487,
+      "Accéléromètre de smartphone": 161.33744140775258,
+      "Accéléromètre MEMS bas bruit (type ADXL355)": 510.1937867124608,
+      "Gravimètre relatif à ressort (type CG-5/CG-6)": 32267.488281550515,
+      "Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)": 32267.488281550515
+    },
+    "une singularité, 5,1e12 kg": {
+      "M_kg": 5100000000000.0,
+      "g_1m": 340.3893,
+      "g_1m_en_g": 34.71004879342079,
+      "Accéléromètre de smartphone": 184.4964227295478,
+      "Accéléromètre MEMS bas bruit (type ADXL355)": 583.4289159786306,
+      "Gravimètre relatif à ressort (type CG-5/CG-6)": 36899.28454590956,
+      "Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)": 36899.28454590956
+    },
+    "la paire, 7,8e12 kg": {
+      "M_kg": 7800000000000.0,
+      "g_1m": 520.5953999999999,
+      "g_1m_en_g": 53.08595697817297,
+      "Accéléromètre de smartphone": 228.16559775741828,
+      "Accéléromètre MEMS bas bruit (type ADXL355)": 721.5229726072482,
+      "Gravimètre relatif à ressort (type CG-5/CG-6)": 45633.11955148365,
+      "Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)": 45633.11955148365
+    },
+    "la paire, 1,02e13 kg": {
+      "M_kg": 10200000000000.0,
+      "g_1m": 680.7786,
+      "g_1m_en_g": 69.42009758684158,
+      "Accéléromètre de smartphone": 260.9173432334463,
+      "Accéléromètre MEMS bas bruit (type ADXL355)": 825.0930856576123,
+      "Gravimètre relatif à ressort (type CG-5/CG-6)": 52183.46864668925,
+      "Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)": 52183.46864668925
+    },
+    "ancienne fourchette v1 : 1e11 kg": {
+      "M_kg": 100000000000.0,
+      "g_1m": 6.6743,
+      "g_1m_en_g": 0.6805891920278586,
+      "Accéléromètre de smartphone": 25.83466663225984,
+      "Accéléromètre MEMS bas bruit (type ADXL355)": 81.69638914909275,
+      "Gravimètre relatif à ressort (type CG-5/CG-6)": 5166.933326451968,
+      "Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)": 5166.933326451968
+    },
+    "ancienne fourchette v1 : 1e12 kg": {
+      "M_kg": 1000000000000.0,
+      "g_1m": 66.743,
+      "g_1m_en_g": 6.805891920278587,
+      "Accéléromètre de smartphone": 81.69638914909275,
+      "Accéléromètre MEMS bas bruit (type ADXL355)": 258.3466663225984,
+      "Gravimètre relatif à ressort (type CG-5/CG-6)": 16339.277829818551,
+      "Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)": 16339.277829818551
+    }
+  }
+}

@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Viw1nqEIOKKTAj6L8sGYkAk9xV4</id>
+  <title>arXiv Query: search_query=&amp;id_list=1306.6275,1410.2143,1508.03344,1603.08001,1608.02589,1609.08684,1610.08057,1704.03735,2107.00736,2107.13571,2105.06632,2202.06980,2305.08904,2409.03680,2208.07236&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=1306.6275,1410.2143,1508.03344,1603.08001,1608.02589,1609.08684,1610.08057,1704.03735,2107.00736,2107.13571,2105.06632,2202.06980,2305.08904,2409.03680,2208.07236" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1508.03344v3</id>
+    <title>On the phase structure of driven quantum systems</title>
+    <updated>2016-08-22T19:30:58Z</updated>
+    <link href="https://arxiv.org/abs/1508.03344v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.03344v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Clean and interacting periodically driven quantum systems are believed to exhibit a single, trivial "infinite-temperature" Floquet-ergodic phase. In contrast, here we show that their disordered Floquet many-body localized counterparts can exhibit distinct ordered phases delineated by sharp transitions. Some of these are analogs of equilibrium states with broken symmetries and topological order, while others - genuinely new to the Floquet problem - are characterized by order and non-trivial periodic dynamics. We illustrate these ideas in driven spin chains with Ising symmetry.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-13T20:11:12Z</published>
+    <arxiv:comment>v3 - published version. Discussions expanded/clarified in few places</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 116, 250401 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Vedika Khemani</name>
+    </author>
+    <author>
+      <name>Achilleas Lazarides</name>
+    </author>
+    <author>
+      <name>Roderich Moessner</name>
+    </author>
+    <author>
+      <name>S. L. Sondhi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.116.250401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.116.250401" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.08684v1</id>
+    <title>Observation of a Discrete Time Crystal</title>
+    <updated>2016-09-27T22:00:49Z</updated>
+    <link href="https://arxiv.org/abs/1609.08684v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.08684v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spontaneous symmetry breaking is a fundamental concept in many areas of physics, ranging from cosmology and particle physics to condensed matter. A prime example is the breaking of spatial translation symmetry, which underlies the formation of crystals and the phase transition from liquid to solid. Analogous to crystals in space, the breaking of translation symmetry in time and the emergence of a "time crystal" was recently proposed, but later shown to be forbidden in thermal equilibrium. However, non-equilibrium Floquet systems subject to a periodic drive can exhibit persistent time-correlations at an emergent sub-harmonic frequency. This new phase of matter has been dubbed a "discrete time crystal" (DTC). Here, we present the first experimental observation of a discrete time crystal, in an interacting spin chain of trapped atomic ions. We apply a periodic Hamiltonian to the system under many-body localization (MBL) conditions, and observe a sub-harmonic temporal response that is robust to external perturbations. Such a time crystal opens the door for studying systems with long-range spatial-temporal correlations and novel phases of matter that emerge under intrinsically non-equilibrium conditions.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-27T22:00:49Z</published>
+    <arxiv:comment>9 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>J. Zhang</name>
+    </author>
+    <author>
+      <name>P. W. Hess</name>
+    </author>
+    <author>
+      <name>A. Kyprianidis</name>
+    </author>
+    <author>
+      <name>P. Becker</name>
+    </author>
+    <author>
+      <name>A. Lee</name>
+    </author>
+    <author>
+      <name>J. Smith</name>
+    </author>
+    <author>
+      <name>G. Pagano</name>
+    </author>
+    <author>
+      <name>I. -D. Potirniche</name>
+    </author>
+    <author>
+      <name>A. C. Potter</name>
+    </author>
+    <author>
+      <name>A. Vishwanath</name>
+    </author>
+    <author>
+      <name>N. Y. Yao</name>
+    </author>
+    <author>
+      <name>C. Monroe</name>
+    </author>
+    <arxiv:doi>10.1038/nature21413</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature21413" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.03680v1</id>
+    <title>Experimental evidence that a photon can spend a negative amount of time in an atom cloud</title>
+    <updated>2024-09-05T16:32:50Z</updated>
+    <link href="https://arxiv.org/abs/2409.03680v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.03680v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When a pulse of light traverses a material, it incurs a time delay referred to as the group delay. Should the group delay experienced by photons be attributed to the time they spend as atomic excitations? However reasonable this connection may seem, it appears problematic when the frequency of the light is close to the atomic resonance, as the group delay becomes negative in this regime. To address this question, we use the cross-Kerr effect to probe the degree of atomic excitation caused by a resonant transmitted photon, by measuring the phase shift on a separate beam that is weak and off-resonant. Our results, over a range of pulse durations and optical depths, are consistent with the recent theoretical prediction that the mean atomic excitation time caused by a transmitted photon (as measured via the time integral of the observed phase shift) equals the group delay experienced by the light. Specifically, we measure mean atomic excitation times ranging from $(-0.82\pm 0.31) τ_0$ for the most narrowband pulse to $(0.54\pm 0.28) τ_0$ for the most broadband pulse, where $τ_0$ is the non-post-selected excitation time, given by the scattering (absorption) probability multiplied by the atomic lifetime $τ_{\rm sp}$. These results suggest that negative values taken by times such as the group delay have more physical significance than has generally been appreciated.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-05T16:32:50Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 136, 153601 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Daniela Angulo</name>
+    </author>
+    <author>
+      <name>Kyle Thompson</name>
+    </author>
+    <author>
+      <name>Vida-Michelle Nixon</name>
+    </author>
+    <author>
+      <name>Andy Jiao</name>
+    </author>
+    <author>
+      <name>Howard M. Wiseman</name>
+    </author>
+    <author>
+      <name>Aephraim M. Steinberg</name>
+    </author>
+    <arxiv:doi>10.1103/gjfq-k9dv</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/gjfq-k9dv" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.06980v3</id>
+    <title>Observation of a continuous time crystal</title>
+    <updated>2022-08-23T08:31:46Z</updated>
+    <link href="https://arxiv.org/abs/2202.06980v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.06980v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time crystals are classified as discrete or continuous depending on whether they spontaneously break discrete or continuous time translation symmetry. While discrete time crystals have been extensively studied in periodically driven systems since their recent discovery, the experimental realization of a continuous time crystal is still pending. Here, we report the observation of a limit cycle phase in a continuously pumped dissipative atom-cavity system, which is characterized by emergent oscillations in the intracavity photon number. We observe that the phase of this oscillation is random for different realizations, and hence this dynamical many-body state breaks continuous time translation symmetry spontaneously. The observed robustness of the limit cycles against temporal perturbations confirms the realization of a continuous time crystal.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-14T19:00:18Z</published>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Science 377, 6606, pp. 670-673 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Phatthamon Kongkhambut</name>
+    </author>
+    <author>
+      <name>Jim Skulte</name>
+    </author>
+    <author>
+      <name>Ludwig Mathey</name>
+    </author>
+    <author>
+      <name>Jayson G. Cosme</name>
+    </author>
+    <author>
+      <name>Andreas Hemmerich</name>
+    </author>
+    <author>
+      <name>Hans Keßler</name>
+    </author>
+    <arxiv:doi>10.1126/science.abo3382</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.abo3382" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.03735v5</id>
+    <title>Time crystals: a review</title>
+    <updated>2018-01-18T07:00:12Z</updated>
+    <link href="https://arxiv.org/abs/1704.03735v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.03735v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time crystals are time-periodic self-organized structures postulated by Frank Wilczek in 2012. While the original concept was strongly criticized, it stimulated at the same time an intensive research leading to propositions and experimental verifications of discrete (or Floquet) time crystals -- the structures that appear in the time domain due to spontaneous breaking of discrete time translation symmetry. The struggle to observe discrete time crystals is reviewed here together with propositions that generalize this concept introducing condensed matter like physics in the time domain. We shall also revisit the original Wilczek's idea and review strategies aimed at spontaneous breaking of continuous time translation symmetry.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-12T12:47:57Z</published>
+    <arxiv:comment>VIDEO ABSTRACT: https://youtu.be/5uaUEWH0x60</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Rep. Prog. Phys. 81, 016401 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Krzysztof Sacha</name>
+    </author>
+    <author>
+      <name>Jakub Zakrzewski</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6633/aa8b38</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6633/aa8b38" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.02589v3</id>
+    <title>Discrete time crystals: rigidity, criticality, and realizations</title>
+    <updated>2017-06-20T06:07:52Z</updated>
+    <link href="https://arxiv.org/abs/1608.02589v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.02589v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite being forbidden in equilibrium, spontaneous breaking of time translation symmetry can occur in periodically driven, Floquet systems with discrete time-translation symmetry. The period of the resulting discrete time crystal is quantized to an integer multiple of the drive period, arising from a combination of collective synchronization and many body localization. Here, we consider a simple model for a one dimensional discrete time crystal which explicitly reveals the rigidity of the emergent oscillations as the drive is varied. We numerically map out its phase diagram and compute the properties of the dynamical phase transition where the time crystal melts into a trivial Floquet insulator. Moreover, we demonstrate that the model can be realized with current experimental technologies and propose a blueprint based upon a one dimensional chain of trapped ions. Using experimental parameters (featuring long-range interactions), we identify the phase boundaries of the ion-time-crystal and propose a measurable signature of the symmetry breaking phase transition.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-08T20:00:03Z</published>
+    <arxiv:comment>9 pages, 7 figures; V3: Modified Eqn. (1) to include coupling strength disorder which was included in the numerics and also essential for stabilizing time crystalline order. Other typos corrected and a few references added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 118, 030401 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Norman Y. Yao</name>
+    </author>
+    <author>
+      <name>Andrew C. Potter</name>
+    </author>
+    <author>
+      <name>Ionut-Dragos Potirniche</name>
+    </author>
+    <author>
+      <name>Ashvin Vishwanath</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.118.030401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.118.030401" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.00736v1</id>
+    <title>Observation of a many-body-localized discrete time crystal with a programmable spin-based quantum simulator</title>
+    <updated>2021-07-01T20:23:55Z</updated>
+    <link href="https://arxiv.org/abs/2107.00736v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.00736v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discrete time crystal (DTC) is a recently discovered phase of matter that spontaneously breaks time-translation symmetry. Disorder-induced many-body-localization is required to stabilize a DTC to arbitrary times, yet an experimental investigation of this localized regime has proven elusive. Here, we observe the hallmark signatures of a many-body-localized DTC using a novel quantum simulation platform based on individually controllable $^{13}$C nuclear spins in diamond. We demonstrate the characteristic long-lived spatiotemporal order and confirm that it is robust for generic initial states. Our results are consistent with the realization of an out-of-equilibrium Floquet phase of matter and establish a programmable quantum simulator based on solid-state spins for exploring many-body physics.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-01T20:23:55Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>J. Randall</name>
+    </author>
+    <author>
+      <name>C. E. Bradley</name>
+    </author>
+    <author>
+      <name>F. V. van der Gronden</name>
+    </author>
+    <author>
+      <name>A. Galicia</name>
+    </author>
+    <author>
+      <name>M. H. Abobeih</name>
+    </author>
+    <author>
+      <name>M. Markham</name>
+    </author>
+    <author>
+      <name>D. J. Twitchen</name>
+    </author>
+    <author>
+      <name>F. Machado</name>
+    </author>
+    <author>
+      <name>N. Y. Yao</name>
+    </author>
+    <author>
+      <name>T. H. Taminiau</name>
+    </author>
+    <arxiv:doi>10.1126/science.abk0603</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.abk0603" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.06632v3</id>
+    <title>Realization of a discrete time crystal on 57 qubits of a quantum computer</title>
+    <updated>2022-01-17T02:50:26Z</updated>
+    <link href="https://arxiv.org/abs/2105.06632v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.06632v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Novel dynamical phases that violate ergodicity have been a subject of extensive research in recent years. A periodically driven system is naively expected to lose all memory of its initial state due to thermalization, yet this can be avoided in the presence of many-body localization. A discrete time crystal represents a driven system whose local observables spontaneously break time translation symmetry and retain memory of the initial state indefinitely. Here we report the observation of a discrete time crystal on a chain consisting of 57 superconducting qubits on a state--of--the--art quantum computer. We probe random initial states and compare the cases of vanishing and finite disorder to distinguish many-body localization from pre-thermal dynamics. We further report results on the dynamical phase transition between the discrete time crystal and a thermal regime, which is observed via critical fluctuations in the system's sub-harmonic frequency response and a significant speed-up of spin depolarisation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-14T04:05:14Z</published>
+    <arxiv:comment>v3: Details regarding process tomography and additional interactions added</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Sci. Adv. 8, eabm7652 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Philipp Frey</name>
+    </author>
+    <author>
+      <name>Stephan Rachel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.07236v2</id>
+    <title>Observation of Temporal Reflections and Broadband Frequency Translations at Photonic Time-Interfaces</title>
+    <updated>2022-11-04T20:12:40Z</updated>
+    <link href="https://arxiv.org/abs/2208.07236v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.07236v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time-reflection is a uniform inversion of the temporal evolution of a signal, which arises when an abrupt change in the properties of the host material occurs uniformly in space. At such a time-interface, a portion of the input signal is time-reversed, and its frequency spectrum is homogeneously translated while its momentum is conserved, forming the temporal counterpart of a spatial interface. Combinations of time-interfaces, forming time-metamaterials and Floquet matter, exploit the interference of multiple time-reflections for extreme wave manipulation, leveraging time as a new degree of freedom. Here, we report the observation of photonic time-reflection and associated broadband frequency translation in a switched transmission-line metamaterial whose effective capacitance is homogeneously and abruptly changed via a synchronized array of switches. A pair of temporal interfaces are combined to demonstrate time-reflection-induced wave interference, realizing the temporal counterpart of a Fabry-Perot cavity. Our results establish the foundational building blocks to realize time-metamaterials and Floquet photonic crystals, with opportunities for extreme photon manipulation in space and time.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-01T15:45:46Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Hady Moussa</name>
+    </author>
+    <author>
+      <name>Gengyu Xu</name>
+    </author>
+    <author>
+      <name>Shixiong Yin</name>
+    </author>
+    <author>
+      <name>Emanuele Galiffi</name>
+    </author>
+    <author>
+      <name>Younes Radi</name>
+    </author>
+    <author>
+      <name>Andrea Alù</name>
+    </author>
+    <arxiv:doi>10.1038/s41567-023-01975-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41567-023-01975-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.08057v1</id>
+    <title>Observation of discrete time-crystalline order in a disordered dipolar many-body system</title>
+    <updated>2016-10-25T20:00:01Z</updated>
+    <link href="https://arxiv.org/abs/1610.08057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.08057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding quantum dynamics away from equilibrium is an outstanding challenge in the modern physical sciences. It is well known that out-of-equilibrium systems can display a rich array of phenomena, ranging from self-organized synchronization to dynamical phase transitions. More recently, advances in the controlled manipulation of isolated many-body systems have enabled detailed studies of non-equilibrium phases in strongly interacting quantum matter. As a particularly striking example, the interplay of periodic driving, disorder, and strong interactions has recently been predicted to result in exotic "time-crystalline" phases, which spontaneously break the discrete time-translation symmetry of the underlying drive. Here, we report the experimental observation of such discrete time-crystalline order in a driven, disordered ensemble of $\sim 10^6$ dipolar spin impurities in diamond at room-temperature. We observe long-lived temporal correlations at integer multiples of the fundamental driving period, experimentally identify the phase boundary and find that the temporal order is protected by strong interactions; this order is remarkably stable against perturbations, even in the presence of slow thermalization. Our work opens the door to exploring dynamical phases of matter and controlling interacting, disordered many-body systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-25T20:00:01Z</published>
+    <arxiv:comment>6 + 3 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature 543, 221- 225 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Soonwon Choi</name>
+    </author>
+    <author>
+      <name>Joonhee Choi</name>
+    </author>
+    <author>
+      <name>Renate Landig</name>
+    </author>
+    <author>
+      <name>Georg Kucsko</name>
+    </author>
+    <author>
+      <name>Hengyun Zhou</name>
+    </author>
+    <author>
+      <name>Junichi Isoya</name>
+    </author>
+    <author>
+      <name>Fedor Jelezko</name>
+    </author>
+    <author>
+      <name>Shinobu Onoda</name>
+    </author>
+    <author>
+      <name>Hitoshi Sumiya</name>
+    </author>
+    <author>
+      <name>Vedika Khemani</name>
+    </author>
+    <author>
+      <name>Curt von Keyserlingk</name>
+    </author>
+    <author>
+      <name>Norman Y. Yao</name>
+    </author>
+    <author>
+      <name>Eugene Demler</name>
+    </author>
+    <author>
+      <name>Mikhail D. Lukin</name>
+    </author>
+    <arxiv:doi>10.1038/nature21426</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature21426" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.13571v2</id>
+    <title>Observation of Time-Crystalline Eigenstate Order on a Quantum Processor</title>
+    <updated>2021-08-11T17:19:14Z</updated>
+    <link href="https://arxiv.org/abs/2107.13571v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.13571v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum many-body systems display rich phase structure in their low-temperature equilibrium states. However, much of nature is not in thermal equilibrium. Remarkably, it was recently predicted that out-of-equilibrium systems can exhibit novel dynamical phases that may otherwise be forbidden by equilibrium thermodynamics, a paradigmatic example being the discrete time crystal (DTC). Concretely, dynamical phases can be defined in periodically driven many-body localized systems via the concept of eigenstate order. In eigenstate-ordered phases, the entire many-body spectrum exhibits quantum correlations and long-range order, with characteristic signatures in late-time dynamics from all initial states. It is, however, challenging to experimentally distinguish such stable phases from transient phenomena, wherein few select states can mask typical behavior. Here we implement a continuous family of tunable CPHASE gates on an array of superconducting qubits to experimentally observe an eigenstate-ordered DTC. We demonstrate the characteristic spatiotemporal response of a DTC for generic initial states. Our work employs a time-reversal protocol that discriminates external decoherence from intrinsic thermalization, and leverages quantum typicality to circumvent the exponential cost of densely sampling the eigenspectrum. In addition, we locate the phase transition out of the DTC with an experimental finite-size analysis. These results establish a scalable approach to study non-equilibrium phases of matter on current quantum processors.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-28T18:00:03Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature 601, 531 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Xiao Mi</name>
+    </author>
+    <author>
+      <name>Matteo Ippoliti</name>
+    </author>
+    <author>
+      <name>Chris Quintana</name>
+    </author>
+    <author>
+      <name>Ami Greene</name>
+    </author>
+    <author>
+      <name>Zijun Chen</name>
+    </author>
+    <author>
+      <name>Jonathan Gross</name>
+    </author>
+    <author>
+      <name>Frank Arute</name>
+    </author>
+    <author>
+      <name>Kunal Arya</name>
+    </author>
+    <author>
+      <name>Juan Atalaya</name>
+    </author>
+    <author>
+      <name>Ryan Babbush</name>
+    </author>
+    <author>
+      <name>Joseph C. Bardin</name>
+    </author>
+    <author>
+      <name>Joao Basso</name>
+    </author>
+    <author>
+      <name>Andreas Bengtsson</name>
+    </author>
+    <author>
+      <name>Alexander Bilmes</name>
+    </author>
+    <author>
+      <name>Alexandre Bourassa</name>
+    </author>
+    <author>
+      <name>Leon Brill</name>
+    </author>
+    <author>
+      <name>Michael Broughton</name>
+    </author>
+    <author>
+      <name>Bob B. Buckley</name>
+    </author>
+    <author>
+      <name>David A. Buell</name>
+    </author>
+    <author>
+      <name>Brian Burkett</name>
+    </author>
+    <author>
+      <name>Nicholas Bushnell</name>
+    </author>
+    <author>
+      <name>Benjamin Chiaro</name>
+    </author>
+    <author>
+      <name>Roberto Collins</name>
+    </author>
+    <author>
+      <name>William Courtney</name>
+    </author>
+    <author>
+      <name>Dripto Debroy</name>
+    </author>
+    <author>
+      <name>Sean Demura</name>
+    </author>
+    <author>
+      <name>Alan R. Derk</name>
+    </author>
+    <author>
+      <name>Andrew Dunsworth</name>
+    </author>
+    <author>
+      <name>Daniel Eppens</name>
+    </author>
+    <author>
+      <name>Catherine Erickson</name>
+    </author>
+    <author>
+      <name>Edward Farhi</name>
+    </author>
+    <author>
+      <name>Austin G. Fowler</name>
+    </author>
+    <author>
+      <name>Brooks Foxen</name>
+    </author>
+    <author>
+      <name>Craig Gidney</name>
+    </author>
+    <author>
+      <name>Marissa Giustina</name>
+    </author>
+    <author>
+      <name>Matthew P. Harrigan</name>
+    </author>
+    <author>
+      <name>Sean D. Harrington</name>
+    </author>
+    <author>
+      <name>Jeremy Hilton</name>
+    </author>
+    <author>
+      <name>Alan Ho</name>
+    </author>
+    <author>
+      <name>Sabrina Hong</name>
+    </author>
+    <author>
+      <name>Trent Huang</name>
+    </author>
+    <author>
+      <name>Ashley Huff</name>
+    </author>
+    <author>
+      <name>William J. Huggins</name>
+    </author>
+    <author>
+      <name>L. B. Ioffe</name>
+    </author>
+    <author>
+      <name>Sergei V. Isakov</name>
+    </author>
+    <author>
+      <name>Justin Iveland</name>
+    </author>
+    <author>
+      <name>Evan Jeffrey</name>
+    </author>
+    <author>
+      <name>Zhang Jiang</name>
+    </author>
+    <author>
+      <name>Cody Jones</name>
+    </author>
+    <author>
+      <name>Dvir Kafri</name>
+    </author>
+    <author>
+      <name>Tanuj Khattar</name>
+    </author>
+    <author>
+      <name>Seon Kim</name>
+    </author>
+    <author>
+      <name>Alexei Kitaev</name>
+    </author>
+    <author>
+      <name>Paul V. Klimov</name>
+    </author>
+    <author>
+      <name>Alexander N. Korotkov</name>
+    </author>
+    <author>
+      <name>Fedor Kostritsa</name>
+    </author>
+    <author>
+      <name>David Landhuis</name>
+    </author>
+    <author>
+      <name>Pavel Laptev</name>
+    </author>
+    <author>
+      <name>Joonho Lee</name>
+    </author>
+    <author>
+      <name>Kenny Lee</name>
+    </author>
+    <author>
+      <name>Aditya Locharla</name>
+    </author>
+    <author>
+      <name>Erik Lucero</name>
+    </author>
+    <author>
+      <name>Orion Martin</name>
+    </author>
+    <author>
+      <name>Jarrod R. McClean</name>
+    </author>
+    <author>
+      <name>Trevor McCourt</name>
+    </author>
+    <author>
+      <name>Matt McEwen</name>
+    </author>
+    <author>
+      <name>Kevin C. Miao</name>
+    </author>
+    <author>
+      <name>Masoud Mohseni</name>
+    </author>
+    <author>
+      <name>Shirin Montazeri</name>
+    </author>
+    <author>
+      <name>Wojciech Mruczkiewicz</name>
+    </author>
+    <author>
+      <name>Ofer Naaman</name>
+    </author>
+    <author>
+      <name>Matthew Neeley</name>
+    </author>
+    <author>
+      <name>Charles Neill</name>
+    </author>
+    <author>
+      <name>Michael Newman</name>
+    </author>
+    <author>
+      <name>Murphy Yuezhen Niu</name>
+    </author>
+    <author>
+      <name>Thomas E. O\' Brien</name>
+    </author>
+    <author>
+      <name>Alex Opremcak</name>
+    </author>
+    <author>
+      <name>Eric Ostby</name>
+    </author>
+    <author>
+      <name>Balint Pato</name>
+    </author>
+    <author>
+      <name>Andre Petukhov</name>
+    </author>
+    <author>
+      <name>Nicholas C. Rubin</name>
+    </author>
+    <author>
+      <name>Daniel Sank</name>
+    </author>
+    <author>
+      <name>Kevin J. Satzinger</name>
+    </author>
+    <author>
+      <name>Vladimir Shvarts</name>
+    </author>
+    <author>
+      <name>Yuan Su</name>
+    </author>
+    <author>
+      <name>Doug Strain</name>
+    </author>
+    <author>
+      <name>Marco Szalay</name>
+    </author>
+    <author>
+      <name>Matthew D. Trevithick</name>
+    </author>
+    <author>
+      <name>Benjamin Villalonga</name>
+    </author>
+    <author>
+      <name>Theodore White</name>
+    </author>
+    <author>
+      <name>Z. Jamie Yao</name>
+    </author>
+    <author>
+      <name>Ping Yeh</name>
+    </author>
+    <author>
+      <name>Juhwan Yoo</name>
+    </author>
+    <author>
+      <name>Adam Zalcman</name>
+    </author>
+    <author>
+      <name>Hartmut Neven</name>
+    </author>
+    <author>
+      <name>Sergio Boixo</name>
+    </author>
+    <author>
+      <name>Vadim Smelyanskiy</name>
+    </author>
+    <author>
+      <name>Anthony Megrant</name>
+    </author>
+    <author>
+      <name>Julian Kelly</name>
+    </author>
+    <author>
+      <name>Yu Chen</name>
+    </author>
+    <author>
+      <name>S. L. Sondhi</name>
+    </author>
+    <author>
+      <name>Roderich Moessner</name>
+    </author>
+    <author>
+      <name>Kostyantyn Kechedzhi</name>
+    </author>
+    <author>
+      <name>Vedika Khemani</name>
+    </author>
+    <author>
+      <name>Pedram Roushan</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-021-04257-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-021-04257-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08904v1</id>
+    <title>Colloquium: Quantum and Classical Discrete Time Crystals</title>
+    <updated>2023-05-15T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2305.08904v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08904v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spontaneous breaking of time translation symmetry has led to the discovery of a new phase of matter - the discrete time crystal. Discrete time crystals exhibit rigid subharmonic oscillations, which result from a combination of many-body interactions, collective synchronization, and ergodicity breaking. This Colloquium reviews recent theoretical and experimental advances in the study of quantum and classical discrete time crystals. We focus on the breaking of ergodicity as the key to discrete time crystals and the delaying of ergodicity as the source of numerous phenomena that share many of the properties of discrete time crystals, including the AC Josephson effect, coupled map lattices, and Faraday waves. Theoretically, there exists a diverse array of strategies to stabilize time crystalline order in both closed and open systems, ranging from localization and prethermalization to dissipation and error correction. Experimentally, many-body quantum simulators provide a natural platform for investigating signatures of time crystalline order; recent work utilizing trapped ions, solid-state spin systems, and superconducting qubits will be reviewed. Finally, this Colloquium concludes by describing outstanding challenges in the field and a vision for new directions on both the experimental and theoretical fronts.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-15T18:00:02Z</published>
+    <arxiv:comment>29 pages, 13 figures; commissioned review for Reviews of Modern Physics</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Michael P. Zaletel</name>
+    </author>
+    <author>
+      <name>Mikhail Lukin</name>
+    </author>
+    <author>
+      <name>Christopher Monroe</name>
+    </author>
+    <author>
+      <name>Chetan Nayak</name>
+    </author>
+    <author>
+      <name>Frank Wilczek</name>
+    </author>
+    <author>
+      <name>Norman Y. Yao</name>
+    </author>
+    <arxiv:doi>10.1103/RevModPhys.95.031001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/RevModPhys.95.031001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.08001v4</id>
+    <title>Floquet Time Crystals</title>
+    <updated>2016-06-08T15:44:48Z</updated>
+    <link href="https://arxiv.org/abs/1603.08001v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.08001v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define what it means for time translation symmetry to be spontaneously broken in a quantum system, and show with analytical arguments and numerical simulations that this occurs in a large class of many-body-localized driven systems with discrete time-translation symmetry.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-25T20:00:01Z</published>
+    <arxiv:comment>4 pages + 3 pages supplementary materials. Comments welcome. v4: rewritten introduction</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 117, 090402 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Dominic V. Else</name>
+    </author>
+    <author>
+      <name>Bela Bauer</name>
+    </author>
+    <author>
+      <name>Chetan Nayak</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.117.090402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.117.090402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.2143v3</id>
+    <title>Absence of Quantum Time Crystals</title>
+    <updated>2015-06-18T21:41:06Z</updated>
+    <link href="https://arxiv.org/abs/1410.2143v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.2143v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In analogy with crystalline solids around us, Wilczek recently proposed the idea of "time crystals" as phases that spontaneously break the continuous time translation into a discrete subgroup. The proposal stimulated further studies and vigorous debates whether it can be realized in a physical system. However, a precise definition of the time crystal is needed to resolve the issue. Here we first present a definition of time crystals based on the time-dependent correlation functions of the order parameter. We then prove a no-go theorem that rules out the possibility of time crystals defined as such, in the ground state or in the canonical ensemble of a general Hamiltonian, which consists of not-too-long-range interactions.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-08T14:44:29Z</published>
+    <arxiv:comment>5 pages, 1 figure; v3: A typo is corrected; the version to appear in Phys. Rev. Lett</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 114, 251603 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Haruki Watanabe</name>
+    </author>
+    <author>
+      <name>Masaki Oshikawa</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.114.251603</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.114.251603" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.6275v3</id>
+    <title>Impossibility of Spontaneously Rotating Time-Crystals: A No-Go Theorem</title>
+    <updated>2013-08-19T14:31:49Z</updated>
+    <link href="https://arxiv.org/abs/1306.6275v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.6275v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I present arguments indicating the impossibility of spontaneously rotating quantum timecrystals, as recently proposed by Frank Wilczek [arXiv:1202.2539]. In particular, I prove a No-Go Theorem, rigorously ruling out the possibility of spontaneous ground-state (or thermal equilibrium) rotation for a broad class of systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-26T15:40:00Z</published>
+    <arxiv:comment>5 pages (main paper) + 5 pages (supplemental material); v2: typos corrected, references updated; v3: final version, as published (minor changes with respect to v2)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 111, 070402 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Patrick Bruno</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.111.070402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.111.070402" title="doi"/>
+  </entry>
+</feed>

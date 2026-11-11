@@ -1,0 +1,83 @@
+EXP-01 — DILATATION DU TEMPS : SIGNAL ATTENDU ET BUDGET DE BRUIT
+========================================================================
+Décalage gravitationnel : Δf/f = g·Δh/c² = 1,0911e-16 par mètre (g = 9.80665 m/s²)
+
+        Δh |       Δf/f |  écart en 1 jour |  écart en 1 an
+   0.001 m |   1,09e-19 |     9.427e-06 ns |    0.003443 ns
+    0.01 m |   1,09e-18 |     9.427e-05 ns |     0.03443 ns
+    0.33 m |   3,60e-17 |      0.003111 ns |       1.136 ns
+       1 m |   1,09e-16 |      0.009427 ns |       3.443 ns
+      10 m |   1,09e-15 |       0.09427 ns |       34.43 ns
+     100 m |   1,09e-14 |        0.9427 ns |       344.3 ns
+     450 m |   4,91e-14 |         4.242 ns |        1550 ns
+    1000 m |   1,09e-13 |         9.427 ns |        3443 ns
+    1650 m |   1,80e-13 |         15.56 ns |        5682 ns
+    3000 m |   3,27e-13 |         28.28 ns |   1.033e+04 ns
+    4810 m |   5,25e-13 |         45.35 ns |   1.656e+04 ns
+  (0,33 m : Chou et al. 2010 ; 450 m : Tokyo Skytree, Takamoto et al. 2020 ;
+   1650 m : altitude de Boulder/NIST ; 4810 m : mont Blanc)
+
+Pound-Rebka (tour de 22,5 m) : gh/c² = 2,46e-15 (aller simple), 2gh/c² = 4,91e-15
+Séjour en altitude type « Project GREAT » : Δh = 1340 m pendant 42 h → avance = 22.1 ns
+
+Effet cinématique : Δf/f = -v²/(2c²)
+  marche (1,4 m/s)           : -1,09e-17  (-3.93e-05 ns par heure)
+  voiture (30 m/s)           : -5,01e-15  (-0.018 ns par heure)
+  TGV (83 m/s)               : -3,83e-14  (-0.138 ns par heure)
+  avion de ligne (250 m/s)   : -3,48e-13  (-1.25 ns par heure)
+  ISS (7660 m/s)             : -3,26e-10  (-1.18e+03 ns par heure)
+  Vitesse dont l'effet cinématique égale celui de 1000 m de dénivelé : v = √(2g·Δh) = 140 m/s
+
+Hafele-Keating (1971) — MODÈLE SIMPLIFIÉ (h = 9 km, |v| = 230 m/s, latitude moyenne 34°,
+durées de vol 41,2 h vers l'est et 48,6 h vers l'ouest) :
+  vers l'est   : gravitation +146 ns, cinématique -190 ns, total -44 ns
+  vers l'ouest : gravitation +172 ns, cinématique +121 ns, total +293 ns
+  Valeurs publiées (Hafele & Keating, Science 177, 1972) : prédit -40 ± 23 ns (est), +275 ± 21 ns (ouest) ;
+  observé -59 ± 10 ns (est), +273 ± 7 ns (ouest). Le modèle simplifié retrouve signes et ordres de grandeur.
+
+Durée d'intégration pour détecter le décalage à 3 sigma en comparant DEUX horloges identiques
+(critère : √2·σ_y(τ) ≤ signal/3 ; modèle σ_y² = (a/√τ)² + plancher² + (D·τ/√2)²) :
+horloge                                               1 mm        1 cm         1 m       100 m      1000 m      3000 m
+CSAC (césium miniature)                         impossible  impossible  impossible  impossible  impossible  impossible
+OCXO seul (GPSDO en maintien)                   impossible  impossible  impossible  impossible  impossible  impossible
+Rubidium d'occasion (FE-5680A, LPRO, PRS10)     impossible  impossible  impossible  impossible  impossible  impossible
+Césium à jet 5071A (tube standard)              impossible  impossible  impossible  impossible  impossible       2.5 j
+Césium à jet 5071A (haute performance)          impossible  impossible  impossible  impossible      35.8 h       3.5 h
+Maser à hydrogène actif                         impossible  impossible  impossible      30 min        15 s         2 s
+Horloge à réseau optique (labo)                 impossible  impossible        15 s         1 s         1 s         1 s
+  « impossible » = le plancher de scintillation ou la dérive dépasse le signal/3 quel que soit τ ≤ 10⁷ s.
+  NB : un GPSDO VERROUILLÉ est asservi au temps GPS (référence au géoïde) : il ne « voit » pas son propre
+  décalage ; il sert de RÉFÉRENCE, l'horloge libre (Rb/Cs) étant l'objet déplacé.
+
+Variante aller-retour (horloge transportée T secondes en altitude, comparée avant/après à une horloge
+identique restée en bas) : bruit ≈ √2·√[(a·√T)² + (plancher·T)²]  (environnement NON inclus)
+  Rubidium d'occasion (FE-5680A, LPRO, PRS10)    Δh = 1340 m, T = 42 h : signal  22.1 ns, bruit  65.1 ns, S/B = 0.3
+  Rubidium d'occasion (FE-5680A, LPRO, PRS10)    Δh = 3000 m, T = 48 h : signal  56.6 ns, bruit  74.2 ns, S/B = 0.8
+  Césium à jet 5071A (tube standard)             Δh = 1340 m, T = 42 h : signal  22.1 ns, bruit  18.3 ns, S/B = 1.2
+  Césium à jet 5071A (tube standard)             Δh = 3000 m, T = 48 h : signal  56.6 ns, bruit  20.0 ns, S/B = 2.8
+  Césium à jet 5071A (haute performance)         Δh = 1340 m, T = 42 h : signal  22.1 ns, bruit   5.1 ns, S/B = 4.3
+  Césium à jet 5071A (haute performance)         Δh = 3000 m, T = 48 h : signal  56.6 ns, bruit   5.6 ns, S/B = 10.2
+  Avec N horloges transportées et N restées en bas, le bruit se réduit en 1/√N (Van Baak 2005 : 3 césiums emportés).
+
+Budget d'environnement — rubidium d'occasion emmené 1500 m plus haut (ordres de grandeur) :
+  Signal relativiste (Δh = 1500 m)                       1,64e-13   (gΔh/c²) →        1 × signal
+  Pression (≈1e-13/hPa, indicatif) × ΔP                  1,65e-11   (ΔP = 165 hPa) →    1e+02 × signal
+  Température (≈1e-12/K, indicatif) × 10 K               1,00e-11   (habitacle non régulé) →       61 × signal
+  Champ magnétique (≈2e-10/G, indicatif) × 0,5 G         1,00e-10   (retournement dans le champ terrestre) →  6.1e+02 × signal
+  Dérive (5e-11/mois) sur 2 jours                        3,33e-12   (vieillissement) →       20 × signal
+  Cinématique voiture 30 m/s (pendant le trajet)         5,01e-15   (v²/2c²) →    0.031 × signal
+  Conclusion : sans enceinte étanche thermostatée et blindage magnétique, les effets d'environnement
+  d'un rubidium dépassent le signal de 1 à 3 ordres de grandeur ; il faut des césiums à jet (insensibles
+  au premier ordre) — c'est pourquoi l'expérience est classée N2/N3 et non N1.
+
+Lien avec la C204 (affirmations NON tenues pour vraies) — décalage GM/(rc²) à 1 m :
+  unité revendiquée, 227 kg                            : 1,69e-25  (≡ 1.54e-09 m de dénivelé terrestre ; 5.32e-09 ns/an ; taux revendiqué = 5.2e+29 × cet effet)
+  une singularité, 3,9e12 kg (valeur retenue, basse)   : 2,90e-15  (≡ 26.5 m de dénivelé terrestre ; 91.4 ns/an ; taux revendiqué = 3.0e+19 × cet effet)
+  une singularité, 5,1e12 kg (valeur retenue, haute)   : 3,79e-15  (≡ 34.7 m de dénivelé terrestre ; 120 ns/an ; taux revendiqué = 2.3e+19 × cet effet)
+  la paire, 7,8e12 kg                                  : 5,79e-15  (≡ 53.1 m de dénivelé terrestre ; 183 ns/an ; taux revendiqué = 1.5e+19 × cet effet)
+  la paire, 1,02e13 kg                                 : 7,57e-15  (≡ 69.4 m de dénivelé terrestre ; 239 ns/an ; taux revendiqué = 1.2e+19 × cet effet)
+  ancienne fourchette v1 : 1e11 kg                     : 7,43e-17  (≡ 0.681 m de dénivelé terrestre ; 2.34 ns/an ; taux revendiqué = 1.2e+21 × cet effet)
+  ancienne fourchette v1 : 1e12 kg                     : 7,43e-16  (≡ 6.81 m de dénivelé terrestre ; 23.4 ns/an ; taux revendiqué = 1.2e+20 × cet effet)
+  Taux revendiqué « 10 ans par heure » : dt_ext/dτ = 87660, soit 1.2e+19 à 3.0e+19 fois le décalage produit à 1 m par les masses retenues (paire ou singularité seule).
+  Rappel : la dilatation du temps ralentit une horloge par rapport à une autre ; elle ne renvoie
+  jamais dans le passé.

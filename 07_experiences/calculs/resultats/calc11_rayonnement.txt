@@ -1,0 +1,90 @@
+EXP-11 — RAYONNEMENT : BRUIT DE FOND RÉEL CONTRE « ÉVENT À RAYONS X » REVENDIQUÉ
+========================================================================
+1. Compteur Geiger du commerce — statistique de Poisson
+   bruit de fond typique ≈ 0.10 µSv/h (0,05–0,2 selon le lieu) → ≈ 20 coups/min ; sensibilité indicative 175 cpm par µSv/h
+   temps de mesure (durée égale AVEC et SANS appareil) pour voir un excès Δ à 3σ : s·Δ·t = 3·√(2bt + s·Δ·t)
+     Δ = 0.01 µSv/h (  10 % du fond) : t =    122.7 min par phase
+     Δ = 0.02 µSv/h (  20 % du fond) : t =     32.0 min par phase
+     Δ = 0.05 µSv/h (  50 % du fond) : t =      5.7 min par phase
+     Δ =  0.1 µSv/h ( 100 % du fond) : t =      1.7 min par phase
+     Δ =  0.5 µSv/h ( 500 % du fond) : t =      0.1 min par phase
+     Δ =  1.0 µSv/h (1000 % du fond) : t =      0.1 min par phase
+   temps mort ~190 µs → saturation vers 5263 coups/s, soit ≈ 1.8 mSv/h : au-delà, un Geiger simple sous-estime (voire affiche zéro).
+   Repères : exposition naturelle moyenne mondiale ≈ 2,4 mSv/an (UNSCEAR) ; limite public 1 mSv/an hors naturel
+   et médical, travailleurs 20 mSv/an (CIPR 103) ; dose létale 50 % (corps entier, aiguë) ≈ 4 Gy.
+
+2. Débit de dose impliqué par « 300–500 MW » — calcul d'IMPLICATION (pas un fait), en DEUX LECTURES
+   A. lecture littérale du texte : toute la puissance sort en rayons X (100 keV ; variantes 1 et 10 MeV) ;
+   B. spectre de Hawking (valeur retenue) : fraction photons 7.5% → 30 MW de γ primaires de ~15 MeV
+      pour 400 MW ; BORNE BASSE (les e±, ≈ 37 % de la puissance, déposeraient ~1e5 Gy/s à 1 m s'ils sortaient).
+   « cône d'évacuation » de DOC-009 : ouverture ≈ 78° (erratum E7) → concentration ×9.0 si toute
+   l'émission y était confinée (un rayonnement de Hawking n'est pas collimatable : erratum E5).
+   Lecture A — 400 MW entièrement en photons de 100 keV (libre parcours moyen dans l'air ≈ 54 m) — Gy/s :
+      distance | isotrope, sans air | isotrope, air (faisceau étroit) | dans le cône, sans air
+           1 m |             8,10e4 |                          7,96e4 |                 7,27e5
+           3 m |             9,00e3 |                          8,52e3 |                 8,08e4
+          10 m |             8,10e2 |                          6,73e2 |                 7,27e3
+         100 m |             8,10e0 |                          1,27e0 |                 7,27e1
+        1000 m |            8,10e-2 |                        6,99e-10 |                7,27e-1
+       10000 m |            8,10e-4 |                        1,84e-84 |                7,27e-3
+   Lecture A — 400 MW entièrement en photons de 1 MeV (libre parcours moyen dans l'air ≈ 131 m) — Gy/s :
+      distance | isotrope, sans air | isotrope, air (faisceau étroit) | dans le cône, sans air
+           1 m |             9,88e4 |                          9,80e4 |                 8,86e5
+           3 m |             1,10e4 |                          1,07e4 |                 9,85e4
+          10 m |             9,88e2 |                          9,15e2 |                 8,86e3
+         100 m |             9,88e0 |                          4,59e0 |                 8,86e1
+        1000 m |            9,88e-2 |                         4,65e-5 |                8,86e-1
+       10000 m |            9,88e-4 |                        5,27e-37 |                8,86e-3
+   Lecture A — 400 MW entièrement en photons de 10 MeV (libre parcours moyen dans l'air ≈ 406 m) — Gy/s :
+      distance | isotrope, sans air | isotrope, air (faisceau étroit) | dans le cône, sans air
+           1 m |             4,98e4 |                          4,97e4 |                 4,47e5
+           3 m |             5,54e3 |                          5,50e3 |                 4,97e4
+          10 m |             4,98e2 |                          4,86e2 |                 4,47e3
+         100 m |             4,98e0 |                          3,90e0 |                 4,47e1
+        1000 m |            4,98e-2 |                         4,24e-3 |                4,47e-1
+       10000 m |            4,98e-4 |                        9,90e-15 |                4,47e-3
+   Lecture B — γ primaires de Hawking : 30 MW de photons de 15 MeV (libre parcours moyen dans l'air ≈ 458 m) — Gy/s :
+      distance | isotrope, sans air | isotrope, air (faisceau étroit) | dans le cône, sans air
+           1 m |             3,44e3 |                          3,43e3 |                 3,09e4
+           3 m |             3,82e2 |                          3,80e2 |                 3,43e3
+          10 m |             3,44e1 |                          3,37e1 |                 3,09e2
+         100 m |            3,44e-1 |                         2,77e-1 |                 3,09e0
+        1000 m |            3,44e-3 |                         3,88e-4 |                3,09e-2
+       10000 m |            3,44e-5 |                        1,16e-14 |                3,09e-4
+   (réalité : la diffusion dans l'air — effet de ciel — place la dose entre les deux colonnes « isotrope ».)
+
+   Synthèse à 1 m et à 3 m (isotrope, sans atténuation), pour 300 / 400 / 500 MW :
+     lecture A (littérale, X de 100 keV)            à 1 m : 6,08e4 / 8,10e4 / 1,01e5 Gy/s ; dose létale 50 % (4 Gy) en 0.05 ms ; 2.9e+15 × le fond naturel
+     lecture A (littérale, X de 100 keV)            à 3 m : 6,75e3 / 9,00e3 / 1,13e4 Gy/s ; dose létale 50 % (4 Gy) en 0.44 ms ; 3.2e+14 × le fond naturel
+     lecture B (γ de Hawking, 15 MeV, borne basse)  à 1 m : 2,58e3 / 3,44e3 / 4,30e3 Gy/s ; dose létale 50 % (4 Gy) en 1.16 ms ; 1.2e+14 × le fond naturel
+     lecture B (γ de Hawking, 15 MeV, borne basse)  à 3 m : 2,87e2 / 3,82e2 / 4,78e2 Gy/s ; dose létale 50 % (4 Gy) en 10.46 ms ; 1.4e+13 × le fond naturel
+   Rapport lecture A / lecture B à 3 m : 24 (dont 13 pour la fraction photons et 1.8 pour le coefficient d'absorption).
+   Distance à laquelle le débit retombe à 1 µSv/h (dix fois le fond) :
+     lecture A   100 keV : 17 081 km sans atténuation ; 1.04 km avec atténuation en faisceau étroit
+     lecture A     1 MeV : 18 857 km sans atténuation ; 2.35 km avec atténuation en faisceau étroit
+     lecture A    10 MeV : 13 396 km sans atténuation ; 6.23 km avec atténuation en faisceau étroit
+     lecture B    15 MeV : 3 519 km sans atténuation ; 5.87 km avec atténuation en faisceau étroit
+
+3. Blindage et évacuation thermique nécessaires
+   lecture A   100 keV : atténuation requise ×2.9e+14 pour 1 µSv/h à 1 m →   0.5 cm de plomb (coquille sphérique de rayon intérieur 10 cm : 8 kg)
+   lecture A     1 MeV : atténuation requise ×3.6e+14 pour 1 µSv/h à 1 m →  41.6 cm de plomb (coquille sphérique de rayon intérieur 10 cm : 6 479 kg)
+   lecture A    10 MeV : atténuation requise ×1.8e+14 pour 1 µSv/h à 1 m →  58.2 cm de plomb (coquille sphérique de rayon intérieur 10 cm : 15 028 kg)
+   lecture B    15 MeV : atténuation requise ×1.2e+13 pour 1 µSv/h à 1 m →  47.0 cm de plomb (coquille sphérique de rayon intérieur 10 cm : 8 743 kg)
+   Masse revendiquée de l'unité entière : 227 kg. (Faisceau étroit : minorant ; aucun de ces
+   chiffres n'est un calcul de transport ; les Équipes C et G obtiennent 62 cm et ≥ 36 cm par d'autres méthodes.)
+   Évacuation de la puissance (toutes espèces confondues), pour 300 / 400 / 500 MW :
+     surface du coffre à l'échelle révisée (1.07 m², L = 0,85 m) rayonnant en corps noir : T = 8376 / 9001 / 9517 K
+     surface de 10 m² rayonnant en corps noir : T = 4796 / 5154 / 5449 K
+     ou vaporisation d'eau prise à 20 °C : 116 / 154 / 193 kg/s (417 / 556 / 694 tonnes par heure).
+   À l'inverse, un coffre de 1.07 m² à 38–49 °C dans de l'air à 20 °C dissipe ≈ h·S·ΔT = 193–312 W (h ≈ 10 W/m²K) :
+   rapport 1e+06 à 3e+06 avec 300–500 MW. (À l'ancienne échelle L = 1,20 m, 1,80 m² : 324–522 W.)
+
+4. Sensibilité d'un compteur Geiger à une fuite de rayons X (100 keV, à 1 m, isotrope)
+   excès de 0.05 µSv/h ↔ puissance X rayonnée de 6,86e-8 W (1.7e-16 des 400 MW) ; en γ de 15 MeV : 1,21e-7 W (4.0e-15 des 30 MW de γ primaires)
+   excès de 1.0 µSv/h ↔ puissance X rayonnée de 1,37e-6 W (3.4e-15 des 400 MW) ; en γ de 15 MeV : 2,42e-6 W (8.1e-14 des 30 MW de γ primaires)
+   → un compteur à ~100 € exclut en moins d'une heure toute fuite supérieure à ~1e-7 W de rayons X ou γ, par une
+     mesure ABSOLUE rapportée au fond (le rayonnement de singularités ne « s'éteint » pas : pas de test marche/arrêt).
+     C'est le test le plus discriminant et le moins cher de tout le programme — sur un dispositif disponible.
+
+Sécurité : aucune source radioactive n'est utilisée. On mesure le bruit de fond naturel (variations avec
+l'altitude, la pluie — descendants du radon lessivés —, les matériaux de construction comme le granite).

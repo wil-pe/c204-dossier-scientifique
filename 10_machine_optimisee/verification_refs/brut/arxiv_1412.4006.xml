@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6Jy7K6KgfY/925Dlb3w4XyeCiW8</id>
+  <title>arXiv Query: search_query=&amp;id_list=1412.4006&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:47:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1412.4006" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1412.4006v1</id>
+    <title>Experimental Superposition of Orders of Quantum Gates</title>
+    <updated>2014-12-12T14:38:25Z</updated>
+    <link href="https://arxiv.org/abs/1412.4006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.4006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a quantum computer, creating superpositions of quantum bits (qubits) in different states can lead to a speed-up over classical computers [1], but quantum mechanics also allows for the superposition of quantum circuits [2]. In fact, it has recently been theoretically predicted that superimposing quantum circuits, each with a different gate order, could provide quantum computers with an even further computational advantage [3-5]. Here, we experimentally demonstrate this enhancement by applying two quantum gates in a superposition of both possible orders to determine whether the two gates commute or anti-commute. We are able to make this determination with only a single use (or query) of each gate, while all quantum circuits with a fixed order of gates would require at least two uses of one of the gates [3]. Remarkably, when the problem is scaled to N gates, creating a superposition of quantum circuits is likely to provide an exponential advantage over classical algorithms, and a linear advantage over quantum algorithms with fixed gate order [4]. The new resource that we exploit in our experiment can be interpreted as a "superposition of causal orders". We demonstrate such a superposition could allow some quantum algorithms to be implemented with an efficiency that is unlikely to be achieved on a quantum computer with a fixed gate order.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-12T14:38:25Z</published>
+    <arxiv:comment>10 pages, 7 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nat. Commun. 6:7913 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Lorenzo M. Procopio</name>
+    </author>
+    <author>
+      <name>Amir Moqanaki</name>
+    </author>
+    <author>
+      <name>Mateus Araújo</name>
+    </author>
+    <author>
+      <name>Fabio Costa</name>
+    </author>
+    <author>
+      <name>Irati A. Calafell</name>
+    </author>
+    <author>
+      <name>Emma G. Dowd</name>
+    </author>
+    <author>
+      <name>Deny R. Hamel</name>
+    </author>
+    <author>
+      <name>Lee A. Rozema</name>
+    </author>
+    <author>
+      <name>Časlav Brukner</name>
+    </author>
+    <author>
+      <name>Philip Walther</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms8913</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms8913" title="doi"/>
+  </entry>
+</feed>

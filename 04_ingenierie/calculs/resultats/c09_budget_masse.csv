@@ -1,0 +1,16 @@
+element,masse_kg,volume_L,source
+coffre aluminium/acier + patins + charnières (parois : hors volume utile),30.0,0.0,[HYP]
+"pack Li-ion 7,5 kWh",50.0,30.0,150 Wh/kg ; 250 Wh/L [HYP]
+4 horloges CSAC + distribution,0.5,0.5,35 g et 17 cm³ pièce (fiche)
+3 calculateurs durcis + voteur + bus,6.0,3.0,[HYP]
+gravimètre relatif type CG-6,5.5,10.8,"fiche constructeur : 21,5 x 21 x 24 cm"
+"2 bobines supraconductrices HTS compactes + cryostats (pré-refroidies, sans compresseur)",40.0,30.0,[HYP] 2 cryostats Ø 25 x 30 cm
+alimentations/régulateurs de champ (x2),10.0,6.0,[HYP]
+canon à électrons + alimentation HT + collecteur sous vide,8.0,6.0,[HYP]
+"boucle de refroidissement (pompe, 2 réservoirs de 15 L pleins, échangeur)",40.0,36.0,[HYP] borne haute
+"télécommande filaire, panneau, câblage",5.0,3.0,[HYP]
+2 carters + blindage plomb local de 2 cm (rayon intérieur 4.00 cm),14.5,1.8,calcul
+TOTAL configuration généreuse,209.5,127.1,
+"disponible (masse revendiquée ; volume intérieur utile, Équipes E et I)",226.8,35.0,
+marge (négative = ne tient pas),17.3,-92.1,
+configuration logeable : palier R1 de l'Équipe I,35.7,11.7,"10_machine_optimisee/nomenclature_R1.csv (Équipe I), R1-01 à R1-21"

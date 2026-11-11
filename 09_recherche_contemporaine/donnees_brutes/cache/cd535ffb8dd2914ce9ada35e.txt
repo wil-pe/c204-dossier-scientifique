@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NlLWgmejyqFeaUmk8ca1cusO4do</id>
+  <title>arXiv Query: search_query=&amp;id_list=2206.12976,gr-qc/9703018,gr-qc/9801044,1008.3244,0905.4179,1103.5248,0907.1280&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:58:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=2206.12976,gr-qc/9703018,gr-qc/9801044,1008.3244,0905.4179,1103.5248,0907.1280" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1103.5248v1</id>
+    <title>Non-existence of stationary two-black-hole configurations: The degenerate case</title>
+    <updated>2011-03-27T20:58:12Z</updated>
+    <link href="https://arxiv.org/abs/1103.5248v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.5248v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a preceding paper we examined the question whether the spin-spin repulsion and the gravitational attraction of two aligned sub-extremal black holes can balance each other. Based on the solution of a boundary value problem for two separate (Killing-) horizons and a novel black hole criterion we were able to prove the non-existence of the equilibrium configuration in question. In this paper we extend the non-existence proof to extremal black holes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-27T20:58:12Z</published>
+    <arxiv:comment>18 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Gen. Relativ. Gravit. 43, 3139 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Jörg Hennig</name>
+    </author>
+    <author>
+      <name>Gernot Neugebauer</name>
+    </author>
+    <arxiv:doi>10.1007/s10714-011-1228-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10714-011-1228-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0907.1280v1</id>
+    <title>The Complexity of Guarding Terrains</title>
+    <updated>2009-07-07T19:07:51Z</updated>
+    <link href="https://arxiv.org/abs/0907.1280v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.1280v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A set $G$ of points on a 1.5-dimensional terrain, also known as an $x$-monotone polygonal chain, is said to guard the terrain if any point on the terrain is 'seen' by a point in $G$. Two points on the terrain see each other if and only if the line segment between them is never strictly below the terrain. The minimum terrain guarding problem asks for a minimum guarding set for the given input terrain. We prove that the decision version of this problem is NP-hard. This solves a significant open problem and complements recent positive approximability results for the optimization problem.
+  Our proof uses a reduction from PLANAR 3-SAT. We build gadgets capable of 'mirroring' a consistent variable assignment back and forth across a main valley. The structural simplicity of 1.5-dimensional terrains makes it difficult to build general clause gadgets that do not destroy this assignment when they are evaluated. However, we exploit the structure in instances of PLANAR 3-SAT to find very specific operations involving only 'adjacent' variables. For these restricted operations we can construct gadgets that allow a full reduction to work.</summary>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-07T19:07:51Z</published>
+    <arxiv:comment>26 pages, 24 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CG"/>
+    <author>
+      <name>James King</name>
+    </author>
+    <author>
+      <name>Erik Krohn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.12976v1</id>
+    <title>Test of Causal Non-Linear Quantum Mechanics by Ramsey Interferometry on the Vibrational Mode of a Trapped Ion</title>
+    <updated>2022-06-26T21:23:16Z</updated>
+    <link href="https://arxiv.org/abs/2206.12976v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.12976v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kaplan and Rajendran have recently demonstrated that non-linear and state-dependent terms can be consistently added to quantum field theory to yield causal non-linear time evolution in quantum mechanics. Causal non-linear theories have the unavoidable feature that their quantum effects are dramatically sensitive to the full physical spread of the quantum state of the system. As a result, such theories are not well tested by conventional atomic and nuclear spectroscopy. By using a well-controlled superposition of vibrational modes of a $^{40}$Ca$^+$ ion trapped in a harmonic potential, we set a stringent limit of $5.4\times 10^{-12}$ on the magnitude of the unitless scaling factor $\tildeε_γ$ for the predicted causal, non-linear perturbation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-26T21:23:16Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Joseph Broz</name>
+    </author>
+    <author>
+      <name>Bingran You</name>
+    </author>
+    <author>
+      <name>Sumanta Khan</name>
+    </author>
+    <author>
+      <name>Hartmut Haeffner</name>
+    </author>
+    <author>
+      <name>David E. Kaplan</name>
+    </author>
+    <author>
+      <name>Surjeet Rajendran</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.130.200201</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.130.200201" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.3244v1</id>
+    <title>The Double Kerr Solution as a Possible Mechanism for Controlled Global Causality Violation</title>
+    <updated>2010-08-19T09:04:35Z</updated>
+    <link href="https://arxiv.org/abs/1008.3244v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.3244v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For over 25 years, a solution has existed to Einstein's vacuum equation that describes a space-time with two Kerr black holes. First formulated by Kramer and Neugebauer (KN) in 1980 [1], this solution has been extensively researched by many, with many and varied implications. One of which is causality violation.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-19T09:04:35Z</published>
+    <arxiv:comment>10 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Jude Prezens</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0905.4179v3</id>
+    <title>Non-existence of stationary two-black-hole configurations</title>
+    <updated>2009-06-25T14:09:43Z</updated>
+    <link href="https://arxiv.org/abs/0905.4179v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.4179v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We resume former discussions of the question, whether the spin-spin repulsion and the gravitational attraction of two aligned black holes can balance each other. To answer the question we formulate a boundary value problem for two separate (Killing-) horizons and apply the inverse (scattering) method to solve it. Making use of results of Manko, Ruiz and Sanabria-Gómez and a novel black hole criterion, we prove the non-existence of the equilibrium situation in question.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-26T11:54:17Z</published>
+    <arxiv:comment>15 pages, 3 figures; Contribution to Juergen Ehlers Memorial Issue (GeRG journal)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Gen.Rel.Grav.41:2113-2130,2009</arxiv:journal_ref>
+    <author>
+      <name>Gernot Neugebauer</name>
+    </author>
+    <author>
+      <name>Jörg Hennig</name>
+    </author>
+    <arxiv:doi>10.1007/s10714-009-0840-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10714-009-0840-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9703018v1</id>
+    <title>Spinning Down a Black Hole With Scalar Fields</title>
+    <updated>1997-03-06T22:49:12Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9703018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9703018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the evolution of a Kerr black hole emitting scalar radiation via the Hawking process. We show that the rate at which mass and angular momentum are lost by the black hole leads to a final evolutionary state with nonzero angular momentum, namely $a/M \approx 0.555$.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-03-06T22:49:12Z</published>
+    <arxiv:comment>4 pages (including 3 postscript figures), Revtex, uses epsf.tex, twocolumn.sty and header.sty (included). Submitted to Physical Review Letters</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett. 78 (1997) 3249-3251</arxiv:journal_ref>
+    <author>
+      <name>Chris M. Chambers</name>
+      <arxiv:affiliation>Montana State University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>William A. Hiscock</name>
+      <arxiv:affiliation>Montana State University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brett Taylor</name>
+      <arxiv:affiliation>Montana State University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.78.3249</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.78.3249" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9801044v2</id>
+    <title>Evaporation of a Kerr black hole by emission of scalar and higher spin particles</title>
+    <updated>1998-07-20T20:45:52Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9801044v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9801044v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the evolution of an evaporating rotating black hole, described by the Kerr metric, which is emitting either solely massless scalar particles or a mixture of massless scalar and nonzero spin particles. Allowing the hole to radiate scalar particles increases the mass loss rate and decreases the angular momentum loss rate relative to a black hole which is radiating nonzero spin particles. The presence of scalar radiation can cause the evaporating hole to asymptotically approach a state which is described by a nonzero value of $a_* \equiv a / M$. This is contrary to the conventional view of black hole evaporation, wherein all black holes spin down more rapidly than they lose mass. A hole emitting solely scalar radiation will approach a final asymptotic state described by $a_* \simeq 0.555$. A black hole that is emitting scalar particles and a canonical set of nonzero spin particles (3 species of neutrinos, a single photon species, and a single graviton species) will asymptotically approach a nonzero value of $a_*$ only if there are at least 32 massless scalar fields. We also calculate the lifetime of a primordial black hole that formed with a value of the rotation parameter $a_{*}$, the minimum initial mass of a primordial black hole that is seen today with a rotation parameter $a_{*}$, and the entropy of a black hole that is emitting scalar or higher spin particles.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-01-13T21:46:24Z</published>
+    <arxiv:comment>22 pages, 13 figures, RevTeX format; added clearer descriptions for variables, added journal reference</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D58:044012,1998</arxiv:journal_ref>
+    <author>
+      <name>Brett E. Taylor</name>
+    </author>
+    <author>
+      <name>Chris M. Chambers</name>
+    </author>
+    <author>
+      <name>William A. Hiscock</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.58.044012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.58.044012" title="doi"/>
+  </entry>
+</feed>

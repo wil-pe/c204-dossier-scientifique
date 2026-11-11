@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I0FmkqM4YoL5B/GG+GawAXb0mUI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2501.16335&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:48:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2501.16335" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.16335v4</id>
+    <title>Experimental simulation of postselected closed timelike curves for decoding scrambled quantum information</title>
+    <updated>2026-04-24T06:38:48Z</updated>
+    <link href="https://arxiv.org/abs/2501.16335v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.16335v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum information scrambling (QIS) describes the rapid spread of initially localized information across an entire quantum many-body system through entanglement generation. Once scrambled, the original local information becomes encoded globally, inaccessible from any single subsystem. In this work, we introduce a circuit-based decoding protocol. By utilizing the concept of postselected closed timelike curves (PCTCs), we demonstrate how postselection allows us to interpret an ordinary quantum experiment as an example of a paradox-free trajectory, simulating a consistent time loop and reliable information recovery. Specifically, when conditioned on a final postselected outcome, this experiment can be interpreted as decoding the scrambled information even before the original information is generated. Furthermore, the success probability of the PCTC is governed by out-of-time-ordered correlations, which is a standard measure of QIS. We experimentally implement our protocol on cloud-based Quantinuum and IBM quantum processors. Our approach illuminates a unique quantum task under postselection: the causally consistent simulation of future-to-past scrambled information retrieval.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-04T05:51:40Z</published>
+    <arxiv:comment>12 pages, 6 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 8, 023084 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Yi-Te Huang</name>
+    </author>
+    <author>
+      <name>Hsiang-Wei Huang</name>
+    </author>
+    <author>
+      <name>Jhen-Dong Lin</name>
+    </author>
+    <author>
+      <name>Adam Miranowicz</name>
+    </author>
+    <author>
+      <name>Neill Lambert</name>
+    </author>
+    <author>
+      <name>Guang-Yin Chen</name>
+    </author>
+    <author>
+      <name>Franco Nori</name>
+    </author>
+    <author>
+      <name>Yueh-Nan Chen</name>
+    </author>
+    <arxiv:doi>10.1103/tm83-sxpm</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/tm83-sxpm" title="doi"/>
+  </entry>
+</feed>

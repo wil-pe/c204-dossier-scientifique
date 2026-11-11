@@ -1,0 +1,48 @@
+arXiv lot 1 : HTTP 200, cumul 20 notices
+arXiv lot 2 : HTTP 200, cumul 40 notices
+arXiv lot 3 : HTTP 200, cumul 60 notices
+arXiv lot 4 : HTTP 200, cumul 80 notices
+arXiv lot 5 : HTTP 200, cumul 100 notices
+arXiv lot 6 : HTTP 200, cumul 120 notices
+arXiv lot 7 : HTTP 200, cumul 140 notices
+arXiv lot 8 : HTTP 200, cumul 160 notices
+arXiv lot 9 : HTTP 200, cumul 180 notices
+arXiv lot 10 : HTTP 200, cumul 200 notices
+arXiv lot 11 : HTTP 200, cumul 220 notices
+arXiv lot 12 : HTTP 200, cumul 240 notices
+arXiv lot 13 : HTTP 200, cumul 260 notices
+arXiv lot 14 : HTTP 200, cumul 280 notices
+arXiv lot 15 : HTTP 200, cumul 295 notices
+recherche Baker25 : vérifiée
+recherche LHAASOPBH : vérifiée
+recherche Falque : vérifiée
+recherche GW250114 : vérifiée
+recherche GW231123 : vérifiée
+recherche GWTC4 : vérifiée
+recherche ET21 : vérifiée
+recherche Gavassino : vérifiée
+recherche Marshall25 : vérifiée
+recherche CARIOQA : vérifiée
+Crossref DOI terminé
+BILAN : {'vérifiée': 368, 'à revoir': 21}
+  CMS17 [arxiv 1705.01403] à revoir — discordance (titre NON, auteur ok) — titre reçu : Search for black holes and other new phenomena in high-multiplicity final states in proton-proton collisions a — auteurs : CMS Collaboration
+  Fermi18 [arxiv 1802.00100] à revoir — discordance (titre ok, auteur NON) — titre reçu : Search for Gamma-Ray Emission from Local Primordial Black Holes with the Fermi Large Area Telescope — auteurs : The Fermi-LAT Collaboration
+  Philbin08 [arxiv 0711.4796] à revoir — discordance (titre NON, auteur ok) — titre reçu : Fiber-optical analogue of the event horizon — auteurs : Thomas G. Philbin, Chris Kuklewicz, Scott Robertson
+  Torres17 [arxiv 1612.06180] à revoir — discordance (titre NON, auteur ok) — titre reçu : Observation of superradiance in a vortex flow — auteurs : Theo Torres, Sam Patrick, Antonin Coutant
+  Drori19 [arxiv 1808.09244] à revoir — discordance (titre NON, auteur ok) — titre reçu : Observation of Stimulated Hawking Radiation in Optics — auteurs : Jonathan Drori, Yuval Rosenberg, David Bermudez
+  Kundu22 [arxiv 2110.14958] à revoir — discordance (titre NON, auteur ok) — titre reçu : Wormholes & Holography: An Introduction — auteurs : Arnab Kundu
+  Ori05 [arxiv gr-qc/0503077] à revoir — discordance (titre NON, auteur ok) — titre reçu : A new time-machine model with compact vacuum core — auteurs : Amos Ori
+  TT17 [arxiv 1310.7985] à revoir — discordance (titre NON, auteur ok) — titre reçu : Traversable Achronal Retrograde Domains In Spacetime — auteurs : Benjamin K. Tippett, David Tsang
+  Lesovik19 [arxiv 1712.10057] à revoir — discordance (titre NON, auteur ok) — titre reçu : Arrow of time and its reversal on IBM quantum computer — auteurs : G. B. Lesovik, I. A. Sadovskyy, M. V. Suslov
+  Schiansky23 [arxiv 2205.01122] à revoir — discordance (titre NON, auteur ok) — titre reçu : Demonstration of universal time-reversal for quantum processes — auteurs : Peter Schiansky, Teodor Strömberg, David Trillo
+  Stromberg24 [arxiv 2211.01283] à revoir — discordance (titre NON, auteur ok) — titre reçu : Experimental superposition of time directions — auteurs : Teodor Strömberg, Peter Schiansky, Marco Túlio Quintino
+  Delic20 [arxiv 1911.04406] à revoir — discordance (titre NON, auteur ok) — titre reçu : Motional Quantum Ground State of a Levitated Nanoparticle from Room Temperature — auteurs : Uroš Delić, Manuel Reisenbauer, Kahan Dare
+  Westphal21 [arxiv 2009.09546] à revoir — discordance (titre NON, auteur ok) — titre reçu : Measurement of Gravitational Coupling between Millimeter-Sized Masses — auteurs : Tobias Westphal, Hans Hepach, Jeremias Pfaff
+  Aspelmeyer22 [arxiv 2203.05587] à revoir — discordance (titre NON, auteur ok) — titre reçu : How to avoid the appearance of a classical world in gravity experiments — auteurs : Markus Aspelmeyer
+  Panda24 [arxiv 2310.01344] à revoir — discordance (titre NON, auteur ok) — titre reçu : Measuring gravity by holding atoms — auteurs : Cristian D. Panda, Matthew J. Tao, Miguel Ceja
+  McGrew18 [arxiv 1807.11282] à revoir — discordance (titre NON, auteur ok) — titre reçu : Atomic clock performance beyond the geodetic limit — auteurs : W. F. McGrew, X. Zhang, R. J. Fasano
+  Brewer19 [arxiv 1902.07694] à revoir — discordance (titre NON, auteur ok) — titre reçu : An $^{27}$Al$^{+}$ quantum-logic clock with systematic uncertainty below $10^{-18}$ — auteurs : S. M. Brewer, J. -S. Chen, A. M. Hankin
+  Oelker19 [arxiv 1902.02741] à revoir — discordance (titre NON, auteur ok) — titre reçu : Optical clock intercomparison with $6\times 10^{-19}$ precision in one hour — auteurs : E. Oelker, R. B. Hutson, C. J. Kennedy
+  BACON21 [arxiv 2005.14694] à revoir — discordance (titre NON, auteur ok) — titre reçu : Frequency Ratio Measurements with 18-digit Accuracy Using a Network of Optical Clocks — auteurs : Boulder Atomic Clock Optical Network, Collaboration, :
+  Asenbaum17 [arxiv 1610.03832] à revoir — discordance (titre NON, auteur ok) — titre reçu : Phase shift in atom interferometry due to spacetime curvature — auteurs : Peter Asenbaum, Chris Overstreet, Tim Kovachy
+  BFLW16 [arxiv 1506.02669] à revoir — discordance (titre NON, auteur ok) — titre reçu : A Quantum Focussing Conjecture — auteurs : Raphael Bousso, Zachary Fisher, Stefan Leichenauer

@@ -1,0 +1,61 @@
+EXP-03 — BALANCE DE TORSION : G ET TEST NUL ÉLECTROMAGNÉTIQUE
+========================================================================
+1. Balance de torsion de TP (type Cavendish) — paramètres choisis pour l'exemple
+   m = 15 g (×2), M = 1.5 kg (×2), demi-fléau d = 5 cm, distance r = 4.5 cm
+   fil de tungstène Ø 25 µm, longueur 30 cm → κ = πG_cis·d⁴/(32L) = 2,06e-8 N·m/rad
+   force de Newton       F = GMm/r²   = 7,42e-10 N
+   couple                2Fd          = 7,42e-11 N·m
+   angle d'équilibre     θ = 2Fd/κ    = 3,60e-3 rad
+   période               2π√(I/κ)     = 379 s (6.3 min)
+   déplacement du spot à 2 m en basculant les grosses masses : 4θL = 28.8 mm
+   agitation thermique   θ_rms = √(k_BT/κ) = 4,43e-7 rad  (soit 9,12e-14 N équivalent)
+   bruit thermique de couple (Q = 10) : 4,48e-14 N·m/√Hz → force minimale en 1 h : 7,47e-15 N
+   En pratique un montage de TP est limité par les dérives du fil, les courants d'air et les
+   inclinaisons du sol : résolution réaliste ~1e-11 N (quelques % du signal de Newton).
+
+   Incertitude type attendue sur G en TP (G = 4π²·θ·r²·d/(T²·M)) :
+     r (±0,5 mm sur 45 mm, exposant 2)    2.2 %
+     période (±0,5 %, exposant 2)         1.0 %
+     angle θ (±3 %)                       3.0 %
+     d (±0,2 mm sur 50 mm)                0.4 %
+     M, m (±0,1 %)                        0.1 %
+     total quadratique ≈ 3.9 %   (CODATA 2018 : G = 6,674 30(15)e-11, incertitude relative 2,2e-5)
+
+2. « Gravité » d'un champ électromagnétique selon la relativité générale (champ faible) : M_éq = E/c²
+   source                                                         E (J)   E/c² (kg)  a à r (m/s²)  F sur 15 g (N)
+   Aimant NdFeB de 1 litre (u ≈ 4e5 J/m³)                         4,0e2     4,5e-15   1,2e-22 (0.05 m)     1,8e-24
+   Condensateur 1 nF chargé à 5 kV (12,5 mJ)                     1,3e-2     1,4e-19   3,7e-27 (0.05 m)     5,6e-29
+   Condensateur 100 µF à 400 V (8 J) — DANGEREUX, calcul seul     8,0e0     8,9e-17   2,4e-24 (0.05 m)     3,6e-26
+   Bobine supraconductrice d'IRM 3 T (≈ 10 MJ)                    1,0e7     1,1e-10   7,4e-21 (1 m)     1,1e-22
+   Aimant hybride 45 T (≈ 100 MJ)                                 1,0e8      1,1e-9   7,4e-20 (1 m)     1,1e-21
+   Dipôles du LHC, total (≈ 11 GJ)                               1,1e10      1,2e-7   8,2e-22 (100 m)     1,2e-23
+   Aimants d'ITER, total (≈ 51 GJ)                               5,1e10      5,7e-7   3,8e-19 (10 m)     5,7e-21
+   Densité d'énergie d'un champ de 1 T : B²/(2µ0) = 3,98e5 J/m³ → densité de masse équivalente 4,43e-12 kg/m³
+   Champ dont l'énergie « pèserait » autant que l'eau (1000 kg/m³) : B = 1,50e7 T ou E = 4,51e15 V/m
+   (record de champ continu en laboratoire : ~45 T ; champ de claquage de l'air : 3e6 V/m)
+
+3. Forces parasites sur une masse d'épreuve de 15 g placée à 5 cm de la source
+   (sphère de plomb : rayon 6.8 mm ; champ local 0.1 T, gradient 5.0 T/m ; E local 2e+05 V/m)
+   magnétique, tungstène (paramagnétique) (χ = +7.8e-05)               4,11e-5 N   (  2.3e+19 × signal RG)
+   électrostatique, sphère neutre polarisée (10 kV à 5 cm)             2,81e-5 N   (  1.6e+19 × signal RG)
+   magnétique, aluminium (χ = +2.1e-05)                                1,11e-5 N   (  6.2e+18 × signal RG)
+   magnétique, plomb (diamagnétique) (χ = -1.6e-05)                    8,42e-6 N   (  4.7e+18 × signal RG)
+   magnétique, cuivre (χ = -9.6e-06)                                   5,05e-6 N   (  2.8e+18 × signal RG)
+   électrostatique, charge résiduelle de 1 pC dans 2e5 V/m             2,00e-7 N   (  1.1e+17 × signal RG)
+   attraction newtonienne de la masse de l'aimant (7,5 kg)             3,00e-9 N   (  1.7e+15 × signal RG)
+   courant d'air de 1 mm/s (traînée de Stokes)                         2,31e-9 N   (  1.3e+15 × signal RG)
+   attraction newtonienne des grosses masses (signal de Cavendish)    7,42e-10 N   (  4.2e+14 × signal RG)
+   SIGNAL RG : énergie du champ de l'aimant (E/c²)                    1,78e-24 N   (  1.0e+00 × signal RG)
+
+4. Sensibilité atteignable contre signal prédit (en accélération)
+   Cavendish de TP (N2), ~1e-11 N sur 15 g                                      6,67e-10 m/s²
+   Limite thermique du même montage, 1 h                                        4,98e-13 m/s²
+   Meilleures balances de torsion (Schlamminger et al. 2008 : Δa ~ 1e-15 m/s²)  1,00e-15 m/s²
+   Signal RG, aimant NdFeB 1 L à 5 cm  : 1,19e-22 m/s² → manque 8e+06 (meilleure balance), 6e+12 (TP)
+   Signal RG, aimant hybride 45 T à 1 m : 7,43e-20 m/s² → manque 1e+04 (meilleure balance)
+
+Conclusion : la relativité générale prédit bien qu'un champ électromagnétique gravite (via E/c²),
+mais le signal est de 7 ordres de grandeur sous la meilleure balance de torsion du monde et ~14 ordres
+sous un montage de TP, tandis que les forces magnétiques/électrostatiques parasites sont 10^18 à 10^19
+fois plus grandes que lui. Tout « signal » observé près d'un aimant ou d'un condensateur est un artefact
+jusqu'à preuve du contraire. Champ électromagnétique ≠ champ gravitationnel.

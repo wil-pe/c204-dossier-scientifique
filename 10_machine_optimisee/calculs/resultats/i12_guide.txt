@@ -1,0 +1,25 @@
+i12 — DONNÉES DU GUIDE : VERSION LITE, IMPLANTATION ET CÂBLAGE DU PALIER R1
+===============================================================================================
+C204-R1 Lite : 351 à 734 € avec deux détecteurs de muons ; 261 à 574 € avec un seul ; 171 à 414 € sans détecteur de muons (estimations)
+   temps        43 à  105 €
+   calcul       41 à  107 €
+   capteurs      9 à   32 €
+   muons       180 à  320 €
+   affichage    10 à   25 €
+   énergie      28 à   55 €
+   structure    15 à   40 €
+   câblage      25 à   50 €
+   consommation ≈ 4.5 W (estimation) → ≈ 9 h sur une batterie USB de 10 Ah
+Implantation R1 : 34 pièces internes exportées (origine : coin avant-gauche-bas du corps ; x longueur, y profondeur vers la charnière, z hauteur)
+Protections R1 : 57.4 W au total → 5.3 A côté batterie (rendement de conversion 0.85) ; fusible général 10 A ; câble 1.5 mm²
+   F1 Calculateurs ×3, voteur, GNSS                                   19.0 W   1.75 A → fusible 3 A, 0.5 mm²
+   F2 Horloges ×4 et comparateur de phase (rail bas bruit)             5.5 W   0.50 A → fusible 1 A, 0.5 mm²
+   F3 Enceinte des horloges (Peltier, bobines de compensation)         8.0 W   0.74 A → fusible 2 A, 0.5 mm²
+   F4 Boucle thermique : pompe, ventilateur                            6.0 W   0.55 A → fusible 1 A, 0.5 mm²
+   F5 Logements : télescope à muons, gyromètre, cartes de proximité    5.6 W   0.51 A → fusible 1 A, 0.5 mm²
+   F6 Capteurs : accéléromètres, ambiance, dosimètre                   3.3 W   0.30 A → fusible 0.5 A, 0.5 mm²
+   F7 Pupitre et télécommande                                          5.0 W   0.46 A → fusible 1 A, 0.5 mm²
+   F8 Sécurité et distribution (pertes, relais)                        5.0 W   0.46 A → fusible 1 A, 0.5 mm²
+   Règle : calibre normalisé ≥ 1,6 × courant nominal ; sections indicatives (≤ 3 A : 0,5 mm² ; ≤ 10 A : 1,5 mm² ; au-delà : 2,5 mm²), à vérifier selon la norme applicable.
+Synthèse : A 142–240 € ; B 351–734 € ; C ≈ 49 k€ (fourchette 44–64 k€), estimations
+Schémas écrits : schemas/cablage_distribution_R1.svg, schemas/synoptique_R1_Lite.svg

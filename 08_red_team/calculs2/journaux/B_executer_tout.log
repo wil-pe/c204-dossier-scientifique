@@ -1,0 +1,11 @@
+01_ordres_de_grandeur_dossier.py              code de retour 0 -> sorties/01_ordres_de_grandeur_dossier.txt
+02_hawking_corps_gris.py                      code de retour 0 -> sorties/02_hawking_corps_gris.txt
+03_kerr_newman.py                             code de retour 0 -> sorties/03_kerr_newman.txt
+04_van_stockum_tipler.py                      code de retour 0 -> sorties/04_van_stockum_tipler.txt
+05_deux_trous_noirs.py                        code de retour 0 -> sorties/05_deux_trous_noirs.txt
+06_dilatation_10_ans_par_heure.py             code de retour 0 -> sorties/06_dilatation_10_ans_par_heure.txt
+07_champs_EM_et_energie_negative.py           code de retour 0 -> sorties/07_champs_EM_et_energie_negative.txt
+08_charge_injection_pistes_ouvertes.py        code de retour 0 -> sorties/08_charge_injection_pistes_ouvertes.txt
+real 144.11
+user 142.48
+sys 1.11

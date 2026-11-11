@@ -1,0 +1,10 @@
+valeurs centrales : [0.74, 0.77, 1.15, 0.92, 0.86] médiane 0.86 moyenne 0.888 écart-type (n−1) 0.163 demi-étendue 0.20499999999999996
+(a) mélange des 5 « méthodes » (lecture de A)                    médiane 0.86 ; 68 % [0.75 ; 1.10] ; 95 % [0.66 ; 1.26] ; P(L ≥ 1,20) = 0.068
+(b) ruban compté une fois (2 ou 3 pouces à 50/50)                médiane 0.86 ; 68 % [0.74 ; 1.02] ; 95 % [0.65 ; 1.24] ; P(L ≥ 1,20) = 0.042
+(c) idem sans M3 (étalon lu sur le dessin, non sur l'objet)      médiane 0.83 ; 68 % [0.73 ; 1.05] ; 95 % [0.64 ; 1.25] ; P(L ≥ 1,20) = 0.056
+(d) moyenne de 4 tirages indépendants (optimiste)                médiane 0.88 ; 68 % [0.81 ; 0.95] ; 95 % [0.77 ; 1.00] ; P(L ≥ 1,20) = 0.000
+   L = 0.60 m : P = 0.182 m ; H fermée = 0.200 m ; V = 22 L ; ρ(227 kg) = 10404 kg/m³
+   L = 0.70 m : P = 0.212 m ; H fermée = 0.233 m ; V = 35 L ; ρ(227 kg) = 6552 kg/m³
+   L = 0.85 m : P = 0.258 m ; H fermée = 0.283 m ; V = 62 L ; ρ(227 kg) = 3659 kg/m³
+   L = 1.05 m : P = 0.318 m ; H fermée = 0.350 m ; V = 117 L ; ρ(227 kg) = 1941 kg/m³
+   L = 1.20 m : P = 0.364 m ; H fermée = 0.400 m ; V = 175 L ; ρ(227 kg) = 1301 kg/m³

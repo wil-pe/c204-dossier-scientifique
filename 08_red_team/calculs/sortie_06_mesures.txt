@@ -1,0 +1,11 @@
+(1) Rapport R = (bande1→bande2) / (bande2→panneau de texte)
+   MT7011__JT2.jpeg      : bandes à x = 55.5 et 126.0 px, panneau à 183.5 px -> R = 1.23 [1.13 ; 1.34]
+   MT7012__JT3.jpg       : bandes à x = 224.3 et 313.5 px, panneau à 384.0 px -> R = 1.27 [1.17 ; 1.38]
+   DOC-007 (vue de dessus): bandes à 460 et 1028, panneau à 1320 (px x4) -> R = 1.94 [1.82 ; 2.07]
+   positions relatives sur DOC-007 : bande 1 à 0.19 L, bande 2 à 0.58 L, panneau à 0.79 L ; logements des singularités à 0.38 L
+   écart DOC-007 / photos : x1.56
+   Effet de perspective maximal plausible : les largeurs apparentes des deux bandes diffèrent de 7 % sur JT3, donc la perspective ne peut pas expliquer un facteur ~1,5.
+
+(2) Cône d'évacuation de DOC-009 (coordonnées en px d'origine, lues sur les agrandissements)
+   demi-angle supérieur 40.3°, inférieur 37.9° -> ouverture totale 78° (±6°), demi-angle moyen 39°
+   fraction d'angle solide d'un cône de demi-angle 39° : 11 % de 4π -> 89 % d'une émission isotrope partirait hors du cône

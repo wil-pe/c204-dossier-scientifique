@@ -1,0 +1,38 @@
+sous_systeme,exigence_revendiquee_ou_deduite,valeur_requise,unite,meilleure_technologie_reelle,valeur_reelle,ecart_en_ordres_de_grandeur,verdict,reference,remarque
+1 confinement,"champ magnétique d'un piège de Penning tenant la pesanteur (charge extrémale, excursion 1 cm)",5.14e+11,T,"champ continu record (insert HTS, NHMFL 2019)",45.5,+10.1,"hors de portée, sans voie connue",Hahn et al. 2019,indépendant de M ; la charge extrémale est elle-même intenable
+1 confinement,"idem avec la charge réaliste (6 e, Page 1977), M = 4,4e12 kg",1.98e+32,T,champ continu record,45.5,+30.6,"hors de portée, sans voie connue",Hahn et al. 2019 ; Page 1977,
+1 confinement,champ continu soutenable par un matériau (σ = 130 GPa),5.14e+11,T,limite B = sqrt(2 μ0 σ),572,+9.0,"hors de portée, sans voie connue",calcul c02,"limite de la liaison chimique, pas seulement technologique"
+1 confinement,champ électrique de sustentation (charge extrémale),1.14e+11,V/m,gradient accélérateur RF bande X (CLIC),1e+08,+3.1,hors de portée,CLIC CDR,indépendant de M
+1 confinement,"idem, comparé au champ d'évaporation du tungstène",1.14e+11,V/m,évaporation par effet de champ (57 V/nm),5.7e+10,+0.3,accessible avec effort,Seidman 2007,les électrodes s'évaporent
+1 confinement,"gradient magnétique sur le dipôle maximal (M = 4,4e12 kg)",2.32e+17,T/m,pointes micromagnétiques [HYP],1e+06,+11.4,"hors de portée, sans voie connue",ordre de grandeur,
+1 confinement,"force de sustentation, M = 4,4e12 kg",4.31e+13,N,charge utile d'un pick-up (1500 kg) [HYP],1.47e+04,+9.5,"hors de portée, sans voie connue",—,
+1 confinement,"pression de réaction sur un carter de 4 cm de rayon (M = 4,4e12 kg)",8.58e+15,Pa,acier à haute résistance,2e+09,+6.6,"hors de portée, sans voie connue",ordre de grandeur,
+1 confinement,"force séparant deux singularités de 4,4e12 kg à 9,1 cm (entraxe de DOC-007, Équipe A)",1.56e+17,N,poids d'une des singularités,4.31e+13,+3.6,hors de portée,calcul c02,"elles orbiteraient en 7,1 ms"
+2 injection,"charge à injecter pour +1 % de masse (M = 4,4e12 kg)",7.74e+21,C,photo-injecteur record 65 mA pendant 6 h,1.4e+03,+18.7,"hors de portée, sans voie connue",Dunham et al. 2013,
+2 injection,énergie par électron pour atteindre l'horizon d'un trou noir extrémal,1.04e+27,eV,"LHC, par proton",6.8e+12,+14.2,"hors de portée, sans voie connue",CERN,
+2 injection,"probabilité de capture requise ≈ 1 (tache de 1 µm², M = 4,4e12 kg)",1,—,σ_capture / aire de la tache,9.06e-16,+15.0,"hors de portée, sans voie connue",calcul c03,
+3 rotation,vitesse de réorientation de l'axe ~1 rad/s [HYP],1,rad/s,"précession magnétique à 45,5 T (charge extrémale)",3.92e-09,+8.4,"hors de portée, sans voie connue",calcul c03,
+4 refroidissement,"puissance thermique à évacuer du coffre (2 x 400 MW, dépôt γ + e±)",3.53e+08,W,"coffre de 1,07 m² à 49 °C (convection naturelle + rayonnement)",286,+6.1,"hors de portée, sans voie connue",calcul c05,"la température revendiquée correspond à 0,15-0,29 kW"
+4 refroidissement,densité de puissance volumique du coffre,5.61,MW/L,"cœur du réacteur HFIR (cœur seul, hors circuits)",1.7,+0.5,accessible avec effort,Chandler et al. 2018,
+4 refroidissement,flux pariétal sur un carter de 4 cm de rayon,8.79e+09,W/m²,flux critique record en eau sous-refroidie,2.76e+08,+1.5,hors de portée,Mudawar & Bowers 1999,
+4 refroidissement,eau vaporisée sur 6 h (circuit ouvert),2.95e+06,kg,"deux réservoirs de 0,25 L (échelle du schéma, Équipes E et I)",0.495,+6.8,"hors de portée, sans voie connue",DOC-008,"avec l'ancienne hypothèse de 2 x 15 L (86 % du volume utile) : écart réduit de 1,8 décade"
+4 refroidissement,"puissance de pompage (eau, ΔT = 50 K)",2.27e+06,W,pack Li-ion 50 kg en régime soutenu [HYP],2.5e+04,+2.0,hors de portée,calcul c05/c06,
+4 rayonnement,"débit de dose γ à 1 m sans blindage, rapporté à 1 mSv par trajet de 6 h",3.31e+03,Gy/s,limite annuelle du public répartie sur 6 h,4.63e-08,+10.9,"hors de portée, sans voie connue",CIPR 103,
+4 rayonnement,atténuation requise du blindage,7.16e+10,—,"atténuation de 9 cm de plomb (logeable, cas favorable)",37.9,+9.3,"hors de portée, sans voie connue",NCRP 151,"vers la face la plus proche : 4,5 cm seulement"
+4 rayonnement,masse du blindage sphérique en plomb (couche de déci-transmission en faisceau large),1.36e+04,kg,masse totale de l'unité,227,+1.8,hors de portée,calcul c05,"faisceau étroit à 15 MeV : 39 cm, 3,8 t"
+4 rayonnement,fraction du rayonnement canalisée dans un cône de 30° (revendiqué : ~100 %),1,—,fraction géométrique d'une émission isotrope,0.067,+1.2,hors de portée,calcul c05,
+5 alimentation,"auxiliaires en configuration logeable (CSAC, 3 calculateurs, CG-6, pupitre), 6 h",0.754,kWh,"pack LiFePO4 logeable (4 L, 9,5 kg)",1.34,-0.2,satisfait,calcul c06 ; Équipe I,réaliste et logeable
+5 alimentation,"auxiliaires (horloges, calculateurs, capteurs, canon), hypothèse haute, 6 h",5.52,kWh,pack Li-ion 50 kg,7.5,-0.1,satisfait,calcul c06,réaliste
+5 alimentation,"énergie de création des deux singularités (2 x 4,4e12 kg)",7.87e+29,J,production mondiale d'électricité en un an (2023),1.08e+20,+9.9,"hors de portée, sans voie connue",Energy Institute 2024,
+5 alimentation,"idem, rapportée à la batterie",7.87e+29,J,pack Li-ion 50 kg,2.7e+07,+22.5,"hors de portée, sans voie connue",calcul c06,
+5 alimentation,"énergie de création de deux singularités donnant 2 g à 1 m à elles deux (2 x 1,47e11 kg)",2.64e+28,J,production mondiale d'électricité en un an (2023),1.08e+20,+8.4,"hors de portée, sans voie connue",Energy Institute 2024,égale à l'énergie de la question Q4
+5 alimentation,"énergie par collision pour former un trou noir (masse de Planck, 4 dimensions)",1.22e+19,GeV,"LHC (13,6 TeV)",1.36e+04,+15.0,"hors de portée, sans voie connue",CERN,
+6 capteurs,"résolution pour détecter un bloc de 1 m³ à 2 m — instrument seul, au repos",4,µGal,écart-type Scintrex CG-6,5,+0.1,accessible avec effort,fiche constructeur,"réaliste au repos, à 1 g, sous 45 °C"
+6 capteurs,"stabilité de position capteur/singularité pour résoudre 1 µGal (2 g à 1 m, capteur à 0,3 m)",6.88e-12,m,"dilatation de 0,3 m d'aluminium pour 1 K",6.9e-06,+6.0,"hors de portée, sans voie connue",calcul c07,
+6 horloges,exactitude relative pour dater à 1 jour près sur 60 ans,4.56e-05,—,étalon à jet de césium 5071A,5e-13,-8.0,satisfait,Microchip 5071A,un quartz suffirait : l'exigence est satisfaite avec 8 décades de marge
+6 horloges,"exactitude pour résoudre le potentiel des singularités (à 10 cm de 4,4e12 kg)",3.25e-14,—,étalon à jet de césium 5071A,5e-13,+1.2,hors de portée,Microchip 5071A,les horloges au césium ne « voient » pas le champ
+8 structure,volume des périphériques dimensionnés sans contrainte de place,127,L,volume intérieur utile du coffre (Équipes E et I),35,+0.6,accessible avec effort,calcul c09,"la masse (209 kg) passe, le volume non"
+8 structure,masse volumique moyenne exigée par 227 kg dans l'enveloppe du coffre,3.6e+03,kg/m³,"masse volumique de la configuration logeable (Équipe I, R1)",567,+0.8,accessible avec effort,calcul c09,il manque ~190 kg de matière dense
+8 structure,"pression sous les pneus (2 x 4,4e12 kg)",7.16e+14,Pa,résistance en compression du granite,2e+08,+6.6,"hors de portée, sans voie connue",ordre de grandeur,
+9 Q4,énergie électromagnétique pour 2 g à 1 m,2.64e+28,J,énergie magnétique totale d'ITER (51 GJ),5.1e+10,+17.7,"hors de portée, sans voie connue",ITER,
+9 Q4,"idem, rapportée à un an de production électrique mondiale",2.64e+28,J,production mondiale 2023,1.08e+20,+8.4,"hors de portée, sans voie connue",Energy Institute 2024,

@@ -1,0 +1,41 @@
+DOC-007 : L/P = 3.27 (corps 3.22, couvercle 3.33)
+DOC-007 : logements {'principal_centre_fx': 0.383, 'principal_centre_fy': 0.7568, 'direction_centre_fx': 0.3809, 'direction_centre_fy': 0.4009, 'rayon_sur_L': 0.0476, 'entraxe_sur_P': 0.3559, 'entraxe_sur_diametre': 1.162, 'detail_px': {'principal': (185.9090909090909, 200.0, 17.0), 'direction': (185.16666666666666, 239.5, 17.0)}}
+DOC-007 : bandes {'pente_tan': 0.639, 'angle_deg': 32.6, 'periode_sur_P': 0.2462, 'epaisseur_noire_sur_P': 0.1306, 'phase_sur_P': 0.0276, 'raies_par_bande': 4}
+DOC-007 : charnières [[0.193, 0.2741], [0.7301, 0.8084]]
+DOC-004 : {"rms_px": 4.02, "focale_px": 761, "lacet_deg": 34.1, "tangage_deg": 129.8, "roulis_deg": 3.2, "translation": [-0.278, 0.372, 1.607], "L_sur_P": 3.61, "H_corps_sur_L": 0.248, "H_corps_sur_P": 0.895, "angle_couvercle_deg": 109.5}
+DOC-004 : synthèse {"H_corps_sur_L": 0.246, "H_corps_sur_L_incertitude": 0.015, "L_sur_P_plage": [3.3, 3.75], "angle_couvercle_deg": 109.0, "angle_couvercle_plage_deg": [101, 112], "epaisseur_couvercle_sur_P": 0.125, "epaisseur_couvercle_sur_P_incertitude": 0.05, "note_epaisseur": "rebord intérieur du couvercle visible sur 10 à 15 px en bout droit (P ≈ 80 px à cet endroit) : pointé grossier"}
+DOC-005 : H/L = 0.230 ; P/L ∈ [0.24 ; 0.49]
+photos  : {'bande1': [0.108, 0.178], 'bande2': [0.446, 0.521], 'etiquette_centrale': [0.258, 0.38], 'plaque_instructions': [0.676, 0.831], 'etiquette_jaune': [0.014, 0.089]}
+variante A  : 173 pièces  {'DOC': 94, 'DÉD': 46, 'HYP': 33}
+variante A2 : 173 pièces  {'DOC': 94, 'DÉD': 46, 'HYP': 33}
+variante B  :  40 pièces  {'DOC': 1, 'DÉD': 39, 'HYP': 0}
+bilan volumique A : {'volume_interieur_m3': 0.0349, 'volume_composants_m3': 0.0047, 'taux_occupation': 0.135, 'note': "Composants de DOC-008 dimensionnés à l'échelle du schéma calée sur le diamètre des logements : ils n'occupent qu'une faible part du volume intérieur. Indice que DOC-008 n'est pas à l'échelle, ou que l'essentiel du volume (et des 227 kg revendiqués) n'est pas décrit."}
+cotes clés A : {'L': 0.85, 'P': 0.2599, 'H_corps': 0.2091, 'H_couvercle': 0.0325, 'z_platine': 0.1971, 'z_axe_carters': 0.1426, 'D_ref': 0.0809}
+écrit : <copie_jetable>/C204_repro/06_modele_3D/modele_c204.json
+c204_A_ferme                                159 pièces   41540 triangles  étendue [0.858, 0.28, 0.242] m
+c204_A_ouvert_interne                       173 pièces   42744 triangles  étendue [0.858, 0.517, 0.456] m
+c204_A_eclate                               173 pièces   42744 triangles  étendue [0.858, 0.797, 1.256] m
+c204_A2_ouvert_interne_disposition_I2       173 pièces   42744 triangles  étendue [0.858, 0.517, 0.456] m
+c204_B_ecorche_DOC-005                       40 pièces    8844 triangles  étendue [0.85, 0.306, 0.229] m
+rendu : 01_exterieur_ferme.png
+rendu : 02_ouvert_aspect.png
+rendu : 03_ouvert_classement.png
+rendu : 04_interieur_composants.png
+rendu : 05_eclate.png
+rendu : 06_ortho_dessus.png
+rendu : 07_ortho_face.png
+rendu : 08_ortho_cote.png
+rendu : 09_variante_B_ecorche.png
+rendu : 10_comparaison_DOC-007.png
+rendu : 11_comparaison_DOC-004.png
+rendu : 12_comparaison_DOC-005.png
+rendu : 14_comparaison_DOC-008.png
+rendu : 13_dispositions_internes_I1_I2.png
+écrit : visionneuse.html (312 ko, 386 pièces embarquées)
+écrit : NOMENCLATURE.md, nomenclature.csv (213 pièces + éléments non modélisés)
+écrit : architecture_fonctionnelle.svg, schema_electrique_hypothetique.svg
+Reconstruction terminée.
+real 24.39
+user 23.06
+sys 0.99
+--- code de retour reconstruire.sh : 0

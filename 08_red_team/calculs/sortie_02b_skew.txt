@@ -1,0 +1,10 @@
+en-tête ligne 1 « RESTRICTED »            : pente = -1.07° ± 0.43° (IC95 Theil-Sen -1.88..-0.00) ; 6 lettres ; étendue 65 px
+en-tête ligne 2 « FILE: TMIM-200S/4005 »  : pente = -0.20° ± 0.23° (IC95 Theil-Sen -0.59..+0.00) ; 16 lettres ; étendue 146 px
+titre ligne 1 « MAJOR SYSTEMS DESCRIPTION »: pente = +0.38° ± 0.37° (IC95 Theil-Sen -0.00..+0.88) ; 22 lettres ; étendue 228 px
+titre ligne 2 « ARMY MODEL GE / C204 »    : pente = -0.00° ± 0.34° (IC95 Theil-Sen -0.00..+0.83) ; 15 lettres ; étendue 166 px
+pastilles rangée haute 1                  : pente = -0.00° (IC95 -0.21..+0.29) ; 9 pastilles ; étendue 616 px
+pastilles rangée haute 2                  : pente = +0.23° (IC95 -0.00..+0.41) ; 8 pastilles ; étendue 564 px
+pastilles rangée basse 1                  : pente = +0.00° (IC95 -0.00..+0.15) ; 9 pastilles ; étendue 608 px
+pastilles rangée basse 2                  : pente = -0.00° (IC95 -0.22..+0.00) ; 9 pastilles ; étendue 671 px
+
+Décalage attendu sur 240 px pour 0,5° : 2.09 px

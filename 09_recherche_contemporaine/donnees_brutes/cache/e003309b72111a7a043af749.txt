@@ -1,0 +1,563 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qmvT2cjmlNNGmq7doprgDXPupQE</id>
+  <title>arXiv Query: search_query=&amp;id_list=1105.4464,1412.4006,1506.03776,1608.01683,1803.04302,1708.00248,2208.00719,2203.11245,2405.00767,1712.10057,1710.02470,1810.06944,2205.01122,2012.03859,2211.01283,hep-th/9711200,hep-th/9601029,hep-th/0502050,gr-qc/0102069,gr-qc/0509075&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=1105.4464,1412.4006,1506.03776,1608.01683,1803.04302,1708.00248,2208.00719,2203.11245,2405.00767,1712.10057,1710.02470,1810.06944,2205.01122,2012.03859,2211.01283,hep-th/9711200,hep-th/9601029,hep-th/0502050,gr-qc/0102069,gr-qc/0509075" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1105.4464v3</id>
+    <title>Quantum correlations with no causal order</title>
+    <updated>2013-02-14T13:28:22Z</updated>
+    <link href="https://arxiv.org/abs/1105.4464v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.4464v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The idea that events obey a definite causal order is deeply rooted in our understanding of the world and at the basis of the very notion of time. But where does causal order come from, and is it a necessary property of nature? We address these questions from the standpoint of quantum mechanics in a new framework for multipartite correlations which does not assume a pre-defined global causal structure but only the validity of quantum mechanics locally. All known situations that respect causal order, including space-like and time-like separated experiments, are captured by this framework in a unified way. Surprisingly, we find correlations that cannot be understood in terms of definite causal order. These correlations violate a 'causal inequality' that is satisfied by all space-like and time-like correlations. We further show that in a classical limit causal order always arises, which suggests that space-time may emerge from a more fundamental structure in a quantum-to-classical transition.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-23T10:53:09Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature Communications 3, 1092 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Ognyan Oreshkov</name>
+    </author>
+    <author>
+      <name>Fabio Costa</name>
+    </author>
+    <author>
+      <name>Caslav Brukner</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms2076</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms2076" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.04302v2</id>
+    <title>Indefinite Causal Order in a Quantum Switch</title>
+    <updated>2018-11-02T12:39:27Z</updated>
+    <link href="https://arxiv.org/abs/1803.04302v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.04302v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In quantum mechanics events can happen in no definite causal order: in practice this can be verified by measuring a causal witness, in the same way that an entanglement witness verifies entanglement. Indefinite causal order can be observed in a quantum switch, where two operations act in a quantum superposition of the two possible orders. Here we realise a photonic quantum switch, where polarisation coherently controls the order of two operations, $\hat{A}$ and $\hat{B}$, on the transverse spatial mode of the photons. Our setup avoids the limitations of earlier implementations: the operations cannot be distinguished by spatial or temporal position. We show that our quantum switch has no definite causal order, by constructing a causal witness and measuring its value to be 18 standard deviations beyond the definite-order bound.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-12T15:12:59Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 121, 090503 (2018)</arxiv:journal_ref>
+    <author>
+      <name>K. Goswami</name>
+    </author>
+    <author>
+      <name>C. Giarmatzi</name>
+    </author>
+    <author>
+      <name>M. Kewming</name>
+    </author>
+    <author>
+      <name>F. Costa</name>
+    </author>
+    <author>
+      <name>C. Branciard</name>
+    </author>
+    <author>
+      <name>J. Romero</name>
+    </author>
+    <author>
+      <name>A. G. White</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.121.090503</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.121.090503" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0509075v1</id>
+    <title>Quantum geometry and the Schwarzschild singularity</title>
+    <updated>2005-09-18T20:04:23Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0509075v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0509075v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In homogeneous cosmologies, quantum geometry effects lead to a resolution of the classical singularity without having to invoke special boundary conditions at the singularity or introduce ad-hoc elements such as unphysical matter. The same effects are shown to lead to a resolution of the Schwarzschild singularity. The resulting quantum extension of space-time is likely to have significant implications to the black hole evaporation process. Similarities and differences with the situation in quantum geometrodynamics are pointed out.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-18T20:04:23Z</published>
+    <arxiv:comment>31 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav.23:391-411,2006</arxiv:journal_ref>
+    <author>
+      <name>Abhay Ashtekar</name>
+    </author>
+    <author>
+      <name>Martin Bojowald</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/23/2/008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/23/2/008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9711200v3</id>
+    <title>The Large N Limit of Superconformal Field Theories and Supergravity</title>
+    <updated>1998-01-22T15:42:41Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9711200v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9711200v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that the large $N$ limit of certain conformal field theories in various dimensions include in their Hilbert space a sector describing supergravity on the product of Anti-deSitter spacetimes, spheres and other compact manifolds. This is shown by taking some branes in the full M/string theory and then taking a low energy limit where the field theory on the brane decouples from the bulk. We observe that, in this limit, we can still trust the near horizon geometry for large $N$. The enhanced supersymmetries of the near horizon geometry correspond to the extra supersymmetry generators present in the superconformal group (as opposed to just the super-Poincare group). The 't Hooft limit of 4-d ${\cal N} =4$ super-Yang-Mills at the conformal point is shown to contain strings: they are IIB strings. We conjecture that compactifications of M/string theory on various Anti-deSitter spacetimes are dual to various conformal field theories. This leads to a new proposal for a definition of M-theory which could be extended to include five non-compact dimensions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-11-27T23:53:13Z</published>
+    <arxiv:comment>20 pages, harvmac, v2: section on AdS_2 corrected, references added, v3: More references and a sign in eqns 2.8 and 2.9 corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Adv.Theor.Math.Phys.2:231-252,1998</arxiv:journal_ref>
+    <author>
+      <name>Juan M. Maldacena</name>
+    </author>
+    <arxiv:doi>10.1023/A:1026654312961</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1023/A:1026654312961" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.01683v2</id>
+    <title>Experimental Verification of an Indefinite Causal Order</title>
+    <updated>2016-09-02T15:25:03Z</updated>
+    <link href="https://arxiv.org/abs/1608.01683v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.01683v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Investigating the role of causal order in quantum mechanics has recently revealed that the causal distribution of events may not be a-priori well-defined in quantum theory. While this has triggered a growing interest on the theoretical side, creating processes without a causal order is an experimental task. Here we report the first decisive demonstration of a process with an indefinite causal order. To do this, we quantify how incompatible our set-up is with a definite causal order by measuring a 'causal witness'. This mathematical object incorporates a series of measurements which are designed to yield a certain outcome only if the process under examination is not consistent with any well-defined causal order. In our experiment we perform a measurement in a superposition of causal orders - without destroying the coherence - to acquire information both inside and outside of a 'causally non-ordered process'. Using this information, we experimentally determine a causal witness, demonstrating by almost seven standard deviations that the experimentally implemented process does not have a definite causal order.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-04T20:03:19Z</published>
+    <arxiv:comment>11 pages + a 9-page Appendix; 5 figures + 5 in the Appendix. Corrected definitions of unitaries in Appendix</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Sci. Adv., 3: e1602589 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Giulia Rubino</name>
+    </author>
+    <author>
+      <name>Lee A. Rozema</name>
+    </author>
+    <author>
+      <name>Adrien Feix</name>
+    </author>
+    <author>
+      <name>Mateus Araújo</name>
+    </author>
+    <author>
+      <name>Jonas M. Zeuner</name>
+    </author>
+    <author>
+      <name>Lorenzo M. Procopio</name>
+    </author>
+    <author>
+      <name>Časlav Brukner</name>
+    </author>
+    <author>
+      <name>Philip Walther</name>
+    </author>
+    <arxiv:doi>10.1126/sciadv.1602589</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/sciadv.1602589" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.4006v1</id>
+    <title>Experimental Superposition of Orders of Quantum Gates</title>
+    <updated>2014-12-12T14:38:25Z</updated>
+    <link href="https://arxiv.org/abs/1412.4006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.4006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a quantum computer, creating superpositions of quantum bits (qubits) in different states can lead to a speed-up over classical computers [1], but quantum mechanics also allows for the superposition of quantum circuits [2]. In fact, it has recently been theoretically predicted that superimposing quantum circuits, each with a different gate order, could provide quantum computers with an even further computational advantage [3-5]. Here, we experimentally demonstrate this enhancement by applying two quantum gates in a superposition of both possible orders to determine whether the two gates commute or anti-commute. We are able to make this determination with only a single use (or query) of each gate, while all quantum circuits with a fixed order of gates would require at least two uses of one of the gates [3]. Remarkably, when the problem is scaled to N gates, creating a superposition of quantum circuits is likely to provide an exponential advantage over classical algorithms, and a linear advantage over quantum algorithms with fixed gate order [4]. The new resource that we exploit in our experiment can be interpreted as a "superposition of causal orders". We demonstrate such a superposition could allow some quantum algorithms to be implemented with an efficiency that is unlikely to be achieved on a quantum computer with a fixed gate order.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-12T14:38:25Z</published>
+    <arxiv:comment>10 pages, 7 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nat. Commun. 6:7913 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Lorenzo M. Procopio</name>
+    </author>
+    <author>
+      <name>Amir Moqanaki</name>
+    </author>
+    <author>
+      <name>Mateus Araújo</name>
+    </author>
+    <author>
+      <name>Fabio Costa</name>
+    </author>
+    <author>
+      <name>Irati A. Calafell</name>
+    </author>
+    <author>
+      <name>Emma G. Dowd</name>
+    </author>
+    <author>
+      <name>Deny R. Hamel</name>
+    </author>
+    <author>
+      <name>Lee A. Rozema</name>
+    </author>
+    <author>
+      <name>Časlav Brukner</name>
+    </author>
+    <author>
+      <name>Philip Walther</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms8913</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms8913" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.11245v4</id>
+    <title>Embedding cyclic information-theoretic structures in acyclic spacetimes: no-go results for indefinite causality</title>
+    <updated>2024-10-07T12:35:42Z</updated>
+    <link href="https://arxiv.org/abs/2203.11245v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.11245v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The notions of causality adopted within the quantum information and spacetime physics communities are distinct. Although both notions play a role in physical experiments, their general interplay is little understood in theory. We develop a theoretical framework that connects the two causality notions, while also clearly distinguishing them. The framework describes a composition of quantum operations through feedback loops, and the embedding of the resulting, possibly cyclic information-theoretic structure in an acyclic spacetime structure. Relativistic causality (which forbids superluminal communication) follows as a graph-theoretic compatibility condition between the two structures. Formulating indefinite causal order (ICO) processes in our framework, we shed light on the links between indefinite and cyclic causality, and on questions regarding their physicality. In particular, there are several experiments that claim to implement ICO processes in Minkowski spacetime, presenting an apparent paradox: how can an indefinite information-theoretic causal structure be consistent with a definite spacetime causal structure? We address this through no-go theorems, showing that as a consequence of relativistic causality, (a) realisations of ICO processes necessarily involve the non-localisation of systems in spacetime and (b) will nevertheless admit an explanation in terms of a definite and acyclic causal order process, at a fine-grained level. This fully resolves the apparent paradox and bears implications for the physical interpretation of ICO experiments, and is achieved by introducing the concept of fine-graining that allows causal structures to be analysed at different levels of detail. Our work also sheds light on the limits of quantum information processing in spacetime and on the operational meaning of indefinite causality, within and beyond the context of a fixed spacetime.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-21T18:12:44Z</published>
+    <arxiv:comment>37+30 pages, 17 figures. v4 is closest to published version. An extra result (Theorem 5.8) included in v2 but not in v1 was found to be partly incorrect, it has been removed and does not impact the main results/conclusions. v4 also includes significant improvements to the framework since v1, in terms of clarity and generality, as well as an additional result about the link to causal boxes</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 110, 022227 (2024)</arxiv:journal_ref>
+    <author>
+      <name>V. Vilasini</name>
+    </author>
+    <author>
+      <name>Renato Renner</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.110.022227</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.110.022227" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.01122v1</id>
+    <title>Demonstration of universal time-reversal for quantum processes</title>
+    <updated>2022-05-02T18:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2205.01122v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.01122v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although the laws of classical physics are deterministic, thermodynamics gives rise to an arrow of time through irreversible processes. In quantum mechanics the unitary nature of the time evolution makes it intrinsically reversible, however the question of how to revert an unknown time evolution nevertheless remains. Remarkably, there have been several recent demonstrations of protocols for reverting unknown unitaries in scenarios where even the interactions with the target system are unknown. The practical use of these universal rewinding protocols is limited by their probabilistic nature, raising the fundamental question of whether time-reversal could be performed deterministically. Here we show that quantum physics indeed allows for deterministic universal time-reversal by exploiting the non-commuting nature of quantum operators, and demonstrate a recursive protocol for two-level quantum systems with an arbitrarily high probability of success. Using a photonic platform we demonstrate our protocol, reverting the discrete time evolution of a polarization state with an average state fidelity of over 95%. Our protocol, requiring no knowledge of the quantum process to be rewound, is optimal in its running time, and brings quantum rewinding into a regime of practical relevance.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-02T18:00:04Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Optica Vol. 10, Issue 2, pp. 200-205 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Peter Schiansky</name>
+    </author>
+    <author>
+      <name>Teodor Strömberg</name>
+    </author>
+    <author>
+      <name>David Trillo</name>
+    </author>
+    <author>
+      <name>Valeria Saggio</name>
+    </author>
+    <author>
+      <name>Ben Dive</name>
+    </author>
+    <author>
+      <name>Miguel Navascués</name>
+    </author>
+    <author>
+      <name>Philip Walther</name>
+    </author>
+    <arxiv:doi>10.1364/OPTICA.469109</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OPTICA.469109" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02470v4</id>
+    <title>Resetting uncontrolled quantum systems</title>
+    <updated>2018-07-16T09:56:02Z</updated>
+    <link href="https://arxiv.org/abs/1710.02470v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.02470v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a scenario where we wish to bring a closed system of known Hilbert space dimension $d_S$ (the target), subject to an unknown Hamiltonian evolution, back to its quantum state at a past time $t_0$. The target is out of our control: this means that we ignore both its free Hamiltonian and how the system interacts with other quantum systems we may use to influence it. Under these conditions, we prove that there exist protocols within the framework of non-relativistic quantum physics which reset the target system to its exact quantum state at $t_0$. Each "resetting protocol" is successful with non-zero probability for all possible free Hamiltonians and interaction unitaries, save a subset of zero measure. When the target is a qubit and the interaction is sampled from the Haar measure, the simplest resetting circuits have a significant average probability of success and their implementation is within reach of current quantum technologies. Finally, we find that, in case the resetting protocol fails, it is possible to run a further protocol that, if successful, undoes both the natural evolution of the target and the effects of the failed protocol over the latter. By chaining in this fashion several such protocols, one can substantially increase the overall probability of a successful resetting.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-06T16:04:28Z</published>
+    <arxiv:comment>Published version. This work was not funded by the European Research Council</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. X 8, 031008 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Miguel Navascues</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevX.8.031008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevX.8.031008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.10057v2</id>
+    <title>Arrow of time and its reversal on IBM quantum computer</title>
+    <updated>2018-02-24T02:21:34Z</updated>
+    <link href="https://arxiv.org/abs/1712.10057v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.10057v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Uncovering the origin of the arrow of time remains a fundamental scientific challenge. Within the framework of statistical physics, this problem was inextricably associated with the second law of thermodynamics, which declares that entropy growth proceeds from the system's entanglement with the environment. It remains to be seen, however, whether the irreversibility of time is a fundamental law of nature or whether, on the contrary, it might be circumvented. Here we show that, while in nature the complex conjugation needed for time reversal is exponentially improbable, one can design a quantum algorithm that includes complex conjugation and thus reverses a given quantum state. Using this algorithm on an IBM quantum computer enables us to experimentally demonstrate a backward time dynamics for an electron scattered on a two-level impurity.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-28T20:59:34Z</published>
+    <arxiv:comment>14 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>G. B. Lesovik</name>
+    </author>
+    <author>
+      <name>I. A. Sadovskyy</name>
+    </author>
+    <author>
+      <name>M. V. Suslov</name>
+    </author>
+    <author>
+      <name>A. V. Lebedev</name>
+    </author>
+    <author>
+      <name>V. M. Vinokur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.01283v3</id>
+    <title>Experimental superposition of time directions</title>
+    <updated>2024-05-14T17:06:18Z</updated>
+    <link href="https://arxiv.org/abs/2211.01283v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.01283v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the macroscopic world, time is intrinsically asymmetric, flowing in a specific direction, from past to future. However, the same is not necessarily true for quantum systems, as some quantum processes produce valid quantum evolutions under time reversal. Supposing that such processes can be probed in both time directions, we can also consider quantum processes probed in a coherent superposition of forwards and backwards time directions. This yields a broader class of quantum processes than the ones considered so far in the literature, including those with indefinite causal order. In this work, we demonstrate for the first time an operation belonging to this new class: the quantum time flip. Using a photonic realisation of this operation, we apply it to a game formulated as a discrimination task between two sets of operators. This game not only serves as a witness of an indefinite time direction, but also allows for a computational advantage over strategies using a fixed time direction, and even those with an indefinite causal order.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-02T17:05:49Z</published>
+    <arxiv:comment>Improved manuscript, closer to published version. 15 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 6, 023071 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Teodor Strömberg</name>
+    </author>
+    <author>
+      <name>Peter Schiansky</name>
+    </author>
+    <author>
+      <name>Marco Túlio Quintino</name>
+    </author>
+    <author>
+      <name>Michael Antesberger</name>
+    </author>
+    <author>
+      <name>Lee Rozema</name>
+    </author>
+    <author>
+      <name>Iris Agresti</name>
+    </author>
+    <author>
+      <name>Časlav Brukner</name>
+    </author>
+    <author>
+      <name>Philip Walther</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.6.023071</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.6.023071" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.00767v2</id>
+    <title>Experimental Aspects of Indefinite Causal Order in Quantum Mechanics</title>
+    <updated>2024-07-19T13:25:36Z</updated>
+    <link href="https://arxiv.org/abs/2405.00767v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.00767v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the past decade, the toolkit of quantum information has been expanded to include processes in which the basic operations do not have definite causal relations. Originally considered in the context of the unification of quantum mechanics and general relativity, these causally indefinite processes have been shown to offer advantages in a wide variety of quantum information processing tasks, ranging from quantum computation to quantum metrology. Here we overview these advantages and the experimental efforts to realise them. We survey both the different experimental techniques employed, as well as theoretical methods developed in support of the experiments, before discussing the interpretations of current experimental results and giving an outlook on the future of the field.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-01T18:00:00Z</published>
+    <arxiv:comment>22 page review article. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature Reviews Physics (2024)</arxiv:journal_ref>
+    <author>
+      <name>Lee A. Rozema</name>
+    </author>
+    <author>
+      <name>Teodor Strömberg</name>
+    </author>
+    <author>
+      <name>Huan Cao</name>
+    </author>
+    <author>
+      <name>Yu Guo</name>
+    </author>
+    <author>
+      <name>Bi-Heng Liu</name>
+    </author>
+    <author>
+      <name>Philip Walther</name>
+    </author>
+    <arxiv:doi>10.1038/s42254-024-00739-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s42254-024-00739-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.03776v2</id>
+    <title>Witnessing causal nonseparability</title>
+    <updated>2015-10-22T13:55:13Z</updated>
+    <link href="https://arxiv.org/abs/1506.03776v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.03776v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our common understanding of the physical world deeply relies on the notion that events are ordered with respect to some time parameter, with past events serving as causes for future ones. Nonetheless, it was recently found that it is possible to formulate quantum mechanics without any reference to a global time or causal structure. The resulting framework includes new kinds of quantum resources that allow performing tasks - in particular, the violation of causal inequalities - which are impossible for events ordered according to a global causal order. However, no physical implementation of such resources is known. Here we show that a recently demonstrated resource for quantum computation - the quantum switch - is a genuine example of "indefinite causal order". We do this by introducing a new tool - the causal witness - which can detect the causal nonseparability of any quantum resource that is incompatible with a definite causal order. We show however that the quantum switch does not violate any causal nequality.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-11T18:57:54Z</published>
+    <arxiv:comment>15 + 12 pages, 5 figures. Published version</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>New J. Phys. 17 (2015) 102001</arxiv:journal_ref>
+    <author>
+      <name>Mateus Araújo</name>
+    </author>
+    <author>
+      <name>Cyril Branciard</name>
+    </author>
+    <author>
+      <name>Fabio Costa</name>
+    </author>
+    <author>
+      <name>Adrien Feix</name>
+    </author>
+    <author>
+      <name>Christina Giarmatzi</name>
+    </author>
+    <author>
+      <name>Časlav Brukner</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/17/10/102001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/17/10/102001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00719v2</id>
+    <title>Device-independent certification of indefinite causal order in the quantum switch</title>
+    <updated>2023-06-09T17:07:03Z</updated>
+    <link href="https://arxiv.org/abs/2208.00719v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.00719v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum theory is compatible with scenarios in which the order of operations is indefinite. Experimental investigations of such scenarios, all of which have been based on a process known as the quantum switch, have provided demonstrations of indefinite causal order conditioned on assumptions on the devices used in the laboratory. But is a device-independent certification possible, similar to the certification of Bell nonlocality through the violation of Bell inequalities? Previous results have shown that the answer is negative if the switch is considered in isolation. Here, however, we present an inequality that can be used to device-independently certify indefinite causal order in the quantum switch in the presence of an additional spacelike-separated observer under an assumption asserting the impossibility of superluminal and retrocausal influences.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-01T10:06:49Z</published>
+    <arxiv:comment>6+9 pages. v2: Improved presentation of the three assumptions in the first section of Results, and a new section in Methods that formalises them. The name of two of the assumptions has been changed accordingly. Figure 1 has been replaced. Some discussion of inequalities in Table 1 has been moved to Methods. Comments most welcome!</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Tein van der Lugt</name>
+    </author>
+    <author>
+      <name>Jonathan Barrett</name>
+    </author>
+    <author>
+      <name>Giulio Chiribella</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.06944v3</id>
+    <title>Reversing Unknown Quantum Transformations: Universal Quantum Circuit for Inverting General Unitary Operations</title>
+    <updated>2020-04-15T05:00:20Z</updated>
+    <link href="https://arxiv.org/abs/1810.06944v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.06944v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a quantum gate implementing a $d$-dimensional unitary operation $U_d$, without any specific description but $d$, and permitted to use $k$ times, we present a universal probabilistic heralded quantum circuit that implements the exact inverse $U_d^{-1}$, whose failure probability decays, exponentially in $k$. The protocol employs an adaptive strategy, proven necessary for the exponential performance. It requires $k\geq d-1$, proven necessary for exact implementation of $U_d^{-1}$ with quantum circuits. Moreover, even when quantum circuits with indefinite causal order are allowed, $k\geq d-1$ uses are required. We then present a finite set of linear and positive semidefinite constraints characterizing universal unitary inversion protocols and formulate a convex optimization problem whose solution is the maximum success probability for given $k$ and $d$. The optimal values are computed using semidefinite programming solvers for $k\leq 3$ when $d=2$ and $k\leq 2$ for $d=3$. With this numerical approach we show for the first time that indefinite causal order circuits provide an advantage over causally ordered ones in a task involving multiple uses of the same unitary operation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-16T12:01:00Z</published>
+    <arxiv:comment>Closer to the published version. This version slightly improves the text and provides more details on the proof of Theorem 2. Part of the technical methods are presented at arXiv:1909.01366. Matlab code to accompany this article can be found at https://github.com/mtcq/unitary_inverse</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 123, 210502 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Marco Túlio Quintino</name>
+    </author>
+    <author>
+      <name>Qingxiuxiong Dong</name>
+    </author>
+    <author>
+      <name>Atsushi Shimbo</name>
+    </author>
+    <author>
+      <name>Akihito Soeda</name>
+    </author>
+    <author>
+      <name>Mio Murao</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.123.210502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.123.210502" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.00248v3</id>
+    <title>Bell's Theorem for Temporal Order</title>
+    <updated>2020-06-16T08:19:20Z</updated>
+    <link href="https://arxiv.org/abs/1708.00248v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.00248v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time has a fundamentally different character in quantum mechanics and in general relativity. In quantum theory events unfold in a fixed time order while in general relativity temporal order is influenced by the distribution of matter. When the distribution of matter requires a quantum description, temporal order is expected to become non-classical -- a scenario beyond the scope of current theories. Here we provide a direct description of such a scenario. We consider a massive body in a spatial superposition and show how it leads to "entanglement" of temporal orders between time-like events in the resulting space-time. This entanglement enables accomplishing a task, violation of a Bell inequality, that is impossible under classical temporal order. Violation of the inequality means that temporal order becomes non-classical -- it cannot be described by locally defined classical variables. Our approach provides a quantitative method for investigating quantum aspects of space-time and gravity.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-01T11:05:22Z</published>
+    <arxiv:comment>close to published version</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nat Commun 10, 3772 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Magdalena Zych</name>
+    </author>
+    <author>
+      <name>Fabio Costa</name>
+    </author>
+    <author>
+      <name>Igor Pikovski</name>
+    </author>
+    <author>
+      <name>Caslav Brukner</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-019-11579-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-019-11579-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0102069v1</id>
+    <title>Absence of Singularity in Loop Quantum Cosmology</title>
+    <updated>2001-02-14T17:21:24Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0102069v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0102069v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is shown that the cosmological singularity in isotropic minisuperspaces is naturally removed by quantum geometry. Already at the kinematical level, this is indicated by the fact that the inverse scale factor is represented by a bounded operator even though the classical quantity diverges at the initial singularity. The full demonstation comes from an analysis of quantum dynamics. Because of quantum geometry, the quantum evolution occurs in discrete time steps and does not break down when the volume becomes zero. Instead, space-time can be extended to a branch preceding the classical singularity independently of the matter coupled to the model. For large volume the correct semiclassical behavior is obtained.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-02-14T17:21:24Z</published>
+    <arxiv:comment>4 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.86:5227-5230,2001</arxiv:journal_ref>
+    <author>
+      <name>Martin Bojowald</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.86.5227</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.86.5227" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9601029v2</id>
+    <title>Microscopic Origin of the Bekenstein-Hawking Entropy</title>
+    <updated>1996-02-15T01:40:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9601029v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9601029v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Bekenstein-Hawking area-entropy relation $S_{BH}=A/4$ is derived for a class of five-dimensional extremal black holes in string theory by counting the degeneracy of BPS soliton bound states.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-01-09T22:20:39Z</published>
+    <arxiv:comment>12 pages. Relatively minor corrections and additions to discussion</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett.B379:99-104,1996</arxiv:journal_ref>
+    <author>
+      <name>A. Strominger</name>
+    </author>
+    <author>
+      <name>C. Vafa</name>
+    </author>
+    <arxiv:doi>10.1016/0370-2693(96)00345-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/0370-2693(96)00345-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.03859v4</id>
+    <title>Quantum operations with indefinite time direction</title>
+    <updated>2022-05-25T21:12:11Z</updated>
+    <link href="https://arxiv.org/abs/2012.03859v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.03859v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fundamental dynamics of quantum particles is neutral with respect to the arrow of time. And yet, our experiments are not: we observe quantum systems evolving from the past to the future, but not the other way round. A fundamental question is whether it is possible to conceive a broader set of operations that probe quantum processes in the backward direction, from the future to the past, or more generally, in a combination of the forward and backward directions. Here we introduce a mathematical framework for these operations, showing that some of them cannot be interpreted as random mixtures of operations that probe processes in a definite direction. As a concrete example, we construct an operation, called the quantum time flip, that probes an unknown dynamics in a quantum superposition of the forward and backward directions. This operation exhibits an information-theoretic advantage over all operations with definite direction. It can be realised probabilistically using quantum teleportation, and can be reproduced experimentally with photonic systems. More generally, we introduce a set of multipartite operations that include indefinite time direction as well as indefinite causal order, providing a framework for potential extensions of quantum theory.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-07T17:09:06Z</published>
+    <arxiv:comment>7 + 21 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Communication Physics 5, 190 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Giulio Chiribella</name>
+    </author>
+    <author>
+      <name>Zixuan Liu</name>
+    </author>
+    <arxiv:doi>10.1038/s42005-022-00967-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s42005-022-00967-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0502050v1</id>
+    <title>The fuzzball proposal for black holes: an elementary review</title>
+    <updated>2005-02-03T22:40:11Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0502050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0502050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give an elementary review of black holes in string theory. We discuss BPS holes, the microscopic computation of entropy and the `fuzzball' picture of the black hole interior suggested by microstates of the 2-charge system.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-02-03T22:40:11Z</published>
+    <arxiv:comment>45 pages, 2 figures; Lecture given at the RTN workshop `The quantum structure of space-time and the geometric nature of fundamental interactions', in Crete, Greece (September 2004)</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Fortsch.Phys. 53 (2005) 793-827</arxiv:journal_ref>
+    <author>
+      <name>Samir D. Mathur</name>
+    </author>
+    <arxiv:doi>10.1002/prop.200410203</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/prop.200410203" title="doi"/>
+  </entry>
+</feed>

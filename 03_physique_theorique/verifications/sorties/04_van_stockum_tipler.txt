@@ -1,0 +1,47 @@
+==============================================================================
+SCRIPT 04 — Cylindre de van Stockum / Tipler
+==============================================================================
+
+[V1] Intérieur de van Stockum
+  G_{μν} - 8πρ u_μ u_ν = 0 (vérifié)
+  avec 8πGρ/c² = 4 a² exp(a² r²)  -> sur l'axe : ρ0 = a² c² / (2π G)
+  scalaire de Ricci R = 4*a**2*exp(a**2*r**2) (= -8π T = 8πρ pour une poussière)
+  sqrt(-g) = exp(-a**2*r**2)*Abs(r)  ; vorticité |ω| = a*exp(a**2*r**2/2)*Abs(r/Abs(r))  -> sur l'axe |ω| = a  (rotation locale de la matière)
+  g_φφ = L = r²(1 - a² r²) : négatif pour a r > 1  => cercles (t, r, z constants) de genre temps si R > 1/a
+  [temps 0 s]
+
+[V2-V3] Extérieurs (vide) et raccord en r = R
+  aR < 1/2   : vide R_μν=0 : OK ; raccord C¹ en r=R : OK ; F L + M² = r² : OK ; max |R_μν| numérique (40 chiffres) = 1.6e-173
+  aR = 1/2   : vide R_μν=0 : OK ; raccord C¹ en r=R : OK ; F L + M² = r² : OK ; max |R_μν| numérique (40 chiffres) = 6.5e-173
+  aR > 1/2   : vide R_μν=0 : OK ; raccord C¹ en r=R : OK ; F L + M² = r² : OK ; max |R_μν| numérique (40 chiffres) = 3.4e-167
+  [temps 37 s]
+
+[V4] Structure causale extérieure pour aR > 1/2 : L = g_φφ ∝ r sin(3β + γ(r)),  γ = sqrt(4a²R² - 1) ln(r/R)
+     -> coquilles concentriques alternées g_φφ < 0 (∂_φ de genre temps : CTC) / g_φφ > 0, en progression géométrique
+  aR = 0.51 : zéros de g_φφ à r/R = 3.179e+05, 1.951e+12, 1.198e+19, 7.351e+25 ; rapport entre zéros successifs = exp(π/sqrt(4a²R²-1)) = 6.138e+06 ; juste hors du cylindre : g_φφ>0
+  aR = 0.6  : zéros de g_φφ à r/R = 8.063, 919.1, 1.048e+05, 1.194e+07 ; rapport entre zéros successifs = exp(π/sqrt(4a²R²-1)) = 114 ; juste hors du cylindre : g_φφ>0
+  aR = 0.75 : zéros de g_φφ à r/R = 1.739, 28.88, 479.6, 7966 ; rapport entre zéros successifs = exp(π/sqrt(4a²R²-1)) = 16.61 ; juste hors du cylindre : g_φφ>0
+  aR = 1.0  : zéros de g_φφ à r/R = 1, 6.134, 37.62, 230.8 ; rapport entre zéros successifs = exp(π/sqrt(4a²R²-1)) = 6.134 ; juste hors du cylindre : g_φφ<0 (CTC)
+  aR = 2.0  : zéros de g_φφ à r/R = 1.824, 4.106, 9.241, 20.8 ; rapport entre zéros successifs = exp(π/sqrt(4a²R²-1)) = 2.251 ; juste hors du cylindre : g_φφ<0 (CTC)
+  aR < 1/2 : L = g_φφ ∝ r sinh(3ε + θ) > 0 partout : pas de CTC (et F > 0 jusqu'à θ = ε).
+
+------------------------------------------------------------------------------
+Ordres de grandeur (SI) — seuil d'apparition des CTC extérieures : aR = 1/2
+------------------------------------------------------------------------------
+  masse linéique (mesurée dans le référentiel de la matière) μ = a²R² c² / (2G) ; au seuil μ = c²/(8G)
+  μ_seuil = 1.683e+26 kg/m  = 28.2 masses terrestres par mètre = 8.465e-02 M_soleil par km
+           R   ω = c/(2R) (rad/s)    ρ0 = ω²/(2πG) (kg/m³)   masse d un tronçon de longueur 10 R (kg)
+       1e-15            1.499e+23                5.358e+55                                  1.683e+12
+        0.15            9.993e+08                2.381e+27                                  2.525e+26
+           1            1.499e+08                5.358e+25                                  1.683e+27
+       1e+04            1.499e+04                5.358e+17                                  1.683e+31
+  (R = 10 km : ρ0 ≈ 5e17 kg/m³, soit environ deux fois la densité de saturation nucléaire ≈ 2,3e17 kg/m³)
+  Pour des CTC DANS la matière (a r > 1) il faudrait R > 1/a, soit μ > c²/(2G) = 6.733e+26 kg/m
+
+  « Le même environnement sans la masse » : invariance d'échelle du vide. Si g est solution du vide,
+  λ² g l'est aussi, avec M -> λM (ou μ inchangé pour un cylindre), longueurs -> λ × longueurs.
+  Toute longueur caractéristique vaut donc GM/c² × f(sans dimension) : une zone à CTC de taille ℓ exige M ~ ℓ c²/G.
+   ℓ = 1.0 m -> M ~ 1.35e+27 kg
+   ℓ = 3.7 m -> M ~ 4.98e+27 kg
+
+Temps de calcul : 37 s

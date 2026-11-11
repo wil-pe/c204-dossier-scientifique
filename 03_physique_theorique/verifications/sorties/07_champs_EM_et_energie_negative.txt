@@ -1,0 +1,63 @@
+==============================================================================
+SCRIPT 07 — Champs électromagnétiques et gravité ; énergie négative
+==============================================================================
+
+[E1] Univers magnétique de Melvin (G = c = 1, unités gaussiennes géométrisées)
+  ds² = Λ²(-dt² + dρ² + dz²) + ρ²/Λ² dφ²,  Λ = 1 + B²ρ²/4,  A_φ = Bρ²/(2Λ)
+  R_{μν} - 2(F_{μα}F_ν^α - ¼ g_{μν}F²) = 0 (vérifié)
+  Maxwell : ∂_μ(√-g F^{μν}) = [0, 0, 0, 0]
+  circonférence propre 2πρ/Λ maximale en ρ = [2/B] (rayon de Melvin ρ_M = 2/B) puis décroissante : la géométrie « se referme »
+  champ mesuré localement : B/Λ² ; flux total = ∫F_ρφ dρ dφ = 4*pi/B
+
+[E2] Intensité de champ et échelle de courbure (SI)
+  conversion : B_géométrique = sqrt(4π ε0 G)/c × B = 2.874e-19 m⁻¹ par tesla
+  échelle de courbure L définie par 8πG u/c⁴ = 1/L², u = B²/2μ0 :  L = c² sqrt(μ0/4πG) / B = 3.479e+18 m·T / B
+  rayon de Melvin ρ_M = 2/B_géom = 6.958e+18 m·T / B
+  champ                                               B (T)    u (J/m³)  u/c² (kg/m³)      L (m)  L (années-lumière)
+  champ terrestre                                     5e-05   9.947e-04     1.107e-20  6.958e+22           7.354e+06
+  IRM clinique                                            3   3.581e+06     3.984e-11  1.160e+18           1.226e+02
+  record continu (Hahn et al. 2019)                    45.5   8.237e+08     9.165e-09  7.646e+16           8.082e+00
+  impulsionnel non destructif (~100 T)                  100   3.979e+09     4.427e-08  3.479e+16           3.677e+00
+  record en laboratoire fermé (Nakamura 2018)       1.2e+03   5.730e+11     6.375e-06  2.899e+15           3.064e-01
+  pulsar ordinaire (~1e8 T)                           1e+08   3.979e+21     4.427e+04  3.479e+10           3.677e-06
+  champ critique de Schwinger B_S                  4.41e+09   7.752e+24     8.626e+07  7.881e+08           8.331e-08
+  magnétar (~1e11 T)                                  1e+11   3.979e+27     4.427e+10  3.479e+07           3.677e-09
+  pour L = 1.0 m : B = 3.479e+18 T ; E équivalent = cB = 1.043e+27 V/m = 7.9e+08 E_Schwinger ; u = 4.82e+42 J/m³ = 5.36e+25 kg/m³ ; énergie dans une sphère de rayon L : 2.02e+43 J = 0.12 M_Jupiter c²
+  pour L = 3.7 m : B = 9.402e+17 T ; E équivalent = cB = 2.819e+26 V/m = 2.1e+08 E_Schwinger ; u = 3.52e+41 J/m³ = 3.91e+24 kg/m³ ; énergie dans une sphère de rayon L : 7.46e+43 J = 0.44 M_Jupiter c²
+  champ électrique maximal dans le vide (Schwinger, 1.32e+18 V/m) : u = 7.75e+24 J/m³ -> L ≥ 7.88e+08 m
+  Effet réel d'un aimant de laboratoire : 45,5 T dans 1 litre
+   énergie 8.24e+05 J ; masse équivalente 9.17e-12 kg ; à 10 cm : Φ/c² = 6.8e-38 ; g = 6.1e-20 m/s²
+   pression magnétique B²/2μ0 : 45,5 T -> 8.24e+08 Pa ; 1200 T -> 5.73e+11 Pa (au-delà de la tenue de tout matériau)
+  potentiel électrostatique donnant une courbure d'ordre 1 : V = c²/sqrt(4π ε0 G) = 1.043e+27 V (= sqrt(α) × énergie de Planck / e = 1.043e+27 V)
+
+[E3] Anneau de lumière (Mallett) : entraînement des référentiels au centre, ordre de grandeur Ω ~ 4π G P / (c⁴ R)
+  P = 1 W                        R = 0.1 m : Ω ~ 1.0e-42 rad/s ; masse linéique de la lumière P/c³ = 3.7e-26 kg/m
+  P = 1 kW                       R = 0.1 m : Ω ~ 1.0e-39 rad/s ; masse linéique de la lumière P/c³ = 3.7e-23 kg/m
+  P = 1 MW circulant             R = 0.1 m : Ω ~ 1.0e-36 rad/s ; masse linéique de la lumière P/c³ = 3.7e-20 kg/m
+  P = 1 PW (laser impulsionnel)  R = 0.1 m : Ω ~ 1.0e-27 rad/s ; masse linéique de la lumière P/c³ = 3.7e-11 kg/m
+  comparaison : effet Lense-Thirring de la Terre mesuré par Gravity Probe B ≈ 5,7e-15 rad/s (à ~19 % près)
+  puissance pour que la masse linéique lumineuse atteigne le seuil de Tipler c²/8G : P = c⁵/(8G) = 4.54e+51 W
+
+[E4] Effet Casimir (plaques parfaitement conductrices) : u = -π² ħ c /(720 d⁴),  P = -π² ħ c /(240 d⁴)
+  d = 1e-06 m : u = -4.33e-04 J/m³ (-4.8e-21 kg/m³) ; pression -1.30e-03 Pa ; énergie négative par m² de plaques = -4.3e-10 J/m²
+  d = 1e-07 m : u = -4.33e+00 J/m³ (-4.8e-17 kg/m³) ; pression -1.30e+01 Pa ; énergie négative par m² de plaques = -4.3e-07 J/m²
+  d = 1e-08 m : u = -4.33e+04 J/m³ (-4.8e-13 kg/m³) ; pression -1.30e+05 Pa ; énergie négative par m² de plaques = -4.3e-04 J/m²
+  d = 1e-09 m : u = -4.33e+08 J/m³ (-4.8e-09 kg/m³) ; pression -1.30e+09 Pa ; énergie négative par m² de plaques = -4.3e-01 J/m²
+  à comparer à l'énergie de masse POSITIVE des plaques elles-mêmes : 1 µm d'or ≈ 0,019 kg/m² = 1.7e+15 J/m² par plaque
+  Trou de ver de Morris-Thorne, gorge de rayon b : tension requise τ = c⁴/(8πG b²)
+  b = 1 m : |ρ| c² ~ τ = 4.82e+42 J/m³ ; écart de plaques Casimir donnant cette densité : d = 3.1e-18 m ; durée d'échantillonnage maximale permise par l'inégalité quantique pour cette densité : τ0 ≲ 9.4e-27 s ; « masse exotique » ~ -b c²/G = -1.3e+27 kg
+  b = 1000 m : |ρ| c² ~ τ = 4.82e+36 J/m³ ; écart de plaques Casimir donnant cette densité : d = 9.7e-17 m ; durée d'échantillonnage maximale permise par l'inégalité quantique pour cette densité : τ0 ≲ 3.0e-25 s ; « masse exotique » ~ -b c²/G = -1.3e+30 kg
+  Inégalité quantique (champ scalaire sans masse, échantillonnage lorentzien de durée τ0) : <ρ> ≥ -3 ħ /(32 π² c³ τ0⁴)
+   τ0 = 1e-15 s : <ρ> ≥ -3.7e-02 J/m³
+   τ0 = 1e-09 s : <ρ> ≥ -3.7e-26 J/m³
+   τ0 = 1e-03 s : <ρ> ≥ -3.7e-50 J/m³
+
+[E5] Bulle d'Alcubierre : densité d'énergie eulérienne par la contrainte hamiltonienne (tranches plates)
+  ρ_E = (K² - K_ij K^ij)/16π = v**2*(-y**2 - z**2)*Subs(Derivative(f(_xi_1), _xi_1), _xi_1, sqrt(x**2 + y**2 + z**2))**2/(32*pi*(x**2 + y**2 + z**2))
+   = -(v²/32π) (y² + z²)/r² (df/dr)²  ≤ 0 partout  (Alcubierre 1994)
+  intégrale : E = -(v²/12) ∫ r² f'(r)² dr ; profil linéaire d'épaisseur Δ : E = -(v²/12)(R²/Δ + Δ/12)   [G = c = 1]
+   contrôle : ∫ r² f'² dr = Delta/12 + R**2/Delta
+  R = 3.7 m, Δ = 1 m, v = c : E = -1.39e+44 J = -1.55e+27 kg = -7.77e-04 M_soleil
+  R = 3.7 m, Δ = 0.01 m, v = c : E = -1.38e+46 J = -1.54e+29 kg = -7.73e-02 M_soleil
+  R = 3.7 m, Δ = 1.62e-33 m, v = c : E = -8.54e+76 J = -9.50e+59 kg = -4.78e+29 M_soleil
+  (Δ ~ 100 longueurs de Planck est l'épaisseur maximale compatible avec l'inégalité quantique selon Pfenning & Ford 1997)

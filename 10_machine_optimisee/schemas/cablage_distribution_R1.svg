@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 900" width="1500" height="900" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="1500" height="900" fill="#fcfcfb"/>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0b0b0b">C204-R1 — câblage et distribution (très basse tension)</text>
+<text x="24" y="60" font-size="13" fill="#52514e">Une seule source (batterie 12,8 V), un fusible général au plus près de la borne +, un coupe-batterie, une chaîne d&#x27;arrêt d&#x27;urgence à double canal, puis des départs protégés un par un.</text>
+<text x="24" y="78" font-size="13" fill="#52514e">Aucune tension supérieure à ≈ 30 V (polarisation des photodétecteurs, produite sur leur carte). Calibres : script i12, guide/protections_R1.csv. Estimations — rien n&#x27;a été construit.</text>
+<rect x="30" y="120" width="230" height="100" rx="7" fill="#ffffff" stroke="#eb6834" stroke-width="2.2"/>
+<rect x="30" y="120" width="7" height="100" rx="3" fill="#eb6834"/>
+<text x="46" y="140" font-size="13" font-weight="700" fill="#0b0b0b">Batterie LiFePO4 12,8 V</text>
+<text x="46" y="158.0" font-size="11.5" fill="#52514e">4 éléments en série, 1,34 kWh</text>
+<text x="46" y="173.5" font-size="11.5" fill="#52514e">BMS intégré (surcharge, décharge,</text>
+<text x="46" y="189.0" font-size="11.5" fill="#52514e">court-circuit, température)</text>
+<text x="46" y="204.5" font-size="11.5" fill="#52514e">dans un bac, loin des horloges</text>
+<rect x="300" y="135" width="170" height="70" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="300" y="135" width="7" height="70" rx="3" fill="#e34948"/>
+<text x="316" y="155" font-size="13" font-weight="700" fill="#0b0b0b">F0 : fusible 10 A</text>
+<text x="316" y="173.0" font-size="11.5" fill="#52514e">à &lt; 15 cm de la borne +</text>
+<text x="316" y="188.5" font-size="11.5" fill="#52514e">fort pouvoir de coupure</text>
+<rect x="510" y="135" width="170" height="70" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="510" y="135" width="7" height="70" rx="3" fill="#e34948"/>
+<text x="526" y="155" font-size="13" font-weight="700" fill="#0b0b0b">Coupe-batterie</text>
+<text x="526" y="173.0" font-size="11.5" fill="#52514e">manuel, accessible</text>
+<text x="526" y="188.5" font-size="11.5" fill="#52514e">coffre fermé</text>
+<rect x="720" y="120" width="230" height="100" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="720" y="120" width="7" height="100" rx="3" fill="#e34948"/>
+<text x="736" y="140" font-size="13" font-weight="700" fill="#0b0b0b">Relais de sécurité (R1-05)</text>
+<text x="736" y="158.0" font-size="11.5" fill="#52514e">double canal, contacts guidés</text>
+<text x="736" y="173.5" font-size="11.5" fill="#52514e">piloté par l&#x27;arrêt d&#x27;urgence du</text>
+<text x="736" y="189.0" font-size="11.5" fill="#52514e">pupitre et de la télécommande ;</text>
+<text x="736" y="204.5" font-size="11.5" fill="#52514e">réarmement manuel</text>
+<rect x="990" y="135" width="200" height="70" rx="7" fill="#ffffff" stroke="#eb6834" stroke-width="2.2"/>
+<rect x="990" y="135" width="7" height="70" rx="3" fill="#eb6834"/>
+<text x="1006" y="155" font-size="13" font-weight="700" fill="#0b0b0b">Barre + 12 V protégée</text>
+<text x="1006" y="173.0" font-size="11.5" fill="#52514e">57 W ; 5,3 A en mesure</text>
+<text x="1006" y="188.5" font-size="11.5" fill="#52514e">départs F1 à F8</text>
+<rect x="1230" y="120" width="240" height="100" rx="7" fill="#ffffff" stroke="#6b7280" stroke-width="2.2"/>
+<rect x="1230" y="120" width="7" height="100" rx="3" fill="#6b7280"/>
+<text x="1246" y="140" font-size="13" font-weight="700" fill="#0b0b0b">0 V : point de masse unique</text>
+<text x="1246" y="158.0" font-size="11.5" fill="#52514e">retours en étoile sur une barre 0 V</text>
+<text x="1246" y="173.5" font-size="11.5" fill="#52514e">reliée au châssis en UN seul point ;</text>
+<text x="1246" y="189.0" font-size="11.5" fill="#52514e">blindages reliés côté source ;</text>
+<text x="1246" y="204.5" font-size="11.5" fill="#52514e">châssis relié au véhicule (tresse)</text>
+<path d="M260.0,170.0 L300.0,170.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M470.0,170.0 L510.0,170.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M680.0,170.0 L720.0,170.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M950.0,170.0 L990.0,170.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="30" y="300" width="330" height="110" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="30" y="300" width="7" height="110" rx="3" fill="#1baf7a"/>
+<text x="46" y="320" font-size="13" font-weight="700" fill="#0b0b0b">F1 : fusible 3 A — 19,0 W (1,75 A)</text>
+<text x="46" y="338.0" font-size="11.5" fill="#52514e">convertisseur 12 → 5 V</text>
+<text x="46" y="353.5" font-size="11.5" fill="#52514e">3 calculateurs dissemblables,</text>
+<text x="46" y="369.0" font-size="11.5" fill="#52514e">voteur, récepteur GNSS</text>
+<text x="46" y="384.5" font-size="11.5" fill="#52514e">câble 0,5 mm²</text>
+<rect x="400" y="300" width="330" height="110" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="400" y="300" width="7" height="110" rx="3" fill="#2a78d6"/>
+<text x="416" y="320" font-size="13" font-weight="700" fill="#0b0b0b">F2 : fusible 1 A — 5,5 W (0,50 A)</text>
+<text x="416" y="338.0" font-size="11.5" fill="#52514e">convertisseur bas bruit 12 → 5 / 3,3 V</text>
+<text x="416" y="353.5" font-size="11.5" fill="#52514e">4 horloges au césium miniatures,</text>
+<text x="416" y="369.0" font-size="11.5" fill="#52514e">comparateur de phase</text>
+<text x="416" y="384.5" font-size="11.5" fill="#52514e">câble 0,5 mm²</text>
+<rect x="770" y="300" width="330" height="110" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="770" y="300" width="7" height="110" rx="3" fill="#2a78d6"/>
+<text x="786" y="320" font-size="13" font-weight="700" fill="#0b0b0b">F3 : fusible 2 A — 8,0 W (0,74 A)</text>
+<text x="786" y="338.0" font-size="11.5" fill="#52514e">12 V direct</text>
+<text x="786" y="353.5" font-size="11.5" fill="#52514e">régulation Peltier de l&#x27;enceinte,</text>
+<text x="786" y="369.0" font-size="11.5" fill="#52514e">bobines de compensation (&lt; 1 mT)</text>
+<text x="786" y="384.5" font-size="11.5" fill="#52514e">câble 0,5 mm²</text>
+<rect x="1140" y="300" width="330" height="110" rx="7" fill="#ffffff" stroke="#6250d6" stroke-width="2.2"/>
+<rect x="1140" y="300" width="7" height="110" rx="3" fill="#6250d6"/>
+<text x="1156" y="320" font-size="13" font-weight="700" fill="#0b0b0b">F4 : fusible 1 A — 6,0 W (0,55 A)</text>
+<text x="1156" y="338.0" font-size="11.5" fill="#52514e">12 V direct</text>
+<text x="1156" y="353.5" font-size="11.5" fill="#52514e">micro-pompe, ventilateur ;</text>
+<text x="1156" y="369.0" font-size="11.5" fill="#52514e">détecteur de fuite dans le bac</text>
+<text x="1156" y="384.5" font-size="11.5" fill="#52514e">câble 0,5 mm²</text>
+<rect x="30" y="450" width="330" height="110" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="30" y="450" width="7" height="110" rx="3" fill="#e87ba4"/>
+<text x="46" y="470" font-size="13" font-weight="700" fill="#0b0b0b">F5 : fusible 1 A — 5,6 W (0,51 A)</text>
+<text x="46" y="488.0" font-size="11.5" fill="#52514e">convertisseur 12 → 5 V</text>
+<text x="46" y="503.5" font-size="11.5" fill="#52514e">télescope à muons, gyromètre,</text>
+<text x="46" y="519.0" font-size="11.5" fill="#52514e">cartes de proximité</text>
+<text x="46" y="534.5" font-size="11.5" fill="#52514e">câble 0,5 mm²</text>
+<rect x="400" y="450" width="330" height="110" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2"/>
+<rect x="400" y="450" width="7" height="110" rx="3" fill="#eda100"/>
+<text x="416" y="470" font-size="13" font-weight="700" fill="#0b0b0b">F6 : fusible 0,5 A — 3,3 W (0,30 A)</text>
+<text x="416" y="488.0" font-size="11.5" fill="#52514e">convertisseur 12 → 5 V</text>
+<text x="416" y="503.5" font-size="11.5" fill="#52514e">accéléromètres, ambiance,</text>
+<text x="416" y="519.0" font-size="11.5" fill="#52514e">dosimètre à semi-conducteur</text>
+<text x="416" y="534.5" font-size="11.5" fill="#52514e">câble 0,5 mm²</text>
+<rect x="770" y="450" width="330" height="110" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="770" y="450" width="7" height="110" rx="3" fill="#e34948"/>
+<text x="786" y="470" font-size="13" font-weight="700" fill="#0b0b0b">F7 : fusible 1 A — 5,0 W (0,46 A)</text>
+<text x="786" y="488.0" font-size="11.5" fill="#52514e">12 V et 5 V</text>
+<text x="786" y="503.5" font-size="11.5" fill="#52514e">pupitre, télécommande (bus CAN),</text>
+<text x="786" y="519.0" font-size="11.5" fill="#52514e">avertisseur</text>
+<text x="786" y="534.5" font-size="11.5" fill="#52514e">câble 0,5 mm²</text>
+<rect x="1140" y="450" width="330" height="110" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="1140" y="450" width="7" height="110" rx="3" fill="#e34948"/>
+<text x="1156" y="470" font-size="13" font-weight="700" fill="#0b0b0b">F8 : fusible 1 A — 5,0 W (0,46 A)</text>
+<text x="1156" y="488.0" font-size="11.5" fill="#52514e">12 V</text>
+<text x="1156" y="503.5" font-size="11.5" fill="#52514e">bobines du relais de sécurité,</text>
+<text x="1156" y="519.0" font-size="11.5" fill="#52514e">pertes des convertisseurs</text>
+<text x="1156" y="534.5" font-size="11.5" fill="#52514e">câble 0,5 mm²</text>
+<line x1="1090" y1="205" x2="1090" y2="272" stroke="#52514e" stroke-width="1.6"/>
+<line x1="195" y1="272" x2="1305" y2="272" stroke="#52514e" stroke-width="1.6"/>
+<line x1="195" y1="272" x2="195" y2="300" stroke="#52514e" stroke-width="1.6"/>
+<line x1="565" y1="272" x2="565" y2="300" stroke="#52514e" stroke-width="1.6"/>
+<line x1="935" y1="272" x2="935" y2="300" stroke="#52514e" stroke-width="1.6"/>
+<line x1="1305" y1="272" x2="1305" y2="300" stroke="#52514e" stroke-width="1.6"/>
+<text x="1100" y="264" font-size="11" fill="#52514e" text-anchor="start">distribution + 12 V (les départs F5 à F8 se raccordent à la même barre)</text>
+<rect x="30" y="630" width="330" height="150" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="30" y="630" width="7" height="150" rx="3" fill="#2a78d6"/>
+<text x="46" y="650" font-size="13" font-weight="700" fill="#0b0b0b">Signaux de temps (câble coaxial 50 Ω)</text>
+<text x="46" y="668.0" font-size="11.5" fill="#52514e">10 MHz et 1 PPS de chaque horloge → comparateur</text>
+<text x="46" y="683.5" font-size="11.5" fill="#52514e">1 PPS du GNSS → comparateur et calculateurs</text>
+<text x="46" y="699.0" font-size="11.5" fill="#52514e">longueurs égales à ±5 cm (0,25 ns)</text>
+<text x="46" y="714.5" font-size="11.5" fill="#52514e">blindage relié à la masse côté source seulement</text>
+<text x="46" y="730.0" font-size="11.5" fill="#52514e">aucun câble de puissance dans la même gaine</text>
+<rect x="400" y="630" width="330" height="150" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="400" y="630" width="7" height="150" rx="3" fill="#1baf7a"/>
+<text x="416" y="650" font-size="13" font-weight="700" fill="#0b0b0b">Données</text>
+<text x="416" y="668.0" font-size="11.5" fill="#52514e">comparateur → 3 calculateurs : 3 liaisons série</text>
+<text x="416" y="683.5" font-size="11.5" fill="#52514e">isolées (optocoupleurs) : pas de masse commune</text>
+<text x="416" y="699.0" font-size="11.5" fill="#52514e">capteurs : un jeu par calculateur si possible,</text>
+<text x="416" y="714.5" font-size="11.5" fill="#52514e">sinon bus partagé (mode commun à signaler)</text>
+<text x="416" y="730.0" font-size="11.5" fill="#52514e">calculateurs → voteur → pupitre : bus CAN</text>
+<rect x="770" y="630" width="330" height="150" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="770" y="630" width="7" height="150" rx="3" fill="#e34948"/>
+<text x="786" y="650" font-size="13" font-weight="700" fill="#0b0b0b">Chaîne d&#x27;arrêt d&#x27;urgence (câblée)</text>
+<text x="786" y="668.0" font-size="11.5" fill="#52514e">2 boutons à accrochage en série (pupitre,</text>
+<text x="786" y="683.5" font-size="11.5" fill="#52514e">télécommande), double contact à ouverture ;</text>
+<text x="786" y="699.0" font-size="11.5" fill="#52514e">ouvre le relais de sécurité : tout hors tension</text>
+<text x="786" y="714.5" font-size="11.5" fill="#52514e">sauf la batterie elle-même ; aucun logiciel</text>
+<text x="786" y="730.0" font-size="11.5" fill="#52514e">dans la chaîne ; essai avant chaque sortie</text>
+<rect x="1140" y="630" width="330" height="150" rx="7" fill="#ffffff" stroke="#6b7280" stroke-width="2.2"/>
+<rect x="1140" y="630" width="7" height="150" rx="3" fill="#6b7280"/>
+<text x="1156" y="650" font-size="13" font-weight="700" fill="#0b0b0b">Séparations</text>
+<text x="1156" y="668.0" font-size="11.5" fill="#52514e">baie gauche : énergie ; centre : logements et</text>
+<text x="1156" y="683.5" font-size="11.5" fill="#52514e">boucle d&#x27;eau ; droite : temps et calcul ;</text>
+<text x="1156" y="699.0" font-size="11.5" fill="#52514e">eau et électronique jamais au même niveau ;</text>
+<text x="1156" y="714.5" font-size="11.5" fill="#52514e">pompe arrêtée pendant les mesures fines ;</text>
+<text x="1156" y="730.0" font-size="11.5" fill="#52514e">horloges à plus de 25 cm de la batterie</text>
+<rect x="30" y="842" width="14" height="12" rx="2" fill="#eb6834"/>
+<text x="52" y="852" font-size="11.5" fill="#0b0b0b" text-anchor="start">énergie</text>
+<rect x="30" y="862" width="14" height="12" rx="2" fill="#e34948"/>
+<text x="52" y="872" font-size="11.5" fill="#0b0b0b" text-anchor="start">sécurité</text>
+<rect x="250" y="842" width="14" height="12" rx="2" fill="#2a78d6"/>
+<text x="272" y="852" font-size="11.5" fill="#0b0b0b" text-anchor="start">temps</text>
+<rect x="250" y="862" width="14" height="12" rx="2" fill="#1baf7a"/>
+<text x="272" y="872" font-size="11.5" fill="#0b0b0b" text-anchor="start">calcul</text>
+<rect x="470" y="842" width="14" height="12" rx="2" fill="#6250d6"/>
+<text x="492" y="852" font-size="11.5" fill="#0b0b0b" text-anchor="start">thermique</text>
+<rect x="470" y="862" width="14" height="12" rx="2" fill="#eda100"/>
+<text x="492" y="872" font-size="11.5" fill="#0b0b0b" text-anchor="start">capteurs</text>
+</svg>

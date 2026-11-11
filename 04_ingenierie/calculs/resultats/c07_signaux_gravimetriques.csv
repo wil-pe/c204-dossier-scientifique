@@ -1,0 +1,10 @@
+objet,masse_kg,distance_m,delta_g_uGal,gradient_Eotvos,temps_integration_SNR3_FG5-X_s,temps_integration_SNR3_AQG_s,temps_integration_SNR3_iGrav_s,temps_integration_SNR3_MEMS_s,rapport_a_l_ecart_type_CG6_5uGal,lectures_CG6_a_moyenner_pour_SNR3
+masse d'une tonne,1000,2,1.669,16.69,727.3,8081,0.2909,5172,0.3337,80.81
+masse d'une tonne,1000,3,0.7416,4.944,3682,4.091e+04,1.473,2.618e+04,0.1483,409.1
+bloc de béton de 1 m³ (2400 kg),2400,2,4.005,40.05,126.3,1403,0.05051,897.9,0.8009,14.03
+bloc de béton de 1 m³ (2400 kg),2400,3.5,1.308,7.472,1184,1.316e+04,0.4737,8422,0.2615,131.6
+mur de 10 t,1e+04,3,7.416,49.44,36.82,409.1,0.01473,261.8,1.483,4.091
+personne (80 kg),80,1,0.5339,10.68,7103,7.892e+04,2.841,5.051e+04,0.1068,789.2
+voiture (1500 kg),1500,3,1.112,7.416,1637,1.818e+04,0.6546,1.164e+04,0.2225,181.8
+immeuble (1e6 kg),1e+06,20,16.69,16.69,7.273,80.81,0.002909,51.72,3.337,0.8081
+"fluide de refroidissement interne (10 kg déplacés de 0,5 à 0,3 m)",10,nan,0.4746,nan,8990,9.988e+04,3.596,6.393e+04,0.09492,998.8

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4+rIXqaPNUbvgXaAth+NOqD0JhI</id>
+  <title>arXiv Query: search_query=&amp;id_list=1910.06666&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:48:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1910.06666" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1910.06666v1</id>
+    <title>Absolute airborne gravimetry with a cold atom sensor</title>
+    <updated>2019-10-15T11:50:58Z</updated>
+    <link href="https://arxiv.org/abs/1910.06666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.06666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measuring gravity from an aircraft is essential in geodesy, geophysics and exploration. Today, only relative sensors are available for airborne gravimetry. This is a major drawback because of the calibration and drift estimation procedures which lead to important operational constraints and measurement errors. Here, we report an absolute airborne gravimeter based on atom interferometry. This instrument has been first tested on a motion simulator leading to gravity measurements noise of 0.3 mGal for 75 s filtering time constant. Then, we realized an airborne campaign across Iceland in April 2017. From a repeated line and crossing points, we obtain gravity measurements with an estimated error between 1.7 and 3.9 mGal. The airborne measurements have also been compared to upward continued ground gravity data and show differences with a standard deviation ranging from 3.3 to 6.2 mGal and a mean value ranging from -0.7 mGal to -1.9 mGal.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-15T11:50:58Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Yannick Bidel</name>
+    </author>
+    <author>
+      <name>Nassim Zahzam</name>
+    </author>
+    <author>
+      <name>Alexandre Bresson</name>
+    </author>
+    <author>
+      <name>Cédric Blanchard</name>
+    </author>
+    <author>
+      <name>Malo Cadoret</name>
+    </author>
+    <author>
+      <name>Arne V. Olesen</name>
+    </author>
+    <author>
+      <name>René Forsberg</name>
+    </author>
+    <arxiv:doi>10.1007/s00190-020-01350-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00190-020-01350-2" title="doi"/>
+  </entry>
+</feed>

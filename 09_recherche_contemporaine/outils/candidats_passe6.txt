@@ -1,0 +1,4 @@
+# Passe 6 (phase 7) : DOI corrects de deux articles dont le champ DOI de la notice arXiv renvoie à un autre objet
+# (FH06 : article voisin du même numéro de revue ; FSW93 : erratum de 1995). DOI proposés de mémoire, à vérifier.
+FH06__pub|6|doi|10.1002/andp.200510173|topological censorship and chronology protection|Friedman
+FSW93__pub|4|doi|10.1103/PhysRevLett.71.1486|topological censorship|Friedman

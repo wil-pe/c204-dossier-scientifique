@@ -1,0 +1,59 @@
+EXP-09 — EFFET SAGNAC ET ENTRAÎNEMENT DES RÉFÉRENTIELS
+========================================================================
+Rotation de la Terre : Ω_T = 7.2921e-05 rad/s = 15.04 °/h
+
+1. Déphasage Sagnac
+   Interféromètre de table 1 m × 1 m, He-Ne 633 nm, plateau tournant à 1 rad/s    Δφ = 1,32e-1 rad (2,11e-2 frange)
+   Même interféromètre, rotation terrestre (latitude 48,85°)                      Δφ = 7,27e-6 rad (1,16e-6 frange)
+   Bobine de fibre 200 m, Ø 10 cm, 1550 nm, plateau à 0,1 rad/s (≈ 5,7 °/s)       Δφ = 2,70e-2 rad (4,30e-3 frange)
+   Bobine de fibre 1 km, Ø 10 cm, 1550 nm, rotation terrestre complète            Δφ = 9,86e-5 rad (1,57e-5 frange)
+   Bobine de fibre 1 km, Ø 10 cm, 1550 nm, 0,01 °/h (classe navigation)           Δφ = 6,56e-8 rad (1,04e-8 frange)
+
+2. Vérifications sur des expériences publiées
+   Michelson-Gale-Pearson (1925) : rectangle 2010 ft × 1113 ft (A = 2.078e+05 m²), latitude 41°46′, λ ≈ 570 nm
+   décalage calculé 4AΩ·sinφ/(λc) = 0.236 frange (publié : 0,236 ± 0,002 calculé ; 0,230 ± 0,005 observé)
+   Gyrolaser « G » (carré 4 m × 4 m, 633 nm, latitude 49,14°) : battement 4AΩ·sinφ/(λP) = 348.6 Hz (valeur connue ≈ 348,5 Hz)
+
+3. Entraînement des référentiels (Lense-Thirring) — ordre de grandeur Ω_LT ~ G·J/(c²r³)
+   Terre, à la surface : G·J/(c²R³) = 1,68e-14 rad/s = 2.3e-10 × Ω_T
+   Gravity Probe B (orbite polaire à 642 km) : entraînement prédit 39,2 mas/an = 6,02e-15 rad/s (mesuré 37,2 ± 7,2) ; précession géodétique 6606,1 mas/an = 1,01e-12 rad/s (mesuré 6601,8 ± 18,3)
+   (a) SPIN SEUL — trou noir de Kerr EXTRÉMAL isolé (J_max = G·M²/c), à r = 1 m, champ lointain 2GJ/(c²r³) :
+     ancienne valeur v1, 1e12 kg      : J_max = 2,23e5 kg·m²/s ; Ω_LT(1 m) = 3,31e-22 rad/s = 2.0e-08 × celui de la Terre au sol
+     valeur retenue basse, 3,9e12 kg  : J_max = 3,39e6 kg·m²/s ; Ω_LT(1 m) = 5,03e-21 rad/s = 3.0e-07 × celui de la Terre au sol
+     valeur retenue haute, 5,1e12 kg  : J_max = 5,79e6 kg·m²/s ; Ω_LT(1 m) = 8,60e-21 rad/s = 5.1e-07 × celui de la Terre au sol
+     (comparaison : un volant de 10 kg, R = 15 cm, à 6000 tr/min porte J = 71 kg·m²/s)
+     → comme J_max ∝ M², le SPIN d'un micro-trou noir est dérisoire : son champ ne diffère d'un champ de
+       Schwarzschild qu'à quelques rayons gravitationnels (~1e-14 m).
+   (b) MOMENT ORBITAL — paire liée en orbite circulaire à l'entraxe d : L = (M/2)·√(2GMd), Ω_LT(1 m) = 2GL/(c²r³)
+       (nul si les singularités sont tenues fixes ; borne supérieure si elles orbitent librement ; à r = 1 m, soit
+        3 à 10 entraxes, la formule de champ lointain est un ordre de grandeur, la partie oscillante étant ignorée)
+     2 × 1e12 kg (ancienne valeur)  d = 0.098 m : L = 1,81e12 kg·m²/s ; Ω_LT(1 m) = 2,69e-15 rad/s =  0.16 × Terre au sol (période orbitale 17 ms, vitesse 18 m/s)
+     2 × 1e12 kg (ancienne valeur)  d = 0.300 m : L = 3,16e12 kg·m²/s ; Ω_LT(1 m) = 4,70e-15 rad/s =  0.28 × Terre au sol (période orbitale 89 ms, vitesse 11 m/s)
+     2 × 3,9e12 kg                  d = 0.098 m : L = 1,39e13 kg·m²/s ; Ω_LT(1 m) = 2,07e-14 rad/s =  1.23 × Terre au sol (période orbitale 8 ms, vitesse 36 m/s)
+     2 × 3,9e12 kg                  d = 0.300 m : L = 2,44e13 kg·m²/s ; Ω_LT(1 m) = 3,62e-14 rad/s =  2.15 × Terre au sol (période orbitale 45 ms, vitesse 21 m/s)
+     2 × 4,4e12 kg                  d = 0.098 m : L = 1,67e13 kg·m²/s ; Ω_LT(1 m) = 2,48e-14 rad/s =  1.47 × Terre au sol (période orbitale 8 ms, vitesse 39 m/s)
+     2 × 4,4e12 kg                  d = 0.300 m : L = 2,92e13 kg·m²/s ; Ω_LT(1 m) = 4,34e-14 rad/s =  2.58 × Terre au sol (période orbitale 43 ms, vitesse 22 m/s)
+     2 × 5,1e12 kg                  d = 0.098 m : L = 2,08e13 kg·m²/s ; Ω_LT(1 m) = 3,09e-14 rad/s =  1.84 × Terre au sol (période orbitale 7 ms, vitesse 42 m/s)
+     2 × 5,1e12 kg                  d = 0.300 m : L = 3,64e13 kg·m²/s ; Ω_LT(1 m) = 5,41e-14 rad/s =  3.22 × Terre au sol (période orbitale 40 ms, vitesse 24 m/s)
+     → jusqu'à 5,41e-14 rad/s : le terme orbital dépasse le spin de 7 ordres de grandeur et atteint l'ordre
+       de l'effet terrestre (1,7e-14 rad/s au sol ; 6,02e-15 rad/s mesuré en orbite par Gravity Probe B).
+       Il reste sans effet causal, hors de portée de tout gyromètre transportable (≥ 5e-10 rad/s) et encore
+       ≈ 13 fois sous la résolution d'un gyrolaser géant, instrument fixe de 16 m² qu'on ne place pas à 1 m d'un véhicule.
+
+4. Sensibilité des gyromètres contre signaux (ordres de grandeur indicatifs)
+   Gyromètre MEMS de smartphone (instabilité de biais ~10 °/h)        4,85e-5 rad/s  [N1]  → Ω_T/résolution = 1.5e+00
+   Gyromètre à fibre de TP / tactique (~1 °/h)                        4,85e-6 rad/s  [N2]  → Ω_T/résolution = 1.5e+01
+   Gyromètre à fibre de navigation (~0,01 °/h)                        4,85e-8 rad/s  [N3 (industrie)]  → Ω_T/résolution = 1.5e+03
+   Gyromètre à fibre stratégique (~1e-4 °/h)                          4,85e-10 rad/s  [N3 (industrie)]  → Ω_T/résolution = 1.5e+05
+   Gyrolaser géant type G (résolution ~1e-8 Ω_T après intégration)    7,29e-13 rad/s  [N3]  → Ω_T/résolution = 1.0e+08
+   Objectif des réseaux de gyrolasers (GINGER : ~1e-9 à 1e-10 Ω_T)    7,29e-15 rad/s  [N3 (projet)]  → Ω_T/résolution = 1.0e+10
+   Lense-Thirring terrestre au sol (1,68e-14 rad/s) : hors de portée de tout gyromètre de laboratoire actuel ;
+   mesuré seulement dans l'espace (LAGEOS/LARES, Gravity Probe B) et dans un pulsar binaire.
+   Écart au gyrolaser géant (7,29e-13 rad/s) : spin seul 3,31e-22–8,60e-21 rad/s → 8 à 9 ordres de grandeur ;
+   paire en orbite, jusqu'à 5,41e-14 rad/s → 1.1 ordre de grandeur (≈ 13 fois sous la résolution) : « 1 à 9 ordres de grandeur selon le terme ».
+
+Sagnac ≠ Lense-Thirring : l'effet Sagnac mesure la rotation de l'INSTRUMENT par rapport aux référentiels
+inertiels locaux (cinématique, relativité restreinte suffit) ; l'effet Lense-Thirring est la rotation de ces
+référentiels eux-mêmes, causée par une masse en rotation (relativité générale). Un gyromètre à fibre ne
+« détecte » donc pas un champ de Kerr ; il mesurerait au mieux la rotation mécanique d'un châssis. Même le terme
+orbital d'une paire (≤ 5e-14 rad/s) est 1e4 fois sous le meilleur gyromètre à fibre et 1e9 fois sous un MEMS.

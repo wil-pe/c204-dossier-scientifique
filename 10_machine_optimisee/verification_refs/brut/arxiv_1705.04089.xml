@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zoiBdA+JIQfIXoenI/jUW/8f+rA</id>
+  <title>arXiv Query: search_query=&amp;id_list=1705.04089&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:47:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1705.04089" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1705.04089v1</id>
+    <title>Geodesy and metrology with a transportable optical clock</title>
+    <updated>2017-05-11T09:40:46Z</updated>
+    <link href="https://arxiv.org/abs/1705.04089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.04089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The advent of novel measurement instrumentation can lead to paradigm shifts in scientific research. Optical atomic clocks, due to their unprecedented stability and uncertainty, are already being used to test physical theories and herald a revision of the International System of units (SI). However, to unlock their potential for cross-disciplinary applications such as relativistic geodesy, a major challenge remains. This is their transformation from highly specialized instruments restricted to national metrology laboratories into flexible devices deployable in different locations. Here we report the first field measurement campaign performed with a ubiquitously applicable $^{87}$Sr optical lattice clock. We use it to determine the gravity potential difference between the middle of a mountain and a location 90 km apart, exploiting both local and remote clock comparisons to eliminate potential clock errors. A local comparison with a $^{171}$Yb lattice clock also serves as an important check on the international consistency of independently developed optical clocks. This campaign demonstrates the exciting prospects for transportable optical clocks.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-11T09:40:46Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Jacopo Grotti</name>
+    </author>
+    <author>
+      <name>Silvio Koller</name>
+    </author>
+    <author>
+      <name>Stefan Vogt</name>
+    </author>
+    <author>
+      <name>Sebastian Häfner</name>
+    </author>
+    <author>
+      <name>Uwe Sterr</name>
+    </author>
+    <author>
+      <name>Christian Lisdat</name>
+    </author>
+    <author>
+      <name>Heiner Denker</name>
+    </author>
+    <author>
+      <name>Christian Voigt</name>
+    </author>
+    <author>
+      <name>Ludger Timmen</name>
+    </author>
+    <author>
+      <name>Antoine Rolland</name>
+    </author>
+    <author>
+      <name>Fred N. Baynes</name>
+    </author>
+    <author>
+      <name>Helen S. Margolis</name>
+    </author>
+    <author>
+      <name>Michel Zampaolo</name>
+    </author>
+    <author>
+      <name>Pierre Thoumany</name>
+    </author>
+    <author>
+      <name>Marco Pizzocaro</name>
+    </author>
+    <author>
+      <name>Benjamin Rauf</name>
+    </author>
+    <author>
+      <name>Filippo Bregolin</name>
+    </author>
+    <author>
+      <name>Anna Tampellini</name>
+    </author>
+    <author>
+      <name>Piero Barbieri</name>
+    </author>
+    <author>
+      <name>Massimo Zucco</name>
+    </author>
+    <author>
+      <name>Giovanni A. Costanzo</name>
+    </author>
+    <author>
+      <name>Cecilia Clivati</name>
+    </author>
+    <author>
+      <name>Filippo Levi</name>
+    </author>
+    <author>
+      <name>Davide Calonico</name>
+    </author>
+    <arxiv:doi>10.1038/s41567-017-0042-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41567-017-0042-3" title="doi"/>
+  </entry>
+</feed>

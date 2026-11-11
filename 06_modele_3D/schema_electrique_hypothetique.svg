@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1010" width="1700" height="1010" role="img" aria-label="C204 — schéma électrique unifilaire HYPOTHÉTIQUE" font-family="Helvetica, Arial, sans-serif">
+<title>C204 — schéma électrique unifilaire HYPOTHÉTIQUE</title>
+<defs>
+<marker id="f-energie" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+<marker id="f-electrons" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5fbf"/></marker>
+<marker id="f-fluide" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0e8a9c"/></marker>
+<marker id="f-signal" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3d8b2f"/></marker>
+<marker id="f-commande" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a3fb0"/></marker>
+<marker id="f-rayonnement" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b8860b"/></marker>
+<marker id="f-indetermine" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+<pattern id="hachures" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="10" height="10" fill="#fff"/><rect width="3" height="10" fill="#f6e3ee"/></pattern>
+</defs>
+<rect width="1700" height="1010" fill="#ffffff"/>
+<text x="850" y="560" font-size="150" text-anchor="middle" fill="#cc79a7" opacity="0.10" font-weight="700" transform="rotate(-18 850 560)">HYPOTHÉTIQUE</text>
+<text x="850" y="34" font-size="19" text-anchor="middle" fill="#16181d" font-weight="700">C204 — schéma électrique unifilaire HYPOTHÉTIQUE (topologie seule, sans tension ni courant)</text>
+<text x="850" y="56" font-size="11.5" text-anchor="middle" fill="#555" font-style="italic">Reconstruction documentaire d'un objet DÉCRIT (documents non authentifiés) : rien n'atteste qu'il ait existé ni fonctionné. Les fonctions sont celles REVENDIQUÉES par les légendes et le texte.</text>
+<rect x="40" y="70" width="1620" height="34" rx="8" fill="#fbe9f2" stroke="#cc79a7" stroke-width="1.5"/>
+<text x="850" y="92" font-size="12" text-anchor="middle" fill="#7a2a55" font-weight="700">SCHÉMA HYPOTHÉTIQUE — seuls les éléments en trait plein NOIR sont relevés sur DOC-008 ; tout ce qui est en tirets ROSES est un ajout de l'Équipe E. Aucune tension, aucun courant, aucune puissance n'est documenté.</text>
+<rect x="60" y="150" width="150" height="80" rx="6" fill="#fff" stroke="#111111" stroke-width="2.2"/>
+<line x1="85" y1="156" x2="85" y2="224" stroke="#111111" stroke-width="1"/>
+<line x1="110" y1="156" x2="110" y2="224" stroke="#111111" stroke-width="1"/>
+<line x1="135" y1="156" x2="135" y2="224" stroke="#111111" stroke-width="1"/>
+<line x1="160" y1="156" x2="160" y2="224" stroke="#111111" stroke-width="1"/>
+<line x1="185" y1="156" x2="185" y2="224" stroke="#111111" stroke-width="1"/>
+<text x="135" y="250" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">12 · Batterie (6 éléments)</text>
+<text x="135" y="265" font-size="10.5" text-anchor="middle" fill="#444">relevé sur DOC-008</text>
+<text x="74" y="170" font-size="15" text-anchor="middle" fill="#16181d" font-weight="700">+</text>
+<text x="196" y="170" font-size="15" text-anchor="middle" fill="#16181d" font-weight="700">−</text>
+<path d="M210,190 L268,190" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="268" cy="190" r="3.6" fill="#fff" stroke="#c2478a" stroke-width="1.8"/>
+<circle cx="312" cy="190" r="3.6" fill="#fff" stroke="#c2478a" stroke-width="1.8"/>
+<line x1="270" y1="188" x2="306" y2="170" stroke="#c2478a" stroke-width="2"/>
+<text x="290" y="214" font-size="11.5" text-anchor="middle" fill="#16181d" font-weight="700">Interrupteur général</text>
+<text x="290" y="229" font-size="10.5" text-anchor="middle" fill="#444">DOC-007 n°6</text>
+<text x="290" y="243" font-size="10.5" text-anchor="middle" fill="#444">place dans le circuit : HYP</text>
+<path d="M312,190 L428,190" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="428" cy="190" r="3.6" fill="#fff" stroke="#c2478a" stroke-width="1.8"/>
+<circle cx="472" cy="190" r="3.6" fill="#fff" stroke="#c2478a" stroke-width="1.8"/>
+<line x1="430" y1="188" x2="466" y2="170" stroke="#c2478a" stroke-width="2"/>
+<text x="450" y="214" font-size="11.5" text-anchor="middle" fill="#16181d" font-weight="700">Coupure d'urgence</text>
+<text x="450" y="229" font-size="10.5" text-anchor="middle" fill="#444">DOC-007 n°5</text>
+<text x="450" y="243" font-size="10.5" text-anchor="middle" fill="#444">place dans le circuit : HYP</text>
+<path d="M472,190 L540,190" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<path d="M540,190 L1010,190" fill="none" stroke="#111111" stroke-width="6" stroke-linejoin="round"/>
+<path d="M1010,190 L1640,190" fill="none" stroke="#c2478a" stroke-width="5" stroke-dasharray="14 7" stroke-linejoin="round"/>
+<text x="775" y="174" font-size="11.5" text-anchor="middle" fill="#111">Barre de distribution — trait épais de DOC-008 joignant les deux bornes de la batterie</text>
+<text x="1325" y="174" font-size="11.5" text-anchor="middle" fill="#c2478a" font-style="italic">prolongement supposé de la barre</text>
+<circle cx="590" cy="190" r="4.2" fill="#111111"/>
+<path d="M590,190 L590,290" fill="none" stroke="#111111" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="508.0" y="290" width="164" height="66" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="590" y="312.0" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">3 · Générateur /</text>
+<text x="590" y="327.0" font-size="11.8" text-anchor="middle" fill="#16181d">régulateur de champ</text>
+<text x="590" y="342.0" font-size="11.8" text-anchor="middle" fill="#16181d">(principale)</text>
+<path d="M590,356 L590,450" fill="none" stroke="#111111" stroke-width="2.4" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<text x="598" y="408" font-size="10.5" text-anchor="start" fill="#444" font-style="italic">tirets (DOC-008)</text>
+<path d="M542,480 q8,-26 16,0 q8,-26 16,0 q8,-26 16,0 q8,-26 16,0 q8,-26 16,0 q8,-26 16,0" fill="none" stroke="#111111" stroke-width="2.2"/>
+<path d="M590,450 L590,466" fill="none" stroke="#111111" stroke-width="2.4" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<text x="590" y="506" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">2 · Bobines de champ ×6</text>
+<text x="590" y="521" font-size="10.8" text-anchor="middle" fill="#444">autour du carter 1 (principale)</text>
+<circle cx="765" cy="190" r="4.2" fill="#111111"/>
+<path d="M765,190 L765,290" fill="none" stroke="#111111" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="683.0" y="290" width="164" height="66" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="765" y="312.0" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">3 · Générateur /</text>
+<text x="765" y="327.0" font-size="11.8" text-anchor="middle" fill="#16181d">régulateur de champ</text>
+<text x="765" y="342.0" font-size="11.8" text-anchor="middle" fill="#16181d">(de direction)</text>
+<path d="M765,356 L765,450" fill="none" stroke="#111111" stroke-width="2.4" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<text x="773" y="408" font-size="10.5" text-anchor="start" fill="#444" font-style="italic">tirets (DOC-008)</text>
+<path d="M717,480 q8,-26 16,0 q8,-26 16,0 q8,-26 16,0 q8,-26 16,0 q8,-26 16,0 q8,-26 16,0" fill="none" stroke="#111111" stroke-width="2.2"/>
+<path d="M765,450 L765,466" fill="none" stroke="#111111" stroke-width="2.4" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<text x="765" y="506" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">2 · Bobines de champ ×6</text>
+<text x="765" y="521" font-size="10.8" text-anchor="middle" fill="#444">autour du carter 1 (de direction)</text>
+<circle cx="960" cy="190" r="4.2" fill="#111111"/>
+<path d="M960,190 L960,290" fill="none" stroke="#111111" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="878.0" y="290" width="164" height="66" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="960" y="319.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">6 · Générateur</text>
+<text x="960" y="334.5" font-size="11.8" text-anchor="middle" fill="#16181d">d'électrons</text>
+<path d="M952,356 L952,420" fill="none" stroke="#111111" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M968,356 L968,420" fill="none" stroke="#111111" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="978" y="392" font-size="10.5" text-anchor="start" fill="#444" font-style="italic">2 traits pleins</text>
+<rect x="878.0" y="420" width="164" height="56" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="960" y="444.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">5 · Régulateur</text>
+<text x="960" y="459.5" font-size="11.8" text-anchor="middle" fill="#16181d">d'électrons</text>
+<path d="M960,476 L960,540" fill="none" stroke="#111111" stroke-width="1.6" stroke-linejoin="round"/>
+<rect x="878.0" y="540" width="164" height="56" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="960" y="564.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">4 · Collecteur</text>
+<text x="960" y="579.5" font-size="11.8" text-anchor="middle" fill="#16181d">d'injection</text>
+<path d="M960,596 L960,640 L700,640 L700,690" fill="none" stroke="#111111" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M960,640 L960,690" fill="none" stroke="#111111" stroke-width="1.6" stroke-linejoin="round"/>
+<rect x="580.0" y="690" width="240" height="70" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="700" y="714.0" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">Carter 1 + enveloppe 8</text>
+<text x="700" y="729.0" font-size="11.8" text-anchor="middle" fill="#16181d">SINGULARITÉ PRINCIPALE</text>
+<text x="700" y="744.0" font-size="11.8" text-anchor="middle" fill="#16181d">(DOC-007 n°1)</text>
+<rect x="870.0" y="690" width="240" height="70" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="990" y="714.0" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">Carter 1 + enveloppe 8</text>
+<text x="990" y="729.0" font-size="11.8" text-anchor="middle" fill="#16181d">SINGULARITÉ DE DIRECTION</text>
+<text x="990" y="744.0" font-size="11.8" text-anchor="middle" fill="#16181d">(DOC-007 n°2)</text>
+<text x="770" y="632" font-size="10.5" text-anchor="middle" fill="#444" font-style="italic">traits fins (DOC-008)</text>
+<path d="M878,448 L846,448 L846,800 L700,800 L700,760" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M846,800 L990,800 L990,760" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="560" y="818" font-size="10.5" text-anchor="start" fill="#444" font-style="italic">trait plein en T de DOC-008 reliant le sommet des deux carters au régulateur 5 (nature non légendée)</text>
+<circle cx="1130" cy="190" r="4.2" fill="#c2478a"/>
+<path d="M1130,190 L1130,290" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<rect x="1055.0" y="290" width="150" height="56" rx="6" fill="url(#hachures)" stroke="#c2478a" stroke-width="1.8" stroke-dasharray="9 6"/>
+<text x="1130" y="314.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">Protection</text>
+<text x="1130" y="329.5" font-size="11.8" text-anchor="middle" fill="#16181d">(fusible ou disjoncteur)</text>
+<path d="M1130,346 L1130,420" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="1130" cy="454" r="34" fill="#fff" stroke="#111111" stroke-width="2.2"/>
+<text x="1130" y="461" font-size="22" text-anchor="middle" fill="#16181d" font-weight="700">M</text>
+<text x="1130" y="508" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">9 · Pompe de</text>
+<text x="1130" y="523" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">refroidissement</text>
+<text x="1130" y="539" font-size="10.5" text-anchor="middle" fill="#444">(DOC-008 ; alimentation</text>
+<text x="1130" y="553" font-size="10.5" text-anchor="middle" fill="#444">non dessinée)</text>
+<circle cx="1420" cy="190" r="4.2" fill="#c2478a"/>
+<path d="M1420,190 L1420,290" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<rect x="1315.0" y="290" width="210" height="56" rx="6" fill="url(#hachures)" stroke="#c2478a" stroke-width="1.8" stroke-dasharray="9 6"/>
+<text x="1420" y="314.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">Convertisseur / régulateur</text>
+<text x="1420" y="329.5" font-size="11.8" text-anchor="middle" fill="#16181d">basse tension</text>
+<path d="M1420,346 L1420,400" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<path d="M1215,400 L1655,400" fill="none" stroke="#c2478a" stroke-width="3.2" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<text x="1435" y="392" font-size="10.8" text-anchor="start" fill="#c2478a" font-style="italic">distribution basse tension (supposée)</text>
+<path d="M1354,400 L1354,450" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="1354" cy="400" r="4.2" fill="#c2478a"/>
+<rect x="1336.0" y="450" width="128" height="52" rx="6" fill="url(#hachures)" stroke="#c2478a" stroke-width="1.8" stroke-dasharray="9 6"/>
+<text x="1400" y="472.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">Calculateurs</text>
+<text x="1400" y="487.5" font-size="11.8" text-anchor="middle" fill="#16181d">×3 (texte)</text>
+<path d="M1446,400 L1446,560" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="1446" cy="400" r="4.2" fill="#c2478a"/>
+<rect x="1336.0" y="560" width="128" height="52" rx="6" fill="url(#hachures)" stroke="#c2478a" stroke-width="1.8" stroke-dasharray="9 6"/>
+<text x="1400" y="582.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">Horloges</text>
+<text x="1400" y="597.5" font-size="11.8" text-anchor="middle" fill="#16181d">×4 (texte)</text>
+<path d="M1216,400 L1216,450" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="1216" cy="400" r="4.2" fill="#c2478a"/>
+<rect x="1198.0" y="450" width="128" height="52" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="1262" y="472.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">11 · Capteurs</text>
+<text x="1262" y="487.5" font-size="11.8" text-anchor="middle" fill="#16181d">de gravité</text>
+<path d="M1308,400 L1308,560" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="1308" cy="400" r="4.2" fill="#c2478a"/>
+<rect x="1198.0" y="560" width="128" height="52" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="1262" y="582.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">7 · Amplificateurs</text>
+<text x="1262" y="597.5" font-size="11.8" text-anchor="middle" fill="#16181d">de capteur ×2</text>
+<path d="M1514,400 L1514,450" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="1514" cy="400" r="4.2" fill="#c2478a"/>
+<rect x="1496.0" y="450" width="128" height="52" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="1560" y="472.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">Pupitre : 8, 4</text>
+<text x="1560" y="487.5" font-size="11.8" text-anchor="middle" fill="#16181d">(DOC-007)</text>
+<path d="M1606,400 L1606,560" fill="none" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<circle cx="1606" cy="400" r="4.2" fill="#c2478a"/>
+<rect x="1496.0" y="560" width="128" height="52" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2.2"/>
+<text x="1560" y="582.5" font-size="12.3" text-anchor="middle" fill="#16181d" font-weight="700">3 · Télécommande</text>
+<text x="1560" y="597.5" font-size="11.8" text-anchor="middle" fill="#16181d">(DOC-007)</text>
+<text x="1435" y="640" font-size="10.8" text-anchor="middle" fill="#444">Composants en trait plein noir : dessinés (DOC-008, DOC-007) ;</text>
+<text x="1435" y="655" font-size="10.8" text-anchor="middle" fill="#444">leur alimentation, en tirets roses, est supposée.</text>
+<path d="M1198,468 L1163,460" fill="none" stroke="#111111" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="1435" y="672" font-size="10.8" text-anchor="middle" fill="#444">Le trait fin entre 11 et 9 est relevé sur DOC-008 (nature non légendée).</text>
+<rect x="40" y="850" width="790" height="140" rx="8" fill="#f6f7f9" stroke="#c9ced6"/>
+<text x="54" y="870" font-size="12.3" text-anchor="start" fill="#16181d" font-weight="700">Topologie RELEVÉE sur DOC-008 (confiance moyenne : copie de 415 × 580 px)</text>
+<text x="54" y="890.0" font-size="11.2" text-anchor="start" fill="#222">a) trait épais joignant les deux bornes de la batterie 12 — lu ici comme une barre de distribution (littéralement : un court-circuit) ;</text>
+<text x="54" y="906.5" font-size="11.2" text-anchor="start" fill="#222">b) traits pleins de cette barre vers les deux générateurs / régulateurs de champ 3 et vers le générateur d'électrons 6 ;</text>
+<text x="54" y="923.0" font-size="11.2" text-anchor="start" fill="#222">c) tirets de chaque 3 vers les bobines 2 du carter correspondant ;  d) deux traits pleins entre 6 et 5 ;</text>
+<text x="54" y="939.5" font-size="11.2" text-anchor="start" fill="#222">e) traits fins 5 → 4 → base de chaque carter ;  f) trait plein en T entre le sommet des deux carters et 5 ;</text>
+<text x="54" y="956.0" font-size="11.2" text-anchor="start" fill="#222">g) trait mixte 10 → 9 → carters (fluide : voir architecture_fonctionnelle.svg) ;  h) trait fin continu 11 → 9 contournant le schéma.</text>
+<text x="54" y="972.5" font-size="11.2" text-anchor="start" fill="#222">Aucune liaison n'aboutit aux amplificateurs de capteur 7 ; aucune alimentation n'est dessinée pour 9 ni pour 11.</text>
+<rect x="850" y="850" width="810" height="140" rx="8" fill="#fbe9f2" stroke="#cc79a7"/>
+<text x="864" y="870" font-size="12.3" text-anchor="start" fill="#7a2a55" font-weight="700">AJOUTS hypothétiques de l'Équipe E (non étayés par les sources)</text>
+<text x="864" y="890.0" font-size="11.2" text-anchor="start" fill="#3a1a2c">• place de l'interrupteur général (6) et de la coupure d'urgence (5) en série entre batterie et barre ;</text>
+<text x="864" y="906.5" font-size="11.2" text-anchor="start" fill="#3a1a2c">• prolongement de la barre, protection et départ de la pompe 9 ;</text>
+<text x="864" y="923.0" font-size="11.2" text-anchor="start" fill="#3a1a2c">• convertisseur basse tension et distribution vers calculateurs, horloges, capteurs 11, amplificateurs 7, pupitre et télécommande ;</text>
+<text x="864" y="939.5" font-size="11.2" text-anchor="start" fill="#3a1a2c">• sens de l'énergie (de la batterie vers les charges) : jamais indiqué par des flèches sur DOC-008.</text>
+<text x="864" y="956.0" font-size="11.2" text-anchor="start" fill="#3a1a2c">Ordre de grandeur à garder en tête : le texte prête 300–500 MW aux « singularités », sans rapport possible avec une batterie</text>
+<text x="864" y="972.5" font-size="11.2" text-anchor="start" fill="#3a1a2c">embarquée dans un coffre de 227 kg (voir les Équipes B et C). Ce schéma ne dit rien de la faisabilité.</text>
+<line x1="60" y1="330" x2="120" y2="330" stroke="#111111" stroke-width="2.4"/>
+<text x="130" y="334" font-size="11.5" text-anchor="start" fill="#16181d">relevé sur DOC-008 (ou composant visible sur DOC-007)</text>
+<line x1="60" y1="352" x2="120" y2="352" stroke="#c2478a" stroke-width="1.9" stroke-dasharray="9 6"/>
+<text x="130" y="356" font-size="11.5" text-anchor="start" fill="#7a2a55">ajout hypothétique de l'Équipe E</text>
+<line x1="60" y1="374" x2="120" y2="374" stroke="#111111" stroke-width="2.4" stroke-dasharray="7 5"/>
+<text x="130" y="378" font-size="11.5" text-anchor="start" fill="#16181d">tirets d'origine de DOC-008 (3 → 2)</text>
+</svg>

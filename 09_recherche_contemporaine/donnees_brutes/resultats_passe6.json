@@ -1,0 +1,45 @@
+{
+ "FH06__pub": {
+  "cle": "FH06__pub",
+  "theme": "6",
+  "type": "journal-article",
+  "ident": "10.1002/andp.200510173",
+  "fragment": "topological censorship and chronology protection",
+  "auteur": "Friedman",
+  "titre": "Topological censorship and chronology protection",
+  "auteurs": [
+   "J. Friedman",
+   "A. Higuchi"
+  ],
+  "annee": "2006",
+  "revue": "Annalen der Physik 518, 109-128",
+  "doi": "10.1002/andp.200651801-209",
+  "url": "https://doi.org/10.1002/andp.200510173",
+  "url_requete": "https://api.crossref.org/works/10.1002/andp.200510173",
+  "statut": "vérifiée",
+  "note": "",
+  "source_verif": "API Crossref (DOI)"
+ },
+ "FSW93__pub": {
+  "cle": "FSW93__pub",
+  "theme": "4",
+  "type": "journal-article",
+  "ident": "10.1103/PhysRevLett.71.1486",
+  "fragment": "topological censorship",
+  "auteur": "Friedman",
+  "titre": "Topological censorship",
+  "auteurs": [
+   "John L. Friedman",
+   "Kristin Schleich",
+   "Donald M. Witt"
+  ],
+  "annee": "1993",
+  "revue": "Physical Review Letters 71, 1486-1489",
+  "doi": "10.1103/physrevlett.71.1486",
+  "url": "https://doi.org/10.1103/PhysRevLett.71.1486",
+  "url_requete": "https://api.crossref.org/works/10.1103/PhysRevLett.71.1486",
+  "statut": "vérifiée",
+  "note": "",
+  "source_verif": "API Crossref (DOI)"
+ }
+}

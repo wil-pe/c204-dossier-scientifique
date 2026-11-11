@@ -1,0 +1,132 @@
+{
+  "q_max": {
+    "b=0": 0.9080463337898257,
+    "b=0.2": 0.9850048744678501,
+    "b=0.5": 1.3405181169509892,
+    "b=1.0": 2.3668233233690277,
+    "b=2.0": 6.055874069333035,
+    "b=2.3": 8.007197588682093
+  },
+  "piege": [
+    {
+      "Q_sur_m": 2e-05,
+      "q": 0.06484555753109617,
+      "stable_vide": true,
+      "stable_air": true,
+      "affaissement_vide_m": 0.18903858593738862,
+      "affaissement_air_m": 1.1819618984373892,
+      "E_compensation_V_m": 490332.49999999994
+    },
+    {
+      "Q_sur_m": 5e-05,
+      "q": 0.1621138938277404,
+      "stable_vide": true,
+      "stable_air": true,
+      "affaissement_vide_m": 0.030246173749982192,
+      "affaissement_air_m": 0.18911390374998235,
+      "E_compensation_V_m": 196132.99999999997
+    },
+    {
+      "Q_sur_m": 0.0001,
+      "q": 0.3242277876554808,
+      "stable_vide": true,
+      "stable_air": true,
+      "affaissement_vide_m": 0.007561543437495548,
+      "affaissement_air_m": 0.04727847593749559,
+      "E_compensation_V_m": 98066.49999999999
+    },
+    {
+      "Q_sur_m": 0.0002,
+      "q": 0.6484555753109617,
+      "stable_vide": true,
+      "stable_air": true,
+      "affaissement_vide_m": 0.001890385859373887,
+      "affaissement_air_m": 0.011819618984373897,
+      "E_compensation_V_m": 49033.24999999999
+    },
+    {
+      "Q_sur_m": 0.0005,
+      "q": 1.6211389382774042,
+      "stable_vide": false,
+      "stable_air": true,
+      "affaissement_vide_m": NaN,
+      "affaissement_air_m": NaN,
+      "E_compensation_V_m": 19613.3
+    },
+    {
+      "Q_sur_m": 0.001,
+      "q": 3.2422778765548084,
+      "stable_vide": false,
+      "stable_air": true,
+      "affaissement_vide_m": NaN,
+      "affaissement_air_m": NaN,
+      "E_compensation_V_m": 9806.65
+    },
+    {
+      "Q_sur_m": 0.003,
+      "q": 9.726833629664425,
+      "stable_vide": false,
+      "stable_air": false,
+      "affaissement_vide_m": NaN,
+      "affaissement_air_m": NaN,
+      "E_compensation_V_m": 3268.883333333333
+    }
+  ],
+  "securite": {
+    "R_min_ohm": 6000000.0,
+    "Q_stock_C": 3e-08,
+    "E_stock_J": 4.4999999999999996e-05
+  },
+  "selle": {
+    "omega0": 5.717414917017422,
+    "seuil_tr_min": 54.59729074503968
+  },
+  "diamagnetisme": [
+    {
+      "materiau": "graphite pyrolytique (χ⊥ ≈ -4,5e-4)",
+      "B_gradB_T2_m": 60.24773257672448
+    },
+    {
+      "materiau": "bismuth (χ ≈ -1,66e-4)",
+      "B_gradB_T2_m": 726.0412679905926
+    },
+    {
+      "materiau": "eau / tissus vivants (χ ≈ -9,05e-6)",
+      "B_gradB_T2_m": 1361.7016403579114
+    }
+  ],
+  "c204": {
+    "M_kg": 4400000000000.0,
+    "Q_max_C": 379.1707566939544,
+    "Q_sur_m": 8.617517197589872e-11,
+    "E_sustentation_V_m": 113799018616.90164,
+    "V_paul_V": 1145295585119.3044,
+    "B_levitation_T": 113799018616.90164,
+    "charge_tenable": [
+      {
+        "n_e": 6.0,
+        "M_kg": 3900000000000.0,
+        "Q_sur_m": 2.4648871292307688e-31,
+        "E_sustentation_V_m": 3.978539172728942e+31
+      },
+      {
+        "n_e": 6.0,
+        "M_kg": 5100000000000.0,
+        "Q_sur_m": 1.8849136870588234e-31,
+        "E_sustentation_V_m": 5.2027050720301545e+31
+      },
+      {
+        "n_e": 137.0,
+        "M_kg": 3900000000000.0,
+        "Q_sur_m": 5.6281589450769226e-30,
+        "E_sustentation_V_m": 1.7424259150637701e+30
+      },
+      {
+        "n_e": 137.0,
+        "M_kg": 5100000000000.0,
+        "Q_sur_m": 4.303886252117647e-30,
+        "E_sustentation_V_m": 2.2785569658526223e+30
+      }
+    ]
+  }
+}

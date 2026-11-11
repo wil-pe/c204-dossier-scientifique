@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/C6RfqVFrs1j4WpyJm+A+SM4XMoY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.02389&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:47:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2405.02389" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.02389v2</id>
+    <title>No black holes from light</title>
+    <updated>2024-07-30T04:57:01Z</updated>
+    <link href="https://arxiv.org/abs/2405.02389v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.02389v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that it is not possible to concentrate enough light to precipitate the formation of an event horizon. We argue that the dissipative quantum effects coming from the self-interaction of light (such as vacuum polarization) are enough to prevent any meaningful buildup of energy that could create a black hole in any realistic scenario.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-03T18:00:00Z</published>
+    <arxiv:comment>13 pages. RevTeX 4.2. v2: Updated to match published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Physical Review Letters 133, 041401 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Álvaro Álvarez-Domínguez</name>
+    </author>
+    <author>
+      <name>Luis J. Garay</name>
+    </author>
+    <author>
+      <name>Eduardo Martín-Martínez</name>
+    </author>
+    <author>
+      <name>José Polo-Gómez</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.133.041401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.133.041401" title="doi"/>
+  </entry>
+</feed>

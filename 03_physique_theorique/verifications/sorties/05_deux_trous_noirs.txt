@@ -1,0 +1,117 @@
+==============================================================================
+SCRIPT 05 — Deux trous noirs : champs réels à l'échelle du mètre
+==============================================================================
+
+[B1] Champ d'UN trou noir de masse M à la distance r (champ faible ; pour deux trous noirs, additionner)
+   M (kg)  r (m)  Φ/c² = GM/rc²  g = GM/r² (m/s²)       g/g0  marée 2GM/r³ (s⁻²)  retard d horloge (s/heure)  Ω spin seul (rad/s)
+      100    1.0      7.426e-26         6.674e-09  6.806e-10           1.335e-08                   2.673e-22            3.307e-42
+      100    4.0      1.857e-26         4.171e-10  4.254e-11           2.086e-10                   6.684e-23            5.167e-44
+      227    1.0      1.686e-25         1.515e-08  1.545e-09           3.030e-08                   6.069e-22            1.704e-41
+      227    4.0      4.214e-26         9.469e-10  9.656e-11           4.735e-10                   1.517e-22            2.662e-43
+    1e+06    1.0      7.426e-22         6.674e-05  6.806e-06           1.335e-04                   2.673e-18            3.307e-34
+    1e+06    4.0      1.857e-22         4.171e-06  4.254e-07           2.086e-06                   6.684e-19            5.167e-36
+    1e+09    1.0      7.426e-19         6.674e-02  6.806e-03           1.335e-01                   2.673e-15            3.307e-28
+    1e+09    4.0      1.857e-19         4.171e-03  4.254e-04           2.086e-03                   6.684e-16            5.167e-30
+    1e+12    1.0      7.426e-16         6.674e+01  6.806e+00           1.335e+02                   2.673e-12            3.307e-22
+    1e+12    4.0      1.857e-16         4.171e+00  4.254e-01           2.086e+00                   6.684e-13            5.167e-24
+    5e+12    1.0      3.713e-15         3.337e+02  3.403e+01           6.674e+02                   1.337e-11            8.266e-21
+    5e+12    4.0      9.283e-16         2.086e+01  2.127e+00           1.043e+01                   3.342e-12            1.292e-22
+  (Ω spin seul : spin extrémal d'un trou ISOLÉ ; le terme orbital d'une paire, bien plus grand, est en [B3bis].)
+  Référence : meilleure exactitude d'horloge optique publiée ~1e-18 ; Gravity Probe B a mesuré 37 mas/an = 5.68e-15 rad/s pour la Terre entière.
+  Rapport revendiqué dt/dτ - 1 = 87 659 ; rapport réel pour 1e12 kg à 1 m : 7.4e-16  -> écart de 20 ordres de grandeur.
+
+[B2] Masse (Schwarzschild, observateur statique) donnant un facteur de dilatation Γ = dt/dτ à la distance r
+     Γ = (1 - r_s/r)^(-1/2)  =>  M = (r c² / 2G) (1 - Γ⁻²)
+  Γ - 1 = 1e-15    r = 1.0 m : M = 1.347e+12 kg (2.25e-13 M_Terre) ; accélération propre pour rester statique = 9.165e+00 g
+  Γ - 1 = 1e-15    r = 3.7 m : M = 4.982e+12 kg (8.34e-13 M_Terre) ; accélération propre pour rester statique = 2.477e+00 g
+  Γ - 1 = 1e-09    r = 1.0 m : M = 1.347e+18 kg (2.25e-07 M_Terre) ; accélération propre pour rester statique = 9.165e+06 g
+  Γ - 1 = 1e-09    r = 3.7 m : M = 4.982e+18 kg (8.34e-07 M_Terre) ; accélération propre pour rester statique = 2.477e+06 g
+  Γ - 1 = 0.001    r = 1.0 m : M = 1.345e+24 kg (0.225 M_Terre) ; accélération propre pour rester statique = 9.160e+12 g
+  Γ - 1 = 0.001    r = 3.7 m : M = 4.975e+24 kg (0.833 M_Terre) ; accélération propre pour rester statique = 2.476e+12 g
+  Γ - 1 = 1        r = 1.0 m : M = 5.050e+26 kg (84.6 M_Terre) ; accélération propre pour rester statique = 6.874e+15 g
+  Γ - 1 = 1        r = 3.7 m : M = 1.868e+27 kg (313 M_Terre) ; accélération propre pour rester statique = 1.858e+15 g
+  Γ - 1 = 8.77e+04 r = 1.0 m : M = 6.733e+26 kg (113 M_Terre) ; accélération propre pour rester statique = 4.017e+20 g
+  Γ - 1 = 8.77e+04 r = 3.7 m : M = 2.491e+27 kg (417 M_Terre) ; accélération propre pour rester statique = 1.086e+20 g
+
+[B3] Binaire circulaire de deux masses égales M séparées de d
+     d = 0.098 m : entraxe documentaire (Équipe A, [DÉD], confiance faible) ; d = 0.3 m : [HYP] de la version 1
+   M (kg)  d (m)  ω orb (rad/s)    v (m/s)    P_GW (W)  t Peters (s)  t Peters (ans)  t Peters / âge univers  force mutuelle (N)   δΦ/c² à 2ω, r=2 m
+      114  0.098      4.012e-03  1.966e-04   2.186e-67     5.018e+60       1.590e+53               1.152e+43           8.953e-05           3.794e-29
+      114  0.300      7.491e-04  1.124e-04   8.130e-70     4.406e+62       1.396e+55               1.012e+45           9.553e-06           3.556e-28
+    1e+09  0.098      1.191e+01  5.835e-01   1.160e-32     7.337e+39       2.325e+32               1.685e+22           6.950e+09           3.343e-22
+    1e+09  0.300      2.223e+00  3.335e-01   4.316e-35     6.443e+41       2.042e+34               1.479e+24           7.416e+08           3.133e-21
+    1e+12  0.098      3.766e+02  1.845e+01   1.160e-17     7.337e+30       2.325e+23               1.685e+13           6.950e+15           3.343e-19
+    1e+12  0.300      7.031e+01  1.055e+01   4.316e-20     6.443e+32       2.042e+25               1.479e+15           7.416e+14           3.133e-18
+  4.4e+12  0.098      7.900e+02  3.871e+01   1.914e-14     8.613e+28       2.729e+21               1.978e+11           1.345e+17           1.471e-18
+  4.4e+12  0.300      1.475e+02  2.212e+01   7.118e-17     7.563e+30       2.397e+23               1.737e+13           1.436e+16           1.378e-17
+    5e+12  0.098      8.421e+02  4.126e+01   3.626e-14     5.869e+28       1.860e+21               1.348e+11           1.737e+17           1.672e-18
+    5e+12  0.300      1.572e+02  2.358e+01   1.349e-16     5.154e+30       1.633e+23               1.184e+13           1.854e+16           1.566e-17
+  Champ proche newtonien (la seule « sinusoïde » réelle de deux masses en rotation) :
+    Φ(r, φ, t) = -2GM/r - (G M d²/4r³)(3cos²ψ - 1),  ψ = φ - ωt  ->  terme oscillant -(3 G M d²/8r³) cos 2(φ - ωt)
+  Pour que la coalescence prenne ~1 heure avec d = 0,3 m il faudrait M ≈ 5.64e+21 kg par trou noir.
+
+[B3bis] Entraînement des référentiels par le moment cinétique ORBITAL de la paire (moyenne temporelle)
+     J_orb = 2 M (d/2)² ω = M d² ω / 2 ;  sur l'axe, à la hauteur z (analogue gravitomagnétique d'une spire) :
+     Ω(z) = 2 G J_orb / [c² (d²/4 + z²)^(3/2)]  ->  2 G J / (c² z³) à grande distance ; plan orbital : -G J/(c² r³)
+   M (kg)  d (m)  J_orb (J s)  J_orb / J_spin max  Ω orb, z=1 m (rad/s)  Ω orb, z=4 m (rad/s)  Ω spin seul, 1 m  h_0φ ~ Ω z / c (1 m)
+    1e+12  0.098    1.808e+12            8.12e+06             2.676e-15             4.196e-17         3.307e-22              8.93e-24
+    1e+12  0.300    3.164e+12            1.42e+07             4.545e-15             7.327e-17         3.307e-22              1.52e-23
+3.918e+12  0.098    1.402e+13            4.10e+06             2.076e-14             3.254e-16         5.076e-21              6.92e-23
+3.918e+12  0.300    2.454e+13            7.18e+06             3.525e-14             5.683e-16         5.076e-21              1.18e-22
+  4.4e+12  0.098    1.669e+13            3.87e+06             2.470e-14             3.873e-16         6.402e-21              8.24e-23
+  4.4e+12  0.300    2.920e+13            6.78e+06             4.195e-14             6.763e-16         6.402e-21              1.40e-22
+5.058e+12  0.098    2.057e+13            3.61e+06             3.044e-14             4.773e-16         8.459e-21              1.02e-22
+5.058e+12  0.300    3.599e+13            6.32e+06             5.170e-14             8.335e-16         8.459e-21              1.72e-22
+  Comparaison : Gravity Probe B, Terre entière : 5.68e-15 rad/s. Le terme orbital d'une paire de quelques 1e12 kg est du même
+  ordre ou jusqu'à ~10 fois plus grand ; le terme de spin d'un trou isolé est 1e7 fois plus petit.
+  Portée causale : nulle. La composante de métrique associée, h_0φ ~ Ω z / c ~ 1e-22, reste << 1/8 (proposition D3 b).
+
+[B4] Équilibre statique de deux trous noirs
+  Majumdar-Papapetrou : Q/M = sqrt(4π ε0 G) = 8.6175e-11 C/kg (répulsion électrostatique = attraction newtonienne, à toute distance)
+   contrôle : F_e/F_g = 1.000000
+  Champ électrique à l'horizon d'un trou noir extrémal de 1e+12 kg : 1.404e+42 V/m = 1.06e+24 × champ de Schwinger
+  Masse au-dessus de laquelle le champ d'horizon d'un RN extrémal passe sous le champ de Schwinger : 1.06e+36 kg = 5.3e+05 M_soleil
+   (ordre de grandeur de Gibbons 1975 : ~1e5 M_soleil ; en dessous, la charge fuit par création de paires e+e-)
+  Micro-trou noir (r_s << longueur de Compton de l'électron, 3.86e-13 m) : il se comporte comme un noyau ponctuel ;
+   le vide devient instable pour Z α ≳ 1, soit |Q| ≲ e/α ≈ 137 e = 2.20e-17 C
+   (borne SUPÉRIEURE d'ordre de grandeur, pas une valeur attendue)
+  Valeur TYPIQUE : la charge fluctue avec une valeur quadratique moyenne de 6.14 e (Page 1977), soit 9.84e-19 C ;
+   paramètre G M m_e/(ħ c) = 0.0085 pour 4,4e12 kg (régime -> 0) ; estimation thermique indépendante 1/sqrt(4π α) = 3.3 e
+   M = 113.5 kg : Q_extrémale = 9.781e-09 C ; Q/Q_extrémale : typique 1.0e-10, borne 2.2e-09 ; F_e/F_g entre deux tels trous : typique 1.0e-20, borne 5.0e-18
+   M = 1e+12 kg : Q_extrémale = 8.618e+01 C ; Q/Q_extrémale : typique 1.1e-20, borne 2.5e-19 ; F_e/F_g entre deux tels trous : typique 1.3e-40, borne 6.5e-38
+   M = 4e+12 kg : Q_extrémale = 3.447e+02 C ; Q/Q_extrémale : typique 2.9e-21, borne 6.4e-20 ; F_e/F_g entre deux tels trous : typique 8.1e-42, borne 4.1e-39
+  Sustentation dans la pesanteur terrestre par un champ électrique agissant sur la charge du trou :
+   M = 113.5 kg : E = M g / Q = 1.13e+21 V/m (charge typique) ; 5.07e+19 V/m (borne 137 e) ; 1.14e+11 V/m (charge extrémale, intenable) ; champ de Schwinger : 1.32e+18 V/m
+   M = 1e+12 kg : E = M g / Q = 9.97e+30 V/m (charge typique) ; 4.47e+29 V/m (borne 137 e) ; 1.14e+11 V/m (charge extrémale, intenable) ; champ de Schwinger : 1.32e+18 V/m
+   M = 4e+12 kg : E = M g / Q = 3.99e+31 V/m (charge typique) ; 1.79e+30 V/m (borne 137 e) ; 1.14e+11 V/m (charge extrémale, intenable) ; champ de Schwinger : 1.32e+18 V/m
+  Force de « strut » (Bach-Weyl) entre deux trous noirs statiques ≈ force newtonienne G M²/d² :
+   M = 1e+12 kg, d = 0.098 m : F = 6.95e+15 N ; force spin-spin maximale ~ 6 G S²/(c² d⁴) = 2.39e-12 N (rapport 3.4e-28)
+   M = 1e+12 kg, d = 0.3 m : F = 7.42e+14 N ; force spin-spin maximale ~ 6 G S²/(c² d⁴) = 2.73e-14 N (rapport 3.7e-29)
+   M = 5e+12 kg, d = 0.098 m : F = 1.74e+17 N ; force spin-spin maximale ~ 6 G S²/(c² d⁴) = 1.50e-09 N (rapport 8.6e-27)
+   M = 5e+12 kg, d = 0.3 m : F = 1.85e+16 N ; force spin-spin maximale ~ 6 G S²/(c² d⁴) = 1.70e-11 N (rapport 9.2e-28)
+  -> la répulsion spin-spin est 26 à 28 ordres de grandeur trop faible pour équilibrer deux trous de Kerr séparés
+     (cohérent avec le théorème de non-existence de Neugebauer & Hennig 2009).
+
+[B5] Cordes de Gott : holonomie SO(2,1) de deux particules ponctuelles en gravité 2+1
+     Une corde de masse linéique μ = déficit angulaire δ = 8π G μ/c² (demi-angle α = 4π G μ/c²).
+     Critère : la holonomie totale est un boost (|trace| > 3) <=> γ sin α > 1  (Gott 1991 ; Deser-Jackiw-'t Hooft 1992)
+     20000/20000 tirages aléatoires : (trace de la holonomie > 3) coïncide avec (γ sin α > 1)
+     contrôle de la formule cos(δ_tot/2) = 1 - 2 sin²α cosh²ξ : trace = 1.1014858678 ; 1 + 2(2c²-1) = 1.1014858678
+     G μ/c² = 1e-06 (μ = 1.35e+21 kg/m) : il faut γ > 7.958e+04  (1 - v/c < 7.9e-11)
+     G μ/c² = 1e-07 (μ = 1.35e+20 kg/m) : il faut γ > 7.958e+05  (1 - v/c < 7.9e-13)
+     G μ/c² = 1e-11 (μ = 1.35e+16 kg/m) : il faut γ > 7.958e+09  (1 - v/c < 7.9e-21)
+     Borne actuelle (ordre de grandeur) sur les cordes cosmiques : G μ/c² ≲ 1e-7 (CMB) à ~1e-11 (réseaux de pulsars, selon le modèle).
+
+[B6] Cohérence « 300-500 MW » / « 1,5-2 g » selon le nombre de singularités (correction n° 18)
+  UNE singularité de 300-500 MW : masse totale 3.92e+12-5.06e+12 kg
+     pesanteur : 1.0 m : 26.7-34.4 g  2.0 m : 6.7-8.6 g  3.0 m : 3.0-3.8 g  3.7 m : 1.9-2.5 g
+     2 g atteints à 3.65-4.15 m ; 1,5 g à 4.22-4.79 m
+  DEUX singularités de 300-500 MW chacune : masse totale 7.84e+12-1.01e+13 kg
+     pesanteur : 1.0 m : 53.3-68.8 g  2.0 m : 13.3-17.2 g  3.0 m : 5.9-7.6 g  3.7 m : 3.9-5.0 g
+     2 g atteints à 5.16-5.87 m ; 1,5 g à 5.96-6.77 m
+  DEUX singularités totalisant 300-500 MW (150-250 MW chacune) : masse totale 1.11e+13-1.43e+13 kg
+     pesanteur : 1.0 m : 75.4-97.4 g  2.0 m : 18.9-24.3 g  3.0 m : 8.4-10.8 g  3.7 m : 5.5-7.1 g
+     2 g atteints à 6.14-6.98 m ; 1,5 g à 7.09-8.06 m
+  Inversement, « 2 g à 1 m » = 2,9e11 kg AU TOTAL ; « 2 g à 3,7 m » = 4,0e12 kg AU TOTAL.
+  -> accord seulement pour UNE singularité et un occupant à >= 3,6 m ; pour deux singularités, écart d'un facteur 7 à 35
+     à 1-2 m : la cohérence n'est acquise qu'à un ordre de grandeur près (errata E1 du dossier de base).

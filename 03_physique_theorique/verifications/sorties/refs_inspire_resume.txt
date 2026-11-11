@@ -1,0 +1,11 @@
+== Spinning down a black hole with scalar fields | Phys.Rev.Lett. 78 3249 1997
+    We study the evolution of a Kerr black hole emitting scalar radiation via the Hawking process. We show that the rate at which mass and angular momentum are lost by the black hole leads to a final evolutionary state with nonzero angular momentum, namely $a/M \approx 0.555$.
+== Rotating cylinders and the possibility of global causality violation | Phys.Rev.D 9 2203 1974
+    In 1936 van Stockum solved the Einstein equations Gμν=−8πTμν for the gravitational field of a rapidly rotating infinite cylinder. It is shown that such a field violates causality, in the sense that it allows a closed timelike line to connect any two events in spacetime. This suggests that a finite rotating cylinder would also act as a time machine.
+== Global structure of the Kerr family of gravitational fields | Phys.Rev. 174 1559 1968
+    The Kerr family of solutions of the Einstein and Einstein-Maxwell equations is the most general class of solutions known at present which could represent the field of a rotating neutral or electrically charged body in asymptotically flat space. When the charge and specific angular momentum are small compared with the mass, the part of the manifold which is stationary in the strict sense is incomplete at a Killing horizon. Analytically extended manifolds are constructed in order to remove this incompleteness. Some general methods for the analysis of causal behavior are described and applied. It is shown that in all except the spherically symmetric cases there is nontrivial causality violation, i.e., there are closed timelike lines which are not removable by taking a covering space; moreover
+== Comment on "Global Structure of the Kerr Family of Gravitational Fields" |    
+    We comment on the role of the Cartesian-type Kerr-Schild coordinates in developing a faulty maximal extension of the Kerr-Newman solution in the well-known paper of Carter.
+### INSPIRE texte intégral : fulltext:"Tipler sinusoid"
+total: 1
+  - The Double Kerr Solution as a Possible Mechanism for Controlled Global Causality Violation | ['1008.3244'] | ['Prezens, Jude'] | 2010-08

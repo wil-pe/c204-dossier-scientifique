@@ -1,0 +1,57 @@
+i02 — NOMENCLATURE ET BILANS DU PALIER 1 (C204-R1)
+====================================================================================================
+R1-A (coffre seul)   : masse 35.7 kg ; puissance 57 W (mesure) / 30 W (transport) ; coût ≈ 49 k€ (estimation)
+                       autonomie 21 h (mesure) / 40 h (transport) sur 1,34 kWh ; volume des composants 11.4 L
+Option gravimètre µGal : + 5.5 kg ; + 100 k€
+Module B (3 césiums) : 165 kg ; 150 W ; 456 L ; autonomie 45 h sur 7,5 kWh ; ≈ 245 k€
+R1-B complet         : 206 kg (revendiqué pour la C204 : 227 kg ; écart 21 kg) ; ≈ 394 k€
+Référence au sol de l'essai T6 (3 étalons, hors véhicule) : + 90 kg au sol ; + 240 k€ → R1-B complet avec sa référence : ≈ 634 k€
+   variante : lien de temps GNSS étalonné à la place des 3 étalons de référence : ≈ 409 k€ au total (estimation)
+  → un chronomètre relativiste RÉEL à étalons de césium, autonome 48 h, pèse l'ordre de grandeur des « 500 livres » annoncées,
+    mais il n'entre pas dans le coffre (voir l'encombrement ci-dessous). Coïncidence d'ordre de grandeur, sans valeur probante.
+
+Bilan R1-A par sous-système :
+   structure                 16.00 kg     0.0 W
+   énergie                   10.70 kg     4.0 W
+   sécurité                   0.60 kg     1.0 W
+   temps                      2.44 kg    15.5 W
+   calcul                     1.05 kg    17.0 W
+   gravité                    0.80 kg     3.0 W
+   logement principal         0.45 kg     0.6 W
+   logement de direction      0.60 kg     3.0 W
+   logements                  0.30 kg     2.0 W
+   thermique                  1.60 kg     6.0 W
+   rayonnement                0.30 kg     0.3 W
+   commande                   0.90 kg     5.0 W
+
+Bilan thermique (convection naturelle + rayonnement, h = 8.5 W/m²/K, 5 faces libres, ambiance 20 °C) :
+   géométrie E, R1-A mesure     : 0.76 m², 57 W → +8.9 K, soit 28.9 °C
+   géométrie E, R1-A transport  : 0.76 m², 30 W → +4.7 K, soit 24.7 °C
+   géométrie E : la température revendiquée (38–49 °C) correspondrait à 115–186 W dissipés
+   géométrie A, R1-A mesure     : 0.85 m², 57 W → +8.0 K, soit 28.0 °C
+   géométrie A, R1-A transport  : 0.85 m², 30 W → +4.2 K, soit 24.2 °C
+   géométrie A : la température revendiquée (38–49 °C) correspondrait à 128–208 W dissipés
+   module B (baie 0,6 × 0,8 × 0,95 m) : 3.14 m², 150 W → +5.6 K
+
+ENCOMBREMENT SELON LA LONGUEUR L DU COFFRE (rapports de forme : E = modèle 3D de l'Équipe E ; A = Équipe A)
+    L src |  P_int H_ss_p H_fermé Ø log. | V_int L | occup. | R1-A      CG-6      Cs 5071A    baie 19"   batt 2×  
+ 0.60   E |  0.162  0.124  0.157  0.057 |    11.6 |    98% | NON (R1-03) NON       NON         NON        NON      
+ 0.60   A |  0.161  0.131  0.186  0.057 |    12.2 |    94% | NON       NON       NON         NON        NON      
+ 0.70   E |  0.190  0.148  0.185  0.067 |    19.0 |    60% | NON       NON       NON         NON        NON      
+ 0.70   A |  0.188  0.156  0.219  0.067 |    19.8 |    58% | oui       NON       NON         NON        NON      
+ 0.85   E |  0.230  0.185  0.228  0.081 |    34.9 |    33% | oui       NON       NON         NON        oui      
+ 0.85   A |  0.228  0.195  0.269  0.081 |    36.4 |    31% | oui       oui       NON         NON        oui      
+ 1.00   E |  0.271  0.222  0.270  0.095 |    58.0 |    20% | oui       oui       NON         NON        oui      
+ 1.00   A |  0.268  0.234  0.319  0.095 |    60.4 |    19% | oui       oui       NON         NON        oui      
+ 1.15   E |  0.311  0.259  0.313  0.109 |    89.5 |    13% | oui       oui       NON         NON        oui      
+ 1.15   A |  0.308  0.272  0.369  0.109 |    93.1 |    12% | oui       oui       NON         NON        oui      
+ 1.20   E |  0.325  0.271  0.327  0.114 |   102.1 |    11% | oui       oui       NON         NON        oui      
+ 1.20   A |  0.322  0.285  0.386  0.114 |   106.2 |    11% | oui       oui       NON         NON        oui      
+
+Longueur minimale du coffre (rapports de forme de l'Équipe E) pour loger :
+   R1-A complet (toutes pièces + occupation ≤ 60 %)        L ≥ 0.70 m
+   gravimètre de classe CG-6 debout, couvercle fermé       L ≥ 0.89 m
+   étalon à jet de césium 5071A                            L ≥ 1.55 m
+   tiroir de baie 19 pouces (430 × 450 × 133 mm)           L ≥ 1.56 m
+  → dans toute la plage plausible 0,60–1,20 m, AUCUN étalon à césium en baie 19 pouces n'entre dans le coffre :
+    la conclusion « le coffre seul ne peut pas mesurer son propre déplacement temporel » ne dépend pas de l'échelle.

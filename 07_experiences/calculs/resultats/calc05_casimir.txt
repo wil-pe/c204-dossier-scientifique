@@ -1,0 +1,51 @@
+EXP-05 — EFFET CASIMIR : ORDRES DE GRANDEUR
+========================================================================
+1. Plaques parallèles parfaitement conductrices, T = 0
+          d |     P (Pa) |  E/A (J/m²) |  u = E/(A·d) (J/m³) |  u/c² (kg/m³)
+      10 nm |     1,30e5 |    -4,33e-4 |             -4,33e4 |     -4,82e-13
+     100 nm |     1,30e1 |    -4,33e-7 |             -4,33e0 |     -4,82e-17
+     500 nm |    2,08e-2 |    -3,47e-9 |            -6,93e-3 |     -7,72e-20
+    1000 nm |    1,30e-3 |   -4,33e-10 |            -4,33e-4 |     -4,82e-21
+   10000 nm |    1,30e-7 |   -4,33e-13 |            -4,33e-8 |     -4,82e-25
+   Repère : pression atmosphérique 1,013e5 Pa, atteinte pour d ≈ 10.6 nm.
+
+2. Géométrie sphère-plan (approximation de proximité, valable pour d << R)
+   microsphère AFM R = 100 µm, d = 100 nm                             F = 2,72e-10 N
+   microsphère AFM R = 100 µm, d = 200 nm                             F = 3,40e-11 N
+   microsphère AFM R = 100 µm, d = 500 nm                             F = 2,18e-12 N
+   lentille R = 11 cm, d = 1 µm (géométrie de type balance de torsion) F = 3,00e-10 N
+   lentille R = 11 cm, d = 6 µm                                       F = 1,39e-12 N
+
+3. Corrections à la formule idéale
+   profondeur de pénétration de l'or : δ = λ_p/2π = 21.6 nm (λ_p ≈ 136 nm)
+   d =   500 nm : facteur plaques 0.814 ; facteur sphère-plan 0.854 (développement au 2e ordre en δ/d ; non valable à 100 nm)
+   d =  1000 nm : facteur plaques 0.896 ; facteur sphère-plan 0.920 (développement au 2e ordre en δ/d ; non valable à 100 nm)
+   d =  3000 nm : facteur plaques 0.963 ; facteur sphère-plan 0.972 (développement au 2e ordre en δ/d ; non valable à 100 nm)
+   longueur thermique λ_T = ħc/(k_BT) = 7.63 µm à 300 K : les corrections thermiques dominent pour d ≳ 3 µm.
+   rugosité : correction relative ~6(σ_rms/d)² → 1 % pour σ_rms = 4 nm à d = 100 nm.
+
+4. Systématiques et bruit (sphère R = 100 µm sur levier AFM)
+   d = 100 nm, potentiel résiduel  10 mV : F_él = πε0RV²/d = 2,78e-12 N =    1.0 % de Casimir
+   d = 100 nm, potentiel résiduel  50 mV : F_él = πε0RV²/d = 6,95e-11 N =   25.5 % de Casimir
+   d = 100 nm, potentiel résiduel 100 mV : F_él = πε0RV²/d = 2,78e-10 N =  102.2 % de Casimir
+   d = 200 nm, potentiel résiduel  10 mV : F_él = πε0RV²/d = 1,39e-12 N =    4.1 % de Casimir
+   d = 200 nm, potentiel résiduel  50 mV : F_él = πε0RV²/d = 3,48e-11 N =  102.2 % de Casimir
+   d = 200 nm, potentiel résiduel 100 mV : F_él = πε0RV²/d = 1,39e-10 N =  408.6 % de Casimir
+   d = 500 nm, potentiel résiduel  10 mV : F_él = πε0RV²/d = 5,56e-13 N =   25.5 % de Casimir
+   d = 500 nm, potentiel résiduel  50 mV : F_él = πε0RV²/d = 1,39e-11 N =  638.5 % de Casimir
+   d = 500 nm, potentiel résiduel 100 mV : F_él = πε0RV²/d = 5,56e-11 N = 2553.8 % de Casimir
+   levier k = 0.02 N/m, f0 = 10 kHz, Q = 100 (air) : bruit thermique de force 7,26e-15 N/√Hz
+   déflexion statique due à Casimir à 100 nm : F/k = 13.6 nm (largement mesurable)
+   rapport signal/bruit thermique en 1 s à 100 nm : 37496
+   La difficulté n'est donc pas le bruit mais la métrologie : distance absolue (±1 nm), potentiels de
+   contact et « patchs », rugosité, parallélisme (pour deux plaques), dérive thermique.
+
+5. Pourquoi ce n'est pas une source d'« énergie négative » exploitable
+   Plaques de 1 m² séparées de 10 nm : E = -4,33e-4 J, soit une « masse » de -4,82e-21 kg
+   Masse (positive) de deux films d'or de 100 nm seulement : 3,86e-3 kg → rapport 8.0e+17
+   L'énergie TOTALE du système (plaques + champ) reste donc positive à ~18 ordres de grandeur près.
+   Ordre de grandeur de l'énergie négative pour une gorge de trou de ver de rayon 1 m : -r·c²/G = -1,35e27 kg
+   (≈ 0.71 masse de Jupiter) → il manque un facteur 3e+47 par rapport à 1 m² de Casimir à 10 nm.
+   Les inégalités quantiques (Ford & Roman 1995, 1996) bornent en outre durée et amplitude des densités
+   d'énergie négatives. L'effet Casimir est une FORCE mesurée ; ce n'est ni un réservoir d'énergie,
+   ni une preuve qu'on puisse accumuler de l'énergie négative macroscopique.

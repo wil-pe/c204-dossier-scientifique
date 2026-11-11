@@ -1,0 +1,6 @@
+instrument,principe,bruit_uGal_par_racine_Hz,exactitude_ou_ecart_type_uGal,masse_kg,puissance_W,T_min_C,T_max_C,fonctionne_a_38_49_C
+Micro-g LaCoste FG5-X,"absolu, chute libre + interférométrie laser",15.0,2.0,150.0,500.0,20,30,non
+Exail AQG-B,"absolu, interférométrie atomique",50.0,2.0,140.0,500.0,0,40,partiel
+GWR iGrav,"relatif, supraconducteur",0.3,0.001,,,4,38,partiel
+Scintrex CG-6,"relatif, ressort de quartz",,5.0,5.5,5.2,-40,45,partiel
+MEMS (Middlemiss et al. 2016),"relatif, MEMS (laboratoire)",40.0,,,,,,

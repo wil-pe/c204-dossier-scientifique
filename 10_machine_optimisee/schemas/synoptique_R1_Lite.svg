@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 700" width="1300" height="700" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="1300" height="700" fill="#fcfcfb"/>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0b0b0b">C204-R1 Lite — synoptique de la version d&#x27;initiation</text>
+<text x="24" y="60" font-size="13" fill="#52514e">≈ 351 à 734 € (estimation), 5 V uniquement. Elle CALCULE et affiche le décalage relativiste du trajet ; elle ne peut pas le mesurer (oscillateurs 10⁴ à 10⁷ fois trop instables).</text>
+<text x="24" y="78" font-size="13" fill="#52514e">Même architecture que le palier R1 : plusieurs références de temps comparées, trois calculateurs à vote, capteurs, détecteur de muons. Rien n&#x27;a été construit par l&#x27;Équipe I.</text>
+<rect x="30" y="110" width="280" height="76" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="30" y="110" width="7" height="76" rx="3" fill="#2a78d6"/>
+<text x="46" y="130" font-size="13" font-weight="700" fill="#0b0b0b">Récepteur GNSS (L-01)</text>
+<text x="46" y="148.0" font-size="11.5" fill="#52514e">position, altitude, vitesse, cap ; 1 PPS</text>
+<text x="46" y="163.5" font-size="11.5" fill="#52514e">(référence : temps GNSS, au géoïde)</text>
+<rect x="30" y="200" width="280" height="76" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="30" y="200" width="7" height="76" rx="3" fill="#2a78d6"/>
+<text x="46" y="220" font-size="13" font-weight="700" fill="#0b0b0b">2 à 3 oscillateurs locaux (L-02, L-03)</text>
+<text x="46" y="238.0" font-size="11.5" fill="#52514e">1 Hz / 10 MHz ; écarts au PPS mesurés</text>
+<text x="46" y="253.5" font-size="11.5" fill="#52514e">par capture de minuterie (~10 à 100 ns)</text>
+<rect x="30" y="310" width="280" height="62" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2"/>
+<rect x="30" y="310" width="7" height="62" rx="3" fill="#eda100"/>
+<text x="46" y="330" font-size="13" font-weight="700" fill="#0b0b0b">Inertie, baromètre (L-08, L-09)</text>
+<text x="46" y="348.0" font-size="11.5" fill="#52514e">inclinaison, virages, altitude relative</text>
+<rect x="30" y="400" width="280" height="90" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="30" y="400" width="7" height="90" rx="3" fill="#e87ba4"/>
+<text x="46" y="420" font-size="13" font-weight="700" fill="#0b0b0b">2 détecteurs de muons (L-10)</text>
+<text x="46" y="438.0" font-size="11.5" fill="#52514e">scintillateur + photomultiplicateur au</text>
+<text x="46" y="453.5" font-size="11.5" fill="#52514e">silicium, superposés : coïncidences</text>
+<text x="46" y="469.0" font-size="11.5" fill="#52514e">(quelques dizaines à centaines par heure)</text>
+<rect x="400" y="110" width="250" height="62" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="400" y="110" width="7" height="62" rx="3" fill="#1baf7a"/>
+<text x="416" y="130" font-size="13" font-weight="700" fill="#0b0b0b">Microcontrôleur 1 (L-04)</text>
+<text x="416" y="148.0" font-size="11.5" fill="#52514e">famille A — même calcul</text>
+<rect x="400" y="190" width="250" height="62" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="400" y="190" width="7" height="62" rx="3" fill="#1baf7a"/>
+<text x="416" y="210" font-size="13" font-weight="700" fill="#0b0b0b">Microcontrôleur 2 (L-05)</text>
+<text x="416" y="228.0" font-size="11.5" fill="#52514e">famille B — même calcul</text>
+<rect x="400" y="270" width="250" height="62" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="400" y="270" width="7" height="62" rx="3" fill="#1baf7a"/>
+<text x="416" y="290" font-size="13" font-weight="700" fill="#0b0b0b">Microcontrôleur 3 (L-06)</text>
+<text x="416" y="308.0" font-size="11.5" fill="#52514e">famille C — même calcul</text>
+<rect x="740" y="150" width="250" height="110" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="740" y="150" width="7" height="110" rx="3" fill="#1baf7a"/>
+<text x="756" y="170" font-size="13" font-weight="700" fill="#0b0b0b">Voteur et journal (L-07)</text>
+<text x="756" y="188.0" font-size="11.5" fill="#52514e">vote médian sur les 3 voies,</text>
+<text x="756" y="203.5" font-size="11.5" fill="#52514e">voie fautive signalée ;</text>
+<text x="756" y="219.0" font-size="11.5" fill="#52514e">logiciel/voteur.py</text>
+<rect x="1040" y="110" width="230" height="110" rx="7" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.2"/>
+<rect x="1040" y="110" width="7" height="110" rx="3" fill="#0b0b0b"/>
+<text x="1056" y="130" font-size="13" font-weight="700" fill="#0b0b0b">Affichage (L-11)</text>
+<text x="1056" y="148.0" font-size="11.5" fill="#52514e">décalage CALCULÉ du trajet</text>
+<text x="1056" y="163.5" font-size="11.5" fill="#52514e">(ns/h et cumul) ; écarts des</text>
+<text x="1056" y="179.0" font-size="11.5" fill="#52514e">oscillateurs ; taux de muons</text>
+<rect x="1040" y="250" width="230" height="130" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="1040" y="250" width="7" height="130" rx="3" fill="#e34948"/>
+<text x="1056" y="270" font-size="13" font-weight="700" fill="#0b0b0b">Ce que Lite ne fait pas</text>
+<text x="1056" y="288.0" font-size="11.5" fill="#52514e">mesurer le décalage (≈ 10⁻¹³) ;</text>
+<text x="1056" y="303.5" font-size="11.5" fill="#52514e">gravimétrie fine ; dater mieux</text>
+<text x="1056" y="319.0" font-size="11.5" fill="#52514e">que ~0,1 µs ; elle n&#x27;est la</text>
+<text x="1056" y="334.5" font-size="11.5" fill="#52514e">cause d&#x27;aucun décalage</text>
+<rect x="400" y="520" width="590" height="70" rx="7" fill="#ffffff" stroke="#eb6834" stroke-width="2.2"/>
+<rect x="400" y="520" width="7" height="70" rx="3" fill="#eb6834"/>
+<text x="416" y="540" font-size="13" font-weight="700" fill="#0b0b0b">Alimentation 5 V (L-12, L-13)</text>
+<text x="416" y="558.0" font-size="11.5" fill="#52514e">batterie USB protégée → interrupteur → fusible 3 A → répartiteur</text>
+<text x="416" y="573.5" font-size="11.5" fill="#52514e">≈ 4,5 W ; ≈ 9 h sur 10 Ah (estimation)</text>
+<path d="M650.0,141.0 L695.0,141.0 L695.0,205.0 L740.0,205.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M650.0,221.0 L695.0,221.0 L695.0,205.0 L740.0,205.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M650.0,301.0 L695.0,301.0 L695.0,205.0 L740.0,205.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M310.0,148.0 L355.0,148.0 L355.0,141.0 L400.0,141.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M310.0,238.0 L355.0,238.0 L355.0,221.0 L400.0,221.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M310.0,341.0 L355.0,341.0 L355.0,301.0 L400.0,301.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M310.0,445.0 L865.0,445.0 L865.0,260.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="587.5" y="440.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">comptage</text>
+<path d="M990.0,205.0 L1015.0,205.0 L1015.0,165.0 L1040.0,165.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="30" y="630" font-size="11.5" fill="#52514e" text-anchor="start">Chaque microcontrôleur reçoit les mêmes mesures (GNSS, oscillateurs, capteurs) et refait le même calcul : seule la flèche principale est tracée.</text>
+<text x="30" y="650" font-size="11.5" fill="#52514e" text-anchor="start">Sécurité : 5 V uniquement, batterie USB protégée, aucune cellule au lithium nue, aucune source radioactive, aucune haute tension accessible.</text>
+</svg>

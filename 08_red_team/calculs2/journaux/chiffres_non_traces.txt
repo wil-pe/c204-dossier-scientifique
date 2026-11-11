@@ -1,0 +1,25 @@
+
+=== 03_physique_theorique/RAPPORT_B.md : 233 nombres en notation scientifique, 7 sans valeur concordante dans les sorties de l'équipe B ===
+  l.193  2,6 × 10⁴⁴       | | 4 × 10¹² kg | 3,0 × 10⁻¹⁵ m | 9,9 × 10⁻²⁴ s | 2,6 × 10⁴⁴ g |
+  l.410  9,5 × 10⁻¹²      | | 6,4 × 10¹⁵ kg | 9,5 × 10⁻¹² m | 1,7 keV | 119 W | 14 W | ~5 × 10²² ans |
+  l.574  2,6 × 10⁷        | Un environnement à 300 K est perçu à 2,6 × 10⁷ K. Le corpus décrit au contraire un « noir complet » et
+  l.576  1,2 × 10⁻¹⁴      | - Déviation de la lumière par 4 × 10¹² kg à 1 m : $4GM/(bc^2)$ = 1,2 × 10⁻¹⁴ rad. Aucune « lumière courbée » visible.
+  l.732  4 × 10⁻²⁷        | à ~4 × 10⁻²⁷ en valeur relative (Bollinger et al. 1989). **Analogue réel** du « passage entre lignes d'univers » :
+  l.824  1,7 × 10⁻³⁴      | la courbure à l'échelle du mètre exige 3,5 × 10¹⁸ T ; la densité d'énergie d'un champ de 45,5 T vaut 1,7 × 10⁻³⁴
+  l.910  3,56 × 10⁸       | | Puissance à 10¹² kg | 3,56 × 10⁸ W | 7,7 × 10⁹ W (dont photons 5,8 × 10⁸ W) | ×22 |
+
+=== 03_physique_theorique/ANNEXE_B1_demonstrations.md : 3 nombres en notation scientifique, 0 sans valeur concordante dans les sorties de l'équipe B ===
+
+=== 04_ingenierie/RAPPORT_C.md : 172 nombres en notation scientifique, 2 sans valeur concordante dans les sorties de l'équipe C ===
+  l.82   3,56×10³²        | | P = ħc⁶/(15360πG²M²) = 3,56×10³² W·kg²/M² | formule exacte pour un corps noir de **photons** d'aire 4πr_s² ; mais la puissance réelle est **21,6 foi
+  l.84   8,41×10⁻¹⁷       | | Durée de vie 8,41×10⁻¹⁷ s·kg⁻³ × M³ : 100 kg → ~10⁻¹⁰ s ; 10¹² kg → ~3×10¹² ans | 100 kg → **4,0×10⁻¹³ s** (212 fois plus court) ; 10¹² kg → **1,2×1
+
+=== 05_simulations/RAPPORT_D.md : 35 nombres en notation scientifique, 3 sans valeur concordante dans les sorties de l'équipe D ===
+  l.41   5,34×10²⁵        | - **Hawking** : r_s = 2GM/c² ; T = ħc³/(8πGMk_B) ; P_γ,corps noir = ħc⁶/(15360πG²M²) ; P_tot = α f(M)c²/M² (α = 5,34×10²⁵ g³/s) ;
+  l.108  5,6×10⁻³         | | S04 | Continuité des branches en aR → 1/2 | critère absolu mal posé (5,6×10⁻³ > 2×10⁻³) | Critère relatif + test de convergence linéaire |
+  l.110  6,2×10⁶²         | | S07 | Repère de Pfenning & Ford | −6,9×10⁶² contre −6,2×10⁶² kg (valeur citée de mémoire) | Ramené à un test d'ordre de grandeur, explicitement sign
+
+=== 07_experiences/RAPPORT_F.md : 46 nombres en notation scientifique, 3 sans valeur concordante dans les sorties de l'équipe F ===
+  l.88   5,1 × 10¹²       | Ces valeurs sont linéaires en M : pour les 3,9–5,1 × 10¹² kg que l'Équipe B déduit du calcul complet de la
+  l.89   4 × 10⁹          | puissance de Hawking, multiplier par 4 à 5 ; pour les 227 kg revendiqués, diviser par 4 × 10⁹.
+  l.222  5,1 × 10¹²       | masse associée à 300–500 MW (3,9–5,1 × 10¹² kg avec les facteurs de corps gris) et montre qu'un micro-trou noir

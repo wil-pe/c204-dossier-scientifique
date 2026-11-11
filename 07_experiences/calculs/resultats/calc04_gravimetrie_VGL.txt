@@ -1,0 +1,98 @@
+EXP-04 — GRAVIMÉTRIE LOCALE ET « INSTANTANÉ DE GRAVITÉ »
+========================================================================
+1. Variations naturelles de g
+   g(équateur) = 9.78033 ; g(45°) = 9.80620 ; g(pôle) = 9.83219 m/s² (écart pôle-équateur 5.19 Gal)
+   gradient à l'air libre       : 2GM/R³ = 3.083e-06 s⁻² = 308 µGal/m (≈ 3 µGal/cm)
+   gradient nord-sud à 45°      : 0.81 µGal/m (0.81 mGal/km)
+   plateau de Bouguer (2670 kg/m³) : 112 µGal par mètre de roche
+   marée lunaire (max vertical) : 110 µGal ; solaire : 51 µGal ; crête à crête avec facteur élastique 1,16 : ≈ 279 µGal
+   pression atmosphérique       : ≈ -0,3 µGal/hPa (admittance usuelle) → ±10 µGal selon la météo
+
+   Masses proches (attraction verticale maximale G·M/r²) :
+     personne de 80 kg à 1 m                       0.534 µGal
+     voiture de 1500 kg à 2 m                      2.503 µGal
+     bloc de béton de 1 m³ (2400 kg) à 1 m        16.018 µGal
+     camion de 20 t à 5 m                          5.339 µGal
+     immeuble de 10 000 t à 30 m                  74.159 µGal
+     unité C204 revendiquée (227 kg) à 1 m         1.515 µGal
+     galerie vide (Ø 2 m, axe à 3 m de profondeur, Δρ = -2000 kg/m³) : -28.0 µGal à l'aplomb
+
+2. Résolution réaliste des capteurs (σ après ~100 s de moyenne ; ordres de grandeur indicatifs)
+   capteur                                                                 σ (m/s²)    σ (µGal)   Δh équivalent  niveau
+   Accéléromètre de smartphone                                               2,0e-3       2e+05           649 m  N1
+   Accéléromètre MEMS bas bruit (type ADXL355)                               2,0e-4       2e+04          64.9 m  N1
+   Pendule simple soigné (L ≈ 1 m, chrono optique)                           1,0e-3       1e+05           324 m  N1
+   Pendule réversible de Kater (TP)                                          1,0e-4       1e+04          32.4 m  N2
+   Gravimètre MEMS de recherche (Middlemiss et al. 2016 : 40 µGal/√Hz)       4,0e-7          40          0.13 m  N3
+   Gravimètre relatif à ressort (type CG-5/CG-6)                             5,0e-8           5        0.0162 m  N2/N3
+   Gravimètre absolu à chute de coin de cube (type FG5)                      2,0e-8           2       0.00649 m  N3
+   Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)               5,0e-8           5        0.0162 m  N3
+   Gravimètre supraconducteur (observatoire)                                1,0e-10        0.01      3.24e-05 m  N3
+   (Δh équivalent = dénivelé donnant la même variation par le gradient à l'air libre)
+   Smartphone : le bruit blanc (≈150 µg/√Hz) se moyenne, mais la dérive thermique du biais (0,1–1 mg/K),
+   l'erreur de facteur d'échelle (~0,5 %) et l'inclinaison (1° → 1,5e-4 g) fixent le plancher ≈ 2e-3 m/s².
+
+   Pendule simple (L = 1,000 m ± 0,1 mm ; 100 périodes chronométrées à ±0,1 ms) :
+     période T = 2.0064 s ; δT/T = 5.0e-07 ; δg/g absolu = √[(2δT/T)² + (δL/L)²] = 1.0e-04 → δg ≈ 9.8e-04 m/s² (dominé par L)
+     correction d'amplitude (3°) : θ0²/16 = 1.7e-04 sur T ; dilatation acier pour 5 K : 6.0e-05 sur L
+     en relatif (même pendule déplacé), plancher ≈ 1e-4·g = 1e-3 m/s² = 100 mGal.
+
+3. Que faudrait-il pour « reconnaître un lieu » par la gravité ?
+   résolution 1,0e-3 m/s² (1e+05 µGal) → équivaut à 324 m d'altitude ou 1.23e+05 m nord-sud
+   résolution 1,0e-5 m/s² (1e+03 µGal) → équivaut à 3.24 m d'altitude ou 1.23e+03 m nord-sud
+   résolution 5,0e-8 m/s² (5 µGal) → équivaut à 0.0162 m d'altitude ou 6.14 m nord-sud
+   résolution 1,0e-8 m/s² (1 µGal) → équivaut à 0.00324 m d'altitude ou 1.23 m nord-sud
+   Un scalaire g résolu à 1 µGal prend ≈ 5.2e+06 valeurs distinctes sur Terre, pour 5.1e+14 m² de surface :
+   chaque valeur correspond en moyenne à ≈ 9.8e+07 m² (≈ 98 km²) : g seul n'identifie pas un lieu.
+   De plus g varie dans le temps : marées ≈ 279 µGal crête à crête (= 0.91 m d'altitude équivalente),
+   nappes phréatiques ~10 µGal, pression ±10 µGal, constructions voisines ~0,1–1 µGal.
+   Un « verrouillage » à 1 m près exigerait : ~1 µGal de résolution, un modèle de marée, une CARTE de
+   référence préexistante à la même résolution et à la même époque, et des mesures vectorielles/gradient.
+   État de l'art réel : la navigation par corrélation de cartes de gravité/gradient (sous-marins) atteint
+   des précisions de l'ordre de la centaine de mètres au kilomètre, le long d'une trajectoire, pas en un point
+   (ordre de grandeur donné sans référence vérifiée — à traiter comme [HYP]).
+
+4. Si l'unité contenait réellement les masses qu'implique une puissance de Hawking de 300–500 MW
+   (valeur retenue : 3,9–5,1e12 kg PAR singularité, erratum E2 ; DÉDUITE, jamais revendiquée telle quelle) :
+   unité revendiquée, 227 kg : g supplémentaire à 1 m = 1.52e-08 m/s² (1.54e-09 g) ; à 3 m = 1.68e-09 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 0.00123 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 0.00389 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 0.246 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 0.246 m
+   une singularité, 3,9e12 kg : g supplémentaire à 1 m = 260 m/s² (26.5 g) ; à 3 m = 28.9 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 161 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 510 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 3.23e+04 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 3.23e+04 m
+   une singularité, 5,1e12 kg : g supplémentaire à 1 m = 340 m/s² (34.7 g) ; à 3 m = 37.8 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 184 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 583 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 3.69e+04 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 3.69e+04 m
+   la paire, 7,8e12 kg : g supplémentaire à 1 m = 521 m/s² (53.1 g) ; à 3 m = 57.8 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 228 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 722 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 4.56e+04 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 4.56e+04 m
+   la paire, 1,02e13 kg : g supplémentaire à 1 m = 681 m/s² (69.4 g) ; à 3 m = 75.6 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 261 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 825 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 5.22e+04 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 5.22e+04 m
+   ancienne fourchette v1 : 1e11 kg : g supplémentaire à 1 m = 6.67 m/s² (0.681 g) ; à 3 m = 0.742 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 25.8 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 81.7 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 5.17e+03 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 5.17e+03 m
+   ancienne fourchette v1 : 1e12 kg : g supplémentaire à 1 m = 66.7 m/s² (6.81 g) ; à 3 m = 7.42 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 81.7 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 258 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 1.63e+04 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 1.63e+04 m
+   → UNE singularité de 3,9–5,1e12 kg : 27–35 g à 1 m ; vue par un smartphone à 161–184 m et par un gravimètre de terrain à 32–37 km ;
+     la paire : 53–69 g à 1 m ; smartphone à 228–261 m ; gravimètre à 46–52 km ; poids sur le châssis 7.6e+13–1.0e+14 N.
+   → à l'inverse, les 227 kg revendiqués donnent 1,5 µGal à 1 m : indiscernables d'un moteur de voiture.
+
+Problème de dynamique pour un « capteur VGL » : il devrait résoudre ~1 µGal (1e-9 g) tout en supportant
+1,5–2 g de champ propre revendiqué, soit une dynamique > 1e9, au voisinage immédiat de masses mobiles
+et d'un véhicule sur suspension. Aucun gravimètre existant ne fait cela.

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kuQ0zOqiASUZl4zMsYp7Lk09gNU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2308.12457&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:47:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2308.12457" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.12457v1</id>
+    <title>Optical Clocks at Sea</title>
+    <updated>2023-08-23T22:47:50Z</updated>
+    <link href="https://arxiv.org/abs/2308.12457v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.12457v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deployed optical clocks will improve positioning for navigational autonomy, provide remote time standards for geophysical monitoring and distributed coherent sensing, allow time synchronization of remote quantum networks, and provide operational redundancy for national time standards. While laboratory optical clocks now reach timing inaccuracies below 1E-18, transportable versions of these high-performing clocks have limited utility due to their size, environmental sensitivity, and cost. Here we report the development of optical clocks with the requisite combination of size, performance, and environmental insensitivity for operation on mobile platforms. The 35 L clock combines a molecular iodine spectrometer, fiber frequency comb, and control electronics. Three of these clocks operated continuously aboard a naval ship in the Pacific Ocean for 20 days while accruing timing errors below 300 ps per day. The clocks have comparable performance to active hydrogen masers in one-tenth the volume. Operating high-performance clocks at sea has been historically challenging and continues to be critical for navigation. This demonstration marks a significant technological advancement that heralds the arrival of future optical timekeeping networks.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-23T22:47:50Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Jonathan D. Roslund</name>
+    </author>
+    <author>
+      <name>Arman Cingöz</name>
+    </author>
+    <author>
+      <name>William D. Lunden</name>
+    </author>
+    <author>
+      <name>Guthrie B. Partridge</name>
+    </author>
+    <author>
+      <name>Abijith S. Kowligy</name>
+    </author>
+    <author>
+      <name>Frank Roller</name>
+    </author>
+    <author>
+      <name>Daniel B. Sheredy</name>
+    </author>
+    <author>
+      <name>Gunnar E. Skulason</name>
+    </author>
+    <author>
+      <name>Joe P. Song</name>
+    </author>
+    <author>
+      <name>Jamil R. Abo-Shaeer</name>
+    </author>
+    <author>
+      <name>Martin M. Boyd</name>
+    </author>
+  </entry>
+</feed>

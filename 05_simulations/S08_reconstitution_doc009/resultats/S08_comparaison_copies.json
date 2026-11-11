@@ -1,0 +1,240 @@
+{
+  "copies": {
+    "reference": {
+      "cle": "reference",
+      "designation": "C204-DOC-009, copie de référence (marinertalk, 318×369 px)",
+      "copie": "reference",
+      "fichier": "01_archive/originaux/MT7018__singularities1.jpg"
+    },
+    "pt3": {
+      "cle": "pt3",
+      "designation": "C204-DOC-009, meilleure copie (PT3.jpg, 578×799 px)",
+      "copie": "pt3",
+      "fichier": "01_archive/copies_alternatives/anomalies.net/20030830123900__PT3.jpg",
+      "echelle_x": 1.6157066666215256,
+      "echelle_y": 1.6164961853375313,
+      "rotation_deg": 0.003156280231119852,
+      "translation_px": [
+        49.793328453041696,
+        113.86467628965966
+      ],
+      "correlation": 0.993475208186708,
+      "pixels_natifs": [
+        578,
+        799
+      ]
+    },
+    "doc014": {
+      "cle": "doc014",
+      "designation": "C204-DOC-014, variante cotée en mètres (timetravel16_07.jpg, 550×594 px)",
+      "copie": "doc014",
+      "fichier": "01_archive/copies_alternatives/bibliotecapleyades.net/LIVE__timetravel16_07.jpg",
+      "echelle_x": 1.6092121514955235,
+      "echelle_y": 1.6109436044794343,
+      "rotation_deg": 0.9799244998830785,
+      "translation_px": [
+        6.147982716994159,
+        -72.60695647940582
+      ],
+      "correlation": 0.9587677159566864,
+      "pixels_natifs": [
+        550,
+        594
+      ]
+    }
+  },
+  "relances": {
+    "pt3": {
+      "execute": true,
+      "cle": "pt3",
+      "designation": "C204-DOC-009, meilleure copie (PT3.jpg, 578×799 px)",
+      "copie": "pt3",
+      "fichier": "01_archive/copies_alternatives/anomalies.net/20030830123900__PT3.jpg",
+      "echelle_x": 1.6157066666215256,
+      "echelle_y": 1.6164961853375313,
+      "rotation_deg": 0.003156280231119852,
+      "translation_px": [
+        49.793328453041696,
+        113.86467628965966
+      ],
+      "correlation": 0.993475208186708,
+      "pixels_natifs": [
+        578,
+        799
+      ]
+    },
+    "doc014": {
+      "execute": true,
+      "cle": "doc014",
+      "designation": "C204-DOC-014, variante cotée en mètres (timetravel16_07.jpg, 550×594 px)",
+      "copie": "doc014",
+      "fichier": "01_archive/copies_alternatives/bibliotecapleyades.net/LIVE__timetravel16_07.jpg",
+      "echelle_x": 1.6092121514955235,
+      "echelle_y": 1.6109436044794343,
+      "rotation_deg": 0.9799244998830785,
+      "translation_px": [
+        6.147982716994159,
+        -72.60695647940582
+      ],
+      "correlation": 0.9587677159566864,
+      "pixels_natifs": [
+        550,
+        594
+      ]
+    }
+  },
+  "indicateurs": {
+    "reference": {
+      "rapport_d_axes_spheroide_central": 1.5750359250176256,
+      "rapport_d_axes_contour_exterieur": 1.5442681819902628,
+      "rms_ellipse_spheroide_px": 1.4601614173038553,
+      "rms_ellipse_contour_exterieur_px": 1.1366479121588637,
+      "rms_ergosurface_sur_rms_ellipse_contour_exterieur": 1.8268967442567021,
+      "rms_horizon_sur_rms_ellipse_contour_exterieur": 1.9752163789084272,
+      "rms_equipotentielle_libre_sur_rms_ellipse_contour_exterieur": 1.0119165277523194,
+      "nombre_de_points_du_grand_contour_E1": 12,
+      "erreur_aux_poles_ellipse_px": 0.7610083313205396,
+      "erreur_aux_poles_horizon_px": 3.4466760892381583,
+      "erreur_aux_poles_ergosurface_px": 5.313393479295801,
+      "erreur_aux_poles_equipotentielle_libre_px": 8.044444672721633,
+      "anneaux_validation_croisee_erreur_max_px": 5.191244787315789,
+      "anneaux_rms_des_12_sommets_sur_E1_px": 1.1393287095678613,
+      "second_contour_E2_contraste": 1.7080706814047026,
+      "second_contour_E2_decalage_sur_A": 0.13780339208962808,
+      "second_contour_E2_rapport_d_axes": 1.4653551701599024,
+      "decalage_masses_centre_des_anneaux_sur_A": 0.22238681841190397,
+      "separation_des_singularites_sur_A": 0.06855697523157657,
+      "rayon_anneaux_negative_sur_A": 0.4729801572064605,
+      "rayon_anneaux_null_sur_A": 0.3403469467300102,
+      "rayon_anneaux_positive_sur_A": 0.20166115964788106,
+      "entonnoir_rapport_droite_sur_gauche": 1.8571428571428579,
+      "entonnoir_rms_flamm_px": 19.730314543797512,
+      "entonnoir_rms_catenoide_ellis_px": 53.57925923457374,
+      "entonnoir_rms_meilleure_courbe_symetrique_libre_px": 2.4688135559534286,
+      "entonnoir_rms_temoin_asymetrique_px": 1.0434944428586947,
+      "entonnoir_longueur_d_onde_sinusoide_px": 1180.3303583533907,
+      "nombre_de_meridiens_detectes": 14,
+      "score_noirceur_meilleure_famille_physique_sur_ellipse_spheroide": 1.127490630578201,
+      "score_noirceur_meilleure_famille_physique_sur_ellipse_grand_contour": 0.8277028175832981
+    },
+    "pt3": {
+      "rapport_d_axes_spheroide_central": 1.545369082845035,
+      "rapport_d_axes_contour_exterieur": 1.5920936027327799,
+      "rms_ellipse_spheroide_px": 1.4765735930748463,
+      "rms_ellipse_contour_exterieur_px": 1.0421271754159287,
+      "rms_ergosurface_sur_rms_ellipse_contour_exterieur": 2.3170397978766006,
+      "rms_horizon_sur_rms_ellipse_contour_exterieur": 3.918966064847584,
+      "rms_equipotentielle_libre_sur_rms_ellipse_contour_exterieur": 1.792124147749334,
+      "nombre_de_points_du_grand_contour_E1": 23,
+      "erreur_aux_poles_ellipse_px": 0.9280704481475024,
+      "erreur_aux_poles_horizon_px": 3.2681941240059995,
+      "erreur_aux_poles_ergosurface_px": 5.5315266676857515,
+      "erreur_aux_poles_equipotentielle_libre_px": 7.250155392847542,
+      "anneaux_validation_croisee_erreur_max_px": 4.772721461474333,
+      "anneaux_rms_des_12_sommets_sur_E1_px": 1.1497834139495908,
+      "second_contour_E2_contraste": 1.8515051378361516,
+      "second_contour_E2_decalage_sur_A": 0.14070413479163443,
+      "second_contour_E2_rapport_d_axes": 1.4513972027932596,
+      "decalage_masses_centre_des_anneaux_sur_A": 0.22366139613838454,
+      "separation_des_singularites_sur_A": 0.06383887842105809,
+      "rayon_anneaux_negative_sur_A": 0.4754946318931768,
+      "rayon_anneaux_null_sur_A": 0.3414911892555038,
+      "rayon_anneaux_positive_sur_A": 0.20260947783457245,
+      "entonnoir_rapport_droite_sur_gauche": 1.8571428571428577,
+      "entonnoir_rms_flamm_px": 19.600817979020725,
+      "entonnoir_rms_catenoide_ellis_px": 53.42413980392997,
+      "entonnoir_rms_meilleure_courbe_symetrique_libre_px": 2.4795958792700743,
+      "entonnoir_rms_temoin_asymetrique_px": 1.0314650376803105,
+      "entonnoir_longueur_d_onde_sinusoide_px": 10288.785622537443,
+      "nombre_de_meridiens_detectes": 15,
+      "score_noirceur_meilleure_famille_physique_sur_ellipse_spheroide": 1.0433148832006245,
+      "score_noirceur_meilleure_famille_physique_sur_ellipse_grand_contour": 0.9108068709716164
+    },
+    "doc014": {
+      "rapport_d_axes_spheroide_central": 1.544901017056503,
+      "rapport_d_axes_contour_exterieur": 1.5980728791755825,
+      "rms_ellipse_spheroide_px": 1.5268487277387555,
+      "rms_ellipse_contour_exterieur_px": 1.0079378576465012,
+      "rms_ergosurface_sur_rms_ellipse_contour_exterieur": 2.503970179360256,
+      "rms_horizon_sur_rms_ellipse_contour_exterieur": 4.188402592354341,
+      "rms_equipotentielle_libre_sur_rms_ellipse_contour_exterieur": 1.9380795210677009,
+      "nombre_de_points_du_grand_contour_E1": 25,
+      "erreur_aux_poles_ellipse_px": 0.5032267756056663,
+      "erreur_aux_poles_horizon_px": 2.8648619039047847,
+      "erreur_aux_poles_ergosurface_px": 5.925956690423114,
+      "erreur_aux_poles_equipotentielle_libre_px": 7.632947526263589,
+      "anneaux_validation_croisee_erreur_max_px": 5.001548580417904,
+      "anneaux_rms_des_12_sommets_sur_E1_px": 1.1681497211573741,
+      "second_contour_E2_contraste": 2.554874163523397,
+      "second_contour_E2_decalage_sur_A": 0.14076949149510168,
+      "second_contour_E2_rapport_d_axes": 1.45220454606895,
+      "decalage_masses_centre_des_anneaux_sur_A": 0.22191323622578057,
+      "separation_des_singularites_sur_A": 0.06712350273357649,
+      "rayon_anneaux_negative_sur_A": 0.47420444203838685,
+      "rayon_anneaux_null_sur_A": 0.3410127725269621,
+      "rayon_anneaux_positive_sur_A": 0.20126672779343177,
+      "entonnoir_rapport_droite_sur_gauche": 1.8571428571428568,
+      "entonnoir_rms_flamm_px": 19.551606147040353,
+      "entonnoir_rms_catenoide_ellis_px": 53.28620547388618,
+      "entonnoir_rms_meilleure_courbe_symetrique_libre_px": 2.5809855511402238,
+      "entonnoir_rms_temoin_asymetrique_px": 1.0512522870211956,
+      "entonnoir_longueur_d_onde_sinusoide_px": 781.4126210989634,
+      "nombre_de_meridiens_detectes": 15,
+      "score_noirceur_meilleure_famille_physique_sur_ellipse_spheroide": 0.997249986868388,
+      "score_noirceur_meilleure_famille_physique_sur_ellipse_grand_contour": 0.7348787839223342
+    }
+  },
+  "conclusions_par_copie": {
+    "reference": {
+      "deux contours elliptiques de même rapport d'axes (1,45 à 1,75 ; écart < 0,1)": true,
+      "rapport d'axes > √2 (forme d'horizon de Kerr-Schild écartée, à titre descriptif)": true,
+      "pôles du sphéroïde : ellipse à moins de 2 px, ergosurface à plus de 4 px": true,
+      "grand contour E1 : l'ergosurface de Kerr n'ajuste pas mieux que l'ellipse": true,
+      "grand contour E1 : l'équipotentielle à écartement libre ajuste nettement moins bien que l'ellipse (RMS > 1,5 fois)": false,
+      "sommets des six anneaux sur une même ellipse E1 (validation croisée : erreur < 3 px)": false,
+      "second grand contour E2 présent (contraste > 1,5), décalé de 0,10 à 0,22 A vers la droite": true,
+      "système d'anneaux décentré de 0,15 à 0,30 A par rapport aux masses": true,
+      "entonnoir asymétrique (rapport droite/gauche > 1,5)": true,
+      "profils de Flamm et d'Ellis écartés (RMS > 10 px)": true,
+      "témoin asymétrique nettement meilleur que toute courbe symétrique libre (RMS < 60 %)": true,
+      "sinusoïde dégénérée (longueur d'onde > 3 fois l'étendue du profil)": true
+    },
+    "pt3": {
+      "deux contours elliptiques de même rapport d'axes (1,45 à 1,75 ; écart < 0,1)": true,
+      "rapport d'axes > √2 (forme d'horizon de Kerr-Schild écartée, à titre descriptif)": true,
+      "pôles du sphéroïde : ellipse à moins de 2 px, ergosurface à plus de 4 px": true,
+      "grand contour E1 : l'ergosurface de Kerr n'ajuste pas mieux que l'ellipse": true,
+      "grand contour E1 : l'équipotentielle à écartement libre ajuste nettement moins bien que l'ellipse (RMS > 1,5 fois)": true,
+      "sommets des six anneaux sur une même ellipse E1 (validation croisée : erreur < 3 px)": false,
+      "second grand contour E2 présent (contraste > 1,5), décalé de 0,10 à 0,22 A vers la droite": true,
+      "système d'anneaux décentré de 0,15 à 0,30 A par rapport aux masses": true,
+      "entonnoir asymétrique (rapport droite/gauche > 1,5)": true,
+      "profils de Flamm et d'Ellis écartés (RMS > 10 px)": true,
+      "témoin asymétrique nettement meilleur que toute courbe symétrique libre (RMS < 60 %)": true,
+      "sinusoïde dégénérée (longueur d'onde > 3 fois l'étendue du profil)": true
+    },
+    "doc014": {
+      "deux contours elliptiques de même rapport d'axes (1,45 à 1,75 ; écart < 0,1)": true,
+      "rapport d'axes > √2 (forme d'horizon de Kerr-Schild écartée, à titre descriptif)": true,
+      "pôles du sphéroïde : ellipse à moins de 2 px, ergosurface à plus de 4 px": true,
+      "grand contour E1 : l'ergosurface de Kerr n'ajuste pas mieux que l'ellipse": true,
+      "grand contour E1 : l'équipotentielle à écartement libre ajuste nettement moins bien que l'ellipse (RMS > 1,5 fois)": true,
+      "sommets des six anneaux sur une même ellipse E1 (validation croisée : erreur < 3 px)": false,
+      "second grand contour E2 présent (contraste > 1,5), décalé de 0,10 à 0,22 A vers la droite": true,
+      "système d'anneaux décentré de 0,15 à 0,30 A par rapport aux masses": true,
+      "entonnoir asymétrique (rapport droite/gauche > 1,5)": true,
+      "profils de Flamm et d'Ellis écartés (RMS > 10 px)": true,
+      "témoin asymétrique nettement meilleur que toute courbe symétrique libre (RMS < 60 %)": true,
+      "sinusoïde dégénérée (longueur d'onde > 3 fois l'étendue du profil)": true
+    }
+  },
+  "conclusions_qui_different_selon_la_copie": {
+    "grand contour E1 : l'équipotentielle à écartement libre ajuste nettement moins bien que l'ellipse (RMS > 1,5 fois)": {
+      "reference": false,
+      "pt3": true,
+      "doc014": true
+    }
+  },
+  "synthese": "1 énoncé(s) sur 12 reçoivent une réponse différente selon la copie : grand contour E1 : l'équipotentielle à écartement libre ajuste nettement moins bien que l'ellipse (RMS > 1,5 fois)",
+  "limites": "ancres de l'entonnoir et estimations initiales lues sur la copie de référence, puis affinées automatiquement sur chaque copie (±2 px) ; recalage par similitude (pas de correction de déformation locale) ; DOC-014 analysé sur la copie timetravel16_07.jpg seulement (OP4.jpg, 460 px, non traitée)"
+}

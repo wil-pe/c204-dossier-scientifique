@@ -1,0 +1,458 @@
+{
+  "simulation": "S01_hawking",
+  "avertissement": "Simulation illustrative — ce n'est PAS une preuve expérimentale (Équipe D, programme C204 ; aucune affirmation « Titor » n'est tenue pour vraie)",
+  "constantes": {
+    "G": 6.6743e-11,
+    "c": 299792458.0,
+    "hbar": 1.054571817e-34,
+    "k_B": 1.380649e-23,
+    "sigma_SB": 5.670374429607473e-08,
+    "M_Planck_kg": 2.176434342051127e-08,
+    "g0": 9.80665
+  },
+  "coefficients": {
+    "r_s_par_kg_m": 1.4852320538237331e-27,
+    "T_fois_M_K_kg": 1.2269006698422716e+23,
+    "P_fois_M2_corps_noir_W_kg2": 3.561622142596221e+32,
+    "P_fois_M2_photons_page_W_kg2": 5.784995729629106e+32,
+    "P_fois_M2_total_f1_W_kg2": 4.799352654454606e+33,
+    "tau_sur_M3_corps_noir_s_kg3": 8.411477904855981e-17,
+    "coef_adim_corps_noir": 2.0723299881757208e-05,
+    "coef_adim_page_photons": 3.366e-05,
+    "coef_adim_macgibbon_f1": 0.0002792503536719107
+  },
+  "masse_pour_300_500_MW_kg": {
+    "corps_noir": [
+      843993144829.5325,
+      1089590464746.0012
+    ],
+    "photons_page": [
+      1075638947754.2272,
+      1388643910394.7307
+    ],
+    "total_especes": [
+      3852610628198.3228,
+      4963222831956.043
+    ]
+  },
+  "rayon_s_pour_300_500_MW_m": {
+    "corps_noir": [
+      1.253525671908318e-15,
+      1.6182946837814592e-15
+    ],
+    "photons_page": [
+      1.59757344354581e-15,
+      2.0624584470653856e-15
+    ],
+    "total_especes": [
+      5.722020795902138e-15,
+      7.371537640290918e-15
+    ]
+  },
+  "masse_pour_1p5_2g_entre_1_et_3m_kg": [
+    220397270125.7061,
+    2644767241508.473
+  ],
+  "masse_min_pour_duree_kg": {
+    "un saut de 60 ans à 10 ans/h (6 h)": 37382083.83891565,
+    "une année de service": 409135883.9481611,
+    "trente ans de service": 1232387861.1207604
+  },
+  "masse_pour_taille_electron_kg": {
+    "rayon classique de l'électron (2,82 fm)": 1897306430298.306,
+    "longueur de Compton réduite (386 fm)": 259999282085325.0,
+    "borne expérimentale ~1e-18 m (électron ponctuel)": 673295460.7500545
+  },
+  "masse_evaporation_age_univers_kg": 534024103845.09216,
+  "reperes": {
+    "unité entière (227 kg)": {
+      "M_kg": 226.796185,
+      "r_s_m": 3.3684496364693735e-25,
+      "T_K": 5.4097059429913756e+20,
+      "kT_MeV": 46617238960.96403,
+      "P_corps_noir_W": 6.924307607771387e+27,
+      "P_photons_page_W": 1.1246866831414198e+28,
+      "P_totale_especes_W": 1.4313191250420236e+30,
+      "f_especes": 15.339997936629006,
+      "duree_vie_corps_noir_s": 9.812497139677102e-10,
+      "duree_vie_especes_s": 4.747001917459055e-12,
+      "energie_de_masse_J": 2.0383424578650337e+19,
+      "acceleration_a_1m_g": 1.5435503230415076e-09
+    },
+    "demi-unité (113 kg)": {
+      "M_kg": 113.3980925,
+      "r_s_m": 1.6842248182346867e-25,
+      "T_K": 1.0819411885982751e+21,
+      "kT_MeV": 93234477921.92805,
+      "P_corps_noir_W": 2.769723043108555e+28,
+      "P_photons_page_W": 4.498746732565679e+28,
+      "P_totale_especes_W": 5.725276885219235e+30,
+      "f_especes": 15.339998968314319,
+      "duree_vie_corps_noir_s": 1.2265621424596378e-10,
+      "duree_vie_especes_s": 5.933752097519743e-13,
+      "energie_de_masse_J": 1.0191712289325169e+19,
+      "acceleration_a_1m_g": 7.717751615207538e-10
+    },
+    "1e9 kg": {
+      "M_kg": 1000000000.0,
+      "r_s_m": 1.485232053823733e-18,
+      "T_K": 122690066984227.16,
+      "kT_MeV": 10572.611951580007,
+      "P_corps_noir_W": 356162214259622.1,
+      "P_photons_page_W": 578499572962910.6,
+      "P_totale_especes_W": 5.861937099392883e+16,
+      "f_especes": 12.214016183936849,
+      "duree_vie_corps_noir_s": 84114779048.5598,
+      "duree_vie_especes_s": 497404362.25564086,
+      "energie_de_masse_J": 8.987551787368176e+25,
+      "acceleration_a_1m_g": 0.0068058919202785865
+    },
+    "1e11 kg": {
+      "M_kg": 100000000000.0,
+      "r_s_m": 1.4852320538237332e-16,
+      "T_K": 1226900669842.2715,
+      "kT_MeV": 105.72611951580006,
+      "P_corps_noir_W": 35616221425.96221,
+      "P_photons_page_W": 57849957296.29105,
+      "P_totale_especes_W": 2347072655659.0767,
+      "f_especes": 4.8903942357321855,
+      "duree_vie_corps_noir_s": 8.411477904855979e+16,
+      "duree_vie_especes_s": 1115854005159457.9,
+      "energie_de_masse_J": 8.987551787368176e+27,
+      "acceleration_a_1m_g": 0.6805891920278586
+    },
+    "1e12 kg": {
+      "M_kg": 1000000000000.0,
+      "r_s_m": 1.485232053823733e-15,
+      "T_K": 122690066984.22714,
+      "kT_MeV": 10.572611951580006,
+      "P_corps_noir_W": 356162214.2596221,
+      "P_photons_page_W": 578499572.9629105,
+      "P_totale_especes_W": 7834066619.65824,
+      "f_especes": 1.632317352713581,
+      "duree_vie_corps_noir_s": 8.41147790485598e+19,
+      "duree_vie_especes_s": 3.561923054986975e+18,
+      "energie_de_masse_J": 8.987551787368177e+28,
+      "acceleration_a_1m_g": 6.805891920278587
+    },
+    "4,4e12 kg": {
+      "M_kg": 4400000000000.0,
+      "r_s_m": 6.5350210368244255e-15,
+      "T_K": 27884106132.778896,
+      "kT_MeV": 2.4028663526318197,
+      "P_corps_noir_W": 18396808.5877904,
+      "P_photons_page_W": 29881176.289406538,
+      "P_totale_especes_W": 382527266.2859577,
+      "f_especes": 1.5430680778213663,
+      "duree_vie_corps_noir_s": 7.165233338472518e+21,
+      "duree_vie_especes_s": 3.42248315962e+20,
+      "energie_de_masse_J": 3.954522786441998e+29,
+      "acceleration_a_1m_g": 29.94592444922578
+    }
+  },
+  "flux_a_1m_W_m2": [
+    23873241.4637843,
+    39788735.772973835
+  ],
+  "temperature_equilibre_corps_noir_a_1m_K": [
+    4529.757088850898,
+    5146.797729745832
+  ],
+  "contraintes_kg": {
+    "C1 masse ≤ unité de 227 kg (2 singularités ≤ 113 kg chacune)": [
+      2.176434342051127e-08,
+      113.3980925
+    ],
+    "C2a P = 300–500 MW (photons, corps noir)": [
+      843993144829.5325,
+      1089590464746.0012
+    ],
+    "C2b P = 300–500 MW (photons, Page 1976)": [
+      1075638947754.2272,
+      1388643910394.7307
+    ],
+    "C2c P = 300–500 MW (toutes espèces, MacGibbon 1991)": [
+      3852610628198.3228,
+      4963222831956.043
+    ],
+    "C3 1,5–2 g entre 1 et 3 m": [
+      220397270125.7061,
+      2644767241508.473
+    ],
+    "C4 durée de vie ≥ 6 h": [
+      37382083.83891565,
+      1e+30
+    ],
+    "C4' durée de vie ≥ 30 ans": [
+      1232387861.1207604,
+      1e+30
+    ],
+    "C5 r_s < rayon classique de l'électron": [
+      2.176434342051127e-08,
+      1897306430298.306
+    ],
+    "C5' r_s < 1e-18 m": [
+      2.176434342051127e-08,
+      673295460.7500545
+    ]
+  },
+  "intersections_kg": {
+    "sans_C1_photons_corps_noir (C2a∩C3∩C4'∩C5)": [
+      843993144829.5325,
+      1089590464746.0012
+    ],
+    "sans_C1_photons_page (C2b∩C3∩C4'∩C5)": [
+      1075638947754.2272,
+      1388643910394.7307
+    ],
+    "sans_C1_toutes_especes (C2c∩C3∩C4'∩C5)": null,
+    "sans_C1_toutes_especes_sans_taille (C2c∩C3∩C4')": null,
+    "avec_C1_photons_corps_noir (C1∩C2a∩C3∩C4∩C5)": null,
+    "C1∩C4 (masse d'unité et durée de vie ≥ 6 h)": null,
+    "C1∩C2a (masse d'unité et puissance)": null,
+    "C1∩C3 (masse d'unité et pesanteur)": null,
+    "C5'∩C3 (rayon < 1e-18 m et pesanteur)": null
+  },
+  "ecart_decades_C1_vs_C2": 9.871733169934037,
+  "evaporation": {
+    "113.4": {
+      "duree_vie_s": 5.933752094401952e-13,
+      "energie_liberee_J": 1.0191712289325169e+19,
+      "puissance_initiale_W": 5.725276885219235e+30
+    },
+    "1e+09": {
+      "duree_vie_s": 497404362.2672751,
+      "energie_liberee_J": 8.987551787368176e+25,
+      "puissance_initiale_W": 5.861937099392883e+16
+    },
+    "1e+12": {
+      "duree_vie_s": 3.561923055134527e+18,
+      "energie_liberee_J": 8.987551787368177e+28,
+      "puissance_initiale_W": 7834066619.65824
+    }
+  },
+  "divergence_formulation_naive": {
+    "jusqu_a_M_Planck": {
+      "reussi": false,
+      "erreur": "ValueError: f(a) and f(b) must have different signs"
+    },
+    "jusqu_a_1e-4_M0": {
+      "reussi": true,
+      "tau_s": 497404360.1274169,
+      "n_evaluations": 1869
+    }
+  },
+  "validation": {
+    "simulation": "S01_hawking",
+    "n_tests": 18,
+    "n_passes": 18,
+    "n_echecs": 0,
+    "tests": [
+      {
+        "test": "r_s par kg (dossier : 1,485e-27 m/kg)",
+        "valeur": 1.4852320538237331e-27,
+        "attendu": 1.485e-27,
+        "ecart_abs": 2.3205382373307303e-31,
+        "ecart_rel": 0.00015626520116705255,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "T×M (dossier : 1,227e23 K·kg)",
+        "valeur": 1.2269006698422716e+23,
+        "attendu": 1.227e+23,
+        "ecart_abs": 9.933015772848718e+18,
+        "ecart_rel": 8.095367378034815e-05,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "P×M² corps noir (dossier : 3,56e32 W·kg²)",
+        "valeur": 3.561622142596221e+32,
+        "attendu": 3.56e+32,
+        "ecart_abs": 1.6221425962208355e+29,
+        "ecart_rel": 0.00045565803264630206,
+        "tol_rel": 0.002,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "τ/M³ corps noir (dossier : 8,41e-17 s/kg³)",
+        "valeur": 8.411477904855981e-17,
+        "attendu": 8.41e-17,
+        "ecart_abs": 1.4779048559806315e-20,
+        "ecart_rel": 0.0001757318497004318,
+        "tol_rel": 0.002,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "P corps noir = σ·A·T⁴ (M = 1e12 kg)",
+        "valeur": 356162214.25962186,
+        "attendu": 356162214.2596221,
+        "ecart_abs": 2.384185791015625e-07,
+        "ecart_rel": 6.694100877522309e-16,
+        "tol_rel": 1e-09,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Somme des coefficients de Page (1976)",
+        "valeur": 0.00020115999999999998,
+        "attendu": 0.0002011,
+        "ecart_abs": 5.999999999996893e-08,
+        "ecart_rel": 0.0002983590253603627,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Fraction photons (Page 1976 : 16,7 %)",
+        "valeur": 0.16732948896400876,
+        "attendu": 0.167,
+        "ecart_abs": 0.0003294889640087506,
+        "ecart_rel": 0.001972987808435632,
+        "tol_rel": 0.01,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "α(MacGibbon, f=1) ≈ Page(γ + 3ν + graviton)",
+        "valeur": 0.0002792503536719107,
+        "attendu": 0.00028299000000000005,
+        "ecart_abs": 3.7396463280893553e-06,
+        "ecart_rel": 0.013214764931938777,
+        "tol_rel": 0.03,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": "deux sources indépendantes, accord attendu à quelques %"
+      },
+      {
+        "test": "τ(quadrature) = M³/(3αf) pour f ≈ 1 (M = 1e18 kg)",
+        "valeur": 6.242197253416464e+36,
+        "attendu": 6.242197253433209e+36,
+        "ecart_abs": 1.6745511548255762e+25,
+        "ecart_rel": 2.6826309500305726e-12,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "τ ODE régularisée (x = M³) ↔ quadrature, M0 = 113 kg",
+        "valeur": 5.933752094401952e-13,
+        "attendu": 5.933752097519743e-13,
+        "ecart_abs": 3.1177913529867207e-22,
+        "ecart_rel": 5.254333685915073e-10,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "τ ODE régularisée (x = M³) ↔ quadrature, M0 = 1e+09 kg",
+        "valeur": 497404362.2672751,
+        "attendu": 497404362.25564086,
+        "ecart_abs": 0.011634230613708496,
+        "ecart_rel": 2.3389884561826753e-11,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "τ ODE régularisée (x = M³) ↔ quadrature, M0 = 1e+12 kg",
+        "valeur": 3.561923055134527e+18,
+        "attendu": 3.561923054986975e+18,
+        "ecart_abs": 147551744.0,
+        "ecart_rel": 4.142474211884388e-11,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "τ ODE naïve (variable M, LSODA, arrêt à 1e-4·M0) ↔ quadrature, M0 = 1e9 kg",
+        "valeur": 497404360.1274169,
+        "attendu": 497404362.25523394,
+        "ecart_abs": 2.1278170347213745,
+        "ecart_rel": 4.2778415232907105e-09,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": "1869 évaluations ; la formulation naïve échoue si l'on vise M_Planck"
+      },
+      {
+        "test": "f(M→0) étendu = 15,35 (Carr et al. 2010)",
+        "valeur": 15.339999999990898,
+        "attendu": 15.35,
+        "ecart_abs": 0.01000000000910184,
+        "ecart_rel": 0.0006514657986385563,
+        "tol_rel": 0.005,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "τ(M = 1e7 kg, f = 15,35) = 407 s (Carr et al. 2010)",
+        "valeur": 406.6578015265934,
+        "attendu": 407.0,
+        "ecart_abs": 0.34219847340659726,
+        "ecart_rel": 0.0008407824899424994,
+        "tol_rel": 0.005,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "M* avec f gelé à 1,9 ≈ 5,1e11 kg (Carr et al. 2010)",
+        "valeur": 509878135145.6028,
+        "attendu": 510000000000.0,
+        "ecart_abs": 121864854.3972168,
+        "ecart_rel": 0.00023895069489650352,
+        "tol_rel": 0.01,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Pente d ln P / d ln M (corps noir)",
+        "valeur": -1.9999999999999984,
+        "attendu": -2.0,
+        "ecart_abs": 1.5543122344752192e-15,
+        "ecart_rel": 7.771561172376096e-16,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-09,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Intersection C1∩C2∩C3 vide (résultat attendu du dossier §6)",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      }
+    ],
+    "n_hors_decompte": 1,
+    "hors_decompte": [
+      {
+        "categorie": "biais de modèle",
+        "element": "M* intégré (τ = 13,8 Ga) contre 5,0e11 kg (MacGibbon, Carr & Page 2008)",
+        "valeur": 534024103845.09216,
+        "attendu": 500000000000.0,
+        "constat": null,
+        "commentaire": "écart +6.8 % : biais de la paramétrisation f(M) de 1991, commun à l'Équipe B"
+      }
+    ]
+  }
+}

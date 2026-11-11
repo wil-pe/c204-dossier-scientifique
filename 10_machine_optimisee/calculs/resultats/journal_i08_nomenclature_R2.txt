@@ -1,0 +1,11 @@
+i08 — NOMENCLATURE ET BILANS DU PALIER 2 (estimations)
+==========================================================================================
+  M1 horloges                  913 kg    3266 W    3408 k€   TRL minimal 5
+  M2 gravité                   310 kg    1025 W    1340 k€   TRL minimal 6
+  M3 Kerr analogue             730 kg     900 W     110 k€   TRL minimal 4
+  M4 causalité quantique        60 kg     150 W     140 k€   TRL minimal 6
+  communs                     1575 kg    3360 W     223 k€   TRL minimal 9
+  TOTAL                       3588 kg    8701 W    5221 k€
+  Partie transportable (M1, M2, communs en remorque) : ≈ 2778 kg. Rapport à la masse revendiquée de la C204 : ×16.
+  Thermique : ≈ 8.7 kW à évacuer par la climatisation de l'abri (stabilité requise ±0,5 K pour les cavités optiques).
+  Énergie : 209 kWh par jour ; hors de portée d'une batterie embarquée de 227 kg (≈ 30 kWh) au-delà de quelques heures.

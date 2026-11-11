@@ -1,0 +1,301 @@
+=== S01_hawking/s01_hawking.py ===
+S01 — tests de validation
+  [OK  ] r_s par kg (dossier : 1,485e-27 m/kg) : obtenu 1.48523e-27, attendu 1.485e-27 (écart 2.32e-31, seuil 1.49e-30)
+  [OK  ] T×M (dossier : 1,227e23 K·kg) : obtenu 1.2269e+23, attendu 1.227e+23 (écart 9.93e+18, seuil 1.23e+20)
+  [OK  ] P×M² corps noir (dossier : 3,56e32 W·kg²) : obtenu 3.56162e+32, attendu 3.56e+32 (écart 1.62e+29, seuil 7.12e+29)
+  [OK  ] τ/M³ corps noir (dossier : 8,41e-17 s/kg³) : obtenu 8.41148e-17, attendu 8.41e-17 (écart 1.48e-20, seuil 1.68e-19)
+  [OK  ] P corps noir = σ·A·T⁴ (M = 1e12 kg) : obtenu 3.56162e+08, attendu 3.56162e+08 (écart 2.38e-07, seuil 0.356)
+  [OK  ] Somme des coefficients de Page (1976) : obtenu 0.00020116, attendu 0.0002011 (écart 6e-08, seuil 2.01e-07)
+  [OK  ] Fraction photons (Page 1976 : 16,7 %) : obtenu 0.167329, attendu 0.167 (écart 0.000329, seuil 0.00167)
+  [OK  ] α(MacGibbon, f=1) ≈ Page(γ + 3ν + graviton) : obtenu 0.00027925, attendu 0.00028299 (écart 3.74e-06, seuil 8.49e-06)
+  [OK  ] τ(quadrature) = M³/(3αf) pour f ≈ 1 (M = 1e18 kg) : obtenu 6.2422e+36, attendu 6.2422e+36 (écart 1.67e+25, seuil 6.24e+33)
+  [OK  ] τ ODE régularisée (x = M³) ↔ quadrature, M0 = 113 kg : obtenu 5.93375e-13, attendu 5.93375e-13 (écart 3.12e-22, seuil 5.93e-19)
+  [OK  ] τ ODE régularisée (x = M³) ↔ quadrature, M0 = 1e+09 kg : obtenu 4.97404e+08, attendu 4.97404e+08 (écart 0.0116, seuil 497)
+  [OK  ] τ ODE régularisée (x = M³) ↔ quadrature, M0 = 1e+12 kg : obtenu 3.56192e+18, attendu 3.56192e+18 (écart 1.48e+08, seuil 3.56e+12)
+  [note] intégration naïve jusqu'à M_Planck : ÉCHEC attendu et documenté (ValueError)
+  [OK  ] τ ODE naïve (variable M, LSODA, arrêt à 1e-4·M0) ↔ quadrature, M0 = 1e9 kg : obtenu 4.97404e+08, attendu 4.97404e+08 (écart 2.13, seuil 497)
+  [OK  ] f(M→0) étendu = 15,35 (Carr et al. 2010) : obtenu 15.34, attendu 15.35 (écart 0.01, seuil 0.0767)
+  [OK  ] τ(M = 1e7 kg, f = 15,35) = 407 s (Carr et al. 2010) : obtenu 406.658, attendu 407 (écart 0.342, seuil 2.04)
+  [OK  ] M* avec f gelé à 1,9 ≈ 5,1e11 kg (Carr et al. 2010) : obtenu 5.09878e+11, attendu 5.1e+11 (écart 1.22e+08, seuil 5.1e+09)
+  [biais de modèle — hors décompte] M* intégré (τ = 13,8 Ga) contre 5,0e11 kg (MacGibbon, Carr & Page 2008) : 5.34024e+11, référence 5e+11 — écart +6.8 % : biais de la paramétrisation f(M) de 1991, commun à l'Équipe B
+  [OK  ] Pente d ln P / d ln M (corps noir) : obtenu -2, attendu -2 (écart 1.55e-15, seuil 2e-06)
+  [OK  ] Intersection C1∩C2∩C3 vide (résultat attendu du dossier §6) 
+  figure : 05_simulations/S01_hawking/figures/S01_fig1_temperature_rayon.png
+  figure : 05_simulations/S01_hawking/figures/S01_fig2_puissance.png
+  figure : 05_simulations/S01_hawking/figures/S01_fig3_evaporation.png
+  figure : 05_simulations/S01_hawking/figures/S01_fig4_carte_contraintes.png
+  figure : 05_simulations/S01_hawking/figures/S01_fig5_plan_distance_masse.png
+  résultats : 05_simulations/S01_hawking/resultats/S01_resultats.json
+  Bilan validation S01_hawking : 18/18 tests passés ; 1 contrôles, résultats ou repères hors décompte
+S01 terminé.
+=== S02_kerr_geometrie/s02_kerr_geometrie.py ===
+S02 — tests de validation
+  [OK  ] Limite de Schwarzschild : r+ = 2M : obtenu 2, attendu 2 (écart 0, seuil 2e-06)
+  [OK  ] Limite de Schwarzschild : r- = 0 : obtenu 0, attendu 0 (écart 0, seuil 1e-14)
+  [OK  ] Limite de Reissner-Nordström extrémale (Q = M) : r+ = M : obtenu 1, attendu 1 (écart 0, seuil 1e-06)
+  [OK  ] Kerr extrémal (a = M) : r+ = r- = M : obtenu 0, attendu 0 (écart 0, seuil 1e-14)
+  [OK  ] Ergosurface équatoriale de Kerr : r_E = 2M (tout a) : obtenu 2, attendu 2 (écart 0, seuil 2e-06)
+  [OK  ] Ergosurface aux pôles = horizon externe (a = 0,9) : obtenu 1.43589, attendu 1.43589 (écart 0, seuil 1.44e-06)
+  [OK  ] Identité g_tφ² − g_tt·g_φφ = Δ sin²θ (2000 points, Kerr-Newman) : obtenu 9.07274e-13, attendu 0 (écart 9.07e-13, seuil 1e-09)
+  [OK  ] ω(r+, θ) = Ω_H pour tout θ (a = 0.5, Q = 0.0) : obtenu 2.77556e-17, attendu 0 (écart 2.78e-17, seuil 1e-12)
+  [OK  ] ω(r+, θ) = Ω_H pour tout θ (a = 0.9, Q = 0.0) : obtenu 1.11022e-16, attendu 0 (écart 1.11e-16, seuil 1e-12)
+  [OK  ] ω(r+, θ) = Ω_H pour tout θ (a = 0.6, Q = 0.6) : obtenu 5.55112e-17, attendu 0 (écart 5.55e-17, seuil 1e-12)
+  [OK  ] Ω+ − Ω− → 0 à l'horizon (a = 0,9) : obtenu 1.4763e-05, attendu 0 (écart 1.48e-05, seuil 0.0001)
+  [OK  ] Bord CTC équatorial, Kerr a = M : r = −M : obtenu -1, attendu -1 (écart 4.44e-16, seuil 1e-06)
+  [OK  ] ω(r = 1000 M, équateur)·r³/(2J) → 1 (limite de Lense-Thirring) : obtenu 0.999999, attendu 1 (écart 8.12e-07, seuil 0.003)
+  [OK  ] r_g(Soleil) = GM/c² ≈ 1476,6 m : obtenu 1476.67, attendu 1476.6 (écart 0.0697, seuil 1.48)
+  (vérification symbolique en 103.7 s)
+  [OK  ] Kerr : R_μν ≡ 0 (calcul formel exact, a = 3/5) 
+  [OK  ] Kerr-Newman : G_μν ≡ 8πT_μν(EM) (calcul formel exact, a = 3/5, Q = 1/2) 
+  [OK  ] Kerr-Newman : scalaire de Ricci R ≡ 0 
+  figure : 05_simulations/S02_kerr_geometrie/figures/S02_fig1_cartes_meridiennes.png
+  figure : 05_simulations/S02_kerr_geometrie/figures/S02_fig2_region_ctc.png
+  figure : 05_simulations/S02_kerr_geometrie/figures/S02_fig3_cones_entrainement.png
+  figure : 05_simulations/S02_kerr_geometrie/figures/S02_fig4_rendu_3d.png
+  résultats : 05_simulations/S02_kerr_geometrie/resultats/S02_echelles_metres.csv
+  figure : 05_simulations/S02_kerr_geometrie/figures/S02_fig5_echelles.png
+  résultats : 05_simulations/S02_kerr_geometrie/resultats/S02_resultats.json
+  Bilan validation S02_kerr_geometrie : 17/17 tests passés
+S02 terminé.
+=== S03_geodesiques_kerr/s03_geodesiques_kerr.py ===
+S03 — partie A : orbites en coordonnées de Boyer-Lindquist
+  [OK  ] Conservation de E (équatoriale prograde), dérive relative : obtenu 5.87962e-12, attendu 0 (écart 5.88e-12, seuil 1e-08)
+  [OK  ] Conservation de L_z (équatoriale prograde), dérive relative : obtenu 7.26028e-11, attendu 0 (écart 7.26e-11, seuil 1e-08)
+  [OK  ] Conservation de g(u,u) = −1 (équatoriale prograde) : obtenu 1.20264e-11, attendu 0 (écart 1.2e-11, seuil 1e-08)
+  [OK  ] Constante de Carter Q = 0 conservée (équatoriale prograde) : obtenu 2.94104e-29, attendu 0 (écart 2.94e-29, seuil 1e-08)
+  [OK  ] Conservation de E (équatoriale rétrograde), dérive relative : obtenu 3.47008e-13, attendu 0 (écart 3.47e-13, seuil 1e-08)
+  [OK  ] Conservation de L_z (équatoriale rétrograde), dérive relative : obtenu 2.02235e-12, attendu 0 (écart 2.02e-12, seuil 1e-08)
+  [OK  ] Conservation de g(u,u) = −1 (équatoriale rétrograde) : obtenu 1.02141e-13, attendu 0 (écart 1.02e-13, seuil 1e-08)
+  [OK  ] Constante de Carter Q = 0 conservée (équatoriale rétrograde) : obtenu 1.89842e-29, attendu 0 (écart 1.9e-29, seuil 1e-08)
+  [OK  ] Conservation de E (quasi polaire) : obtenu 1.78946e-13, attendu 0 (écart 1.79e-13, seuil 1e-08)
+  [OK  ] Conservation de L_z (quasi polaire) : obtenu 2.3605e-10, attendu 0 (écart 2.36e-10, seuil 1e-07)
+  [OK  ] Conservation de la constante de Carter (quasi polaire), dérive relative : obtenu 7.27745e-11, attendu 0 (écart 7.28e-11, seuil 1e-08)
+  [OK  ] Schwarzschild : R(r_p) = 0 avec (E, L) analytiques : obtenu 0, attendu 0 (écart 0, seuil 1e-09)
+  [OK  ] Schwarzschild : avance du périastre par orbite (p = 50 M, e = 0,3) ↔ quadrature exacte : obtenu 0.414946, attendu 0.414946 (écart 2.8e-12, seuil 4.15e-08)
+  [OK  ] … et ↔ formule d'Einstein au premier ordre 6πM/p : obtenu 0.414946, attendu 0.376991 (écart 0.038, seuil 0.0452)
+  [OK  ] Orbite circulaire r = 8 M : dérive de r : obtenu 2.54907e-12, attendu 0 (écart 2.55e-12, seuil 1e-07)
+  [OK  ] Orbite circulaire : dφ/dt = 1/(r^{3/2} + a) (Bardeen et al. 1972) : obtenu 0.0425036, attendu 0.0425036 (écart 4.72e-16, seuil 4.25e-11)
+  [OK  ] r_ISCO(a = 0) : obtenu 6, attendu 6 (écart 0, seuil 1.6e-05)
+  [OK  ] r_ISCO(a = 0.9) : obtenu 2.32088, attendu 2.32088 (écart 4.18e-08, seuil 1.23e-05)
+  [OK  ] r_ISCO(a = 1) : obtenu 1.00159, attendu 1 (écart 0.00159, seuil 0.002)
+  [OK  ] ISCO (a = 0,9) : R = 0 : obtenu -5.32907e-15, attendu 0 (écart 5.33e-15, seuil 1e-10)
+  [OK  ] ISCO (a = 0,9) : R' = 0 : obtenu -6.21725e-15, attendu 0 (écart 6.22e-15, seuil 1e-09)
+  [OK  ] ISCO (a = 0,9) : R'' = 0 (stabilité marginale) : obtenu -8.88178e-07, attendu 0 (écart 8.88e-07, seuil 0.0001)
+  [OK  ] Schwarzschild : temps propre de chute 10M → 3M = (2/3)(r0^{3/2} − r1^{3/2})/√(2M) : obtenu 12.4576, attendu 12.4576 (écart 1.19e-12, seuil 1.25e-08)
+  [OK  ] Précession nodale par orbite (r = 500 M, i ≈ 61°) ↔ Lense-Thirring 4πa(M/r)^(3/2) : obtenu 0.000996709, attendu 0.00101157 (écart 1.49e-05, seuil 3.03e-05)
+S03 — partie B : temps de Mino, traversée des horizons et passage vers r < 0
+  [OK  ] Invariant radial r'² − R(r) = 0 (axe, E = 1,2 (rebond en r < 0)) : obtenu 3.25372e-13, attendu 0 (écart 3.25e-13, seuil 1e-08)
+  [OK  ] Invariant polaire θ'² − Θ(θ) = 0 (axe, E = 1,2 (rebond en r < 0)) : obtenu 0, attendu 0 (écart 0, seuil 1e-08)
+    axe, E = 1,2 (rebond en r < 0) : fin = rebond en r < 0 puis retour vers l'horizon interne (sortie vers un autre feuillet) ; r_min = -0.186 M ; τ = 12.452 M
+  [OK  ] Invariant radial r'² − R(r) = 0 (axe, E = 1,6 (traversée complète)) : obtenu 8.94453e-11, attendu 0 (écart 8.94e-11, seuil 1e-08)
+  [OK  ] Invariant polaire θ'² − Θ(θ) = 0 (axe, E = 1,6 (traversée complète)) : obtenu 0, attendu 0 (écart 0, seuil 1e-08)
+    axe, E = 1,6 (traversée complète) : fin = fuite vers r → −∞ (autre région asymptotique) ; r_min = -25.000 M ; τ = 29.526 M
+  [OK  ] Invariant radial r'² − R(r) = 0 (vorticale, E = 1,6, L = 0,05 (traverse le disque)) : obtenu 6.31147e-11, attendu 0 (écart 6.31e-11, seuil 1e-08)
+  [OK  ] Invariant polaire θ'² − Θ(θ) = 0 (vorticale, E = 1,6, L = 0,05 (traverse le disque)) : obtenu 5.12909e-16, attendu 0 (écart 5.13e-16, seuil 1e-08)
+    vorticale, E = 1,6, L = 0,05 (traverse le disque) : fin = fuite vers r → −∞ (autre région asymptotique) ; r_min = -25.000 M ; τ = 29.611 M
+  [OK  ] Invariant radial r'² − R(r) = 0 (équatoriale, E = 1, L = 0,5 (atteint l'anneau)) : obtenu 2.43959e-13, attendu 0 (écart 2.44e-13, seuil 1e-08)
+  [OK  ] Invariant polaire θ'² − Θ(θ) = 0 (équatoriale, E = 1, L = 0,5 (atteint l'anneau)) : obtenu 4.07825e-33, attendu 0 (écart 4.08e-33, seuil 1e-08)
+    équatoriale, E = 1, L = 0,5 (atteint l'anneau) : fin = atteint la singularité annulaire ; r_min = 0.003 M ; τ = 14.939 M
+  [OK  ] Seuil de traversée sur l'axe : E² = 1 + M/a (a = 0,9) → E_seuil : obtenu 1.45297, attendu 1.45297 (écart 0, seuil 1.45e-06)
+  [OK  ] Axe, E = 1,2 < E_seuil : rebond en r < 0 (comme prédit) 
+  [OK  ] Axe, E = 1,6 > E_seuil : traversée vers r → −∞ (comme prédit) 
+  [OK  ] Équatoriale Q = 0 : atteint la singularité annulaire 
+  [OK  ] Axe, E = 1,2 : rayon de rebond ↔ racine analytique : obtenu -0.185794, attendu -0.185794 (écart 8.58e-09, seuil 1.86e-07)
+  [OK  ] Axe, E = 1,6 : temps propre 10M → disque (r = 0) ↔ quadrature : obtenu 7.04178, attendu 7.04178 (écart 1.62e-08, seuil 7.04e-07)
+  [OK  ] Recoupement des deux intégrateurs : τ(r = 2,2 M) (BL second ordre ↔ Mino) : obtenu 5.62528, attendu 5.62528 (écart 1.25e-09, seuil 5.63e-05)
+  [OK  ] Recoupement des deux intégrateurs : θ(r = 2,2 M) : obtenu 0.248114, attendu 0.248114 (écart 2.37e-10, seuil 1.02e-05)
+  [OK  ] dt/dτ à l'ISCO de Schwarzschild = √2 : obtenu 1.41421, attendu 1.41421 (écart 2.22e-16, seuil 1.41e-12)
+  figure : 05_simulations/S03_geodesiques_kerr/figures/S03_fig1_orbites_equatoriales.png
+  figure : 05_simulations/S03_geodesiques_kerr/figures/S03_fig2_orbite_polaire.png
+  figure : 05_simulations/S03_geodesiques_kerr/figures/S03_fig3_passage_anneau.png
+  figure : 05_simulations/S03_geodesiques_kerr/figures/S03_fig4_temps_propre_coordonnee.png
+  résultats : 05_simulations/S03_geodesiques_kerr/resultats/S03_resultats.json
+  Bilan validation S03_geodesiques_kerr : 41/41 tests passés
+S03 terminé.
+=== S04_cylindre_tipler/s04_cylindre_tipler.py ===
+S04 — tests de validation
+  [OK  ] Raccord C0 en r = R (aR = 0.3) : obtenu 1.64013e-12, attendu 0 (écart 1.64e-12, seuil 1e-09)
+  [OK  ] Raccord C1 en r = R (aR = 0.3) : obtenu 2.46075e-06, attendu 0 (écart 2.46e-06, seuil 0.0001)
+  [OK  ] Raccord C0 en r = R (aR = 0.5) : obtenu 1.00009e-12, attendu 0 (écart 1e-12, seuil 1e-09)
+  [OK  ] Raccord C1 en r = R (aR = 0.5) : obtenu 1.50038e-06, attendu 0 (écart 1.5e-06, seuil 0.0001)
+  [OK  ] Raccord C0 en r = R (aR = 0.8) : obtenu 1.60016e-12, attendu 0 (écart 1.6e-12, seuil 1e-09)
+  [OK  ] Raccord C1 en r = R (aR = 0.8) : obtenu 2.40091e-06, attendu 0 (écart 2.4e-06, seuil 0.0001)
+  [OK  ] Raccord C0 en r = R (aR = 1.2) : obtenu 3.75966e-12, attendu 0 (écart 3.76e-12, seuil 1e-09)
+  [OK  ] Raccord C1 en r = R (aR = 1.2) : obtenu 5.6409e-06, attendu 0 (écart 5.64e-06, seuil 0.0001)
+  [OK  ] Identité M² + F·L = r² (aR = 0.3) : obtenu 3.4318e-14, attendu 0 (écart 3.43e-14, seuil 1e-10)
+  [OK  ] Identité M² + F·L = r² (aR = 0.5) : obtenu 1.95662e-15, attendu 0 (écart 1.96e-15, seuil 1e-10)
+  [OK  ] Identité M² + F·L = r² (aR = 0.8) : obtenu 8.27886e-16, attendu 0 (écart 8.28e-16, seuil 1e-10)
+  [OK  ] Identité M² + F·L = r² (aR = 1.2) : obtenu 2.84828e-15, attendu 0 (écart 2.85e-15, seuil 1e-10)
+  [OK  ] Branche aR = 1/2 − 1e-6 → cas critique (écart relatif) : obtenu 1.86331e-05, attendu 0 (écart 1.86e-05, seuil 0.0001)
+  [OK  ] Convergence linéaire en δ (aR = 1/2 − δ) : écart(1e-4)/écart(1e-6) : obtenu 100.033, attendu 100 (écart 0.0326, seuil 20)
+  [OK  ] Branche aR = 1/2 + 1e-6 → cas critique (écart relatif) : obtenu 1.8633e-05, attendu 0 (écart 1.86e-05, seuil 0.0001)
+  [OK  ] Convergence linéaire en δ (aR = 1/2 + δ) : écart(1e-4)/écart(1e-6) : obtenu 99.9674, attendu 100 (écart 0.0326, seuil 20)
+  [OK  ] r_CTC(aR = 1) = R (raccord intérieur/extérieur) : obtenu 1, attendu 1 (écart 1e-12, seuil 2e-06)
+  [OK  ] r_CTC(aR = 2) = R/2 (intérieur : r = 1/a) : obtenu 0.5, attendu 0.5 (écart 0, seuil 5e-07)
+  [OK  ] r_CTC(aR = 0,6) : formule ↔ premier zéro numérique de L(r) : obtenu 8.06287, attendu 8.06285 (écart 2.4e-05, seuil 0.000806)
+  [OK  ] Intérieur : G_μν ≡ 8πρ u_μ u_ν, 8πρ = 4a²exp(a²r²) (calcul formel exact, a = 3/4) 
+  [OK  ] Extérieur : R_μν = 0 (aR = 3/10 (< 1/2)), résidu max. à 40 chiffres : obtenu 8.08635e-174, attendu 0 (écart 8.09e-174, seuil 1e-25)
+  [OK  ] Extérieur : R_μν = 0 (aR = 1/2), résidu max. à 40 chiffres : obtenu 6.46908e-173, attendu 0 (écart 6.47e-173, seuil 1e-25)
+  [OK  ] Extérieur : R_μν = 0 (aR = 4/5 (> 1/2)), résidu max. à 40 chiffres : obtenu 5.17526e-172, attendu 0 (écart 5.18e-172, seuil 1e-25)
+  figure : 05_simulations/S04_cylindre_tipler/figures/S04_fig1_fonctions_metriques.png
+  figure : 05_simulations/S04_cylindre_tipler/figures/S04_fig2_domaine_ctc.png
+  figure : 05_simulations/S04_cylindre_tipler/figures/S04_fig3_cones_lumiere.png
+  [OK  ] Tipler 1974 : densité sur l'axe pour R = 10 km, aR = 1/2 ≈ 5e17 kg/m³ (~1e14 g/cm³ cité : ordre de grandeur) : obtenu 17.729, attendu 17.5 (écart 0.229, seuil 0.6)
+  [OK  ] Masse propre par unité de longueur : intégrale numérique ↔ a²R²/2 (G = c = 1) : obtenu 0.32, attendu 0.32 (écart 0, seuil 3.2e-09)
+  figure : 05_simulations/S04_cylindre_tipler/figures/S04_fig4_ordres_de_grandeur.png
+  résultats : 05_simulations/S04_cylindre_tipler/resultats/S04_resultats.json
+  Bilan validation S04_cylindre_tipler : 25/25 tests passés
+S04 terminé.
+=== S05_champ_faible_c204/s05_champ_faible_c204.py ===
+S05 — tests de validation
+  [OK  ] g analytique ↔ −∇Φ numérique (erreur relative max.) : obtenu 2.83602e-10, attendu 0 (écart 2.84e-10, seuil 1e-07)
+  [OK  ] Trace du tenseur de marée (ΔΦ = 0 hors sources), relative : obtenu 4.09254e-16, attendu 0 (écart 4.09e-16, seuil 1e-12)
+  [OK  ] Champ lointain sur l'axe : monopôle + correction quadrupolaire : obtenu 0.148329, attendu 0.148329 (écart 4.64e-10, seuil 1.48e-09)
+  [OK  ] Puissance OG : formule fermée ↔ ⟨Q⃛ij Q⃛ij⟩ numérique : obtenu 4.31641e-20, attendu 4.31641e-20 (écart 3.66e-33, seuil 4.32e-29)
+  [OK  ] Puissance OG : quadrupôle (Ω képlérien) ↔ Peters (1964) : obtenu 4.31641e-20, attendu 4.31641e-20 (écart 1.2e-35, seuil 4.32e-32)
+  [OK  ] Peters : a(t) numérique à 0,999999 t_c ↔ a0 (1 − t/t_c)^(1/4) : obtenu 0.00948683, attendu 0.00948683 (écart 9.11e-10, seuil 9.49e-08)
+  [OK  ] Repère : puissance OG du système Terre-Soleil ≈ 196 W : obtenu 196.291, attendu 196 (écart 0.291, seuil 5.88)
+  [OK  ] Repère : effet Lense-Thirring de Gravity Probe B ≈ 39 mas/an : obtenu 41.0629, attendu 39.2 (écart 1.86, seuil 2.35)
+  [OK  ] Repère : avance des horloges GPS ≈ +38,5 µs/jour : obtenu 38.5046, attendu 38.5 (écart 0.00461, seuil 0.77)
+  [OK  ] B_g moyen de la paire en orbite ↔ dipôle de J_orb (r = 50 d), erreur relative : obtenu 0.000179849, attendu 0 (écart 0.00018, seuil 0.002)
+  [OK  ] Modulation de |g| à 2 m ↔ estimation quadrupolaire (3/4)(d/r)²·(3/2) = 9d²/(8r²) : obtenu 0.0253035, attendu 0.0253125 (écart 9.03e-06, seuil 0.00127)
+  figure : 05_simulations/S05_champ_faible_c204/figures/S05_fig1_acceleration.png
+  figure : 05_simulations/S05_champ_faible_c204/figures/S05_fig2_marees.png
+  figure : 05_simulations/S05_champ_faible_c204/figures/S05_fig3_dilatation_entrainement.png
+  figure : 05_simulations/S05_champ_faible_c204/figures/S05_fig4_ondes_gravitationnelles.png
+  résultats : 05_simulations/S05_champ_faible_c204/resultats/S05_resultats.json
+  Bilan validation S05_champ_faible_c204 : 11/11 tests passés
+S05 terminé.
+=== S06_confinement_em/s06_confinement_em.py ===
+S06 — tests de validation
+  [OK  ] (Q/M) extrémal = sqrt(4πε₀G) (dossier : 8,62e-11 C/kg) : obtenu 8.61752e-11, attendu 8.62e-11 (écart 2.48e-14, seuil 8.62e-14)
+  [OK  ] Charge critique de Schwinger à l'échelle de Compton ≈ e/α (137 e) : obtenu 137.036, attendu 137.036 (écart 1e-06, seuil 0.137)
+  [OK  ] Deux masses extrémales de même signe : Coulomb = gravitation (Majumdar-Papapetrou) : obtenu 1, attendu 1 (écart 2.22e-16, seuil 1e-12)
+  [OK  ] Penning : conservation de l'énergie (dérive relative) : obtenu 4.65607e-09, attendu 0 (écart 4.66e-09, seuil 1e-08)
+  [OK  ] Penning : position d'équilibre axiale z_eq = γ_z (affaissement g/ω_z²) : obtenu -0.1, attendu -0.1 (écart 1.39e-17, seuil 0.0001)
+  [OK  ] Penning : pulsation axiale = ω_z : obtenu 1, attendu 1 (écart 2.05e-06, seuil 0.000782)
+  [OK  ] Penning : pulsation cyclotron modifiée ω₊ : obtenu 2.82263, attendu 2.82288 (écart 0.000243, seuil 0.000784)
+  [OK  ] Penning : pulsation magnétron ω₋ : obtenu 0.177365, attendu 0.177124 (écart 0.00024, seuil 0.000781)
+  [OK  ] Théorème d'invariance : ω₊² + ω₋² + ω_z² = ω_c² (Brown & Gabrielse 1986) : obtenu 9, attendu 9 (écart 0, seuil 9e-12)
+  [OK  ] Penning : centre de l'orbite sous accélération latérale x_eq = −2γ_x : obtenu -0.160046, attendu -0.16 (écart 4.62e-05, seuil 0.0032)
+  [OK  ] Penning instable (β = 1,2) : taux de croissance = sqrt(2 − β²)/2 : obtenu 0.374166, attendu 0.374166 (écart 1.72e-07, seuil 0.000374)
+  [OK  ] Mathieu : q_max à a = 0 (Floquet numérique) ↔ zéro de b₁(q) (scipy) ≈ 0,908 : obtenu 0.908046, attendu 0.908046 (écart 7.92e-13, seuil 9.08e-07)
+  [OK  ] Mathieu : q_max ≈ 0,908046 (valeur tabulée) : obtenu 0.908046, attendu 0.908046 (écart 3.34e-07, seuil 9.08e-06)
+  [OK  ] Mathieu : frontière inférieure a₀(q = 0.3) (Floquet ↔ scipy.special.mathieu_a) : obtenu -0.044566, attendu -0.044566 (écart 6.18e-16, seuil 1.45e-07)
+  [OK  ] Mathieu : frontière supérieure b₁(q = 0.3) (Floquet ↔ scipy.special.mathieu_b) : obtenu 0.689166, attendu 0.689166 (écart 5.51e-13, seuil 7.89e-07)
+  [OK  ] Mathieu : frontière inférieure a₀(q = 0.6) (Floquet ↔ scipy.special.mathieu_a) : obtenu -0.173445, attendu -0.173445 (écart 1.23e-13, seuil 2.73e-07)
+  [OK  ] Mathieu : frontière supérieure b₁(q = 0.6) (Floquet ↔ scipy.special.mathieu_b) : obtenu 0.358271, attendu 0.358271 (écart 2.46e-13, seuil 4.58e-07)
+  [OK  ] Paul : pulsation séculaire numérique ↔ exposant de Floquet β (en unités de ξ) : obtenu 0.215911, attendu 0.216059 (écart 0.000149, seuil 0.000216)
+  [OK  ] Paul : β ↔ approximation de Dehmelt q/√2 (q = 0,3) : obtenu 0.216059, attendu 0.212132 (écart 0.00393, seuil 0.0106)
+  [OK  ] Paul : affaissement moyen sous pesanteur ↔ pseudo-potentiel −γ/β² : obtenu -0.0896144, attendu -0.085687 (écart 0.00393, seuil 0.00428)
+  figure : 05_simulations/S06_confinement_em/figures/S06_fig1_champs_requis.png
+  figure : 05_simulations/S06_confinement_em/figures/S06_fig2_penning.png
+  figure : 05_simulations/S06_confinement_em/figures/S06_fig3_paul_mathieu.png
+  figure : 05_simulations/S06_confinement_em/figures/S06_fig4_limites_de_charge.png
+  résultats : 05_simulations/S06_confinement_em/resultats/S06_resultats.json
+  Bilan validation S06_confinement_em : 20/20 tests passés
+S06 terminé.
+=== S07_energie_negative/s07_energie_negative.py ===
+S07 — tests de validation
+  [OK  ] Morris-Thorne (Ellis b = b0²/r) : G^t_t = −8πρ, G^r_r = −8πτ, G^θ_θ = G^φ_φ = 8πp (calcul formel) 
+  [OK  ] Morris-Thorne (bénin b = b0(1 − (r − b0)/a0)²) : G^t_t = −8πρ, G^r_r = −8πτ, G^θ_θ = G^φ_φ = 8πp (calcul formel) 
+  [OK  ] MT (Ellis) : masse exotique ∫ρ dV numérique ↔ −b0c²/(2G) : obtenu -6.73295e+26, attendu -6.73295e+26 (écart 0, seuil 6.73e+18)
+  [OK  ] MT (bénin, a0 = 0,1 m) : même masse exotique −b0c²/(2G), indépendante de a0 : obtenu -6.73295e+26, attendu -6.73295e+26 (écart 1.37e+11, seuil 6.73e+18)
+  [OK  ] MT : tension à la gorge pour b0 = 10 m ≈ 5e40 Pa (5e41 dyn/cm², Morris & Thorne 1988) : obtenu 4.81545e+40, attendu 5e+40 (écart 1.85e+39, seuil 2.5e+39)
+  [OK  ] MT (Ellis) : ∫(ρc² − τ) dV = −(c⁴/G) b0 (quantificateur de Visser-Kar-Dadhich, un côté) : obtenu -1.21026e+44, attendu -1.21026e+44 (écart 0, seuil 1.21e+36)
+  [OK  ] Alcubierre : G^{tt} ≡ −¼[(∂_yF)² + (∂_zF)²] pour tout décalage F (calcul formel) → ρ_E ≤ 0 
+  [OK  ] Alcubierre : énergie par intégrale radiale ↔ intégration 2D cylindrique indépendante : obtenu -2.42187e+44, attendu -2.42187e+44 (écart 2.34e+31, seuil 4.84e+41)
+  [OK  ] Alcubierre : limite de paroi mince E → −(c²v²/12G) R²σ/3 (σR = 24) : obtenu -2.42187e+44, attendu -2.42051e+44 (écart 1.36e+41, seuil 1.21e+42)
+  [OK  ] Alcubierre : profil linéaire par morceaux ↔ formule de Pfenning & Ford (1997) : obtenu -3.63287e+44, attendu -3.63287e+44 (écart 7.92e+28, seuil 3.63e+34)
+  [repère non vérifié — hors décompte] Pfenning & Ford : R = 100 m, Δ = 100 L_P, v = c → masse équivalente [kg] : -6.94296e+62, référence -6.2e+62 → oui — valeur de référence citée de mémoire, absente du résumé en ligne ; écart obtenu 12 % (0,05 décade)
+  [OK  ] Casimir : pression à d = 1 µm ≈ −1,3 mPa : obtenu -0.00130013, attendu -0.0013 (écart 1.26e-07, seuil 1.3e-05)
+  [OK  ] Casimir : u = P/3·… relation u = P/3 (plaques idéales) : obtenu 0.333333, attendu 0.333333 (écart 0, seuil 3.33e-13)
+  figure : 05_simulations/S07_energie_negative/figures/S07_fig1_morris_thorne.png
+  figure : 05_simulations/S07_energie_negative/figures/S07_fig2_alcubierre.png
+  figure : 05_simulations/S07_energie_negative/figures/S07_fig3_comparaison_casimir.png
+  résultats : 05_simulations/S07_energie_negative/resultats/S07_resultats.json
+  Bilan validation S07_energie_negative : 12/12 tests passés ; 1 contrôles, résultats ou repères hors décompte
+S07 terminé.
+=== S08_reconstitution_doc009/s08_reconstitution_doc009.py ===
+S08 — numérisation des ellipses — C204-DOC-009, copie de référence (marinertalk, 318×369 px)
+  anneau G2 (« negative », gauche)     cx=  70.4 cy= 151.6 a=   8.0 b=  67.6  score=0.622  (±0.00 px)
+  anneau G3 (« null », gauche)         cx=  47.5 cy= 151.7 a=   6.8 b=  51.5  score=0.611  (±0.00 px)
+  anneau G4 (« positive », gauche)     cx=  32.5 cy= 151.0 a=   5.5 b=  34.1  score=0.612  (±0.00 px)
+  anneau D2 (« negative », droite)     cx= 268.2 cy= 149.1 a=   6.9 b=  70.3  score=0.573  (±0.00 px)
+  anneau D3 (« null », droite)         cx= 295.3 cy= 147.7 a=   5.4 b=  47.7  score=0.566  (±0.00 px)
+  anneau D4 (« positive », droite)     cx= 308.7 cy= 146.3 a=   5.0 b=  24.7  score=0.551  (±0.01 px)
+  sphéroïde central (enveloppe)        cx= 143.3 cy= 144.4 a=  49.5 b=  30.7  score=0.429  (±0.00 px)
+  grande ellipse extérieure            cx= 170.5 cy= 150.4 a= 144.1 b=  93.8  score=0.224  (±0.01 px)
+  second grand contour E2 (décalé vers la droite) cx= 189.3 cy= 150.4 a= 135.6 b=  92.5  score=0.200  (±0.01 px)
+S08 — test de validation de la méthode et contrôles
+  [OK  ] Méthode : ellipse de synthèse retrouvée (erreur max. sur cx, cy, a, b) [px] : obtenu 0.0358578, attendu 0 (écart 0.0359, seuil 0.3)
+  [OK  ] Inclinaison de l'axe en tirets (numérisation) ≈ −0,7° (lecture à l'œil : −0,6° à −0,8°) : obtenu -0.68526, attendu -0.7 (écart 0.0147, seuil 0.25)
+  [OK  ] Deux singularités détectées sur l'axe (« deux points noirs rapprochés », transcription de l'Équipe A) — x = [133.0, 143.0]
+  [contrôle — hors décompte] Contraste du trait ajusté / fond (anneau G2 (« negative », gauche)) : 5.30679 → oui — attendu > 2
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (anneau G2 (« negative », gauche)) : 1.06181 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [contrôle — hors décompte] Contraste du trait ajusté / fond (anneau G3 (« null », gauche)) : 5.21664 → oui — attendu > 2
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (anneau G3 (« null », gauche)) : 0.519804 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [contrôle — hors décompte] Contraste du trait ajusté / fond (anneau G4 (« positive », gauche)) : 5.22629 → oui — attendu > 2
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (anneau G4 (« positive », gauche)) : 0.984433 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [contrôle — hors décompte] Contraste du trait ajusté / fond (anneau D2 (« negative », droite)) : 4.88887 → oui — attendu > 2
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (anneau D2 (« negative », droite)) : 0.668204 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [contrôle — hors décompte] Contraste du trait ajusté / fond (anneau D3 (« null », droite)) : 4.82957 → oui — attendu > 2
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (anneau D3 (« null », droite)) : 0.787718 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [contrôle — hors décompte] Contraste du trait ajusté / fond (anneau D4 (« positive », droite)) : 4.7056 → oui — attendu > 2
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (anneau D4 (« positive », droite)) : 1.27841 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [contrôle — hors décompte] Contraste du trait ajusté / fond (sphéroïde central (enveloppe)) : 3.66066 → oui — attendu > 2
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (sphéroïde central (enveloppe)) : 1.22433 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (grande ellipse extérieure) : 1.8692 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [contrôle — hors décompte] Écart de l'ajustement à la lecture à l'œil [px] (second grand contour E2 (décalé vers la droite)) : 2.66101 → oui — borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px
+  [résultat — hors décompte] Les sommets des 6 anneaux sont sur une même ellipse E1 : erreur max. de validation croisée par paires [px] : 5.19124 → NON — l'ellipse ajustée à deux paires prédit le rayon de la troisième ; RMS 2.66 px ; RMS des 12 sommets 1.14 px
+  [contrôle — hors décompte] Ancres de l'entonnoir : déplacement max. lors de l'affinage automatique [px] : 1.83498 → oui — borné à ±2 px par la fenêtre de recherche : ne peut pas échouer
+  [OK  ] Équipotentielle : limite h → 0 = cercle (rapport d'axes) : obtenu 1, attendu 1 (écart 1.33e-15, seuil 0.02)
+  [OK  ] Ergosurface de Kerr : rapport d'axes (a = M) = √5 : obtenu 2.23607, attendu 2.23607 (écart 0, seuil 2.24e-12)
+  [OK  ] Test des pôles, synthèse « vraie ellipse » (moyenne de 20 tirages) : l'ellipse ajustée prédit les pôles [px] : obtenu 0.398531, attendu 0 (écart 0.399, seuil 2)
+  [OK  ] Test des pôles, synthèse « vraie ellipse » : l'ergosurface ajustée manque les pôles de plus de 4 px — 7.8 px
+  [OK  ] Test des pôles, synthèse « vraie ergosurface » (moyenne de 20 tirages) : l'ergosurface ajustée prédit les pôles [px] : obtenu 0.969106, attendu 0 (écart 0.969, seuil 2)
+  [OK  ] Test des pôles, synthèse « vraie ergosurface » : l'ellipse ajustée manque les pôles de plus de 4 px — 6.6 px
+  [résultat — hors décompte] Sphéroïde central : erreur de prédiction des pôles, ellipse [px] (référence : meilleure famille physique) : 0.761008, référence 3.44668 → oui — zone déclarée « not to scale » par le document : résultat descriptif
+  [résultat — hors décompte] RMS de la meilleure famille physique rapporté à celui de l'ellipse (minimum sur les deux contours) : 1.01192, référence 1 → oui — {'sphéroïde central (enveloppe)': ('équipotentielle de deux masses (écartement libre)', 1.03), 'grande ellipse extérieure': ('équipotentielle de deux masses (écartement libre)', 1.01)} — un rapport de 1,03 à 1,08 signifie « aussi bien que l'ellipse », non « moins bien » : le RMS ne départage pas les familles à 4 paramètres
+  [contrôle — hors décompte] Méthode abandonnée (score de noirceur) : meilleur score d'une famille physique rapporté à l'ellipse, max. sur les deux cibles : 1.12749, référence 1 — sphéroïde central : « équipotentielle de deux masses » obtient 1.13 fois le score de l'ellipse et passe à 5.5 px (RMS) des points du contour, contre 1.5 px pour l'ellipse ; grande ellipse extérieure : « horizon de Kerr, axe vertical » obtient 0.83 fois le score de l'ellipse et passe à 6.5 px (RMS) des points du contour, contre 1.8 px pour l'ellipse. Un score supérieur ou voisin de celui de l'ellipse s'obtient donc avec une courbe qui ne suit pas le contour (elle longe d'autres traits) : le score de noirceur n'est pas un critère de ressemblance.
+  figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig1_numerisation.png
+  figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig2_familles_physiques.png
+  figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig3_entonnoir_anneaux.png
+  figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig4_methode_abandonnee.png
+  résultats : 05_simulations/S08_reconstitution_doc009/resultats/S08_resultats.json
+  résultats : 05_simulations/S08_reconstitution_doc009/resultats/S08_ellipses_numerisees.csv
+S08 — relance sur les autres copies
+    [pt3] S08 [pt3] — recalage sur la référence : échelles 1.6157 × 1.6165, rotation +0.00°, corrélation 0.9935
+    [pt3] figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig1_numerisation_pt3.png
+    [pt3] figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig2_familles_physiques_pt3.png
+    [pt3] figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig3_entonnoir_anneaux_pt3.png
+    [pt3] figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig4_methode_abandonnee_pt3.png
+    [pt3] Bilan des contrôles S08 [pt3] : 9/9 tests de méthode passés ; 21 contrôles ou résultats hors décompte
+    [doc014] S08 [doc014] — recalage sur la référence : échelles 1.6092 × 1.6109, rotation +0.98°, corrélation 0.9588
+    [doc014] figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig1_numerisation_doc014.png
+    [doc014] figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig2_familles_physiques_doc014.png
+    [doc014] figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig3_entonnoir_anneaux_doc014.png
+    [doc014] figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig4_methode_abandonnee_doc014.png
+    [doc014] Bilan des contrôles S08 [doc014] : 9/9 tests de méthode passés ; 21 contrôles ou résultats hors décompte
+  résultats : 05_simulations/S08_reconstitution_doc009/resultats/S08_comparaison_copies.json
+  résultats : 05_simulations/S08_reconstitution_doc009/resultats/S08_resultats.json
+  1 énoncé(s) sur 12 reçoivent une réponse différente selon la copie : grand contour E1 : l'équipotentielle à écartement libre ajuste nettement moins bien que l'ellipse (RMS > 1,5 fois)
+  figure : 05_simulations/S08_reconstitution_doc009/figures/S08_fig5_comparaison_copies.png
+  Bilan validation S08_reconstitution_doc009 : 9/9 tests passés ; 21 contrôles, résultats ou repères hors décompte
+S08 terminé.
+=== S09_synthese/s09_synthese.py ===
+  [OK  ] Table S01 : P_totale(M) strictement décroissante et τ(M) strictement croissante 
+  [OK  ] Interpolation de M(P = 300 MW, toutes espèces) ↔ inversion exacte de S01 : obtenu 4.96227e+12, attendu 4.96322e+12 (écart 9.54e+08, seuil 2.48e+10)
+  [OK  ] Interpolation de M(τ = 30 ans) ↔ inversion exacte de S01 : obtenu 1.23274e+09, attendu 1.23239e+09 (écart 3.56e+05, seuil 6.16e+06)
+  [OK  ] Monte-Carlo : aucun tirage ne concilie la masse de l'unité avec la puissance ET la pesanteur (fraction) : obtenu 0, attendu 0 (écart 0, seuil 0)
+  [OK  ] Monte-Carlo : l'écart masse de l'unité ↔ masse requise dépasse 8 ordres de grandeur dans TOUS les tirages — minimum = 8.99 décades
+  [OK  ] Monte-Carlo : convergence (fraction d'accord P↔g, moitié 1 ↔ moitié 2) : obtenu 0.35077, attendu 0.3504 (écart 0.00037, seuil 0.00632)
+  [OK  ] Monte-Carlo : médiane de log10 M_g ↔ calcul direct sur grille : obtenu 11.8454, attendu 11.8465 (écart 0.00108, seuil 0.01)
+  figure : 05_simulations/S09_synthese/figures/S09_fig1_monte_carlo_masses.png
+  figure : 05_simulations/S09_synthese/figures/S09_fig2_sensibilite.png
+  figure : 05_simulations/S09_synthese/figures/S09_fig3_echelle_des_ecarts.png
+  résultats : 05_simulations/resultats_globaux.json
+  résultats : 05_simulations/S09_synthese/resultats/S09_resultats.json
+  résultats : 05_simulations/S09_synthese/resultats/S09_tableau_ordres_de_grandeur.csv
+  Bilan validation S09_synthese : 7/7 tests passés
+S09 terminé.

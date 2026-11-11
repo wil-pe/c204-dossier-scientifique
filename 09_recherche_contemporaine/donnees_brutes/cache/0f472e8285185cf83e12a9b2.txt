@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//E0DcAx38Uj0Wnc9OlWG/SvFhqc</id>
+  <title>arXiv Query: search_query=&amp;id_list=1704.05333,1804.00491,1807.04726,1807.07917,1907.13140,2008.06618,2010.07317,2106.05034,1806.02807,1911.06314,2102.01064,2102.00010,2302.07897,2303.15423,2110.14958,gr-qc/0009013,gr-qc/9702026,gr-qc/9707024,gr-qc/9511068,gr-qc/9702049&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=1704.05333,1804.00491,1807.04726,1807.07917,1907.13140,2008.06618,2010.07317,2106.05034,1806.02807,1911.06314,2102.01064,2102.00010,2302.07897,2303.15423,2110.14958,gr-qc/0009013,gr-qc/9702026,gr-qc/9707024,gr-qc/9511068,gr-qc/9702049" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9707024v1</id>
+    <title>Quantum effects in the Alcubierre warp drive spacetime</title>
+    <updated>1997-07-10T18:29:53Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9707024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9707024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The expectation value of the stress-energy tensor of a free conformally invariant scalar field is computed in a two-dimensional reduction of the Alcubierre ``warp drive'' spacetime. The stress-energy is found to diverge if the apparent velocity of the spaceship exceeds the speed of light. If such behavior occurs in four dimensions, then it appears implausible that ``warp drive'' behavior in a spacetime could be engineered, even by an arbitrarily advanced civilization.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-07-10T18:29:53Z</published>
+    <arxiv:comment>9 pages, ReVTeX</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav.14:L183-L188,1997</arxiv:journal_ref>
+    <author>
+      <name>William A. Hiscock</name>
+      <arxiv:affiliation>Montana State University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/14/11/002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/14/11/002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.01064v1</id>
+    <title>Quantum Gravity in the Lab: Teleportation by Size and Traversable Wormholes, Part II</title>
+    <updated>2021-02-01T18:53:49Z</updated>
+    <link href="https://arxiv.org/abs/2102.01064v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.01064v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In [1] we discussed how quantum gravity may be simulated using quantum devices and gave a specific proposal -- teleportation by size and the phenomenon of size-winding. Here we elaborate on what it means to do 'Quantum Gravity in the Lab' and how size-winding connects to bulk gravitational physics and traversable wormholes. Perfect size-winding is a remarkable, fine-grained property of the size wavefunction of an operator; we show from a bulk calculation that this property must hold for quantum systems with a nearly-AdS_2 bulk. We then examine in detail teleportation by size in three systems: the Sachdev-Ye-Kitaev model, random matrices, and spin chains, and discuss prospects for realizing these phenomena in near-term quantum devices.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-01T18:53:49Z</published>
+    <arxiv:comment>50 pages, 14 figures, Part II of arXiv:1911.06314</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum 4, 010321 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Sepehr Nezami</name>
+    </author>
+    <author>
+      <name>Henry W. Lin</name>
+    </author>
+    <author>
+      <name>Adam R. Brown</name>
+    </author>
+    <author>
+      <name>Hrant Gharibyan</name>
+    </author>
+    <author>
+      <name>Stefan Leichenauer</name>
+    </author>
+    <author>
+      <name>Grant Salton</name>
+    </author>
+    <author>
+      <name>Leonard Susskind</name>
+    </author>
+    <author>
+      <name>Brian Swingle</name>
+    </author>
+    <author>
+      <name>Michael Walter</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.4.010321</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.4.010321" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.13140v2</id>
+    <title>Traversable wormholes in AdS and bounds on information transfer</title>
+    <updated>2020-01-17T11:14:59Z</updated>
+    <link href="https://arxiv.org/abs/1907.13140v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.13140v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the amount of information that can be sent through the traversable wormholes of Gao, Jafferis, and Wall. Although we find that the wormhole is open for a proper time shorter than the Planck time, the transmission of a signal through the wormhole can sometimes remain within the semiclassical regime. For black holes with horizons of order the AdS radius, information cannot be reliably sent through the wormhole. However, black holes with horizon radius much larger than the AdS radius do allow for the transmission of a number of quanta of order the horizon area in AdS units. More information can be sent through the wormhole by increasing the number of light fields contributing to the negative energy. Our bulk computations agree with a boundary analysis based on quantum teleportation.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-30T18:00:02Z</published>
+    <arxiv:comment>41 pages, 6 figures; v2: minor corrections added, published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ben Freivogel</name>
+    </author>
+    <author>
+      <name>Damián A. Galante</name>
+    </author>
+    <author>
+      <name>Dora Nikolakopoulou</name>
+    </author>
+    <author>
+      <name>Antonio Rotundo</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2020)050</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2020)050" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.15423v1</id>
+    <title>Comment on "Comment on "Traversable wormhole dynamics on a quantum processor" "</title>
+    <updated>2023-03-27T17:45:47Z</updated>
+    <link href="https://arxiv.org/abs/2303.15423v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.15423v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We observe that the comment of [1, arXiv:2302.07897] is consistent with [2] on key points: i) the microscopic mechanism of the experimentally observed teleportation is size winding and ii) the system thermalizes and scrambles at the time of teleportation. These properties are consistent with a gravitational interpretation of the teleportation dynamics, as opposed to the late-time dynamics. The objections of [1] concern counterfactual scenarios outside of the experimentally implemented protocol.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-27T17:45:47Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Daniel Jafferis</name>
+    </author>
+    <author>
+      <name>Alexander Zlokapa</name>
+    </author>
+    <author>
+      <name>Joseph D. Lykken</name>
+    </author>
+    <author>
+      <name>David K. Kolchmeyer</name>
+    </author>
+    <author>
+      <name>Samantha I. Davis</name>
+    </author>
+    <author>
+      <name>Nikolai Lauk</name>
+    </author>
+    <author>
+      <name>Hartmut Neven</name>
+    </author>
+    <author>
+      <name>Maria Spiropulu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.07897v1</id>
+    <title>Comment on "Traversable wormhole dynamics on a quantum processor"</title>
+    <updated>2023-02-15T19:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2302.07897v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.07897v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A recent article [Nature 612, 51-55 (2022)] claims to observe traversable wormhole dynamics in an experiment. This claim is based upon performing a teleportation protocol using a Hamiltonian that consists of seven Majorana fermions with five fully-commuting terms. The Hamiltonian is generated via a machine-learning procedure designed to replicate the teleportation behavior of the Sachdev-Ye-Kitaev (SYK) model. The authors claim that the learned Hamiltonian reproduces gravitational dynamics of the SYK model and demonstrates gravitational teleportation through an emergent wormhole. We find: (i) in contrast to these claims, the learned Hamiltonian does not exhibit thermalization; (ii) the teleportation signal only resembles the SYK model for operators that were used in the machine-learning training; (iii) the observed perfect size winding is in fact a generic feature of small-size, fully-commuting models, and does not appear to persist in larger-size fully-commuting models or in non-commuting models at equivalent system sizes</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-15T19:00:02Z</published>
+    <arxiv:comment>5+4 pages, 3+4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Bryce Kobrin</name>
+    </author>
+    <author>
+      <name>Thomas Schuster</name>
+    </author>
+    <author>
+      <name>Norman Y. Yao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.06314v2</id>
+    <title>Quantum Gravity in the Lab: Teleportation by Size and Traversable Wormholes</title>
+    <updated>2021-02-01T05:42:50Z</updated>
+    <link href="https://arxiv.org/abs/1911.06314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.06314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the long-term goal of studying models of quantum gravity in the lab, we propose holographic teleportation protocols that can be readily executed in table-top experiments. These protocols exhibit similar behavior to that seen in the recent traversable wormhole constructions of [1,2]: information that is scrambled into one half of an entangled system will, following a weak coupling between the two halves, unscramble into the other half. We introduce the concept of teleportation by size to capture how the physics of operator-size growth naturally leads to information transmission. The transmission of a signal through a semi-classical holographic wormhole corresponds to a rather special property of the operator-size distribution we call size winding. For more general systems (which may not have a clean emergent geometry), we argue that imperfect size winding is a generalization of the traversable wormhole phenomenon. In addition, a form of signalling continues to function at high temperature and at large times for generic chaotic systems, even though it does not correspond to a signal going through a geometrical wormhole, but rather to an interference effect involving macroscopically different emergent geometries. Finally, we outline implementations feasible with current technology in two experimental platforms: Rydberg atom arrays and trapped ions.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-14T18:55:05Z</published>
+    <arxiv:comment>33 pages, 5 figures. This paper has a companion paper (Part II) by the same authors</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum 4, 010320 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Adam R. Brown</name>
+    </author>
+    <author>
+      <name>Hrant Gharibyan</name>
+    </author>
+    <author>
+      <name>Stefan Leichenauer</name>
+    </author>
+    <author>
+      <name>Henry W. Lin</name>
+    </author>
+    <author>
+      <name>Sepehr Nezami</name>
+    </author>
+    <author>
+      <name>Grant Salton</name>
+    </author>
+    <author>
+      <name>Leonard Susskind</name>
+    </author>
+    <author>
+      <name>Brian Swingle</name>
+    </author>
+    <author>
+      <name>Michael Walter</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.4.010320</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.4.010320" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9511068v6</id>
+    <title>Hyperfast Interstellar Travel in General Relativity</title>
+    <updated>1998-03-09T17:10:32Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9511068v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9511068v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The problem is discussed of whether a traveller can reach a remote object and return back sooner than a photon would when taken into account that the traveller can partly control the geometry of his world. It is argued that under some reasonable assumptions in globally hyperbolic spacetimes the traveller cannot hasten reaching the destination. Nevertheless, it is perhaps possible for him to make an arbitrarily long round-trip within an arbitrarily short (from the point of view of a terrestrial observer) time.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-11-25T14:42:09Z</published>
+    <arxiv:comment>The final version, close to (but better than) what will be published in Phys. Rev. D. The explanatory part is made more detailed</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev. D57 (1998) 4760-4766</arxiv:journal_ref>
+    <author>
+      <name>S. V. Krasnikov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.57.4760</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.57.4760" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0009013v1</id>
+    <title>The warp drive: hyper-fast travel within general relativity</title>
+    <updated>2000-09-05T13:43:24Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0009013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0009013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is shown how, within the framework of general relativity and without the introduction of wormholes, it is possible to modify a spacetime in a way that allows a spaceship to travel with an arbitrarily large speed. By a purely local expansion of spacetime behind the spaceship and an opposite contraction in front of it, motion faster than the speed of light as seen by observers outside the disturbed region is possible. The resulting distortion is reminiscent of the ``warp drive'' of science fiction. However, just as it happens with wormholes, exotic matter will be needed in order to generate a distortion of spacetime like the one discussed here.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-09-05T13:43:24Z</published>
+    <arxiv:comment>10 pages, 1 figure. Not previously available in gr-qc</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav.11:L73-L77,1994</arxiv:journal_ref>
+    <author>
+      <name>Miguel Alcubierre</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/11/5/001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/11/5/001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.04726v3</id>
+    <title>Traversable wormholes in four dimensions</title>
+    <updated>2020-11-03T21:27:24Z</updated>
+    <link href="https://arxiv.org/abs/1807.04726v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.04726v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a wormhole solution in four dimensions. It is a solution of an Einstein Maxwell theory plus charged massless fermions. The fermions give rise to a negative Casimir-like energy, which makes the wormhole possible. It is a long wormhole that does not lead to causality violations in the ambient space. It can be viewed as a pair of entangled near extremal black holes with an interaction term generated by the exchange of fermion fields. The solution can be embedded in the Standard Model by making its overall size small compared to the electroweak scale.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-12T17:03:58Z</published>
+    <arxiv:comment>28+10 pages, 8 figures. v2: Further restriction on the regime of validity in section 5.5. References added v3: minor typos</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Juan Maldacena</name>
+    </author>
+    <author>
+      <name>Alexey Milekhin</name>
+    </author>
+    <author>
+      <name>Fedor Popov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.07317v2</id>
+    <title>Traversable wormholes in Einstein-Dirac-Maxwell theory</title>
+    <updated>2021-03-12T14:39:56Z</updated>
+    <link href="https://arxiv.org/abs/2010.07317v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.07317v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a specific example of a class of traversable wormholes in Einstein-Dirac-Maxwell theory in four spacetime dimensions, without needing any form of exotic matter. Restricting to a model with two massive fermions in a singlet spinor state, we show the existence of spherically symmetric asymptotically flat configurations which are free of singularities, representing localized states. These solutions satisfy a generalized Smarr relation, being connected with the extremal Reissner-Nordström black holes. They also possess a finite mass $M$ and electric charge $Q_e$, with $Q_e/M&gt;1$. An exact wormhole solution with ungauged, massless fermions is also reported.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-14T18:00:09Z</published>
+    <arxiv:comment>5 pages, 4 figures, version accepted for publication in PRL</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 126, 101102 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Jose Luis Blázquez-Salcedo</name>
+    </author>
+    <author>
+      <name>Christian Knoll</name>
+    </author>
+    <author>
+      <name>Eugen Radu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.126.101102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.126.101102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05034v4</id>
+    <title>Traversable Wormholes in General Relativity</title>
+    <updated>2022-03-04T18:06:08Z</updated>
+    <link href="https://arxiv.org/abs/2106.05034v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.05034v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In [J. Blazquez-Salcedo, C. Knoll, E. Radu, Phys. Rev. Lett. 126 (2021) no.10, 101102] asymptotically flat traversable wormhole solutions were obtained in the Einstein-Dirac-Maxwell theory without using phantom matter. The normalizable numerical solutions found therein require a peculiar behavior at the throat: the mirror symmetry relatively the throat leads to the nonsmoothness of gravitational and matter fields. In particular, one must postulate changing of the sign of the fermionic charge density at the throat, requiring coexistence of particle and antiparticles without annihilation and posing a membrane of matter at the throat with specific properties. Apparently this kind of configuration could not exist in nature. We show that there are wormhole solutions, which are asymmetric relative the throat and endowed by smooth gravitational and matter fields, thereby being free from all the above problems. This indicates that such wormhole configurations could also be supported in a realistic scenario.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-09T12:47:20Z</published>
+    <arxiv:comment>(title changed)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 128, 091104 (2022)</arxiv:journal_ref>
+    <author>
+      <name>R. A. Konoplya</name>
+    </author>
+    <author>
+      <name>A. Zhidenko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.128.091104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.128.091104" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.05333v1</id>
+    <title>Diving into traversable wormholes</title>
+    <updated>2017-04-18T13:29:07Z</updated>
+    <link href="https://arxiv.org/abs/1704.05333v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.05333v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study various aspects of wormholes that are made traversable by an interaction beween the two asymptotic boundaries. We concentrate on the case of nearly-$AdS_2$ gravity and discuss a very simple mechanical picture for the gravitational dynamics. We derive a formula for the two sided correlators that includes the effect of gravitational backreaction, which limits the amount of information we can send through the wormhole. We emphasize that the process can be viewed as a teleportation protocol where the teleportee feels nothing special as he/she goes through the wormhole. We discuss some applications to the cloning paradox for old black holes. We point out that the same formula we derived for $AdS_2$ gravity is also valid for the simple SYK quantum mechanical theory, around the thermofield double state. We present a heuristic picture for this phenomenon in terms of an operator growth model. Finally, we show that a similar effect is present in a completely classical chaotic system with a large number of degrees of freedom.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-18T13:29:07Z</published>
+    <arxiv:comment>36+16 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Juan Maldacena</name>
+    </author>
+    <author>
+      <name>Douglas Stanford</name>
+    </author>
+    <author>
+      <name>Zhenbin Yang</name>
+    </author>
+    <arxiv:doi>10.1002/prop.201700034</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/prop.201700034" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.07917v3</id>
+    <title>A perturbative perspective on self-supporting wormholes</title>
+    <updated>2019-08-09T16:47:02Z</updated>
+    <link href="https://arxiv.org/abs/1807.07917v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.07917v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a class of wormholes that generically become traversable after incorporating gravitational back-reaction from linear quantum fields satisfying appropriate (periodic or anti-periodic) boundary conditions around a non-contractible cycle, but with natural boundary conditions at infinity (i.e., without additional boundary interactions). The class includes both asymptotically flat and asymptotically AdS examples. Simple asymptotically AdS$_3$ or asymptotically AdS$_3 \times S^1$ examples with a single periodic scalar field are then studied in detail. When the examples admit a smooth extremal limit, our perturbative analysis indicates the back-reacted wormhole remains traversable at later and later times as this limit is approached. This suggests that a fully non-perturbative treatment would find a self-supporting eternal traversable wormhole. While the general case remains to be analyzed in detail, the likely relation of the above effect to other known instabilities of extreme black holes may make the construction of eternal traversable wormholes more straightforward than previously expected.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-20T16:14:24Z</published>
+    <arxiv:comment>Minor corrections (including fixing a factor of 2 in several formulas/plots)</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 36 (2019) 045006</arxiv:journal_ref>
+    <author>
+      <name>Zicao Fu</name>
+    </author>
+    <author>
+      <name>Brianna Grado-White</name>
+    </author>
+    <author>
+      <name>Donald Marolf</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/aafcea</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/aafcea" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.06618v2</id>
+    <title>Humanly traversable wormholes</title>
+    <updated>2020-11-03T21:17:05Z</updated>
+    <link href="https://arxiv.org/abs/2008.06618v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.06618v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We point out that there can be humanly traversable wormhole solutions in some previously considered theories for physics beyond the Standard Model, namely the Randall-Sundrum model.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-15T01:13:38Z</published>
+    <arxiv:comment>15+3 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 103, 066007 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Juan Maldacena</name>
+    </author>
+    <author>
+      <name>Alexey Milekhin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.103.066007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.103.066007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.14958v2</id>
+    <title>Wormholes &amp; Holography: An Introduction</title>
+    <updated>2022-06-04T18:12:06Z</updated>
+    <link href="https://arxiv.org/abs/2110.14958v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.14958v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wormholes are intriguing classical solutions in General Relativity, that have fascinated theoretical physicists for decades. In recent years, especially in Holography, gravitationalWormhole geometries have found a new life in many theoretical ideas related to quantum aspects of gravity. These ideas primarily revolve around aspects of quantum entanglement and quantum information in (semi-classical) gravity. This is an introductory and pedagogical review of Wormholes and their recent applications in Gauge-Gravity duality and related ideas.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-28T08:58:02Z</published>
+    <arxiv:comment>89 pages, multiple figures. Improved discussions, especially section 2. Minor errors corrected, typos fixed. Published in EPJC</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Arnab Kundu</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-022-10376-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-022-10376-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.00010v2</id>
+    <title>Many-body quantum teleportation via operator spreading in the traversable wormhole protocol</title>
+    <updated>2022-08-05T21:22:29Z</updated>
+    <link href="https://arxiv.org/abs/2102.00010v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.00010v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By leveraging shared entanglement between a pair of qubits, one can teleport a quantum state from one particle to another. Recent advances have uncovered an intrinsically many-body generalization of quantum teleportation, with an elegant and surprising connection to gravity. In particular, the teleportation of quantum information relies on many-body dynamics, which originate from strongly-interacting systems that are holographically dual to gravity; from the gravitational perspective, such quantum teleportation can be understood as the transmission of information through a traversable wormhole. Here, we propose and analyze a new mechanism for many-body quantum teleportation -- dubbed peaked-size teleportation. Intriguingly, peaked-size teleportation utilizes precisely the same type of quantum circuit as traversable wormhole teleportation, yet has a completely distinct microscopic origin: it relies upon the spreading of local operators under generic thermalizing dynamics and not gravitational physics. We demonstrate the ubiquity of peaked-size teleportation, both analytically and numerically, across a diverse landscape of physical systems, including random unitary circuits, the Sachdev-Ye-Kitaev model (at high temperatures), one-dimensional spin chains and a bulk theory of gravity with stringy corrections. Our results pave the way towards using many-body quantum teleportation as a powerful experimental tool for: (i) characterizing the size distributions of operators in strongly-correlated systems and (ii) distinguishing between generic and intrinsically gravitational scrambling dynamics. To this end, we provide a detailed experimental blueprint for realizing many-body quantum teleportation in both trapped ions and Rydberg atom arrays; effects of decoherence and experimental imperfections are analyzed.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-29T19:00:01Z</published>
+    <arxiv:comment>41 + 24 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Physical Review X 12, 031013 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Thomas Schuster</name>
+    </author>
+    <author>
+      <name>Bryce Kobrin</name>
+    </author>
+    <author>
+      <name>Ping Gao</name>
+    </author>
+    <author>
+      <name>Iris Cong</name>
+    </author>
+    <author>
+      <name>Emil T. Khabiboulline</name>
+    </author>
+    <author>
+      <name>Norbert M. Linke</name>
+    </author>
+    <author>
+      <name>Mikhail D. Lukin</name>
+    </author>
+    <author>
+      <name>Christopher Monroe</name>
+    </author>
+    <author>
+      <name>Beni Yoshida</name>
+    </author>
+    <author>
+      <name>Norman Y. Yao</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevX.12.031013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevX.12.031013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.02807v2</id>
+    <title>Verified Quantum Information Scrambling</title>
+    <updated>2018-06-18T16:21:16Z</updated>
+    <link href="https://arxiv.org/abs/1806.02807v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.02807v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum scrambling is the dispersal of local information into many-body quantum entanglements and correlations distributed throughout the entire system. This concept underlies the dynamics of thermalization in closed quantum systems, and more recently has emerged as a powerful tool for characterizing chaos in black holes. However, the direct experimental measurement of quantum scrambling is difficult, owing to the exponential complexity of ergodic many-body entangled states. One way to characterize quantum scrambling is to measure an out-of-time-ordered correlation function (OTOC); however, since scrambling leads to their decay, OTOCs do not generally discriminate between quantum scrambling and ordinary decoherence. Here, we implement a quantum circuit that provides a positive test for the scrambling features of a given unitary process. This approach conditionally teleports a quantum state through the circuit, providing an unambiguous litmus test for scrambling while projecting potential circuit errors into an ancillary observable. We engineer quantum scrambling processes through a tunable 3-qubit unitary operation as part of a 7-qubit circuit on an ion trap quantum computer. Measured teleportation fidelities are typically $\sim80\%$, and enable us to experimentally bound the scrambling-induced decay of the corresponding OTOC measurement.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-07T17:35:04Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature 567 61-65 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Kevin A. Landsman</name>
+    </author>
+    <author>
+      <name>Caroline Figgatt</name>
+    </author>
+    <author>
+      <name>Thomas Schuster</name>
+    </author>
+    <author>
+      <name>Norbert M. Linke</name>
+    </author>
+    <author>
+      <name>Beni Yoshida</name>
+    </author>
+    <author>
+      <name>Norman Y. Yao</name>
+    </author>
+    <author>
+      <name>Christopher Monroe</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-0952-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-0952-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.00491v3</id>
+    <title>Eternal traversable wormhole</title>
+    <updated>2018-10-15T20:04:02Z</updated>
+    <link href="https://arxiv.org/abs/1804.00491v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.00491v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a nearly-$AdS_2$ solution describing an eternal traversable wormhole. The solution contains negative null energy generated by quantum fields under the influence of an external coupling between the two boundaries. In parallel, we discuss two SYK systems coupled by a relevant interaction. The physics of the two cases is very similar. They both share a "gravitational" subsector which is identical. The solution within this subsector sets the stage for dynamics which is almost conformal invariant. We study this system in detail, both in gravity and in the SYK model. The coupled SYK models have an interesting phase diagram at finite temperature, displaying the usual Hawking-Page transition between the thermal AdS phase at low temperature and the black hole phase at high temperature. Interestingly, these two phases are continuously connected in the microcannonical ensemble.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-02T13:43:44Z</published>
+    <arxiv:comment>50 +21 pages. 23 figures. V2: Slightly expanded discussion of the thermal phases. References added. V3 Latex issue fixed</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Juan Maldacena</name>
+    </author>
+    <author>
+      <name>Xiao-Liang Qi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9702049v1</id>
+    <title>A Superluminal Subway: The Krasnikov Tube</title>
+    <updated>1997-02-25T00:22:54Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9702049v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9702049v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The ``warp drive'' metric recently presented by Alcubierre has the problem that an observer at the center of the warp bubble is causally separated from the outer edge of the bubble wall. Hence such an observer can neither create a warp bubble on demand nor control one once it has been created. In addition, such a bubble requires negative energy densities. One might hope that elimination of the first problem might ameliorate the second as well. We analyze and generalize a metric, originally proposed by Krasnikov for two spacetime dimensions, which does not suffer from the first difficulty. As a consequence, the Krasnikov metric has the interesting property that although the time for a one-way trip to a distant star cannot be shortened, the time for a round trip, as measured by clocks on Earth, can be made arbitrarily short. In our four dimensional extension of this metric, a ``tube'' is constructed along the path of an outbound spaceship, which connects the Earth and the star. Inside the tube spacetime is flat, but the light cones are opened out so as to allow superluminal travel in one direction. We show that, although a single Krasnikov tube does not involve closed timelike curves, a time machine can be constructed with a system of two non-overlapping tubes. Furthermore, it is demonstrated that Krasnikov tubes, like warp bubbles and traversable wormholes, also involve unphysically thin layers of negative energy density, as well as large total negative energies, and therefore probably cannot be realized in practice.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-02-25T00:22:54Z</published>
+    <arxiv:comment>20 pages, LATEX, 5 eps figures, uses \epsf</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 56, 2100 (1997)</arxiv:journal_ref>
+    <author>
+      <name>Allen E. Everett</name>
+    </author>
+    <author>
+      <name>Thomas A. Roman</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.56.2100</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.56.2100" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9702026v3</id>
+    <title>The unphysical nature of "Warp Drive"</title>
+    <updated>2001-03-15T16:47:53Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9702026v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9702026v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We will apply the quantum inequality type restrictions to Alcubierre's warp drive metric on a scale in which a local region of spacetime can be considered ``flat''. These are inequalities that restrict the magnitude and extent of the negative energy which is needed to form the warp drive metric. From this we are able to place limits on the parameters of the ``Warp Bubble''. It will be shown that the bubble wall thickness is on the order of only a few hundred Planck lengths. Then we will show that the total integrated energy density needed to maintain the warp metric with such thin walls is physically unattainable.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-02-13T23:24:10Z</published>
+    <arxiv:comment>11 pages, 3 figures, latex. This revision corrects a typographical sign error in Eq. (3)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav. 14 (1997) 1743-1751</arxiv:journal_ref>
+    <author>
+      <name>Michael J. Pfenning</name>
+    </author>
+    <author>
+      <name>L. H. Ford</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/14/7/011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/14/7/011" title="doi"/>
+  </entry>
+</feed>

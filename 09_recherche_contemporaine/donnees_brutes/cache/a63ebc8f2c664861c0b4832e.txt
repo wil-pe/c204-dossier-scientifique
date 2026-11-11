@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qv2eAXF67AcRAtos2NXeC12+9wc</id>
+  <title>arXiv Query: search_query=ti:"closed timelike curves" AND ti:Kerr&amp;id_list=&amp;start=0&amp;max_results=8</title>
+  <updated>2026-11-11T02:58:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22closed+timelike+curves%22+AND+ti:Kerr&amp;start=0&amp;max_results=8&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0207014v2</id>
+    <title>Removal of Closed Timelike Curves in Kerr-Newman Spacetime</title>
+    <updated>2002-07-03T06:56:51Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0207014v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0207014v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A simple yet systematic new algorithm to investigate the global structure of Kerr-Newman spacetime is suggested. Namely, the global structure of θ=const. timelike submanifolds of Kerr-Newman metric are studied by introducing a new time coordinate slightly different from the usual Boyer-Lindquist time coordinate. In addition, it is demonstrated that the possible causality violation thus far regarded to occur near the ring singularity via the development of closed timelike curves there is not really an unavoidable pathology which has plagued the Kerr-Newman solution but simply a gauge (coordinate) artifact as it disappears upon transforming from Boyer-Lindquist to the new time coordinate. This last point appears to lend support to the fact that, indeed, the Kerr-Newman spacetime is a legitimate solution to represent the interior as well as the exterior regions of a rotating, charged black hole spacetime.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-07-02T09:08:16Z</published>
+    <arxiv:comment>14 pages, Revtex, Typos corrected</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Hongsu Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.7082v2</id>
+    <title>Kerr-Newman Solutions with Analytic Singularity and no Closed Timelike Curves</title>
+    <updated>2012-03-06T16:11:25Z</updated>
+    <link href="https://arxiv.org/abs/1111.7082v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.7082v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is shown that the Kerr-Newman solution, representing charged and rotating stationary black holes, admits analytic extension at the singularity. This extension is obtained by using new coordinates, in which the metric tensor becomes smooth on the singularity ring. On the singularity, the metric is degenerale - its determinant cancels. The analytic extension can be naturally chosen so that the region with negative r no longer exists, eliminating by this the closed timelike curves normally present in the Kerr and Kerr-Newman solutions. On the extension proposed here the electromagnetic potential is smooth, being thus able to provide non-singular models of charged spinning particles. The maximal analytic extension of this solution can be restrained to a globally hyperbolic region containing the exterior universe, having the same topology as the Minkowski spacetime. This admits a spacelike foliation in Cauchy hypersurfaces, on which the information contained in the initial data is preserved.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-30T08:53:33Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>U.P.B. Sci Bull. Series A, 77(1) (2015)</arxiv:journal_ref>
+    <author>
+      <name>Ovidiu-Cristinel Stoica</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.02697v1</id>
+    <title>On the role of closed timelike curves and confinement structure around Kerr-Newman singularity</title>
+    <updated>2024-06-04T18:21:22Z</updated>
+    <link href="https://arxiv.org/abs/2406.02697v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.02697v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study, the particle motion around the naked singularity and black hole of Kerr-Newman spacetime is investigated with a special attention on the closed timelike orbits. It is found that both in the naked singularity (NS) and in black hole (BH), the singularity is concealed by causality violating regions, and the Cauchy surface consistently resides inside the inner horizon in non-extremal black holes. For neutral particles and particles with an identical charge to the source, only particles with positive angular momentum are permitted to traverse the closed timelike curves. Conversely, for particles with the opposite charge to the source, the strong Coulomb attraction draws all particles inside the Cauchy surface, allowing them to be present in the closed timelike curves irrespective of their angular momentum. However, in both the NS and BH (both extremal and non-extremal), test particles are confined at a considerable distance from the singular point such that there always exists an empty region surrounding the singularity which prevents particles from interacting with it. The radius of the empty surface that depends on the source parameters and the particle characteristics, is investigated with an accurate expression.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-04T18:21:22Z</published>
+    <arxiv:comment>17 pages, 9 figures, accepted in IJMPD</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Int. J. Mod. Phys. D 33, 2450034 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Ayanendu Dutta</name>
+    </author>
+    <author>
+      <name>Dhritimalya Roy</name>
+    </author>
+    <author>
+      <name>Subenoy Chakraborty</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271824500342</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271824500342" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.02116v2</id>
+    <title>A speculative model for cyclic information preservation in Kerr-Newman spacetime using closed timelike curves</title>
+    <updated>2024-08-08T15:44:49Z</updated>
+    <link href="https://arxiv.org/abs/2408.02116v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.02116v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a speculative model exploring the behavior of quantum information for particles entering closed timelike curves (CTCs) in Kerr-Newman spacetime. We apply Gavassino's restoration principle to derive a theoretical framework for cyclic information dynamics within these extreme gravitational environments. Our model focuses specifically on particles that enter CTCs near the inner horizon of a Kerr-Newman black hole, examining how such curves might affect quantum state evolution, entanglement preservation, and information retention.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-04T19:09:43Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Aviral Damle</name>
+    </author>
+    <author>
+      <name>Thomas Law</name>
+    </author>
+  </entry>
+</feed>

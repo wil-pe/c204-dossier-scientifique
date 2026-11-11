@@ -1,0 +1,9 @@
+spin 0: P/ddl = 7.4387e-05 hbar c^6/(G²M²) ; pic de puissance à E/kT ≈ 2.92   [36 s]
+spin 0.5: P/ddl = 4.0916e-05 hbar c^6/(G²M²) ; pic de puissance à E/kT ≈ 4.54   [35 s]
+spin 1: P/ddl = 1.6819e-05 hbar c^6/(G²M²) ; pic de puissance à E/kT ≈ 6.04   [34 s]
+spin 2: P/ddl = 1.9184e-06 hbar c^6/(G²M²) ; pic de puissance à E/kT ≈ 9.16   [32 s]
+0 {'P_par_ddl': 7.4387e-05, 'pic_puissance_E_sur_kT': 2.921, 'equipe_B': 7.439e-05, 'ecart_vs_B_pct': np.float64(-0.005)}
+0.5 {'P_par_ddl': 4.0916e-05, 'pic_puissance_E_sur_kT': 4.543, 'equipe_B': 4.092e-05, 'ecart_vs_B_pct': np.float64(-0.009), 'Page1976_par_ddl': 4.0924e-05, 'ecart_vs_Page_pct': np.float64(-0.019)}
+1 {'P_par_ddl': 1.6819e-05, 'pic_puissance_E_sur_kT': 6.041, 'equipe_B': 1.682e-05, 'ecart_vs_B_pct': np.float64(-0.004), 'Page1976_par_ddl': 1.6792e-05, 'ecart_vs_Page_pct': np.float64(0.163)}
+2 {'P_par_ddl': 1.9184e-06, 'pic_puissance_E_sur_kT': 9.161, 'equipe_B': 1.918e-06, 'ecart_vs_B_pct': np.float64(0.019), 'Page1976_par_ddl': 1.9105e-06, 'ecart_vs_Page_pct': np.float64(0.415)}
+.venv/bin/python 08_red_team/calculs2/03_corps_gris_independant.py  135.04s user 2.14s system 99% cpu 2:18.19 total

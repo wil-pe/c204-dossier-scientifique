@@ -1,0 +1,10 @@
+# Passe 4 : DOI (de mémoire) des versions publiées de notices arXiv dont le titre publié diffère du titre arXiv.
+# Clé = clé de la notice arXiv + "__pub". Un échec laisse la notice en « prépublication arXiv ».
+Westphal21__pub|7|doi|10.1038/s41586-021-03250-7|measurement of gravitational coupling between millimetre-sized masses|Westphal
+Lesovik19__pub|6|doi|10.1038/s41598-019-40765-6|arrow of time and its reversal on the ibm quantum computer|Lesovik
+BACON21__pub|8|doi|10.1038/s41586-021-03253-4|frequency ratio measurements at 18-digit accuracy|
+Ushijima15__pub|8|doi|10.1038/nphoton.2015.5|cryogenic optical lattice clocks|Ushijima
+Elwell24__pub|8|doi|10.1103/PhysRevLett.133.013201|laser excitation of the|Elwell
+Fermi18__pub|1|doi|10.3847/1538-4357/aaac7b|search for gamma-ray emission from local primordial black holes|
+TT17__pub|6|doi|10.1088/1361-6382/aa6549|traversable acausal retrograde domains in spacetime|Tippett
+DRS14__pub|3|doi|10.4007/annals.2016.183.3.2|decay for solutions of the wave equation on kerr exterior spacetimes iii|Dafermos

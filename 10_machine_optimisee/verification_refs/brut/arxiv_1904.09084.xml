@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZcyXG50ip49B9cuxuisuhV0zQ7Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=1904.09084&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:48:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1904.09084" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1904.09084v4</id>
+    <title>Gravity surveys using a mobile atom interferometer</title>
+    <updated>2019-07-29T21:38:03Z</updated>
+    <link href="https://arxiv.org/abs/1904.09084v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.09084v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mobile gravimetry is important in metrology, navigation, geodesy, and geophysics. Atomic gravimeters could be among the most accurate mobile gravimeters, but are currently constrained by being complex and fragile. Here, we demonstrate a mobile atomic gravimeter, measuring tidal gravity variations in the laboratory as well as surveying gravity in the field. The tidal gravity measurements achieve a sensitivity of 37 $μ$Gal/$\sqrt{\rm Hz}$ and a long-term stability of better than 2 $μ$Gal, revealing ocean tidal loading effects and recording several distant earthquakes. We survey gravity in the Berkeley Hills with an accuracy of around 0.04 mGal and determine the density of the subsurface rocks from the vertical gravity gradient. With simplicity and sensitivity, our instrument paves the way for bringing atomic gravimeters to field applications.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-19T05:31:03Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>2019</arxiv:journal_ref>
+    <author>
+      <name>Xuejian Wu</name>
+    </author>
+    <author>
+      <name>Zachary Pagel</name>
+    </author>
+    <author>
+      <name>Bola S. Malek</name>
+    </author>
+    <author>
+      <name>Timothy H. Nguyen</name>
+    </author>
+    <author>
+      <name>Fei Zi</name>
+    </author>
+    <author>
+      <name>Daniel S. Scheirer</name>
+    </author>
+    <author>
+      <name>Holger Müller</name>
+    </author>
+    <arxiv:doi>10.1126/sciadv.aax0800</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/sciadv.aax0800" title="doi"/>
+  </entry>
+</feed>

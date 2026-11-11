@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q+7DXAR3Ow4xxtqWXDIuk3CvqCc</id>
+  <title>arXiv Query: search_query=&amp;id_list=gr-qc/9805003,gr-qc/9905084,gr-qc/0110086,gr-qc/0406083,0904.0141,2103.05610,2006.07125,2102.06824,2104.06488,2105.03079,2205.15950,2404.03095,2405.02709,2406.02466,gr-qc/9603012,gr-qc/0204022,gr-qc/0111054,hep-th/0212087,hep-th/0302052,hep-th/0411203&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=gr-qc/9805003,gr-qc/9905084,gr-qc/0110086,gr-qc/0406083,0904.0141,2103.05610,2006.07125,2102.06824,2104.06488,2105.03079,2205.15950,2404.03095,2405.02709,2406.02466,gr-qc/9603012,gr-qc/0204022,gr-qc/0111054,hep-th/0212087,hep-th/0302052,hep-th/0411203" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9805003v2</id>
+    <title>Superluminal travel requires negative energies</title>
+    <updated>1998-10-14T18:55:32Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9805003v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9805003v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I investigate the relationship between faster-than-light travel and weak-energy-condition violation, i.e., negative energy densities. In a general spacetime it is difficult to define faster-than-light travel, and I give an example of a metric which appears to allow superluminal travel, but in fact is just flat space. To avoid such difficulties, I propose a definition of superluminal travel which requires that the path to be traveled reach a destination surface at an earlier time than any neighboring path. With this definition (and assuming the generic condition) I prove that superluminal travel requires weak-energy-condition violation.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-05-01T19:39:39Z</published>
+    <arxiv:comment>5 pages, RevTeX, 2 figures with epsf. This paper now contains all the material of gr-qc/6805003 and gr-qc/9806091 since these became a single article in Phys. Rev. Lett</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett. 81 (1998) 3567-3570</arxiv:journal_ref>
+    <author>
+      <name>Ken D. Olum</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.81.3567</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.81.3567" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0406083v2</id>
+    <title>Fundamental limitations on "warp drive" spacetimes</title>
+    <updated>2004-10-31T13:32:19Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0406083v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0406083v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  "Warp drive" spacetimes are useful as "gedanken-experiments" that force us to confront the foundations of general relativity, and among other things, to precisely formulate the notion of "superluminal" communication. We verify the non-perturbative violation of the classical energy conditions of the Alcubierre and Natario warp drive spacetimes and apply linearized gravity to the weak-field warp drive, testing the energy conditions to first and second order of the non-relativistic warp-bubble velocity. We are primarily interested in a secondary feature of the warp drive that has not previously been remarked upon, if it could be built, the warp drive would be an example of a "reaction-less drive". For both the Alcubierre and Natario warp drives we find that the occurrence of significant energy condition violations is not just a high-speed effect, but that the violations persist even at arbitrarily low speeds.
+  An interesting feature of this construction is that it is now meaningful to place a finite mass spaceship at the center of the warp bubble, and compare the warp field energy with the mass-energy of the spaceship. There is no hope of doing this in Alcubierre's original version of the warp-field, since by definition the point in the center of the warp bubble moves on a geodesic and is "massless". That is, in Alcubierre's original formalism and in the Natario formalism the spaceship is always treated as a test particle, while in the linearized theory we can treat the spaceship as a finite mass object. For both the Alcubierre and Natario warp drives we find that even at low speeds the net (negative) energy stored in the warp fields must be a significant fraction of the mass of the spaceship.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-21T11:07:42Z</published>
+    <arxiv:comment>18 pages, Revtex4. V2: one reference added, some clarifying comments and discussion, no physics changes, accepted for publication in Classical and Quantum Gravity</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav. 21 (2004) 5871-5892</arxiv:journal_ref>
+    <author>
+      <name>Francisco S. N. Lobo</name>
+    </author>
+    <author>
+      <name>Matt Visser</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/21/24/011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/21/24/011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.02709v1</id>
+    <title>Constant Velocity Physical Warp Drive Solution</title>
+    <updated>2024-05-04T16:44:49Z</updated>
+    <link href="https://arxiv.org/abs/2405.02709v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.02709v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Warp drives are exotic solutions of general relativity that offer novel means of transportation. In this study, we present a solution for a constant-velocity subluminal warp drive that satisfies all of the energy conditions. The solution involves combining a stable matter shell with a shift vector distribution that closely matches well-known warp drive solutions such as the Alcubierre metric. We generate the spacetime metric numerically, evaluate the energy conditions, and confirm that the shift vector distribution cannot be reduced to a coordinate transformation. This study demonstrates that classic warp drive spacetimes can be made to satisfy the energy conditions by adding a regular matter shell with a positive ADM mass.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-04T16:44:49Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Jared Fuchs et al 2024 Class. Quantum Grav. 41 095013</arxiv:journal_ref>
+    <author>
+      <name>Jared Fuchs</name>
+    </author>
+    <author>
+      <name>Christopher Helmerich</name>
+    </author>
+    <author>
+      <name>Alexey Bobrick</name>
+    </author>
+    <author>
+      <name>Luke Sellers</name>
+    </author>
+    <author>
+      <name>Brandon Melcher</name>
+    </author>
+    <author>
+      <name>Gianni Martire</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ad26aa</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ad26aa" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.03079v2</id>
+    <title>Generic warp drives violate the null energy condition</title>
+    <updated>2022-02-25T23:32:51Z</updated>
+    <link href="https://arxiv.org/abs/2105.03079v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.03079v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Three very recent articles have claimed that it is possible to, at least in theory, either set up positive energy warp drives satisfying the weak energy condition (WEC), or at the very least, to minimize the WEC violations. These claims are at best incomplete, since the arguments presented only demonstrate the existence of one set of timelike observers, the co-moving Eulerian observers, who see "nice" physics. While these observers might see a positive energy density, the WEC requires all timelike observers to see positive energy density. Therefore, one should revisit this issue. A more careful analysis shows that the situation is actually much grimmer than advertised -- all physically reasonable warp drives will violate the null energy condition, and so also automatically violate the WEC, and both the strong and dominant energy conditions. While warp drives are certainly interesting examples of speculative physics, the violation of the energy conditions, at least within the framework of standard general relativity, is unavoidable. Even in modified gravity, physically reasonable warp drives will still violate the purely geometrical null convergence condition and the timelike convergence condition which, in turn, will place very strong constraints on any modified-gravity warp drive.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-07T06:25:26Z</published>
+    <arxiv:comment>V1: 37 pages, zero figures, 100 references. V2: 46 pages, one figure, 107 references. (This version closely resembles the final version accepted and in press at PRD.) Arguments clarified and made more precise; no significant change in physics conclusions. Several appendices added</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Jessica Santiago</name>
+      <arxiv:affiliation>Victoria University of Wellington</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sebastian Schuster</name>
+      <arxiv:affiliation>Charles University of Prague</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matt Visser</name>
+      <arxiv:affiliation>Victoria University of Wellington</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.105.064038</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.105.064038" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.06824v2</id>
+    <title>Introducing Physical Warp Drives</title>
+    <updated>2021-02-17T13:48:39Z</updated>
+    <link href="https://arxiv.org/abs/2102.06824v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.06824v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Alcubierre warp drive is an exotic solution in general relativity. It allows for superluminal travel at the cost of enormous amounts of matter with negative mass density. For this reason, the Alcubierre warp drive has been widely considered unphysical. In this study, we develop a model of a general warp drive spacetime in classical relativity that encloses all existing warp drive definitions and allows for new metrics without the most serious issues present in the Alcubierre solution. We present the first general model for subluminal positive-energy, spherically symmetric warp drives; construct superluminal warp-drive solutions which satisfy quantum inequalities; provide optimizations for the Alcubierre metric that decrease the negative energy requirements by two orders of magnitude; and introduce a warp drive spacetime in which space capacity and the rate of time can be chosen in a controlled manner. Conceptually, we demonstrate that any warp drive, including the Alcubierre drive, is a shell of regular or exotic material moving inertially with a certain velocity. Therefore, any warp drive requires propulsion. We show that a class of subluminal, spherically symmetric warp drive spacetimes, at least in principle, can be constructed based on the physical principles known to humanity today.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-12T23:58:39Z</published>
+    <arxiv:comment>Accepted in CQG, comments welcome</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Alexey Bobrick</name>
+    </author>
+    <author>
+      <name>Gianni Martire</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/abdf6e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/abdf6e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.05610v1</id>
+    <title>Warp drive basics</title>
+    <updated>2021-03-09T18:33:07Z</updated>
+    <link href="https://arxiv.org/abs/2103.05610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.05610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>"Warp drive" spacetimes and wormhole geometries are useful as "gedanken-experiments" that force us to confront the foundations of general relativity, and among other issues, to precisely formulate the notion of "superluminal" travel and communication. Here we will consider the basic definition and properties of warp drive spacetimes. In particular, we will discuss the violation of the energy conditions associated with these spacetimes, as well as some other interesting properties such as the appearance of horizons for the superluminal case, and the possibility of using a warp drive to create closed timelike curves. Furthermore, due to the horizon problem, an observer in a spaceship cannot create nor control on demand a warp bubble. To contour this difficulty, we discuss a metric introduced by Krasnikov, which also possesses the interesting property in that the time for a round trip, as measured by clocks at the starting point, can be made arbitrarily short.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-09T18:33:07Z</published>
+    <arxiv:comment>17 pages, 5 figures. Contributed chapter to the book "Wormholes, Warp Drives and Energy Conditions," Fundam. Theor. Phys. 189 (2017) (Part of the Fundamental Theories of Physics book series, Springer Nature). arXiv admin note: substantial text overlap with arXiv:0710.4474; text overlap with arXiv:1008.1127, arXiv:gr-qc/0406083, arXiv:gr-qc/0204038</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Fundam.Theor.Phys. 189 (2017) 257-279</arxiv:journal_ref>
+    <author>
+      <name>Miguel Alcubierre</name>
+    </author>
+    <author>
+      <name>Francisco S. N. Lobo</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-319-55182-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-319-55182-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.0141v2</id>
+    <title>Semiclassical instability of dynamical warp drives</title>
+    <updated>2009-07-14T08:24:58Z</updated>
+    <link href="https://arxiv.org/abs/0904.0141v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.0141v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Warp drives are very interesting configurations in General Relativity: At least theoretically, they provide a way to travel at superluminal speeds, albeit at the cost of requiring exotic matter to exist as solutions of Einstein's equations. However, even if one succeeded in providing the necessary exotic matter to build them, it would still be necessary to check whether they would survive to the switching on of quantum effects. Semiclassical corrections to warp-drive geometries have been analyzed only for eternal warp-drive bubbles traveling at fixed superluminal speeds. Here, we investigate the more realistic case in which a superluminal warp drive is created out of an initially flat spacetime. First of all we analyze the causal structure of eternal and dynamical warp-drive spacetimes. Then we pass to the analysis of the renormalized stress-energy tensor (RSET) of a quantum field in these geometries. While the behavior of the RSET in these geometries has close similarities to that in the geometries associated with gravitational collapse, it shows dramatic differences too. On one side, an observer located at the center of a superluminal warp-drive bubble would generically experience a thermal flux of Hawking particles. On the other side, such Hawking flux will be generically extremely high if the exotic matter supporting the warp drive has its origin in a quantum field satisfying some form of Quantum Inequalities. Most of all, we find that the RSET will exponentially grow in time close to, and on, the front wall of the superluminal bubble. Consequently, one is led to conclude that the warp-drive geometries are unstable against semiclassical back-reaction.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-01T13:06:12Z</published>
+    <arxiv:comment>16 pages, 4 figures, RevTeX4; typos corrected</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D79:124017,2009</arxiv:journal_ref>
+    <author>
+      <name>Stefano Finazzi</name>
+    </author>
+    <author>
+      <name>Stefano Liberati</name>
+    </author>
+    <author>
+      <name>Carlos Barceló</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.79.124017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.79.124017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0212087v2</id>
+    <title>Holographic Protection of Chronology in Universes of the Godel Type</title>
+    <updated>2003-01-22T21:08:59Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0212087v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0212087v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We analyze the structure of supersymmetric Godel-like cosmological solutions of string theory. Just as the original four-dimensional Godel universe, these solutions represent rotating, topologically trivial cosmologies with a homogeneous metric and closed timelike curves. First we focus on "phenomenological" aspects of holography, and identify the preferred holographic screens associated with inertial comoving observers in Godel universes. We find that holography can serve as a chronology protection agency: The closed timelike curves are either hidden behind the holographic screen, or broken by it into causal pieces. In fact, holography in Godel universes has many features in common with de Sitter space, suggesting that Godel universes could represent a supersymmetric laboratory for addressing the conceptual puzzles of de Sitter holography. Then we initiate the investigation of "microscopic" aspects of holography of Godel universes in string theory. We show that Godel universes are T-dual to pp-waves, and use this fact to generate new Godel-like solutions of string and M-theory by T-dualizing known supersymmetric pp-wave solutions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-12-07T09:22:35Z</published>
+    <arxiv:comment>35 pages, 5 figures. v2: typos corrected, references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D67:106003,2003</arxiv:journal_ref>
+    <author>
+      <name>Edward Boyda</name>
+      <arxiv:affiliation>Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Surya Ganguli</name>
+      <arxiv:affiliation>Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Petr Horava</name>
+      <arxiv:affiliation>Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Uday Varadarajan</name>
+      <arxiv:affiliation>Berkeley</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.67.106003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.67.106003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.03095v2</id>
+    <title>Analyzing Warp Drive Spacetimes with Warp Factory</title>
+    <updated>2024-04-10T17:18:19Z</updated>
+    <link href="https://arxiv.org/abs/2404.03095v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.03095v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The field of warp research has been dominated by analytical methods to investigate potential solutions. However, these approaches often favor simple metric forms that facilitate analysis but ultimately limit the range of exploration of novel solutions. So far the proposed solutions have been unphysical, requiring energy condition violations and large energy requirements. To overcome the analytical limitations in warp research, we introduce Warp Factory: a numerical toolkit designed for modeling warp drive spacetimes. By leveraging numerical analysis, Warp Factory enables the examination of general warp drive geometries by evaluating the Einstein field equations and computing energy conditions. Furthermore, this comprehensive toolkit provides the determination of metric scalars and insightful visualizations in both 2D and 3D, offering a deeper understanding of metrics and their corresponding stress-energy tensors. The paper delves into the methodology employed by Warp Factory in evaluating the physicality of warp drive spacetimes and highlights its application in assessing commonly modeled warp drive metrics. By leveraging the capabilities of Warp Factory, we aim to further warp drive research and hopefully bring us closer to realizing physically achievable warp drives.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-03T22:18:49Z</published>
+    <arxiv:comment>36 pages, 22 figures, Accepted in Classical and Quantum Gravity, For supplementary material, see https://doi.org/10.1088/1361-6382/ad2e42</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Christopher Helmerich</name>
+    </author>
+    <author>
+      <name>Jared Fuchs</name>
+    </author>
+    <author>
+      <name>Alexey Bobrick</name>
+    </author>
+    <author>
+      <name>Luke Sellers</name>
+    </author>
+    <author>
+      <name>Brandon Melcher</name>
+    </author>
+    <author>
+      <name>Gianni Martire</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ad2e42</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ad2e42" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0111054v4</id>
+    <title>No time machines in classical general relativity</title>
+    <updated>2014-02-13T09:34:11Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0111054v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0111054v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Irrespective of local conditions imposed on the metric, any extendible spacetime U has a maximal extension containing no closed causal curves outside the chronological past of U. We prove this fact and interpret it as impossibility (in classical general relativity) of the time machines, insofar as the latter are defined to be causality-violating regions created by human beings (as opposed to those appearing spontaneously).</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-11-17T01:25:13Z</published>
+    <arxiv:comment>A corrigendum (to be published in CQG) has been added to correct an important mistake in the definition of locality</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav. 19 (2002) 4109</arxiv:journal_ref>
+    <author>
+      <name>S. Krasnikov</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/19/15/316</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/19/15/316" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0302052v5</id>
+    <title>Chronology Protection in String Theory</title>
+    <updated>2003-08-16T01:53:35Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0302052v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0302052v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Many solutions of General Relativity appear to allow the possibility of time travel. This was initially a fascinating discovery, but geometries of this type violate causality, a basic physical law which is believed to be fundamental. Although string theory is a proposed fundamental theory of quantum gravity, geometries with closed timelike curves have resurfaced as solutions to its low energy equations of motion. In this paper, we will study the class of solutions to low energy effective supergravity theories related to the BMPV black hole and the rotating Wave--D1--D5--brane system. Time travel appears to be possible in these geometries. We will attempt to build the causality violating regions and propose that stringy effects prohibit their construction. We will show how the geometry is corrected and that, once corrected, causality is preserved. We will track our chronology protection proposal in the dual conformal field theory. The absence of closed timelike curves in the geometry coincides with the preservation of unitarity in the conformal field theory. The agent of chronology protection for the geometries studied here mirrors the enhancon mechanism, a mechanism string theory employs to resolve a class of naked singularities.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-02-10T20:27:39Z</published>
+    <arxiv:comment>17 pages. References added, typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP0403:024,2004</arxiv:journal_ref>
+    <author>
+      <name>Lisa Dyson</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2004/03/024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2004/03/024" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.02466v2</id>
+    <title>What no one has seen before: gravitational waveforms from warp drive collapse</title>
+    <updated>2024-07-24T09:22:40Z</updated>
+    <link href="https://arxiv.org/abs/2406.02466v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.02466v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite originating in science fiction, warp drives have a concrete description in general relativity, with Alcubierre first proposing a spacetime metric that supported faster-than-light travel. Whilst there are numerous practical barriers to their implementation in real life, including a requirement for negative energy, computationally, one can simulate their evolution in time given an equation of state describing the matter. In this work, we study the signatures arising from a warp drive "containment failure", assuming a stiff equation of state for the fluid. We compute the emitted gravitational-wave signal and track the energy fluxes of the fluid. Apart from its rather speculative application to the search for extraterrestrial life in gravitational-wave detector data, this work is interesting as a study of the dynamical evolution and stability of spacetimes that violate the null energy condition. Our work highlights the importance of exploring strange new spacetimes, to (boldly) simulate what no one has seen before.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-04T16:34:41Z</published>
+    <arxiv:comment>12 pages, 6 figures, plus appendix. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Katy Clough</name>
+    </author>
+    <author>
+      <name>Tim Dietrich</name>
+    </author>
+    <author>
+      <name>Sebastian Khan</name>
+    </author>
+    <arxiv:doi>10.33232/001c.121868</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.33232/001c.121868" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.15950v2</id>
+    <title>ADM mass in warp drive spacetimes</title>
+    <updated>2022-08-04T09:13:52Z</updated>
+    <link href="https://arxiv.org/abs/2205.15950v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.15950v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>What happens when a warp bubble has mass? This seemingly innocent question forces one to carefully formalize exactly what one means by a warp bubble, exactly what one means by having the warp bubble "move" with respect to the fixed stars, and forces one to more carefully examine the notion of mass in warp-drive spacetimes. This is the goal of the present article. In this process, we will see that often-made throw-away comments regarding "payloads" are even simpler than commonly assumed, while there are two further, distinct yet subtle ways in which a mass can appear in connection with a warp drive space-time: One, that the warp bubble (not its payload) has the mass; two, that the mass is a background feature in front of which the warp drive moves. For simplicity, we consider generic Natário warp drives with zero-vorticity flow field. The resulting spacetimes are sufficiently simple to allow an exact and fully explicit computation of all of the stress-energy components, and verify that (as expected) the null energy condition (NEC) is violated. Likewise the weak, strong, and dominant energy conditions (WEC, SEC, DEC) are violated. Indeed, this confirms the community's folk wisdom, and recent (fully general, but implicit) results of the present authors which closed previous gaps in the argument. However, folk wisdom should be carefully and critically examined before being believed, and the present examples for general results will greatly aid physical intuition.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-31T16:48:04Z</published>
+    <arxiv:comment>V1:19 pages; V2: 22 pages. Authors re-ordered, abstract rewritten; 4 references added; improved presentation and discussion; calculations unaltered; physics conclusions unaltered</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Sebastian Schuster</name>
+      <arxiv:affiliation>Charles University of Prague</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jessica Santiago</name>
+      <arxiv:affiliation>Aristotle University of Thessaloniki</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matt Visser</name>
+      <arxiv:affiliation>Victoria University of Wellington</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1007/s10714-022-03061-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10714-022-03061-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.07125v2</id>
+    <title>Breaking the Warp Barrier: Hyper-Fast Solitons in Einstein-Maxwell-Plasma Theory</title>
+    <updated>2020-08-10T14:55:58Z</updated>
+    <link href="https://arxiv.org/abs/2006.07125v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.07125v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solitons in space--time capable of transporting time-like observers at superluminal speeds have long been tied to violations of the weak, strong, and dominant energy conditions of general relativity. The negative-energy sources required for these solitons must be created through energy-intensive uncertainty principle processes as no such classical source is known in particle physics. This paper overcomes this barrier by constructing a class of soliton solutions that are capable of superluminal motion and sourced by purely positive energy densities. The solitons are also shown to be capable of being sourced from the stress-energy of a conducting plasma and classical electromagnetic fields. This is the first example of hyper-fast solitons resulting from known and familiar sources, reopening the discussion of superluminal mechanisms rooted in conventional physics.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-12T12:33:05Z</published>
+    <arxiv:comment>14 pages, 5 figures, comments welcome</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Erik W. Lentz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.06488v4</id>
+    <title>Positive Energy Warp Drive from Hidden Geometric Structures</title>
+    <updated>2021-08-09T12:03:06Z</updated>
+    <link href="https://arxiv.org/abs/2104.06488v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.06488v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Warp drives in Einstein's general theory of relativity provide a unique mechanism for manned interstellar travel. It is well-known that the classical superluminal soliton spacetimes require negative energy densities, likely sourced by quantum processes of the uncertainty principle. It has even been claimed by few that negative energy densities are a requirement of superluminal motion. However, recent studies suggest this may not be the case. A general decomposition of the defining variables and the corresponding decomposition of the Eulerian energy are studied. A geometrical interpretation of the Eulerian energy is found, shedding new light on superluminal solitons generated by realistic energy distributions. With this new interpretation, it becomes a relatively simple matter to generate solitonic configurations, within a certain subclass, that respect the positive energy constraint. Using this newfound interpretation, a superluminal solitonic spacetime is presented that possesses positive semi-definite energy. A modest numerical analysis is carried out on a set of example configurations, finding total energy requirements four orders of magnitude smaller than the solar mass. Extraordinarily, the example configurations are generated by purely positive energy densities, a tremendous improvement on the classical configurations. The geometrical interpretation of the Eulerian energy thus opens new doors to generating realistic warp fields for laboratory study and potential future manned interstellar travel.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-13T20:06:24Z</published>
+    <arxiv:comment>20 pages, 2 figures, matches now the journal version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Shaun D. B. Fell</name>
+    </author>
+    <author>
+      <name>Lavinia Heisenberg</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ac0e47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ac0e47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0411203v3</id>
+    <title>Chronology Protection in anti-de Sitter</title>
+    <updated>2005-07-20T13:19:58Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0411203v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0411203v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider 1/2 BPS excitations of AdS(5)xS(5) geometries in type IIB string theory that can be mapped into free fermion configurations according to the prescription of Lin, Lunin and Maldacena (LLM). It is shown that whenever the fermionic probability density exceeds one or is negative, closed timelike curves appear in the bulk. A violation of the Pauli exclusion principle in the phase space of the fermions is thus intimately related to causality violation in the dual geometries.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-11-23T17:36:22Z</published>
+    <arxiv:comment>4 pages, 1 figure. v2: clarifications on the proof and comments on curvature singularity added. v3: final version to appear in Class. Quantum Grav</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Class.Quant.Grav. 22 (2005) 3461-3466</arxiv:journal_ref>
+    <author>
+      <name>Marco M. Caldarelli</name>
+    </author>
+    <author>
+      <name>Dietmar Klemm</name>
+    </author>
+    <author>
+      <name>Pedro J. Silva</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/22/17/007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/22/17/007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9603012v2</id>
+    <title>Quantum Field Theory on Spacetimes with a Compactly Generated Cauchy Horizon</title>
+    <updated>1997-05-08T16:25:04Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9603012v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9603012v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove two theorems which concern difficulties in the formulation of the quantum theory of a linear scalar field on a spacetime, (M,g_{ab}), with a compactly generated Cauchy horizon. These theorems demonstrate the breakdown of the theory at certain `base points' of the Cauchy horizon, which are defined as `past terminal accumulation points' of the horizon generators. Thus, the theorems may be interpreted as giving support to Hawking's `Chronology Protection Conjecture', according to which the laws of physics prevent one from manufacturing a `time machine'. Specifically, we prove: Theorem 1: There is no extension to (M,g_{ab}) of the usual field algebra on the initial globally hyperbolic region which satisfies the condition of F-locality at any base point. In other words, any extension of the field algebra must, in any globally hyperbolic neighbourhood of any base point, differ from the algebra one would define on that neighbourhood according to the rules for globally hyperbolic spacetimes. Theorem 2: The two-point distribution for any Hadamard state defined on the initial globally hyperbolic region must (when extended to a distributional bisolution of the covariant Klein-Gordon equation on the full spacetime) be singular at every base point x in the sense that the difference between this two point distribution and a local Hadamard distribution cannot be given by a bounded function in any neighbourhood (in MXM) of (x,x). Theorem 2 implies quantities such as the renormalized expectation value of φ^2 or of the stress-energy tensor are necessarily ill-defined or singular at any base point. The proofs rely on the `Propagation of Singularities' theorems of Duistermaat and Hörmander.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-03-10T21:54:24Z</published>
+    <arxiv:comment>37 pages, LaTeX, uses latexsym and amsbsy, no figures; updated version now published in Commun. Math. Phys.; no major revisions from original version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Commun.Math.Phys.183:533-556,1997</arxiv:journal_ref>
+    <author>
+      <name>Bernard S. Kay</name>
+      <arxiv:affiliation>York</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marek J. Radzikowski</name>
+      <arxiv:affiliation>York, Hamburg</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Robert M. Wald</name>
+      <arxiv:affiliation>Chicago</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1007/s002200050042</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s002200050042" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0204022v2</id>
+    <title>The quantum physics of chronology protection</title>
+    <updated>2002-04-17T19:49:54Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0204022v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0204022v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is a brief survey of the current status of Stephen Hawking's ``chronology protection conjecture''. That is: ``Why does nature abhor a time machine?'' I'll discuss a few examples of spacetimes containing ``time machines'' (closed causal curves), the sorts of peculiarities that arise, and the reactions of the physics community. While pointing out other possibilities, this article concentrates on the possibility of ``chronology protection''. As Stephen puts it:
+ ``It seems that there is a Chronology Protection Agency which prevents the appearance of closed timelike curves and so makes the universe safe for historians.''</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-04-05T02:20:47Z</published>
+    <arxiv:comment>CUP style: uses cmmp.cls; 18 pages; contribution to "The future of theoretical physics and cosmology", conference in honour of Professor Stephen Hawking on the occasion of his 60'th birthday. V2: Some references added</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Matt Visser</name>
+      <arxiv:affiliation>Washington University in Saint Louis</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0110086v3</id>
+    <title>Warp Drive With Zero Expansion</title>
+    <updated>2002-03-13T16:04:00Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0110086v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0110086v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is commonly believed that Alcubierre's warp drive works by contracting space in front of the warp bubble and expanding space behind it. We show that this expansion/contraction is but a marginal consequence of the choice made by Alcubierre, and explicitly construct a similar spacetime where no contraction/expansion occurs. Global and optical properties of warp drive spacetimes are also discussed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-10-19T16:27:12Z</published>
+    <arxiv:comment>8 pages, 3 figures; typos corrected, references added</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav. 19 (2002) 1157-1166</arxiv:journal_ref>
+    <author>
+      <name>Jose Natario</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/19/6/308</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/19/6/308" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9905084v5</id>
+    <title>A `warp drive' with more reasonable total energy requirements</title>
+    <updated>1999-09-21T14:11:02Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9905084v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9905084v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I show how a minor modification of the Alcubierre geometry can dramatically improve the total energy requirements for a `warp bubble' that can be used to transport macroscopic objects. A spacetime is presented for which the total negative mass needed is of the order of a few solar masses, accompanied by a comparable amount of positive energy. This puts the warp drive in the mass scale of large traversable wormholes. The new geometry satisfies the quantum inequality concerning WEC violations and has the same advantages as the original Alcubierre spacetime.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-05-21T12:50:59Z</published>
+    <arxiv:comment>9 pages, 1 figure; error in calculation corrected</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav. 16 (1999) 3973-3979</arxiv:journal_ref>
+    <author>
+      <name>Chris Van Den Broeck</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/16/12/314</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/16/12/314" title="doi"/>
+  </entry>
+</feed>

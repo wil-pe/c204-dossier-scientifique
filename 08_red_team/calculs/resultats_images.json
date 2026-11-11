@@ -1,0 +1,433 @@
+{
+ "MT7010__JT1.jpg": {
+  "taille": [
+   250,
+   183
+  ],
+  "mode": "RGB",
+  "format": "JPEG",
+  "octets": 14039,
+  "qualite_estimee": 76.8,
+  "n_tables": 2,
+  "marqueurs": [
+   "APP0[JFIF]",
+   "DQT",
+   "SOF2(progressif)",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:2:2",
+  "exif": false,
+  "bpp": 2.45,
+  "ela": {
+   "moyenne": 3.070688524590164,
+   "max": 34.0,
+   "corr_ELA_contraste": 0.7978678879164575,
+   "blocs_residu_z_sup_6": 0,
+   "n_blocs": 165
+  },
+  "bruit": {
+   "fraction_jaune": 0.0016830601092896174,
+   "sigma_resid_jaune": 10.571396662257596,
+   "sigma_resid_reste": 12.2539813676837,
+   "grad99_jaune": 717.2669629817934,
+   "grad99_reste": 837.2796903154841
+  },
+  "bandes_jaunes_x": [
+   [
+    69,
+    74,
+    70.89473684210525
+   ]
+  ]
+ },
+ "MT7011__JT2.jpeg": {
+  "taille": [
+   239,
+   171
+  ],
+  "mode": "RGB",
+  "format": "JPEG",
+  "octets": 6368,
+  "qualite_estimee": 50.9,
+  "n_tables": 2,
+  "marqueurs": [
+   "DQT",
+   "DQT",
+   "SOF0(baseline)",
+   "DHT",
+   "DHT",
+   "DHT",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:2:0",
+  "exif": false,
+  "bpp": 1.25,
+  "ela": {
+   "moyenne": 0.6962000538305317,
+   "max": 10.0,
+   "corr_ELA_contraste": 0.611384781348502,
+   "blocs_residu_z_sup_6": 1,
+   "n_blocs": 140
+  },
+  "bruit": {
+   "fraction_jaune": 0.021067312633047054,
+   "sigma_resid_jaune": 9.515106927276555,
+   "sigma_resid_reste": 9.135763214865028,
+   "grad99_jaune": 724.528086111483,
+   "grad99_reste": 594.7135774820883
+  },
+  "bandes_jaunes_x": [
+   [
+    51,
+    61,
+    55.50409836065574
+   ],
+   [
+    120,
+    133,
+    125.98543123543124
+   ]
+  ]
+ },
+ "MT7012__JT3.jpg": {
+  "taille": [
+   472,
+   338
+  ],
+  "mode": "RGB",
+  "format": "JPEG",
+  "octets": 19694,
+  "qualite_estimee": 74.7,
+  "n_tables": 2,
+  "marqueurs": [
+   "DQT",
+   "SOF0(baseline)",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:2:0",
+  "exif": false,
+  "bpp": 0.99,
+  "ela": {
+   "moyenne": 0.4540730618794504,
+   "max": 7.0,
+   "corr_ELA_contraste": 0.6109800329675847,
+   "blocs_residu_z_sup_6": 22,
+   "n_blocs": 609
+  },
+  "bruit": {
+   "fraction_jaune": 0.006531441179420319,
+   "sigma_resid_jaune": 4.00882241554583,
+   "sigma_resid_reste": 2.788889053081884,
+   "grad99_jaune": 470.51457339270456,
+   "grad99_reste": 356.9278916017812
+  },
+  "bandes_jaunes_x": [
+   [
+    217,
+    232,
+    224.25925925925924
+   ],
+   [
+    306,
+    322,
+    313.52814098919845
+   ],
+   [
+    406,
+    410,
+    407.5023474178404
+   ]
+  ]
+ },
+ "MT7013__c204unit_johntitor.jpg": {
+  "taille": [
+   477,
+   440
+  ],
+  "mode": "RGB",
+  "format": "JPEG",
+  "octets": 18399,
+  "qualite_estimee": 50.9,
+  "n_tables": 2,
+  "marqueurs": [
+   "DQT",
+   "DQT",
+   "SOF2(progressif)",
+   "DHT",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:2:0",
+  "exif": false,
+  "bpp": 0.7,
+  "ela": {
+   "moyenne": 0.23064608347627216,
+   "max": 7.0,
+   "corr_ELA_contraste": 0.9072784452378989,
+   "blocs_residu_z_sup_6": 2,
+   "n_blocs": 783
+  }
+ },
+ "MT7014__johntitor_schematic.jpg": {
+  "taille": [
+   1023,
+   782
+  ],
+  "mode": "L",
+  "format": "JPEG",
+  "octets": 88734,
+  "qualite_estimee": 76.8,
+  "n_tables": 1,
+  "marqueurs": [
+   "APP0[JFIF]",
+   "DQT",
+   "SOF2(progressif)",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:2:2",
+  "exif": false,
+  "bpp": 0.89,
+  "ela": {
+   "moyenne": 0.3443972769523467,
+   "max": 10.0,
+   "corr_ELA_contraste": 0.9342568532451534,
+   "blocs_residu_z_sup_6": 609,
+   "n_blocs": 3024
+  }
+ },
+ "MT7015__johtitor_timemachinemanual.jpeg": {
+  "taille": [
+   477,
+   619
+  ],
+  "mode": "L",
+  "format": "JPEG",
+  "octets": 7432,
+  "qualite_estimee": 50.9,
+  "n_tables": 1,
+  "marqueurs": [
+   "DQT",
+   "SOF0(baseline)",
+   "DHT",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:4:4",
+  "exif": false,
+  "bpp": 0.2,
+  "ela": {
+   "moyenne": 0.07530574437027328,
+   "max": 13.0,
+   "corr_ELA_contraste": 0.9096676370770533,
+   "blocs_residu_z_sup_6": 63,
+   "n_blocs": 1102
+  }
+ },
+ "MT7016__timetravel_0_1.jpg": {
+  "taille": [
+   463,
+   499
+  ],
+  "mode": "RGB",
+  "format": "JPEG",
+  "octets": 41031,
+  "qualite_estimee": 76.8,
+  "n_tables": 2,
+  "marqueurs": [
+   "APP0[JFIF]",
+   "DQT",
+   "SOF2(progressif)",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:2:2",
+  "exif": false,
+  "bpp": 1.42,
+  "ela": {
+   "moyenne": 0.7138899829897376,
+   "max": 18.0,
+   "corr_ELA_contraste": 0.6590678930829348,
+   "blocs_residu_z_sup_6": 0,
+   "n_blocs": 868
+  }
+ },
+ "MT7017__c204_unit_instructions.jpeg": {
+  "taille": [
+   415,
+   580
+  ],
+  "mode": "L",
+  "format": "JPEG",
+  "octets": 23146,
+  "qualite_estimee": 50.9,
+  "n_tables": 1,
+  "marqueurs": [
+   "DQT",
+   "SOF0(baseline)",
+   "DHT",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:4:4",
+  "exif": false,
+  "bpp": 0.77,
+  "ela": {
+   "moyenne": 0.28938097216452013,
+   "max": 10.0,
+   "corr_ELA_contraste": 0.7486525931345998,
+   "blocs_residu_z_sup_6": 15,
+   "n_blocs": 900
+  }
+ },
+ "MT7018__singularities1.jpg": {
+  "taille": [
+   318,
+   369
+  ],
+  "mode": "RGB",
+  "format": "JPEG",
+  "octets": 21968,
+  "qualite_estimee": 76.8,
+  "n_tables": 2,
+  "marqueurs": [
+   "APP0[JFIF]",
+   "DQT",
+   "SOF2(progressif)",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:2:2",
+  "exif": false,
+  "bpp": 1.5,
+  "ela": {
+   "moyenne": 0.5714577900495986,
+   "max": 12.0,
+   "corr_ELA_contraste": 0.7716033425701129,
+   "blocs_residu_z_sup_6": 0,
+   "n_blocs": 437
+  }
+ },
+ "MT7019__johntitor_schematic.jpg": {
+  "taille": [
+   1023,
+   782
+  ],
+  "mode": "L",
+  "format": "JPEG",
+  "octets": 88734,
+  "qualite_estimee": 76.8,
+  "n_tables": 1,
+  "marqueurs": [
+   "APP0[JFIF]",
+   "DQT",
+   "SOF2(progressif)",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:2:2",
+  "exif": false,
+  "bpp": 0.89,
+  "ela": {
+   "moyenne": 0.3443972769523467,
+   "max": 10.0,
+   "corr_ELA_contraste": 0.9342568532451534,
+   "blocs_residu_z_sup_6": 609,
+   "n_blocs": 3024
+  }
+ },
+ "MT7020__worldline_divergence.png": {
+  "taille": [
+   731,
+   825
+  ],
+  "mode": "P",
+  "format": "PNG",
+  "octets": 26321,
+  "palette": true,
+  "info": {
+   "transparency": "b'\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x0c\\r\\x0e\\x0f"
+  }
+ },
+ "MT7021__Titor_insignia.jpg": {
+  "taille": [
+   283,
+   262
+  ],
+  "mode": "L",
+  "format": "JPEG",
+  "octets": 25520,
+  "qualite_estimee": 79.4,
+  "n_tables": 2,
+  "marqueurs": [
+   "APP0[JFIF]",
+   "COM[Created by A]",
+   "SOF0(baseline)",
+   "DQT",
+   "DHT",
+   "DHT",
+   "SOS"
+  ],
+  "sous_echantillonnage": "4:4:4",
+  "exif": false,
+  "bpp": 2.75,
+  "ela": {
+   "moyenne": 0.5395031424486824,
+   "max": 7.0,
+   "corr_ELA_contraste": 0.9406034911765973,
+   "blocs_residu_z_sup_6": 0,
+   "n_blocs": 272
+  }
+ },
+ "DOC005_skew": {
+  "rangée de repères du bas (y≈700)": -0.0827289297698458,
+  "rangée de repères du bas (y≈655)": 0.011338752510319093,
+  "rangée de repères du haut (y≈180)": 0.008091651171473637,
+  "rangée de repères du haut (y≈225)": 0.1570012292754199,
+  "titre": [
+   0.546487641168562,
+   0.4464644156976033
+  ],
+  "entete": [
+   7.318066895240524,
+   -7.538607858279643e-15
+  ],
+  "bord": null
+ },
+ "DOC007": {
+  "rects": [
+   [
+    50,
+    174,
+    355,
+    109
+   ]
+  ],
+  "disques": [],
+  "zones_alternance_frac": [
+   [
+    0.005633802816901409,
+    0.11549295774647887
+   ],
+   [
+    0.23098591549295774,
+    0.2647887323943662
+   ],
+   [
+    0.30422535211267604,
+    0.3267605633802817
+   ],
+   [
+    0.4084507042253521,
+    0.5154929577464789
+   ],
+   [
+    0.6169014084507042,
+    0.6845070422535211
+   ]
+  ]
+ }
+}

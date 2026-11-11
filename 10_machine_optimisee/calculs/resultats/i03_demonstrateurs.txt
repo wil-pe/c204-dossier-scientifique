@@ -1,0 +1,58 @@
+i03 — CHOIX ET PERFORMANCES DES DÉMONSTRATEURS DES DEUX LOGEMENTS (palier 1)
+====================================================================================================
+Grille (notes 0–5 ; poids : archi=2, physique=3, fonction=3, securite=3, integration=2, maturite=1)
+  B. Gyromètre Sagnac à fibre (ondes contrarotatives)  4 4 5 5 5 5 →  93 / 100
+  F. Télescope à muons cosmiques (2 scintillateurs)    3 5 4 5 5 4 →  89 / 100
+  C. Cellule à vortex de vidange (analogue de Kerr)    4 3 1 4 1 3 →  53 / 100
+  D. Rotor en lévitation magnétique asservie           5 1 1 3 4 4 →  53 / 100
+  E. Lévitation diamagnétique passive (graphite)       2 0 0 5 5 5 →  49 / 100
+  A. Piège de Paul à grain chargé (air)                5 2 1 1 3 3 →  44 / 100
+  Retenus : « B. Gyromètre Sagnac à fibre (ondes contrarotatives) » (logement de direction) et « F. Télescope à muons cosmiques (2 scintillateurs) » (logement principal).
+  Sensibilité : les deux premiers restent les mêmes pour toute variation de ±1 d'un poids : oui.
+
+TÉLESCOPE À MUONS (logement principal ; tuiles 5 × 5 cm ; ouverture du logement Ø 81 mm)
+  écartement    5 cm : G = 13.02 cm²·sr ; demi-angle max 54.7° ; 0.091 Hz =  328 coïncidences/h (±5.5 % en 1 h)
+  écartement   10 cm : G =  5.03 cm²·sr ; demi-angle max 35.3° ; 0.035 Hz =  127 coïncidences/h (±8.9 % en 1 h)
+  écartement   15 cm : G =  2.50 cm²·sr ; demi-angle max 25.2° ; 0.018 Hz =   63 coïncidences/h (±12.6 % en 1 h)
+  Longueur de désintégration sans dilatation : c·τ = 658.6 m (τ = 2.1970 µs).
+  muon de    1 GeV : γ =   9.5 ; longueur de désintégration    6.2 km ; survie sur 15 km : 0.089 (sans dilatation : 1.3e-10)
+  muon de    2 GeV : γ =  18.9 ; longueur de désintégration   12.4 km ; survie sur 15 km : 0.300 (sans dilatation : 1.3e-10)
+  muon de    4 GeV : γ =  37.9 ; longueur de désintégration   24.9 km ; survie sur 15 km : 0.548 (sans dilatation : 1.3e-10)
+  muon de   10 GeV : γ =  94.6 ; longueur de désintégration   62.3 km ; survie sur 15 km : 0.786 (sans dilatation : 1.3e-10)
+  Dénivelé 1000 m : SANS dilatation, le taux en altitude devrait valoir ≥ 4.6 fois le taux en plaine.
+  Dénivelé 2000 m : SANS dilatation, le taux en altitude devrait valoir ≥ 20.8 fois le taux en plaine.
+  Dénivelé 3000 m : SANS dilatation, le taux en altitude devrait valoir ≥ 95.1 fois le taux en plaine.
+  Si l'on mesure un rapport R entre +2 000 m et la plaine, le facteur de dilatation effectif vaut au moins Δh/(c·τ·ln R) :
+     R = 1.3 → γ_eff ≥ 11.6
+     R = 1.5 → γ_eff ≥ 7.5
+     R = 2.0 → γ_eff ≥ 4.4
+     R = 3.0 → γ_eff ≥ 2.8
+  Repère publié (résumé vérifié) : Frisch & Smith 1963, mont Washington → niveau de la mer : facteur de dilatation 8,8 ± 0,8
+  pour des muons de 0,9950 à 0,9954 c (attendu 8,4 ± 2).
+   1 h à chaque altitude (écartement 10 cm) :   127 et   190 coups ; un rapport de 1,5 se distingue de 1 à 3.6 σ
+   6 h à chaque altitude (écartement 10 cm) :   760 et  1141 coups ; un rapport de 1,5 se distingue de 1 à 8.7 σ
+  24 h à chaque altitude (écartement 10 cm) :  3042 et  4563 coups ; un rapport de 1,5 se distingue de 1 à 17.4 σ
+
+GYROMÈTRE SAGNAC À FIBRE (logement de direction)
+  rotation terrestre, composante verticale à 45°                           Δφ = 2.44e-05 rad ; Δt = 2.01e-20 s entre les deux ondes
+  rotation terrestre complète (axe de la bobine parallèle à l'axe du monde) Δφ = 3.45e-05 rad ; Δt = 2.84e-20 s entre les deux ondes
+  virage du véhicule à 10 °/s                                              Δφ = 8.26e-02 rad ; Δt = 6.80e-17 s entre les deux ondes
+  Facteur d'échelle 2πLD/(λc) = 0.473 s (bobine 500 m, Ø 70 mm, λ = 1.55 µm).
+  Limite de grenaille (10 µW détectés) : 1.1e-07 rad/√Hz, soit une marche aléatoire angulaire de 0.0008 °/√h ;
+  la composante verticale de la rotation terrestre (10.6 °/h) sort à 3 σ en 0.19 ms (limite théorique ; un montage
+  didactique réel est 10 à 100 fois moins bon : dérives thermiques de la bobine, rétrodiffusion).
+  Rôle de « direction » : à 130 km/h, cap à l'est → D = +0.50 ns/h (vers le futur) ; cap à l'ouest → D = -0.45 ns/h.
+  Exactitude de cap nécessaire pour prédire ce terme à 1 % près : ±8° autour de l'est (cos δ ≥ 0,99) — très en deçà des
+  performances d'un gyromètre à fibre, et à la portée d'un simple récepteur GNSS : le gyromètre est ici un DÉMONSTRATEUR, pas une nécessité.
+
+CANDIDATS ÉCARTÉS — chiffres
+  Piège de Paul (grain de 30 µm, 10⁵ e, 50 Hz, q_z = 0,4) : q/m = 1.1e-03 C/kg ; tension ≈ 218 V crête (anneau de 5 mm) à 871 V crête
+    (anneau de 10 mm), davantage si le grain est moins chargé ; champ de compensation de la pesanteur ≈ 9 kV/m.
+    Plusieurs centaines de volts alternatifs, au-dessus de la très basse tension de sécurité (50 V) → écarté du palier 1 ;
+    il revient au palier 2 sous sa forme utile : le piège de Paul d'une horloge optique à ion unique.
+  Rotor en lévitation (sphère d'acier Ø 50 mm, 0.51 kg, 1 000 tr/s) : J = 0.81 kg·m²/s ; entraînement des référentiels à 10 cm :
+    Ω = 2GJ/(c²r³) = 1.2e-24 rad/s (les meilleurs gyromètres : ~10⁻¹³ rad/s) ; vitesse périphérique 157 m/s, énergie cinétique 2535 J
+    → un vrai « objet en rotation dans un logement magnétique » ne produit aucun effet relativiste mesurable, et impose un carter de sécurité.
+  Cellule à vortex Ø 70 mm (eau, h = 8 mm, 1 L/min) : célérité √(gh) = 0.28 m/s ; horizon analogue à r = 1.2 mm (dans l'orifice) ;
+    ergorégion de 15 mm pour une circulation de 4.2e-03 m²/s (3.0 tr/s à ce rayon) ; température de Hawking analogue 3e-10 K.
+    Longueurs d'onde disponibles (1–3 cm) à la frontière gravité/capillarité (17 mm) : démonstration qualitative seulement, véhicule à l'arrêt.

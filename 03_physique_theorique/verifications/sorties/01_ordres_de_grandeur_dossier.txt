@@ -1,0 +1,39 @@
+==============================================================================
+SCRIPT 01 — Re-dérivation des ordres de grandeur du dossier de base (§6)
+==============================================================================
+r_s / M              = 1.4852e-27 m/kg        (dossier : 1,485e-27)
+T_H * M              = 1.2269e+23 K kg         (dossier : 1,227e23)
+P_cn(photons) * M^2  = 3.5616e+32 W kg^2       (dossier : 3,56e32)
+t_evap / M^3         = 8.4115e-17 s kg^-3      (dossier : 8,41e-17)
+Q_max / M            = 8.6175e-11 C/kg         (dossier : 8,62e-11)
+hbar c^6 / G^2       = 1.7187e+37 W kg^2
+
+P = 300 MW (photons, corps noir) -> M = 1.090e+12 kg ; r_s = 1.618 fm ; k_B T = 9.70 MeV
+P = 500 MW (photons, corps noir) -> M = 8.440e+11 kg ; r_s = 1.254 fm ; k_B T = 12.53 MeV
+
+M = 100 kg : r_s = 1.485e-25 m ; T = 1.227e+21 K ; kT = 1.057e+08 GeV ; t_evap(photons seuls) = 8.411e-11 s = 2.665e-18 ans
+M = 113.5 kg : r_s = 1.686e-25 m ; T = 1.081e+21 K ; kT = 9.315e+07 GeV ; t_evap(photons seuls) = 1.230e-10 s = 3.897e-18 ans
+M = 227 kg : r_s = 3.371e-25 m ; T = 5.405e+20 K ; kT = 4.658e+07 GeV ; t_evap(photons seuls) = 9.839e-10 s = 3.118e-17 ans
+M = 1e+12 kg : r_s = 1.485e-15 m ; T = 1.227e+11 K ; kT = 1.057e-02 GeV ; t_evap(photons seuls) = 8.411e+19 s = 2.665e+12 ans
+
+2 g à r = 1.0 m  -> M = 2.939e+11 kg
+2 g à r = 3.0 m  -> M = 2.645e+12 kg
+2 g à r = 3.7 m  -> M = 4.023e+12 kg
+1,5 g à r = 1.0 m -> M = 2.204e+11 kg
+1,5 g à r = 3.0 m -> M = 1.984e+12 kg
+
+Q_max(1e12 kg)       = 86.18 C
+E = m c^2 (227 kg)   = 2.040e+19 J = 4.88 Gt TNT
+
+Tailles 'de l'électron' pour comparaison :
+  rayon classique r_e           = 2.8179e-15 m -> M(r_s=r_e) = 1.897e+12 kg
+  Compton réduite hbar/(m_e c)  = 3.8616e-13 m -> M = 2.600e+14 kg
+  borne exp. sur la taille (≲1e-18 m, ordre de grandeur) -> M(r_s=1e-18 m) = 6.733e+08 kg
+  rayon de charge du proton ~0,84 fm -> M(r_s=0,84 fm) = 5.656e+11 kg
+
+Échelles de Planck :
+  m_P = 2.1764e-08 kg ; l_P = 1.6163e-35 m ; t_P = 5.3912e-44 s ; E_P = 1.221e+19 GeV
+  alpha = 1/137.036 ; E_Schwinger = 1.323e+18 V/m ; B_Schwinger = 4.414e+09 T
+
+Conclusion : les coefficients du dossier (§6) sont reproduits à mieux que 0,1 %.
+Les désaccords physiques (espèces émises, facteurs de corps gris) sont traités dans le script 02.

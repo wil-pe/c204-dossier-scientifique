@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jOiPzVUBiOMQtXwLoU8HVhOsdu0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2308.10773&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:47:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2308.10773" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.10773v4</id>
+    <title>Rotating Curved Spacetime Signatures from a Giant Quantum Vortex</title>
+    <updated>2024-01-23T20:28:25Z</updated>
+    <link href="https://arxiv.org/abs/2308.10773v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.10773v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gravity simulators are laboratory systems where small excitations like sound or surface waves behave as fields propagating on a curved spacetime geometry. The analogy between gravity and fluids requires vanishing viscosity, a feature naturally realised in superfluids like liquid helium or cold atomic clouds. Such systems have been successful in verifying key predictions of quantum field theory in curved spacetime. In particular, quantum simulations of rotating curved spacetimes indicative of astrophysical black holes require the realisation of an extensive vortex flow in superfluid systems. Here we demonstrate that despite the inherent instability of multiply quantised vortices, a stationary giant quantum vortex can be stabilised in superfluid $^4$He. Its compact core carries thousands of circulation quanta, prevailing over current limitations in other physical systems such as magnons, atomic clouds and polaritons. We introduce a minimally invasive way to characterise the vortex flow by exploiting the interaction of micrometre-scale waves on the superfluid interface with the background velocity field. Intricate wave-vortex interactions, including the detection of bound states and distinctive analogue black hole ringdown signatures, have been observed. These results open new avenues to explore quantum-to-classical vortex transitions and utilise superfluid helium as a finite temperature quantum field theory simulator for rotating curved spacetimes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-21T15:04:29Z</published>
+    <arxiv:comment>9 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Nature 628, 66-70 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Patrik Švančara</name>
+    </author>
+    <author>
+      <name>Pietro Smaniotto</name>
+    </author>
+    <author>
+      <name>Leonardo Solidoro</name>
+    </author>
+    <author>
+      <name>James F. MacDonald</name>
+    </author>
+    <author>
+      <name>Sam Patrick</name>
+    </author>
+    <author>
+      <name>Ruth Gregory</name>
+    </author>
+    <author>
+      <name>Carlo F. Barenghi</name>
+    </author>
+    <author>
+      <name>Silke Weinfurtner</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-024-07176-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-024-07176-8" title="doi"/>
+  </entry>
+</feed>

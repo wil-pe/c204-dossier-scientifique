@@ -1,0 +1,1860 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rKzBvQ8vrcOPiNr8986sV042+yg</id>
+  <title>arXiv Query: search_query=&amp;id_list=gr-qc/0602086,1806.00648,1407.0989,hep-th/0002196,1810.07615,1903.11544,1905.08669,2111.05659,2402.06009,hep-ph/0611184,2002.11761,1707.06050,1707.06036,1807.11494,1911.04406,2009.09546,2203.05587,2112.10798,2205.06279,2211.00449&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=gr-qc/0602086,1806.00648,1407.0989,hep-th/0002196,1810.07615,1903.11544,1905.08669,2111.05659,2402.06009,hep-ph/0611184,2002.11761,1707.06050,1707.06036,1807.11494,1911.04406,2009.09546,2203.05587,2112.10798,2205.06279,2211.00449" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1807.11494v2</id>
+    <title>Tabletop experiments for quantum gravity: a user's manual</title>
+    <updated>2018-09-13T04:08:53Z</updated>
+    <link href="https://arxiv.org/abs/1807.11494v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.11494v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in cooling, control, and measurement of mechanical systems in the quantum regime have opened the possibility of the first direct observation of quantum gravity, at scales achievable in experiments. This paper gives a broad overview of this idea, using some matter-wave and optomechanical systems to illustrate the predictions of a variety of models of low-energy quantum gravity. We first review the treatment of perturbatively quantized general relativity as an effective quantum field theory, and consider the particular challenges of observing quantum effects in this framework. We then move on to a variety of alternative models, such as those in which gravity is classical, emergent, or responsible for a breakdown of quantum mechanics.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-30T18:00:04Z</published>
+    <arxiv:comment>32 pages, 7 figures, 1 summary table, 145 (!!) references. Invited submission to "Gravity in the Lab" issue of Class. Quant. Grav. v2: less longwinded title, various presentational tweaks, references added; thanks to many people for comments. Version submitted to CQG</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Classical and Quantum Gravity, Volume 36, Number 3, 2019</arxiv:journal_ref>
+    <author>
+      <name>Daniel Carney</name>
+    </author>
+    <author>
+      <name>Philip C. E. Stamp</name>
+    </author>
+    <author>
+      <name>Jacob M. Taylor</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/aaf9ca</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/aaf9ca" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.11544v2</id>
+    <title>The causal set approach to quantum gravity</title>
+    <updated>2019-08-28T05:56:27Z</updated>
+    <link href="https://arxiv.org/abs/1903.11544v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.11544v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The causal set theory (CST) approach to quantum gravity postulates that at the most fundamental level, spacetime is discrete, with the spacetime continuum replaced by locally finite posets or "causal sets". The partial order on a causal set represents a proto-causality relation while local finiteness encodes an intrinsic discreteness. In the continuum approximation the former corresponds to the spacetime causality relation and the latter to a fundamental spacetime atomicity, so that finite volume regions in the continuum contain only a finite number of causal set elements. CST is deeply rooted in the Lorentzian character of spacetime, where a primary role is played by the causal structure poset. Importantly, the assumption of a fundamental discreteness in CST does not violate local Lorentz invariance in the continuum approximation. On the other hand, the combination of discreteness and Lorentz invariance gives rise to a characteristic non-locality which distinguishes CST from most other approaches to quantum gravity.
+  In this review we give a broad, semi-pedagogical introduction to CST, highlighting key results as well as some of the key open questions. This review is intended both for the beginner student in quantum gravity as well as more seasoned researchers in the field.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-27T16:53:43Z</published>
+    <arxiv:comment>Latex, 78 pages, 22 Figures. Invited review article for Living Reviews in Relativity. Version 2 includes an Appendix with definitions and abbreviations. Typos corrected and some discussions made clearer</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Sumati Surya</name>
+    </author>
+    <arxiv:doi>10.1007/s41114-019-0023-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s41114-019-0023-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0989v2</id>
+    <title>Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling</title>
+    <updated>2014-07-06T17:46:51Z</updated>
+    <link href="https://arxiv.org/abs/1407.0989v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.0989v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that there is a classical metric satisfying the Einstein equations outside a finite spacetime region where matter collapses into a black hole and then emerges from a white hole. We compute this metric explicitly. We show how quantum theory determines the (long) time for the process to happen. A black hole can thus quantum-tunnel into a white hole. For this to happen, quantum gravity should affect the metric also in a small region outside the horizon: we show that contrary to what is commonly assumed, this is not forbidden by causality or by the semiclassical approximation, because quantum effects can pile up over a long time. This scenario alters radically the discussion on the black hole information puzzle.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-03T17:27:45Z</published>
+    <arxiv:comment>10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 92, 104020 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Hal M. Haggard</name>
+    </author>
+    <author>
+      <name>Carlo Rovelli</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.92.104020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.92.104020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0002196v1</id>
+    <title>Renormalization group improved black hole spacetimes</title>
+    <updated>2000-02-23T11:40:36Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0002196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0002196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the quantum gravitational effects in spherically symmetric black hole spacetimes. The effective quantum spacetime felt by a point-like test mass is constructed by ``renormalization group improving'' the Schwarzschild metric. The key ingredient is the running Newton constant which is obtained from the exact evolution equation for the effective average action. The conformal structure of the quantum spacetime depends on its ADM-mass M and it is similar to that of the classical Reissner-Nordstrom black hole. For M larger than, equal to, and smaller than a certain critical mass $M_{\rm cr}$ the spacetime has two, one and no horizon(s), respectively. Its Hawking temperature, specific heat capacity and entropy are computed as a function of M. It is argued that the black hole evaporation stops when M approaches $M_{\rm cr}$ which is of the order of the Planck mass. In this manner a ``cold'' soliton-like remnant with the near-horizon geometry of $AdS_2\times S^2$ is formed. As a consequence of the quantum effects, the classical singularity at r=0 is either removed completely or it is at least much milder than classically; in the first case the quantum spacetime has a smooth de Sitter core which would be in accord with the cosmic censorship hypothesis even if $M&lt;M_{\rm cr}$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-02-23T11:40:36Z</published>
+    <arxiv:comment>46 pages, 7 figures, RevTeX</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev. D62 (2000) 043008</arxiv:journal_ref>
+    <author>
+      <name>A. Bonanno</name>
+    </author>
+    <author>
+      <name>M. Reuter</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.62.043008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.62.043008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.06009v3</id>
+    <title>Stringent Tests of Lorentz Invariance Violation from LHAASO Observations of GRB 221009A</title>
+    <updated>2026-02-13T20:04:07Z</updated>
+    <link href="https://arxiv.org/abs/2402.06009v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.06009v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On October 9, 2022, the Large High Altitude Air Shower Observatory (LHAASO) reported the observation of the very early TeV afterglow of the brightest-of-all-time GRB 221009A, recording the highest photon statistics in the TeV band ever from a gamma-ray burst. We use this unique observation to place stringent constraints on an energy dependence of the speed of light in vacuum, a manifestation of Lorentz invariance violation (LIV) predicted by some quantum gravity (QG) theories. Our results show that the 95% confidence level lower limits on the QG energy scales are $E_{\mathrm{QG},1}&gt;10$ times of the Planck energy $E_\mathrm{Pl}$ for the linear, and $E_{\mathrm{QG},2}&gt;6\times10^{-8}E_\mathrm{Pl}$ for the quadratic LIV effects, respectively. Our limits on the quadratic LIV case improve previous best bounds by factors of 5--7.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-08T19:11:25Z</published>
+    <arxiv:comment>10pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name> The LHAASO Collaboration</name>
+    </author>
+    <author>
+      <name>Zhen Cao</name>
+    </author>
+    <author>
+      <name>F. Aharonian</name>
+    </author>
+    <author>
+      <name> Axikegu</name>
+    </author>
+    <author>
+      <name>Y. X. Bai</name>
+    </author>
+    <author>
+      <name>Y. W. Bao</name>
+    </author>
+    <author>
+      <name>D. Bastieri</name>
+    </author>
+    <author>
+      <name>X. J. Bi</name>
+    </author>
+    <author>
+      <name>Y. J. Bi</name>
+    </author>
+    <author>
+      <name>W. Bian</name>
+    </author>
+    <author>
+      <name>A. V. Bukevich</name>
+    </author>
+    <author>
+      <name>Q. Cao</name>
+    </author>
+    <author>
+      <name>W. Y. Cao</name>
+    </author>
+    <author>
+      <name>Zhe Cao</name>
+    </author>
+    <author>
+      <name>J. Chang</name>
+    </author>
+    <author>
+      <name>J. F. Chang</name>
+    </author>
+    <author>
+      <name>A. M. Chen</name>
+    </author>
+    <author>
+      <name>E. S. Chen</name>
+    </author>
+    <author>
+      <name>H. X. Chen</name>
+    </author>
+    <author>
+      <name>Liang Chen</name>
+    </author>
+    <author>
+      <name>Lin Chen</name>
+    </author>
+    <author>
+      <name>Long Chen</name>
+    </author>
+    <author>
+      <name>M. J. Chen</name>
+    </author>
+    <author>
+      <name>M. L. Chen</name>
+    </author>
+    <author>
+      <name>Q. H. Chen</name>
+    </author>
+    <author>
+      <name>S. Chen</name>
+    </author>
+    <author>
+      <name>S. H. Chen</name>
+    </author>
+    <author>
+      <name>S. Z. Chen</name>
+    </author>
+    <author>
+      <name>T. L. Chen</name>
+    </author>
+    <author>
+      <name>Y. Chen</name>
+    </author>
+    <author>
+      <name>N. Cheng</name>
+    </author>
+    <author>
+      <name>Y. D. Cheng</name>
+    </author>
+    <author>
+      <name>M. Y. Cui</name>
+    </author>
+    <author>
+      <name>S. W. Cui</name>
+    </author>
+    <author>
+      <name>X. H. Cui</name>
+    </author>
+    <author>
+      <name>Y. D. Cui</name>
+    </author>
+    <author>
+      <name>B. Z. Dai</name>
+    </author>
+    <author>
+      <name>H. L. Dai</name>
+    </author>
+    <author>
+      <name>Z. G. Dai</name>
+    </author>
+    <author>
+      <name> Danzengluobu</name>
+    </author>
+    <author>
+      <name>X. Q. Dong</name>
+    </author>
+    <author>
+      <name>K. K. Duan</name>
+    </author>
+    <author>
+      <name>J. H. Fan</name>
+    </author>
+    <author>
+      <name>Y. Z. Fan</name>
+    </author>
+    <author>
+      <name>J. Fang</name>
+    </author>
+    <author>
+      <name>J. H. Fang</name>
+    </author>
+    <author>
+      <name>K. Fang</name>
+    </author>
+    <author>
+      <name>C. F. Feng</name>
+    </author>
+    <author>
+      <name>H. Feng</name>
+    </author>
+    <author>
+      <name>L. Feng</name>
+    </author>
+    <author>
+      <name>S. H. Feng</name>
+    </author>
+    <author>
+      <name>X. T. Feng</name>
+    </author>
+    <author>
+      <name>Y. Feng</name>
+    </author>
+    <author>
+      <name>Y. L. Feng</name>
+    </author>
+    <author>
+      <name>S. Gabici</name>
+    </author>
+    <author>
+      <name>B. Gao</name>
+    </author>
+    <author>
+      <name>C. D. Gao</name>
+    </author>
+    <author>
+      <name>Q. Gao</name>
+    </author>
+    <author>
+      <name>W. Gao</name>
+    </author>
+    <author>
+      <name>W. K. Gao</name>
+    </author>
+    <author>
+      <name>M. M. Ge</name>
+    </author>
+    <author>
+      <name>L. S. Geng</name>
+    </author>
+    <author>
+      <name>G. Giacinti</name>
+    </author>
+    <author>
+      <name>G. H. Gong</name>
+    </author>
+    <author>
+      <name>Q. B. Gou</name>
+    </author>
+    <author>
+      <name>M. H. Gu</name>
+    </author>
+    <author>
+      <name>F. L. Guo</name>
+    </author>
+    <author>
+      <name>X. L. Guo</name>
+    </author>
+    <author>
+      <name>Y. Q. Guo</name>
+    </author>
+    <author>
+      <name>Y. Y. Guo</name>
+    </author>
+    <author>
+      <name>Y. A. Han</name>
+    </author>
+    <author>
+      <name>M. Hasan</name>
+    </author>
+    <author>
+      <name>H. H. He</name>
+    </author>
+    <author>
+      <name>H. N. He</name>
+    </author>
+    <author>
+      <name>J. Y. He</name>
+    </author>
+    <author>
+      <name>Y. He</name>
+    </author>
+    <author>
+      <name>Y. K. Hor</name>
+    </author>
+    <author>
+      <name>B. W. Hou</name>
+    </author>
+    <author>
+      <name>C. Hou</name>
+    </author>
+    <author>
+      <name>X. Hou</name>
+    </author>
+    <author>
+      <name>H. B. Hu</name>
+    </author>
+    <author>
+      <name>Q. Hu</name>
+    </author>
+    <author>
+      <name>S. C. Hu</name>
+    </author>
+    <author>
+      <name>D. H. Huang</name>
+    </author>
+    <author>
+      <name>T. Q. Huang</name>
+    </author>
+    <author>
+      <name>W. J. Huang</name>
+    </author>
+    <author>
+      <name>X. T. Huang</name>
+    </author>
+    <author>
+      <name>X. Y. Huang</name>
+    </author>
+    <author>
+      <name>Y. Huang</name>
+    </author>
+    <author>
+      <name>X. L. Ji</name>
+    </author>
+    <author>
+      <name>H. Y. Jia</name>
+    </author>
+    <author>
+      <name>K. Jia</name>
+    </author>
+    <author>
+      <name>K. Jiang</name>
+    </author>
+    <author>
+      <name>X. W. Jiang</name>
+    </author>
+    <author>
+      <name>Z. J. Jiang</name>
+    </author>
+    <author>
+      <name>M. Jin</name>
+    </author>
+    <author>
+      <name>M. M. Kang</name>
+    </author>
+    <author>
+      <name>I. Karpikov</name>
+    </author>
+    <author>
+      <name>D. Kuleshov</name>
+    </author>
+    <author>
+      <name>K. Kurinov</name>
+    </author>
+    <author>
+      <name>B. B. Li</name>
+    </author>
+    <author>
+      <name>C. M. Li</name>
+    </author>
+    <author>
+      <name>Cheng Li</name>
+    </author>
+    <author>
+      <name>Cong Li</name>
+    </author>
+    <author>
+      <name>D. Li</name>
+    </author>
+    <author>
+      <name>F. Li</name>
+    </author>
+    <author>
+      <name>H. B. Li</name>
+    </author>
+    <author>
+      <name>H. C. Li</name>
+    </author>
+    <author>
+      <name>Jian Li</name>
+    </author>
+    <author>
+      <name>Jie Li</name>
+    </author>
+    <author>
+      <name>K. Li</name>
+    </author>
+    <author>
+      <name>S. D. Li</name>
+    </author>
+    <author>
+      <name>W. L. Li</name>
+    </author>
+    <author>
+      <name>X. R. Li</name>
+    </author>
+    <author>
+      <name>Xin Li</name>
+    </author>
+    <author>
+      <name>Y. Z. Li</name>
+    </author>
+    <author>
+      <name>Zhe Li</name>
+    </author>
+    <author>
+      <name>Zhuo Li</name>
+    </author>
+    <author>
+      <name>E. W. Liang</name>
+    </author>
+    <author>
+      <name>Y. F. Liang</name>
+    </author>
+    <author>
+      <name>S. J. Lin</name>
+    </author>
+    <author>
+      <name>B. Liu</name>
+    </author>
+    <author>
+      <name>C. Liu</name>
+    </author>
+    <author>
+      <name>D. Liu</name>
+    </author>
+    <author>
+      <name>D. B. Liu</name>
+    </author>
+    <author>
+      <name>H. Liu</name>
+    </author>
+    <author>
+      <name>H. D. Liu</name>
+    </author>
+    <author>
+      <name>J. Liu</name>
+    </author>
+    <author>
+      <name>J. L. Liu</name>
+    </author>
+    <author>
+      <name>M. Y. Liu</name>
+    </author>
+    <author>
+      <name>R. Y. Liu</name>
+    </author>
+    <author>
+      <name>S. M. Liu</name>
+    </author>
+    <author>
+      <name>W. Liu</name>
+    </author>
+    <author>
+      <name>Y. Liu</name>
+    </author>
+    <author>
+      <name>Y. N. Liu</name>
+    </author>
+    <author>
+      <name>Q. Luo</name>
+    </author>
+    <author>
+      <name>Y. Luo</name>
+    </author>
+    <author>
+      <name>H. K. Lv</name>
+    </author>
+    <author>
+      <name>B. Q. Ma</name>
+    </author>
+    <author>
+      <name>L. L. Ma</name>
+    </author>
+    <author>
+      <name>X. H. Ma</name>
+    </author>
+    <author>
+      <name>J. R. Mao</name>
+    </author>
+    <author>
+      <name>Z. Min</name>
+    </author>
+    <author>
+      <name>W. Mitthumsiri</name>
+    </author>
+    <author>
+      <name>H. J. Mu</name>
+    </author>
+    <author>
+      <name>Y. C. Nan</name>
+    </author>
+    <author>
+      <name>A. Neronov</name>
+    </author>
+    <author>
+      <name>L. J. Ou</name>
+    </author>
+    <author>
+      <name>P. Pattarakijwanich</name>
+    </author>
+    <author>
+      <name>Z. Y. Pei</name>
+    </author>
+    <author>
+      <name>J. C. Qi</name>
+    </author>
+    <author>
+      <name>M. Y. Qi</name>
+    </author>
+    <author>
+      <name>B. Q. Qiao</name>
+    </author>
+    <author>
+      <name>J. J. Qin</name>
+    </author>
+    <author>
+      <name>A. Raza</name>
+    </author>
+    <author>
+      <name>D. Ruffolo</name>
+    </author>
+    <author>
+      <name>A. Sáiz</name>
+    </author>
+    <author>
+      <name>M. Saeed</name>
+    </author>
+    <author>
+      <name>D. Semikoz</name>
+    </author>
+    <author>
+      <name>L. Shao</name>
+    </author>
+    <author>
+      <name>O. Shchegolev</name>
+    </author>
+    <author>
+      <name>X. D. Sheng</name>
+    </author>
+    <author>
+      <name>F. W. Shu</name>
+    </author>
+    <author>
+      <name>H. C. Song</name>
+    </author>
+    <author>
+      <name>Yu. V. Stenkin</name>
+    </author>
+    <author>
+      <name>V. Stepanov</name>
+    </author>
+    <author>
+      <name>Y. Su</name>
+    </author>
+    <author>
+      <name>D. X. Sun</name>
+    </author>
+    <author>
+      <name>Q. N. Sun</name>
+    </author>
+    <author>
+      <name>X. N. Sun</name>
+    </author>
+    <author>
+      <name>Z. B. Sun</name>
+    </author>
+    <author>
+      <name>J. Takata</name>
+    </author>
+    <author>
+      <name>P. H. T. Tam</name>
+    </author>
+    <author>
+      <name>Q. W. Tang</name>
+    </author>
+    <author>
+      <name>R. Tang</name>
+    </author>
+    <author>
+      <name>Z. B. Tang</name>
+    </author>
+    <author>
+      <name>W. W. Tian</name>
+    </author>
+    <author>
+      <name>C. Wang</name>
+    </author>
+    <author>
+      <name>C. B. Wang</name>
+    </author>
+    <author>
+      <name>G. W. Wang</name>
+    </author>
+    <author>
+      <name>H. G. Wang</name>
+    </author>
+    <author>
+      <name>H. H. Wang</name>
+    </author>
+    <author>
+      <name>J. C. Wang</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>L. P. Wang</name>
+    </author>
+    <author>
+      <name>L. Y. Wang</name>
+    </author>
+    <author>
+      <name>P. H. Wang</name>
+    </author>
+    <author>
+      <name>R. Wang</name>
+    </author>
+    <author>
+      <name>W. Wang</name>
+    </author>
+    <author>
+      <name>X. G. Wang</name>
+    </author>
+    <author>
+      <name>X. Y. Wang</name>
+    </author>
+    <author>
+      <name>Y. Wang</name>
+    </author>
+    <author>
+      <name>Y. D. Wang</name>
+    </author>
+    <author>
+      <name>Y. J. Wang</name>
+    </author>
+    <author>
+      <name>Z. H. Wang</name>
+    </author>
+    <author>
+      <name>Z. X. Wang</name>
+    </author>
+    <author>
+      <name>Zhen Wang</name>
+    </author>
+    <author>
+      <name>Zheng Wang</name>
+    </author>
+    <author>
+      <name>D. M. Wei</name>
+    </author>
+    <author>
+      <name>J. J. Wei</name>
+    </author>
+    <author>
+      <name>Y. J. Wei</name>
+    </author>
+    <author>
+      <name>T. Wen</name>
+    </author>
+    <author>
+      <name>C. Y. Wu</name>
+    </author>
+    <author>
+      <name>H. R. Wu</name>
+    </author>
+    <author>
+      <name>Q. W. Wu</name>
+    </author>
+    <author>
+      <name>S. Wu</name>
+    </author>
+    <author>
+      <name>X. F. Wu</name>
+    </author>
+    <author>
+      <name>Y. S. Wu</name>
+    </author>
+    <author>
+      <name>S. Q. Xi</name>
+    </author>
+    <author>
+      <name>J. Xia</name>
+    </author>
+    <author>
+      <name>G. M. Xiang</name>
+    </author>
+    <author>
+      <name>D. X. Xiao</name>
+    </author>
+    <author>
+      <name>G. Xiao</name>
+    </author>
+    <author>
+      <name>Y. L. Xin</name>
+    </author>
+    <author>
+      <name>Y. Xing</name>
+    </author>
+    <author>
+      <name>D. R. Xiong</name>
+    </author>
+    <author>
+      <name>Z. Xiong</name>
+    </author>
+    <author>
+      <name>D. L. Xu</name>
+    </author>
+    <author>
+      <name>R. F. Xu</name>
+    </author>
+    <author>
+      <name>R. X. Xu</name>
+    </author>
+    <author>
+      <name>W. L. Xu</name>
+    </author>
+    <author>
+      <name>L. Xue</name>
+    </author>
+    <author>
+      <name>D. H. Yan</name>
+    </author>
+    <author>
+      <name>J. Z. Yan</name>
+    </author>
+    <author>
+      <name>T. Yan</name>
+    </author>
+    <author>
+      <name>C. W. Yang</name>
+    </author>
+    <author>
+      <name>C. Y. Yang</name>
+    </author>
+    <author>
+      <name>F. Yang</name>
+    </author>
+    <author>
+      <name>F. F. Yang</name>
+    </author>
+    <author>
+      <name>L. L. Yang</name>
+    </author>
+    <author>
+      <name>M. J. Yang</name>
+    </author>
+    <author>
+      <name>R. Z. Yang</name>
+    </author>
+    <author>
+      <name>W. X. Yang</name>
+    </author>
+    <author>
+      <name>Y. H. Yao</name>
+    </author>
+    <author>
+      <name>Z. G. Yao</name>
+    </author>
+    <author>
+      <name>L. Q. Yin</name>
+    </author>
+    <author>
+      <name>N. Yin</name>
+    </author>
+    <author>
+      <name>X. H. You</name>
+    </author>
+    <author>
+      <name>Z. Y. You</name>
+    </author>
+    <author>
+      <name>Y. H. Yu</name>
+    </author>
+    <author>
+      <name>Q. Yuan</name>
+    </author>
+    <author>
+      <name>H. Yue</name>
+    </author>
+    <author>
+      <name>H. D. Zeng</name>
+    </author>
+    <author>
+      <name>T. X. Zeng</name>
+    </author>
+    <author>
+      <name>W. Zeng</name>
+    </author>
+    <author>
+      <name>M. Zha</name>
+    </author>
+    <author>
+      <name>B. B. Zhang</name>
+    </author>
+    <author>
+      <name>F. Zhang</name>
+    </author>
+    <author>
+      <name>H. Zhang</name>
+    </author>
+    <author>
+      <name>H. M. Zhang</name>
+    </author>
+    <author>
+      <name>H. Y. Zhang</name>
+    </author>
+    <author>
+      <name>J. L. Zhang</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>P. F. Zhang</name>
+    </author>
+    <author>
+      <name>P. P. Zhang</name>
+    </author>
+    <author>
+      <name>R. Zhang</name>
+    </author>
+    <author>
+      <name>S. B. Zhang</name>
+    </author>
+    <author>
+      <name>S. R. Zhang</name>
+    </author>
+    <author>
+      <name>S. S. Zhang</name>
+    </author>
+    <author>
+      <name>X. Zhang</name>
+    </author>
+    <author>
+      <name>X. P. Zhang</name>
+    </author>
+    <author>
+      <name>Y. F. Zhang</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>Yong Zhang</name>
+    </author>
+    <author>
+      <name>B. Zhao</name>
+    </author>
+    <author>
+      <name>J. Zhao</name>
+    </author>
+    <author>
+      <name>L. Zhao</name>
+    </author>
+    <author>
+      <name>L. Z. Zhao</name>
+    </author>
+    <author>
+      <name>S. P. Zhao</name>
+    </author>
+    <author>
+      <name>X. H. Zhao</name>
+    </author>
+    <author>
+      <name>F. Zheng</name>
+    </author>
+    <author>
+      <name>W. J. Zhong</name>
+    </author>
+    <author>
+      <name>B. Zhou</name>
+    </author>
+    <author>
+      <name>H. Zhou</name>
+    </author>
+    <author>
+      <name>J. N. Zhou</name>
+    </author>
+    <author>
+      <name>M. Zhou</name>
+    </author>
+    <author>
+      <name>P. Zhou</name>
+    </author>
+    <author>
+      <name>R. Zhou</name>
+    </author>
+    <author>
+      <name>X. X. Zhou</name>
+    </author>
+    <author>
+      <name>B. Y. Zhu</name>
+    </author>
+    <author>
+      <name>C. G. Zhu</name>
+    </author>
+    <author>
+      <name>F. R. Zhu</name>
+    </author>
+    <author>
+      <name>H. Zhu</name>
+    </author>
+    <author>
+      <name>K. J. Zhu</name>
+    </author>
+    <author>
+      <name>Y. C. Zou</name>
+    </author>
+    <author>
+      <name>X. Zuo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.133.071501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.133.071501" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.11761v1</id>
+    <title>New Test of the Gravitational $1/r^2$ Law at Separations down to 52 $μ$m</title>
+    <updated>2020-02-26T19:44:53Z</updated>
+    <link href="https://arxiv.org/abs/2002.11761v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.11761v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We tested the gravitational $1/r^2$ law using a stationary torsion-balance detector and a rotating attractor containing test bodies with both 18-fold and 120-fold azimuthal symmetries that simultaneously tests the $1/r^2$ law at two different length scales. We took data at detector-attractor separations between $52~μ$m and 3.0 mm. Newtonian gravity gave an excellent fit to our data, limiting with 95\% confidence any gravitational-strength Yukawa interactions to ranges $&lt; 38.6~μ$m.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-26T19:44:53Z</published>
+    <arxiv:comment>5 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>J. G. Lee</name>
+    </author>
+    <author>
+      <name>E. G. Adelberger</name>
+    </author>
+    <author>
+      <name>T. S. Cook</name>
+    </author>
+    <author>
+      <name>S. M. Fleischer</name>
+    </author>
+    <author>
+      <name>B. R. Heckel</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.124.101101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.124.101101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.00648v2</id>
+    <title>Quantum Transfiguration of Kruskal Black Holes</title>
+    <updated>2018-11-09T20:17:33Z</updated>
+    <link href="https://arxiv.org/abs/1806.00648v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.00648v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new effective description of macroscopic Kruskal black holes that incorporates corrections due to quantum geometry effects of loop quantum gravity. It encompasses both the `interior' region that contains classical singularities and the `exterior' asymptotic region. Singularities are naturally resolved by the quantum geometry effects of loop quantum gravity, and the resulting quantum extension of the full Kruskal space-time is free of all the known limitations of previous investigations [1-11] of the Schwarzschild interior. We compare and contrast our results with these investigations and also with the expectations based on the AdS/CFT duality [12].</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-02T15:01:34Z</published>
+    <arxiv:comment>5 pages, 1 figure, minor changes, version to appear in PRL</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 121, 241301 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Abhay Ashtekar</name>
+    </author>
+    <author>
+      <name>Javier Olmedo</name>
+    </author>
+    <author>
+      <name>Parampreet Singh</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.121.241301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.121.241301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.10798v3</id>
+    <title>Gravitationally Mediated Entanglement: Newtonian Field vs. Gravitons</title>
+    <updated>2023-01-08T20:08:11Z</updated>
+    <link href="https://arxiv.org/abs/2112.10798v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.10798v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that if the Newtonian gravitational field of a body can mediate entanglement with another body, then it should also be possible for the body producing the Newtonian field to entangle directly with on-shell gravitons. Our arguments are made by revisiting a gedankenexperiment previously analyzed by Belenchia et al., which showed that a quantum superposition of a massive body requires both quantized gravitational radiation and local vacuum fluctuations of the spacetime metric in order to avoid contradictions with complementarity and causality. We provide a precise and rigorous description of the entanglement and decoherence effects occurring in this gedankenexperiment, thereby significantly improving upon the back-of-the-envelope estimates given in the analysis of Belenchia et al. and also showing that their conclusions are valid in much more general circumstances. As a by-product of our analysis, we show that under the protocols of the gedankenexperiment, there is no clear distinction between entanglement mediated by the Newtonian gravitational field of a body and entanglement mediated by on-shell gravitons emitted by the body. This suggests that Newtonian entanglement implies the existence of graviton entanglement and supports the view that the experimental discovery of Newtonian entanglement may be viewed as implying the existence of the graviton.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-20T19:00:05Z</published>
+    <arxiv:comment>11 pages, 3 figures. Minor editorial changes in v2 and v3</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 105, 086001 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Daine L. Danielson</name>
+    </author>
+    <author>
+      <name>Gautam Satishchandran</name>
+    </author>
+    <author>
+      <name>Robert M. Wald</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.105.086001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.105.086001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.05659v2</id>
+    <title>Quantum gravity phenomenology at the dawn of the multi-messenger era -- A review</title>
+    <updated>2022-03-29T14:45:43Z</updated>
+    <link href="https://arxiv.org/abs/2111.05659v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.05659v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The exploration of the universe has recently entered a new era thanks to the multi-messenger paradigm, characterized by a continuous increase in the quantity and quality of experimental data that is obtained by the detection of the various cosmic messengers (photons, neutrinos, cosmic rays and gravitational waves) from numerous origins. They give us information about their sources in the universe and the properties of the intergalactic medium. Moreover, multi-messenger astronomy opens up the possibility to search for phenomenological signatures of quantum gravity. On the one hand, the most energetic events allow us to test our physical theories at energy regimes which are not directly accessible in accelerators; on the other hand, tiny effects in the propagation of very high energy particles could be amplified by cosmological distances. After decades of merely theoretical investigations, the possibility of obtaining phenomenological indications of Planck-scale effects is a revolutionary step in the quest for a quantum theory of gravity, but it requires cooperation between different communities of physicists (both theoretical and experimental). This review is aimed at promoting this cooperation by giving a state-of-the art account of the interdisciplinary expertise that is needed in the effective search of quantum gravity footprints in the production, propagation and detection of cosmic messengers.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-10T11:54:38Z</published>
+    <arxiv:comment>This review was written by participants of the COST Action CA18108. Further information on the review can be found at https://qg-mm.unizar.es/review/, updated to published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Progress in Particle and Nuclear Physics, Volume 125, July 2022, 103948</arxiv:journal_ref>
+    <author>
+      <name>A. Addazi</name>
+    </author>
+    <author>
+      <name>J. Alvarez-Muniz</name>
+    </author>
+    <author>
+      <name>R. Alves Batista</name>
+    </author>
+    <author>
+      <name>G. Amelino-Camelia</name>
+    </author>
+    <author>
+      <name>V. Antonelli</name>
+    </author>
+    <author>
+      <name>M. Arzano</name>
+    </author>
+    <author>
+      <name>M. Asorey</name>
+    </author>
+    <author>
+      <name>J. -L. Atteia</name>
+    </author>
+    <author>
+      <name>S. Bahamonde</name>
+    </author>
+    <author>
+      <name>F. Bajardi</name>
+    </author>
+    <author>
+      <name>A. Ballesteros</name>
+    </author>
+    <author>
+      <name>B. Baret</name>
+    </author>
+    <author>
+      <name>D. M. Barreiros</name>
+    </author>
+    <author>
+      <name>S. Basilakos</name>
+    </author>
+    <author>
+      <name>D. Benisty</name>
+    </author>
+    <author>
+      <name>O. Birnholtz</name>
+    </author>
+    <author>
+      <name>J. J. Blanco-Pillado</name>
+    </author>
+    <author>
+      <name>D. Blas</name>
+    </author>
+    <author>
+      <name>J. Bolmont</name>
+    </author>
+    <author>
+      <name>D. Boncioli</name>
+    </author>
+    <author>
+      <name>P. Bosso</name>
+    </author>
+    <author>
+      <name>G. Calcagni</name>
+    </author>
+    <author>
+      <name>S. Capozziello</name>
+    </author>
+    <author>
+      <name>J. M. Carmona</name>
+    </author>
+    <author>
+      <name>S. Cerci</name>
+    </author>
+    <author>
+      <name>M. Chernyakova</name>
+    </author>
+    <author>
+      <name>S. Clesse</name>
+    </author>
+    <author>
+      <name>J. A. B. Coelho</name>
+    </author>
+    <author>
+      <name>S. M. Colak</name>
+    </author>
+    <author>
+      <name>J. L. Cortes</name>
+    </author>
+    <author>
+      <name>S. Das</name>
+    </author>
+    <author>
+      <name>V. D'Esposito</name>
+    </author>
+    <author>
+      <name>M. Demirci</name>
+    </author>
+    <author>
+      <name>M. G. Di Luca</name>
+    </author>
+    <author>
+      <name>A. di Matteo</name>
+    </author>
+    <author>
+      <name>D. Dimitrijevic</name>
+    </author>
+    <author>
+      <name>G. Djordjevic</name>
+    </author>
+    <author>
+      <name>D. Dominis Prester</name>
+    </author>
+    <author>
+      <name>A. Eichhorn</name>
+    </author>
+    <author>
+      <name>J. Ellis</name>
+    </author>
+    <author>
+      <name>C. Escamilla-Rivera</name>
+    </author>
+    <author>
+      <name>G. Fabiano</name>
+    </author>
+    <author>
+      <name>S. A. Franchino-Viñas</name>
+    </author>
+    <author>
+      <name>A. M. Frassino</name>
+    </author>
+    <author>
+      <name>D. Frattulillo</name>
+    </author>
+    <author>
+      <name>S. Funk</name>
+    </author>
+    <author>
+      <name>A. Fuster</name>
+    </author>
+    <author>
+      <name>J. Gamboa</name>
+    </author>
+    <author>
+      <name>A. Gent</name>
+    </author>
+    <author>
+      <name>L. Á. Gergely</name>
+    </author>
+    <author>
+      <name>M. Giammarchi</name>
+    </author>
+    <author>
+      <name>K. Giesel</name>
+    </author>
+    <author>
+      <name>J. -F. Glicenstein</name>
+    </author>
+    <author>
+      <name>J. Gracia-Bondía</name>
+    </author>
+    <author>
+      <name>G. Gubitosi</name>
+    </author>
+    <author>
+      <name>E. I. Guendelman</name>
+    </author>
+    <author>
+      <name>I. Gutierrez-Sagredo</name>
+    </author>
+    <author>
+      <name>L. Haegel</name>
+    </author>
+    <author>
+      <name>S. Heefer</name>
+    </author>
+    <author>
+      <name>A. Held</name>
+    </author>
+    <author>
+      <name>F. J. Herranz</name>
+    </author>
+    <author>
+      <name>T. Hinderer</name>
+    </author>
+    <author>
+      <name>J. I. Illana</name>
+    </author>
+    <author>
+      <name>A. Ioannisian</name>
+    </author>
+    <author>
+      <name>P. Jetzer</name>
+    </author>
+    <author>
+      <name>F. R. Joaquim</name>
+    </author>
+    <author>
+      <name>K. -H. Kampert</name>
+    </author>
+    <author>
+      <name>A. Karasu Uysal</name>
+    </author>
+    <author>
+      <name>T. Katori</name>
+    </author>
+    <author>
+      <name>N. Kazarian</name>
+    </author>
+    <author>
+      <name>D. Kerszberg</name>
+    </author>
+    <author>
+      <name>J. Kowalski-Glikman</name>
+    </author>
+    <author>
+      <name>S. Kuroyanagi</name>
+    </author>
+    <author>
+      <name>C. Lämmerzahl</name>
+    </author>
+    <author>
+      <name>J. Levi Said</name>
+    </author>
+    <author>
+      <name>S. Liberati</name>
+    </author>
+    <author>
+      <name>E. Lim</name>
+    </author>
+    <author>
+      <name>I. P. Lobo</name>
+    </author>
+    <author>
+      <name>M. López-Moya</name>
+    </author>
+    <author>
+      <name>G. G. Luciano</name>
+    </author>
+    <author>
+      <name>M. Manganaro</name>
+    </author>
+    <author>
+      <name>A. Marcianò</name>
+    </author>
+    <author>
+      <name>P. Martín-Moruno</name>
+    </author>
+    <author>
+      <name>Manel Martinez</name>
+    </author>
+    <author>
+      <name>Mario Martinez</name>
+    </author>
+    <author>
+      <name>H. Martínez-Huerta</name>
+    </author>
+    <author>
+      <name>P. Martínez-Miravé</name>
+    </author>
+    <author>
+      <name>M. Masip</name>
+    </author>
+    <author>
+      <name>D. Mattingly</name>
+    </author>
+    <author>
+      <name>N. Mavromatos</name>
+    </author>
+    <author>
+      <name>A. Mazumdar</name>
+    </author>
+    <author>
+      <name>F. Méndez</name>
+    </author>
+    <author>
+      <name>F. Mercati</name>
+    </author>
+    <author>
+      <name>S. Micanovic</name>
+    </author>
+    <author>
+      <name>J. Mielczarek</name>
+    </author>
+    <author>
+      <name>A. L. Miller</name>
+    </author>
+    <author>
+      <name>M. Milosevic</name>
+    </author>
+    <author>
+      <name>D. Minic</name>
+    </author>
+    <author>
+      <name>L. Miramonti</name>
+    </author>
+    <author>
+      <name>V. A. Mitsou</name>
+    </author>
+    <author>
+      <name>P. Moniz</name>
+    </author>
+    <author>
+      <name>S. Mukherjee</name>
+    </author>
+    <author>
+      <name>G. Nardini</name>
+    </author>
+    <author>
+      <name>S. Navas</name>
+    </author>
+    <author>
+      <name>M. Niechciol</name>
+    </author>
+    <author>
+      <name>A. B. Nielsen</name>
+    </author>
+    <author>
+      <name>N. A. Obers</name>
+    </author>
+    <author>
+      <name>F. Oikonomou</name>
+    </author>
+    <author>
+      <name>D. Oriti</name>
+    </author>
+    <author>
+      <name>C. F. Paganini</name>
+    </author>
+    <author>
+      <name>S. Palomares-Ruiz</name>
+    </author>
+    <author>
+      <name>R. Pasechnik</name>
+    </author>
+    <author>
+      <name>C. Pérez de los Heros</name>
+    </author>
+    <author>
+      <name>C. Pfeifer</name>
+    </author>
+    <author>
+      <name>M. P. Pieroni</name>
+    </author>
+    <author>
+      <name>T. Piran</name>
+    </author>
+    <author>
+      <name>A. Platania</name>
+    </author>
+    <author>
+      <name>S. Rastgoo</name>
+    </author>
+    <author>
+      <name>J. J. Relancio</name>
+    </author>
+    <author>
+      <name>M. A. Reyes</name>
+    </author>
+    <author>
+      <name>A. Ricciardone</name>
+    </author>
+    <author>
+      <name>M. Risse</name>
+    </author>
+    <author>
+      <name>M. D. Rodriguez Frias</name>
+    </author>
+    <author>
+      <name>G. Rosati</name>
+    </author>
+    <author>
+      <name>D. Rubiera-Garcia</name>
+    </author>
+    <author>
+      <name>H. Sahlmann</name>
+    </author>
+    <author>
+      <name>M. Sakellariadou</name>
+    </author>
+    <author>
+      <name>F. Salamida</name>
+    </author>
+    <author>
+      <name>E. N. Saridakis</name>
+    </author>
+    <author>
+      <name>P. Satunin</name>
+    </author>
+    <author>
+      <name>M. Schiffer</name>
+    </author>
+    <author>
+      <name>F. Schüssler</name>
+    </author>
+    <author>
+      <name>G. Sigl</name>
+    </author>
+    <author>
+      <name>J. Sitarek</name>
+    </author>
+    <author>
+      <name>J. Solà Peracaula</name>
+    </author>
+    <author>
+      <name>C. F. Sopuerta</name>
+    </author>
+    <author>
+      <name>T. P. Sotiriou</name>
+    </author>
+    <author>
+      <name>M. Spurio</name>
+    </author>
+    <author>
+      <name>D. Staicova</name>
+    </author>
+    <author>
+      <name>N. Stergioulas</name>
+    </author>
+    <author>
+      <name>S. Stoica</name>
+    </author>
+    <author>
+      <name>J. Strišković</name>
+    </author>
+    <author>
+      <name>T. Stuttard</name>
+    </author>
+    <author>
+      <name>D. Sunar Cerci</name>
+    </author>
+    <author>
+      <name>Y. Tavakoli</name>
+    </author>
+    <author>
+      <name>C. A. Ternes</name>
+    </author>
+    <author>
+      <name>T. Terzić</name>
+    </author>
+    <author>
+      <name>T. Thiemann</name>
+    </author>
+    <author>
+      <name>P. Tinyakov</name>
+    </author>
+    <author>
+      <name>M. D. C. Torri</name>
+    </author>
+    <author>
+      <name>M. Tórtola</name>
+    </author>
+    <author>
+      <name>C. Trimarelli</name>
+    </author>
+    <author>
+      <name>T. Trześniewski</name>
+    </author>
+    <author>
+      <name>A. Tureanu</name>
+    </author>
+    <author>
+      <name>F. R. Urban</name>
+    </author>
+    <author>
+      <name>E. C. Vagenas</name>
+    </author>
+    <author>
+      <name>D. Vernieri</name>
+    </author>
+    <author>
+      <name>V. Vitagliano</name>
+    </author>
+    <author>
+      <name>J. -C. Wallet</name>
+    </author>
+    <author>
+      <name>J. D. Zornoza</name>
+    </author>
+    <arxiv:doi>10.1016/j.ppnp.2022.103948</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ppnp.2022.103948" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.06279v2</id>
+    <title>Black Holes Decohere Quantum Superpositions</title>
+    <updated>2022-11-28T17:56:56Z</updated>
+    <link href="https://arxiv.org/abs/2205.06279v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.06279v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that if a massive body is put in a quantum superposition of spatially separated states, the mere presence of a black hole in the vicinity of the body will eventually destroy the coherence of the superposition. This occurs because, in effect, the gravitational field of the body radiates soft gravitons into the black hole, allowing the black hole to acquire "which path" information about the superposition. A similar effect occurs for quantum superpositions of electrically charged bodies. We provide estimates of the decoherence time for such quantum superpositions. We believe that the fact that a black hole will eventually decohere any quantum superposition may be of fundamental significance for our understanding of the nature of black holes in a quantum theory of gravity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-12T18:00:04Z</published>
+    <arxiv:comment>10 pages. Third prize essay in the Gravity Research Foundation 2022 Essays on Gravitation. Minor editorial changes in v2</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Int. J. Mod. Phys. D 31 (2022) 14, 2241003</arxiv:journal_ref>
+    <author>
+      <name>Daine L. Danielson</name>
+    </author>
+    <author>
+      <name>Gautam Satishchandran</name>
+    </author>
+    <author>
+      <name>Robert M. Wald</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271822410036</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271822410036" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.00449v1</id>
+    <title>Schrödinger cat states of a 16-microgram mechanical oscillator</title>
+    <updated>2022-11-01T13:29:44Z</updated>
+    <link href="https://arxiv.org/abs/2211.00449v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.00449v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The superposition principle is one of the most fundamental principles of quantum mechanics. According to the Schrödinger equation, a physical system can be in any linear combination of its possible states. While the validity of this principle is routinely validated for microscopic systems, it is still unclear why we do not observe macroscopic objects to be in superpositions of states that can be distinguished by some classical property. Here we demonstrate the preparation of a mechanical resonator with an effective mass of 16.2 micrograms in Schrödinger cat states of motion, where the constituent atoms are in a superposition of oscillating with two opposite phases. We show control over the size and phase of the superposition and investigate the decoherence dynamics of these states. Apart from shedding light at the boundary between the quantum and the classical world, our results are of interest for quantum technologies, as they pave the way towards continuous-variable quantum information processing and quantum metrology with mechanical resonators.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-01T13:29:44Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Marius Bild</name>
+    </author>
+    <author>
+      <name>Matteo Fadel</name>
+    </author>
+    <author>
+      <name>Yu Yang</name>
+    </author>
+    <author>
+      <name>Uwe von Lüpke</name>
+    </author>
+    <author>
+      <name>Phillip Martin</name>
+    </author>
+    <author>
+      <name>Alessandro Bruno</name>
+    </author>
+    <author>
+      <name>Yiwen Chu</name>
+    </author>
+    <arxiv:doi>10.1126/science.adf7553</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.adf7553" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.05587v1</id>
+    <title>How to avoid the appearance of a classical world in gravity experiments</title>
+    <updated>2022-03-10T19:03:15Z</updated>
+    <link href="https://arxiv.org/abs/2203.05587v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.05587v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum states of gravitational source masses can lead to experimental outcomes that are inconsistent with the predictions of a purely classical field theory of gravity. Environmental decoherence places strict boundary conditions to the potential realization of such experiments: sufficiently mild not to act as a fundamental show-stopper, yet sufficiently demanding to represent a formidable challenge to the next generation of quantum experiment(er)s.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-10T19:03:15Z</published>
+    <arxiv:comment>dedicated to Dieter Zeh; to appear in: "From Quantum to Classical. Essays in memory of H.-Dieter Zeh", Fundamental Theories of Physics, edited by Claus Kiefer, Springer 2022</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Markus Aspelmeyer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.08669v1</id>
+    <title>Quantum Gravity from Causal Dynamical Triangulations: A Review</title>
+    <updated>2019-05-21T14:33:23Z</updated>
+    <link href="https://arxiv.org/abs/1905.08669v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.08669v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This topical review gives a comprehensive overview and assessment of recent results in Causal Dynamical Triangulations (CDT), a modern formulation of lattice gravity, whose aim is to obtain a theory of quantum gravity nonperturbatively from a scaling limit of the lattice-regularized theory. In this manifestly diffeomorphism-invariant approach one has direct, computational access to a Planckian spacetime regime, which is explored with the help of invariant quantum observables. During the last few years, there have been numerous new and important developments and insights concerning the theory's phase structure, the roles of time, causality, diffeomorphisms and global topology, the application of renormalization group methods and new observables. We will focus on these new results, primarily in four spacetime dimensions, and discuss some of their geometric and physical implications.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-21T14:33:23Z</published>
+    <arxiv:comment>64 pages, 28 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>R. Loll</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ab57c7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ab57c7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.06036v2</id>
+    <title>Gravitationally-induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity</title>
+    <updated>2017-12-09T05:30:20Z</updated>
+    <link href="https://arxiv.org/abs/1707.06036v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.06036v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>All existing quantum gravity proposals share the same deep problem. Their predictions are extremely hard to test in practice. Quantum effects in the gravitational field are exceptionally small, unlike those in the electromagnetic field. The fundamental reason is that the gravitational coupling constant is about 43 orders of magnitude smaller than the fine structure constant, which governs light-matter interactions. For example, the detection of gravitons -- the hypothetical quanta of energy of the gravitational field predicted by certain quantum-gravity proposals -- is deemed to be practically impossible. In this letter we adopt a radically different, quantum-information-theoretic approach which circumvents the problem that quantum gravity is hard to test. We propose an experiment to witness quantum-like features in the gravitational field, by probing it with two masses each in a superposition of two locations. First, we prove the fact that any system (e.g. a field) capable of mediating entanglement between two quantum systems must itself be quantum. This argument is general and does not rely on any specific dynamics. Then, we propose an experiment to detect the entanglement generated between two masses via gravitational interaction. By our argument, the degree of entanglement between the masses is an indirect witness of the quantisation of the field mediating the interaction. Remarkably, this experiment does not require any quantum control over gravity itself. It is also closer to realisation than other proposals, such as detecting gravitons or detecting quantum gravitational vacuum fluctuations.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-19T12:03:51Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 119, 240402 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Chiara Marletto</name>
+    </author>
+    <author>
+      <name>Vlatko Vedral</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.119.240402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.119.240402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0611184v1</id>
+    <title>Tests of the Gravitational Inverse-Square Law below the Dark-Energy Length Scale</title>
+    <updated>2006-11-14T19:31:03Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0611184v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0611184v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We conducted three torsion-balance experiments to test the gravitational inverse-square law at separations between 9.53 mm and 55 micrometers, probing distances less than the dark-energy length scale $λ_{\rm d}=\sqrt[4]{\hbar c/ρ_{\rm d}}\approx 85 μ$m. We find with 95% confidence that the inverse-square law holds ($|α| \leq 1$) down to a length scale $λ= 56 μ$m and that an extra dimension must have a size $R \leq 44 μ$m.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-14T19:31:03Z</published>
+    <arxiv:comment>4 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.98:021101,2007</arxiv:journal_ref>
+    <author>
+      <name>D. J. Kapner</name>
+    </author>
+    <author>
+      <name>T. S. Cook</name>
+    </author>
+    <author>
+      <name>E. G. Adelberger</name>
+    </author>
+    <author>
+      <name>J. H. Gundlach</name>
+    </author>
+    <author>
+      <name>B. R. Heckel</name>
+    </author>
+    <author>
+      <name>C. D. Hoyle</name>
+    </author>
+    <author>
+      <name>H. E. Swanson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.98.021101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.98.021101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0602086v2</id>
+    <title>Quantum Nature of the Big Bang</title>
+    <updated>2006-04-06T19:13:15Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0602086v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0602086v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Some long standing issues concerning the quantum nature of the big bang are resolved in the context of homogeneous isotropic models with a scalar field. Specifically, the known results on the resolution of the big bang singularity in loop quantum cosmology are significantly extended as follows: i) the scalar field is shown to serve as an internal clock, thereby providing a detailed realization of the `emergent time' idea; ii) the physical Hilbert space, Dirac observables and semi-classical states are constructed rigorously; iii) the Hamiltonian constraint is solved numerically to show that the big bang is replaced by a big bounce. Thanks to the non-perturbative, background independent methods, unlike in other approaches the quantum evolution is deterministic across the deep Planck regime.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-02-22T20:22:34Z</published>
+    <arxiv:comment>Revtex4, 4 Pages, 2 Figures. Minor changes to match the published version in Physical Review Letters</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.96:141301,2006</arxiv:journal_ref>
+    <author>
+      <name>Abhay Ashtekar</name>
+    </author>
+    <author>
+      <name>Tomasz Pawlowski</name>
+    </author>
+    <author>
+      <name>Parampreet Singh</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.96.141301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.96.141301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.07615v2</id>
+    <title>An asymptotically safe guide to quantum gravity and matter</title>
+    <updated>2019-02-21T12:44:20Z</updated>
+    <link href="https://arxiv.org/abs/1810.07615v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.07615v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Asymptotic safety generalizes asymptotic freedom and could contribute to understanding physics beyond the Standard Model. It is a candidate scenario to provide an ultraviolet extension for the effective quantum field theory of gravity through an interacting fixed point of the Renormalization Group. Recently, asymptotic safety has been established in specific gauge-Yukawa models in four dimensions in perturbation theory, providing a starting point for asymptotically safe model building. Moreover, an asymptotically safe fixed point might even be induced in the Standard Model under the impact of quantum fluctuations of gravity in the vicinity of the Planck scale. This review contains an overview of the key concepts of asymptotic safety, its application to matter and gravity models, exploring potential phenomenological implications and highlighting open questions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-17T15:30:10Z</published>
+    <arxiv:comment>minor changes, references added; version identical with published one</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Astrid Eichhorn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.09546v2</id>
+    <title>Measurement of Gravitational Coupling between Millimeter-Sized Masses</title>
+    <updated>2021-03-02T08:23:00Z</updated>
+    <link href="https://arxiv.org/abs/2009.09546v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.09546v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate gravitational coupling between two gold spheres of approximately 1mm radius and 90mg mass. By periodically modulating the source mass position at a frequency f=12.7mHz we generate a time-dependent gravitational acceleration at the location of the test mass, which is measured off resonance in a miniature torsional balance configuration. Over an integration time of 350 hours the test mass oscillator enables measurements with a systematic accuracy of 4E-11m/s^2 and a statistical precision of 4E-12m/s^2. This is sufficient to resolve the gravitational signal at a minimal surface distance of 400mum between the two masses. We observe both linear and quadratic coupling, consistent in signal strength with a time-varying 1/r gravitational potential. Contributions of non-gravitational forces could be kept to less than 10% of the observed signal. We expect further improvements to enable the isolation of gravity as a coupling force for objects well below the Planck mass. This opens the way for precision tests of gravity in a new regime of isolated microscopic source masses.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-21T00:04:49Z</published>
+    <arxiv:comment>H.H. and J.P. have contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Tobias Westphal</name>
+    </author>
+    <author>
+      <name>Hans Hepach</name>
+    </author>
+    <author>
+      <name>Jeremias Pfaff</name>
+    </author>
+    <author>
+      <name>Markus Aspelmeyer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.04406v2</id>
+    <title>Motional Quantum Ground State of a Levitated Nanoparticle from Room Temperature</title>
+    <updated>2019-11-22T17:02:04Z</updated>
+    <link href="https://arxiv.org/abs/1911.04406v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.04406v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report quantum ground state cooling of a levitated nanoparticle in a room temperature environment. Using coherent scattering into an optical cavity we cool the center of mass motion of a $143$ nm diameter silica particle by more than $7$ orders of magnitude to $n_x=0.43\pm0.03$ phonons along the cavity axis, corresponding to a temperature of $12~μ$K. We infer a heating rate of $Γ_x/2π= 21\pm 3$ kHz, which results in a coherence time of $7.6~μ$s -- or $15$ coherent oscillations -- while the particle is optically trapped at a pressure of $10^{-6}$ mbar. The inferred optomechanical coupling rate of $g_x/2π= 71$ kHz places the system well into the regime of strong cooperativity ($C \approx 5$). We expect that a combination of ultra-high vacuum with free-fall dynamics will allow to further expand the spatio-temporal coherence of such nanoparticles by several orders of magnitude, thereby opening up new opportunities for macrosopic quantum experiments.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-11T17:26:28Z</published>
+    <arxiv:comment>Extended methodology</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Uroš Delić</name>
+    </author>
+    <author>
+      <name>Manuel Reisenbauer</name>
+    </author>
+    <author>
+      <name>Kahan Dare</name>
+    </author>
+    <author>
+      <name>David Grass</name>
+    </author>
+    <author>
+      <name>Vladan Vuletić</name>
+    </author>
+    <author>
+      <name>Nikolai Kiesel</name>
+    </author>
+    <author>
+      <name>Markus Aspelmeyer</name>
+    </author>
+    <arxiv:doi>10.1126/science.aba3993</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.aba3993" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.06050v1</id>
+    <title>A Spin Entanglement Witness for Quantum Gravity</title>
+    <updated>2017-07-19T12:40:40Z</updated>
+    <link href="https://arxiv.org/abs/1707.06050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.06050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding gravity in the framework of quantum mechanics is one of the great challenges in modern physics. Along this line, a prime question is to find whether gravity is a quantum entity subject to the rules of quantum mechanics. It is fair to say that there are no feasible ideas yet to test the quantum coherent behaviour of gravity directly in a laboratory experiment. Here, we introduce an idea for such a test based on the principle that two objects cannot be entangled without a quantum mediator. We show that despite the weakness of gravity, the phase evolution induced by the gravitational interaction of two micron size test masses in adjacent matter-wave interferometers can detectably entangle them even when they are placed far apart enough to keep Casimir-Polder forces at bay. We provide a prescription for witnessing this entanglement, which certifies gravity as a quantum coherent mediator, through simple correlation measurements between two spins: one embedded in each test mass. Fundamentally, the above entanglement is shown to certify the presence of non-zero off-diagonal terms in the coherent state basis of the gravitational field modes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-19T12:40:40Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 119, 240401 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Sougato Bose</name>
+    </author>
+    <author>
+      <name>Anupam Mazumdar</name>
+    </author>
+    <author>
+      <name>Gavin W. Morley</name>
+    </author>
+    <author>
+      <name>Hendrik Ulbricht</name>
+    </author>
+    <author>
+      <name>Marko Toroš</name>
+    </author>
+    <author>
+      <name>Mauro Paternostro</name>
+    </author>
+    <author>
+      <name>Andrew Geraci</name>
+    </author>
+    <author>
+      <name>Peter Barker</name>
+    </author>
+    <author>
+      <name>M. S. Kim</name>
+    </author>
+    <author>
+      <name>Gerard Milburn</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.119.240401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.119.240401" title="doi"/>
+  </entry>
+</feed>

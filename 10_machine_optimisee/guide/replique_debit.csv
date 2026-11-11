@@ -1,0 +1,23 @@
+variante_de_hauteur,piece,quantite,longueur_mm,largeur_mm,epaisseur_mm,statut
+modèle E,Corps — fond,1,850,260,9,DOC (emprise) / HYP (le fond n'est jamais montré)
+modèle E,"Corps — grands côtés (avant, arrière)",2,850,200,9,DOC (proportions)
+modèle E,Corps — extrémités,2,242,200,9,DOC (proportions)
+modèle E,Couvercle — dessus,1,850,260,9,DOC (emprise)
+modèle E,Couvercle — grands côtés,2,850,23,9,DÉD (profondeur de coque incertaine)
+modèle E,Couvercle — extrémités,2,242,23,9,DÉD
+modèle E,Platine supérieure (percée de 2 logements),1,832,242,3,DOC (plan DOC-007)
+modèle E,Rangement 9 — fond,1,93,242,3,DOC (existence) / HYP (profondeur)
+modèle E,Rangement 9 — cloison,1,85,242,3,HYP
+modèle E,Tasseaux 10 × 10 mm sous la platine (longueur totale),1,2108,10,10,inventé pour la maquette
+modèle E,Télécommande — boîtier (bloc plein ou boîtier du commerce),1,82,86,25,DOC (contour) / HYP (épaisseur)
+photos A,Corps — fond,1,850,260,9,DOC (emprise) / HYP (le fond n'est jamais montré)
+photos A,"Corps — grands côtés (avant, arrière)",2,850,211,9,DOC (proportions)
+photos A,Corps — extrémités,2,242,211,9,DOC (proportions)
+photos A,Couvercle — dessus,1,850,260,9,DOC (emprise)
+photos A,Couvercle — grands côtés,2,850,56,9,DÉD (profondeur de coque incertaine)
+photos A,Couvercle — extrémités,2,242,56,9,DÉD
+photos A,Platine supérieure (percée de 2 logements),1,832,242,3,DOC (plan DOC-007)
+photos A,Rangement 9 — fond,1,93,242,3,DOC (existence) / HYP (profondeur)
+photos A,Rangement 9 — cloison,1,85,242,3,HYP
+photos A,Tasseaux 10 × 10 mm sous la platine (longueur totale),1,2108,10,10,inventé pour la maquette
+photos A,Télécommande — boîtier (bloc plein ou boîtier du commerce),1,82,86,25,DOC (contour) / HYP (épaisseur)

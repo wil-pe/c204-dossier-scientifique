@@ -1,0 +1,143 @@
+{
+  "gravitationnelle": [
+    {
+      "cas": "Soleil, rayon rasant",
+      "M": 1.98847e+30,
+      "b": 695700000.0,
+      "alpha_rad": 8.490267017584816e-06
+    },
+    {
+      "cas": "Terre, rayon rasant",
+      "M": 5.972168494074286e+24,
+      "b": 6371000.0,
+      "alpha_rad": 2.784509834636742e-09
+    },
+    {
+      "cas": "unité de 227 kg, b = 0,1 m",
+      "M": 227.0,
+      "b": 0.1,
+      "alpha_rad": 6.742953524359748e-24
+    },
+    {
+      "cas": "une singularité de 3,9e12 kg, b = 1 m",
+      "M": 3900000000000.0,
+      "b": 1.0,
+      "alpha_rad": 1.1584810019825117e-14
+    },
+    {
+      "cas": "une singularité de 5,1e12 kg, b = 1 m",
+      "M": 5100000000000.0,
+      "b": 1.0,
+      "alpha_rad": 1.5149366949002078e-14
+    },
+    {
+      "cas": "la paire (7,8e12 kg), b = 1 m",
+      "M": 7800000000000.0,
+      "b": 1.0,
+      "alpha_rad": 2.3169620039650234e-14
+    },
+    {
+      "cas": "la paire (1,02e13 kg), b = 1 m",
+      "M": 10200000000000.0,
+      "b": 1.0,
+      "alpha_rad": 3.0298733898004155e-14
+    },
+    {
+      "cas": "la paire (1,02e13 kg), b = 1 cm",
+      "M": 10200000000000.0,
+      "b": 0.01,
+      "alpha_rad": 3.0298733898004154e-12
+    },
+    {
+      "cas": "masse donnant « 2 g à 1 m » (2,9e11 kg), b = 1 m",
+      "M": 293863026834.2748,
+      "b": 1.0,
+      "alpha_rad": 8.729095737758574e-16
+    },
+    {
+      "cas": "ancienne fourchette v1 : 1e11 kg, b = 1 m",
+      "M": 100000000000.0,
+      "b": 1.0,
+      "alpha_rad": 2.9704641076474663e-16
+    },
+    {
+      "cas": "ancienne fourchette v1 : 1e12 kg, b = 1 m",
+      "M": 1000000000000.0,
+      "b": 1.0,
+      "alpha_rad": 2.970464107647466e-15
+    }
+  ],
+  "masse_pour_1_degre_kg": 5.87561131441035e+24,
+  "indice": {
+    "grav_paire_1m": 1.5149366949002078e-14,
+    "dn_dT_air": -9.215017064846417e-07
+  },
+  "detection": {
+    "bruit_rad_rtHz": 3.569359966656233e-12,
+    "temps_s": {
+      "3.90e+12": 854368.7872586643,
+      "5.10e+12": 499613.58147651976,
+      "1.02e+13": 124903.39536912994,
+      "1.00e+12": 12994949.254204283
+    }
+  },
+  "sucre": [
+    {
+      "jours": 0.25,
+      "epaisseur_mm": 6.572670690061994,
+      "gradient_max_par_m": 10.04312925260293,
+      "rayon_courbure_m": 0.13855243370878234,
+      "chute_mm_sur_10cm": 24.84824119274552,
+      "angle_deg_apres_10cm": 18.07147348228756
+    },
+    {
+      "jours": 1.0,
+      "epaisseur_mm": 13.145341380123988,
+      "gradient_max_par_m": 5.021564626301465,
+      "rayon_courbure_m": 0.2771048674175647,
+      "chute_mm_sur_10cm": 17.26639217100485,
+      "angle_deg_apres_10cm": 17.202459625779827
+    },
+    {
+      "jours": 3.0,
+      "epaisseur_mm": 22.768399153212332,
+      "gradient_max_par_m": 2.899201688748253,
+      "rayon_courbure_m": 0.4799597093918596,
+      "chute_mm_sur_10cm": 10.308364149678507,
+      "angle_deg_apres_10cm": 11.667157281622114
+    },
+    {
+      "jours": 7.0,
+      "epaisseur_mm": 34.77930419085465,
+      "gradient_max_par_m": 1.8979730276618099,
+      "rayon_courbure_m": 0.7331505662724014,
+      "chute_mm_sur_10cm": 6.6933101578497345,
+      "angle_deg_apres_10cm": 7.657042155561352
+    }
+  ],
+  "theta_max_deg": 23.17453359829683,
+  "mirage": [
+    {
+      "dT": 5.0,
+      "theta_c_rad": 0.0030356246580969816
+    },
+    {
+      "dT": 20.0,
+      "theta_c_rad": 0.006071249316193963
+    },
+    {
+      "dT": 40.0,
+      "theta_c_rad": 0.008586043123509883
+    }
+  ],
+  "doc012": {
+    "angle_deg": 55.0,
+    "Rc_m": 0.1,
+    "g_requis_m_s2": 4.4937758936840877e+17,
+    "g_requis_en_g": 4.582376136279043e+16,
+    "R_pour_2g_m": 2291188068139522.0,
+    "deviation_max_vide_air_deg": 1.3314335991728397,
+    "deviation_max_30K_deg": 0.4260360304195719,
+    "gradient_requis_par_m": 10.0
+  }
+}

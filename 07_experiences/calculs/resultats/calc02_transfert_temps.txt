@@ -1,0 +1,51 @@
+EXP-02 — TRANSFERT DE TEMPS : ORDRES DE GRANDEUR
+========================================================================
+1. Relativité dans le GPS (orbite circulaire, a = 26 561,75 km)
+   horloge au sol (géoïde)  : -W0/c² = -6,9693e-10
+   horloge satellite        : -3GM/(2ac²) = -2,5046e-10
+   écart net satellite-sol  : 4,4647e-10  → +38.58 µs/jour
+     dont potentiel         : 5,2996e-10  → +45.79 µs/jour
+     dont vitesse orbitale  : -8,3485e-11  → -7.21 µs/jour
+   fréquence embarquée réglée : 10,23 MHz × (1 - 4,4647e-10) = 10229999.99543 Hz
+   sans correction : dérive d'échelle de temps équivalente à 11.6 km/jour de pseudo-distance
+   terme d'excentricité : Δt = F·e·√a·sin E, F = -4,4428e-10 s/√m ; amplitude pour e = 0.02 : 45.8 ns
+   correction de Sagnac maximale (récepteur à l'équateur) : Ω·a·R/c² = 137 ns
+   Sagnac pour un tour complet de l'équateur : 2ΩA/c² = 207.4 ns
+
+2. Méthodes de transfert de temps (ordres de grandeur d'usage courant)
+   méthode                                     exactitude     bruit   σ_y(1 jour) ≈ √3·σ_x/τ   cadre
+   NTP via Internet                                5,0e-3    2,0e-3                 4,0e-8   gratuit — N1
+   NTP sur réseau local                            2,0e-4    5,0e-5                 1,0e-9   gratuit — N1
+   PTP (IEEE 1588) horodatage matériel             1,0e-7    3,0e-8                6,0e-13   cartes réseau PTP, 50–300 € — N1/N2
+   GPS sens unique, récepteur de temps             2,0e-8    8,0e-9                1,6e-13   module 30–250 € — N1
+   GPS vue commune (code)                          5,0e-9    3,0e-9                6,0e-14   récepteurs étalonnés — N2
+   GPS phase de porteuse / PPP                     1,0e-9   1,0e-10                2,0e-15   récepteur géodésique — N2/N3
+   Deux voies par satellite (TWSTFT)               1,0e-9   5,0e-10                1,0e-14   station dédiée — N3
+   White Rabbit (fibre, ≤ 10 km)                  5,0e-10   1,0e-11                2,0e-16   commutateur + nœuds, ≥ 5 k€ — N2/N3
+   Lien optique fibré stabilisé (fréquence)             —         —          1e-18 … 1e-20   métrologie nationale — N3 (1e-18 à 1e-20 en fréquence)
+   Repère : décalage gravitationnel pour 1000 m = 1,09e-13 ; pour 1 m = 1,09e-16.
+   → une comparaison par GPS vue commune (≈ 6e-14 à 1 jour) entre une station de plaine et une station
+     de montagne ne résout 1000 m de dénivelé qu'après plusieurs jours, ET seulement si les horloges
+     locales sont elles-mêmes au niveau 1e-14 (césium, maser).
+
+3. Simulation ILLUSTRATIVE d'un échange bidirectionnel à quatre horodatages
+   décalage estimé = [(t2 - t1) - (t4 - t3)]/2 ; l'asymétrie des délais N'EST PAS observable de l'intérieur
+   NTP Internet (asymétrie 4 ms, gigue 2 ms)            biais = 1,99e-3 s (attendu 2,00e-3), écart-type = 1,43e-3 s
+   NTP réseau local (asym. 50 µs, gigue 100 µs)         biais = 2,43e-5 s (attendu 2,50e-5), écart-type = 7,03e-5 s
+   PTP matériel (asym. 40 ns, gigue 20 ns)              biais = 1,98e-8 s (attendu 2,00e-8), écart-type = 1,42e-8 s
+   White Rabbit (asym. résiduelle 100 ps, gigue 10 ps)  biais = 5,01e-11 s (attendu 5,00e-11), écart-type = 7,03e-12 s
+   Leçon : le protocole mesure (décalage d'horloge + demi-asymétrie des trajets). Sans étalonnage
+   indépendant des retards, le biais reste invisible — 1 m de fibre mal comptée = 4,9 ns.
+
+4. Retards de propagation (expérience N1 : mesurer un câble avec deux récepteurs GPS)
+   coaxial RG-58 (facteur de vélocité 0,66)    : 5.05 ns/m ; 10 m → 50.5 ns
+   coaxial à diélectrique mousse (0,83)        : 4.02 ns/m ; 10 m → 40.2 ns
+   fibre optique (indice de groupe 1,468)      : 4.90 ns/m ; 10 m → 49.0 ns
+   vide / air                                  : 3.34 ns/m ; 10 m → 33.4 ns
+   Avec un bruit de 1PPS de 8 ns (un sigma) par récepteur et N = 600 secondes de moyenne :
+   incertitude sur la différence = √2·8 ns/√600 = 0.46 ns → 10 m de RG-58 (50,5 ns) mesurés à ~1 % (hors biais lents du récepteur).
+
+Ce que l'on mesure réellement : toujours une DIFFÉRENCE de dates d'événements locaux (fronts 1PPS),
+augmentée de retards de propagation qu'il faut modéliser (géométrie, ionosphère, troposphère, câbles,
+Sagnac, relativité). Aucune de ces techniques ne « mesure le temps à distance » sans hypothèse sur la
+propagation ; aucune ne permet d'envoyer une information vers le passé.

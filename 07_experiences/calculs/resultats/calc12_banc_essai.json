@@ -1,0 +1,484 @@
+{
+  "voies": [
+    {
+      "voie": "Pesanteur ressentie « 1,5–2 g »",
+      "capteur": "accéléromètres",
+      "sigma_N2": 0.0002,
+      "sigma_N1": 0.002,
+      "sys_N2": 0.0001,
+      "sys_N1": 0.005,
+      "unite": "m/s²",
+      "signal": 4.903325,
+      "marge_N2": 4385.667206309662,
+      "marge_N1": 182.10491881339857,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "pendant le fonctionnement",
+      "contraste": "marche − arrêt",
+      "origine": "texte",
+      "libelle_signal": "Δg ≥ 0,5 g pendant le trajet"
+    },
+    {
+      "voie": "Pesanteur propre des singularités, à 1 m",
+      "capteur": "accéléromètres",
+      "sigma_N2": 0.0002,
+      "sigma_N1": 0.002,
+      "sys_N2": 0.0001,
+      "sys_N1": 0.005,
+      "unite": "m/s²",
+      "signal": 520.5953999999999,
+      "marge_N2": 465634.6812694775,
+      "marge_N1": 19334.427771283517,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "permanent",
+      "contraste": "dispositif − leurre, ou mesure absolue rapportée au fond",
+      "origine": "déduit (modèle de Hawking)",
+      "libelle_signal": "G·M/r² pour la paire (7,8e12 kg)"
+    },
+    {
+      "voie": "Masse de l'appareil",
+      "capteur": "plateau de pesée",
+      "sigma_N2": 0.1,
+      "sigma_N1": 0.5,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "kg",
+      "signal": 10200000000000.0,
+      "marge_N2": 20400000000000.0,
+      "marge_N1": 4080000000000.0,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "permanent",
+      "contraste": "pesée absolue",
+      "origine": "déduit (modèle de Hawking)",
+      "libelle_signal": "7,8e12–1,02e13 kg pour la paire"
+    },
+    {
+      "voie": "Marche d'une horloge « 10 ans/heure »",
+      "capteur": "horloge atomique ou quartz contre GPS",
+      "sigma_N2": 1e-11,
+      "sigma_N1": 1e-07,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "(Δf/f)",
+      "signal": 87660.0,
+      "marge_N2": 1753200000000000.2,
+      "marge_N1": 175320000000.0,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "pendant le fonctionnement",
+      "contraste": "marche − arrêt",
+      "origine": "texte",
+      "libelle_signal": "dt_ext/dτ ≈ 87 660"
+    },
+    {
+      "voie": "Décalage gravitationnel d'horloge réel",
+      "capteur": "idem",
+      "sigma_N2": 1e-11,
+      "sigma_N1": 1e-07,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "(Δf/f)",
+      "signal": 7.574683474501039e-15,
+      "marge_N2": 0.0001514936694900208,
+      "marge_N1": 1.514936694900208e-08,
+      "verdict_N2": "NON testable par ce banc",
+      "verdict_N1": "NON testable par ce banc",
+      "regime": "permanent",
+      "contraste": "dispositif − leurre, ou mesure absolue rapportée au fond",
+      "origine": "déduit",
+      "libelle_signal": "GM/(rc²) de la paire à 1 m"
+    },
+    {
+      "voie": "Champ magnétique des bobines",
+      "capteur": "magnétomètres",
+      "sigma_N2": 2e-08,
+      "sigma_N1": 2e-07,
+      "sys_N2": 2e-08,
+      "sys_N1": 1e-07,
+      "unite": "T",
+      "signal": 3.7037037037037037e-05,
+      "marge_N2": 261.891400439462,
+      "marge_N1": 33.12693299999689,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "commutable",
+      "contraste": "marche − arrêt",
+      "origine": "déduit [HYP : 1 T sur 10 cm]",
+      "libelle_signal": "le texte ne chiffre pas le champ"
+    },
+    {
+      "voie": "Rayonnement — lecture littérale",
+      "capteur": "Geiger + scintillateur",
+      "sigma_N2": 5.5555555555555555e-12,
+      "sigma_N1": 1.3888888888888888e-11,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "Sv/s",
+      "signal": 9004.633002488123,
+      "marge_N2": 324166788089572.44,
+      "marge_N1": 129666715235828.97,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "permanent",
+      "contraste": "dispositif − leurre, ou mesure absolue rapportée au fond",
+      "origine": "texte, lecture littérale",
+      "libelle_signal": "400 MW entièrement en X de 100 keV, à 3 m"
+    },
+    {
+      "voie": "Rayonnement — spectre de Hawking",
+      "capteur": "Geiger + scintillateur",
+      "sigma_N2": 5.5555555555555555e-12,
+      "sigma_N1": 1.3888888888888888e-11,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "Sv/s",
+      "signal": 382.2371216590353,
+      "marge_N2": 13760536379725.271,
+      "marge_N1": 5504214551890.109,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "permanent",
+      "contraste": "dispositif − leurre, ou mesure absolue rapportée au fond",
+      "origine": "déduit (C, G ; borne basse)",
+      "libelle_signal": "γ primaires (7,5 %), à 3 m"
+    },
+    {
+      "voie": "Température de surface",
+      "capteur": "sondes + caméra thermique",
+      "sigma_N2": 0.1,
+      "sigma_N1": 0.2,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "K",
+      "signal": 18.0,
+      "marge_N2": 36.0,
+      "marge_N1": 18.0,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "pendant le fonctionnement",
+      "contraste": "marche − arrêt",
+      "origine": "texte",
+      "libelle_signal": "« 100–120 °F » : +18 à +29 K"
+    },
+    {
+      "voie": "Puissance dissipée",
+      "capteur": "bilan thermique + wattmètre",
+      "sigma_N2": 5.0,
+      "sigma_N1": 20.0,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "W",
+      "signal": 300000000.0,
+      "marge_N2": 12000000.0,
+      "marge_N1": 3000000.0,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "permanent",
+      "contraste": "bilan thermique absolu",
+      "origine": "texte",
+      "libelle_signal": "« 300–500 MW »"
+    },
+    {
+      "voie": "Faisceau laser « courbé »",
+      "capteur": "laser classe 2 + détecteur à 2 m",
+      "sigma_N2": 5e-06,
+      "sigma_N1": 2e-05,
+      "sys_N2": 5e-06,
+      "sys_N1": 2e-05,
+      "unite": "rad",
+      "signal": 0.017453292519943295,
+      "marge_N2": 493.653659795374,
+      "marge_N1": 123.4134149488435,
+      "verdict_N2": "réfutable en 1 cycle",
+      "verdict_N1": "réfutable en 1 cycle",
+      "regime": "pendant le fonctionnement",
+      "contraste": "marche − arrêt",
+      "origine": "texte/photo ; seuil choisi",
+      "libelle_signal": "≥ 1° (≈ 55° apparents sur DOC-012)"
+    },
+    {
+      "voie": "Déviation gravitationnelle réelle",
+      "capteur": "idem",
+      "sigma_N2": 5e-06,
+      "sigma_N1": 2e-05,
+      "sys_N2": 5e-06,
+      "sys_N1": 2e-05,
+      "unite": "rad",
+      "signal": 3.0298733898004155e-14,
+      "marge_N2": 8.569776080258182e-10,
+      "marge_N1": 2.1424440200645454e-10,
+      "verdict_N2": "NON testable par ce banc",
+      "verdict_N1": "NON testable par ce banc",
+      "regime": "permanent",
+      "contraste": "dispositif − leurre, ou mesure absolue rapportée au fond",
+      "origine": "déduit",
+      "libelle_signal": "4GM/(c²b), paire, b = 1 m"
+    },
+    {
+      "voie": "Entraînement — spin seul",
+      "capteur": "gyromètre",
+      "sigma_N2": 5e-06,
+      "sigma_N1": 5e-05,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "rad/s",
+      "signal": 8.600420513604035e-21,
+      "marge_N2": 3.440168205441614e-16,
+      "marge_N1": 3.440168205441614e-17,
+      "verdict_N2": "NON testable par ce banc",
+      "verdict_N1": "NON testable par ce banc",
+      "regime": "permanent",
+      "contraste": "dispositif − leurre, ou mesure absolue rapportée au fond",
+      "origine": "déduit",
+      "libelle_signal": "Kerr extrémal 5,1e12 kg, à 1 m"
+    },
+    {
+      "voie": "Entraînement — paire en orbite",
+      "capteur": "gyromètre",
+      "sigma_N2": 5e-06,
+      "sigma_N1": 5e-05,
+      "sys_N2": 0.0,
+      "sys_N1": 0.0,
+      "unite": "rad/s",
+      "signal": 5.4125019891547724e-14,
+      "marge_N2": 2.165000795661909e-09,
+      "marge_N1": 2.165000795661909e-10,
+      "verdict_N2": "NON testable par ce banc",
+      "verdict_N1": "NON testable par ce banc",
+      "regime": "permanent",
+      "contraste": "dispositif − leurre, ou mesure absolue rapportée au fond",
+      "origine": "déduit (borne supérieure)",
+      "libelle_signal": "2 × 5,1e12 kg, entraxe 0,30 m, à 1 m"
+    }
+  ],
+  "seuils_64": {
+    "accéléromètres": {
+      "N2": 0.00040508130536263476,
+      "N1": 0.015244969215955459,
+      "unite": "m/s²"
+    },
+    "plateau de pesée": {
+      "N2": 0.1360981851038949,
+      "N1": 0.6804909255194744,
+      "unite": "kg"
+    },
+    "horloge atomique ou quartz contre GPS": {
+      "N2": 1.3609818510389488e-11,
+      "N1": 1.3609818510389488e-07,
+      "unite": "(Δf/f)"
+    },
+    "magnétomètres": {
+      "N2": 6.588557231703283e-08,
+      "N1": 4.0508130536263476e-07,
+      "unite": "T"
+    },
+    "Geiger + scintillateur": {
+      "N2": 7.561010283549716e-12,
+      "N1": 1.890252570887429e-11,
+      "unite": "Sv/s"
+    },
+    "sondes + caméra thermique": {
+      "N2": 0.1360981851038949,
+      "N1": 0.2721963702077898,
+      "unite": "K"
+    },
+    "bilan thermique + wattmètre": {
+      "N2": 6.804909255194744,
+      "N1": 27.219637020778976,
+      "unite": "W"
+    },
+    "laser classe 2 + détecteur à 2 m": {
+      "N2": 1.6471393079258208e-05,
+      "N1": 6.588557231703283e-05,
+      "unite": "rad"
+    },
+    "gyromètre": {
+      "N2": 6.804909255194745e-06,
+      "N1": 6.804909255194744e-05,
+      "unite": "rad/s"
+    }
+  },
+  "masse_exclue_kg": {
+    "N2": 6069270.265984969,
+    "N1": 228413005.34820822,
+    "gravimetre": 1690.5190151962931
+  },
+  "protocole_64": {
+    "K": 11,
+    "z": 5.4439274041557955,
+    "seuil_sigma": 1.3609818510389489,
+    "borne95_sigma": 0.41125
+  },
+  "vote": [
+    {
+      "p": 0.1,
+      "P_vote": 0.028000000000000008,
+      "gain": 3.5714285714285707
+    },
+    {
+      "p": 0.01,
+      "P_vote": 0.00029800000000000003,
+      "gain": 33.55704697986577
+    },
+    {
+      "p": 0.001,
+      "P_vote": 2.9980000000000003e-06,
+      "gain": 333.555703802535
+    },
+    {
+      "p": 0.0001,
+      "P_vote": 2.999800000000001e-08,
+      "gain": 3333.555570371357
+    }
+  ],
+  "puissance": {
+    "0.0": {
+      "16": 0.0,
+      "32": 0.0,
+      "64": 0.0,
+      "128": 0.0
+    },
+    "0.5": {
+      "16": 0.0,
+      "32": 0.0,
+      "64": 0.00025,
+      "128": 0.004
+    },
+    "1.0": {
+      "16": 0.0002501876407305479,
+      "32": 0.0035,
+      "64": 0.072,
+      "128": 0.5885
+    },
+    "2.0": {
+      "16": 0.06326581645411353,
+      "32": 0.55725,
+      "64": 0.9945,
+      "128": 1.0
+    },
+    "5.0": {
+      "16": 0.99975,
+      "32": 1.0,
+      "64": 1.0,
+      "128": 1.0
+    }
+  },
+  "thermique": {
+    "S_coffre_m2": 1.0747,
+    "puissance_coffre_W": [
+      193.446,
+      311.663
+    ]
+  },
+  "budget": {
+    "N1 — mini-banc (≤ 500 €)": {
+      "total": 490,
+      "postes": [
+        [
+          "smartphone avec phyphox (accéléromètre, magnétomètre, gyromètre) — déjà possédé",
+          0
+        ],
+        [
+          "compteur Geiger du commerce avec sortie de données",
+          110
+        ],
+        [
+          "2 accéléromètres MEMS bas bruit + microcontrôleurs enregistreurs",
+          120
+        ],
+        [
+          "6 sondes de température numériques + enregistreur",
+          45
+        ],
+        [
+          "module GPS avec sortie 1PPS (horodatage commun)",
+          35
+        ],
+        [
+          "pointeur laser classe 2 + webcam (position du faisceau)",
+          40
+        ],
+        [
+          "pèse-personne ×4 ou plateau de pesée d'occasion",
+          80
+        ],
+        [
+          "batteries, câbles, boîtier",
+          60
+        ]
+      ]
+    },
+    "N2 — banc complet de salle de TP": {
+      "total": 12000,
+      "postes": [
+        [
+          "3 chaînes d'acquisition indépendantes (3 conceptions différentes) + stockage",
+          600
+        ],
+        [
+          "3 accéléromètres triaxiaux bas bruit + 1 sismomètre/géophone",
+          700
+        ],
+        [
+          "GPSDO + rubidium d'occasion + compteur d'intervalles de temps",
+          900
+        ],
+        [
+          "horloge atomique miniature (CSAC), optionnelle",
+          4000
+        ],
+        [
+          "3 magnétomètres (dont 1 fluxgate triaxial)",
+          900
+        ],
+        [
+          "2 Geiger de tubes différents + spectromètre à scintillation",
+          900
+        ],
+        [
+          "12 sondes Pt100/thermistances + caméra thermique d'entrée de gamme",
+          700
+        ],
+        [
+          "plateau de pesée 600 kg / 0,1 kg étalonné",
+          350
+        ],
+        [
+          "laser classe 2 + détecteur de position",
+          250
+        ],
+        [
+          "gyromètre à fibre de TP ou MEMS tactique",
+          1500
+        ],
+        [
+          "coffre, blindage CEM, isolations optiques, alimentations séparées",
+          1200
+        ]
+      ]
+    },
+    "N3 — version laboratoire (compléments)": {
+      "total": 230000,
+      "postes": [
+        [
+          "gravimètre relatif de terrain (achat ; ou prêt d'un laboratoire de géophysique)",
+          100000
+        ],
+        [
+          "étalon à césium ou accès à un maser + lien de temps étalonné",
+          60000
+        ],
+        [
+          "spectromètre gamma HPGe et chambre d'ionisation",
+          50000
+        ],
+        [
+          "magnétomètre à pompage optique",
+          20000
+        ]
+      ]
+    }
+  }
+}

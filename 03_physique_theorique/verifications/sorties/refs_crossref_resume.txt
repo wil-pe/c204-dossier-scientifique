@@ -1,0 +1,1419 @@
+### Kerr1963
+  requête : Kerr Gravitational field of a spinning mass as an example of algebraically special metrics Physical Review Letters 1963
+  - Kerr (1963). Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics. Physical Review Letters 11, 237-238. DOI:10.1103/physrevlett.11.237 [journal-article]
+  - Tomimatsu, Sato (1972). New Exact Solution for the Gravitational Field of a Spinning Mass. Physical Review Letters 29, 1344-1345. DOI:10.1103/physrevlett.29.1344 [journal-article]
+  - Manko (1990). New Exact Solution for the Exterior Gravitational Field of a Spinning Mass. Physical Review Letters 65, 1692-1692. DOI:10.1103/physrevlett.65.1692.3 [journal-article]
+
+### Newman1965
+  requête : Newman Couch Chinnapared Exton Prakash Torrence Metric of a rotating charged mass Journal of Mathematical Physics 1965
+  - Newman, Couch, Chinnapared, Exton, Prakash, Torrence (1965). Metric of a Rotating, Charged Mass. Journal of Mathematical Physics 6, 918-919. DOI:10.1063/1.1704351 [journal-article]
+  - Couch, Torrence, Janis, Newman (1968). Tail of a Gravitational Wave. Journal of Mathematical Physics 9, 484-496. DOI:10.1063/1.1664601 [journal-article]
+  - Manko, Sibgatullin (1992). Metric of a rotating, charged, magnetised mass. Physics Letters A 168, 343-347. DOI:10.1016/0375-9601(92)90515-n [journal-article]
+
+### BoyerLindquist1967
+  requête : Boyer Lindquist Maximal analytic extension of the Kerr metric Journal of Mathematical Physics 1967
+  - Boyer, Lindquist (1967). Maximal Analytic Extension of the Kerr Metric. Journal of Mathematical Physics 8, 265-281. DOI:10.1063/1.1705193 [journal-article]
+  - Cohen (1967). Note on the Kerr Metric and Rotating Masses. Journal of Mathematical Physics 8, 1477-1478. DOI:10.1063/1.1705382 [journal-article]
+  - Riazuelo (2019). Seeing relativity-I: Ray tracing in a Schwarzschild metric to explore the maximal analytic extension of the metric and making a proper rendering of the stars. International Journal of Modern Physics D 28, 1950042. DOI:10.1142/s0218271819500421 [journal-article]
+
+### Carter1968
+  requête : Carter Global structure of the Kerr family of gravitational fields Physical Review 1968
+  - Carter (1968). Global Structure of the Kerr Family of Gravitational Fields. Physical Review 174, 1559-1571. DOI:10.1103/physrev.174.1559 [journal-article]
+  - McGruder (2021). Comparison between the Gravitational Redshift in the Kerr and Schwarzschild Fields.  , . DOI:10.21203/rs.3.rs-276860/v1 [posted-content]
+  - Sinsky (1968). Generation and Detection of Dynamic Newtonian Gravitational Fields at 1660 cps. Physical Review 167, 1145-1151. DOI:10.1103/physrev.167.1145 [journal-article]
+
+### Penrose1969
+  requête : Penrose Gravitational collapse: the role of general relativity
+  - Penrose (2002). “Golden Oldie”: Gravitational Collapse: The Role of General Relativity. General Relativity and Gravitation 34, 1141-1165. DOI:10.1023/a:1016578408204 [journal-article]
+  -  (2009). Gravitational collapse and black holes. Introduction to General Relativity , 227-294. DOI:10.1017/cbo9780511809033.009 [book-chapter]
+  -  (2004). Gravitational collapse and black holes. Relativity , 301-301. DOI:10.1017/cbo9780511616532.038 [book-chapter]
+
+### PenroseFloyd1971
+  requête : Penrose Floyd Extraction of rotational energy from a black hole Nature Physical Science 1971
+  - PENROSE, FLOYD (1971). Extraction of Rotational Energy from a Black Hole. Nature Physical Science 229, 177-179. DOI:10.1038/physci229177a0 [journal-article]
+  - Garofalo, Singh (2021). The astrophysics of rotational energy extraction from a black hole. Nature Astronomy 5, 1086-1088. DOI:10.1038/s41550-021-01527-5 [journal-article]
+  - Chen (2023). Evidence for the astrophysics of rotational energy extraction from a supermassive black hole.  , . DOI:10.21203/rs.3.rs-2371998/v1 [posted-content]
+
+### ChristodoulouRuffini1971
+  requête : Christodoulou Ruffini Reversible transformations of a charged black hole Physical Review D 1971
+  - Christodoulou, Ruffini (1971). Reversible Transformations of a Charged Black Hole. Physical Review D 4, 3552-3555. DOI:10.1103/physrevd.4.3552 [journal-article]
+  - Christodoulou (1970). Reversible and Irreversible Transformations in Black-Hole Physics. Physical Review Letters 25, 1596-1597. DOI:10.1103/physrevlett.25.1596 [journal-article]
+  - Bini, Geralico, Ruffini (2007). Charged massive particle at rest in the field of a Reissner-Nordström black hole. Physical Review D 75, . DOI:10.1103/physrevd.75.044012 [journal-article]
+
+### SimpsonPenrose1973
+  requête : Simpson Penrose Internal instability in a Reissner-Nordstrom black hole International Journal of Theoretical Physics 1973
+  - Simpson, Penrose (1973). Internal instability in a Reissner-Nordstr�m black hole. International Journal of Theoretical Physics 7, 183-197. DOI:10.1007/bf00792069 [journal-article]
+  - Ahmed (1991). Stability of hot Reissner-Nordstrom black hole. International Journal of Theoretical Physics 30, 1697-1702. DOI:10.1007/bf00673646 [journal-article]
+  - Saadat (2011). Thermodynamics and Stability of Five Dimensional AdS Reissner-Nordstrom Black Hole. International Journal of Theoretical Physics 51, 316-321. DOI:10.1007/s10773-011-0910-z [journal-article]
+
+### PoissonIsrael1990
+  requête : Poisson Israel Internal structure of black holes Physical Review D 1990
+  - Poisson, Israel (1990). Internal structure of black holes. Physical Review D 41, 1796-1809. DOI:10.1103/physrevd.41.1796 [journal-article]
+  - Poisson, Israel (1989). Inner-horizon instability and mass inflation in black holes. Physical Review Letters 63, 1663-1666. DOI:10.1103/physrevlett.63.1663 [journal-article]
+  - Barrabes, Israel, Poisson (1990). Collision of light-like shells and mass inflation in rotating black holes. Classical and Quantum Gravity 7, L273-L278. DOI:10.1088/0264-9381/7/12/002 [journal-article]
+
+### Ori1991
+  requête : Ori Inner structure of a charged black hole: an exact mass-inflation solution Physical Review Letters 1991
+  - Ori (1991). Inner structure of a charged black hole: An exact mass-inflation solution. Physical Review Letters 67, 789-792. DOI:10.1103/physrevlett.67.789 [journal-article]
+  - Levin, Ori (1996). Inner structure of an evaporating charged black hole with ingoing charged null fluid. Physical Review D 54, 2746-2752. DOI:10.1103/physrevd.54.2746 [journal-article]
+  - Zilberman, Levi, Ori (2020). Quantum Fluxes at the Inner Horizon of a Spherical Charged Black Hole. Physical Review Letters 124, . DOI:10.1103/physrevlett.124.171302 [journal-article]
+
+### Ori1992
+  requête : Ori Structure of the singularity inside a realistic rotating black hole Physical Review Letters 1992
+  - Ori (1992). Structure of the singularity inside a realistic rotating black hole. Physical Review Letters 68, 2117-2120. DOI:10.1103/physrevlett.68.2117 [journal-article]
+  - Ori (1999). Oscillatory Null Singularity inside Realistic Spinning Black Holes. Physical Review Letters 83, 5423-5426. DOI:10.1103/physrevlett.83.5423 [journal-article]
+  - Burko, Khanna (2019). Marolf-Ori singularity inside fast spinning black holes. Physical Review D 99, . DOI:10.1103/physrevd.99.081501 [journal-article]
+
+### DafermosLuk
+  requête : Dafermos Luk The interior of dynamical vacuum black holes I: The C0-stability of the Kerr Cauchy horizon
+  - Dafermos, Luk (2025). The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon. Annals of Mathematics 202, 309-630. DOI:10.4007/annals.2025.202.2.1 [journal-article]
+  - Dafermos, Holzegel, Rodnianski (2024). A scattering theory construction of dynamical vacuum black holes. Journal of Differential Geometry 126, 633-740. DOI:10.4310/jdg/1712344221 [journal-article]
+  - Konkowski, Helliwell (1994). Instabilities of the Cauchy horizon in Kerr black holes. Physical Review D 50, 841-845. DOI:10.1103/physrevd.50.841 [journal-article]
+
+### BirrellDavies1978
+  requête : Birrell Davies On falling through a black hole into another universe Nature 1978
+  - BIRRELL, DAVIES (1978). On falling through a black hole into another universe. Nature 272, 35-37. DOI:10.1038/272035a0 [journal-article]
+  - Perez, Ribisi, Viollet (2023). Modeling Quantum Particles Falling into a Black Hole: The Deep Interior Limit. Universe 9, 75. DOI:10.3390/universe9020075 [journal-article]
+  - Davies (1978). Electric Universe. Nature 273, 268-269. DOI:10.1038/273268b0 [journal-article]
+
+### ZilbermanLeviOri2020
+  requête : Zilberman Levi Ori Quantum fluxes at the inner horizon of a spherical charged black hole Physical Review Letters 2020
+  - Zilberman, Levi, Ori (2020). Quantum Fluxes at the Inner Horizon of a Spherical Charged Black Hole. Physical Review Letters 124, . DOI:10.1103/physrevlett.124.171302 [journal-article]
+  - Zilberman, Ori (2021). Quantum fluxes at the inner horizon of a near-extremal spherical charged black hole. Physical Review D 104, . DOI:10.1103/physrevd.104.024066 [journal-article]
+  - Zilberman, Casals, Ori, Ottewill (2022). Quantum Fluxes at the Inner Horizon of a Spinning Black Hole. Physical Review Letters 129, . DOI:10.1103/physrevlett.129.261102 [journal-article]
+
+### Zilberman2022
+  requête : Zilberman Casals Ori Ottewill Quantum fluxes at the inner horizon of a spinning black hole Physical Review Letters 2022
+  - Zilberman, Casals, Ori, Ottewill (2022). Quantum Fluxes at the Inner Horizon of a Spinning Black Hole. Physical Review Letters 129, . DOI:10.1103/physrevlett.129.261102 [journal-article]
+  - Zilberman, Levi, Ori (2020). Quantum Fluxes at the Inner Horizon of a Spherical Charged Black Hole. Physical Review Letters 124, . DOI:10.1103/physrevlett.124.171302 [journal-article]
+  - Zilberman, Ori (2021). Quantum fluxes at the inner horizon of a near-extremal spherical charged black hole. Physical Review D 104, . DOI:10.1103/physrevd.104.024066 [journal-article]
+
+### HawkingEllis1973
+  requête : Hawking Ellis The Large Scale Structure of Space-Time Cambridge University Press 1973
+  - Hawking, Ellis (1973). The Large Scale Structure of Space-Time.  , . DOI:10.1017/cbo9780511524646 [monograph]
+  - DeWitt (1973). Much-Esteemed Theory:
+            <i>The Large Scale Structure of Space-Time</i>
+            . S. W. Hawking and G. F. R. Ellis. Cambridge University Press, New York, 1973. xii, 392 pp., illus. $28.50. Cambridge Monographs on Mathematical Physics.. Science 182, 705-706. DOI:10.1126/science.182.4113.705 [journal-article]
+  - Ishak (2024). The large scale structure of space-time 50th anniversary edition. Contemporary Physics 65, 138-138. DOI:10.1080/00107514.2024.2410333 [journal-article]
+
+### MarolfOri2012
+  requête : Marolf Ori Outgoing gravitational shock-wave at the inner horizon: the late-time limit of black hole interiors Physical Review D 2012
+  - Marolf, Ori (2012). Outgoing gravitational shock wave at the inner horizon: The late-time limit of black hole interiors. Physical Review D 86, . DOI:10.1103/physrevd.86.124026 [journal-article]
+  - Eilon, Ori (2016). Numerical study of the gravitational shock wave inside a spherical charged black hole. Physical Review D 94, . DOI:10.1103/physrevd.94.104060 [journal-article]
+  - Zilberman, Ori (2021). Quantum fluxes at the inner horizon of a near-extremal spherical charged black hole. Physical Review D 104, . DOI:10.1103/physrevd.104.024066 [journal-article]
+
+### Dafermos2005
+  requête : Dafermos The interior of charged black holes and the problem of uniqueness in general relativity Communications on Pure and Applied Mathematics 2005
+  - Dafermos (2005). The interior of charged black holes and the problem of uniqueness in general relativity. Communications on Pure and Applied Mathematics 58, 445-504. DOI:10.1002/cpa.20071 [journal-article]
+  - Dafermos (2025). The stability problem for extremal black holes. General Relativity and Gravitation 57, . DOI:10.1007/s10714-025-03394-1 [journal-article]
+  - Weinstein (1990). On rotating black holes in equilibrium in general relativity. Communications on Pure and Applied Mathematics 43, 903-948. DOI:10.1002/cpa.3160430705 [journal-article]
+
+### vanStockum1937
+  requête : van Stockum The gravitational field of a distribution of particles rotating about an axis of symmetry Proceedings of the Royal Society of Edinburgh 1937
+  - van Stockum (1938). IX.—The Gravitational Field of a Distribution of Particles Rotating about an Axis of Symmetry. Proceedings of the Royal Society of Edinburgh 57, 135-154. DOI:10.1017/s0370164600013699 [journal-article]
+  - Thomson (1880). 1. On Gravitational Oscillations of Rotating Water. Proceedings of the Royal Society of Edinburgh 10, 92-100. DOI:10.1017/s0370164600043467 [journal-article]
+  - Copson (1978). Electrostatics in a gravitational field. Proceedings of the Royal Society of Edinburgh: Section A Mathematics 80, 201-211. DOI:10.1017/s0308210500010246 [journal-article]
+
+### Tipler1974
+  requête : Tipler Rotating cylinders and the possibility of global causality violation Physical Review D 1974
+  - Tipler (1974). Rotating cylinders and the possibility of global causality violation. Physical Review D 9, 2203-2206. DOI:10.1103/physrevd.9.2203 [journal-article]
+  - Pickover (1998). Rotating Cylinders and the Possibility of Global Causality Violation. In Time , 220-243. DOI:10.1093/oso/9780195120424.003.0018 [book-chapter]
+  - Tipler (1976). Causality Violation in Asymptotically Flat Space-Times. Physical Review Letters 37, 879-882. DOI:10.1103/physrevlett.37.879 [journal-article]
+
+### Tipler1976
+  requête : Tipler Causality violation in asymptotically flat space-times Physical Review Letters 1976
+  - Tipler (1976). Causality Violation in Asymptotically Flat Space-Times. Physical Review Letters 37, 879-882. DOI:10.1103/physrevlett.37.879 [journal-article]
+  - McCarthy (1972). Asymptotically Flat Space-Times and Elementary Particles. Physical Review Letters 29, 817-819. DOI:10.1103/physrevlett.29.817 [journal-article]
+  - Frittelli, Newman (1997). Pseudo-Minkowskian coordinates in asymptotically flat space-times. Physical Review D 55, 1971-1976. DOI:10.1103/physrevd.55.1971 [journal-article]
+
+### Tipler1977
+  requête : Tipler Singularities and causality violation Annals of Physics 1977
+  - Tipler (1977). Singularities and causality violation. Annals of Physics 108, 1-36. DOI:10.1016/0003-4916(77)90348-7 [journal-article]
+  -  (1977). Singularities and causality violation. Annals of Physics 107, 431. DOI:10.1016/0003-4916(77)90220-2 [journal-article]
+  - Tipler (1979). Singularities and causality violation. General Relativity and Gravitation 10, 983-984. DOI:10.1007/bf00776516 [journal-article]
+
+### Bonnor1980
+  requête : Bonnor The rigidly rotating relativistic dust cylinder Journal of Physics A 1980
+  - Bonnor (1980). The rigidly rotating relativistic dust cylinder. Journal of Physics A: Mathematical and General 13, 2121-2132. DOI:10.1088/0305-4470/13/6/033 [journal-article]
+  - Bratek, Jałocha, Kutschera (2007). Van Stockum-Bonnor spacetimes of rigidly rotating dust. Physical Review D 75, . DOI:10.1103/physrevd.75.107502 [journal-article]
+  - Santos, Mondaini (1982). Rigidly rotating relativistic generalized dust cylinder. Il Nuovo Cimento B 72, 13-20. DOI:10.1007/bf02894930 [journal-article]
+
+### Lanczos1924
+  requête : Lanczos Uber eine stationare Kosmologie im Sinne der Einsteinschen Gravitationstheorie Zeitschrift fur Physik 1924
+  - Lanczos (1924). �ber eine station�re Kosmologie im Sinne der Einsteinschen Gravitationstheorie. Zeitschrift f�r Physik 21, 73-110. DOI:10.1007/bf01328251 [journal-article]
+  - Lanczos (1924). Flächenhafte Verteilung der Materie in der Einsteinschen Gravitationstheorie. Annalen der Physik 379, 518-540. DOI:10.1002/andp.19243791403 [journal-article]
+  - Lanczos (1925). Zum Problem der unendlich schwachen Felder in der Einsteinschen Gravitationstheorie. Zeitschrift für Physik 31, 112-132. DOI:10.1007/bf02980566 [journal-article]
+
+### Majumdar1947
+  requête : Majumdar A class of exact solutions of Einstein's field equations Physical Review 1947
+  - Majumdar (1947). A Class of Exact Solutions of Einstein's Field Equations. Physical Review 72, 390-398. DOI:10.1103/physrev.72.390 [journal-article]
+  - Chakravarty (1974). Some exact solutions of Einstein field equations. Physical Review D 9, 883-884. DOI:10.1103/physrevd.9.883 [journal-article]
+  - Gautreau, Hoffman (1970). Class of Exact Solutions of the Einstein-Maxwell Equations. Physical Review D 2, 271-272. DOI:10.1103/physrevd.2.271 [journal-article]
+
+### Papapetrou1947
+  requête : Papapetrou A static solution of the equations of the gravitational field for an arbitrary charge-distribution Proceedings of the Royal Irish Academy 1947
+  - Thomas (1923). The Einstein Equations of the Gravitational Field for an Arbitrary Distribution of Matter. Proceedings of the National Academy of Sciences 9, 275-278. DOI:10.1073/pnas.9.8.275 [journal-article]
+  - Mellon (2004). A GENERAL WOLFF THEOREM FOR ARBITRARY BANACH SPACES. Mathematical Proceedings of the Royal Irish Academy 104A, 127-142. DOI:10.1353/mpr.2004.0009 [journal-article]
+  - Mellon (2004). A Generalwolff Theorem for Arbitrary Banach Spaces. Mathematical Proceedings of the Royal Irish Academy 104, 127-142. DOI:10.3318/pria.2004.104.2.127 [journal-article]
+
+### HartleHawking1972
+  requête : Hartle Hawking Solutions of the Einstein-Maxwell equations with many black holes Communications in Mathematical Physics 1972
+  - Hartle, Hawking (1972). Solutions of the Einstein-Maxwell equations with many black holes. Communications in Mathematical Physics 26, 87-101. DOI:10.1007/bf01645696 [journal-article]
+  - Hawking (1972). Black holes in general relativity. Communications in Mathematical Physics 25, 152-166. DOI:10.1007/bf01877517 [journal-article]
+  - Hawking, Hartle (1972). Energy and angular momentum flow into a black hole. Communications in Mathematical Physics 27, 283-290. DOI:10.1007/bf01645515 [journal-article]
+
+### KramerNeugebauer1980
+  requête : Kramer Neugebauer The superposition of two Kerr solutions Physics Letters A 1980
+  - Kramer, Neugebauer (1980). The superposition of two Kerr solutions. Physics Letters A 75, 259-261. DOI:10.1016/0375-9601(80)90556-3 [journal-article]
+  - Chamorro, Manko, Sibgatullin (None). The superposition of two Kerr-Newman solutions. Lecture Notes in Physics , 119-122. DOI:10.1007/3-540-57364-x_205 [book-chapter]
+  - Kihara, Tomimatsu (1982). Some Properties of the Symmetry Axis in a Superposition of Two Kerr Solutions. Progress of Theoretical Physics 67, 349-352. DOI:10.1143/ptp.67.349 [journal-article]
+
+### NeugebauerHennig2009
+  requête : Neugebauer Hennig Non-existence of stationary two-black-hole configurations General Relativity and Gravitation 2009
+  - Neugebauer, Hennig (2009). Non-existence of stationary two-black-hole configurations. General Relativity and Gravitation 41, 2113-2130. DOI:10.1007/s10714-009-0840-8 [journal-article]
+  - Hennig, Neugebauer (2011). Non-existence of stationary two-black-hole configurations: the degenerate case. General Relativity and Gravitation 43, 3139-3162. DOI:10.1007/s10714-011-1228-0 [journal-article]
+  - HENNIG, NEUGEBAUER (2012). NON-EXISTENCE OF STATIONARY TWO-BLACK-HOLE CONFIGURATIONS. The Twelfth Marcel Grossmann Meeting , 1756-1758. DOI:10.1142/9789814374552_0317 [proceedings-article]
+
+### HennigNeugebauer2011
+  requête : Hennig Neugebauer Non-existence of stationary two-black-hole configurations: the degenerate case General Relativity and Gravitation 2011
+  - Hennig, Neugebauer (2011). Non-existence of stationary two-black-hole configurations: the degenerate case. General Relativity and Gravitation 43, 3139-3162. DOI:10.1007/s10714-011-1228-0 [journal-article]
+  - Neugebauer, Hennig (2009). Non-existence of stationary two-black-hole configurations. General Relativity and Gravitation 41, 2113-2130. DOI:10.1007/s10714-009-0840-8 [journal-article]
+  - HENNIG, NEUGEBAUER (2012). NON-EXISTENCE OF STATIONARY TWO-BLACK-HOLE CONFIGURATIONS. The Twelfth Marcel Grossmann Meeting , 1756-1758. DOI:10.1142/9789814374552_0317 [proceedings-article]
+
+### Peters1964
+  requête : Peters Gravitational radiation and the motion of two point masses Physical Review 1964
+  - Peters (1964). Gravitational Radiation and the Motion of Two Point Masses. Physical Review 136, B1224-B1232. DOI:10.1103/physrev.136.b1224 [journal-article]
+  - Peters, Mathews (1963). Gravitational Radiation from Point Masses in a Keplerian Orbit. Physical Review 131, 435-440. DOI:10.1103/physrev.131.435 [journal-article]
+  - Hansen (1972). Post-Newtonian Gravitational Radiation from Point Masses in a Hyperbolic Kepler Orbit. Physical Review D 5, 1021-1023. DOI:10.1103/physrevd.5.1021 [journal-article]
+
+### BachWeyl1922
+  requête : Bach Weyl Neue Losungen der Einsteinschen Gravitationsgleichungen Mathematische Zeitschrift 1922
+  - Bach, Wevl (1922). Neue L�sungen der Einsteinschen Gravitationsgleichungen. Mathematische Zeitschrift 13, 134-145. DOI:10.1007/bf01485284 [journal-article]
+  - Bach (1922). Neue L�sungen der Einsteinschen Gravitationsgleichungen. Mathematische Zeitschrift 13, 119-133. DOI:10.1007/bf01485283 [journal-article]
+  - Weyl (1919). Bemerkung über die axialsymmetrischen Lösungen der Einsteinschen Gravitationsgleichungen. Annalen der Physik 364, 185-188. DOI:10.1002/andp.19193641006 [journal-article]
+
+### DietzHoenselaers1985
+  requête : Dietz Hoenselaers Two mass solutions of Einstein's vacuum equations: the double Kerr solution Annals of Physics 1985
+  - Dietz, Hoenselaers (1985). Two mass solutions of Einstein's vacuum equations: The double Kerr solution. Annals of Physics 165, 319-383. DOI:10.1016/0003-4916(85)90301-x [journal-article]
+  - Hoenselaers (1984). Remarks on the Double-Kerr-Solution. Progress of Theoretical Physics 72, 761-767. DOI:10.1143/ptp.72.761 [journal-article]
+  - Letelier (1985). On Chelnokov-Zeitlin solutions to the vacuum Einstein equations. Physics Letters A 107, 259-262. DOI:10.1016/0375-9601(85)90210-5 [journal-article]
+
+### Wald1972
+  requête : Wald Gravitational spin interaction Physical Review D 1972
+  - Wald (1972). Gravitational Spin Interaction. Physical Review D 6, 406-413. DOI:10.1103/physrevd.6.406 [journal-article]
+  - Dietz, Hoenselaers (1982). Stationary System of Two Masses Kept Apart by Their Gravitational Spin-Spin Interaction. Physical Review Letters 48, 778-780. DOI:10.1103/physrevlett.48.778 [journal-article]
+  - Atkatz (1978). Dynamical method for generating the gravitational interaction. Physical Review D 17, 1972-1976. DOI:10.1103/physrevd.17.1972 [journal-article]
+
+### MankoRuiz2019
+  requête : Manko Ruiz Metric for two arbitrary Kerr sources Physics Letters B 2019
+  - Manko, Ruiz (2019). Metric for two arbitrary Kerr sources. Physics Letters B 794, 36-40. DOI:10.1016/j.physletb.2019.05.027 [journal-article]
+  - Manko, Martín, Ruiz (1994). Metric of two arbitrary Kerr–Newman sources located on the symmetry axis. Journal of Mathematical Physics 35, 6644-6657. DOI:10.1063/1.530698 [journal-article]
+  - Manko, Manko, Ruiz (2002). Equilibrium of two compound Kerr disks. Physics Letters A 299, 43-45. DOI:10.1016/s0375-9601(02)00628-x [journal-article]
+
+### Hawking1971
+  requête : Hawking Gravitationally collapsed objects of very low mass Monthly Notices of the Royal Astronomical Society 1971
+  - Hawking (1971). Gravitationally Collapsed Objects of Very Low Mass. Monthly Notices of the Royal Astronomical Society 152, 75-78. DOI:10.1093/mnras/152.1.75 [journal-article]
+  - Eggleton (1971). The Evolution of Low Mass Stars. Monthly Notices of the Royal Astronomical Society 151, 351-364. DOI:10.1093/mnras/151.3.351 [journal-article]
+  - Das (1975). Gravitational Redshifts and Angular Diameters of Collapsed Objects. Monthly Notices of the Royal Astronomical Society 172, 623-630. DOI:10.1093/mnras/172.3.623 [journal-article]
+
+### Hawking1974
+  requête : Hawking Black hole explosions? Nature 1974
+  - HAWKING (1974). Black hole explosions?. Nature 248, 30-31. DOI:10.1038/248030a0 [journal-article]
+  -  (2024). How a black hole emits Hawking radiation. Nature India , . DOI:10.1038/d44151-024-00187-4 [journal-article]
+  - Castelvecchi (2016). Artificial black hole creates its own version of Hawking radiation. Nature 536, 258-259. DOI:10.1038/536258a [journal-article]
+
+### Hawking1975
+  requête : Hawking Particle creation by black holes Communications in Mathematical Physics 1975
+  - Hawking (1975). Particle creation by black holes. Communications In Mathematical Physics 43, 199-220. DOI:10.1007/bf02345020 [journal-article]
+  - Hawking (1976). Particle creation by black holes. Communications in Mathematical Physics 46, 206-206. DOI:10.1007/bf01608497 [journal-article]
+  - Wald (1975). On particle creation by black holes. Communications in Mathematical Physics 45, 9-34. DOI:10.1007/bf01609863 [journal-article]
+
+### Page1976a
+  requête : Page Particle emission rates from a black hole: Massless particles from an uncharged, nonrotating hole Physical Review D 1976
+  - Page (1976). Particle emission rates from a black hole: Massless particles from an uncharged, nonrotating hole. Physical Review D 13, 198-206. DOI:10.1103/physrevd.13.198 [journal-article]
+  - Page (1976). Particle emission rates from a black hole. II. Massless particles from a rotating hole. Physical Review D 14, 3260-3273. DOI:10.1103/physrevd.14.3260 [journal-article]
+  - Page (1977). Particle emission rates from a black hole. III. Charged leptons from a nonrotating hole. Physical Review D 16, 2402-2411. DOI:10.1103/physrevd.16.2402 [journal-article]
+
+### Page1976b
+  requête : Page Particle emission rates from a black hole. II. Massless particles from a rotating hole Physical Review D 1976
+  - Page (1976). Particle emission rates from a black hole. II. Massless particles from a rotating hole. Physical Review D 14, 3260-3273. DOI:10.1103/physrevd.14.3260 [journal-article]
+  - Page (1976). Particle emission rates from a black hole: Massless particles from an uncharged, nonrotating hole. Physical Review D 13, 198-206. DOI:10.1103/physrevd.13.198 [journal-article]
+  - Page (1977). Particle emission rates from a black hole. III. Charged leptons from a nonrotating hole. Physical Review D 16, 2402-2411. DOI:10.1103/physrevd.16.2402 [journal-article]
+
+### Page1977
+  requête : Page Particle emission rates from a black hole. III. Charged leptons from a nonrotating hole Physical Review D 1977
+  - Page (1977). Particle emission rates from a black hole. III. Charged leptons from a nonrotating hole. Physical Review D 16, 2402-2411. DOI:10.1103/physrevd.16.2402 [journal-article]
+  - Page (1976). Particle emission rates from a black hole: Massless particles from an uncharged, nonrotating hole. Physical Review D 13, 198-206. DOI:10.1103/physrevd.13.198 [journal-article]
+  - Page (1976). Particle emission rates from a black hole. II. Massless particles from a rotating hole. Physical Review D 14, 3260-3273. DOI:10.1103/physrevd.14.3260 [journal-article]
+
+### MacGibbonWebber1990
+  requête : MacGibbon Webber Quark- and gluon-jet emission from primordial black holes: The instantaneous spectra Physical Review D 1990
+  - MacGibbon, Webber (1990). Quark- and gluon-jet emission from primordial black holes: The instantaneous spectra. Physical Review D 41, 3052-3079. DOI:10.1103/physrevd.41.3052 [journal-article]
+  - MacGibbon (1991). Quark- and gluon-jet emission from primordial black holes. II. The emission over the black-hole lifetime. Physical Review D 44, 376-392. DOI:10.1103/physrevd.44.376 [journal-article]
+  - Karsch (2005). Quark-Gluon Plasma Physics. From Quarks to Black Holes , 40-50. DOI:10.1142/9789812701794_0002 [proceedings-article]
+
+### MacGibbon1991
+  requête : MacGibbon Quark- and gluon-jet emission from primordial black holes. II. The emission over the black-hole lifetime Physical Review D 1991
+  - MacGibbon (1991). Quark- and gluon-jet emission from primordial black holes. II. The emission over the black-hole lifetime. Physical Review D 44, 376-392. DOI:10.1103/physrevd.44.376 [journal-article]
+  - MacGibbon, Webber (1990). Quark- and gluon-jet emission from primordial black holes: The instantaneous spectra. Physical Review D 41, 3052-3079. DOI:10.1103/physrevd.41.3052 [journal-article]
+  - Düchting (2004). Supermassive black holes from primordial black hole seeds. Physical Review D 70, . DOI:10.1103/physrevd.70.064015 [journal-article]
+
+### MacGibbonCarrPage2008
+  requête : MacGibbon Carr Page Do evaporating black holes form photospheres? Physical Review D 2008
+  - MacGibbon, Carr, Page (2008). Do evaporating black holes form photospheres?. Physical Review D 78, . DOI:10.1103/physrevd.78.064043 [journal-article]
+  - MACGIBBON, CARR, PAGE (2012). DO EVAPORATING 4D BLACK HOLES FORM PHOTOSPHERES AND/OR CHROMOSPHERES?. The Twelfth Marcel Grossmann Meeting , 1154-1156. DOI:10.1142/9789814374552_0157 [proceedings-article]
+  - Page, Carr, MacGibbon (2008). Bremsstrahlung effects around evaporating black holes. Physical Review D 78, . DOI:10.1103/physrevd.78.064044 [journal-article]
+
+### Carr2010
+  requête : Carr Kohri Sendouda Yokoyama New cosmological constraints on primordial black holes Physical Review D 2010
+  - Carr, Kohri, Sendouda, Yokoyama (2010). New cosmological constraints on primordial black holes. Physical Review D 81, . DOI:10.1103/physrevd.81.104019 [journal-article]
+  - Carr, Kohri, Sendouda, Yokoyama (2016). Constraints on primordial black holes from the Galactic gamma-ray background. Physical Review D 94, . DOI:10.1103/physrevd.94.044029 [journal-article]
+  - Carr, Kohri, Sendouda, Yokoyama (2021). Constraints on primordial black holes. Reports on Progress in Physics 84, 116902. DOI:10.1088/1361-6633/ac1e31 [journal-article]
+
+### Gibbons1975
+  requête : Gibbons Vacuum polarization and the spontaneous loss of charge by black holes Communications in Mathematical Physics 1975
+  - Gibbons (1975). Vacuum polarization and the spontaneous loss of charge by black holes. Communications in Mathematical Physics 44, 245-264. DOI:10.1007/bf01609829 [journal-article]
+  - Novikov, Frolov (1989). Vacuum Polarization near Black Holes. Physics of Black Holes , 233-253. DOI:10.1007/978-94-017-2651-1_10 [book-chapter]
+  - Gibbons (1974). The motion of black holes. Communications in Mathematical Physics 35, 13-23. DOI:10.1007/bf01646451 [journal-article]
+
+### Zaumen1974
+  requête : Zaumen Upper bound on the electric charge of a black hole Nature 1974
+  - ZAUMEN (1974). Upper bound on the electric charge of a black hole. Nature 247, 530-531. DOI:10.1038/247530a0 [journal-article]
+  - HAWKING (1974). Black hole explosions?. Nature 248, 30-31. DOI:10.1038/248030a0 [journal-article]
+  - Xia (2026). A possible approach for electric charge quantization by a tiny Kerr black hole net.  , . DOI:10.2139/ssrn.6844142 [posted-content]
+
+### Carter1974
+  requête : Carter Charge and particle conservation in black-hole decay Physical Review Letters 1974
+  - Carter (1974). Charge and Particle Conservation in Black-Hole Decay. Physical Review Letters 33, 558-561. DOI:10.1103/physrevlett.33.558 [journal-article]
+  - Carter (1971). Axisymmetric Black Hole Has Only Two Degrees of Freedom. Physical Review Letters 26, 331-333. DOI:10.1103/physrevlett.26.331 [journal-article]
+  - Hwang (2021). Unified Explanation of Big Bang, Inflation, Charged Black Hole Decay, Galaxy Formation, Proton Spin Crisis and Elementary Particle Masses.  , . DOI:10.20944/preprints202109.0467.v1 [posted-content]
+
+### Schwinger1951
+  requête : Schwinger On gauge invariance and vacuum polarization Physical Review 1951
+  - Schwinger (1951). On Gauge Invariance and Vacuum Polarization. Physical Review 82, 664-679. DOI:10.1103/physrev.82.664 [journal-article]
+  - SCHWINGER (2000). On Gauge Invariance and Vacuum Polarization. World Scientific Series in 20th Century Physics , 116-131. DOI:10.1142/9789812795694_0006 [book-chapter]
+  - Schwinger (1962). Gauge Invariance and Mass. Physical Review 125, 397-398. DOI:10.1103/physrev.125.397 [journal-article]
+
+### TeukolskyPress1974
+  requête : Teukolsky Press Perturbations of a rotating black hole. III. Interaction of the hole with gravitational and electromagnetic radiation Astrophysical Journal 1974
+  - Teukolsky, Press (1974). Perturbations of a rotating black hole. III - Interaction of the hole with gravitational and electromagnetic radiation. The Astrophysical Journal 193, 443. DOI:10.1086/153180 [journal-article]
+  - Teukolsky (1973). Perturbations of a Rotating Black Hole. I. Fundamental Equations for Gravitational, Electromagnetic, and Neutrino-Field Perturbations. The Astrophysical Journal 185, 635. DOI:10.1086/152444 [journal-article]
+  - Teukolsky (1974). Perturbations of a Rotating Black Hole. Symposium - International Astronomical Union 64, 92-92. DOI:10.1017/s0074180900236061 [journal-article]
+
+### PressTeukolsky1972
+  requête : Press Teukolsky Floating orbits, superradiant scattering and the black-hole bomb Nature 1972
+  - PRESS, TEUKOLSKY (1972). Floating Orbits, Superradiant Scattering and the Black-hole Bomb. Nature 238, 211-212. DOI:10.1038/238211a0 [journal-article]
+  - Senjaya (2026). Tuning a rotating black hole spectrum with dark matter halo: quasibound states, scalar cloud, black hole bomb and superradiant scattering. Chinese Physics C 50, 115106. DOI:10.1088/1674-1137/ae8cf1 [journal-article]
+  - Senjaya, Sereewat (2026). Novel Spectroscopy of Non-commutative Geometry Inspired Kerr Black Hole: Black Hole Bomb, Scalar Cloud, Resonant Scattering.  , . DOI:10.2139/ssrn.6597683 [posted-content]
+
+### BritoCardosoPani2015
+  requête : Brito Cardoso Pani Superradiance Lecture Notes in Physics
+  - Brito, Cardoso, Pani (2020). Superradiance in Flat Spacetime. Lecture Notes in Physics , 13-37. DOI:10.1007/978-3-030-46622-0_2 [book-chapter]
+  - Brito, Cardoso, Pani (2020). Superradiance in Black-Hole Physics. Lecture Notes in Physics , 39-106. DOI:10.1007/978-3-030-46622-0_3 [book-chapter]
+  - Brito, Cardoso, Pani (2020). Superradiance. Lecture Notes in Physics , . DOI:10.1007/978-3-030-46622-0 [book]
+
+### GiddingsThomas2002
+  requête : Giddings Thomas High energy colliders as black hole factories: the end of short distance physics Physical Review D 2002
+  - Giddings, Thomas (2002). High energy colliders as black hole factories: The end of short distance physics. Physical Review D 65, . DOI:10.1103/physrevd.65.056010 [journal-article]
+  - Eardley, Giddings (2002). Classical black hole production in high-energy collisions. Physical Review D 66, . DOI:10.1103/physrevd.66.044011 [journal-article]
+  - Giddings, Srednicki (2008). High-energy gravitational scattering and black hole resonances. Physical Review D 77, . DOI:10.1103/physrevd.77.085025 [journal-article]
+
+### DimopoulosLandsberg2001
+  requête : Dimopoulos Landsberg Black holes at the Large Hadron Collider Physical Review Letters 2001
+  - Dimopoulos, Landsberg (2001). Black Holes at the Large Hadron Collider. Physical Review Letters 87, . DOI:10.1103/physrevlett.87.161602 [journal-article]
+  - Landsberg (2014). Black Holes at the Large Hadron Collider. Fundamental Theories of Physics , 267-292. DOI:10.1007/978-3-319-10852-0_9 [book-chapter]
+  - Gingrich (2010). Production of tidal-charged black holes at the Large Hadron Collider. Physical Review D 81, . DOI:10.1103/physrevd.81.057702 [journal-article]
+
+### CMS2011
+  requête : CMS Collaboration Search for microscopic black hole signatures at the Large Hadron Collider Physics Letters B 2011
+  - ?, Tsang, ? (2011). Search for Microscopic Black Hole Signatures at the Large Hadron Collider.  , . DOI:10.2172/1151638 [report]
+  - Mc Lean, ? (2017). Search for $t \bar{t}$ Resonances at CMS. Proceedings of Fourth Annual Large Hadron Collider Physics — PoS(LHCP2016) , 222. DOI:10.22323/1.276.0222 [proceedings-article]
+  - Kim, ? (2026). Recent CMS results on heavy neutral leptons (including displaced signatures). Proceedings of 14th Edition of the Large Hadron Collider Physics — PoS(LHCP2026) , 010. DOI:10.22323/1.541.0010 [proceedings-article]
+
+### GiddingsMangano2008
+  requête : Giddings Mangano Astrophysical implications of hypothetical stable TeV-scale black holes Physical Review D 2008
+  - Giddings, Mangano (2008). Astrophysical implications of hypothetical stable TeV-scale black holes. Physical Review D 78, . DOI:10.1103/physrevd.78.035009 [journal-article]
+  - Giddings, Psaltis (2018). Event Horizon Telescope observations as probes for quantum structure of astrophysical black holes. Physical Review D 97, . DOI:10.1103/physrevd.97.084035 [journal-article]
+  - Rizzo (2005). TeV Scale Black Holes in Warped Higher-Curvature Gravity.  , . DOI:10.2172/878018 [report]
+
+### ADD1998
+  requête : Arkani-Hamed Dimopoulos Dvali The hierarchy problem and new dimensions at a millimeter Physics Letters B 1998
+  - Arkani–Hamed, Dimopoulos, Dvali (1998). The hierarchy problem and new dimensions at a millimeter. Physics Letters B 429, 263-272. DOI:10.1016/s0370-2693(98)00466-3 [journal-article]
+  - Antoniadis, Arkani-Hamed, Dimopoulos, Dvali (1998). New dimensions at a millimeter to a fermi and superstrings at a TeV. Physics Letters B 436, 257-263. DOI:10.1016/s0370-2693(98)00860-0 [journal-article]
+  - Arkani-Hamed (1999). Stabilization of Sub-Millimeter Dimensions: The New Guise of the Hierarchy Problem.  , . DOI:10.2172/9923 [report]
+
+### AharonovCasherNussinov1987
+  requête : Aharonov Casher Nussinov The unitarity puzzle and Planck mass stable particles Physics Letters B 1987
+  - Aharonov, Casher, Nussinov (1987). The unitarity puzzle and Planck mass stable particles. Physics Letters B 191, 51-55. DOI:10.1016/0370-2693(87)91320-7 [journal-article]
+  - Aharonov, Albert, Casher, Vaidman (1987). Surprising quantum effects. Physics Letters A 124, 199-203. DOI:10.1016/0375-9601(87)90619-0 [journal-article]
+  - Aharonov, III, Casher, Nussinov (1987). Constraints on anomalous scattering of neutrinos from crystals. Physical Review Letters 58, 1173-1175. DOI:10.1103/physrevlett.58.1173 [journal-article]
+
+### MacGibbon1987
+  requête : MacGibbon Can Planck-mass relics of evaporating black holes close the Universe? Nature 1987
+  - MacGibbon (1987). Can Planck-mass relics of evaporating black holes close the Universe?. Nature 329, 308-309. DOI:10.1038/329308a0 [journal-article]
+  - Olive (1987). Can nucleons close the Universe?. Nature 330, 700-700. DOI:10.1038/330700a0 [journal-article]
+  - MACGIBBON, CARR, PAGE (2012). DO EVAPORATING 4D BLACK HOLES FORM PHOTOSPHERES AND/OR CHROMOSPHERES?. The Twelfth Marcel Grossmann Meeting , 1154-1156. DOI:10.1142/9789814374552_0157 [proceedings-article]
+
+### AdlerChenSantiago2001
+  requête : Adler Chen Santiago The generalized uncertainty principle and black hole remnants General Relativity and Gravitation 2001
+  - Adler, Chen, Santiago (2001). The Generalized Uncertainty Principle and Black Hole Remnants. General Relativity and Gravitation 33, 2101-2108. DOI:10.1023/a:1015281430411 [journal-article]
+  - Chen (2001). The Generalized Uncertainty Principle and Black Hole Remnants.  , . DOI:10.2172/784935 [report]
+  - Gangopadhyay, Dutta, Saha (2014). Generalized uncertainty principle and black hole thermodynamics. General Relativity and Gravitation 46, . DOI:10.1007/s10714-013-1661-3 [journal-article]
+
+### ChenOngYeom2015
+  requête : Chen Ong Yeom Black hole remnants and the information loss paradox Physics Reports 2015
+  - Chen, Ong, Yeom (2015). Black hole remnants and the information loss paradox. Physics Reports 603, 1-45. DOI:10.1016/j.physrep.2015.10.007 [journal-article]
+  - Ong, Yeom (2017). Summary of Parallel Session: “Black Hole Evaporation and Information Loss Paradox”. Everything about Gravity , 547-553. DOI:10.1142/9789813203952_0076 [proceedings-article]
+  - Ong (2025). The Case For Black Hole Remnants: A Review. Springer Series in Astrophysics and Cosmology , 233-255. DOI:10.1007/978-981-96-6170-1_8 [book-chapter]
+
+### Maldacena2021
+  requête : Maldacena Comments on magnetic black holes Journal of High Energy Physics 2021
+  - Maldacena (2021). Comments on magnetic black holes. Journal of High Energy Physics 2021, . DOI:10.1007/jhep04(2021)079 [journal-article]
+  - Maldacena (2003). Eternal black holes in anti-de Sitter. Journal of High Energy Physics 2003, 021-021. DOI:10.1088/1126-6708/2003/04/021 [journal-article]
+  - Chen, Maldacena (2022). String scale black holes at large D. Journal of High Energy Physics 2022, . DOI:10.1007/jhep01(2022)095 [journal-article]
+
+### Wald1974
+  requête : Wald Black hole in a uniform magnetic field Physical Review D 1974
+  - Wald (1974). Black hole in a uniform magnetic field. Physical Review D 10, 1680-1685. DOI:10.1103/physrevd.10.1680 [journal-article]
+  - Karas (1989). Asymptotically uniform magnetic field near a Kerr black hole. Physical Review D 40, 2121-2123. DOI:10.1103/physrevd.40.2121 [journal-article]
+  - Li (2000). Electromagnetic energy for a charged Kerr black hole in a uniform magnetic field. Physical Review D 61, . DOI:10.1103/physrevd.61.084033 [journal-article]
+
+### LeahyUnruh1979
+  requête : Leahy Unruh Angular dependence of neutrino emission from rotating black holes Physical Review D 1979
+  - Leahy, Unruh (1979). Angular dependence of neutrino emission from rotating black holes. Physical Review D 19, 3509-3515. DOI:10.1103/physrevd.19.3509 [journal-article]
+  - Vilenkin (1979). Macroscopic parity-violating effects: Neutrino fluxes from rotating black holes and in rotating thermal radiation. Physical Review D 20, 1807-1812. DOI:10.1103/physrevd.20.1807 [journal-article]
+  - Tsekov (2018). From Black Holes to Neutrino Stars.  , . DOI:10.20944/preprints201809.0441.v1 [posted-content]
+
+### ChambersHiscockTaylor1997
+  requête : Chambers Hiscock Taylor Spinning down a black hole with scalar fields Physical Review Letters 1997
+  - Chambers, Hiscock, Taylor (1997). Spinning Down a Black Hole with Scalar Fields. Physical Review Letters 78, 3249-3251. DOI:10.1103/physrevlett.78.3249 [journal-article]
+  - Taylor, Chambers, Hiscock (1998). Evaporation of a Kerr black hole by emission of scalar and higher spin particles. Physical Review D 58, . DOI:10.1103/physrevd.58.044012 [journal-article]
+  - Anderson, Hiscock, Samuel (1993). Stress-energy tensor of quantized scalar fields in static black hole spacetimes. Physical Review Letters 70, 1739-1742. DOI:10.1103/physrevlett.70.1739 [journal-article]
+
+### Bekenstein1973
+  requête : Bekenstein Black holes and entropy Physical Review D 1973
+  - Bekenstein (1973). Black Holes and Entropy. Physical Review D 7, 2333-2346. DOI:10.1103/physrevd.7.2333 [journal-article]
+  - Dhormare (2025). Rotational Contraction Effects on Hawking–Bekenstein  Entropy in Kerr and Schwarzschild Black Holes.  , . DOI:10.20944/preprints202504.2213.v2 [posted-content]
+  - Dhormare (2025). Rotational Contraction Effects on Hawking–Bekenstein  Entropy in Kerr and Schwarzschild Black Holes.  , . DOI:10.20944/preprints202504.2213.v1 [posted-content]
+
+### HafeleKeating1972a
+  requête : Hafele Keating Around-the-world atomic clocks: predicted relativistic time gains Science 1972
+  - Hafele, Keating (1972). Around-the-World Atomic Clocks: Predicted Relativistic Time Gains. Science 177, 166-168. DOI:10.1126/science.177.4044.166 [journal-article]
+  - Hafele, Keating (1972). Around-the-World Atomic Clocks: Observed Relativistic Time Gains. Science 177, 168-170. DOI:10.1126/science.177.4044.168 [journal-article]
+  - Gadzhiev (2026). The Physical Nature of Time Dilation in The Hafele-Keating Experiment and In GPS Satellite Clocks. International Journal Of Scientific Advances , . DOI:10.51542/ijscia.v7i2.10 [journal-article]
+
+### HafeleKeating1972b
+  requête : Hafele Keating Around-the-world atomic clocks: observed relativistic time gains Science 1972
+  - Hafele, Keating (1972). Around-the-World Atomic Clocks: Observed Relativistic Time Gains. Science 177, 168-170. DOI:10.1126/science.177.4044.168 [journal-article]
+  - Hafele, Keating (1972). Around-the-World Atomic Clocks: Predicted Relativistic Time Gains. Science 177, 166-168. DOI:10.1126/science.177.4044.166 [journal-article]
+  - Gadzhiev (2026). The Physical Nature of Time Dilation in The Hafele-Keating Experiment and In GPS Satellite Clocks. International Journal Of Scientific Advances , . DOI:10.51542/ijscia.v7i2.10 [journal-article]
+
+### PoundRebka1960
+  requête : Pound Rebka Apparent weight of photons Physical Review Letters 1960
+  - Pound, Rebka (1960). Apparent Weight of Photons. Physical Review Letters 4, 337-341. DOI:10.1103/physrevlett.4.337 [journal-article]
+  - Pound, Rebka (1960). Variation with Temperature of the Energy of Recoil-Free Gamma Rays from Solids. Physical Review Letters 4, 274-275. DOI:10.1103/physrevlett.4.274 [journal-article]
+  - REBKA, POUND (1957). Time-Correlated Photons. Nature 180, 1035-1036. DOI:10.1038/1801035a0 [journal-article]
+
+### Chou2010
+  requête : Chou Hume Rosenband Wineland Optical clocks and relativity Science 2010
+  - Chou, Hume, Rosenband, Wineland (2010). Optical Clocks and Relativity. Science 329, 1630-1633. DOI:10.1126/science.1192720 [journal-article]
+  - Rosenband, Chou, Hume, Wineland (2010). Al+ optical clocks for fundamental physics, geodesy, and quantum metrology. Frontiers in Optics 2010/Laser Science XXVI , LWB4. DOI:10.1364/ls.2010.lwb4 [proceedings-article]
+  - Chou, Hume, Koelemeij, Wineland, Rosenband (2010). Frequency Comparison of Two High-Accuracy
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline">
+                      <mml:msup>
+                        <mml:mi>Al</mml:mi>
+                        <mml:mo>+</mml:mo>
+                      </mml:msup>
+                    </mml:math>
+                    Optical Clocks. Physical Review Letters 104, . DOI:10.1103/physrevlett.104.070802 [journal-article]
+
+### Bothwell2022
+  requête : Bothwell Resolving the gravitational redshift across a millimetre-scale atomic sample Nature 2022
+  - Bothwell, Kennedy, Aeppli, Kedar, Robinson, Oelker (2022). Resolving the gravitational redshift across a millimetre-scale atomic sample. Nature 602, 420-424. DOI:10.1038/s41586-021-04349-7 [journal-article]
+  - Li, Chen (2023). Cosmological Application of the Lens-Redshift Probability Distribution with Improved Galaxy-Scale Gravitational Lensing Sample.  , . DOI:10.2139/ssrn.4396772 [posted-content]
+  - Li, Chen (2023). Cosmological application of the lens-redshift probability distribution with improved galaxy-scale gravitational lensing sample. Physics of the Dark Universe 41, 101234. DOI:10.1016/j.dark.2023.101234 [journal-article]
+
+### Buchdahl1959
+  requête : Buchdahl General relativistic fluid spheres Physical Review 1959
+  - Buchdahl (1959). General Relativistic Fluid Spheres. Physical Review 116, 1027-1034. DOI:10.1103/physrev.116.1027 [journal-article]
+  - Buchdahl (1966). General Relativistic Fluid Spheres. II. General Inequalities for Regular Spheres. The Astrophysical Journal 146, 275. DOI:10.1086/148875 [journal-article]
+  - Buchdahl (1967). General-Relativistic Fluid Spheres. III. a Static Gaseous Model. The Astrophysical Journal 147, 310. DOI:10.1086/149001 [journal-article]
+
+### Andreasson2008
+  requête : Andreasson Sharp bounds on 2m/r of general spherically symmetric static objects Journal of Differential Equations 2008
+  - Andréasson (2008). Sharp bounds on <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif" overflow="scroll"><mml:mn>2</mml:mn><mml:mi>m</mml:mi><mml:mo stretchy="false">/</mml:mo><mml:mi>r</mml:mi></mml:math> of general spherically symmetric static objects. Journal of Differential Equations 245, 2243-2266. DOI:10.1016/j.jde.2008.05.010 [journal-article]
+  - Park (2000). Spherically Symmetric Static Solutions of the Einstein Equations with Elastic Matter Source. General Relativity and Gravitation 32, 235-252. DOI:10.1023/a:1001875224949 [journal-article]
+  - Nariai (1999). On Some Static Solutions of Einstein's Gravitational Field Equations in a Spherically Symmetric Case. General Relativity and Gravitation 31, 951-961. DOI:10.1023/a:1026698508110 [journal-article]
+
+### Everitt2011
+  requête : Everitt Gravity Probe B: final results of a space experiment to test general relativity Physical Review Letters 2011
+  - Everitt, DeBra, Parkinson, Turneaure, Conklin, Heifetz (2011). Gravity Probe B: Final Results of a Space Experiment to Test General Relativity. Physical Review Letters 106, . DOI:10.1103/physrevlett.106.221101 [journal-article]
+  - Goodarzimehr (2023). Review of: "Speed of Gravity: A Simple Experiment to Test the General Relativity Theory".  , . DOI:10.32388/aug6rw [peer-review]
+  - Kaci (2023). Review of: "Speed of Gravity: A Simple Experiment to Test the General Relativity Theory".  , . DOI:10.32388/p6iqgl [peer-review]
+
+### Westphal2021
+  requête : Westphal Hepach Pfaff Aspelmeyer Measurement of gravitational coupling between millimetre-sized masses Nature 2021
+  - Westphal, Hepach, Pfaff, Aspelmeyer (2021). Measurement of gravitational coupling between millimetre-sized masses. Nature 591, 225-228. DOI:10.1038/s41586-021-03250-7 [journal-article]
+  - Schmöle, Dragosits, Hepach, Aspelmeyer (2016). A micromechanical proof-of-principle experiment for measuring the gravitational force of milligram masses. Classical and Quantum Gravity 33, 125031. DOI:10.1088/0264-9381/33/12/125031 [journal-article]
+  - Cui (2025). The Gravitational Constant &lt;i&gt;G&lt;/i&gt; May Decrease between Millimetre-Sized Masses. Journal of Modern Physics 16, 133-139. DOI:10.4236/jmp.2025.161005 [journal-article]
+
+### Bailey1977
+  requête : Bailey Measurements of relativistic time dilatation for positive and negative muons in a circular orbit Nature 1977
+  - Bailey, Borer, Combley, Drumm, Krienen, Lange (1977). Measurements of relativistic time dilatation for positive and negative muons in a circular orbit. Nature 268, 301-305. DOI:10.1038/268301a0 [journal-article]
+  - Silverman (1982). Relativistic time dilatation of bound muons and the Lorentz invariance of charge. American Journal of Physics 50, 251-254. DOI:10.1119/1.13049 [journal-article]
+  - Bailey, Borer, Combley, Drumm, Farley, Field (1977). The anomalous magnetic moment of positive and negative muons. Physics Letters B 67, 225-230. DOI:10.1016/0370-2693(77)90110-1 [journal-article]
+
+### CiufoliniPavlis2004
+  requête : Ciufolini Pavlis A confirmation of the general relativistic prediction of the Lense-Thirring effect Nature 2004
+  - Ciufolini, Pavlis (2004). A confirmation of the general relativistic prediction of the Lense–Thirring effect. Nature 431, 958-960. DOI:10.1038/nature03007 [journal-article]
+  - Ciufolini (2004). Frame Dragging and Lense-Thirring Effect. General Relativity and Gravitation 36, 2257-2270. DOI:10.1023/b:gerg.0000046182.33249.77 [journal-article]
+  - CIUFOLINI, PAVLIS (2003). THE GRAVITOMAGNETIC FIELD AND ITS MEASUREMENT WITH THE LAGEOS SATELLITES. Nonlinear Gravitodynamics , 185-200. DOI:10.1142/9789812564818_0015 [book-chapter]
+
+### Godel1949
+  requête : Godel An example of a new type of cosmological solutions of Einstein's field equations of gravitation Reviews of Modern Physics 1949
+  - Gödel (1949). An Example of a New Type of Cosmological Solutions of Einstein's Field Equations of Gravitation. Reviews of Modern Physics 21, 447-450. DOI:10.1103/revmodphys.21.447 [journal-article]
+  - Gödel (2000). An Example of a New Type of Cosmological Solutions of Einstein's Field Equations of Gravitation. General Relativity and Gravitation 32, 1409-1417. DOI:10.1023/a:1001959224682 [journal-article]
+  - GÖDEL (2003). An Example of a New Type of Cosmological Solutions of Einstein's Field Equations of Gravitation. Nonlinear Gravitodynamics , 389-392. DOI:10.1142/9789812564818_0031 [book-chapter]
+
+### Gott1991
+  requête : Gott Closed timelike curves produced by pairs of moving cosmic strings: exact solutions Physical Review Letters 1991
+  - Gott (1991). Closed timelike curves produced by pairs of moving cosmic strings: Exact solutions. Physical Review Letters 66, 1126-1129. DOI:10.1103/physrevlett.66.1126 [journal-article]
+  - Deser, Jackiw, ’t Hooft (1992). Physical cosmic strings do not generate closed timelike curves. Physical Review Letters 68, 267-269. DOI:10.1103/physrevlett.68.267 [journal-article]
+  -  (None). Multiple straight strings and closed timelike curves. The Mathematical Theory of Cosmic Strings , . DOI:10.1887/0750301600/b222c8 [book-chapter]
+
+### DeserJackiwtHooft1992
+  requête : Deser Jackiw 't Hooft Physical cosmic strings do not generate closed timelike curves Physical Review Letters 1992
+  - Deser, Jackiw, ’t Hooft (1992). Physical cosmic strings do not generate closed timelike curves. Physical Review Letters 68, 267-269. DOI:10.1103/physrevlett.68.267 [journal-article]
+  - Gott (1991). Closed timelike curves produced by pairs of moving cosmic strings: Exact solutions. Physical Review Letters 66, 1126-1129. DOI:10.1103/physrevlett.66.1126 [journal-article]
+  -  (None). Multiple straight strings and closed timelike curves. The Mathematical Theory of Cosmic Strings , . DOI:10.1887/0750301600/b222c8 [book-chapter]
+
+### CarrollFarhiGuth1992
+  requête : Carroll Farhi Guth An obstacle to building a time machine Physical Review Letters 1992
+  - Carroll, Farhi, Guth (1992). An Obstacle to Building a Time Machine. Physical Review Letters 68, 3368-3368. DOI:10.1103/physrevlett.68.3368 [journal-article]
+  - Carroll, Farhi, Guth (1992). An obstacle to building a time machine. Physical Review Letters 68, 263-266. DOI:10.1103/physrevlett.68.263 [journal-article]
+  - Carroll, Farhi, Guth, Olum (1994). Energy-momentum restrictions on the creation of Gott time machines. Physical Review D 50, 6190-6206. DOI:10.1103/physrevd.50.6190 [journal-article]
+
+### MorrisThorne1988
+  requête : Morris Thorne Wormholes in spacetime and their use for interstellar travel: a tool for teaching general relativity American Journal of Physics 1988
+  - Morris, Thorne (1988). Wormholes in spacetime and their use for interstellar travel: A tool for teaching general relativity. American Journal of Physics 56, 395-412. DOI:10.1119/1.15620 [journal-article]
+  - Chanda, Dey, Paul (2021). Morris–Thorne wormholes in modified f(R, T) gravity. General Relativity and Gravitation 53, . DOI:10.1007/s10714-021-02847-7 [journal-article]
+  -  (None). General relativity. Lecture Notes in Physics , 255-286. DOI:10.1007/3-540-48354-3_5 [book-chapter]
+
+### MTY1988
+  requête : Morris Thorne Yurtsever Wormholes, time machines, and the weak energy condition Physical Review Letters 1988
+  - Morris, Thorne, Yurtsever (1988). Wormholes, Time Machines, and the Weak Energy Condition. Physical Review Letters 61, 1446-1449. DOI:10.1103/physrevlett.61.1446 [journal-article]
+  - Kar (1994). Evolving wormholes and the weak energy condition. Physical Review D 49, 862-865. DOI:10.1103/physrevd.49.862 [journal-article]
+  - Shaikh, Kar (2016). Wormholes, the weak energy condition, and scalar-tensor gravity. Physical Review D 94, . DOI:10.1103/physrevd.94.024011 [journal-article]
+
+### Alcubierre1994
+  requête : Alcubierre The warp drive: hyper-fast travel within general relativity Classical and Quantum Gravity 1994
+  - Alcubierre (1994). The warp drive: hyper-fast travel within general relativity. Classical and Quantum Gravity 11, L73-L77. DOI:10.1088/0264-9381/11/5/001 [journal-article]
+  - Hiscock (1997). Quantum effects in the Alcubierre warp-drive spacetime. Classical and Quantum Gravity 14, L183-L188. DOI:10.1088/0264-9381/14/11/002 [journal-article]
+  - Jusufi, Sakallı, Övgün (2017). Quantum tunneling and quasinormal modes in the spacetime of the Alcubierre warp drive. General Relativity and Gravitation 50, . DOI:10.1007/s10714-017-2330-8 [journal-article]
+
+### Krasnikov1998
+  requête : Krasnikov Hyperfast travel in general relativity Physical Review D 1998
+  - Krasnikov (1998). Hyperfast travel in general relativity. Physical Review D 57, 4760-4766. DOI:10.1103/physrevd.57.4760 [journal-article]
+  - Krasnikov (2018). Physical Predilections. Fundamental Theories of Physics , 37-65. DOI:10.1007/978-3-319-72754-7_2 [book-chapter]
+  - Krasnikov (2018). Time Travel Paradoxes. Fundamental Theories of Physics , 149-161. DOI:10.1007/978-3-319-72754-7_6 [book-chapter]
+
+### Everett1996
+  requête : Everett Warp drive and causality Physical Review D 1996
+  - Everett (1996). Warp drive and causality. Physical Review D 53, 7365-7368. DOI:10.1103/physrevd.53.7365 [journal-article]
+  - Seryakov (2025). Parabolic and hyperbolic shift geometries in warp-drive metrics: mathematical foundations and causality-regularized models. The European Physical Journal Plus 140, . DOI:10.1140/epjp/s13360-025-07187-y [journal-article]
+  - González-Díaz (2000). Warp drive space-time. Physical Review D 62, . DOI:10.1103/physrevd.62.044005 [journal-article]
+
+### EverettRoman1997
+  requête : Everett Roman Superluminal subway: The Krasnikov tube Physical Review D 1997
+  - Everett, Roman (1997). Superluminal subway: The Krasnikov tube. Physical Review D 56, 2100-2108. DOI:10.1103/physrevd.56.2100 [journal-article]
+  - Marchildon, Antippa, Everett (1983). Superluminal coordinate transformations: Four-dimensional case. Physical Review D 27, 1740-1751. DOI:10.1103/physrevd.27.1740 [journal-article]
+  - Krasnikov (1997). Causality violation and paradoxes. Physical Review D 55, 3427-3430. DOI:10.1103/physrevd.55.3427 [journal-article]
+
+### PfenningFord1997
+  requête : Pfenning Ford The unphysical nature of warp drive Classical and Quantum Gravity 1997
+  - Pfenning, Ford (1997). The unphysical nature of `warp drive'. Classical and Quantum Gravity 14, 1743-1751. DOI:10.1088/0264-9381/14/7/011 [journal-article]
+  - Hiscock (1997). Quantum effects in the Alcubierre warp-drive spacetime. Classical and Quantum Gravity 14, L183-L188. DOI:10.1088/0264-9381/14/11/002 [journal-article]
+  - Coule (1998). No warp drive. Classical and Quantum Gravity 15, 2523-2527. DOI:10.1088/0264-9381/15/8/026 [journal-article]
+
+### FordRoman1995
+  requête : Ford Roman Averaged energy conditions and quantum inequalities Physical Review D 1995
+  - Ford, Roman (1995). Averaged energy conditions and quantum inequalities. Physical Review D 51, 4277-4286. DOI:10.1103/physrevd.51.4277 [journal-article]
+  - Ford, Helfer, Roman (2002). Spatially averaged quantum inequalities do not exist in four-dimensional spacetime. Physical Review D 66, . DOI:10.1103/physrevd.66.124012 [journal-article]
+  - Ford, Roman (1996). Averaged energy conditions and evaporating black holes. Physical Review D 53, 1988-2000. DOI:10.1103/physrevd.53.1988 [journal-article]
+
+### FordRoman1996
+  requête : Ford Roman Quantum field theory constrains traversable wormhole geometries Physical Review D 1996
+  - Ford, Roman (1996). Quantum field theory constrains traversable wormhole geometries. Physical Review D 53, 5496-5507. DOI:10.1103/physrevd.53.5496 [journal-article]
+  - Kuhfittig (2002). Static and dynamic traversable wormhole geometries satisfying the Ford-Roman constraints. Physical Review D 66, . DOI:10.1103/physrevd.66.024015 [journal-article]
+  - Sabín (2016). Quantum simulation of traversable wormhole spacetimes in a dc-SQUID array. Physical Review D 94, . DOI:10.1103/physrevd.94.081501 [journal-article]
+
+### Ford1978
+  requête : Ford Quantum coherence effects and the second law of thermodynamics Proceedings of the Royal Society A 1978
+  - Ford (1978). Quantum coherence effects and the second law of thermodynamics. Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences 364, 227-236. DOI:10.1098/rspa.1978.0197 [journal-article]
+  - He, Kang (2010). Entropy principle and complementary second law of thermodynamics for self-gravitating systems. Monthly Notices of the Royal Astronomical Society 406, 2678-2688. DOI:10.1111/j.1365-2966.2010.16869.x [journal-article]
+  -  (1978). Thermodynamics: Second Law and Equilibrium. Physical Chemistry and its Biological Applications , 115-151. DOI:10.1016/b978-0-12-133150-4.50007-4 [book-chapter]
+
+### Mallett2000
+  requête : Mallett Weak gravitational field of the electromagnetic radiation in a ring laser Physics Letters A 2000
+  - Mallett (2000). Weak gravitational field of the electromagnetic radiation in a ring laser. Physics Letters A 269, 214-217. DOI:10.1016/s0375-9601(00)00260-7 [journal-article]
+  - Chaboyer, Henriksen (1988). Gravitational radiation observations with an orbital ring laser gyroscope. Physics Letters A 132, 391-398. DOI:10.1016/0375-9601(88)90500-2 [journal-article]
+  - Gies, Shaisultanov (2000). Neutrino interactions with a weak slowly varying electromagnetic field. Physics Letters B 480, 129-134. DOI:10.1016/s0370-2693(00)00424-x [journal-article]
+
+### Mallett2003
+  requête : Mallett The gravitational field of a circulating light beam Foundations of Physics 2003
+  - Mallett (2003). The Gravitational Field of a Circulating Light Beam. Foundations of Physics 33, 1307-1314. DOI:10.1023/a:1025689110828 [journal-article]
+  - Mbonye, Mallett (2000). Gravitational Perturbations of a Radiating Spacetime. Foundations of Physics 30, 747-774. DOI:10.1023/a:1003789027892 [journal-article]
+  -  (2023). Chapter 23 Gravitational Field. Foundations of Physics , 445-472. DOI:10.1515/9781683922834-024 [book-chapter]
+
+### OlumEverett2005
+  requête : Olum Everett Can a circulating light beam produce a time machine? Foundations of Physics Letters 2005
+  - Olum, Everett (2005). Can a Circulating Light Beam Produce a Time Machine. Foundations of Physics Letters 18, 379-385. DOI:10.1007/s10702-005-7127-4 [journal-article]
+  - Mallett (2003). The Gravitational Field of a Circulating Light Beam. Foundations of Physics 33, 1307-1314. DOI:10.1023/a:1025689110828 [journal-article]
+  - Laudisa (2000). On Time Asymmetry and History in an Everett Quantum World. Foundations of Physics 30, 1525-1538. DOI:10.1023/a:1026414103340 [journal-article]
+
+### Casimir1948
+  requête : Casimir On the attraction between two perfectly conducting plates 1948
+  - Matloob (1999). Casimir effect between two conducting plates. Physical Review A 60, 3421-3428. DOI:10.1103/physreva.60.3421 [journal-article]
+  - DeRaad, Jr, Milton (1980). Casimir self-stress on a perfectly conducting cylindrical shell.  , . DOI:10.2172/6417952 [report]
+  - Amooshahi, Shoughi (2018). Casimir forces on a bi-anisotropic absorbing magneto-dielectric slab between two parallel conducting plates. Modern Physics Letters A 33, 1850075. DOI:10.1142/s021773231850075x [journal-article]
+
+### Lamoreaux1997
+  requête : Lamoreaux Demonstration of the Casimir force in the 0.6 to 6 micrometer range Physical Review Letters 1997
+  - Lamoreaux (1997). Demonstration of the Casimir Force in the 0.6 to
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline">
+                      <mml:mn>6</mml:mn>
+                      <mml:mi/>
+                      <mml:mi>μ</mml:mi>
+                      <mml:mi>m</mml:mi>
+                    </mml:math>
+                    Range. Physical Review Letters 78, 5-8. DOI:10.1103/physrevlett.78.5 [journal-article]
+  - Lamoreaux (1998). Erratum: Demonstration of the Casimir Force in the 0.6 to 6<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi mathvariant="italic">μ</mml:mi><mml:mi>m</mml:mi></mml:math>Range [Phys. Rev. Lett. 78, 5 (1997)]. Physical Review Letters 81, 5475-5476. DOI:10.1103/physrevlett.81.5475 [journal-article]
+  - Lamoreaux (1999). Calculation of the Casimir force between imperfectly conducting plates. Physical Review A 59, R3149-R3153. DOI:10.1103/physreva.59.r3149 [journal-article]
+
+### Ori2005
+  requête : Ori A class of time-machine solutions with a compact vacuum core Physical Review Letters 2005
+  - Ori (2005). A Class of Time-Machine Solutions with a Compact Vacuum Core. Physical Review Letters 95, . DOI:10.1103/physrevlett.95.021101 [journal-article]
+  - Ori (1993). Must time-machine construction violate the weak energy condition?. Physical Review Letters 71, 2517-2520. DOI:10.1103/physrevlett.71.2517 [journal-article]
+  - Olum (2000). Ori-Soen time machine. Physical Review D 61, . DOI:10.1103/physrevd.61.124022 [journal-article]
+
+### FriedmanSchleichWitt1993
+  requête : Friedman Schleich Witt Topological censorship Physical Review Letters 1993
+  - Friedman, Schleich, Witt (1993). Topological censorship. Physical Review Letters 71, 1486-1489. DOI:10.1103/physrevlett.71.1486 [journal-article]
+  - Friedman, Schleich, Witt (1995). Topological Censorship[Phys. Rev. Lett. 71, 1486 (1993)]. Physical Review Letters 75, 1872-1872. DOI:10.1103/physrevlett.75.1872 [journal-article]
+  - Galloway, Schleich, Witt, Woolgar (1999). Topological censorship and higher genus black holes. Physical Review D 60, . DOI:10.1103/physrevd.60.104039 [journal-article]
+
+### GaoJafferisWall2017
+  requête : Gao Jafferis Wall Traversable wormholes via a double trace deformation Journal of High Energy Physics 2017
+  - Gao, Jafferis, Wall (2017). Traversable wormholes via a double trace deformation. Journal of High Energy Physics 2017, . DOI:10.1007/jhep12(2017)151 [journal-article]
+  - Kawamoto, Maeda, Nakamura, Takayanagi (2025). Traversable AdS wormhole via non-local double trace or Janus deformation. Journal of High Energy Physics 2025, . DOI:10.1007/jhep04(2025)086 [journal-article]
+  - Gao, Jafferis (2021). A traversable wormhole teleportation protocol in the SYK model. Journal of High Energy Physics 2021, . DOI:10.1007/jhep07(2021)097 [journal-article]
+
+### MaldacenaMilekhinPopov
+  requête : Maldacena Milekhin Popov Traversable wormholes in four dimensions
+  - Maldacena, Milekhin, Popov (2023). Traversable wormholes in four dimensions. Classical and Quantum Gravity 40, 155016. DOI:10.1088/1361-6382/acde30 [journal-article]
+  - Maldacena, Milekhin (2021). Humanly traversable wormholes. Physical Review D 103, . DOI:10.1103/physrevd.103.066007 [journal-article]
+  - Maldacena, Stanford, Yang (2017). Diving into traversable wormholes. Fortschritte der Physik 65, . DOI:10.1002/prop.201700034 [journal-article]
+
+### MaldacenaMilekhin2021
+  requête : Maldacena Milekhin Humanly traversable wormholes Physical Review D 2021
+  - Maldacena, Milekhin (2021). Humanly traversable wormholes. Physical Review D 103, . DOI:10.1103/physrevd.103.066007 [journal-article]
+  - Maldacena, Milekhin, Popov (2023). Traversable wormholes in four dimensions. Classical and Quantum Gravity 40, 155016. DOI:10.1088/1361-6382/acde30 [journal-article]
+  - Maldacena, Stanford, Yang (2017). Diving into traversable wormholes. Fortschritte der Physik 65, . DOI:10.1002/prop.201700034 [journal-article]
+
+### Faulkner2016
+  requête : Faulkner Leigh Parrikar Wang Modular Hamiltonians for deformed half-spaces and the averaged null energy condition Journal of High Energy Physics 2016
+  - Faulkner, Leigh, Parrikar, Wang (2016). Modular Hamiltonians for deformed half-spaces and the averaged null energy condition. Journal of High Energy Physics 2016, . DOI:10.1007/jhep09(2016)038 [journal-article]
+  - Faulkner, Leigh, Parrikar (2016). Shape dependence of entanglement entropy in conformal field theories. Journal of High Energy Physics 2016, 1-39. DOI:10.1007/jhep04(2016)088 [journal-article]
+  - Lu, Wang (2025). Non-local modular flows across deformed null-cuts. Journal of High Energy Physics 2025, . DOI:10.1007/jhep06(2025)101 [journal-article]
+
+### HartmanKunduTajdini2017
+  requête : Hartman Kundu Tajdini Averaged null energy condition from causality Journal of High Energy Physics 2017
+  - Hartman, Kundu, Tajdini (2017). Averaged null energy condition from causality. Journal of High Energy Physics 2017, . DOI:10.1007/jhep07(2017)066 [journal-article]
+  - Afkhami-Jeddi, Hartman, Kundu, Tajdini (2017). Einstein gravity 3-point functions from conformal field theory. Journal of High Energy Physics 2017, . DOI:10.1007/jhep12(2017)049 [journal-article]
+  - Delacrétaz, Hartman, Hartnoll, Lewkowycz (2018). Thermalization, viscosity and the averaged null energy condition. Journal of High Energy Physics 2018, . DOI:10.1007/jhep10(2018)028 [journal-article]
+
+### GrahamOlum2007
+  requête : Graham Olum Achronal averaged null energy condition Physical Review D 2007
+  - Graham, Olum (2007). Achronal averaged null energy condition. Physical Review D 76, . DOI:10.1103/physrevd.76.064001 [journal-article]
+  - Graham, Olum (2005). Plate with a hole obeys the averaged null energy condition. Physical Review D 72, . DOI:10.1103/physrevd.72.025013 [journal-article]
+  - Urban, Olum (2010). Spacetime averaged null energy condition. Physical Review D 81, . DOI:10.1103/physrevd.81.124004 [journal-article]
+
+### TippettTsang2017
+  requête : Tippett Tsang Traversable acausal retrograde domains in spacetime Classical and Quantum Gravity 2017
+  - Tippett, Tsang (2017). Traversable acausal retrograde domains in spacetime. Classical and Quantum Gravity 34, 095006. DOI:10.1088/1361-6382/aa6549 [journal-article]
+  - Anselmi, Halat (2007). Renormalizable acausal theories of classical gravity coupled with interacting quantum fields. Classical and Quantum Gravity 24, 1927-1954. DOI:10.1088/0264-9381/24/8/003 [journal-article]
+  - Kim (1996). Classical spacetime from quantum gravity. Classical and Quantum Gravity 13, 1377-1382. DOI:10.1088/0264-9381/13/6/011 [journal-article]
+
+### Visser1995
+  requête : Visser Lorentzian Wormholes: From Einstein to Hawking 1995
+  -  (1996). Lorentzian wormholes: from Einstein to Hawking. Choice Reviews Online 33, 33-5168-33-5168. DOI:10.5860/choice.33-5168 [journal-article]
+  - Bhawal, Kar (1992). Lorentzian wormholes in Einstein-Gauss-Bonnet theory. Physical Review D 46, 2464-2468. DOI:10.1103/physrevd.46.2464 [journal-article]
+  - Kanti, Kleihaus, Kunz (2012). Stable Lorentzian wormholes in dilatonic Einstein-Gauss-Bonnet theory. Physical Review D 85, . DOI:10.1103/physrevd.85.044007 [journal-article]
+
+### Hiscock1985
+  requête : Hiscock Exact gravitational field of a string Physical Review D 1985
+  - Hiscock (1985). Exact gravitational field of a string. Physical Review D 31, 3288-3290. DOI:10.1103/physrevd.31.3288 [journal-article]
+  - Mendell, Hiscock (1989). Gravitational particle production during cosmic-string formation in the sudden approximation. Physical Review D 40, 282-289. DOI:10.1103/physrevd.40.282 [journal-article]
+  - Novello, da Silva (1993). Exact solution for the gravitational field of a string with a nonzero cosmological constant. Physical Review D 48, 5017-5020. DOI:10.1103/physrevd.48.5017 [journal-article]
+
+### Vilenkin1981
+  requête : Vilenkin Gravitational field of vacuum domain walls and strings Physical Review D 1981
+  - Vilenkin (1981). Gravitational field of vacuum domain walls and strings. Physical Review D 23, 852-857. DOI:10.1103/physrevd.23.852 [journal-article]
+  - Garriga, Vilenkin (1992). Quantum fluctuations on domain walls, strings, and vacuum bubbles. Physical Review D 45, 3469-3486. DOI:10.1103/physrevd.45.3469 [journal-article]
+  - Vachaspati, Everett, Vilenkin (1984). Radiation from vacuum strings and domain walls. Physical Review D 30, 2046-2053. DOI:10.1103/physrevd.30.2046 [journal-article]
+
+### Hawking1992
+  requête : Hawking Chronology protection conjecture Physical Review D 1992
+  - Hawking (1992). Chronology protection conjecture. Physical Review D 46, 603-611. DOI:10.1103/physrevd.46.603 [journal-article]
+  - Hawking (1993). Chronology protection conjecture. Advanced Series in Astrophysics and Cosmology , 304-312. DOI:10.1142/9789812384935_0022 [book-chapter]
+  - Li (1994). New light on time machines: Against the chronology protection conjecture. Physical Review D 50, R6037-R6040. DOI:10.1103/physrevd.50.r6037 [journal-article]
+
+### KRW1997
+  requête : Kay Radzikowski Wald Quantum field theory on spacetimes with a compactly generated Cauchy horizon Communications in Mathematical Physics 1997
+  - Kay, Radzikowski, Wald (1997). Quantum Field Theory on Spacetimes with a Compactly Generated Cauchy Horizon. Communications in Mathematical Physics 183, 533-556. DOI:10.1007/s002200050042 [journal-article]
+  - Friedrich, Rácz, Wald (1999). On the Rigidity Theorem for Spacetimes with a Stationary Event Horizon or a Compact Cauchy Horizon. Communications in Mathematical Physics 204, 691-707. DOI:10.1007/s002200050662 [journal-article]
+  - Hack (2015). Algebraic Quantum Field Theory on Curved Spacetimes. SpringerBriefs in Mathematical Physics , 13-75. DOI:10.1007/978-3-319-21894-6_2 [book-chapter]
+
+### KimThorne1991
+  requête : Kim Thorne Do vacuum fluctuations prevent the creation of closed timelike curves? Physical Review D 1991
+  - Kim, Thorne (1991). Do vacuum fluctuations prevent the creation of closed timelike curves?. Physical Review D 43, 3929-3947. DOI:10.1103/physrevd.43.3929 [journal-article]
+  - Ahmed (2021). Type II Vacuum Spacetime Admitting Closed Timelike Curves.  , . DOI:10.20944/preprints202105.0406.v1 [posted-content]
+  - Echeverria, Klinkhammer, Thorne (1991). Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory. Physical Review D 44, 1077-1099. DOI:10.1103/physrevd.44.1077 [journal-article]
+
+### Visser2003
+  requête : Visser The quantum physics of chronology protection
+  - Visser (1994). Hawking's chronology protection conjecture: singularity structure of the quantum stress-energy tensor. Nuclear Physics B 416, 895-906. DOI:10.1016/0550-3213(94)90560-6 [journal-article]
+  - Visser (1993). From wormhole to time machine: Remarks on Hawking’s chronology protection conjecture. Physical Review D 47, 554-565. DOI:10.1103/physrevd.47.554 [journal-article]
+  - Martín-Vázquez, Sabín (2020). Closed timelike curves and chronology protection in quantum and classical simulators. Classical and Quantum Gravity 37, 045013. DOI:10.1088/1361-6382/ab5f3f [journal-article]
+
+### Friedman1990
+  requête : Friedman Morris Novikov Echeverria Klinkhammer Thorne Yurtsever Cauchy problem in spacetimes with closed timelike curves Physical Review D 1990
+  - Friedman, Morris, Novikov, Echeverria, Klinkhammer, Thorne (1990). Cauchy problem in spacetimes with closed timelike curves. Physical Review D 42, 1915-1930. DOI:10.1103/physrevd.42.1915 [journal-article]
+  - Echeverria, Klinkhammer, Thorne (1991). Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory. Physical Review D 44, 1077-1099. DOI:10.1103/physrevd.44.1077 [journal-article]
+  - Friedman, Morris (1991). The Cauchy problem for the scalar wave equation is well defined on a class of spacetimes with closed timelike curves. Physical Review Letters 66, 401-404. DOI:10.1103/physrevlett.66.401 [journal-article]
+
+### EKT1991
+  requête : Echeverria Klinkhammer Thorne Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory Physical Review D 1991
+  - Echeverria, Klinkhammer, Thorne (1991). Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory. Physical Review D 44, 1077-1099. DOI:10.1103/physrevd.44.1077 [journal-article]
+  - Friedman, Morris, Novikov, Echeverria, Klinkhammer, Thorne (1990). Cauchy problem in spacetimes with closed timelike curves. Physical Review D 42, 1915-1930. DOI:10.1103/physrevd.42.1915 [journal-article]
+  - Schein, Aichelburg, Israel (1996). String-supported wormhole spacetimes containing closed timelike curves. Physical Review D 54, 3800-3805. DOI:10.1103/physrevd.54.3800 [journal-article]
+
+### Deutsch1991
+  requête : Deutsch Quantum mechanics near closed timelike lines Physical Review D 1991
+  - Deutsch (1991). Quantum mechanics near closed timelike lines. Physical Review D 44, 3197-3217. DOI:10.1103/physrevd.44.3197 [journal-article]
+  - ?, Bishop (None). Quantum mechanics near closed timelike curves.  , . DOI:10.14264/f4476cd [dissertation]
+  - Deutsch (1991). Quantum statistical mechanics in a closed system. Physical Review A 43, 2046-2049. DOI:10.1103/physreva.43.2046 [journal-article]
+
+### Lloyd2011PRL
+  requête : Lloyd Maccone Garcia-Patron Giovannetti Shikano Pirandola Closed timelike curves via postselection: theory and experimental test of consistency Physical Review Letters 2011
+  - Lloyd, Maccone, Garcia-Patron, Giovannetti, Shikano, Pirandola (2011). Closed Timelike Curves via Postselection: Theory and Experimental Test of Consistency. Physical Review Letters 106, . DOI:10.1103/physrevlett.106.040403 [journal-article]
+  - Lloyd, Maccone, Garcia-Patron, Giovannetti, Shikano (2011). Quantum mechanics of time travel through post-selected teleportation. Physical Review D 84, . DOI:10.1103/physrevd.84.025007 [journal-article]
+  - Tan, Erkmen, Giovannetti, Guha, Lloyd, Maccone (2008). Quantum Illumination with Gaussian States. Physical Review Letters 101, . DOI:10.1103/physrevlett.101.253601 [journal-article]
+
+### Lloyd2011PRD
+  requête : Lloyd Maccone Garcia-Patron Giovannetti Shikano Quantum mechanics of time travel through post-selected teleportation Physical Review D 2011
+  - Lloyd, Maccone, Garcia-Patron, Giovannetti, Shikano (2011). Quantum mechanics of time travel through post-selected teleportation. Physical Review D 84, . DOI:10.1103/physrevd.84.025007 [journal-article]
+  - Lloyd, Maccone, Garcia-Patron, Giovannetti, Shikano, Pirandola (2011). Closed Timelike Curves via Postselection: Theory and Experimental Test of Consistency. Physical Review Letters 106, . DOI:10.1103/physrevlett.106.040403 [journal-article]
+  - Giovannetti, Lloyd, Maccone (2015). Quantum time. Physical Review D 92, . DOI:10.1103/physrevd.92.045033 [journal-article]
+
+### Politzer1992
+  requête : Politzer Simple quantum systems in spacetimes with closed timelike curves Physical Review D 1992
+  - Politzer (1992). Simple quantum systems in spacetimes with closed timelike curves. Physical Review D 46, 4470-4476. DOI:10.1103/physrevd.46.4470 [journal-article]
+  - Boulware (1992). Quantum field theory in spaces with closed timelike curves. Physical Review D 46, 4421-4441. DOI:10.1103/physrevd.46.4421 [journal-article]
+  - Politzer (1994). Path integrals, density matrices, and information flow with closed timelike curves. Physical Review D 49, 3981-3989. DOI:10.1103/physrevd.49.3981 [journal-article]
+
+### Hartle1994
+  requête : Hartle Unitarity and causality in generalized quantum mechanics for nonchronal spacetimes Physical Review D 1994
+  - Hartle (1994). Unitarity and causality in generalized quantum mechanics for nonchronal spacetimes. Physical Review D 49, 6543-6555. DOI:10.1103/physrevd.49.6543 [journal-article]
+  - Hartle, Marolf (1997). Comparing formulations of generalized quantum mechanics for reparametrization-invariant systems. Physical Review D 56, 6247-6257. DOI:10.1103/physrevd.56.6247 [journal-article]
+  - Hartle (2008). Quantum mechanics with extended probabilities. Physical Review A 78, . DOI:10.1103/physreva.78.012108 [journal-article]
+
+### AEverett2004
+  requête : Everett Time travel paradoxes, path integrals, and the many worlds interpretation of quantum mechanics Physical Review D 2004
+  - Everett (2004). Time travel paradoxes, path integrals, and the many worlds interpretation of quantum mechanics. Physical Review D 69, . DOI:10.1103/physrevd.69.124023 [journal-article]
+  - Saunders (2026). Physical Probability in the Everett Interpretation, and Bell Inequalities. Local Quantum Mechanics , 352-382. DOI:10.1093/9780197792766.003.0014 [book-chapter]
+  - Everett (2015). "Relative State" Formulation of Quantum Mechanics. The Many Worlds Interpretation of Quantum Mechanics , 141-150. DOI:10.1515/9781400868056-003 [book-chapter]
+
+### HEverett1957
+  requête : Everett Relative state formulation of quantum mechanics Reviews of Modern Physics 1957
+  - Everett (1957). "Relative State" Formulation of Quantum Mechanics. Reviews of Modern Physics 29, 454-462. DOI:10.1103/revmodphys.29.454 [journal-article]
+  -  (2012). CHAPTER 9. Short Thesis: “Relative State” Formulation of Quantum Mechanics (1957). The Everett Interpretation of Quantum Mechanics , 173-196. DOI:10.1515/9781400842742.173 [book-chapter]
+  - Everett (2015). "Relative State" Formulation of Quantum Mechanics. The Many Worlds Interpretation of Quantum Mechanics , 141-150. DOI:10.1515/9781400868056-003 [book-chapter]
+
+### Polchinski1991
+  requête : Polchinski Weinberg's nonlinear quantum mechanics and the Einstein-Podolsky-Rosen paradox Physical Review Letters 1991
+  - Polchinski (1991). Weinberg’s nonlinear quantum mechanics and the Einstein-Podolsky-Rosen paradox. Physical Review Letters 66, 397-400. DOI:10.1103/physrevlett.66.397 [journal-article]
+  - Pascazio (1988). Variable Detection Probability Models for Einstein-Podolsky-Rosen-Type Experiments. Quantum Mechanics Versus Local Realism , 391-411. DOI:10.1007/978-1-4684-8774-9_16 [book-chapter]
+  -  (1988). Quantum Mechanics Versus Local Realism.  , . DOI:10.1007/978-1-4684-8774-9 [book]
+
+### Bollinger1989
+  requête : Bollinger Heinzen Itano Gilbert Wineland Test of the linearity of quantum mechanics by rf spectroscopy of the 9Be+ ground state Physical Review Letters 1989
+  - Heinzen, Bollinger, Itano, Gilbert, Wineland (1990). Test of the Linearity of Quantum Mechanics by RF Spectroscopy of the 9BE+ Ground State. Coherence and Quantum Optics VI , 479-481. DOI:10.1007/978-1-4613-0847-8_87 [book-chapter]
+  - Bollinger, Heinzen, Itano, Gilbert, Wineland (1989). Test of the linearity of quantum mechanics by rf spectroscopy of the<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant="normal">Be</mml:mi></mml:mrow><mml:mrow/><mml:mrow><mml:mo>+</mml:mo></mml:mrow><mml:mrow/><mml:mrow/><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>9</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>ground state. Physical Review Letters 63, 1031-1034. DOI:10.1103/physrevlett.63.1031 [journal-article]
+  - Bollinger, Heinzen, Itano, Gilbert, Wineland (1992). ATOMIC PHYSICS TESTS OF NONLINEAR QUANTUM MECHANICS. Foundations of Quantum Mechanics , 40-46. DOI:10.1142/9789814436687_0004 [proceedings-article]
+
+### Ringbauer2014
+  requête : Ringbauer Broome Myers White Ralph Experimental simulation of closed timelike curves Nature Communications 2014
+  - Ringbauer, Broome, Myers, White, Ralph (2014). Experimental simulation of closed timelike curves. Nature Communications 5, . DOI:10.1038/ncomms5145 [journal-article]
+  - Pienaar, Myers, Ralph (2011). Quantum fields on closed timelike curves. Physical Review A 84, . DOI:10.1103/physreva.84.062316 [journal-article]
+  - Ralph, Myers (2010). Information flow of quantum states interacting with closed timelike curves. Physical Review A 82, . DOI:10.1103/physreva.82.062330 [journal-article]
+
+### AaronsonWatrous2009
+  requête : Aaronson Watrous Closed timelike curves make quantum and classical computing equivalent Proceedings of the Royal Society A 2009
+  - Aaronson, Watrous (2008). Closed timelike curves make quantum and classical computing equivalent. Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences 465, 631-647. DOI:10.1098/rspa.2008.0350 [journal-article]
+  - ?, Bishop (None). Quantum mechanics near closed timelike curves.  , . DOI:10.14264/f4476cd [dissertation]
+  - Martín-Vázquez, Sabín (2020). Closed timelike curves and chronology protection in quantum and classical simulators. Classical and Quantum Gravity 37, 045013. DOI:10.1088/1361-6382/ab5f3f [journal-article]
+
+### Bennett2009
+  requête : Bennett Leung Smith Smolin Can closed timelike curves or nonlinear quantum mechanics improve quantum state discrimination or help solve hard problems? Physical Review Letters 2009
+  - Bennett, Leung, Smith, Smolin (2009). Can Closed Timelike Curves or Nonlinear Quantum Mechanics Improve Quantum State Discrimination or Help Solve Hard Problems?. Physical Review Letters 103, . DOI:10.1103/physrevlett.103.170502 [journal-article]
+  - ?, Bishop (None). Quantum mechanics near closed timelike curves.  , . DOI:10.14264/f4476cd [dissertation]
+  - Brun, Harrington, Wilde (2009). Localized Closed Timelike Curves Can Perfectly Distinguish Quantum States. Physical Review Letters 102, . DOI:10.1103/physrevlett.102.210402 [journal-article]
+
+### DeutschLockwood1994
+  requête : Deutsch Lockwood The quantum physics of time travel Scientific American 1994
+  - Deutsch, Lockwood (1994). The Quantum Physics of Time Travel. Scientific American 270, 68-74. DOI:10.1038/scientificamerican0394-68 [journal-article]
+  - Deutsch, Lockwood (2016). The Quantum Physics of Time Travel. Science Fiction and Philosophy , 370-383. DOI:10.1002/9781118922590.ch27 [other]
+  - Simon (1994). The physics of time travel. Physics World 7, 27-34. DOI:10.1088/2058-7058/7/12/27 [journal-article]
+
+### Geroch1967
+  requête : Geroch Topology in general relativity Journal of Mathematical Physics 1967
+  - Geroch (1967). Topology in General Relativity. Journal of Mathematical Physics 8, 782-786. DOI:10.1063/1.1705276 [journal-article]
+  - Geroch (1982). Building things in general relativity. Journal of Mathematical Physics 23, 611-614. DOI:10.1063/1.525398 [journal-article]
+  - Geroch, Winicour (1981). Linkages in general relativity. Journal of Mathematical Physics 22, 803-812. DOI:10.1063/1.524987 [journal-article]
+
+### Hawking1969
+  requête : Hawking The existence of cosmic time functions Proceedings of the Royal Society A 1969
+  - Hawking (1969). The existence of cosmic time functions. Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences 308, 433-435. DOI:10.1098/rspa.1969.0018 [journal-article]
+  - Hawking (1969). On the Rotation of the Universe. Monthly Notices of the Royal Astronomical Society 142, 129-141. DOI:10.1093/mnras/142.2.129 [journal-article]
+  - Dautcourt (1969). Small-Scale Variations in the Cosmic Microwave Background. Monthly Notices of the Royal Astronomical Society 144, 255-278. DOI:10.1093/mnras/144.3.255 [journal-article]
+
+### Krasnikov2002
+  requête : Krasnikov No time machines in classical general relativity Classical and Quantum Gravity 2002
+  - Krasnikov (2002). No time machines in classical general relativity. Classical and Quantum Gravity 19, 4109-4129. DOI:10.1088/0264-9381/19/15/316 [journal-article]
+  - Krasnikov (2014). Corrigendum: No time machines in classical general relativity (2002 Class. Quantum Grav. 19 4109). Classical and Quantum Gravity 31, 079503. DOI:10.1088/0264-9381/31/7/079503 [journal-article]
+  - Accioly, Ragusa (2002). Gravitational deflection of massive particles in classical and semiclassical general relativity. Classical and Quantum Gravity 19, 5429-5434. DOI:10.1088/0264-9381/19/21/308 [journal-article]
+
+### EarmanSmeenkWuthrich2009
+  requête : Earman Smeenk Wuthrich Do the laws of physics forbid the operation of time machines? Synthese 2009
+  - Earman, Smeenk, Wüthrich (2008). Do the laws of physics forbid the operation of time machines?. Synthese 169, 91-124. DOI:10.1007/s11229-008-9338-2 [journal-article]
+  - Earman (1972). Notes on the causal theory of time. Synthese 24, 74-86. DOI:10.1007/bf00540142 [journal-article]
+  - Smeenk, Wüthrich (2011). Time Travel and Time Machines. Oxford Handbooks Online , . DOI:10.1093/oxfordhb/9780199298204.003.0021 [edited-book]
+
+### Weinberg1989
+  requête : Weinberg Testing quantum mechanics Annals of Physics 1989
+  - Weinberg (1989). Testing quantum mechanics. Annals of Physics 194, 336-386. DOI:10.1016/0003-4916(89)90276-5 [journal-article]
+  -  (1989). Testing quantum mechanics. Annals of Physics 193, 490-491. DOI:10.1016/0003-4916(89)90009-2 [journal-article]
+  -  (1989). Resonance fluorescence and quantum jumps in single atoms: Testing the randomness of quantum mechanics. Annals of Physics 190, 213-214. DOI:10.1016/0003-4916(89)90269-8 [journal-article]
+
+### Gisin1990
+  requête : Gisin Weinberg's non-linear quantum mechanics and supraluminal communications Physics Letters A 1990
+  - Gisin (1990). Weinberg's non-linear quantum mechanics and supraluminal communications. Physics Letters A 143, 1-2. DOI:10.1016/0375-9601(90)90786-n [journal-article]
+  - Bechmann-Pasquinucci, Huttner, Gisin (1998). Non-linear quantum state transformation of. Physics Letters A 242, 198-204. DOI:10.1016/s0375-9601(98)00189-3 [journal-article]
+  - ROBERTS (1990). NON-LINEAR QUANTUM MECHANICS: TWO POSSIBILITIES. Modern Physics Letters A 05, 91-94. DOI:10.1142/s0217732390000111 [journal-article]
+
+### Thorne1993
+  requête : Thorne Closed timelike curves General Relativity and Gravitation 1992 proceedings
+  - Bonnor (2009). Detection of closed timelike curves. General Relativity and Gravitation 41, 2633-2635. DOI:10.1007/s10714-009-0797-7 [journal-article]
+  - Vyas (2008). Reflectingness and closed timelike curves in space-time. General Relativity and Gravitation 40, 2461-2465. DOI:10.1007/s10714-008-0638-0 [journal-article]
+  - Sarma, Patgiri, Ahmed (2013). Pure radiation metric with stable closed timelike curves. General Relativity and Gravitation 46, . DOI:10.1007/s10714-013-1633-7 [journal-article]
+
+### Melvin1964
+  requête : Melvin Pure magnetic and electric geons Physics Letters 1964
+  - Melvin (1964). Pure magnetic and electric geons. Physics Letters 8, 65-68. DOI:10.1016/0031-9163(64)90801-7 [journal-article]
+  - Huang (2006). Electric/magnetic field deformed giant gravitons in Melvin geometry. Physics Letters B 635, 141-147. DOI:10.1016/j.physletb.2006.02.041 [journal-article]
+  - Molski (1999). Electric and magnetic properties of LiH X  from analysis of pure rotational and vibration–rotational spectra. Chemical Physics Letters 306, 88-94. DOI:10.1016/s0009-2614(99)00453-4 [journal-article]
+
+### Reissner1916
+  requête : Reissner Uber die Eigengravitation des elektrischen Feldes nach der Einsteinschen Theorie Annalen der Physik 1916
+  - Reissner (1916). Über die Eigengravitation des elektrischen Feldes nach der Einsteinschen Theorie. Annalen der Physik 355, 106-120. DOI:10.1002/andp.19163550905 [journal-article]
+  - Wendt, Wetzel (1916). Beobachtungen über den Effekt des elektrischen Feldes auf die Tripletserien des Quecksilbers und die Dupletserien des Aluminiums. Annalen der Physik 355, 419-432. DOI:10.1002/andp.19163551204 [journal-article]
+  - Stark (1929). Zur physikalischen Kritik von Schrödingers Theorie der Lichtemission. I. Intensitätsverhältnis im Effekt des elektrischen Feldes auf Spektrallinien. Annalen der Physik 393, 1009-1024. DOI:10.1002/andp.19293930802 [journal-article]
+
+### Kreuzer1968
+  requête : Kreuzer Experimental measurement of the equivalence of active and passive gravitational mass Physical Review 1968
+  - Kreuzer (1968). Experimental Measurement of the Equivalence of Active and Passive Gravitational Mass. Physical Review 169, 1007-1012. DOI:10.1103/physrev.169.1007 [journal-article]
+  - Bartlett, Van Buren (1986). Equivalence of active and passive gravitational mass using the moon. Physical Review Letters 57, 21-24. DOI:10.1103/physrevlett.57.21 [journal-article]
+  - Singh, Müller, Biskupek, Hackmann, Lämmerzahl (2023). Equivalence of Active and Passive Gravitational Mass Tested with Lunar Laser Ranging. Physical Review Letters 131, . DOI:10.1103/physrevlett.131.021401 [journal-article]
+
+### Bonnor1954
+  requête : Bonnor Static magnetic fields in general relativity Proceedings of the Physical Society A 1954
+  - Bonnor (1954). Static Magnetic Fields in General Relativity. Proceedings of the Physical Society. Section A 67, 225-232. DOI:10.1088/0370-1298/67/3/305 [journal-article]
+  - Bonnor (1999). The Static Cylinder in General Relativity. On Einstein’s Path , 113-119. DOI:10.1007/978-1-4612-1422-9_8 [book-chapter]
+  - Manko, Ruiz (1997). Stationary Generalization of the Bonnor Magnetic Dipole Solution. General Relativity and Gravitation 29, 991-996. DOI:10.1023/a:1018868524867 [journal-article]
+
+### TolmanEhrenfestPodolsky1931
+  requête : Tolman Ehrenfest Podolsky On the gravitational field produced by light Physical Review 1931
+  - Tolman, Ehrenfest, Podolsky (1931). On the Gravitational Field Produced by Light. Physical Review 37, 602-615. DOI:10.1103/physrev.37.602 [journal-article]
+  - Tolman, Ehrenfest (1930). Temperature Equilibrium in a Static Gravitational Field. Physical Review 36, 1791-1798. DOI:10.1103/physrev.36.1791 [journal-article]
+  - Einstein, Tolman, Podolsky (1931). Knowledge of Past and Future in Quantum Mechanics. Physical Review 37, 780-781. DOI:10.1103/physrev.37.780 [journal-article]
+
+### Fuzfa2016
+  requête : Fuzfa How current loops and solenoids curve spacetime Physical Review D 2016
+  - Füzfa (2016). How current loops and solenoids curve spacetime. Physical Review D 93, . DOI:10.1103/physrevd.93.024014 [journal-article]
+  - Premkumar (2024). Regulating loops in de Sitter spacetime. Physical Review D 109, . DOI:10.1103/physrevd.109.045003 [journal-article]
+  - Egusquiza (1995). Equatorial string loops in Vaidya-Papapetrou spacetime. Physical Review D 51, 2744-2750. DOI:10.1103/physrevd.51.2744 [journal-article]
+
+### Nakamura2018
+  requête : Nakamura Ikeda Sawabe Matsuda Takeyama Record indoor magnetic field of 1200 T generated by electromagnetic flux-compression Review of Scientific Instruments 2018
+  - Nakamura, Ikeda, Sawabe, Matsuda, Takeyama (2018). Record indoor magnetic field of 1200 T generated by electromagnetic
+          flux-compression. Review of Scientific Instruments 89, . DOI:10.1063/1.5044557 [journal-article]
+  - Nakamura, Sawabe, Matsuda, Takeyama (2013). Precise measurement of a magnetic field generated by the electromagnetic flux compression technique. Review of Scientific Instruments 84, . DOI:10.1063/1.4798543 [journal-article]
+  - Takeyama, Nakamura, Ikeda, Sawabe, H Matsuda (2018). 1000 T project of the electro-magnetic flux compression at Kashiwa, UTokyo. 2018 16th International Conference on Megagauss Magnetic Field Generation and Related Topics (MEGAGAUSS) , 1-4. DOI:10.1109/megagauss.2018.8722645 [proceedings-article]
+
+### Hahn2019
+  requête : Hahn 45.5-tesla direct-current magnetic field generated with a high-temperature superconducting magnet Nature 2019
+  - Hahn, Kim, Kim, Hu, Painter, Dixon (2019). 45.5-tesla direct-current magnetic field generated with a high-temperature superconducting magnet. Nature 570, 496-499. DOI:10.1038/s41586-019-1293-1 [journal-article]
+  - Zhang, Hu, Guo, Hong, Wang, Ma (2024). 26.86-tesla direct-current magnetic field generated with an all-REBCO superconducting magnet. Superconductor Science and Technology 37, 085003. DOI:10.1088/1361-6668/ad54f9 [journal-article]
+  - Liu, Wang, Qin, Zhou, Wang, Wang (2020). World record 32.35 tesla direct-current magnetic field generated with an all-superconducting magnet. Superconductor Science and Technology 33, 03LT01. DOI:10.1088/1361-6668/ab714e [journal-article]
+
+### BartlettVanBuren1986
+  requête : Bartlett Van Buren Equivalence of active and passive gravitational mass using the moon Physical Review Letters 1986
+  - Bartlett, Van Buren (1986). Equivalence of active and passive gravitational mass using the moon. Physical Review Letters 57, 21-24. DOI:10.1103/physrevlett.57.21 [journal-article]
+  - Kreuzer (1968). Experimental Measurement of the Equivalence of Active and Passive Gravitational Mass. Physical Review 169, 1007-1012. DOI:10.1103/physrev.169.1007 [journal-article]
+  - Singh, Müller, Biskupek, Hackmann, Lämmerzahl (2023). Equivalence of Active and Passive Gravitational Mass Tested with Lunar Laser Ranging. Physical Review Letters 131, . DOI:10.1103/physrevlett.131.021401 [journal-article]
+
+### CMS2011b
+  requête : Search for microscopic black hole signatures at the Large Hadron Collider Physics Letters B 697 434
+  - ?, Tsang, ? (2011). Search for Microscopic Black Hole Signatures at the Large Hadron Collider.  , . DOI:10.2172/1151638 [report]
+  - Sekmen (2026). Search for Dark Sector signatures and dark matter. Proceedings of 14th Edition of the Large Hadron Collider Physics — PoS(LHCP2026) , 079. DOI:10.22323/1.541.0079 [proceedings-article]
+  -  (2021). ?.  , . DOI:10.54499/sfrh/bd/151004/2021 [grant]
+
+### CMS2018
+  requête : CMS Search for black holes and sphalerons in high-multiplicity final states in proton-proton collisions at 13 TeV Journal of High Energy Physics 2018
+  - Nam, ? (2019). Search for $Z\gamma$ resonances using leptonic and hadronic final states in proton-proton collisions at 13 TeV with the CMS experiment. Proceedings of The 39th International Conference on High Energy Physics — PoS(ICHEP2018) , 895. DOI:10.22323/1.340.0895 [proceedings-article]
+  - Roy, ? (2020). Search for a heavy Higgs boson decaying to a pair of W bosons in proton-proton collisions at 13 TeV with CMS. Proceedings of European Physical Society Conference on High Energy Physics — PoS(EPS-HEP2019) , 365. DOI:10.22323/1.364.0365 [proceedings-article]
+  - Palmer, ? (2019). CMS luminosity precision in 2017 proton-proton collisions at LHC at $\sqrt{s}=13$ TeV. Proceedings of The 39th International Conference on High Energy Physics — PoS(ICHEP2018) , 282. DOI:10.22323/1.340.0282 [proceedings-article]
+
+### Krasnikov1996
+  requête : Krasnikov Quantum stability of the time machine Physical Review D 1996
+  - Krasnikov (1996). Quantum stability of the time machine. Physical Review D 54, 7322-7327. DOI:10.1103/physrevd.54.7322 [journal-article]
+  - Krasnikov (1996). On the Quantum Stability of the Time Machine. TEUBNER-TEXTE zur Physik , 203-204. DOI:10.1007/978-3-663-01204-7_37 [book-chapter]
+  - Krasnikov (1994). On the classical stability of a time machine. Classical and Quantum Gravity 11, 2755-2759. DOI:10.1088/0264-9381/11/11/016 [journal-article]
+
+### TobarCosta2020
+  requête : Tobar Costa Reversible dynamics with closed time-like curves and freedom of choice Classical and Quantum Gravity 2020
+  - Tobar, Costa (2020). Reversible dynamics with closed time-like curves and freedom of choice. Classical and Quantum Gravity 37, 205011. DOI:10.1088/1361-6382/aba4bc [journal-article]
+  - ?, Christianto (2022). Remark on “Reversible dynamics with closed time-like curve and freedom of choice” by  Germain Tobar  Fabio Costa. Journal of Cosmology, Filaments and Astrobiology 1, 16-19. DOI:10.54216/jcfa.010102 [journal-article]
+  - Baumeler, Costa, Ralph, Wolf, Zych (2019). Reversible time travel with freedom of choice. Classical and Quantum Gravity 36, 224002. DOI:10.1088/1361-6382/ab4973 [journal-article]
+
+### Lee2020
+  requête : Lee Adelberger Cook Fleischer Heckel New test of the gravitational 1/r2 law at separations down to 52 um Physical Review Letters 2020
+  - Lee, Adelberger, Cook, Fleischer, Heckel (2020). New Test of the Gravitational
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline">
+                      <mml:mn>1</mml:mn>
+                      <mml:mo stretchy="false">/</mml:mo>
+                      <mml:msup>
+                        <mml:mi>r</mml:mi>
+                        <mml:mn>2</mml:mn>
+                      </mml:msup>
+                    </mml:math>
+                    Law at Separations down to
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline">
+                      <mml:mrow>
+                        <mml:mn>52</mml:mn>
+                        <mml:mtext> </mml:mtext>
+                        <mml:mtext> </mml:mtext>
+                        <mml:mi>μ</mml:mi>
+                        <mml:mi mathvariant="normal">m</mml:mi>
+                      </mml:mrow>
+                    </mml:math>. Physical Review Letters 124, . DOI:10.1103/physrevlett.124.101101 [journal-article]
+  - Adelberger, Heckel (1991). Adelberger and Heckel reply. Physical Review Letters 67, 1049-1049. DOI:10.1103/physrevlett.67.1049 [journal-article]
+  - Adelberger, Heckel, Hoedl, Hoyle, Kapner, Upadhye (2007). Particle-Physics Implications of a Recent Test of the Gravitational Inverse-Square Law. Physical Review Letters 98, . DOI:10.1103/physrevlett.98.131104 [journal-article]
+
+### Unruh1976
+  requête : Unruh Absorption cross section of small black holes Physical Review D 1976
+  - Unruh (1976). Absorption cross section of small black holes. Physical Review D 14, 3251-3259. DOI:10.1103/physrevd.14.3251 [journal-article]
+  - Övgün (2021). Connection between Sinc Approximation for High-Energy Absorption Cross Section and Shadow of Black Holes.  , . DOI:10.20944/preprints202108.0390.v1 [posted-content]
+  - de Oliveira (2021). Scalar absorption cross section of rotating black holes with tidal charge. Physical Review D 104, . DOI:10.1103/physrevd.104.124008 [journal-article]
+
+### DeWittGraham1973
+  requête : DeWitt Graham The Many-Worlds Interpretation of Quantum Mechanics Princeton University Press 1973
+  - Federbush (1974). Philosophical Problems:
+            <i>The Many-Worlds Interpretation of Quantum Mechanics</i>
+            . A Fundamental Exposition. Bryce S. DeWitt and Neill Graham, Eds. Princeton University Press, Princeton, N.J., 1973. viii, 253 pp. Cloth, $12.50; paper, $5.50. Princeton Series in Physics.. Science 183, 1189-1190. DOI:10.1126/science.183.4130.1189 [journal-article]
+  -  (2015). The Many Worlds Interpretation of Quantum Mechanics.  , . DOI:10.1515/9781400868056 [edited-book]
+  - DeWitt (2015). The Many-Universes Interpretation of Quantum Mechanics. The Many Worlds Interpretation of Quantum Mechanics , 167-218. DOI:10.1515/9781400868056-006 [book-chapter]
+
+### tHooft1992
+  requête : 't Hooft Causality in (2+1)-dimensional gravity Classical and Quantum Gravity 1992
+  - Hooft (1992). Causality in (2+1)-dimensional gravity. Classical and Quantum Gravity 9, 1335-1348. DOI:10.1088/0264-9381/9/5/015 [journal-article]
+  - Hooft (1996). Quantization of point particles in (2 + 1)-dimensional gravity and spacetime discreteness. Classical and Quantum Gravity 13, 1023-1039. DOI:10.1088/0264-9381/13/5/018 [journal-article]
+  - Peldan (1992). Connection formulation of (2+1)-dimensional Einstein gravity and topologically massive gravity. Classical and Quantum Gravity 9, 2079-2092. DOI:10.1088/0264-9381/9/9/014 [journal-article]
+
+### Cutler1992
+  requête : Cutler Global structure of Gott's two-string spacetime Physical Review D 1992
+  - Cutler (1992). Global structure of Gott's two-string spacetime. Physical Review D 45, 487-494. DOI:10.1103/physrevd.45.487 [journal-article]
+  - Ahmed (1992). Curved-spacetime graviton vertex operator in string theory. Physical Review D 46, 3465-3482. DOI:10.1103/physrevd.46.3465 [journal-article]
+  - Loustó, Sánchez (1992). Curved-spacetime metric generated by Planckian energy string collisions. Physical Review D 46, 4520-4525. DOI:10.1103/physrevd.46.4520 [journal-article]
+
+### BardeenPressTeukolsky1972
+  requête : Bardeen Press Teukolsky Rotating black holes: locally nonrotating frames, energy extraction, and scalar synchrotron radiation Astrophysical Journal 1972
+  - Bardeen, Press, Teukolsky (1972). Rotating Black Holes: Locally Nonrotating Frames, Energy Extraction, and Scalar Synchrotron Radiation. The Astrophysical Journal 178, 347. DOI:10.1086/151796 [journal-article]
+  - Press (1972). Time Evolution of a Rotating Black Hole Immersed in a Static Scalar Field. The Astrophysical Journal 175, 243. DOI:10.1086/151551 [journal-article]
+  - Teukolsky (1972). Rotating Black Holes: Separable Wave Equations for Gravitational and Electromagnetic Perturbations. Physical Review Letters 29, 1114-1118. DOI:10.1103/physrevlett.29.1114 [journal-article]
+
+### Wald1984
+  requête : Wald General Relativity University of Chicago Press 1984
+  - Wald (1984). General Relativity.  , . DOI:10.7208/chicago/9780226870373.001.0001 [monograph]
+  - Grammenos (2014). Geometry, relativity, and (hidden) philosophy. Metascience 24, 141-145. DOI:10.1007/s11016-014-9969-5 [journal-article]
+  - Kennefick (2010). Decoding general relativity. Metascience 20, 91-93. DOI:10.1007/s11016-010-9424-1 [journal-article]
+
+### Chandrasekhar1983
+  requête : Chandrasekhar The Mathematical Theory of Black Holes Oxford University Press 1983
+  - Teukolsky (1983). Relativity:
+            <i>The Mathematical Theory of Black Holes</i>
+            . S. Chandrasekhar. Clarendon (Oxford University Press), New York, 1983. xxii, 646 pp., ills. $110.. Science 222, 1116-1116. DOI:10.1126/science.222.4628.1116.a [journal-article]
+  - Kilmister (1999). The mathematical theory of black holes, S. Chandrasekhar. Pp. 646. £29.50. 1998. ISBN 0 19 8503709 (Oxford University Press).. The Mathematical Gazette 83, 188-188. DOI:10.1017/s0025557200163727 [journal-article]
+  - Chandrasekhar (1998). The Mathematical Theory of Black Holes.  , . DOI:10.1093/oso/9780198503705.001.0001 [book]
+
+### MTW1973
+  requête : Misner Thorne Wheeler Gravitation 1973
+  - Misner, Thorne, Wheeler, Chandrasekhar (1974). <i>Gravitation</i>. Physics Today 27, 47-48. DOI:10.1063/1.3128805 [journal-article]
+  - GODDARD (1975). Gravitation By C. W. Misner, K. S. Thorne, and J. A. Wheeler. Pp xxvi + 1279. W. H. Freeman and Company Limited, Reading. 1973. E19.20; E8a60 paper. Endeavour 34, 43. DOI:10.1016/0160-9327(75)90069-1 [journal-article]
+  - Tredcr (1975). C.W. MISNER, K.S. THORNE, J.A. WHEELER: Gravitation. W.H. Freeman and Company Limited, Reading (England) 1973 — XXVI + 1279 Seiten, Preis £ 19.20 (clothbound); £ 8.60 (paperbound). Astronomische Nachrichten 296, 45-46. DOI:10.1002/asna.19752960110 [journal-article]
+
+### Krasnikov2018
+  requête : Krasnikov Back-in-Time and Faster-than-Light Travel in General Relativity Springer 2018
+  - Krasnikov (2018). Back-in-Time and Faster-than-Light Travel in General Relativity. Fundamental Theories of Physics , . DOI:10.1007/978-3-319-72754-7 [book]
+  - Krasnikov (2018). Time Travel Paradoxes. Fundamental Theories of Physics , 149-161. DOI:10.1007/978-3-319-72754-7_6 [book-chapter]
+  - Krasnikov (2018). Time Machines. Fundamental Theories of Physics , 85-118. DOI:10.1007/978-3-319-72754-7_4 [book-chapter]
+
+### FriedmanHiguchi2006
+  requête : Friedman Higuchi Topological censorship and chronology protection Annalen der Physik 2006
+  - Friedman, Higuchi (2005). Topological censorship and chronology protection. Annalen der Physik 518, 109-128. DOI:10.1002/andp.200651801-209 [journal-article]
+  - Friedman (1997). Topological Censorship and Chronology Protection. Astrophysics and Space Science Library , 157-167. DOI:10.1007/978-94-011-5812-1_11 [book-chapter]
+  - Novais (2026). Quantum Frustration as a Protection Mechanism in Non‐Topological Majorana Qubits. Annalen der Physik 538, . DOI:10.1002/andp.202500581 [journal-article]
+
+### FewsterRoman2005
+  requête : Fewster Roman On wormholes with arbitrarily small quantities of exotic matter Physical Review D 2005
+  - Fewster, Roman (2005). On wormholes with arbitrarily small quantities of exotic matter. Physical Review D 72, . DOI:10.1103/physrevd.72.044023 [journal-article]
+  - Avalos, Fuenmayor, Contreras (2022). Traversable wormholes with like-Casimir complexity supported with arbitrarily small amount of exotic matter. The European Physical Journal C 82, . DOI:10.1140/epjc/s10052-022-10389-8 [journal-article]
+  - Kuhfittig (2006). More on wormholes supported by small amounts of exotic matter. Physical Review D 73, . DOI:10.1103/physrevd.73.084014 [journal-article]
+
+### KontouSanders2020
+  requête : Kontou Sanders Energy conditions in general relativity and quantum field theory Classical and Quantum Gravity 2020
+  - Kontou, Sanders (2020). Energy conditions in general relativity and quantum field theory. Classical and Quantum Gravity 37, 193001. DOI:10.1088/1361-6382/ab8fcf [journal-article]
+  - Helland, Parthasarathy (2025). Quantum Noisy Fields, Classical and Quantum Physics and Neural Networks, Heat and Mass Transfer in General Relativity. Theoretical Variables, Quantum Theory, Relativistic Quantum Field Theory, and Quantum Gravity , 199-226. DOI:10.1201/9781003726470-14 [book-chapter]
+  - ?, M. Jöge (2025). Quantum Gravity To Unification of Quantum Field Theory (QFT) and General Relativity Theory (ART). Advances in Theoretical &amp; Computational Physics 8, 01-03. DOI:10.33140/atcp.08.02.05 [journal-article]
+
+### BobrickMartire2021
+  requête : Bobrick Martire Introducing physical warp drives Classical and Quantum Gravity 2021
+  - Bobrick, Martire (2021). Introducing physical warp drives. Classical and Quantum Gravity 38, 105009. DOI:10.1088/1361-6382/abdf6e [journal-article]
+  - Fuchs, Helmerich, Bobrick, Sellers, Melcher, Martire (2024). Constant velocity physical warp drive solution. Classical and Quantum Gravity 41, 095013. DOI:10.1088/1361-6382/ad26aa [journal-article]
+  - Helmerich, Fuchs, Bobrick, Sellers, Melcher, Martire (2024). Analyzing warp drive spacetimes with Warp Factory. Classical and Quantum Gravity 41, 095009. DOI:10.1088/1361-6382/ad2e42 [journal-article]
+
+### Lentz2021
+  requête : Lentz Breaking the warp barrier: hyper-fast solitons in Einstein-Maxwell-plasma theory Classical and Quantum Gravity 2021
+  - Lentz (2021). Breaking the warp barrier: hyper-fast solitons in Einstein–Maxwell-plasma theory. Classical and Quantum Gravity 38, 075015. DOI:10.1088/1361-6382/abe692 [journal-article]
+  - Alcubierre (1994). The warp drive: hyper-fast travel within general relativity. Classical and Quantum Gravity 11, L73-L77. DOI:10.1088/0264-9381/11/5/001 [journal-article]
+  - Tibrewala (2012). Spherically symmetric Einstein–Maxwell theory and loop quantum gravity corrections. Classical and Quantum Gravity 29, 235012. DOI:10.1088/0264-9381/29/23/235012 [journal-article]
+
+### SantiagoSchusterVisser2022
+  requête : Santiago Schuster Visser Generic warp drives violate the null energy condition Physical Review D 2022
+  - Santiago, Schuster, Visser (2022). Generic warp drives violate the null energy condition. Physical Review D 105, . DOI:10.1103/physrevd.105.064038 [journal-article]
+  - Visser, Schuster, Santiago (2022). Adm Mass in Warp Drive Spacetimes.  , . DOI:10.2139/ssrn.4164341 [posted-content]
+  - Hochberg, Molina-París, Visser (1999). Tolman wormholes violate the strong energy condition. Physical Review D 59, . DOI:10.1103/physrevd.59.044011 [journal-article]
+
+### MohideenRoy1998
+  requête : Mohideen Roy Precision measurement of the Casimir force from 0.1 to 0.9 um Physical Review Letters 1998
+  - Roy, Lin, Mohideen (1999). Improved precision measurement of the Casimir force. Physical Review D 60, . DOI:10.1103/physrevd.60.111101 [journal-article]
+  - Mohideen, Roy (1998). Precision Measurement of the Casimir Force from 0.1 to
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline">
+                      <mml:mn>0.9</mml:mn>
+                      <mml:mi/>
+                      <mml:mi mathvariant="italic">μ</mml:mi>
+                      <mml:mi>m</mml:mi>
+                    </mml:math>. Physical Review Letters 81, 4549-4552. DOI:10.1103/physrevlett.81.4549 [journal-article]
+  - Harris, Chen, Mohideen (2000). Precision measurement of the Casimir force using gold surfaces. Physical Review A 62, . DOI:10.1103/physreva.62.052109 [journal-article]
+
+### BrownMaclay1969
+  requête : Brown Maclay Vacuum stress between conducting plates: an image solution Physical Review 1969
+  - Brown, Maclay (1969). Vacuum Stress between Conducting Plates: An Image Solution. Physical Review 184, 1272-1279. DOI:10.1103/physrev.184.1272 [journal-article]
+  - Yu, Chen (2004). Brownian motion of a charged test particle in vacuum between two conducting plates. Physical Review D 70, . DOI:10.1103/physrevd.70.125006 [journal-article]
+  - ?, Nazari (2026). Vacuum stress between conducting plates: the curved spacetime version. Iranian Journal of Physics Research 25, . DOI:10.47176/ijpr.25.3.12050 [journal-article]
+
+### EpsteinGlaserJaffe1965
+  requête : Epstein Glaser Jaffe Nonpositivity of the energy density in quantized field theories Il Nuovo Cimento 1965
+  - Epstein, Glaser, Jaffe (1965). Nonpositivity of the energy density in quantized field theories. Il Nuovo Cimento 36, 1016-1022. DOI:10.1007/bf02749799 [journal-article]
+  - Steudel (1965). Invariance groups and conservation laws in linear field theories. Il Nuovo Cimento 39, 395-397. DOI:10.1007/bf02814298 [journal-article]
+  - Mitter (1965). Nonlinear quantum field theories at small distances. Il Nuovo Cimento 38, 1040-1046. DOI:10.1007/bf02748614 [journal-article]
+
+### HochbergVisser1998
+  requête : Hochberg Visser Null energy condition in dynamic wormholes Physical Review Letters 1998
+  - Hochberg, Visser (1998). Null Energy Condition in Dynamic Wormholes. Physical Review Letters 81, 746-749. DOI:10.1103/physrevlett.81.746 [journal-article]
+  - Hochberg, Visser (1998). Dynamic wormholes, antitrapped surfaces, and energy conditions. Physical Review D 58, . DOI:10.1103/physrevd.58.044021 [journal-article]
+  - Hochberg, Molina-París, Visser (1999). Tolman wormholes violate the strong energy condition. Physical Review D 59, . DOI:10.1103/physrevd.59.044011 [journal-article]
+
+### VisserKarDadhich2003
+  requête : Visser Kar Dadhich Traversable wormholes with arbitrarily small energy condition violations Physical Review Letters 2003
+  - Visser, Kar, Dadhich (2003). Traversable Wormholes with Arbitrarily Small Energy Condition Violations. Physical Review Letters 90, . DOI:10.1103/physrevlett.90.201102 [journal-article]
+  - Kar, Dadhich, Visser (2004). Quantifying energy condition violations in traversable wormholes. Pramana 63, 859-864. DOI:10.1007/bf02705207 [journal-article]
+  - Visser (1989). Traversable wormholes: Some simple examples. Physical Review D 39, 3182-3184. DOI:10.1103/physrevd.39.3182 [journal-article]
+
+### FrolovNovikov1990
+  requête : Frolov Novikov Physical effects in wormholes and time machines Physical Review D 1990
+  - Frolov, Novikov (1990). Physical effects in wormholes and time machines. Physical Review D 42, 1057-1065. DOI:10.1103/physrevd.42.1057 [journal-article]
+  - Frolov, Krtouš, Zelnikov (2023). Ring wormholes and time machines. Physical Review D 108, . DOI:10.1103/physrevd.108.024034 [journal-article]
+  - Frolov, Novikov (1998). Black Holes, Wormholes, and Time Machines. Fundamental Theories of Physics , 597-616. DOI:10.1007/978-94-011-5139-9_16 [book-chapter]
+
+### Allen2014
+  requête : Allen Treating time travel quantum mechanically Physical Review A 2014
+  - Allen (2014). Treating time travel quantum mechanically. Physical Review A 90, . DOI:10.1103/physreva.90.042107 [journal-article]
+  - Everett (2004). Time travel paradoxes, path integrals, and the many worlds interpretation of quantum mechanics. Physical Review D 69, . DOI:10.1103/physrevd.69.124023 [journal-article]
+  - Kalai, Kuperberg (2015). Contagious error sources would need time travel to prevent quantum computation. Physical Review A 92, . DOI:10.1103/physreva.92.022345 [journal-article]
+
+### Wallace2012
+  requête : Wallace The Emergent Multiverse: Quantum Theory according to the Everett Interpretation Oxford University Press 2012
+  - Wallace (2012). The Emergent Multiverse.  , . DOI:10.1093/acprof:oso/9780199546961.001.0001 [monograph]
+  - Wilson (2013). Demystifying the multiverse. Metascience 22, 583-586. DOI:10.1007/s11016-013-9759-5 [journal-article]
+  - Wallace (2012). Conclusion. The Emergent Multiverse , 420-426. DOI:10.1093/acprof:oso/9780199546961.003.0014 [book-chapter]
+
+### Zurek2003
+  requête : Zurek Decoherence, einselection, and the quantum origins of the classical Reviews of Modern Physics 2003
+  - Zurek (2003). Decoherence, einselection, and the quantum origins of the classical. Reviews of Modern Physics 75, 715-775. DOI:10.1103/revmodphys.75.715 [journal-article]
+  -  (2025). Decoherence, Einselection, and Its Consequences. Decoherence and Quantum Darwinism , 109-157. DOI:10.1017/9781009552868.006 [book-chapter]
+  - Zurek (None). Einselection and Decoherence from an Information Theory Perspective. Quantum Communication, Computing, and Measurement 3 , 115-125. DOI:10.1007/0-306-47114-0_17 [book-chapter]
+
+### Niebauer1995
+  requête : Niebauer Sasagawa Faller Hilt Klopping A new generation of absolute gravimeters Metrologia 1995
+  - Niebauer, Sasagawa, Faller, Hilt, Klopping (1995). A new generation of absolute gravimeters. Metrologia 32, 159-180. DOI:10.1088/0026-1394/32/3/004 [journal-article]
+  - Sasagawa, Klopping, Niebauer, Faller, Hilt (1995). Intracomparison tests of the FG5 absolute gravity meters. Geophysical Research Letters 22, 461-464. DOI:10.1029/94gl03045 [journal-article]
+  - Sasagawa, Klopping, vanDam (1995). Analysis of data from the 1994 International Comparison of Absolute Gravimeters with a single computational protocol. Metrologia 32, 185-192. DOI:10.1088/0026-1394/32/3/006 [journal-article]
+
+### Menoret2018
+  requête : Menoret Vermeulen Le Moigne Bonvalot Bouyer Landragin Desruelle Gravity measurements below 10-9 g with a transportable absolute quantum gravimeter Scientific Reports 2018
+  - Ménoret, Vermeulen, Le Moigne, Bonvalot, Bouyer, Landragin (2018). Gravity measurements below 10−9 g with a transportable absolute quantum gravimeter. Scientific Reports 8, . DOI:10.1038/s41598-018-30608-1 [journal-article]
+  - Lautier Gaud, Vermeulen, Lemoigne, Menoret, Bonvalot, Desruelle (2018). New Generation of Operational Absolute Gravimeter for Reservoir Monitoring. Proceedings , . DOI:10.3997/2214-4609.201801465 [proceedings-article]
+  - Vermeulen, Antoni-Micollier, Mazzoni, Condon, Ménoret, Janvier (2020). Operating the Absolute Quantum Gravimeter outside of the laboratory.  , . DOI:10.5194/egusphere-egu2020-8969 [posted-content]
+
+### Aeppli2024
+  requête : Aeppli Kim Warfield Safronova Ye Clock with 8e-19 systematic uncertainty Physical Review Letters 2024
+  - Aeppli, Kim, Warfield, Safronova, Ye (2024). Clock with
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline">
+                      <mml:mn>8</mml:mn>
+                      <mml:mo>×</mml:mo>
+                      <mml:msup>
+                        <mml:mn>10</mml:mn>
+                        <mml:mrow>
+                          <mml:mo>−</mml:mo>
+                          <mml:mn>19</mml:mn>
+                        </mml:mrow>
+                      </mml:msup>
+                    </mml:math>
+                    Systematic Uncertainty. Physical Review Letters 133, . DOI:10.1103/physrevlett.133.023401 [journal-article]
+  - Kim, Aeppli, Warfield, Safronova, Ye (2025). Enhancing optical clocks: strontium lattice clock with a record precision and accuracy. Quantum Sensing, Imaging, and Precision Metrology III , 65. DOI:10.1117/12.3053393 [proceedings-article]
+  - Kim, Aeppli, Warfield, Ye (2023). Lattice light shift of a Wannier-Stark optical lattice clock.  , . DOI:10.26226/m.6466359039790e0012bf4025 [posted-content]
+
+### McGrew2018
+  requête : McGrew Atomic clock performance enabling geodesy below the centimetre level Nature 2018
+  - McGrew, Zhang, Fasano, Schäffer, Beloy, Nicolodi (2018). Atomic clock performance enabling geodesy below the centimetre level. Nature 564, 87-90. DOI:10.1038/s41586-018-0738-2 [journal-article]
+  -  (2018). Podcast: Atomic clock accuracy and wind farm worries. Nature , . DOI:10.1038/d41586-018-07571-y [journal-article]
+  -  (2018). Portable atomic clock scales new heights. Nature 554, 407-407. DOI:10.1038/d41586-018-01907-4 [journal-article]
+
+### HiscockWeems1990
+  requête : Hiscock Weems Evolution of charged evaporating black holes Physical Review D 1990
+  - Hiscock, Weems (1990). Evolution of charged evaporating black holes. Physical Review D 41, 1142-1151. DOI:10.1103/physrevd.41.1142 [journal-article]
+  - Hiscock (1981). Models of evaporating black holes. I. Physical Review D 23, 2813-2822. DOI:10.1103/physrevd.23.2813 [journal-article]
+  - Hiscock (1983). Magnetic Monopoles and Evaporating Black Holes. Physical Review Letters 50, 1734-1737. DOI:10.1103/physrevlett.50.1734 [journal-article]
+
+### DamourRuffini1975
+  requête : Damour Ruffini Quantum electrodynamical effects in Kerr-Newmann geometries Physical Review Letters 1975
+  - Damour, Ruffini (1975). Quantum Electrodynamical Effects in Kerr-Newmann Geometries. Physical Review Letters 35, 463-466. DOI:10.1103/physrevlett.35.463 [journal-article]
+  - Damour, Deruelle, Ruffini (1976). On quantum resonances in stationary geometries. Lettere Al Nuovo Cimento Series 2 15, 257-262. DOI:10.1007/bf02725534 [journal-article]
+  - Damour (1975). On the correspondence between classical and quantum energy states in stationary geometries. Lettere al Nuovo Cimento 12, 315-318. DOI:10.1007/bf02790608 [journal-article]
+
+### Unruh1974
+  requête : Unruh Second quantization in the Kerr metric Physical Review D 1974
+  - Unruh (1974). Second quantization in the Kerr metric. Physical Review D 10, 3194-3205. DOI:10.1103/physrevd.10.3194 [journal-article]
+  - Isham, Nelson (1974). Quantization of a coupled Fermi field and Robertson-Walker metric. Physical Review D 10, 3226-3234. DOI:10.1103/physrevd.10.3226 [journal-article]
+  - Unruh (1974). Alternative Fock quantization of neutrinos in flat space-time. Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences 338, 517-525. DOI:10.1098/rspa.1974.0100 [journal-article]
+
+### BekensteinSchiffer1998
+  requête : Bekenstein Schiffer The many faces of superradiance Physical Review D 1998
+  - Bekenstein, Schiffer (1998). The many faces of superradiance. Physical Review D 58, . DOI:10.1103/physrevd.58.064014 [journal-article]
+  - Schiffer, Bekenstein (1990). Do zero-frequency modes contribute to the entropy?. Physical Review D 42, 3598-3599. DOI:10.1103/physrevd.42.3598 [journal-article]
+  - Bekenstein, Schiffer (2009). Varying fine structure “constant” and charged black holes. Physical Review D 80, . DOI:10.1103/physrevd.80.123508 [journal-article]
+
+### Israel1967
+  requête : Israel Event horizons in static vacuum space-times Physical Review 1967
+  - Israel (1967). Event Horizons in Static Vacuum Space-Times. Physical Review 164, 1776-1779. DOI:10.1103/physrev.164.1776 [journal-article]
+  - Israel (1968). Event horizons in static electrovac space-times. Communications in Mathematical Physics 8, 245-260. DOI:10.1007/bf01645859 [journal-article]
+  - Chase (1970). Event horizons in static scalar-vacuum space-times. Communications in Mathematical Physics 19, 276-288. DOI:10.1007/bf01646635 [journal-article]
+
+### Carter1971
+  requête : Carter Axisymmetric black hole has only two degrees of freedom Physical Review Letters 1971
+  - Carter (1971). Axisymmetric Black Hole Has Only Two Degrees of Freedom. Physical Review Letters 26, 331-333. DOI:10.1103/physrevlett.26.331 [journal-article]
+  - Saito, Kobayashi (2023). Black hole perturbations in spatially covariant gravity with just two tensorial degrees of freedom. Physical Review D 108, . DOI:10.1103/physrevd.108.104063 [journal-article]
+  - Barnich (2019). Black hole entropy from nonproper gauge degrees of freedom: The charged vacuum capacitor. Physical Review D 99, . DOI:10.1103/physrevd.99.026007 [journal-article]
+
+### Robinson1975
+  requête : Robinson Uniqueness of the Kerr black hole Physical Review Letters 1975
+  - Robinson (1975). Uniqueness of the Kerr Black Hole. Physical Review Letters 34, 905-906. DOI:10.1103/physrevlett.34.905 [journal-article]
+  - Podolský, Ovcharenko (2025). Kerr Black Hole in a Uniform Bertotti-Robinson Magnetic Field: An Exact Solution. Physical Review Letters 135, . DOI:10.1103/rfgv-ybz5 [journal-article]
+  -  (1996). The Kerr metric. Black Hole Uniqueness Theorems , 42-55. DOI:10.1017/cbo9780511661396.005 [book-chapter]
+
+### Penrose1965
+  requête : Penrose Gravitational collapse and space-time singularities Physical Review Letters 1965
+  - Penrose (1965). Gravitational Collapse and Space-Time Singularities. Physical Review Letters 14, 57-59. DOI:10.1103/physrevlett.14.57 [journal-article]
+  - Lake (1992). Precursory singularities in spherical gravitational collapse. Physical Review Letters 68, 3129-3132. DOI:10.1103/physrevlett.68.3129 [journal-article]
+  - Lake (1988). Comment on "Naked Singularities in Self-Similar Spherical Gravitational Collapse". Physical Review Letters 60, 241-241. DOI:10.1103/physrevlett.60.241 [journal-article]
+
+### Geroch1970
+  requête : Geroch Domain of dependence Journal of Mathematical Physics 1970
+  - Geroch (1970). Domain of Dependence. Journal of Mathematical Physics 11, 437-449. DOI:10.1063/1.1665157 [journal-article]
+  - Geroch (1970). Multipole Moments. II. Curved Space. Journal of Mathematical Physics 11, 2580-2588. DOI:10.1063/1.1665427 [journal-article]
+  - Geroch (1970). Multipole Moments. I. Flat Space. Journal of Mathematical Physics 11, 1955-1961. DOI:10.1063/1.1665348 [journal-article]
+
+### BernalSanchez2003
+  requête : Bernal Sanchez On smooth Cauchy hypersurfaces and Geroch's splitting theorem Communications in Mathematical Physics 2003
+  - Bernal, Sánchez (2003). On Smooth Cauchy Hypersurfaces and Geroch’s Splitting Theorem. Communications in Mathematical Physics 243, 461-470. DOI:10.1007/s00220-003-0982-6 [journal-article]
+  - Bernal, Sánchez (2006). Further Results on the Smoothability of Cauchy Hypersurfaces and Cauchy Time Functions. Letters in Mathematical Physics 77, 183-197. DOI:10.1007/s11005-006-0091-5 [journal-article]
+  - Choquet-Bruhat, Geroch (1969). Global aspects of the Cauchy problem in general relativity. Communications in Mathematical Physics 14, 329-335. DOI:10.1007/bf01645389 [journal-article]
+
+### Minguzzi2019
+  requête : Minguzzi Lorentzian causality theory Living Reviews in Relativity 2019
+  - Minguzzi (2019). Lorentzian causality theory. Living Reviews in Relativity 22, . DOI:10.1007/s41114-019-0019-x [journal-article]
+  - Minguzzi (2019). Causality theory for closed cone structures with applications. Reviews in Mathematical Physics 31, 1930001. DOI:10.1142/s0129055x19300012 [journal-article]
+  -  (2025). Basics of Lorentzian causality. Lectures on Mathematical Relativity , 107-122. DOI:10.1017/9781139942300.004 [book-chapter]
+
+### Casimir1948b
+  requête : Casimir On the attraction between two perfectly conducting plates Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen 51 793
+  - Hubrecht, ? (1880). Zur Anatomie und Physiologie des Nervensystems der Nemertinen. Verhandelingen der Koninklijke Akademie van Wetenschappen , . DOI:10.5962/bhl.title.11828 [monograph]
+  -  (1976). Rapport over de huidige stand en toekomstige planning van het wetenschappelijk onderzoek der Nederlandse geschiedenis, samengesteld door de Historisch-Wetenschappelijke Commissie der Koninklijke Akademie van Wetenschappen. Koninklijke Nederlandse Akademie van Wetenschappen, Amsterdam 1974. Nederlands Archief voor Kerkgeschiedenis / Dutch Review of Church History 56, 501. DOI:10.1163/002820376x00372 [journal-article]
+  - Łoś (1958). Dana Scott. Equationally complete extensions of finite algebras. Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings, series A, vol. 59 (1956), pp. 35–38; also <b><i>Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings</i></b>, series A, vol. 18 (1956), pp. 35–38.. Journal of Symbolic Logic 23, 57-57. DOI:10.2307/2964494 [journal-article]
+
+### Thorne1994
+  requête : Thorne Black Holes and Time Warps: Einstein's Outrageous Legacy 1994
+  - Thorne, Braginsky, Ginzburg (1994). <i>Black Holes and Time Warps: Einstein's Outrageous Legacy</i>. Physics Today 47, 85-86. DOI:10.1063/1.2808700 [journal-article]
+  - Harwit, Thorne (1995). Black Holes and Time Warps: Einstein's Outrageous Legacy. Technology and Culture 36, 208. DOI:10.2307/3106368 [journal-article]
+  - Harwit (1995). Black Holes and Time Warps: Einstein’s Outrageous Legacy by Kip S. Thorne. Technology and Culture 36, 208-209. DOI:10.1353/tech.1995.0162 [journal-article]
+
+### LevinOri1996
+  requête : Levin Ori Inner structure of an evaporating charged black hole Physical Review D 1996
+  - Levin, Ori (1996). Inner structure of an evaporating charged black hole with ingoing charged null fluid. Physical Review D 54, 2746-2752. DOI:10.1103/physrevd.54.2746 [journal-article]
+  - Ori (1991). Inner structure of a charged black hole: An exact mass-inflation solution. Physical Review Letters 67, 789-792. DOI:10.1103/physrevlett.67.789 [journal-article]
+  - Zilberman, Ori (2021). Quantum fluxes at the inner horizon of a near-extremal spherical charged black hole. Physical Review D 104, . DOI:10.1103/physrevd.104.024066 [journal-article]
+
+### Hiscock1977
+  requête : Hiscock Stress-energy tensor near a charged, rotating, evaporating black hole Physical Review D 1977
+  - Hiscock (1977). Stress-energy tensor near a charged, rotating, evaporating black hole. Physical Review D 15, 3054-3057. DOI:10.1103/physrevd.15.3054 [journal-article]
+  - Hiscock (1977). Stress-energy tensor for a two-dimensional evaporating black hole. Physical Review D 16, 2673-2674. DOI:10.1103/physrevd.16.2673 [journal-article]
+  - Ishibashi, Maeda, Mefford (2017). Holographic stress-energy tensor near the Cauchy horizon inside a rotating black hole. Physical Review D 96, . DOI:10.1103/physrevd.96.024005 [journal-article]
+
+### HollandsWaldZahn2020
+  requête : Hollands Wald Zahn Quantum instability of the Cauchy horizon in Reissner-Nordstrom-deSitter spacetime Classical and Quantum Gravity 2020
+  - Hollands, Wald, Zahn (2020). Quantum instability of the Cauchy horizon in Reissner–Nordström–deSitter spacetime. Classical and Quantum Gravity 37, 115009. DOI:10.1088/1361-6382/ab8052 [journal-article]
+  - Brady, Poisson (1992). Cauchy horizon instability for Reissner-Nordstrom black holes in de Sitter space. Classical and Quantum Gravity 9, 121-125. DOI:10.1088/0264-9381/9/1/011 [journal-article]
+  - Hollands, Klein, Zahn (2020). Quantum stress tensor at the Cauchy horizon of the Reissner–Nordström–de Sitter spacetime. Physical Review D 102, . DOI:10.1103/physrevd.102.085004 [journal-article]
+
+### Vessot1980
+  requête : Vessot Levine Test of relativistic gravitation with a space-borne hydrogen maser Physical Review Letters 1980
+  - Vessot, Levine, Mattison, Blomberg, Hoffman, Nystrom (1980). Test of Relativistic Gravitation with a Space-Borne Hydrogen Maser. Physical Review Letters 45, 2081-2084. DOI:10.1103/physrevlett.45.2081 [journal-article]
+  - Vessot, Levine (1979). A test of the equivalence principle using a space-borne clock. General Relativity and Gravitation 10, 181-204. DOI:10.1007/bf00759854 [journal-article]
+  - Walsworth, Silvera, Mattison, Vessot (1990). Test of the linearity of quantum mechanics in an atomic system with a hydrogen maser. Physical Review Letters 64, 2599-2602. DOI:10.1103/physrevlett.64.2599 [journal-article]
+
+### Lense1918
+  requête : Lense Thirring Uber den Einfluss der Eigenrotation der Zentralkorper auf die Bewegung der Planeten und Monde nach der Einsteinschen Gravitationstheorie Physikalische Zeitschrift 1918
+  - Kalitzin (1958). Über den Einfluß der Eigenrotation des Zentralkörpers auf die Bewegung der Satelliten nach der Einsteinschen Gravitationstheorie. Il Nuovo Cimento 9, 365-374. DOI:10.1007/bf02725094 [journal-article]
+  - Thirring (1958). Der Einfluß der Eigenrotation der Planeten auf die Bewegung ihrer Trabanten. Physikalische Blätter 14, 212-214. DOI:10.1002/phbl.19580140504 [journal-article]
+  - Freundlich (1916). Das Grundgesetz der Bewegung und das Äquivalenzprinzip der neuen Theorie. Die Grundlagen der Einsteinschen Gravitationstheorie , 30-41. DOI:10.1007/978-3-642-49676-9_5 [book-chapter]
+
+### Emparan2000
+  requête : Emparan Horowitz Myers Black holes radiate mainly on the brane Physical Review Letters 2000
+  - Emparan, Horowitz, Myers (2000). Black Holes Radiate Mainly on the Brane. Physical Review Letters 85, 499-502. DOI:10.1103/physrevlett.85.499 [journal-article]
+  - Emparan (2000). Black holes radiate mainly on the brane. Proceedings of Non-perturbative Quantum Effects 2000 — PoS(tmr2000) , 019. DOI:10.22323/1.006.0019 [proceedings-article]
+  - Cavaglià (2003). Black hole multiplicity at particle colliders (Do black holes radiate mainly on the brane?). Physics Letters B 569, 7-13. DOI:10.1016/j.physletb.2003.06.065 [journal-article]
+
+### Dyson1979
+  requête : Carter Thorne time machine cosmic censorship chronology
+  -  (None). censorship-reports-fiction-fact-and-the-fatwa-a-chronology-of-censorship-june-1992-96-pp. Human Rights Documents online , . DOI:10.1163/2210-7975_hrd-2210-0076 [dataset]
+  -  (1990). Chronology of harassment. Index on Censorship 19, 10-10. DOI:10.1080/03064229008534781 [journal-article]
+  -  (1973). Chronology of Events. Index on Censorship 2, 12-12. DOI:10.1080/03064227308532262 [journal-article]
+
+### FermiPizzocchero2018
+  requête : Fermi Pizzocchero A time machine for free fall into the past Classical and Quantum Gravity 2018
+  - Fermi, Pizzocchero (2018). A time machine for free fall into the past. Classical and Quantum Gravity 35, 165003. DOI:10.1088/1361-6382/aace6e [journal-article]
+  - Krasnikov (1998). A singularity-free WEC-respecting time machine. Classical and Quantum Gravity 15, 997-1003. DOI:10.1088/0264-9381/15/4/020 [journal-article]
+  - Greensite (1996). Field theory as free fall. Classical and Quantum Gravity 13, 1339-1351. DOI:10.1088/0264-9381/13/6/009 [journal-article]
+
+### OriSoen1994
+  requête : Ori Soen Causality violation and the weak energy condition Physical Review D 1994
+  - Ori, Soen (1994). Causality violation and the weak energy condition. Physical Review D 49, 3990-3997. DOI:10.1103/physrevd.49.3990 [journal-article]
+  - Ori, Soen (1994). Erratum: Causality violation and the weak energy condition. Physical Review D 50, 7744-7744. DOI:10.1103/physrevd.50.7744 [journal-article]
+  - Ori (1993). Must time-machine construction violate the weak energy condition?. Physical Review Letters 71, 2517-2520. DOI:10.1103/physrevlett.71.2517 [journal-article]
+
+### Ori2007
+  requête : Ori Formation of closed timelike curves in a composite vacuum/dust asymptotically flat spacetime Physical Review D 2007
+  - Ori (2007). Formation of closed timelike curves in a composite vacuum/dust asymptotically flat spacetime. Physical Review D 76, . DOI:10.1103/physrevd.76.044002 [journal-article]
+  - Ahmed (2021). Type II Vacuum Spacetime Admitting Closed Timelike Curves.  , . DOI:10.20944/preprints202105.0406.v1 [posted-content]
+  - Bhattacharjee (2026). Closed Timelike Curves in ADM Spacetime.  , . DOI:10.20944/preprints202104.0277.v2 [posted-content]
+
+### Ori1993
+  requête : Ori Must time-machine construction violate the weak energy condition? Physical Review Letters 1993
+  - Ori (1993). Must time-machine construction violate the weak energy condition?. Physical Review Letters 71, 2517-2520. DOI:10.1103/physrevlett.71.2517 [journal-article]
+  - Ori, Soen (1994). Causality violation and the weak energy condition. Physical Review D 49, 3990-3997. DOI:10.1103/physrevd.49.3990 [journal-article]
+  - Ori, Soen (1994). Erratum: Causality violation and the weak energy condition. Physical Review D 50, 7744-7744. DOI:10.1103/physrevd.50.7744 [journal-article]
+
+### Hawking1976b
+  requête : Hawking Black holes and thermodynamics Physical Review D 1976
+  - Hawking (1976). Black holes and thermodynamics. Physical Review D 13, 191-197. DOI:10.1103/physrevd.13.191 [journal-article]
+  - Wu, Peng (2011). Thermodynamics and Hawking radiation of five-dimensional rotating charged Gödel black holes. Physical Review D 83, . DOI:10.1103/physrevd.83.044028 [journal-article]
+  - Li, Wang (2021). Hawking radiation, local temperatures, and nonequilibrium thermodynamics of the black holes with non-Killing horizon. Physical Review D 104, . DOI:10.1103/physrevd.104.026011 [journal-article]
+
+### Thorne1974
+  requête : Thorne Disk-accretion onto a black hole. II. Evolution of the hole Astrophysical Journal 1974
+  - Thorne (1974). Disk-Accretion onto a Black Hole. II. Evolution of the Hole. The Astrophysical Journal 191, 507. DOI:10.1086/152991 [journal-article]
+  - Page, Thorne (1974). Disk-Accretion onto a Black Hole. Time-Averaged Structure of Accretion Disk. The Astrophysical Journal 191, 499. DOI:10.1086/152990 [journal-article]
+  - Bailyn (2014). Accretion onto a Black Hole. What Does a Black Hole Look Like? , . DOI:10.23943/princeton/9780691148823.003.0002 [book-chapter]
+
+### Ernst1976
+  requête : Ernst Black holes in a magnetic universe Journal of Mathematical Physics 1976
+  - Ernst (1976). Black holes in a magnetic universe. Journal of Mathematical Physics 17, 54-56. DOI:10.1063/1.522781 [journal-article]
+  - Ernst, Wild (1976). Kerr black holes in a magnetic universe. Journal of Mathematical Physics 17, 182-184. DOI:10.1063/1.522875 [journal-article]
+  -  (2008). The Physics of Black Holes. Gravity, Black Holes, and the Very Early Universe , 81-109. DOI:10.1007/978-0-387-73631-0_6 [book-chapter]
+
+### KinnersleyWalker1970
+  requête : Kinnersley Walker Uniformly accelerating charged mass in general relativity Physical Review D 1970
+  - Kinnersley, Walker (1970). Uniformly Accelerating Charged Mass in General Relativity. Physical Review D 2, 1359-1370. DOI:10.1103/physrevd.2.1359 [journal-article]
+  -  (2008). Interpretation of Physical Quantities in General Relativity. Uniformly Accelerating Charged Particles , 255-288. DOI:10.1007/978-3-540-68477-0_16 [book-chapter]
+  -  (2008). Different Predictions of Special Relativity and General Relativity. Uniformly Accelerating Charged Particles , 89-92. DOI:10.1007/978-3-540-68477-0_10 [book-chapter]
+
+### Planck2013XXV
+  requête : Planck Collaboration Planck 2013 results. XXV. Searches for cosmic strings and other topological defects Astronomy and Astrophysics 2014
+  - Tauber, ? (2018). Highlights of Planck results. Proceedings of XII Multifrequency Behaviour of High Energy Cosmic Sources Workshop — PoS(MULTIF2017) , 017. DOI:10.22323/1.306.0017 [proceedings-article]
+  -  (None). Planck Surveyor. The Encyclopedia of Astronomy and Astrophysics , . DOI:10.1888/0333750888/4735 [book-chapter]
+  - ? (2016). Planck 2015 cosmological results. AIP Conference Proceedings 1743, 050014. DOI:10.1063/1.4953315 [proceedings-article]
+
+### CMS2018b
+  requête : Search for black holes and sphalerons in high-multiplicity final states in proton-proton collisions at sqrt(s) = 13 TeV JHEP 2018
+  - Kotliarov, ? (2021). Search for jet quenching effects in high-multiplicity proton-proton collisions at $sqrt{s} = 13~rm{TeV}$. Proceedings of The Ninth Annual Conference on Large Hadron Collider Physics — PoS(LHCP2021) , 183. DOI:10.22323/1.397.0183 [proceedings-article]
+  - Hu (None). Search for standard model production of four top quarks with same-sign di-lepton and multi-lepton final states in proton-proton collisions at sqrt(s) = 13 TeV recorded with the ATLAS detector.  , . DOI:10.70675/57373fa9z850dz4446z9e39z40ff282144b4 [dissertation]
+  - ?, Demiragli, ? (2015). Search for new physics in final states with low transverse energy photon and missing transverse energy in proton-proton collisions at $\sqrt{s} = 8$ TeV.  , . DOI:10.2172/1182548 [report]
+
+### Misner1967
+  requête : Misner Taub-NUT space as a counterexample to almost anything
+  -  (2020). L’espace-temps Taub-NUT-Misner. Le temps en images , 106-106. DOI:10.1051/978-2-7598-1694-1.c061 [book-chapter]
+  -  (2020). L’espace-temps Taub-NUT-Misner. Le temps en images , 106-106. DOI:10.1051/978-2-7598-1228-8.c061 [book-chapter]
+  - Awad, Eissa (2022). Lorentzian Taub-NUT spacetimes: Misner string charges and the first law. Physical Review D 105, . DOI:10.1103/physrevd.105.124034 [journal-article]
+
+### Christodoulou1970
+  requête : Christodoulou Reversible and irreversible transformations in black-hole physics Physical Review Letters 1970
+  - Christodoulou (1970). Reversible and Irreversible Transformations in Black-Hole Physics. Physical Review Letters 25, 1596-1597. DOI:10.1103/physrevlett.25.1596 [journal-article]
+  - Christodoulou, Ruffini (1971). Reversible Transformations of a Charged Black Hole. Physical Review D 4, 3552-3555. DOI:10.1103/physrevd.4.3552 [journal-article]
+  - Christodoulou, Rovelli (2015). How big is a black hole?. Physical Review D 91, . DOI:10.1103/physrevd.91.064046 [journal-article]
+
+### PoissonIsrael1989
+  requête : Poisson Israel Inner-horizon instability and mass inflation in black holes Physical Review Letters 1989
+  - Poisson, Israel (1989). Inner-horizon instability and mass inflation in black holes. Physical Review Letters 63, 1663-1666. DOI:10.1103/physrevlett.63.1663 [journal-article]
+  - Ghosh, Nandy (2025). Nonlinear dynamics of the inner horizon in Reissner-Nordström black holes: insights into mass inflation. The European Physical Journal Plus 140, . DOI:10.1140/epjp/s13360-025-06620-6 [journal-article]
+  - Eichhorn, Fernandes (2026). Regular black holes without mass-inflation instability and gravastars from modified gravity. Physical Review D 113, . DOI:10.1103/nqz2-88zf [journal-article]
+
+### CarrollFarhiGuthOlum1994
+  requête : Carroll Farhi Guth Olum Energy-momentum restrictions on the creation of Gott time machines Physical Review D 1994
+  - Carroll, Farhi, Guth, Olum (1994). Energy-momentum restrictions on the creation of Gott time machines. Physical Review D 50, 6190-6206. DOI:10.1103/physrevd.50.6190 [journal-article]
+  - Carroll, Farhi, Guth (1992). An Obstacle to Building a Time Machine. Physical Review Letters 68, 3368-3368. DOI:10.1103/physrevlett.68.3368 [journal-article]
+  - Carroll, Farhi, Guth (1992). An obstacle to building a time machine. Physical Review Letters 68, 263-266. DOI:10.1103/physrevlett.68.263 [journal-article]
+
+### Ori1999
+  requête : Ori Oscillatory null singularity inside realistic spinning black holes Physical Review Letters 1999
+  - Ori (1999). Oscillatory Null Singularity inside Realistic Spinning Black Holes. Physical Review Letters 83, 5423-5426. DOI:10.1103/physrevlett.83.5423 [journal-article]
+  - Burko, Khanna (2019). Marolf-Ori singularity inside fast spinning black holes. Physical Review D 99, . DOI:10.1103/physrevd.99.081501 [journal-article]
+  - Ori (1992). Structure of the singularity inside a realistic rotating black hole. Physical Review Letters 68, 2117-2120. DOI:10.1103/physrevlett.68.2117 [journal-article]
+
+### Visser1993
+  requête : Visser From wormhole to time machine: remarks on Hawking's chronology protection conjecture Physical Review D 1993
+  - Visser (1993). From wormhole to time machine: Remarks on Hawking’s chronology protection conjecture. Physical Review D 47, 554-565. DOI:10.1103/physrevd.47.554 [journal-article]
+  - Hawking (1992). Chronology protection conjecture. Physical Review D 46, 603-611. DOI:10.1103/physrevd.46.603 [journal-article]
+  - Hawking (1993). Chronology protection conjecture. Advanced Series in Astrophysics and Cosmology , 304-312. DOI:10.1142/9789812384935_0022 [book-chapter]
+
+### Schwarzschild1916
+  requête : Schwarzschild Uber das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie 1916
+  - Schwarzschild (1992). Über das Gravitationsfeld eines Massenpunktes nach der EINSTEINschen Theorie. Gesammelte Werke/Collected Works , 449-456. DOI:10.1007/978-3-642-58084-0_21 [book-chapter]
+  - Schwarzschild (1992). Über das Gravitationsfeld einer Kugel aus inkompressibler Flüssigkeit nach der EINSTEINschen Theorie. Gesammelte Werke/Collected Works , 457-467. DOI:10.1007/978-3-642-58084-0_22 [book-chapter]
+  - Freundlich (1916). Das Grundgesetz der Bewegung und das Äquivalenzprinzip der neuen Theorie. Die Grundlagen der Einsteinschen Gravitationstheorie , 30-41. DOI:10.1007/978-3-642-49676-9_5 [book-chapter]
+
+### NANOGrav2023
+  requête : NANOGrav 15 yr data set: search for signals from new physics Astrophysical Journal Letters 2023
+  - Jiang, Piao (2025). Search for the non-linearities of gravitational wave background in NANOGrav 15-year data set. Physics Letters B 862, 139284. DOI:10.1016/j.physletb.2025.139284 [journal-article]
+  - Kino, Nagashima, Ro, Cui, Hada, Park (2025). Constraining the Mass of a Hypothetical Secondary Black Hole in M87 with the NANOGrav 15 yr Data Set. The Astrophysical Journal 986, 49. DOI:10.3847/1538-4357/adceb6 [journal-article]
+  - Gelmini, Hyman (2024). Catastrogenesis with unstable ALPs as the origin of the NANOGrav 15 yr gravitational wave signal. Physics Letters B 848, 138356. DOI:10.1016/j.physletb.2023.138356 [journal-article]
+
+### Lewis1932
+  requête : Lewis Some special solutions of the equations of axially symmetric gravitational fields Proceedings of the Royal Society A 1932
+  - Lewis (1932). Some special solutions of the equations of axially symmetric gravitational fields. Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character 136, 176-192. DOI:10.1098/rspa.1932.0073 [journal-article]
+  - Gürses (1977). Some solutions of stationary, axially-symmetric gravitational field equations. Journal of Mathematical Physics 18, 2356-2359. DOI:10.1063/1.523219 [journal-article]
+  - Cimatti (2017). Remark on the equations of axially symmetric gravitational fields. Rendiconti del Seminario Matematico della Università di Padova 138, 91-100. DOI:10.4171/rsmup/138-4 [journal-article]
+
+### Thorne1972hoop
+  requête : Thorne Nonspherical gravitational collapse: a short review Magic Without Magic 1972
+  - Price (1972). Nonspherical Perturbations of Relativistic Gravitational Collapse. I. Scalar and Gravitational Perturbations. Physical Review D 5, 2419-2438. DOI:10.1103/physrevd.5.2419 [journal-article]
+  - Price (1972). Nonspherical Perturbations of Relativistic Gravitational Collapse. II. Integer-Spin, Zero-Rest-Mass Fields. Physical Review D 5, 2439-2454. DOI:10.1103/physrevd.5.2439 [journal-article]
+  - Gundlach (2002). Critical gravitational collapse of a perfect fluid: Nonspherical perturbations. Physical Review D 65, . DOI:10.1103/physrevd.65.084021 [journal-article]
+
+### Lindblom1984
+  requête : Lindblom Limits on the gravitational redshift from neutron stars Astrophysical Journal 1984
+  - Lindblom (1984). Limits on the gravitational redshift form neutron stars. The Astrophysical Journal 278, 364. DOI:10.1086/161800 [journal-article]
+  - Wagoner (1984). Gravitational radiation from accreting neutron stars. The Astrophysical Journal 278, 345. DOI:10.1086/161798 [journal-article]
+  - Jakab, Morsink (2025). Gravitational Redshift for Rapidly Rotating Neutron Stars. The Astrophysical Journal 994, 163. DOI:10.3847/1538-4357/ae0e54 [journal-article]
+
+### Israel1966
+  requête : Israel Singular hypersurfaces and thin shells in general relativity Il Nuovo Cimento B 1966
+  - Israel (1966). Singular hypersurfaces and thin shells in general relativity. Il Nuovo Cimento B Series 10 44, 1-14. DOI:10.1007/bf02710419 [journal-article]
+  - Israel (1967). Singular hypersurfaces and thin shells in general relativity. Il Nuovo Cimento B Series 10 48, 463-463. DOI:10.1007/bf02712210 [journal-article]
+  - Israel (1960). Evolution in general relativity. Il Nuovo Cimento 18, 397-399. DOI:10.1007/bf02725949 [journal-article]
+
+### Tolman1930
+  requête : Tolman On the weight of heat and thermal equilibrium in general relativity Physical Review 1930
+  - Tolman (1930). On the Weight of Heat and Thermal Equilibrium in General Relativity. Physical Review 35, 904-924. DOI:10.1103/physrev.35.904 [journal-article]
+  - Tolman (1930). On the Use of the Entropy Principle in General Relativity. Physical Review 35, 896-903. DOI:10.1103/physrev.35.896 [journal-article]
+  - Tolman (1930). On the Use of the Energy-Momentum Principle in General Relativity. Physical Review 35, 875-895. DOI:10.1103/physrev.35.875 [journal-article]
+
+### TolmanEhrenfest1930
+  requête : Tolman Ehrenfest Temperature equilibrium in a static gravitational field Physical Review 1930
+  - Tolman, Ehrenfest (1930). Temperature Equilibrium in a Static Gravitational Field. Physical Review 36, 1791-1798. DOI:10.1103/physrev.36.1791 [journal-article]
+  - Tolman, Ehrenfest, Podolsky (1931). On the Gravitational Field Produced by Light. Physical Review 37, 602-615. DOI:10.1103/physrev.37.602 [journal-article]
+  - Buchdahl (1949). Temperature Equilibrium in a Stationary Gravitational Field. Physical Review 76, 427-428. DOI:10.1103/physrev.76.427.2 [journal-article]
+
+### Nordstrom1918
+  requête : Nordstrom On the energy of the gravitation field in Einstein's theory 1918
+  -  (2025). 26. Unified Field Theory of Gravitation and Electricity (1925). The Essential Einstein: Scientific Writings , 369-376. DOI:10.1515/9780691272184-027 [book-chapter]
+  -  (2025). Unified Field Theory of Gravitation and Electricity (1925). The Essential Einstein: Scientific Writings , 369-376. DOI:10.2307/jj.27710910.29 [book-chapter]
+  - Tiwari (1996). A Theory of Gravitation Without the Einstein Field Equation. Physics Essays 9, 216-222. DOI:10.4006/1.3029229 [journal-article]
+
+### Starobinsky1973
+  requête : Starobinskii Amplification of waves during reflection from a rotating black hole 1973
+  - Tagoshi, Mano, Takasugi (1999). Post-Newtonian Expansion of Gravitational Waves from a Particle in Circular Orbits around a Rotating Black Hole: Effects of Black Hole Absorption. Symposium - International Astronomical Union 183, 163-163. DOI:10.1017/s0074180900132437 [journal-article]
+  - Maciołek-Niedźwiecki, Magdziarz (1998). Compton Reflection in the Vicinity of a Rotating Black Hole. The Hot Universe , 409-410. DOI:10.1007/978-94-011-4970-9_146 [book-chapter]
+  - Tagoshi, Mano, Takasugi (1997). Post-Newtonian Expansion of Gravitational Waves from a Particle in Circular Orbits around a Rotating Black Hole: Effects of Black Hole Absorption. Progress of Theoretical Physics 98, 829-850. DOI:10.1143/ptp.98.829 [journal-article]
+
+### Penrose1968
+  requête : Penrose Structure of space-time Battelle Rencontres 1968
+  - ?, ? (1968). SPACE NUCLEAR SYSTEMS STUDIES..  , . DOI:10.2172/4567895 [report]
+  - PENROSE (2005). THE TWISTOR APPROACH TO SPACE-TIME STRUCTURES. 100 Years of Relativity , 465-505. DOI:10.1142/9789812700988_0017 [book-chapter]
+  - Penrose (2010). CHAPTER Two. Structure of Spacetime Singularities. The Nature of Space and Time , 27-36. DOI:10.1515/9781400834747-004 [book-chapter]
+
+### Hiscock1981
+  requête : Hiscock Evolution of the interior of a charged black hole Physics Letters A 1981
+  - Hiscock (1981). Evolution of the interior of a charged black hole. Physics Letters A 83, 110-112. DOI:10.1016/0375-9601(81)90508-9 [journal-article]
+  - Zhang (2025). Evolution of interior entropy of a loop quantum-corrected black hole pierced by a cosmic string. Physics Letters B 861, 139237. DOI:10.1016/j.physletb.2024.139237 [journal-article]
+  - Mondal, Debnath (2024). Interior volume of power-Maxwell charged black hole in Rastall gravity. Modern Physics Letters A 39, . DOI:10.1142/s0217732323501821 [journal-article]
+
+### Poisson2004
+  requête : Poisson A Relativist's Toolkit: The Mathematics of Black-Hole Mechanics Cambridge University Press 2004
+  - Poisson (2004). A Relativist&amp;#39;s Toolkit.  , . DOI:10.1017/cbo9780511606601 [monograph]
+  - Poisson (None). Hypersurfaces. A Relativist&amp;#39;s Toolkit , 59-117. DOI:10.1017/cbo9780511606601.005 [book-chapter]
+  - Poisson (None). Fundamentals. A Relativist&amp;#39;s Toolkit , 1-27. DOI:10.1017/cbo9780511606601.003 [book-chapter]
+
+### ONeill1995
+  requête : O'Neill The Geometry of Kerr Black Holes 1995
+  - Cody (2025). Withdrawn: Rotating Black Holes: Continuum Failure Surfaces in Kerr Geometry.  , . DOI:10.20944/preprints202512.1076.v1 [posted-content]
+  - Chandrasekhar (1998). Spin -½Particles In Kerr Geometry. The Mathematical Theory of Black Holes , 531-562. DOI:10.1093/oso/9780198503705.003.0011 [book-chapter]
+  - Chandrasekhar (1998). Electromagnetic Waves in Kerr Geometry. The Mathematical Theory of Black Holes , 382-429. DOI:10.1093/oso/9780198503705.003.0009 [book-chapter]
+
+### Visser2007Kerr
+  requête : Visser The Kerr spacetime: a brief introduction 2007
+  - Simpson, Visser (2022). Astrophysically viable Kerr-like spacetime. Physical Review D 105, . DOI:10.1103/physrevd.105.064065 [journal-article]
+  - Visser, Liberati (2022). Painlevé–Gullstrand coordinates versus Kerr spacetime geometry. General Relativity and Gravitation 54, . DOI:10.1007/s10714-022-03025-z [journal-article]
+  - Baines, Visser (2022). Physically motivated ansatz for the Kerr spacetime. Classical and Quantum Gravity 39, 235004. DOI:10.1088/1361-6382/ac9bc5 [journal-article]
+

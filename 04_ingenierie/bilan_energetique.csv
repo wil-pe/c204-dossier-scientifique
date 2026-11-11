@@ -1,0 +1,25 @@
+sous_systeme,poste,puissance_W,energie_J,energie_kWh,rapport_a_batterie_Li_ion_50kg_27MJ,ordres_de_grandeur_au_dessus_de_la_batterie,source_d_energie_revendiquee,statut,remarque
+6-7 commande,"4 horloges miniatures CSAC (0,12 W chacune)",0.48,1.04e+04,0.00288,0.000384,-3.4,batterie,compatible batterie,Microchip SA.45s
+6-7 commande,4 étalons à jet de césium type 5071A (50 W chacun),200,4.32e+06,1.2,0.16,-0.8,batterie,compatible batterie,"120 kg et 0,12 m3 à eux quatre"
+6-7 commande,3 calculateurs embarqués + bus + voteur (3 x 30 W) [HYP],90,1.94e+06,0.54,0.072,-1.1,batterie,compatible batterie,
+6 capteurs,"gravimètre relatif type CG-6 (5,2 W)",5.2,1.12e+05,0.0312,0.00416,-2.4,batterie,compatible batterie,
+6 capteurs,gravimètre absolu quantique type AQG-B (500 W),500,1.08e+07,3,0.4,-0.4,batterie,compatible batterie,< 140 kg : ne tient pas dans le budget de masse
+2 injection,canon à électrons 100 kV x 1 mA,100,2.16e+06,0.6,0.08,-1.1,batterie,compatible batterie,
+7 commande,"télécommande, écrans, capteurs divers [HYP]",30,6.48e+05,0.18,0.024,-1.6,batterie,compatible batterie,
+TOTAL auxiliaires,"électronique et instruments, hypothèse basse",226,4.87e+06,1.35,0.181,-0.7,batterie,compatible batterie,
+TOTAL auxiliaires,"électronique et instruments, hypothèse haute",920,1.99e+07,5.52,0.736,-0.1,batterie,compatible batterie,"5,5 kWh sur 6 h : tient dans 50 kg de Li-ion"
+1 confinement,cryoréfrigérateur d'un aimant supraconducteur compact (~7 kW) [HYP],7e+03,1.51e+08,42,5.6,+0.7,batterie,hors batterie sur 6 h,42 kWh sur 6 h
+1 confinement,"aimant hybride 45 T (30-33 MW, valeur MagLab)",3.3e+07,7.13e+11,1.98e+05,2.64e+04,+4.4,réseau électrique,impossible sur batterie,"pour 45 T seulement, soit 1e-10 du champ requis"
+1 confinement,"énergie magnétique d'un champ de 5,1e11 T dans 1 litre",,1.05e+26,2.92e+19,3.89e+18,+18.6,(non précisée),impossible,champ exigé par un piège de Penning pour un trou noir de charge extrémale
+4 refroidissement,"pompe de circulation, eau ΔT = 50 K, 353 MW thermiques",2.27e+06,4.91e+10,1.36e+04,1.82e+03,+3.3,batterie,impossible sur batterie,débit 1688 kg/s
+4 refroidissement,"chaleur à évacuer, 2 singularités de 400 MW (dépôt γ + e±)",3.53e+08,7.63e+12,2.12e+06,2.83e+05,+5.5,singularités,"impossible dans 0,13 m3",
+4 rayonnement,énergie rayonnée par 2 singularités de 400 MW pendant 6 h,8e+08,1.73e+13,4.8e+06,6.4e+05,+5.8,singularités,—,prélevée sur leur masse : 0.192 g
+0 fabrication,"énergie de masse à fournir, scénario A : 2 x 4,4e12 kg (400 MW au total chacune)",,7.87e+29,2.19e+23,2.92e+22,+22.5,accélérateur (« CERN »),impossible,rendement supposé de 100 %
+0 fabrication,"énergie de masse à fournir, 2 x 1,47e11 kg (2 g à 1 m à elles deux)",,2.64e+28,7.34e+21,9.78e+20,+21.0,accélérateur (« CERN »),impossible,rendement supposé de 100 %
+0 fabrication,"énergie de masse à fournir, 2 x 100 kg (compatible avec les 227 kg)",,1.8e+19,4.99e+12,6.66e+11,+11.8,accélérateur (« CERN »),impossible,rendement supposé de 100 %
+0 fabrication,puissance d'évaporation d'un trou noir de 100 kg (à compenser en continu),7.54e+30,7.54e+30,2.09e+24,2.79e+23,+23.4,—,impossible,énergie indiquée pour 1 s ; durée de vie réelle 4e-13 s
+2 injection,"ajouter 1 % de masse à 4,4e12 kg",,3.94e+27,1.09e+21,1.46e+20,+20.2,batterie,impossible,
+2 injection,"charger 4,4e12 kg jusqu'à l'extrémal (≈ ½ M c²)",,1.97e+29,5.47e+22,7.29e+21,+21.9,batterie,impossible,et la charge ne tient pas (décharge en ~1e-19 s)
+3 rotation,"mettre 4,4e12 kg en rotation maximale (≈ 0,19 à 0,29 M c²)",,7.58e+28,2.1e+22,2.81e+21,+21.4,(non précisée),impossible,
+9 Q4,énergie électromagnétique donnant 2 g à 1 m par son seul contenu en énergie,,2.64e+28,7.34e+21,9.78e+20,+21.0,—,impossible,"équivaut à 2,94e11 kg"
+déplacement,"énergie cinétique d'un véhicule de 2500 kg à γ = 87 660 (dilatation équivalente, vers le futur seulement)",,1.97e+25,5.47e+18,7.29e+17,+17.9,—,"théoriquement défini, hors de portée",aucune énergie n'est définie pour un trajet vers le passé

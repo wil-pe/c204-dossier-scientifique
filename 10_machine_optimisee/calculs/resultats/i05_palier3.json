@@ -1,0 +1,328 @@
+{
+ "a1_vitesse": [
+  {
+   "nom": "Station spatiale (7,66 km/s ; cinématique seule)",
+   "gamma": 1.0000000003265372,
+   "D_s_par_h": 1.1755340700858596e-06,
+   "E_227kg_J": 6661928740.349178,
+   "nature": "objet habité",
+   "statut": "Démontré",
+   "note": ""
+  },
+  {
+   "nom": "Muons en anneau de stockage, p = 3,094 GeV/c (CERN 1977 ; BNL ; Fermilab)",
+   "gamma": 29.300124547609936,
+   "D_s_par_h": 101880.44837139577,
+   "E_227kg_J": 5.7737185536059304e+20,
+   "nature": "particules",
+   "statut": "Démontré",
+   "note": "durée de vie au laboratoire 64.37 µs contre 2.197 µs au repos"
+  },
+  {
+   "nom": "Protons du LHC à 6,8 TeV",
+   "gamma": 7247.364678758587,
+   "D_s_par_h": 26086912.843530912,
+   "E_227kg_J": 1.4783846665253125e+23,
+   "nature": "particules",
+   "statut": "Démontré",
+   "note": ""
+  },
+  {
+   "nom": "Électrons du LEP à 45,6 GeV (≈ le facteur revendiqué)",
+   "gamma": 89236.97384980241,
+   "D_s_par_h": 321249505.8592887,
+   "E_227kg_J": 1.8205693653359222e+24,
+   "nature": "particules",
+   "statut": "Démontré",
+   "note": ""
+  },
+  {
+   "nom": "Électrons du LEP à 104,5 GeV",
+   "gamma": 204501.39840579717,
+   "D_s_par_h": 736201434.2608699,
+   "E_227kg_J": 4.172164481145625e+24,
+   "nature": "particules",
+   "statut": "Démontré",
+   "note": ""
+  },
+  {
+   "nom": "Vaisseau à 0.10 c",
+   "gamma": 1.005037815259212,
+   "D_s_par_h": 18.13613493316355,
+   "E_227kg_J": 1.0278020996981254e+17,
+   "nature": "objet macroscopique",
+   "statut": "Théoriquement possible",
+   "note": ""
+  },
+  {
+   "nom": "Vaisseau à 0.50 c",
+   "gamma": 1.1547005383792517,
+   "D_s_par_h": 556.9219381653061,
+   "E_227kg_J": 3.156160557493186e+18,
+   "nature": "objet macroscopique",
+   "statut": "Théoriquement possible",
+   "note": ""
+  },
+  {
+   "nom": "Vaisseau à 0.90 c",
+   "gamma": 2.294157338705618,
+   "D_s_par_h": 4658.966419340225,
+   "E_227kg_J": 2.6403064852945854e+19,
+   "nature": "objet macroscopique",
+   "statut": "Théoriquement possible",
+   "note": ""
+  },
+  {
+   "nom": "Vaisseau à 0.99 c",
+   "gamma": 7.088812050083354,
+   "D_s_par_h": 21919.723380300074,
+   "E_227kg_J": 1.2422237592574347e+20,
+   "nature": "objet macroscopique",
+   "statut": "Théoriquement possible",
+   "note": ""
+  },
+  {
+   "nom": "« 10 ans par heure » (Γ revendiqué)",
+   "gamma": 87660.0,
+   "D_s_par_h": 315572400.0,
+   "E_227kg_J": 1.7883963508326187e+24,
+   "nature": "objet macroscopique",
+   "statut": "Théoriquement possible (vers le futur seulement)",
+   "note": ""
+  }
+ ],
+ "anneau_muons": {
+  "gamma": 29.300124547609936,
+  "tau_labo_us": 64.37181985874507,
+  "rayon_m": 7.1111921073732685,
+  "B_T": 1.4513,
+  "acceleration_propre_g": 1.1051241755994619e+18,
+  "note": "γ, durée de vie dilatée et rayon recalculés à partir de p = 3,094 GeV/c et B = 1,4513 T (valeurs usuelles de l'expérience, de mémoire)"
+ },
+ "rendement": {
+  "formule": "Δt_gagné / E_cinétique = τ / (m c²), indépendant de γ",
+  "unite_227kg_1h_s_par_J": 1.7645551549749016e-16,
+  "muon_s_par_J": 129781.26350304137,
+  "1 seconde par heure": {
+   "E_J": 5667150710368267.0,
+   "Mt_TNT": 1.3544815273346718,
+   "annees_energie_mondiale": 9.140565661884302e-06
+  },
+  "1 heure par heure (γ = 2)": {
+   "E_J": 2.040174255732576e+19,
+   "Mt_TNT": 4876.133498404818,
+   "annees_energie_mondiale": 0.03290603638278348
+  },
+  "1 jour par heure (γ = 25)": {
+   "E_J": 4.8964182137581824e+20,
+   "Mt_TNT": 117027.20396171564,
+   "annees_energie_mondiale": 0.7897448731868036
+  },
+  "10 ans par heure (γ = 87 661)": {
+   "E_J": 1.788416752575176e+24,
+   "Mt_TNT": 427441862.4701664,
+   "annees_energie_mondiale": 2884.5431493148003
+  }
+ },
+ "temps_propre_pour_gamma_revendique_a_1g_ans": 11.696622507571783,
+ "temps_propre_pour_gamma_revendique_a_2g_ans": 5.848311253785892,
+ "rapport_de_masse_fusee_photonique": {
+  "aller": 175319.99999429614,
+  "aller_et_arret": 30737102398.0
+ },
+ "rayon_anneau_habite_1g_gamma_29_al": 831.6392788343062,
+ "rayon_anneau_habite_1g_gamma_87660_al": 7443873649.309398,
+ "spin_pour_gamma_revendique_a_l_ISCO": {
+  "un_moins_a": 4.571101136221679e-15,
+  "log10": -14.339979169781094
+ },
+ "statique_gamma_revendique": {
+  "Sgr A* (4,3×10⁶ M☉)": {
+   "r_s_m": 12699359342.887577,
+   "altitude_au_dessus_horizon_m": 1.6526423576661173,
+   "acceleration_propre_g": 31630815473.116272
+  },
+  "trou noir de 10 M☉": {
+   "r_s_m": 29533.393820668785,
+   "altitude_au_dessus_horizon_m": 3.843354320153762e-06,
+   "acceleration_propre_g": 1.3601250653439998e+16
+  }
+ },
+ "maree_ISCO_a0.998": {
+  "Sgr A* (4,3×10⁶ M☉)": {
+   "r_g_m": 6349679671.443789,
+   "maree_sur_2m_g": 0.000480395463629525,
+   "periode_orbitale_s": 315.8971536615009
+  },
+  "trou noir de 10 M☉": {
+   "r_g_m": 14766.696910334393,
+   "maree_sur_2m_g": 88825121.22509916,
+   "periode_orbitale_s": 0.0007346445433988394
+  }
+ },
+ "rendement_gravite_vs_vitesse_a0.998": {
+  "Gamma": 10.790942834217496,
+  "energie_liaison": 0.32099416561619887,
+  "avantage": 30.501933938338844,
+  "cout_retour_227kg_J": 6.548840329305277e+18
+ },
+ "a2_gravite": [
+  {
+   "nom": "Centre de la Terre contre surface (densité uniforme : ½·g·R/c²)",
+   "Gamma": 1.0000000003475817,
+   "D_s_par_h": 1.2512942682008088e-06,
+   "statut": "Démontré (principe)",
+   "cout_retour_fraction_mc2": null,
+   "note": ""
+  },
+  {
+   "nom": "Surface du Soleil contre l'infini",
+   "Gamma": 1.0000021225735125,
+   "D_s_par_h": 0.0076412646450307875,
+   "statut": "Démontré",
+   "cout_retour_fraction_mc2": null,
+   "note": ""
+  },
+  {
+   "nom": "Surface d'une naine blanche (0,6 M☉ ; 8 900 km) [valeurs typiques]",
+   "Gamma": 1.0000995656336868,
+   "D_s_par_h": 0.35843628127265603,
+   "statut": "Démontré (spectroscopie)",
+   "cout_retour_fraction_mc2": null,
+   "note": ""
+  },
+  {
+   "nom": "Surface d'une étoile à neutrons (1,4 M☉ ; 12 km) [valeurs typiques]",
+   "Gamma": 1.235185800463976,
+   "D_s_par_h": 846.6688816703135,
+   "statut": "Théoriquement possible",
+   "cout_retour_fraction_mc2": 0.19040520088203128,
+   "note": "pesanteur locale ~10¹¹ g : aucun équipage"
+  },
+  {
+   "nom": "Dernière orbite stable, trou noir de Kerr a/M = 0 (r = 6.000 GM/c²)",
+   "Gamma": 1.4142135623730951,
+   "D_s_par_h": 1491.1688245431421,
+   "statut": "Théoriquement possible",
+   "cout_retour_fraction_mc2": 0.05719095841793664,
+   "note": "chute libre : aucune pesanteur ressentie ; énergie de liaison 5.7 % de m·c²"
+  },
+  {
+   "nom": "Dernière orbite stable, trou noir de Kerr a/M = 0.5 (r = 4.233 GM/c²)",
+   "Gamma": 1.659297905141926,
+   "D_s_par_h": 2373.4724585109343,
+   "statut": "Théoriquement possible",
+   "cout_retour_fraction_mc2": 0.08211799333922426,
+   "note": "chute libre : aucune pesanteur ressentie ; énergie de liaison 8.2 % de m·c²"
+  },
+  {
+   "nom": "Dernière orbite stable, trou noir de Kerr a/M = 0.9 (r = 2.321 GM/c²)",
+   "Gamma": 2.6963775519113082,
+   "D_s_par_h": 6106.95918688071,
+   "statut": "Théoriquement possible",
+   "cout_retour_fraction_mc2": 0.15575299199446402,
+   "note": "chute libre : aucune pesanteur ressentie ; énergie de liaison 15.6 % de m·c²"
+  },
+  {
+   "nom": "Dernière orbite stable, trou noir de Kerr a/M = 0.99 (r = 1.454 GM/c²)",
+   "Gamma": 6.081170269094727,
+   "D_s_par_h": 18292.21296874102,
+   "statut": "Théoriquement possible",
+   "cout_retour_fraction_mc2": 0.2640301001162649,
+   "note": "chute libre : aucune pesanteur ressentie ; énergie de liaison 26.4 % de m·c²"
+  },
+  {
+   "nom": "Dernière orbite stable, trou noir de Kerr a/M = 0.998 (r = 1.237 GM/c²)",
+   "Gamma": 10.790942834217496,
+   "D_s_par_h": 35247.39420318299,
+   "statut": "Théoriquement possible (limite de Thorne des trous noirs accrétants)",
+   "cout_retour_fraction_mc2": 0.32099416561619887,
+   "note": "chute libre : aucune pesanteur ressentie ; énergie de liaison 32.1 % de m·c²"
+  },
+  {
+   "nom": "Dernière orbite stable, trou noir de Kerr a/M = 0.9999 (r = 1.079 GM/c²)",
+   "Gamma": 30.51600289315737,
+   "D_s_par_h": 106257.61041536654,
+   "statut": "Théoriquement possible",
+   "cout_retour_fraction_mc2": 0.3820415314851092,
+   "note": "chute libre : aucune pesanteur ressentie ; énergie de liaison 38.2 % de m·c²"
+  }
+ ],
+ "b_trou_noir": {
+  "M=1e+09kg": {
+   "puissance_W": 6.1e+16,
+   "duree_de_vie": "15 ans",
+   "r_s_m": 1.5e-18,
+   "poussee_max_N": 203474098.07087275,
+   "acceleration_propre_m_s2": 0.20347409807087274,
+   "energie_de_fabrication_J": 8.987551787368176e+25,
+   "annees_energie_mondiale": 144960.51269948672,
+   "debit_d_entretien_kg_s": 0.6787165341927073,
+   "poids_N": 9806650000.0
+  },
+  "M=1e+12kg": {
+   "puissance_W": 7700000000.0,
+   "duree_de_vie": "1,2×10¹¹ ans",
+   "r_s_m": 1.5e-15,
+   "poussee_max_N": 25.684435330257706,
+   "acceleration_propre_m_s2": 2.5684435330257705e-11,
+   "energie_de_fabrication_J": 8.987551787368177e+28,
+   "annees_energie_mondiale": 144960512.69948673,
+   "debit_d_entretien_kg_s": 8.567405431612862e-08,
+   "poids_N": 9806650000000.0
+  },
+  "M=4e+12kg": {
+   "puissance_W": 480000000.0,
+   "duree_de_vie": "7,9×10¹² ans",
+   "r_s_m": 5.9e-15,
+   "poussee_max_N": 1.6011076569511298,
+   "acceleration_propre_m_s2": 4.0027691423778244e-13,
+   "energie_de_fabrication_J": 3.595020714947271e+29,
+   "annees_energie_mondiale": 579842050.7979469,
+   "debit_d_entretien_kg_s": 5.3407202690573684e-09,
+   "poids_N": 39226600000000.0
+  },
+  "gamma_final": {
+   "eta=1.0,R=11": 5.545454545454546,
+   "eta=1.0,R=101": 50.50495049504951,
+   "eta=1.0,R=1001": 500.5004995004994,
+   "eta=0.44,R=11": 1.6101770740517942,
+   "eta=0.44,R=101": 3.8751549865867947,
+   "eta=0.44,R=1001": 10.474996801749914,
+   "eta=0.1,R=11": 1.0288875287034565,
+   "eta=0.1,R=101": 1.1084004158873504,
+   "eta=0.1,R=1001": 1.2482994469601614,
+   "R_pour_gamma_revendique_eta1": 175319.99999429614,
+   "R_pour_gamma_revendique_eta0.44": 827558639956.1968
+  }
+ },
+ "c_trou_de_ver": {
+  "coffre seul (diagonale 0,93 m)": {
+   "rayon_gorge_m": 0.47,
+   "masse_exotique_kg": -3.164488665525256e+26,
+   "masse_exotique_Jupiter": -0.16672753769890705,
+   "tension_Pa": 2.179924801594578e+43,
+   "duree_max_inegalite_quantique_s": 6.4263003221816276e-27,
+   "ecartement_Casimir_equivalent_m": 2.1115708117466583e-18
+  },
+  "véhicule (rayon 2,5 m)": {
+   "rayon_gorge_m": 2.5,
+   "masse_exotique_kg": -1.6832386518751362e+27,
+   "masse_exotique_Jupiter": -0.8868486047814206,
+   "tension_Pa": 7.704726218755876e+41,
+   "duree_max_inegalite_quantique_s": 1.4821156498446577e-26,
+   "ecartement_Casimir_equivalent_m": 4.869974929497945e-18
+  },
+  "zone de 11 m (cote de DOC-014)": {
+   "rayon_gorge_m": 11.0,
+   "masse_exotique_kg": -7.406250068250599e+27,
+   "masse_exotique_Jupiter": -3.9021338610382506,
+   "tension_Pa": 3.9797139559689444e+40,
+   "duree_max_inegalite_quantique_s": 3.108912015137062e-26,
+   "ecartement_Casimir_equivalent_m": 1.021534559284851e-17
+  },
+  "duree_pour_36_ans_gamma_2": 72.0,
+  "duree_pour_36_ans_gamma_10": 40.0,
+  "duree_pour_36_ans_gamma_87660": 36.00041068230301
+ }
+}

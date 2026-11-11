@@ -1,0 +1,10 @@
+repere,depart,lignes_de_nomenclature,rail,puissance_W,courant_cote_batterie_A,calibre_fusible_A,section_cuivre_mm2
+F0,"Fusible général, à moins de 15 cm de la borne + de la batterie (fort pouvoir de coupure)",tout,"12,8 V",57.4,5.27,10,1.5
+F1,"Calculateurs ×3, voteur, GNSS",R1-10+R1-11+R1-08,5 V,19.0,1.75,3,0.5
+F2,Horloges ×4 et comparateur de phase (rail bas bruit),R1-06+R1-07,"3,3 V / 5 V",5.5,0.50,1,0.5
+F3,"Enceinte des horloges (Peltier, bobines de compensation)",R1-09,12 V,8.0,0.74,2,0.5
+F4,"Boucle thermique : pompe, ventilateur",R1-17,12 V,6.0,0.55,1,0.5
+F5,"Logements : télescope à muons, gyromètre, cartes de proximité",R1-14+R1-15+R1-16,5 V,5.6,0.51,1,0.5
+F6,"Capteurs : accéléromètres, ambiance, dosimètre",R1-12+R1-13+R1-18,5 V,3.3,0.30,0.5,0.5
+F7,Pupitre et télécommande,R1-19+R1-20,12 V / 5 V,5.0,0.46,1,0.5
+F8,"Sécurité et distribution (pertes, relais)",R1-04+R1-05,12 V,5.0,0.46,1,0.5

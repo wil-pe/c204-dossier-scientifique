@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mR8CE4fOqNGh9UFD42qOMrJPzLE</id>
+  <title>arXiv Query: search_query=&amp;id_list=1501.05014&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:47:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1501.05014" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1501.05014v1</id>
+    <title>Experimental Simulation of Closed Timelike Curves</title>
+    <updated>2015-01-20T23:12:55Z</updated>
+    <link href="https://arxiv.org/abs/1501.05014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.05014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Closed timelike curves are among the most controversial features of modern physics. As legitimate solutions to Einstein's field equations, they allow for time travel, which instinctively seems paradoxical. However, in the quantum regime these paradoxes can be resolved leaving closed timelike curves consistent with relativity. The study of these systems therefore provides valuable insight into non-linearities and the emergence of causal structures in quantum mechanics-essential for any formulation of a quantum theory of gravity. Here we experimentally simulate the non-linear behaviour of a qubit interacting unitarily with an older version of itself, addressing some of the fascinating effects that arise in systems traversing a closed timelike curve. These include perfect discrimination of non-orthogonal states and, most intriguingly, the ability to distinguish nominally equivalent ways of preparing pure quantum states. Finally, we examine the dependence of these effects on the initial qubit state, the form of the unitary interaction, and the influence of decoherence.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-20T23:12:55Z</published>
+    <arxiv:comment>9 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature Communications 5, 4145 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Martin Ringbauer</name>
+    </author>
+    <author>
+      <name>Matthew A. Broome</name>
+    </author>
+    <author>
+      <name>Casey R. Myers</name>
+    </author>
+    <author>
+      <name>Andrew G. White</name>
+    </author>
+    <author>
+      <name>Timothy C. Ralph</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms5145</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms5145" title="doi"/>
+  </entry>
+</feed>

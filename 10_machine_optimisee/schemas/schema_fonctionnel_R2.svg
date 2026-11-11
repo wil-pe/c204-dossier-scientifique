@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 900" width="1500" height="900" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="1500" height="900" fill="#fcfcfb"/>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0b0b0b">C204-R2 — schéma fonctionnel du palier « laboratoire de recherche »</text>
+<text x="24" y="60" font-size="13" fill="#52514e">Quatre modules et des communs ; ≈ 3,6 t, ≈ 8,7 kW, ≈ 5,2 M€ (estimations). M1 et M2 MESURENT ; M3 et M4 SIMULENT.</text>
+<text x="24" y="78" font-size="13" fill="#52514e">Aucun module ne transmet d&#x27;information vers le passé. Valeurs : scripts i04 et i08 ; performances d&#x27;horloges et de gravimètres : résumés d&#x27;articles vérifiés.</text>
+<rect x="30" y="110" width="330" height="110" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="30" y="110" width="7" height="110" rx="3" fill="#2a78d6"/>
+<text x="46" y="130" font-size="13" font-weight="700" fill="#0b0b0b">M1 — Horloge optique à ion n° 1 (R2-01)</text>
+<text x="46" y="148.0" font-size="11.5" fill="#52514e">piège de Paul, refroidissement laser,</text>
+<text x="46" y="163.5" font-size="11.5" fill="#52514e">canon d&#x27;ionisation, photomultiplicateur</text>
+<text x="46" y="179.0" font-size="11.5" fill="#52514e">incertitude 10⁻¹⁸ à 10⁻¹⁹</text>
+<text x="46" y="194.5" font-size="11.5" fill="#52514e">(= « singularité principale »)</text>
+<rect x="30" y="234" width="330" height="110" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="30" y="234" width="7" height="110" rx="3" fill="#2a78d6"/>
+<text x="46" y="254" font-size="13" font-weight="700" fill="#0b0b0b">M1 — Horloge optique à ion n° 2 (R2-02)</text>
+<text x="46" y="272.0" font-size="11.5" fill="#52514e">identique, sur plateforme réglable 0–1 m</text>
+<text x="46" y="287.5" font-size="11.5" fill="#52514e">Δf/f = 1,09×10⁻¹⁶ par mètre</text>
+<text x="46" y="303.0" font-size="11.5" fill="#52514e">(= « singularité de direction »)</text>
+<rect x="400" y="150" width="280" height="76" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="400" y="150" width="7" height="76" rx="3" fill="#2a78d6"/>
+<text x="416" y="170" font-size="13" font-weight="700" fill="#0b0b0b">Lien fibré stabilisé (R2-03)</text>
+<text x="416" y="188.0" font-size="11.5" fill="#52514e">comparaison de fréquence &lt; 10⁻¹⁸</text>
+<text x="416" y="203.5" font-size="11.5" fill="#52514e">+ horloge à iode de 35 L (volant)</text>
+<rect x="740" y="110" width="360" height="124" rx="7" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.2"/>
+<rect x="740" y="110" width="7" height="124" rx="3" fill="#0b0b0b"/>
+<text x="756" y="130" font-size="13" font-weight="700" fill="#0b0b0b">MESURE : décalage gravitationnel et cinématique</text>
+<text x="756" y="148.0" font-size="11.5" fill="#52514e">résolution 3,6×10⁻¹⁵ s par heure (10⁻¹⁸)</text>
+<text x="756" y="163.5" font-size="11.5" fill="#52514e">9 mm de dénivelé à 10⁻¹⁸ ; 0,9 mm à 10⁻¹⁹</text>
+<text x="756" y="179.0" font-size="11.5" fill="#52514e">signal du palier 1 (10⁻¹³) vu à ~10⁵ σ</text>
+<text x="756" y="194.5" font-size="11.5" fill="#52514e">verrait 2 × 4,4×10¹² kg jusqu&#x27;à 6,5 km</text>
+<rect x="30" y="380" width="330" height="110" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2"/>
+<rect x="30" y="380" width="7" height="110" rx="3" fill="#eda100"/>
+<text x="46" y="400" font-size="13" font-weight="700" fill="#0b0b0b">M2 — Gravimètre et gradiomètre atomiques</text>
+<text x="46" y="418.0" font-size="11.5" fill="#52514e">absolu : stabilité &lt; 1 µGal (R2-06)</text>
+<text x="46" y="433.5" font-size="11.5" fill="#52514e">gradient : 20 E, 0,1 E à long terme (R2-07)</text>
+<text x="46" y="449.0" font-size="11.5" fill="#52514e">nivellement, GNSS géodésique (R2-09)</text>
+<rect x="740" y="380" width="360" height="110" rx="7" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.2"/>
+<rect x="740" y="380" width="7" height="110" rx="3" fill="#0b0b0b"/>
+<text x="756" y="400" font-size="13" font-weight="700" fill="#0b0b0b">MESURE : pesanteur ; PRÉDICTION ΔW = ∫g·dh</text>
+<text x="756" y="418.0" font-size="11.5" fill="#52514e">1 µGal ↔ 3,2 mm de dénivelé</text>
+<text x="756" y="433.5" font-size="11.5" fill="#52514e">une tonne détectée à 1,5 m (3 σ)</text>
+<text x="756" y="449.0" font-size="11.5" fill="#52514e">prédiction du décalage d&#x27;horloge à ~10⁻⁵ près</text>
+<rect x="1150" y="220" width="320" height="124" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="1150" y="220" width="7" height="124" rx="3" fill="#1baf7a"/>
+<text x="1166" y="240" font-size="13" font-weight="700" fill="#0b0b0b">TEST DE LA RELATIVITÉ GÉNÉRALE</text>
+<text x="1166" y="258.0" font-size="11.5" fill="#52514e">horloges (M1) contre géodésie (M2) :</text>
+<text x="1166" y="273.5" font-size="11.5" fill="#52514e">le rapport doit valoir 1 ;</text>
+<text x="1166" y="289.0" font-size="11.5" fill="#52514e">toute « distorsion de gravité » locale</text>
+<text x="1166" y="304.5" font-size="11.5" fill="#52514e">au-delà de 10⁻¹⁸ serait vue</text>
+<rect x="30" y="530" width="330" height="124" rx="7" fill="#ffffff" stroke="#6250d6" stroke-width="2.2"/>
+<rect x="30" y="530" width="7" height="124" rx="3" fill="#6250d6"/>
+<text x="46" y="550" font-size="13" font-weight="700" fill="#0b0b0b">M3 — Cuve à deux vortex (R2-10 à R2-13)</text>
+<text x="46" y="568.0" font-size="11.5" fill="#52514e">3 m × 1,5 m, h = 6,25 cm, 2 orifices</text>
+<text x="46" y="583.5" font-size="11.5" fill="#52514e">batteur à houle, profilométrie optique</text>
+<text x="46" y="599.0" font-size="11.5" fill="#52514e">(= « deux singularités dans un</text>
+<text x="46" y="614.5" font-size="11.5" fill="#52514e">champ de Kerr », DOC-009)</text>
+<rect x="740" y="530" width="360" height="124" rx="7" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.2"/>
+<rect x="740" y="530" width="7" height="124" rx="3" fill="#0b0b0b"/>
+<text x="756" y="550" font-size="13" font-weight="700" fill="#0b0b0b">SIMULATION ANALOGIQUE : ondes sur écoulement</text>
+<text x="756" y="568.0" font-size="11.5" fill="#52514e">horizon et ergorégion pour des ONDES DE SURFACE</text>
+<text x="756" y="583.5" font-size="11.5" fill="#52514e">superradiance : jusqu&#x27;à 20 % (un vortex, publié)</text>
+<text x="756" y="599.0" font-size="11.5" fill="#52514e">inédit : couplage de deux ergorégions</text>
+<text x="756" y="614.5" font-size="11.5" fill="#52514e">ne dit rien de la gravité ni du temps</text>
+<rect x="30" y="694" width="330" height="124" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="30" y="694" width="7" height="124" rx="3" fill="#e87ba4"/>
+<text x="46" y="714" font-size="13" font-weight="700" fill="#0b0b0b">M4 — Banc de causalité quantique (R2-14, 15)</text>
+<text x="46" y="732.0" font-size="11.5" fill="#52514e">paires de photons, post-sélection ;</text>
+<text x="46" y="747.5" font-size="11.5" fill="#52514e">processeur quantique en nuage</text>
+<text x="46" y="763.0" font-size="11.5" fill="#52514e">P-CTC, D-CTC simulées,</text>
+<text x="46" y="778.5" font-size="11.5" fill="#52514e">interrupteur quantique</text>
+<rect x="740" y="694" width="360" height="124" rx="7" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.2"/>
+<rect x="740" y="694" width="7" height="124" rx="3" fill="#0b0b0b"/>
+<text x="756" y="714" font-size="13" font-weight="700" fill="#0b0b0b">SIMULATION : cohérence logique d&#x27;une boucle</text>
+<text x="756" y="732.0" font-size="11.5" fill="#52514e">« grand-père » : 0 essai post-sélectionné</text>
+<text x="756" y="747.5" font-size="11.5" fill="#52514e">Deutsch : discrimination parfaite de |0⟩ et |−⟩</text>
+<text x="756" y="763.0" font-size="11.5" fill="#52514e">(impossible en mécanique quantique linéaire)</text>
+<text x="756" y="778.5" font-size="11.5" fill="#52514e">circuits ordonnés : rien ne remonte le temps</text>
+<rect x="1150" y="734" width="320" height="110" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="1150" y="734" width="7" height="110" rx="3" fill="#1baf7a"/>
+<text x="1166" y="754" font-size="13" font-weight="700" fill="#0b0b0b">Communs</text>
+<text x="1166" y="772.0" font-size="11.5" fill="#52514e">3 calculateurs à vote, acquisition en</text>
+<text x="1166" y="787.5" font-size="11.5" fill="#52514e">aveugle (R2-18) ; hodoscope à muons ;</text>
+<text x="1166" y="803.0" font-size="11.5" fill="#52514e">centrale inertielle ; abri climatisé ;</text>
+<text x="1166" y="818.5" font-size="11.5" fill="#52514e">interverrouillages et arrêt d&#x27;urgence</text>
+<path d="M360.0,165.0 L380.0,165.0 L380.0,172.8 L400.0,172.8" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M360.0,289.0 L380.0,289.0 L380.0,203.2 L400.0,203.2" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M680.0,188.0 L710.0,188.0 L710.0,172.0 L740.0,172.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M360.0,435.0 L740.0,435.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="550.0" y="430.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">g, gradient vertical, dénivelés</text>
+<path d="M1100.0,172.0 L1125.0,172.0 L1125.0,282.0 L1150.0,282.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M1100.0,435.0 L1310.0,435.0 L1310.0,344.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M360.0,592.0 L740.0,592.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="550.0" y="587.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">champ de hauteur de la surface</text>
+<path d="M360.0,756.0 L740.0,756.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="550.0" y="751.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">coïncidences post-sélectionnées</text>
+<rect x="1150" y="520" width="14" height="12" rx="2" fill="#2a78d6"/>
+<text x="1172" y="530" font-size="11.5" fill="#0b0b0b" text-anchor="start">horloges (mesure)</text>
+<rect x="1150" y="540" width="14" height="12" rx="2" fill="#eda100"/>
+<text x="1172" y="550" font-size="11.5" fill="#0b0b0b" text-anchor="start">gravimétrie (mesure)</text>
+<rect x="1150" y="560" width="14" height="12" rx="2" fill="#6250d6"/>
+<text x="1172" y="570" font-size="11.5" fill="#0b0b0b" text-anchor="start">analogue hydrodynamique (simulation)</text>
+<rect x="1150" y="580" width="14" height="12" rx="2" fill="#e87ba4"/>
+<text x="1172" y="590" font-size="11.5" fill="#0b0b0b" text-anchor="start">optique quantique (simulation)</text>
+<rect x="1150" y="600" width="14" height="12" rx="2" fill="#1baf7a"/>
+<text x="1172" y="610" font-size="11.5" fill="#0b0b0b" text-anchor="start">calcul, vote, test</text>
+<rect x="1150" y="620" width="14" height="12" rx="2" fill="#0b0b0b"/>
+<text x="1172" y="630" font-size="11.5" fill="#0b0b0b" text-anchor="start">résultat</text>
+<text x="1150" y="670" font-size="11.5" font-weight="700" fill="#0b0b0b" text-anchor="start">Simulation ≠ expérience sur l&#x27;espace-temps :</text>
+<text x="1150" y="688" font-size="11.5" fill="#52514e" text-anchor="start">M3 et M4 reproduisent des équations,</text>
+<text x="1150" y="704" font-size="11.5" fill="#52514e" text-anchor="start">pas une courbure ni une boucle causale.</text>
+</svg>

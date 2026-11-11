@@ -1,0 +1,131 @@
+EXP-12 — BANC D'ESSAI « C204 DE SUBSTITUTION » : SENSIBILITÉS, VOTE, PROTOCOLE AVEUGLE (version 2)
+========================================================================
+Le banc s'applique à un dispositif CANDIDAT. Il ne réfute rien de l'objet de 2000-2001, qui n'est pas disponible.
+
+1. Voies de mesure (σ par cycle de 100 s ; N2 : banc complet ; N1 : mini-banc)
+   voie                                             σ N2     σ N1 unité      signal  sig/5σ N2  sig/5σ N1  régime ; contraste valide ; origine
+   Pesanteur ressentie « 1,5–2 g »                2,0e-4   2,0e-3 m/s²        4,9e0    4.4e+03    1.8e+02  pendant le fonctionnement ; marche − arrêt ; texte — Δg ≥ 0,5 g pendant le trajet
+   Pesanteur propre des singularités, à 1 m       2,0e-4   2,0e-3 m/s²        5,2e2    4.7e+05    1.9e+04  permanent ; dispositif − leurre, ou mesure absolue rapportée au fond ; déduit (modèle de Hawking) — G·M/r² pour la paire (7,8e12 kg)
+   Masse de l'appareil                            1,0e-1   5,0e-1 kg         1,0e13    2.0e+13    4.1e+12  permanent ; pesée absolue ; déduit (modèle de Hawking) — 7,8e12–1,02e13 kg pour la paire
+   Marche d'une horloge « 10 ans/heure »         1,0e-11   1,0e-7 (Δf/f)      8,8e4    1.8e+15    1.8e+11  pendant le fonctionnement ; marche − arrêt ; texte — dt_ext/dτ ≈ 87 660
+   Décalage gravitationnel d'horloge réel        1,0e-11   1,0e-7 (Δf/f)    7,6e-15    1.5e-04    1.5e-08  permanent ; dispositif − leurre, ou mesure absolue rapportée au fond ; déduit — GM/(rc²) de la paire à 1 m
+   Champ magnétique des bobines                   2,0e-8   2,0e-7 T          3,7e-5    2.6e+02    3.3e+01  commutable ; marche − arrêt ; déduit [HYP : 1 T sur 10 cm] — le texte ne chiffre pas le champ
+   Rayonnement — lecture littérale               5,6e-12  1,4e-11 Sv/s        9,0e3    3.2e+14    1.3e+14  permanent ; dispositif − leurre, ou mesure absolue rapportée au fond ; texte, lecture littérale — 400 MW entièrement en X de 100 keV, à 3 m
+   Rayonnement — spectre de Hawking              5,6e-12  1,4e-11 Sv/s        3,8e2    1.4e+13    5.5e+12  permanent ; dispositif − leurre, ou mesure absolue rapportée au fond ; déduit (C, G ; borne basse) — γ primaires (7,5 %), à 3 m
+   Température de surface                         1,0e-1   2,0e-1 K           1,8e1    3.6e+01    1.8e+01  pendant le fonctionnement ; marche − arrêt ; texte — « 100–120 °F » : +18 à +29 K
+   Puissance dissipée                              5,0e0    2,0e1 W           3,0e8    1.2e+07    3.0e+06  permanent ; bilan thermique absolu ; texte — « 300–500 MW »
+   Faisceau laser « courbé »                      5,0e-6   2,0e-5 rad        1,7e-2    4.9e+02    1.2e+02  pendant le fonctionnement ; marche − arrêt ; texte/photo ; seuil choisi — ≥ 1° (≈ 55° apparents sur DOC-012)
+   Déviation gravitationnelle réelle              5,0e-6   2,0e-5 rad       3,0e-14    8.6e-10    2.1e-10  permanent ; dispositif − leurre, ou mesure absolue rapportée au fond ; déduit — 4GM/(c²b), paire, b = 1 m
+   Entraînement — spin seul                       5,0e-6   5,0e-5 rad/s     8,6e-21    3.4e-16    3.4e-17  permanent ; dispositif − leurre, ou mesure absolue rapportée au fond ; déduit — Kerr extrémal 5,1e12 kg, à 1 m
+   Entraînement — paire en orbite                 5,0e-6   5,0e-5 rad/s     5,4e-14    2.2e-09    2.2e-10  permanent ; dispositif − leurre, ou mesure absolue rapportée au fond ; déduit (borne supérieure) — 2 × 5,1e12 kg, entraxe 0,30 m, à 1 m
+   (marge = signal / [5 × √(σ² + systématique²)] ; systématiques : dérive thermique des accéléromètres,
+    champ ambiant, turbulence de l'air sur le faisceau)
+   Masse : marge 1.6e+13 à 2.0e+13 (N2). Pesanteur propre de la paire à 1 m : 521–681 m/s² (53–69 g).
+   Lecture :
+   • grandeurs PERMANENTES selon le récit (masse, pesanteur propre, rayonnement, puissance des singularités, qui ne
+     « s'éteignent » pas) : une différence marche − arrêt nulle ne réfuterait RIEN ; le contraste valide est
+     dispositif − leurre, ou une mesure absolue (pesée, débit de dose au-dessus du fond, bilan thermique) ;
+   • grandeurs revendiquées PENDANT LE FONCTIONNEMENT (1,5–2 g, 10 ans/heure, lumière courbée, 38–49 °C) : contraste
+     marche − arrêt ; un banc extérieur ne les voit que si l'appareil reste dans le laboratoire pendant l'essai,
+     ce qui est déjà une réfutation d'un autre ordre ;
+   • effets relativistes RÉELS des masses retenues (décalage 6–8e-15, déviation 2–3e-14 rad, entraînement 9e-21 à
+     5e-14 rad/s) : hors de portée ; le banc ne teste pas la relativité générale, il teste des affirmations d'ingénierie ;
+   • plusieurs « signaux » sont des implications déduites par l'institut (modèle de Hawking pour la masse et la dose,
+     seuil de 1° pour la lumière, 1 T pour les bobines), non des affirmations du texte : colonne « origine ».
+
+2. Seuils de détection pour le protocole décrit : 64 cycles de 100 s, état tiré au sort (≈ 32 / 32)
+   seuil global 5σ (p = 2.9e-07) réparti sur 11 comparaisons (Bonferroni) → z = 5.44 par comparaison
+   (z = 5.41 pour 9 comparaisons, 5.47 pour 13 : sans conséquence)
+   seuil statistique = 5.44 × 0.25σ = 1.36σ par cycle ; borne supérieure à 95 % en cas de résultat nul : 0.41σ
+   seuil total = √[(seuil statistique)² + (3 × systématique)²]  — la systématique ne se moyenne pas
+   voie                                           seuil N2   seuil N1  unité
+   accéléromètres                                   4,1e-4     1,5e-2  m/s²
+   plateau de pesée                                 1,4e-1     6,8e-1  kg
+   horloge atomique ou quartz contre GPS           1,4e-11     1,4e-7  (Δf/f)
+   magnétomètres                                    6,6e-8     4,1e-7  T
+   Geiger + scintillateur                          7,6e-12    1,9e-11  Sv/s
+   sondes + caméra thermique                        1,4e-1     2,7e-1  K
+   bilan thermique + wattmètre                       6,8e0      2,7e1  W
+   laser classe 2 + détecteur à 2 m                 1,6e-5     6,6e-5  rad
+   gyromètre                                        6,8e-6     6,8e-5  rad/s
+   Dérive thermique des accéléromètres (budget) : coefficient ≈ 1e-3 m/s² par K (MEMS bas bruit), 1e-2 m/s² par K
+   (téléphone) ; écart de température résiduel entre les deux états, après écran thermique et régression sur la
+   température mesurée : 0,1 K (N2), 0,5 K (N1) → systématiques 1e-4 et 5e-3 m/s². Le LEURRE doit dissiper la même
+   puissance que le dispositif, sinon l'échauffement mime un signal corrélé à la clé.
+   → masse cachée exclue à 1 m (contraste dispositif − leurre) : > 6,07e6 kg (N2) ; > 2,28e8 kg (N1) ;
+     avec un gravimètre de terrain (5 µGal ; systématique de hauteur 3 µGal) : > 1691 kg.
+   (La version 1 donnait des seuils « à 5σ en 100 cycles » calculés pour 100 PAIRES marche/arrêt, soit une durée
+    triple de celle du protocole : ces chiffres sont retirés.)
+
+3. Enregistrement à trois voies redondantes, vote majoritaire (2 parmi 3)
+   probabilité qu'une donnée votée soit fausse, pour des pannes INDÉPENDANTES de probabilité p par voie :
+   P = 3p²(1-p) + p³
+     p = 1e-01 → P = 2.80e-02  (gain ×4)
+     p = 1e-02 → P = 2.98e-04  (gain ×34)
+     p = 1e-03 → P = 3.00e-06  (gain ×334)
+     p = 1e-04 → P = 3.00e-08  (gain ×3334)
+   Si une fraction β = 2% des pannes est de MODE COMMUN (alimentation, parasite électromagnétique de l'appareil
+   testé, erreur logicielle partagée), P ≈ β·p + 3[(1-β)p]² : le mode commun domine dès que p < β/3.
+     p = 1e-02 → P ≈ 4.88e-04
+     p = 1e-03 → P ≈ 2.29e-05
+   → d'où : trois enregistreurs de conception DIFFÉRENTE, alimentations séparées, isolation optique, horodatage
+     par 1PPS GPS, et pour les grandeurs continues la MÉDIANE des trois voies plutôt qu'un vote binaire.
+   Remarque : la méthode de Borda est une règle de vote par classement (théorie du choix social), non un
+   protocole de tolérance aux pannes ; avec 3 votants et 2 options elle se réduit au vote majoritaire. Le
+   « protocole de Borda » des calculateurs revendiqués n'a pas d'équivalent identifié en sûreté de fonctionnement.
+
+4. Puissance statistique du protocole en aveugle (état A/B tiré au sort par un tiers, clé scellée)
+   probabilité de détecter — Monte-Carlo ILLUSTRATIF, bruit gaussien unité par cycle, sans systématique :
+     effet (en σ par cycle) | N =  16 | N =  32 | N =  64 | N = 128
+                        0.0 |   0.000 |   0.000 |   0.000 |   0.000 | 
+                        0.5 |   0.000 |   0.000 |   0.000 |   0.004 | 
+                        1.0 |   0.000 |   0.004 |   0.072 |   0.589 | 
+                        2.0 |   0.063 |   0.557 |   0.995 |   1.000 | 
+                        5.0 |   1.000 |   1.000 |   1.000 |   1.000 | 
+   (ligne « effet 0 » = taux de fausses alarmes : nul à la précision de la simulation)
+   Avec 64 cycles de 100 s (≈ 1,8 h ; 3,6 h avec les temps morts), un effet ≥ 2σ par cycle est détecté à > 99 %.
+   Les deux contrastes (marche/arrêt ; dispositif/leurre) demandent chacun leur série de 64 cycles : pour le second,
+   c'est le chariot de capteurs qui alterne entre deux postes symétriques (dispositif / leurre), pas l'appareil.
+
+5. Bilan thermique : coffre à l'échelle révisée (L = 0,85 m, S = 1.07 m²) à 38–49 °C dans de l'air à 20 °C :
+   h·S·ΔT = 193–312 W, à comparer aux 300–500 MW revendiqués (rapport 1e+06 à 3e+06).
+
+6. Budget matériel indicatif (ordres de grandeur 2026, hors main-d'œuvre ; prix à confirmer)
+   N1 — mini-banc (≤ 500 €) : total ≈ 490 €
+             0 €  smartphone avec phyphox (accéléromètre, magnétomètre, gyromètre) — déjà possédé
+           110 €  compteur Geiger du commerce avec sortie de données
+           120 €  2 accéléromètres MEMS bas bruit + microcontrôleurs enregistreurs
+            45 €  6 sondes de température numériques + enregistreur
+            35 €  module GPS avec sortie 1PPS (horodatage commun)
+            40 €  pointeur laser classe 2 + webcam (position du faisceau)
+            80 €  pèse-personne ×4 ou plateau de pesée d'occasion
+            60 €  batteries, câbles, boîtier
+   N2 — banc complet de salle de TP : total ≈ 12 000 €
+           600 €  3 chaînes d'acquisition indépendantes (3 conceptions différentes) + stockage
+           700 €  3 accéléromètres triaxiaux bas bruit + 1 sismomètre/géophone
+           900 €  GPSDO + rubidium d'occasion + compteur d'intervalles de temps
+         4 000 €  horloge atomique miniature (CSAC), optionnelle
+           900 €  3 magnétomètres (dont 1 fluxgate triaxial)
+           900 €  2 Geiger de tubes différents + spectromètre à scintillation
+           700 €  12 sondes Pt100/thermistances + caméra thermique d'entrée de gamme
+           350 €  plateau de pesée 600 kg / 0,1 kg étalonné
+           250 €  laser classe 2 + détecteur de position
+         1 500 €  gyromètre à fibre de TP ou MEMS tactique
+         1 200 €  coffre, blindage CEM, isolations optiques, alimentations séparées
+   N3 — version laboratoire (compléments) : total ≈ 230 000 €
+       100 000 €  gravimètre relatif de terrain (achat ; ou prêt d'un laboratoire de géophysique)
+        60 000 €  étalon à césium ou accès à un maser + lien de temps étalonné
+        50 000 €  spectromètre gamma HPGe et chambre d'ionisation
+        20 000 €  magnétomètre à pompage optique
+
+Critères de réfutation (fixés AVANT les essais), pour un dispositif candidat :
+  • grandeur commutable ou revendiquée pendant le fonctionnement : différence marche − arrêt ;
+  • grandeur permanente selon le récit (masse, pesanteur propre, rayonnement et puissance des singularités) :
+    différence dispositif − leurre, ou mesure absolue rapportée au fond ;
+  • l'implication est réfutée si la différence (ou l'écart au fond) est compatible avec zéro ET que sa borne
+    supérieure à 95 % est inférieure d'au moins un facteur 100 au signal impliqué ;
+  • une « détection » n'est retenue que si elle dépasse le seuil corrigé sur ≥ 2 capteurs de conception différente,
+    suit la clé aléatoire, disparaît avec le leurre et survit à l'échange des capteurs. Même alors, elle établirait
+    une anomalie instrumentale à expliquer, PAS un voyage dans le temps.
+Ce que l'on réfute ainsi, ce sont des conséquences chiffrées — certaines déduites par l'institut — pour l'appareil
+présenté ; rien n'est établi sur l'objet de 2000-2001.

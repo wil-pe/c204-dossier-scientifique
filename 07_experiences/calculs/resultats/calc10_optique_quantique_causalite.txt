@@ -1,0 +1,58 @@
+EXP-10 — OPTIQUE QUANTIQUE ET CAUSALITÉ : CE QUE LES EXPÉRIENCES MONTRENT VRAIMENT
+========================================================================
+1. Gomme quantique à paires de photons (schéma de type Walborn et al. 2002 / Kim et al. 2000)
+   état : (|chemin 1>|H> + |chemin 2>|V>)/√2 ; le témoin est mesuré en base H/V (chemin connu) ou D/A (chemin effacé)
+   écart maximal entre les distributions marginales du signal selon la base du témoin : 6.5e-19
+   → identiques à la précision machine : le choix (même retardé) fait sur le témoin NE CHANGE RIEN à ce que
+     l'on voit sur le détecteur signal seul. Aucune information ne remonte le temps.
+   visibilité des franges : signal seul 0.000 ; coïncidences |H> 0.000 ; coïncidences |D> 1.000 ; coïncidences |A> 1.000
+   les sous-ensembles D et A portent des franges et des anti-franges complémentaires dont la somme est plate ;
+   on ne peut les séparer qu'en recevant, par un canal classique ordinaire, le résultat obtenu sur le témoin.
+   Monte-Carlo ILLUSTRATIF (200000 paires par configuration) : χ² entre les deux histogrammes du signal seul = 51.3 pour 59 degrés de liberté (compatibles, comme attendu)
+
+2. Gomme « de table » N1 (pointeur laser, fil fin, films polarisants) — explicable par l'optique ondulatoire
+   marqueurs de chemin : polariseurs d'axes θ1, θ2 de part et d'autre du fil → visibilité V = |cos(θ1 - θ2)|
+     θ1 - θ2 =  0° : V = 1.00
+     θ1 - θ2 = 30° : V = 0.87
+     θ1 - θ2 = 45° : V = 0.71
+     θ1 - θ2 = 60° : V = 0.50
+     θ1 - θ2 = 90° : V = 0.00
+   analyseur (« gomme ») à l'angle β derrière des marqueurs croisés : I(x) ∝ ½·[1 + sin(2β)·cos φ(x)]
+     β =     0° : V = 0.00
+     β =  22.5° : V = 0.71
+     β =    45° : V = 1.00
+     β =   -45° : V = 1.00  (anti-franges)
+     β =    90° : V = 0.00
+   polariseurs imparfaits (fuite d'intensité ε = 0.01) : visibilité résiduelle « marqueurs croisés » ≈ 2√ε/(1+ε) = 0.20
+   Avec un laser (état cohérent), il n'y a rien de spécifiquement quantique : c'est une analogie classique.
+
+3. « Courbe temporelle fermée » simulée par téléportation post-sélectionnée (modèle P-CTC, Lloyd et al. 2011)
+   un qubit sort de la boucle, subit U(θ) = exp(-iθ·σx/2) (θ = π : il « s'inverse lui-même », circuit paradoxal), y rentre
+   probabilité que la post-sélection réussisse : P = |Tr U|²/4 = cos²(θ/2)
+     θ =   0.0° : P = 1.000
+     θ =  30.0° : P = 0.933
+     θ =  60.0° : P = 0.750
+     θ =  90.0° : P = 0.500
+     θ = 120.0° : P = 0.250
+     θ = 150.0° : P = 0.067
+     θ = 180.0° : P = 0.000
+   → le cas paradoxal (θ = 180°) a une probabilité exactement nulle : on ne « résout » pas le paradoxe, on
+     JETTE les essais incohérents. Tous les photons vont vers le futur ; la « boucle » est une probabilité
+     conditionnelle. Une téléportation ordinaire sans post-sélection exige un message classique (≤ c).
+     (Calcul de principe ; ce n'est pas une reproduction des données de l'expérience.)
+
+4. Interrupteur quantique (ordre causal « indéfini » : superposition de A∘B et B∘A pilotée par un qubit)
+     A = X, B = X (commutent)       P(contrôle = +) = 1.00 ; P(contrôle = -) = 0.00
+     A = X, B = Z (anticommutent)   P(contrôle = +) = 0.00 ; P(contrôle = -) = 1.00
+     A = Z, B = Z (commutent)       P(contrôle = +) = 1.00 ; P(contrôle = -) = 0.00
+     A = Z, B = X (anticommutent)   P(contrôle = +) = 0.00 ; P(contrôle = -) = 1.00
+   → un seul usage de chaque porte suffit à décider « commutent ou anticommutent », ce qu'aucun circuit à ordre
+     fixe ne fait avec un seul usage de chacune (Chiribella et al. 2013 ; réalisé par Procopio et al. 2015).
+   Mise en garde : dans ces montages, le photon traverse des composants fixes d'un interféromètre, dans un
+   espace-temps ordinaire à structure causale parfaitement définie. « Ordre indéfini » qualifie l'ordre des
+   OPÉRATIONS sur le système, pas l'ordre temporel d'événements ; aucun signal ne précède sa cause.
+
+5. Budget de comptage indicatif pour une gomme à paires de photons (N3)
+   simples 2e+05 /s par voie, efficacité d'annonce 15% → coïncidences vraies 30000 /s ; accidentelles R1·R2·τ = 40 /s (fenêtre 1 ns) → 0.1%
+   fente de balayage (2% du profil) : 600 coïncidences/s par position ; en 10 s : 6000 coups → incertitude statistique 1.3% par point
+   60 positions × 2 bases × 10 s ≈ 20 min d'acquisition (hors alignement : plusieurs jours).

@@ -1,0 +1,1072 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1z+vYQNHjwlLICeeI42HZ70dA/k</id>
+  <title>arXiv Query: search_query=&amp;id_list=1811.03116,2203.01982,2303.03545,2310.01344,2308.15440,2311.09218,1407.3493,1405.4071,1511.07735,1705.04089,1807.11282,1812.03711,1812.09161,1902.07694,1902.02741,2005.14694,2109.12238,2109.12237,2403.10664,2308.12457&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=1811.03116,2203.01982,2303.03545,2310.01344,2308.15440,2311.09218,1407.3493,1405.4071,1511.07735,1705.04089,1807.11282,1812.03711,1812.09161,1902.07694,1902.02741,2005.14694,2109.12238,2109.12237,2403.10664,2308.12457" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1902.07694v2</id>
+    <title>An $^{27}$Al$^{+}$ quantum-logic clock with systematic uncertainty below $10^{-18}$</title>
+    <updated>2019-05-22T17:34:41Z</updated>
+    <link href="https://arxiv.org/abs/1902.07694v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.07694v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe an optical atomic clock based on quantum-logic spectroscopy of the $^1$S$_0$ $\leftrightarrow$ $^3$P$_0$ transition in $^{27}$Al$^{+}$ with a systematic uncertainty of ${9.4 \times 10^{-19}}$ and a frequency stability of ${1.2\times10^{-15}/\sqrtτ}$. A $^{25}$Mg$^{+}$ ion is simultaneously trapped with the $^{27}$Al$^{+}$ ion and used for sympathetic cooling and state readout. Improvements in a new trap have led to reduced secular motion heating, compared to previous $^{27}$Al$^{+}$ clocks, enabling clock operation with ion secular motion near the three-dimensional ground state. Operating the clock with a lower trap drive frequency has reduced excess micromotion compared to previous $^{27}$Al$^{+}$ clocks. Both of these improvements have led to a reduced time-dilation shift uncertainty. Other systematic uncertainties including those due to blackbody radiation and the second-order Zeeman effect have also been reduced.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-20T18:45:22Z</published>
+    <arxiv:comment>5 pages 4 figures + supplemental material 9 pages 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 123, 033201 (2019)</arxiv:journal_ref>
+    <author>
+      <name>S. M. Brewer</name>
+    </author>
+    <author>
+      <name>J. -S. Chen</name>
+    </author>
+    <author>
+      <name>A. M. Hankin</name>
+    </author>
+    <author>
+      <name>E. R. Clements</name>
+    </author>
+    <author>
+      <name>C. W. Chou</name>
+    </author>
+    <author>
+      <name>D. J. Wineland</name>
+    </author>
+    <author>
+      <name>D. B. Hume</name>
+    </author>
+    <author>
+      <name>D. R. Leibrandt</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.123.033201</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.123.033201" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.12457v1</id>
+    <title>Optical Clocks at Sea</title>
+    <updated>2023-08-23T22:47:50Z</updated>
+    <link href="https://arxiv.org/abs/2308.12457v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.12457v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deployed optical clocks will improve positioning for navigational autonomy, provide remote time standards for geophysical monitoring and distributed coherent sensing, allow time synchronization of remote quantum networks, and provide operational redundancy for national time standards. While laboratory optical clocks now reach timing inaccuracies below 1E-18, transportable versions of these high-performing clocks have limited utility due to their size, environmental sensitivity, and cost. Here we report the development of optical clocks with the requisite combination of size, performance, and environmental insensitivity for operation on mobile platforms. The 35 L clock combines a molecular iodine spectrometer, fiber frequency comb, and control electronics. Three of these clocks operated continuously aboard a naval ship in the Pacific Ocean for 20 days while accruing timing errors below 300 ps per day. The clocks have comparable performance to active hydrogen masers in one-tenth the volume. Operating high-performance clocks at sea has been historically challenging and continues to be critical for navigation. This demonstration marks a significant technological advancement that heralds the arrival of future optical timekeeping networks.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-23T22:47:50Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Jonathan D. Roslund</name>
+    </author>
+    <author>
+      <name>Arman Cingöz</name>
+    </author>
+    <author>
+      <name>William D. Lunden</name>
+    </author>
+    <author>
+      <name>Guthrie B. Partridge</name>
+    </author>
+    <author>
+      <name>Abijith S. Kowligy</name>
+    </author>
+    <author>
+      <name>Frank Roller</name>
+    </author>
+    <author>
+      <name>Daniel B. Sheredy</name>
+    </author>
+    <author>
+      <name>Gunnar E. Skulason</name>
+    </author>
+    <author>
+      <name>Joe P. Song</name>
+    </author>
+    <author>
+      <name>Jamil R. Abo-Shaeer</name>
+    </author>
+    <author>
+      <name>Martin M. Boyd</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.07735v1</id>
+    <title>A clock network for geodesy and fundamental science</title>
+    <updated>2015-11-24T14:43:46Z</updated>
+    <link href="https://arxiv.org/abs/1511.07735v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.07735v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Leveraging the unrivaled performance of optical clocks in applications in fundamental physics beyond the standard model, in geo-sciences, and in astronomy requires comparing the frequency of distant optical clocks truthfully. Meeting this requirement, we report on the first comparison and agreement of fully independent optical clocks separated by 700 km being only limited by the uncertainties of the clocks themselves. This is achieved by a phase-coherent optical frequency transfer via a 1415 km long telecom fiber link that enables substantially better precision than classical means of frequency transfer. The fractional precision in comparing the optical clocks of three parts in $10^{17}$ was reached after only 1000 s averaging time, which is already 10 times better and more than four orders of magnitude faster than with any other existing frequency transfer method. The capability of performing high resolution international clock comparisons paves the way for a redefinition of the unit of time and an all-optical dissemination of the SI-second.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-24T14:43:46Z</published>
+    <arxiv:comment>14 pages, 3 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>C. Lisdat</name>
+    </author>
+    <author>
+      <name>G. Grosche</name>
+    </author>
+    <author>
+      <name>N. Quintin</name>
+    </author>
+    <author>
+      <name>C. Shi</name>
+    </author>
+    <author>
+      <name>S. M. F. Raupach</name>
+    </author>
+    <author>
+      <name>C. Grebing</name>
+    </author>
+    <author>
+      <name>D. Nicolodi</name>
+    </author>
+    <author>
+      <name>F. Stefani</name>
+    </author>
+    <author>
+      <name>A. Al-Masoudi</name>
+    </author>
+    <author>
+      <name>S. Dörscher</name>
+    </author>
+    <author>
+      <name>S. Häfner</name>
+    </author>
+    <author>
+      <name>J. -L. Robyr</name>
+    </author>
+    <author>
+      <name>N. Chiodo</name>
+    </author>
+    <author>
+      <name>S. Bilicki</name>
+    </author>
+    <author>
+      <name>E. Bookjans</name>
+    </author>
+    <author>
+      <name>A. Koczwara</name>
+    </author>
+    <author>
+      <name>S. Koke</name>
+    </author>
+    <author>
+      <name>A. Kuhl</name>
+    </author>
+    <author>
+      <name>F. Wiotte</name>
+    </author>
+    <author>
+      <name>F. Meynadier</name>
+    </author>
+    <author>
+      <name>E. Camisard</name>
+    </author>
+    <author>
+      <name>M. Abgrall</name>
+    </author>
+    <author>
+      <name>M. Lours</name>
+    </author>
+    <author>
+      <name>T. Legero</name>
+    </author>
+    <author>
+      <name>H. Schnatz</name>
+    </author>
+    <author>
+      <name>U. Sterr</name>
+    </author>
+    <author>
+      <name>H. Denker</name>
+    </author>
+    <author>
+      <name>C. Chardonnet</name>
+    </author>
+    <author>
+      <name>Y. Le Coq</name>
+    </author>
+    <author>
+      <name>G. Santarelli</name>
+    </author>
+    <author>
+      <name>A. Amy-Klein</name>
+    </author>
+    <author>
+      <name>R. Le Targat</name>
+    </author>
+    <author>
+      <name>J. Lodewyck</name>
+    </author>
+    <author>
+      <name>O. Lopez</name>
+    </author>
+    <author>
+      <name>P. -E. Pottie</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms12443</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms12443" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01344v1</id>
+    <title>Measuring gravity by holding atoms</title>
+    <updated>2023-10-02T17:07:54Z</updated>
+    <link href="https://arxiv.org/abs/2310.01344v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01344v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite being the dominant force of nature on large scales, gravity remains relatively elusive to experimental measurement. Many questions remain, such as its behavior at small scales or its role in phenomena ascribed to dark matter and dark energy. Atom interferometers are powerful tools for probing Earth's gravity, the gravitational constant, dark energy theories and general relativity. However, they typically use atoms in free fall, which limits the measurement time to only a few seconds, and to even briefer intervals when measuring the interaction of the atoms with a stationary source mass. Recently, interferometers with atoms suspended for as long as 70 seconds in an optical lattice have been demonstrated. To keep the atoms from falling, however, the optical lattice must apply forces that are billion-fold as strong as the putative signals, so even tiny imperfections reduce sensitivity and generate complex systematic effects. As a result, lattice interferometers have yet to demonstrate precision and accuracy on par with their free fall counterparts and have yet to be used for precision measurement. Here, we optimize the sensitivity of a lattice interferometer and use a system of signal inversions and switches to suppress and quantify systematic effects. This enables us to measure the attraction of a miniature source mass, ruling out the existence of screened dark energy theories over their natural parameter space. More importantly, the combined accuracy of $6.2~\rm{nm/s}^2$ is four times as good as the best similar measurements with freely falling atoms, demonstrating the advantages of lattice interferometry in fundamental physics measurements. Further upgrades may enable measuring forces at sub-millimeter ranges, the gravitational Aharonov-Bohm effect and the gravitational constant, compact gravimetry, and testing whether the gravitational field itself has quantum properties.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T17:07:54Z</published>
+    <arxiv:comment>17 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature 631, 515-520 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Cristian D. Panda</name>
+    </author>
+    <author>
+      <name>Matthew J. Tao</name>
+    </author>
+    <author>
+      <name>Miguel Ceja</name>
+    </author>
+    <author>
+      <name>Holger Müller</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-024-07561-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-024-07561-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.12238v1</id>
+    <title>Resolving the gravitational redshift within a millimeter atomic sample</title>
+    <updated>2021-09-24T23:58:35Z</updated>
+    <link href="https://arxiv.org/abs/2109.12238v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.12238v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Einstein's theory of general relativity states that clocks at different gravitational potentials tick at different rates - an effect known as the gravitational redshift. As fundamental probes of space and time, atomic clocks have long served to test this prediction at distance scales from 30 centimeters to thousands of kilometers. Ultimately, clocks will study the union of general relativity and quantum mechanics once they become sensitive to the finite wavefunction of quantum objects oscillating in curved spacetime. Towards this regime, we measure a linear frequency gradient consistent with the gravitational redshift within a single millimeter scale sample of ultracold strontium. Our result is enabled by improving the fractional frequency measurement uncertainty by more than a factor of 10, now reaching 7.6$\times 10^{-21}$. This heralds a new regime of clock operation necessitating intra-sample corrections for gravitational perturbations.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-24T23:58:35Z</published>
+    <arxiv:comment>27 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature 602, 420 - 424 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Tobias Bothwell</name>
+    </author>
+    <author>
+      <name>Colin J. Kennedy</name>
+    </author>
+    <author>
+      <name>Alexander Aeppli</name>
+    </author>
+    <author>
+      <name>Dhruv Kedar</name>
+    </author>
+    <author>
+      <name>John M. Robinson</name>
+    </author>
+    <author>
+      <name>Eric Oelker</name>
+    </author>
+    <author>
+      <name>Alexander Staron</name>
+    </author>
+    <author>
+      <name>Jun Ye</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-021-04349-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-021-04349-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.14694v1</id>
+    <title>Frequency Ratio Measurements with 18-digit Accuracy Using a Network of Optical Clocks</title>
+    <updated>2020-05-29T17:33:22Z</updated>
+    <link href="https://arxiv.org/abs/2005.14694v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.14694v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atomic clocks occupy a unique position in measurement science, exhibiting higher accuracy than any other measurement standard and underpinning six out of seven base units in the SI system. By exploiting higher resonance frequencies, optical atomic clocks now achieve greater stability and lower frequency uncertainty than existing primary standards. Here, we report frequency ratios of the $^{27}$Al$^+$, $^{171}$Yb and $^{87}$Sr optical clocks in Boulder, Colorado, measured across an optical network spanned by both fiber and free-space links. These ratios have been evaluated with measurement uncertainties between $6\times10^{-18}$ and $8\times10^{-18}$, making them the most accurate reported measurements of frequency ratios to date. This represents a critical step towards redefinition of the SI second and future applications such as relativistic geodesy and tests of fundamental physics.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-29T17:33:22Z</published>
+    <arxiv:comment>51 pages, 12 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Boulder Atomic Clock Optical Network</name>
+      <arxiv:affiliation>BACON</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Collaboration</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kyle Beloy</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Martha I. Bodine</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tobias Bothwell</name>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Samuel M. Brewer</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Current affiliation: Department of Physics, Colorado State University, Fort Collins, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sarah L. Bromley</name>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+      <arxiv:affiliation>Current affiliation: Department of Physics, Durham University, Durham, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jwo-Sy Chen</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+      <arxiv:affiliation>Current affiliation: IonQ, Inc, College Park, MD, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jean-Daniel Deschênes</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Current affiliation: Consultation OctoSig Inc., Quebec City, Quebec, Canada</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott A. Diddams</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Robert J. Fasano</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tara M. Fortier</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Youssef S. Hassan</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David B. Hume</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dhruv Kedar</name>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Colin J. Kennedy</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Isaac Khader</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amanda Koepke</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David R. Leibrandt</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Holly Leopardi</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+      <arxiv:affiliation>Current affiliation: Space Dynamics Laboratory, North Logan, UT, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew D. Ludlow</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>William F. McGrew</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>William R. Milner</name>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nathan R. Newbury</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniele Nicolodi</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Oelker</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thomas E. Parker</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>John M. Robinson</name>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stefania Romisch</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Current affiliation: Northrup Grumman Mission Systems, Woodland Hills, CA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stefan A. Schäffer</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>The Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeffrey A. Sherman</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laura C. Sinclair</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lindsay Sonderhouse</name>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>William C. Swann</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jian Yao</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jun Ye</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>JILA, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiaogang Zhang</name>
+      <arxiv:affiliation>National Institute of Standards and Technology, Boulder, CO, USA}</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, University of Colorado, Boulder, CO, USA</arxiv:affiliation>
+      <arxiv:affiliation>State Key Laboratory of Advanced Optical Communication Systems and Networks, Institute of Quantum Electronics, Department of Electronics, Peking University, Beijing, P. R. China</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.09161v1</id>
+    <title>Test of the Gravitational Redshift with Galileo Satellites in an Eccentric Orbit</title>
+    <updated>2018-12-21T14:51:17Z</updated>
+    <link href="https://arxiv.org/abs/1812.09161v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.09161v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On August 22, 2014, the satellites GSAT-0201 and GSAT-0202 of the European GNSS Galileo were unintentionally launched into eccentric orbits. Unexpectedly, this has become a fortunate scientific opportunity since the onboard hydrogen masers allow for a sensitive test of the redshift predicted by the theory of general relativity. In the present Letter we describe an analysis of approximately three years of data from these satellites including three different clocks. For one of these we determine the test parameter quantifying a potential violation of the combined effects of the gravitational redshift and the relativistic Doppler shift. The uncertainty of our result is reduced by more than a factor 4 as compared to the values of Gravity Probe A obtained in 1976.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-21T14:51:17Z</published>
+    <arxiv:comment>6 pages, 3 figures, published in Phys. Rev. Lett. 121, 231102</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Physical Review Letters, Vol. 121, Iss. 23, p. 231102, 7 December 2018</arxiv:journal_ref>
+    <author>
+      <name>Sven Herrmann</name>
+    </author>
+    <author>
+      <name>Felix Finke</name>
+    </author>
+    <author>
+      <name>Martin Lülf</name>
+    </author>
+    <author>
+      <name>Olga Kichakova</name>
+    </author>
+    <author>
+      <name>Dirk Puetzfeld</name>
+    </author>
+    <author>
+      <name>Daniela Knickmann</name>
+    </author>
+    <author>
+      <name>Meike List</name>
+    </author>
+    <author>
+      <name>Benny Rievers</name>
+    </author>
+    <author>
+      <name>Gabriele Giorgi</name>
+    </author>
+    <author>
+      <name>Christoph Günther</name>
+    </author>
+    <author>
+      <name>Hansjörg Dittus</name>
+    </author>
+    <author>
+      <name>Roberto Prieto-Cerdeira</name>
+    </author>
+    <author>
+      <name>Florian Dilssner</name>
+    </author>
+    <author>
+      <name>Francisco Gonzalez</name>
+    </author>
+    <author>
+      <name>Erik Schönemann</name>
+    </author>
+    <author>
+      <name>Javier Ventura-Traveset</name>
+    </author>
+    <author>
+      <name>Claus Lämmerzahl</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.121.231102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.121.231102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.04089v1</id>
+    <title>Geodesy and metrology with a transportable optical clock</title>
+    <updated>2017-05-11T09:40:46Z</updated>
+    <link href="https://arxiv.org/abs/1705.04089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.04089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The advent of novel measurement instrumentation can lead to paradigm shifts in scientific research. Optical atomic clocks, due to their unprecedented stability and uncertainty, are already being used to test physical theories and herald a revision of the International System of units (SI). However, to unlock their potential for cross-disciplinary applications such as relativistic geodesy, a major challenge remains. This is their transformation from highly specialized instruments restricted to national metrology laboratories into flexible devices deployable in different locations. Here we report the first field measurement campaign performed with a ubiquitously applicable $^{87}$Sr optical lattice clock. We use it to determine the gravity potential difference between the middle of a mountain and a location 90 km apart, exploiting both local and remote clock comparisons to eliminate potential clock errors. A local comparison with a $^{171}$Yb lattice clock also serves as an important check on the international consistency of independently developed optical clocks. This campaign demonstrates the exciting prospects for transportable optical clocks.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-11T09:40:46Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Jacopo Grotti</name>
+    </author>
+    <author>
+      <name>Silvio Koller</name>
+    </author>
+    <author>
+      <name>Stefan Vogt</name>
+    </author>
+    <author>
+      <name>Sebastian Häfner</name>
+    </author>
+    <author>
+      <name>Uwe Sterr</name>
+    </author>
+    <author>
+      <name>Christian Lisdat</name>
+    </author>
+    <author>
+      <name>Heiner Denker</name>
+    </author>
+    <author>
+      <name>Christian Voigt</name>
+    </author>
+    <author>
+      <name>Ludger Timmen</name>
+    </author>
+    <author>
+      <name>Antoine Rolland</name>
+    </author>
+    <author>
+      <name>Fred N. Baynes</name>
+    </author>
+    <author>
+      <name>Helen S. Margolis</name>
+    </author>
+    <author>
+      <name>Michel Zampaolo</name>
+    </author>
+    <author>
+      <name>Pierre Thoumany</name>
+    </author>
+    <author>
+      <name>Marco Pizzocaro</name>
+    </author>
+    <author>
+      <name>Benjamin Rauf</name>
+    </author>
+    <author>
+      <name>Filippo Bregolin</name>
+    </author>
+    <author>
+      <name>Anna Tampellini</name>
+    </author>
+    <author>
+      <name>Piero Barbieri</name>
+    </author>
+    <author>
+      <name>Massimo Zucco</name>
+    </author>
+    <author>
+      <name>Giovanni A. Costanzo</name>
+    </author>
+    <author>
+      <name>Cecilia Clivati</name>
+    </author>
+    <author>
+      <name>Filippo Levi</name>
+    </author>
+    <author>
+      <name>Davide Calonico</name>
+    </author>
+    <arxiv:doi>10.1038/s41567-017-0042-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41567-017-0042-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.03711v1</id>
+    <title>A gravitational redshift test using eccentric Galileo satellites</title>
+    <updated>2018-12-10T10:11:29Z</updated>
+    <link href="https://arxiv.org/abs/1812.03711v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.03711v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report on a new test of the gravitational redshift and thus of local position invariance, an integral part of the Einstein equivalence principle, which is the foundation of general relativity and all metric theories of gravitation. We use data spanning 1008 days from two satellites of Galileo, Europe's global satellite navigation system (GNSS), which were launched in 2014, but accidentally delivered on elliptic rather than circular orbits. The resulting modulation of the gravitational redshift of the onboard atomic clocks allows the redshift determination with high accuracy. Additionally specific laser ranging campaigns to the two satellites have enabled a good estimation of systematic effects related to orbit uncertainties. Together with a careful conservative modelling and control of other systematic effects we measure the fractional deviation of the gravitational redshift from the prediction by general relativity to be $(+0.19 \pm 2.48)\times10^{-5}$ at 1 sigma, improving the best previous test by a factor~5.6. To our knowledge, this represents the first reported improvement on one of the longest standing results in experimental gravitation, the Gravity Probe A hydrogen maser rocket experiment back in 1976.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-10T10:11:29Z</published>
+    <arxiv:comment>6 pages, 4 figures, published in Phys. Rev. Lett. 121, 231101</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Physical Review Letters, Vol. 121, Iss. 23, p. 231101, 7 December 2018</arxiv:journal_ref>
+    <author>
+      <name>P. Delva</name>
+    </author>
+    <author>
+      <name>N. Puchades</name>
+    </author>
+    <author>
+      <name>E. Schönemann</name>
+    </author>
+    <author>
+      <name>F. Dilssner</name>
+    </author>
+    <author>
+      <name>C. Courde</name>
+    </author>
+    <author>
+      <name>S. Bertone</name>
+    </author>
+    <author>
+      <name>F. Gonzalez</name>
+    </author>
+    <author>
+      <name>A. Hees</name>
+    </author>
+    <author>
+      <name>Ch. Le Poncin-Lafitte</name>
+    </author>
+    <author>
+      <name>F. Meynadier</name>
+    </author>
+    <author>
+      <name>R. Prieto-Cerdeira</name>
+    </author>
+    <author>
+      <name>B. Sohet</name>
+    </author>
+    <author>
+      <name>J. Ventura-Traveset</name>
+    </author>
+    <author>
+      <name>P. Wolf</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.121.231101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.121.231101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.15440v2</id>
+    <title>Detecting single gravitons with quantum sensing</title>
+    <updated>2024-08-29T18:35:37Z</updated>
+    <link href="https://arxiv.org/abs/2308.15440v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.15440v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The quantization of gravity is widely believed to result in gravitons -- particles of discrete energy that form gravitational waves. But their detection has so far been considered impossible. Here we show that signatures of single graviton exchange can be observed in laboratory experiments. We show that stimulated and spontaneous single-graviton processes can become relevant for massive quantum acoustic resonators and that stimulated absorption can be resolved through continuous sensing of quantum jumps. We analyze the feasibility of observing the exchange of single energy quanta between matter and gravitational waves. Our results show that single graviton signatures are within reach of experiments. In analogy to the discovery of the photo-electric effect for photons, such signatures can provide the first experimental clue of the quantization of gravity.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-29T17:05:32Z</published>
+    <arxiv:comment>Main text: 7 pages, 4 figures. Appendices: 9 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nat. Commun. 15, 7229 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Germain Tobar</name>
+    </author>
+    <author>
+      <name>Sreenath K. Manikandan</name>
+    </author>
+    <author>
+      <name>Thomas Beitel</name>
+    </author>
+    <author>
+      <name>Igor Pikovski</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-024-51420-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-024-51420-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.3493v2</id>
+    <title>Optical Atomic Clocks</title>
+    <updated>2015-02-09T15:00:08Z</updated>
+    <link href="https://arxiv.org/abs/1407.3493v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.3493v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical atomic clocks represent the state-of-the-art in the frontier of modern measurement science. In this article we provide a detailed review on the development of optical atomic clocks that are based on trapped single ions and many neutral atoms. We discuss important technical ingredients for optical clocks, and we present measurement precision and systematic uncertainty associated with some of the best clocks to date. We conclude with an outlook on the exciting prospect for clock applications.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-13T17:30:42Z</published>
+    <arxiv:comment>86 pages, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Andrew D. Ludlow</name>
+    </author>
+    <author>
+      <name>Martin M. Boyd</name>
+    </author>
+    <author>
+      <name>Jun Ye</name>
+    </author>
+    <author>
+      <name>Ekkehard Peik</name>
+    </author>
+    <author>
+      <name>Piet O. Schmidt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.11282v1</id>
+    <title>Atomic clock performance beyond the geodetic limit</title>
+    <updated>2018-07-30T10:56:38Z</updated>
+    <link href="https://arxiv.org/abs/1807.11282v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.11282v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The passage of time is tracked by counting oscillations of a frequency reference, such as Earth's revolutions or swings of a pendulum. By referencing atomic transitions, frequency (and thus time) can be measured more precisely than any other physical quantity, with the current generation of optical atomic clocks reporting fractional performance below the $10^{-17}$ level. However, the theory of relativity prescribes that the passage of time is not absolute, but impacted by an observer's reference frame. Consequently, clock measurements exhibit sensitivity to relative velocity, acceleration and gravity potential. Here we demonstrate optical clock measurements surpassing the present-day ability to account for the gravitational distortion of space-time across the surface of Earth. In two independent ytterbium optical lattice clocks, we demonstrate unprecedented levels in three fundamental benchmarks of clock performance. In units of the clock frequency, we report systematic uncertainty of $1.4 \times 10^{-18}$, measurement instability of $3.2 \times 10^{-19}$ and reproducibility characterised by ten blinded frequency comparisons, yielding a frequency difference of $[-7 \pm (5)_{stat} \pm (8)_{sys}] \times 10^{-19}$. While differential sensitivity to gravity could degrade the performance of these optical clocks as terrestrial standards of time, this same sensitivity can be used as an exquisite probe of geopotential. Near the surface of Earth, clock comparisons at the $1 \times 10^{-18}$ level provide 1 cm resolution along gravity, outperforming state-of-the-art geodetic techniques. These optical clocks can further be used to explore geophysical phenomena, detect gravitational waves, test general relativity and search for dark matter.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-30T10:56:38Z</published>
+    <arxiv:comment>32 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature 564, 87-90 (2018)</arxiv:journal_ref>
+    <author>
+      <name>W. F. McGrew</name>
+    </author>
+    <author>
+      <name>X. Zhang</name>
+    </author>
+    <author>
+      <name>R. J. Fasano</name>
+    </author>
+    <author>
+      <name>S. A. Schäffer</name>
+    </author>
+    <author>
+      <name>K. Beloy</name>
+    </author>
+    <author>
+      <name>D. Nicolodi</name>
+    </author>
+    <author>
+      <name>R. C. Brown</name>
+    </author>
+    <author>
+      <name>N. Hinkley</name>
+    </author>
+    <author>
+      <name>G. Milani</name>
+    </author>
+    <author>
+      <name>M. Schioppo</name>
+    </author>
+    <author>
+      <name>T. H. Yoon</name>
+    </author>
+    <author>
+      <name>A. D. Ludlow</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-018-0738-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-018-0738-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.03116v3</id>
+    <title>A postquantum theory of classical gravity?</title>
+    <updated>2023-11-27T17:24:09Z</updated>
+    <link href="https://arxiv.org/abs/1811.03116v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.03116v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effort to discover a quantum theory of gravity is motivated by the need to reconcile the incompatibility between quantum theory and general relativity. Here, we present an alternative approach by constructing a consistent theory of classical gravity coupled to quantum field theory. The dynamics is linear in the density matrix, completely positive and trace preserving, and reduces to Einstein's theory of general relativity in the classical limit. Consequently, the dynamics doesn't suffer from the pathologies of the semiclassical theory based on expectation values. The assumption that general relativity is classical necessarily modifies the dynamical laws of quantum mechanics -- the theory must be fundamentally stochastic in both the metric degrees of freedom and in the quantum matter fields. This allows it to evade several no-go theorems purporting to forbid classical-quantum interactions. The measurement postulate of quantum mechanics is not needed -- the interaction of the quantum degrees of freedom with classical space-time necessarily causes decoherence in the quantum system. We first derive the general form of classical-quantum dynamics and consider realisations which have as its limit deterministic classical Hamiltonian evolution. The formalism is then applied to quantum field theory interacting with the classical space-time metric. One can view the classical-quantum theory as fundamental or as an effective theory useful for computing the back-reaction of quantum fields on geometry. We discuss a number of open questions from the perspective of both viewpoints.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-07T19:10:10Z</published>
+    <arxiv:comment>"It's very difficult to find a black cat in a dark room, especially if there is no cat."</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Jonathan Oppenheim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.01982v1</id>
+    <title>Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity</title>
+    <updated>2022-03-03T19:52:11Z</updated>
+    <link href="https://arxiv.org/abs/2203.01982v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.01982v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider two interacting systems when one is treated classically while the other system remains quantum. Consistent dynamics of this coupling has been shown to exist, and explored in the context of treating space-time classically. Here, we prove that such hybrid dynamics necessarily results in decoherence of the quantum system, and a breakdown in predictability in the classical phase space. We further prove that a trade-off between the rate of this decoherence and the degree of diffusion induced in the classical system is a general feature of all classical quantum dynamics; long coherence times require strong diffusion in phase-space relative to the strength of the coupling. Applying the trade-off relation to gravity, we find a relationship between the strength of gravitationally-induced decoherence versus diffusion of the metric and its conjugate momenta. This provides an experimental signature of theories in which gravity is fundamentally classical. Bounds on decoherence rates arising from current interferometry experiments, combined with precision measurements of mass, place significant restrictions on theories where Einstein's classical theory of gravity interacts with quantum matter. We find that part of the parameter space of such theories are already squeezed out, and provide figures of merit which can be used in future mass measurements and interference experiments.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-03T19:52:11Z</published>
+    <arxiv:comment>16 pages main + 21 pages appendices</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nat Commun 14, 7910 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Jonathan Oppenheim</name>
+    </author>
+    <author>
+      <name>Carlo Sparaciari</name>
+    </author>
+    <author>
+      <name>Barbara Šoda</name>
+    </author>
+    <author>
+      <name>Zachary Weller-Davies</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-023-43348-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-023-43348-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.02741v1</id>
+    <title>Optical clock intercomparison with $6\times 10^{-19}$ precision in one hour</title>
+    <updated>2019-02-07T17:30:50Z</updated>
+    <link href="https://arxiv.org/abs/1902.02741v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.02741v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Improvements in atom-light coherence are foundational to progress in quantum information science, quantum optics, and precision metrology. Optical atomic clocks require local oscillators with exceptional optical coherence due to the challenge of performing spectroscopy on their ultra-narrow linewidth clock transitions. Advances in laser stabilization have thus enabled rapid progress in clock precision. A new class of ultrastable lasers based on cryogenic silicon reference cavities has recently demonstrated the longest optical coherence times to date. In this work we utilize such a local oscillator, along with a state-of-the-art frequency comb for coherence transfer, with two Sr optical lattice clocks to achieve an unprecedented level of clock stability. Through an anti-synchronous comparison, the fractional instability of both clocks is assessed to be $4.8\times 10^{-17}/\sqrtτ$ for an averaging time $τ$ in seconds. Synchronous interrogation reveals a quantum projection noise dominated instability of $3.5(2)\times10^{-17}/\sqrtτ$, resulting in a precision of $5.8(3)\times 10^{-19}$ after a single hour of averaging. The ability to measure sub-$10^{-18}$ level frequency shifts in such short timescales will impact a wide range of applications for clocks in quantum sensing and fundamental physics. For example, this precision allows one to resolve the gravitational red shift from a 1 cm elevation change in only 20 minutes.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-07T17:30:50Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature Photonics 13, 714-719 (2019)</arxiv:journal_ref>
+    <author>
+      <name>E. Oelker</name>
+    </author>
+    <author>
+      <name>R. B. Hutson</name>
+    </author>
+    <author>
+      <name>C. J. Kennedy</name>
+    </author>
+    <author>
+      <name>L. Sonderhouse</name>
+    </author>
+    <author>
+      <name>T. Bothwell</name>
+    </author>
+    <author>
+      <name>A. Goban</name>
+    </author>
+    <author>
+      <name>D. Kedar</name>
+    </author>
+    <author>
+      <name>C. Sanner</name>
+    </author>
+    <author>
+      <name>J. M. Robinson</name>
+    </author>
+    <author>
+      <name>G. E. Marti</name>
+    </author>
+    <author>
+      <name>D. G. Matei</name>
+    </author>
+    <author>
+      <name>T. Legero</name>
+    </author>
+    <author>
+      <name>M. Giunta</name>
+    </author>
+    <author>
+      <name>R. Holzwarth</name>
+    </author>
+    <author>
+      <name>F. Riehle</name>
+    </author>
+    <author>
+      <name>U. Sterr</name>
+    </author>
+    <author>
+      <name>J. Ye</name>
+    </author>
+    <arxiv:doi>10.1038/s41566-019-0493-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41566-019-0493-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.12237v1</id>
+    <title>High precision differential clock comparisons with a multiplexed optical lattice clock</title>
+    <updated>2021-09-24T23:58:33Z</updated>
+    <link href="https://arxiv.org/abs/2109.12237v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.12237v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rapid progress in the precision and accuracy of optical atomic clocks over the last decade has advanced the frontiers of timekeeping, metrology, and quantum science. However, the stabilities of most optical clocks remain limited by the local oscillator rather than the atoms themselves, leaving room for further progress. Here we implement a "multiplexed" one-dimensional optical lattice clock, in which spatially-resolved, movable ensembles of ultra-cold strontium atoms are trapped in the same optical lattice, interrogated simultaneously by a shared clock laser, and read-out in parallel. By performing synchronized Ramsey interrogations of ensemble pairs we observe atom-atom coherence times up to 26 seconds, a 270-fold improvement over the atom-laser coherence time, demonstrate a relative stability of $9.7(4)\times10^{-18}/\sqrtτ$ (where $τ$ is the averaging time in seconds), and reach a fractional uncertainty of $8.9(3)\times 10^{-20}$ after 3.3 hours of averaging. These results demonstrate that applications requiring ultra-high-precision comparisons between optical atomic clocks need not be limited by the stability of the local oscillator. With multiple ensemble pairs, we realize a miniaturized clock network consisting of 6 atom ensembles, resulting in 15 unique pairwise clock comparisons with relative stabilities below $3\times10^{-17}/\sqrtτ$. Finally, we demonstrate the capability to simultaneously load spatially-resolved, heterogeneous ensemble pairs of all four stable isotopes of strontium in a lattice. The unique capabilities offered by this platform pave the way for future studies of precision isotope shift measurements, spatially resolved characterization of limiting clock systematics, development of clock-based gravitational wave and dark matter detectors, and novel tests of relativity including measurements of the gravitational redshift at sub-centimeter scales.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-24T23:58:33Z</published>
+    <arxiv:comment>Main text: 17 pages, 4 figures, 59 references. Extended data: 5 figures, 2 tables. Supplementary information: 12 pages, 8 figures, 8 references</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Xin Zheng</name>
+    </author>
+    <author>
+      <name>Jonathan Dolde</name>
+    </author>
+    <author>
+      <name>Varun Lochab</name>
+    </author>
+    <author>
+      <name>Brett N. Merriman</name>
+    </author>
+    <author>
+      <name>Haoran Li</name>
+    </author>
+    <author>
+      <name>Shimon Kolkowitz</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-021-04344-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-021-04344-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1405.4071v1</id>
+    <title>Cryogenic optical lattice clocks with a relative frequency difference of $1\times 10^{-18}$</title>
+    <updated>2014-05-16T06:44:17Z</updated>
+    <link href="https://arxiv.org/abs/1405.4071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1405.4071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time and frequency are the most accurately measurable quantities, providing foundations for science and modern technologies. The accuracy relies on the SI (Systéme International) second that refers to Cs microwave clocks with fractional uncertainties at $10^{-16}$. Recent revolutionary progress of optical clocks aims to achieve $1\times 10^{-18}$ uncertainty, which however has been hindered by long averaging-times or by systematic uncertainties. Here, we demonstrate optical lattice clocks with $^{87}$Sr atoms interrogated in a cryogenic environment to address the blackbody radiation-induced frequency-shift, which remains the primary source of clocks' uncertainties and has initiated vigorous theoretical and experimental investigations. The quantum-limited stability for $N \sim 1,000$ atoms allows investigation of the uncertainties at $2\times 10^{-18}$ in two hours of clock operation. After 11 measurements performed over a month, the two cryo-clocks agree to within $(-1.1\pm 1.6)\times 10^{-18}$. Besides its contribution to fundamental science and the redefinition of the SI second, such a speedy comparison of accurate clocks provides a means for relativistic geodesy.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-16T06:44:17Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Ichiro Ushijima</name>
+    </author>
+    <author>
+      <name>Masao Takamoto</name>
+    </author>
+    <author>
+      <name>Manoj Das</name>
+    </author>
+    <author>
+      <name>Takuya Ohkubo</name>
+    </author>
+    <author>
+      <name>Hidetoshi Katori</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.10664v2</id>
+    <title>A clock with $8\times10^{-19}$ systematic uncertainty</title>
+    <updated>2024-06-08T17:34:26Z</updated>
+    <link href="https://arxiv.org/abs/2403.10664v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.10664v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report an optical lattice clock with a total systematic uncertainty of $8.1 \times 10^{-19}$ in fractional frequency units, representing the lowest uncertainty of any clock to date. The clock relies on interrogating the ultra-narrow ${}^1S_0 \rightarrow {}^3P_0$ transition in a dilute ensemble of fermionic strontium atoms trapped in a vertically-oriented, shallow, one-dimensional optical lattice. Using imaging spectroscopy, we previously demonstrated record high atomic coherence time and measurement precision enabled by precise control of collisional shifts and the lattice light shift. In this work, we revise the black body radiation shift correction by evaluating the $5s4d$ $^3D_1$ lifetime, necessitating precise characterization and control of many body effects in the $5s4d$ $^3D_1$ decay. Lastly, we measure the second order Zeeman coefficient on the least magnetically sensitive clock transition. All other systematic effects have uncertainties below $1 \times 10^{-19}$.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-15T20:15:18Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 133, 023401 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Alexander Aeppli</name>
+    </author>
+    <author>
+      <name>Kyungtae Kim</name>
+    </author>
+    <author>
+      <name>William Warfield</name>
+    </author>
+    <author>
+      <name>Marianna S. Safronova</name>
+    </author>
+    <author>
+      <name>Jun Ye</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.133.023401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.133.023401" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.09218v3</id>
+    <title>Massive quantum systems as interfaces of quantum mechanics and gravity</title>
+    <updated>2024-10-13T13:15:19Z</updated>
+    <link href="https://arxiv.org/abs/2311.09218v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.09218v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The traditional view from particle physics is that quantum gravity effects should only become detectable at extremely high energies and small length scales. Due to the significant technological challenges involved, there has been limited progress in identifying experimentally detectable effects that can be accessed in the foreseeable future. However, in recent decades, the size and mass of quantum systems that can be controlled in the laboratory have reached unprecedented scales, enabled by advances in ground-state cooling and quantum-control techniques. Preparations of massive systems in quantum states pave the way for the explorations of a low-energy regime in which gravity can be both sourced and probed by quantum systems. Such approaches constitute an increasingly viable alternative to accelerator-based, laser-interferometric, torsion-balance, and cosmological tests of gravity. In this review, we provide an overview of proposals where massive quantum systems act as interfaces between quantum mechanics and gravity. We discuss conceptual difficulties in the theoretical description of quantum systems in the presence of gravity, review tools for modeling massive quantum systems in the laboratory, and provide an overview of the current state-of-the-art experimental landscape. Proposals covered in this review include, among others, precision tests of gravity, tests of gravitationally-induced wavefunction collapse and decoherence, as well as gravitymediated entanglement. We conclude the review with an outlook and summary of the key questions raised.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-15T18:58:44Z</published>
+    <arxiv:comment>81 pages, 11 figures. Manuscript accepted at Reviews of Modern Physics. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Rev. Mod. Phys. 97, 015003 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Sougato Bose</name>
+    </author>
+    <author>
+      <name>Ivette Fuentes</name>
+    </author>
+    <author>
+      <name>Andrew A. Geraci</name>
+    </author>
+    <author>
+      <name>Saba Mehsar Khan</name>
+    </author>
+    <author>
+      <name>Sofia Qvarfort</name>
+    </author>
+    <author>
+      <name>Markus Rademacher</name>
+    </author>
+    <author>
+      <name>Muddassar Rashid</name>
+    </author>
+    <author>
+      <name>Marko Toroš</name>
+    </author>
+    <author>
+      <name>Hendrik Ulbricht</name>
+    </author>
+    <author>
+      <name>Clara C. Wanjura</name>
+    </author>
+    <arxiv:doi>10.1103/RevModPhys.97.015003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/RevModPhys.97.015003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.03545v2</id>
+    <title>Measuring gravity with milligram levitated masses</title>
+    <updated>2024-01-22T13:15:16Z</updated>
+    <link href="https://arxiv.org/abs/2303.03545v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.03545v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gravity differs from all other known fundamental forces since it is best described as a curvature of spacetime. For that reason it remains resistant to unifications with quantum theory. Gravitational interaction is fundamentally weak and becomes prominent only at macroscopic scales. This means, we do not know what happens to gravity in the microscopic regime where quantum effects dominate, and whether quantum coherent effects of gravity become apparent. Levitated mechanical systems of mesoscopic size offer a probe of gravity, while still allowing quantum control over their motional state. This regime opens the possibility of table-top testing of quantum superposition and entanglement in gravitating systems. Here we show gravitational coupling between a levitated sub-millimeter scale magnetic particle inside a type-I superconducting trap and kg source masses, placed approximately half a meter away. Our results extend gravity measurements to low gravitational forces of attonewton and underline the importance of levitated mechanical sensors. Specifically, at a frequency of 26.7 Hz, a mass of 0.4 mg and showing Q-factors in excess of 10$^7$, we obtained a force noise of 0.5 $fN\sqrt{Hz}$ . We simultaneously detect the other 5 rotational and translational degrees of freedom.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-06T23:07:03Z</published>
+    <arxiv:comment>13 pages, with 13 pages supplementary materials</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Tim M. Fuchs</name>
+    </author>
+    <author>
+      <name>Dennis G. Uitenbroek</name>
+    </author>
+    <author>
+      <name>Jaimy Plugge</name>
+    </author>
+    <author>
+      <name>Noud van Halteren</name>
+    </author>
+    <author>
+      <name>Jean-Paul van Soest</name>
+    </author>
+    <author>
+      <name>Andrea Vinante</name>
+    </author>
+    <author>
+      <name>Hendrik Ulbricht</name>
+    </author>
+    <author>
+      <name>Tjerk H. Oosterkamp</name>
+    </author>
+  </entry>
+</feed>

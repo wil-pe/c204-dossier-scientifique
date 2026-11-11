@@ -1,0 +1,250 @@
+{
+  "simulation": "S09_synthese",
+  "avertissement": "Simulation illustrative — ce n'est PAS une preuve expérimentale (Équipe D, programme C204 ; aucune affirmation « Titor » n'est tenue pour vraie)",
+  "monte_carlo": {
+    "n_tirages": 200000,
+    "graine": 204,
+    "distributions_HYP": {
+      "P": "uniforme 300–500 MW",
+      "interpretation_P": "par singularité / totale (50/50)",
+      "modele_emission": "corps noir, Page, toutes espèces (1/3 chacun)",
+      "g": "uniforme 1,5–2 g₀",
+      "r": "uniforme 1–3 m",
+      "g_produit_par": "une masse / la paire (50/50)",
+      "masse_unite": "normale 227 kg ± 5 %",
+      "fraction_masse_dans_singularites": "uniforme 0,01–1",
+      "taille_electron": "rayon classique / Compton réduite / borne 1e-18 m (1/3 chacun)",
+      "duree_mission": "log-uniforme 1 h – 30 ans",
+      "Q_sur_Q_extremal": "log-uniforme 1e-6 – 1"
+    },
+    "log10_M_P": {
+      "p05": 11.95414424057531,
+      "mediane": 12.184501976849784,
+      "p95": 12.805909769413098
+    },
+    "log10_M_g": {
+      "p05": 11.266578282347982,
+      "mediane": 11.845389687693439,
+      "p95": 12.30278975442346
+    },
+    "delta_log10_M_P_sur_M_g": {
+      "p05": -0.17557752643395996,
+      "mediane": 0.46507154756511093,
+      "p95": 1.2466927750639203
+    },
+    "par_modele_d_emission": {
+      "photons_corps_noir": {
+        "mediane_log10_M_P": 12.077114079932716,
+        "mediane_delta": 0.21311605971204264,
+        "fraction_accord_facteur_2": 0.5598795216831001
+      },
+      "photons_page": {
+        "mediane_log10_M_P": 12.182513241597302,
+        "mediane_delta": 0.3158044189222573,
+        "fraction_accord_facteur_2": 0.4778952751996871
+      },
+      "toutes_especes": {
+        "mediane_log10_M_P": 12.695354029154657,
+        "mediane_delta": 0.8660095058163361,
+        "fraction_accord_facteur_2": 0.014733406201805741
+      }
+    },
+    "coherence_interne": {
+      "facteur_1.5": {
+        "P_et_g_compatibles": 0.21323,
+        "P_g_duree_et_taille_compatibles": 0.140615,
+        "P_g_duree_taille_ET_masse_unite_compatibles": 0.0
+      },
+      "facteur_2.0": {
+        "P_et_g_compatibles": 0.350585,
+        "P_g_duree_et_taille_compatibles": 0.230565,
+        "P_g_duree_taille_ET_masse_unite_compatibles": 0.0
+      },
+      "facteur_3.0": {
+        "P_et_g_compatibles": 0.509995,
+        "P_g_duree_et_taille_compatibles": 0.327215,
+        "P_g_duree_taille_ET_masse_unite_compatibles": 0.0
+      }
+    },
+    "ecart_masse_unite_vs_puissance_decades": {
+      "min": 9.824601212192043,
+      "mediane": 10.61763087347953,
+      "max": 12.792448336118559
+    },
+    "ecart_masse_unite_vs_pesanteur_decades": {
+      "min": 8.99085805406974,
+      "mediane": 10.137777015069698,
+      "max": 12.330703268325962
+    },
+    "ecart_dilatation_decades": {
+      "min": 20.12732585273476,
+      "mediane": 20.364944268186836,
+      "max": 20.728568147746305
+    },
+    "champ_levitation_V_m": {
+      "min": 113814504736.68979,
+      "mediane": 114090013701805.23,
+      "fraction_sous_1e9_V_m": 0.0
+    },
+    "sensibilite_spearman_sur_delta": {
+      "puissance revendiquée P": -0.07110239461618806,
+      "pesanteur revendiquée g": -0.08051745920079593,
+      "distance d'évaluation r": -0.6046677695513517
+    },
+    "effets_en_decades_sur_delta": {
+      "puissance revendiquée P": -0.1095059441727701,
+      "pesanteur revendiquée g": -0.1190271510139484,
+      "distance d'évaluation r": -0.8908577920592489,
+      "modèle d'émission (toutes espèces − corps noir)": 0.6528934461042935,
+      "modèle d'émission (Page − corps noir)": 0.10268835921021466,
+      "puissance totale plutôt que par singularité": 0.14712404973052245,
+      "g produit par la paire plutôt que par une masse": 0.30444155813292706
+    }
+  },
+  "echelle_des_ecarts_decades": [
+    {
+      "comparaison": "Masse : requise pour 300–500 MW (photons) / disponible (113 kg)",
+      "ecart_decades": 9.871733169934037,
+      "source": "S01"
+    },
+    {
+      "comparaison": "Masse : requise pour 2 g à 1 m / disponible (2 × 113 kg)",
+      "ecart_decades": 9.12700417770525,
+      "source": "S05"
+    },
+    {
+      "comparaison": "Durée de vie : 6 h requises / trou noir de 113 kg",
+      "ecart_decades": 16.5611243529059,
+      "source": "S01"
+    },
+    {
+      "comparaison": "Puissance : trou noir de 113 kg / 500 MW revendiqués",
+      "ecart_decades": 22.058826490486393,
+      "source": "S01"
+    },
+    {
+      "comparaison": "Dilatation : 87 660 revendiqué / obtenu à 1 m (2 × 10¹² kg)",
+      "ecart_decades": 19.775838811191743,
+      "source": "S05"
+    },
+    {
+      "comparaison": "Dilatation : 87 660 revendiqué / obtenu à 1 m (2 × 113 kg)",
+      "ecart_decades": 29.721233061958415,
+      "source": "S05"
+    },
+    {
+      "comparaison": "Champ B d'un piège de Penning (charge extrémale) / 45 T",
+      "ecart_decades": 10.208195660894539,
+      "source": "S06"
+    },
+    {
+      "comparaison": "Champ E de lévitation (charge extrémale) / 10⁹ V/m",
+      "ecart_decades": 2.0561385167945354,
+      "source": "S06"
+    },
+    {
+      "comparaison": "Poids de 10¹² kg / charge utile d'un pick-up",
+      "ecart_decades": 8.991520675577268,
+      "source": "S06"
+    },
+    {
+      "comparaison": "Cylindre de Tipler : masse linéique requise / 227 kg par mètre",
+      "ecart_decades": 23.870509950308843,
+      "source": "S04"
+    },
+    {
+      "comparaison": "Morris-Thorne (gorge 1 m) : énergie négative / Casimir disponible",
+      "ecart_decades": 42.82392436605826,
+      "source": "S07"
+    },
+    {
+      "comparaison": "Alcubierre (R = 3 m, v = c) : énergie négative / Casimir disponible",
+      "ecart_decades": 41.9948636600091,
+      "source": "S07"
+    },
+    {
+      "comparaison": "Région à CTC de Kerr (10¹² kg) : 1 m requis / étendue réelle",
+      "ecart_decades": 15.15240792850346,
+      "source": "S02"
+    }
+  ],
+  "validation": {
+    "simulation": "S09_synthese",
+    "n_tests": 7,
+    "n_passes": 7,
+    "n_echecs": 0,
+    "tests": [
+      {
+        "test": "Table S01 : P_totale(M) strictement décroissante et τ(M) strictement croissante",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Interpolation de M(P = 300 MW, toutes espèces) ↔ inversion exacte de S01",
+        "valeur": 4962268935191.489,
+        "attendu": 4963222831956.043,
+        "ecart_abs": 953896764.5537109,
+        "ecart_rel": 0.0001921930158791144,
+        "tol_rel": 0.005,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Interpolation de M(τ = 30 ans) ↔ inversion exacte de S01",
+        "valeur": 1232744209.4456906,
+        "attendu": 1232387861.1207604,
+        "ecart_abs": 356348.32493019104,
+        "ecart_rel": 0.00028915273849429196,
+        "tol_rel": 0.005,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Monte-Carlo : aucun tirage ne concilie la masse de l'unité avec la puissance ET la pesanteur (fraction)",
+        "valeur": 0.0,
+        "attendu": 0.0,
+        "ecart_abs": 0.0,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Monte-Carlo : l'écart masse de l'unité ↔ masse requise dépasse 8 ordres de grandeur dans TOUS les tirages",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": "minimum = 8.99 décades"
+      },
+      {
+        "test": "Monte-Carlo : convergence (fraction d'accord P↔g, moitié 1 ↔ moitié 2)",
+        "valeur": 0.35077,
+        "attendu": 0.3504,
+        "ecart_abs": 0.00037000000000003697,
+        "ecart_rel": 0.0010559360730594662,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.006324555320336759,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Monte-Carlo : médiane de log10 M_g ↔ calcul direct sur grille",
+        "valeur": 11.845389687693439,
+        "attendu": 11.846465765133836,
+        "ecart_abs": 0.0010760774403966167,
+        "ecart_rel": 9.083531423892649e-05,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.01,
+        "passe": true,
+        "commentaire": ""
+      }
+    ],
+    "n_hors_decompte": 0,
+    "hors_decompte": []
+  }
+}

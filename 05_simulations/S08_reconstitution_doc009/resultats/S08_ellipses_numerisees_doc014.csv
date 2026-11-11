@@ -1,0 +1,10 @@
+element,cx_px,cy_px,demi_axe_horizontal_px,demi_axe_vertical_px,score_noirceur,cx_sur_A,demi_axe_h_sur_A,demi_axe_v_sur_A
+"anneau G2 (« negative », gauche)",70.59,151.61,8.08,67.96,0.9167,-0.6752,0.0553,0.4655
+"anneau G3 (« null », gauche)",47.38,151.92,6.93,51.78,0.9153,-0.8342,0.0475,0.3547
+"anneau G4 (« positive », gauche)",32.25,151.22,5.51,34.14,0.9088,-0.9378,0.0378,0.2338
+"anneau D2 (« negative », droite)",267.92,148.87,6.91,70.51,0.9173,0.6763,0.0473,0.4829
+"anneau D3 (« null », droite)",295.34,147.43,5.44,47.80,0.9188,0.8642,0.0372,0.3274
+"anneau D4 (« positive », droite)",308.92,145.99,5.10,24.63,0.9271,0.9571,0.0349,0.1687
+"sphéroïde central (enveloppe)",143.43,144.44,49.25,31.04,0.7855,-0.1763,0.3373,0.2126
+"grande ellipse extérieure",168.37,150.58,146.56,91.78,0.3937,-0.0055,1.0038,0.6286
+"second grand contour E2 (décalé vers la droite)",189.73,150.40,135.73,93.46,0.3843,0.1408,0.9297,0.6402

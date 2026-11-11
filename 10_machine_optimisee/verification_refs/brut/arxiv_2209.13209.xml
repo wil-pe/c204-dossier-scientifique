@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dqcfPytXyo/Pz/mBU1GoUuZzZyo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2209.13209&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:48:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2209.13209" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2209.13209v1</id>
+    <title>Tracking the Vector Acceleration with a Hybrid Quantum Accelerometer Triad</title>
+    <updated>2022-09-27T07:25:24Z</updated>
+    <link href="https://arxiv.org/abs/2209.13209v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.13209v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robust and accurate acceleration tracking remains a challenge in many fields. For geophysics and economic geology, precise gravity mapping requires onboard sensors combined with accurate positioning and navigation systems. Cold-atom-based quantum inertial sensors can potentially provide such high-precision instruments. However, current scalar instruments require precise alignment with vector quantities. Here, we present the first hybrid three-axis accelerometer exploiting the quantum advantage to measure the full acceleration vector by combining three orthogonal atom interferometer measurements with a classical navigation-grade accelerometer triad. Its ultra-low bias permits tracking the acceleration vector over long timescales -- yielding a 50-fold improvement in stability ($6 \times 10^{-8}~g$) over our classical accelerometers. We record the acceleration vector at a high data rate (1 kHz), with absolute magnitude accuracy below 10 $μg$, and pointing accuracy of 4 $μ$rad. This paves the way toward future strapdown applications with quantum sensors and highlights their potential as future inertial navigation units.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-27T07:25:24Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Simon Templier</name>
+    </author>
+    <author>
+      <name>Pierrick Cheiney</name>
+    </author>
+    <author>
+      <name>Quentin d'Armagnac de Castanet</name>
+    </author>
+    <author>
+      <name>Baptiste Gouraud</name>
+    </author>
+    <author>
+      <name>Henri Porte</name>
+    </author>
+    <author>
+      <name>Fabien Napolitano</name>
+    </author>
+    <author>
+      <name>Philippe Bouyer</name>
+    </author>
+    <author>
+      <name>Baptiste Battelier</name>
+    </author>
+    <author>
+      <name>Brynle Barrett</name>
+    </author>
+  </entry>
+</feed>

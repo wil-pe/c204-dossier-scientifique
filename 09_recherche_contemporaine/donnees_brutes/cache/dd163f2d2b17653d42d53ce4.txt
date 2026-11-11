@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FKl7l1boiaBy533Ckci6tOHOFDg</id>
+  <title>arXiv Query: search_query=ti:CARIOQA&amp;id_list=&amp;start=0&amp;max_results=8</title>
+  <updated>2026-11-11T02:50:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:CARIOQA&amp;start=0&amp;max_results=8&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2211.01215v1</id>
+    <title>CARIOQA: Definition of a Quantum Pathfinder Mission</title>
+    <updated>2022-11-02T15:56:38Z</updated>
+    <link href="https://arxiv.org/abs/2211.01215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.01215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A strong potential gain for space applications is expected from the anticipated performances of inertial sensors based on cold atom interferometry (CAI) that measure the acceleration of freely falling independent atoms by manipulating them with laser light. In this context, CNES and its partners initiated a phase 0 study, called CARIOQA, in order to develop a Quantum Pathfinder Mission unlocking key features of atom interferometry for space and paving the way for future ambitious space missions utilizing this technology. As a cornerstone for the implementation of quantum sensors in space, the CARIOQA phase 0 aimed at defining the Quantum Pathfinder Mission's scenario and associated performance objectives. To comply with these objectives, the payload architecture has been designed to achieve long interrogation time and active rotation compensation on a BEC-based atom interferometer. A study of the satellite architecture, including all the subsystems, has been conducted. Several technical solutions for propulsion and attitude control have been investigated in order to guarantee optimal operating conditions (limitation of micro-vibrations, maximization of measurement time). A preliminary design of the satellite platform was performed.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-02T15:56:38Z</published>
+    <arxiv:comment>Proceedings of International Conference on Space Optics (ICSO) 2022; 3-7 October 2022; Dubrovnik; Croatia</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>T. Lévèque</name>
+    </author>
+    <author>
+      <name>C. Fallet</name>
+    </author>
+    <author>
+      <name>J. Lefebve</name>
+    </author>
+    <author>
+      <name>A. Piquereau</name>
+    </author>
+    <author>
+      <name>A. Gauguet</name>
+    </author>
+    <author>
+      <name>B. Battelier</name>
+    </author>
+    <author>
+      <name>P. Bouyer</name>
+    </author>
+    <author>
+      <name>N. Gaaloul</name>
+    </author>
+    <author>
+      <name>M. Lachmann</name>
+    </author>
+    <author>
+      <name>B. Piest</name>
+    </author>
+    <author>
+      <name>E. Rasel</name>
+    </author>
+    <author>
+      <name>J. Müller</name>
+    </author>
+    <author>
+      <name>C. Schubert</name>
+    </author>
+    <author>
+      <name>Q. Beaufils</name>
+    </author>
+    <author>
+      <name>F. Pereira Dos Santos</name>
+    </author>
+  </entry>
+</feed>

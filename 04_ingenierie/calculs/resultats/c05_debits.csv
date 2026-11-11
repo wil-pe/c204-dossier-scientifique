@@ -1,0 +1,21 @@
+charge,Q_W,fluide,debit_kg_s,debit_m3_s,vitesse_dans_tuyau_5cm_m_s,puissance_pompe_W,autonomie_reservoirs_s,autonomie_reservoirs_borne_haute_s,masse_pour_6h_circuit_ouvert_kg
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,"eau liquide, ΔT = 50 K",633.2,0.6396,325.7,8.528e+05,nan,nan,1.368e+07
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,eau vaporisée (20 → 100 °C + vaporisation),51.13,0.05165,26.3,6.886e+04,0.009681,0.5809,1.104e+06
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,"sodium liquide, ΔT = 150 K",695.7,0.8184,416.8,1.091e+06,nan,nan,1.503e+07
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,"hélium gazeux 70 bar, ΔT = 300 K",85.07,14.18,7221,1.89e+07,nan,nan,1.837e+06
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,"eau liquide, ΔT = 50 K",844.2,0.8528,434.3,1.137e+06,nan,nan,1.824e+07
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,eau vaporisée (20 → 100 °C + vaporisation),68.17,0.06886,35.07,9.182e+04,0.007261,0.4356,1.473e+06
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,"sodium liquide, ΔT = 150 K",927.6,1.091,555.8,1.455e+06,nan,nan,2.004e+07
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,"hélium gazeux 70 bar, ΔT = 300 K",113.4,18.9,9628,2.52e+07,nan,nan,2.45e+06
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,"eau liquide, ΔT = 50 K",1688,1.706,868.6,2.274e+06,nan,nan,3.647e+07
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,eau vaporisée (20 → 100 °C + vaporisation),136.3,0.1377,70.14,1.836e+05,0.00363,0.2178,2.945e+06
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,"sodium liquide, ΔT = 150 K",1855,2.183,1112,2.91e+06,nan,nan,4.007e+07
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,"hélium gazeux 70 bar, ΔT = 300 K",226.8,37.81,1.926e+04,5.041e+07,nan,nan,4.9e+06
+énoncé bas : 300 MW entièrement déposés,3e+08,"eau liquide, ΔT = 50 K",1433,1.448,737.4,1.93e+06,nan,nan,3.096e+07
+énoncé bas : 300 MW entièrement déposés,3e+08,eau vaporisée (20 → 100 °C + vaporisation),115.7,0.1169,59.54,1.559e+05,0.004277,0.2566,2.5e+06
+énoncé bas : 300 MW entièrement déposés,3e+08,"sodium liquide, ΔT = 150 K",1575,1.853,943.6,2.47e+06,nan,nan,3.402e+07
+énoncé bas : 300 MW entièrement déposés,3e+08,"hélium gazeux 70 bar, ΔT = 300 K",192.6,32.09,1.635e+04,4.279e+07,nan,nan,4.159e+06
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,"eau liquide, ΔT = 50 K",4778,4.826,2458,6.435e+06,nan,nan,1.032e+08
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,eau vaporisée (20 → 100 °C + vaporisation),385.8,0.3897,198.5,5.196e+05,0.001283,0.07698,8.334e+06
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,"sodium liquide, ΔT = 150 K",5249,6.176,3145,8.234e+06,nan,nan,1.134e+08
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,"hélium gazeux 70 bar, ΔT = 300 K",641.9,107,5.449e+04,1.426e+08,nan,nan,1.386e+07

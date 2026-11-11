@@ -1,0 +1,1134 @@
+{
+  "programme": "C204 — Équipe D (mathématiques et simulation numérique)",
+  "avertissement": "Simulation illustrative — ce n'est PAS une preuve expérimentale (Équipe D, programme C204 ; aucune affirmation « Titor » n'est tenue pour vraie)",
+  "date_de_generation": "voir l'horodatage du fichier",
+  "validation_par_simulation": {
+    "S01": {
+      "n_tests": 18,
+      "n_passes": 18,
+      "n_echecs": 0,
+      "n_hors_decompte": 1
+    },
+    "S02": {
+      "n_tests": 17,
+      "n_passes": 17,
+      "n_echecs": 0,
+      "n_hors_decompte": 0
+    },
+    "S03": {
+      "n_tests": 41,
+      "n_passes": 41,
+      "n_echecs": 0,
+      "n_hors_decompte": 0
+    },
+    "S04": {
+      "n_tests": 25,
+      "n_passes": 25,
+      "n_echecs": 0,
+      "n_hors_decompte": 0
+    },
+    "S05": {
+      "n_tests": 11,
+      "n_passes": 11,
+      "n_echecs": 0,
+      "n_hors_decompte": 0
+    },
+    "S06": {
+      "n_tests": 20,
+      "n_passes": 20,
+      "n_echecs": 0,
+      "n_hors_decompte": 0
+    },
+    "S07": {
+      "n_tests": 12,
+      "n_passes": 12,
+      "n_echecs": 0,
+      "n_hors_decompte": 1
+    },
+    "S08": {
+      "n_tests": 9,
+      "n_passes": 9,
+      "n_echecs": 0,
+      "n_hors_decompte": 21
+    },
+    "S09": {
+      "n_tests": 7,
+      "n_passes": 7,
+      "n_echecs": 0,
+      "n_hors_decompte": 0
+    }
+  },
+  "validation_totale": {
+    "n_tests": 160,
+    "n_passes": 160,
+    "n_echecs": 0,
+    "n_hors_decompte": 23,
+    "hors_decompte_par_categorie": {
+      "biais de modèle": 1,
+      "repère non vérifié": 1,
+      "contrôle": 18,
+      "résultat": 3
+    },
+    "definition": "un test de validation confronte le code à une réponse connue indépendamment et peut échouer ; les contrôles de l'ajustement sur lui-même, les énoncés de résultat, les repères non vérifiés et les biais de modèle documentés sont consignés hors décompte",
+    "rapprochement_avec_la_red_team": "181 « tests » annoncés en phase 5 ; correction n° 39 : 17 éléments de S08 sortis (164 + 17) ; n° 41 : repère Pfenning & Ford sorti ; n° 42 : comparaison de M* (biais de modèle) sortie ; deux autres éléments de S08 sortis par le même critère (constat sur les anneaux = résultat ; affinage des ancres = borné par construction) ; deux contrôles nouveaux ajoutés en phase 7 (second contour E2, méthode abandonnée)"
+  },
+  "elements_hors_decompte": {
+    "S01": [
+      {
+        "categorie": "biais de modèle",
+        "element": "M* intégré (τ = 13,8 Ga) contre 5,0e11 kg (MacGibbon, Carr & Page 2008)",
+        "valeur": 534024103845.09216,
+        "attendu": 500000000000.0,
+        "constat": null,
+        "commentaire": "écart +6.8 % : biais de la paramétrisation f(M) de 1991, commun à l'Équipe B"
+      }
+    ],
+    "S07": [
+      {
+        "categorie": "repère non vérifié",
+        "element": "Pfenning & Ford : R = 100 m, Δ = 100 L_P, v = c → masse équivalente [kg]",
+        "valeur": -6.942958163387575e+62,
+        "attendu": -6.2e+62,
+        "constat": true,
+        "commentaire": "valeur de référence citée de mémoire, absente du résumé en ligne ; écart obtenu 12 % (0,05 décade)"
+      }
+    ],
+    "S08": [
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau G2 (« negative », gauche))",
+        "valeur": 5.306788348800293,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau G2 (« negative », gauche))",
+        "valeur": 1.0618114541350394,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau G3 (« null », gauche))",
+        "valeur": 5.216644662131963,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau G3 (« null », gauche))",
+        "valeur": 0.5198039094401423,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau G4 (« positive », gauche))",
+        "valeur": 5.226292231107113,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau G4 (« positive », gauche))",
+        "valeur": 0.98443347163429,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau D2 (« negative », droite))",
+        "valeur": 4.888870391808727,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau D2 (« negative », droite))",
+        "valeur": 0.6682041649278716,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau D3 (« null », droite))",
+        "valeur": 4.829567651902666,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau D3 (« null », droite))",
+        "valeur": 0.7877178649279415,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau D4 (« positive », droite))",
+        "valeur": 4.7056039735669435,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau D4 (« positive », droite))",
+        "valeur": 1.278406262868998,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (sphéroïde central (enveloppe))",
+        "valeur": 3.6606583534360246,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (sphéroïde central (enveloppe))",
+        "valeur": 1.2243320347656663,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (grande ellipse extérieure)",
+        "valeur": 1.869204003869811,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (second grand contour E2 (décalé vers la droite))",
+        "valeur": 2.6610065726200105,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "résultat",
+        "element": "Les sommets des 6 anneaux sont sur une même ellipse E1 : erreur max. de validation croisée par paires [px]",
+        "valeur": 5.191244787315789,
+        "attendu": null,
+        "constat": false,
+        "commentaire": "l'ellipse ajustée à deux paires prédit le rayon de la troisième ; RMS 2.66 px ; RMS des 12 sommets 1.14 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Ancres de l'entonnoir : déplacement max. lors de l'affinage automatique [px]",
+        "valeur": 1.8349769624662144,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné à ±2 px par la fenêtre de recherche : ne peut pas échouer"
+      },
+      {
+        "categorie": "résultat",
+        "element": "Sphéroïde central : erreur de prédiction des pôles, ellipse [px] (référence : meilleure famille physique)",
+        "valeur": 0.7610083313205396,
+        "attendu": 3.4466760892381583,
+        "constat": true,
+        "commentaire": "zone déclarée « not to scale » par le document : résultat descriptif"
+      },
+      {
+        "categorie": "résultat",
+        "element": "RMS de la meilleure famille physique rapporté à celui de l'ellipse (minimum sur les deux contours)",
+        "valeur": 1.0119165277523194,
+        "attendu": 1.0,
+        "constat": true,
+        "commentaire": "{'sphéroïde central (enveloppe)': ('équipotentielle de deux masses (écartement libre)', 1.03), 'grande ellipse extérieure': ('équipotentielle de deux masses (écartement libre)', 1.01)} — un rapport de 1,03 à 1,08 signifie « aussi bien que l'ellipse », non « moins bien » : le RMS ne départage pas les familles à 4 paramètres"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Méthode abandonnée (score de noirceur) : meilleur score d'une famille physique rapporté à l'ellipse, max. sur les deux cibles",
+        "valeur": 1.127490630578201,
+        "attendu": 1.0,
+        "constat": null,
+        "commentaire": "sphéroïde central : « équipotentielle de deux masses » obtient 1.13 fois le score de l'ellipse et passe à 5.5 px (RMS) des points du contour, contre 1.5 px pour l'ellipse ; grande ellipse extérieure : « horizon de Kerr, axe vertical » obtient 0.83 fois le score de l'ellipse et passe à 6.5 px (RMS) des points du contour, contre 1.8 px pour l'ellipse. Un score supérieur ou voisin de celui de l'ellipse s'obtient donc avec une courbe qui ne suit pas le contour (elle longe d'autres traits) : le score de noirceur n'est pas un critère de ressemblance."
+      }
+    ]
+  },
+  "tableau_ordres_de_grandeur": [
+    {
+      "id": "S01-01",
+      "grandeur": "Rayon de Schwarzschild par unité de masse",
+      "valeur": 1.4852320538237331e-27,
+      "unite": "m/kg",
+      "formule": "r_s = 2GM/c²",
+      "hypotheses": "Schwarzschild",
+      "source": "S01",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Démontré (RG)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S01-02",
+      "grandeur": "Température de Hawking × masse",
+      "valeur": 1.2269006698422716e+23,
+      "unite": "K·kg",
+      "formule": "T = ħc³/(8πGMk_B)",
+      "hypotheses": "semi-classique, M ≫ M_Planck",
+      "source": "S01",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Théoriquement possible (non observé)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S01-03",
+      "grandeur": "Puissance × M², photons, corps noir",
+      "valeur": 3.561622142596221e+32,
+      "unite": "W·kg²",
+      "formule": "P = ħc⁶/(15360πG²M²)",
+      "hypotheses": "surface 4πr_s², photons seuls",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S01-04",
+      "grandeur": "Puissance × M², photons, corps gris",
+      "valeur": 5.784995729629106e+32,
+      "unite": "W·kg²",
+      "formule": "P = 3,366e-5 ħc⁶/(G²M²)",
+      "hypotheses": "Page 1976",
+      "source": "S01",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S01-05",
+      "grandeur": "Masse donnant 300–500 MW (photons, corps noir)",
+      "valeur": [
+        843993144829.5325,
+        1089590464746.0012
+      ],
+      "unite": "kg",
+      "formule": "inversion de S01-03",
+      "hypotheses": "—",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "élevé",
+      "revendication_comparee": "300–500 MW"
+    },
+    {
+      "id": "S01-06",
+      "grandeur": "Masse donnant 300–500 MW (toutes espèces)",
+      "valeur": [
+        3852610628198.3228,
+        4963222831956.043
+      ],
+      "unite": "kg",
+      "formule": "P = α f(M) c²/M²",
+      "hypotheses": "f(M) de MacGibbon 1991 (+ W, Z, H [HYP])",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "moyen",
+      "revendication_comparee": "300–500 MW"
+    },
+    {
+      "id": "S01-07",
+      "grandeur": "Masse donnant 1,5–2 g entre 1 et 3 m",
+      "valeur": [
+        220397270125.7061,
+        2644767241508.473
+      ],
+      "unite": "kg",
+      "formule": "M = a r²/G",
+      "hypotheses": "masse ponctuelle unique",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré (Newton)",
+      "confiance": "élevé",
+      "revendication_comparee": "1,5–2 g"
+    },
+    {
+      "id": "S01-08",
+      "grandeur": "Durée de vie d'un trou noir de 113 kg (toutes espèces)",
+      "valeur": 5.933752097519743e-13,
+      "unite": "s",
+      "formule": "τ = ∫M²dM/(αf)",
+      "hypotheses": "semi-classique",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "moyen",
+      "revendication_comparee": "unité de 227 kg"
+    },
+    {
+      "id": "S01-09",
+      "grandeur": "Puissance d'un trou noir de 113 kg (toutes espèces)",
+      "valeur": 5.725276885219235e+30,
+      "unite": "W",
+      "formule": "P = α f c²/M²",
+      "hypotheses": "semi-classique",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "moyen",
+      "revendication_comparee": "300–500 MW"
+    },
+    {
+      "id": "S01-10",
+      "grandeur": "Masse minimale pour vivre 6 h / 1 an / 30 ans",
+      "valeur": [
+        37382083.83891565,
+        409135883.9481611,
+        1232387861.1207604
+      ],
+      "unite": "kg",
+      "formule": "τ(M) = durée",
+      "hypotheses": "durées de mission [HYP]",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "moyen"
+    },
+    {
+      "id": "S01-11",
+      "grandeur": "Masse d'un trou noir de rayon = rayon classique de l'électron",
+      "valeur": 1897306430298.306,
+      "unite": "kg",
+      "formule": "M = r c²/(2G)",
+      "hypotheses": "« taille d'un électron » = 2,82 fm [HYP]",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré (RG)",
+      "confiance": "élevé",
+      "revendication_comparee": "« plus petites qu'un électron »"
+    },
+    {
+      "id": "S01-12",
+      "grandeur": "Écart entre la masse de l'unité et la masse requise",
+      "valeur": 9.871733169934037,
+      "unite": "ordres de grandeur",
+      "formule": "log10(M_P / 113 kg)",
+      "hypotheses": "—",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Contredit les connaissances actuelles (si l'on maintient les deux revendications)",
+      "confiance": "élevé",
+      "revendication_comparee": "227 kg vs 300–500 MW"
+    },
+    {
+      "id": "S01-13",
+      "grandeur": "Température d'équilibre d'une paroi noire à 1 m de 300–500 MW",
+      "valeur": [
+        4529.757088850898,
+        5146.797729745832
+      ],
+      "unite": "K",
+      "formule": "T = (P/(4πr²σ))^(1/4)",
+      "hypotheses": "absorption totale, équilibre radiatif",
+      "source": "S01",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré",
+      "confiance": "moyen",
+      "revendication_comparee": "« 100 à 120 °F »"
+    },
+    {
+      "id": "S02-01",
+      "grandeur": "Rayon gravitationnel pour 1e12 kg",
+      "valeur": 7.426160269118665e-16,
+      "unite": "m",
+      "formule": "r_g = GM/c²",
+      "hypotheses": "—",
+      "source": "S02",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Démontré (RG)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S02-02",
+      "grandeur": "Étendue radiale de la région à CTC (Kerr a = 0,9 M), 1e12 kg",
+      "valeur": 7.040314685162356e-16,
+      "unite": "m",
+      "formule": "racine de r³ + a²r + 2Ma² = 0",
+      "hypotheses": "extension r < 0 de Kerr éternel",
+      "source": "S02",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Spéculatif (derrière un horizon de Cauchy instable)",
+      "confiance": "élevé (calcul) / faible (réalité physique)"
+    },
+    {
+      "id": "S02-03",
+      "grandeur": "Masse pour laquelle r_g = 1 m",
+      "valeur": 1.346590921500109e+27,
+      "unite": "kg",
+      "formule": "M = c²/G",
+      "hypotheses": "—",
+      "source": "S02",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Démontré (RG)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S02-04",
+      "grandeur": "Moment cinétique maximal d'un trou noir de 1e12 kg",
+      "valeur": 222630.6840581026,
+      "unite": "kg·m²/s",
+      "formule": "J = GM²/c",
+      "hypotheses": "Kerr extrémal",
+      "source": "S02",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Démontré (RG)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S03-01",
+      "grandeur": "Énergie minimale par unité de masse pour traverser le disque sur l'axe (a = 0,9 M)",
+      "valeur": 1.4529663145135578,
+      "unite": "c² (sans dimension)",
+      "formule": "E² > 1 + M/a",
+      "hypotheses": "géodésique axiale, Kerr éternel",
+      "source": "S03",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Spéculatif",
+      "confiance": "élevé (calcul)"
+    },
+    {
+      "id": "S03-02",
+      "grandeur": "Temps propre de chute équatoriale 10 M → anneau, pour 1e12 kg",
+      "valeur": 3.7004213886168977e-23,
+      "unite": "s",
+      "formule": "14,9 GM/c³",
+      "hypotheses": "E = 1, L_z = 0,5 M",
+      "source": "S03",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "élevé (calcul)"
+    },
+    {
+      "id": "S03-03",
+      "grandeur": "dt/dτ maximal sur orbite circulaire stable (a = 0,998 M)",
+      "valeur": 10.790942834217475,
+      "unite": "sans dimension",
+      "formule": "u^t à l'ISCO",
+      "hypotheses": "Kerr",
+      "source": "S03",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Démontré (RG)",
+      "confiance": "élevé",
+      "revendication_comparee": "dt/dτ ≈ 87 660"
+    },
+    {
+      "id": "S03-04",
+      "grandeur": "Altitude au-dessus de l'horizon pour dt/dτ = 87 660 (statique, 1e12 kg)",
+      "valeur": 1.9328198663563458e-25,
+      "unite": "m",
+      "formule": "1 − r_s/r = 1/87 660²",
+      "hypotheses": "Schwarzschild, observateur statique",
+      "source": "S03",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Théoriquement possible (irréalisable)",
+      "confiance": "élevé",
+      "revendication_comparee": "dt/dτ ≈ 87 660"
+    },
+    {
+      "id": "S04-01",
+      "grandeur": "Masse linéique minimale d'un cylindre de Tipler à CTC",
+      "valeur": 1.6832386518751362e+26,
+      "unite": "kg/m",
+      "formule": "μ = c²/(8G) (aR = 1/2)",
+      "hypotheses": "cylindre de poussière INFINI en rotation rigide",
+      "source": "S04",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Spéculatif (solution non asymptotiquement plate)",
+      "confiance": "élevé (calcul)",
+      "revendication_comparee": "« sinusoïde de Tipler »"
+    },
+    {
+      "id": "S04-02",
+      "grandeur": "Rapport entre cette masse linéique et 227 kg/m",
+      "valeur": 7.421812019788324e+23,
+      "unite": "sans dimension",
+      "formule": "c²/(8G) / 227",
+      "hypotheses": "—",
+      "source": "S04",
+      "etiquette": "[DÉD]",
+      "statut_physique": "—",
+      "confiance": "élevé",
+      "revendication_comparee": "unité de 227 kg"
+    },
+    {
+      "id": "S04-03",
+      "grandeur": "Densité axiale d'un cylindre de rayon 0,1 m au seuil aR = 0,6",
+      "valeur": 7.715397653258856e+27,
+      "unite": "kg/m³",
+      "formule": "ρ₀ = (aRc/R)²/(2πG)",
+      "hypotheses": "van Stockum",
+      "source": "S04",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Contredit les connaissances actuelles (10¹⁰ fois la densité nucléaire)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S05-01",
+      "grandeur": "Pesanteur à 1 m de deux masses de 113 kg",
+      "valeur": 1.49288315592895e-09,
+      "unite": "g₀",
+      "formule": "g = 2GM/r²",
+      "hypotheses": "champ faible",
+      "source": "S05",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré (Newton)",
+      "confiance": "élevé",
+      "revendication_comparee": "1,5–2 g"
+    },
+    {
+      "id": "S05-02",
+      "grandeur": "dt/dτ − 1 à 1 m de deux masses de 1e12 kg",
+      "valeur": 1.4687999704715336e-15,
+      "unite": "sans dimension",
+      "formule": "−Φ/c²",
+      "hypotheses": "champ faible",
+      "source": "S05",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré (RG, champ faible)",
+      "confiance": "élevé",
+      "revendication_comparee": "dt/dτ ≈ 87 660"
+    },
+    {
+      "id": "S05-03",
+      "grandeur": "dt/dτ − 1 à 1 m de deux masses de 113 kg",
+      "valeur": 1.6655911491552825e-25,
+      "unite": "sans dimension",
+      "formule": "−Φ/c²",
+      "hypotheses": "champ faible",
+      "source": "S05",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré (RG, champ faible)",
+      "confiance": "élevé",
+      "revendication_comparee": "dt/dτ ≈ 87 660"
+    },
+    {
+      "id": "S05-04",
+      "grandeur": "Marée sur 1 m à 1 m du centre (masses donnant 2 g à 1 m)",
+      "valeur": 6.154197390281792,
+      "unite": "g₀",
+      "formule": "|g(r − ½) − g(r + ½)|",
+      "hypotheses": "occupant d'étendue radiale 1 m [HYP]",
+      "source": "S05",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré (Newton)",
+      "confiance": "élevé",
+      "revendication_comparee": "« 1,5 à 2 g pendant tout le trajet »"
+    },
+    {
+      "id": "S05-05",
+      "grandeur": "Entraînement des référentiels à 1 m (2 × 1e12 kg, d = 0,3 m, orbite képlérienne)",
+      "valeur": 4.699404244716512e-15,
+      "unite": "rad/s",
+      "formule": "Ω_LT = 2GJ/(c²r³)",
+      "hypotheses": "gravito-électromagnétisme linéarisé",
+      "source": "S05",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré (Gravity Probe B, LAGEOS pour la Terre)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S05-06",
+      "grandeur": "Puissance en ondes gravitationnelles (2 × 1e12 kg, d = 0,3 m)",
+      "valeur": 4.316413836678299e-20,
+      "unite": "W",
+      "formule": "P = (32/5)G⁴M⁵·2/(c⁵d⁵)",
+      "hypotheses": "quadrupôle, orbite circulaire képlérienne",
+      "source": "S05",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré (pulsars binaires, LIGO)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S05-07",
+      "grandeur": "Temps de coalescence (2 × 1e12 kg, d = 0,3 m [HYP])",
+      "valeur": 2.0415848713347103e+25,
+      "unite": "ans",
+      "formule": "t = (5/256)c⁵d⁴/(2G³M³)",
+      "hypotheses": "Peters 1964",
+      "source": "S05",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S05-08",
+      "grandeur": "Idem à l'entraxe documentaire d = 0,098 m (DOC-007, Équipe A) : temps de coalescence ; pulsation orbitale ; entraînement à 1 m",
+      "valeur": [
+        2.3248060262430045e+23,
+        376.598638954225,
+        2.6859332487457925e-15
+      ],
+      "unite": "ans ; rad/s ; rad/s",
+      "formule": "Peters ; Ω² = 2GM/d³ ; Ω_LT = 2GJ/(c²r³)",
+      "hypotheses": "entraxe 98 ± 25 mm [DÉD Équipe A]",
+      "source": "S05",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S06-01",
+      "grandeur": "Rapport charge/masse extrémal",
+      "valeur": 8.617517197589872e-11,
+      "unite": "C/kg",
+      "formule": "Q/M = sqrt(4πε₀G)",
+      "hypotheses": "Kerr-Newman",
+      "source": "S06",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Démontré (RG)",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S06-02",
+      "grandeur": "Champ électrique de lévitation (charge extrémale)",
+      "valeur": 113799018616.90164,
+      "unite": "V/m",
+      "formule": "E = g₀/(Q/M)",
+      "hypotheses": "pesanteur terrestre",
+      "source": "S06",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Contredit les connaissances actuelles (≫ champs de claquage)",
+      "confiance": "élevé",
+      "revendication_comparee": "« logements magnétiques »"
+    },
+    {
+      "id": "S06-03",
+      "grandeur": "Champ magnétique minimal d'un piège de Penning (charge extrémale, d₀ = 5 cm)",
+      "valeur": 726788713933.242,
+      "unite": "T",
+      "formule": "B = sqrt(2g/(f d₀))/(Q/M)",
+      "hypotheses": "affaissement ≤ 10 %",
+      "source": "S06",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Contredit les connaissances actuelles (> champ d'un magnétar)",
+      "confiance": "élevé",
+      "revendication_comparee": "« singularity magnetic field coil »"
+    },
+    {
+      "id": "S06-04",
+      "grandeur": "Charge d'un micro-trou noir : valeur typique (quadratique moyenne) ; borne supérieure d'ordre de grandeur",
+      "valeur": [
+        6.139999999999999,
+        137.03599900014376
+      ],
+      "unite": "e",
+      "formule": "≈ 6,14 e (Page 1977) ; ≲ e/α",
+      "hypotheses": "GMμ/ħc ≪ 1 ; r_s ≪ longueur de Compton de l'électron",
+      "source": "S06",
+      "etiquette": "[VÉR] (typique, résumé vérifié par la Red Team) / [DÉD] (borne)",
+      "statut_physique": "Théoriquement possible",
+      "confiance": "moyen",
+      "revendication_comparee": "« chargées électriquement »"
+    },
+    {
+      "id": "S06-05",
+      "grandeur": "Poids d'une singularité de 1e12 kg transmis au véhicule",
+      "valeur": 9806650000000.0,
+      "unite": "N",
+      "formule": "F = M g₀",
+      "hypotheses": "troisième loi de Newton",
+      "source": "S06",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Démontré",
+      "confiance": "élevé",
+      "revendication_comparee": "camion de 1987"
+    },
+    {
+      "id": "S07-01",
+      "grandeur": "Masse exotique d'un trou de ver de Morris-Thorne à gorge de 1 m",
+      "valeur": -6.732954607500545e+26,
+      "unite": "kg",
+      "formule": "M = −b₀c²/(2G)",
+      "hypotheses": "Φ = 0, asymptotiquement plat",
+      "source": "S07",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Spéculatif",
+      "confiance": "élevé (calcul)"
+    },
+    {
+      "id": "S07-02",
+      "grandeur": "Tension à la gorge (b₀ = 1 m)",
+      "valeur": 4.815453886722423e+42,
+      "unite": "Pa",
+      "formule": "τ = c⁴/(8πG b₀²)",
+      "hypotheses": "—",
+      "source": "S07",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Spéculatif",
+      "confiance": "élevé (calcul)"
+    },
+    {
+      "id": "S07-03",
+      "grandeur": "Énergie négative d'une bulle d'Alcubierre (R = 3 m, paroi 0,25 m, v = c)",
+      "valeur": -2.421866224237236e+44,
+      "unite": "J",
+      "formule": "E = −(c²v²/12G)∫r²f'²dr",
+      "hypotheses": "observateurs eulériens",
+      "source": "S07",
+      "etiquette": "[DÉD]",
+      "statut_physique": "Spéculatif",
+      "confiance": "élevé (calcul)"
+    },
+    {
+      "id": "S07-04",
+      "grandeur": "Densité d'énergie Casimir à 100 nm",
+      "valeur": -4.333752574825845,
+      "unite": "J/m³",
+      "formule": "u = −π²ħc/(720d⁴)",
+      "hypotheses": "plaques idéales, T = 0",
+      "source": "S07",
+      "etiquette": "[VÉR]",
+      "statut_physique": "Démontré",
+      "confiance": "élevé"
+    },
+    {
+      "id": "S07-05",
+      "grandeur": "Rapport énergie requise (Morris-Thorne 1 m) / Casimir disponible dans 1 m de rayon",
+      "valeur": 6.666906525344404e+42,
+      "unite": "sans dimension",
+      "formule": "—",
+      "hypotheses": "cavités de 100 nm, remplissage 50 % [HYP]",
+      "source": "S07",
+      "etiquette": "[DÉD]",
+      "statut_physique": "—",
+      "confiance": "moyen"
+    },
+    {
+      "id": "S08-01",
+      "grandeur": "Rapport d'axes du sphéroïde central de DOC-009",
+      "valeur": 1.5750359250176256,
+      "unite": "sans dimension",
+      "formule": "a/b (ellipse ajustée)",
+      "hypotheses": "numérisation ±1 px",
+      "source": "S08",
+      "etiquette": "[DÉD]",
+      "statut_physique": "— (dessin)",
+      "confiance": "moyen"
+    },
+    {
+      "id": "S08-02",
+      "grandeur": "Rapport d'axes du grand contour E1 (enveloppe des anneaux) de DOC-009",
+      "valeur": 1.5442681819902628,
+      "unite": "sans dimension",
+      "formule": "a/b (ellipse ajustée)",
+      "hypotheses": "numérisation ±1 px",
+      "source": "S08",
+      "etiquette": "[DÉD]",
+      "statut_physique": "— (dessin)",
+      "confiance": "moyen"
+    },
+    {
+      "id": "S08-03",
+      "grandeur": "Erreur de prédiction des pôles : ellipse / ergosurface de Kerr",
+      "valeur": [
+        0.7610083313205396,
+        5.313393479295801
+      ],
+      "unite": "px",
+      "formule": "distance pôles dessinés ↔ courbe ajustée sur les arcs",
+      "hypotheses": "zone déclarée « not to scale » par le document : résultat descriptif, sans valeur de preuve",
+      "source": "S08",
+      "etiquette": "[DÉD]",
+      "statut_physique": "— (dessin)",
+      "confiance": "faible (comme test physique)",
+      "revendication_comparee": "« singularities in Kerr field »"
+    },
+    {
+      "id": "S08-04",
+      "grandeur": "Décalage du centre des anneaux par rapport aux masses",
+      "valeur": 0.22238681841190397,
+      "unite": "demi-grand axe A",
+      "formule": "(X_centre − X_masses)/A",
+      "hypotheses": "—",
+      "source": "S08",
+      "etiquette": "[DOC] (lecture) / [DÉD]",
+      "statut_physique": "— (dessin)",
+      "confiance": "moyen",
+      "revendication_comparee": "« mass offset »"
+    },
+    {
+      "id": "S08-05",
+      "grandeur": "Échelle du dessin d'après les quatre cotes en mètres de la variante DOC-014 ; dispersion",
+      "valeur": [
+        7.573598484848485,
+        0.08931946984602453
+      ],
+      "unite": "px de référence par mètre ; sans dimension",
+      "formule": "longueur dessinée / valeur inscrite (cotes 6, 7, 8, 9)",
+      "hypotheses": "DOC-014 seulement ; attribution à l'auteur non établie",
+      "source": "S08",
+      "etiquette": "[DOC] (valeurs) / [DÉD] (échelle)",
+      "statut_physique": "— (dessin)",
+      "confiance": "moyen",
+      "revendication_comparee": "6, 5, 8 et 11 mètres"
+    },
+    {
+      "id": "S08-06",
+      "grandeur": "Demi-envergures des trois paires d'anneaux à l'échelle de DOC-014",
+      "valeur": [
+        13.05337122032189,
+        16.361679039686546,
+        18.234794712271505
+      ],
+      "unite": "m",
+      "formule": "demi-envergure dessinée / échelle",
+      "hypotheses": "échelle moyenne des quatre cotes",
+      "source": "S08",
+      "etiquette": "[DÉD]",
+      "statut_physique": "— (dessin)",
+      "confiance": "moyen",
+      "revendication_comparee": "« champ efficace 10–12 ft » (3,0–3,7 m)"
+    }
+  ],
+  "echelle_des_ecarts_decades": [
+    {
+      "comparaison": "Masse : requise pour 300–500 MW (photons) / disponible (113 kg)",
+      "ecart_decades": 9.871733169934037,
+      "source": "S01"
+    },
+    {
+      "comparaison": "Masse : requise pour 2 g à 1 m / disponible (2 × 113 kg)",
+      "ecart_decades": 9.12700417770525,
+      "source": "S05"
+    },
+    {
+      "comparaison": "Durée de vie : 6 h requises / trou noir de 113 kg",
+      "ecart_decades": 16.5611243529059,
+      "source": "S01"
+    },
+    {
+      "comparaison": "Puissance : trou noir de 113 kg / 500 MW revendiqués",
+      "ecart_decades": 22.058826490486393,
+      "source": "S01"
+    },
+    {
+      "comparaison": "Dilatation : 87 660 revendiqué / obtenu à 1 m (2 × 10¹² kg)",
+      "ecart_decades": 19.775838811191743,
+      "source": "S05"
+    },
+    {
+      "comparaison": "Dilatation : 87 660 revendiqué / obtenu à 1 m (2 × 113 kg)",
+      "ecart_decades": 29.721233061958415,
+      "source": "S05"
+    },
+    {
+      "comparaison": "Champ B d'un piège de Penning (charge extrémale) / 45 T",
+      "ecart_decades": 10.208195660894539,
+      "source": "S06"
+    },
+    {
+      "comparaison": "Champ E de lévitation (charge extrémale) / 10⁹ V/m",
+      "ecart_decades": 2.0561385167945354,
+      "source": "S06"
+    },
+    {
+      "comparaison": "Poids de 10¹² kg / charge utile d'un pick-up",
+      "ecart_decades": 8.991520675577268,
+      "source": "S06"
+    },
+    {
+      "comparaison": "Cylindre de Tipler : masse linéique requise / 227 kg par mètre",
+      "ecart_decades": 23.870509950308843,
+      "source": "S04"
+    },
+    {
+      "comparaison": "Morris-Thorne (gorge 1 m) : énergie négative / Casimir disponible",
+      "ecart_decades": 42.82392436605826,
+      "source": "S07"
+    },
+    {
+      "comparaison": "Alcubierre (R = 3 m, v = c) : énergie négative / Casimir disponible",
+      "ecart_decades": 41.9948636600091,
+      "source": "S07"
+    },
+    {
+      "comparaison": "Région à CTC de Kerr (10¹² kg) : 1 m requis / étendue réelle",
+      "ecart_decades": 15.15240792850346,
+      "source": "S02"
+    }
+  ],
+  "monte_carlo": {
+    "n_tirages": 200000,
+    "graine": 204,
+    "distributions_HYP": {
+      "P": "uniforme 300–500 MW",
+      "interpretation_P": "par singularité / totale (50/50)",
+      "modele_emission": "corps noir, Page, toutes espèces (1/3 chacun)",
+      "g": "uniforme 1,5–2 g₀",
+      "r": "uniforme 1–3 m",
+      "g_produit_par": "une masse / la paire (50/50)",
+      "masse_unite": "normale 227 kg ± 5 %",
+      "fraction_masse_dans_singularites": "uniforme 0,01–1",
+      "taille_electron": "rayon classique / Compton réduite / borne 1e-18 m (1/3 chacun)",
+      "duree_mission": "log-uniforme 1 h – 30 ans",
+      "Q_sur_Q_extremal": "log-uniforme 1e-6 – 1"
+    },
+    "log10_M_P": {
+      "p05": 11.95414424057531,
+      "mediane": 12.184501976849784,
+      "p95": 12.805909769413098
+    },
+    "log10_M_g": {
+      "p05": 11.266578282347982,
+      "mediane": 11.845389687693439,
+      "p95": 12.30278975442346
+    },
+    "delta_log10_M_P_sur_M_g": {
+      "p05": -0.17557752643395996,
+      "mediane": 0.46507154756511093,
+      "p95": 1.2466927750639203
+    },
+    "par_modele_d_emission": {
+      "photons_corps_noir": {
+        "mediane_log10_M_P": 12.077114079932716,
+        "mediane_delta": 0.21311605971204264,
+        "fraction_accord_facteur_2": 0.5598795216831001
+      },
+      "photons_page": {
+        "mediane_log10_M_P": 12.182513241597302,
+        "mediane_delta": 0.3158044189222573,
+        "fraction_accord_facteur_2": 0.4778952751996871
+      },
+      "toutes_especes": {
+        "mediane_log10_M_P": 12.695354029154657,
+        "mediane_delta": 0.8660095058163361,
+        "fraction_accord_facteur_2": 0.014733406201805741
+      }
+    },
+    "coherence_interne": {
+      "facteur_1.5": {
+        "P_et_g_compatibles": 0.21323,
+        "P_g_duree_et_taille_compatibles": 0.140615,
+        "P_g_duree_taille_ET_masse_unite_compatibles": 0.0
+      },
+      "facteur_2.0": {
+        "P_et_g_compatibles": 0.350585,
+        "P_g_duree_et_taille_compatibles": 0.230565,
+        "P_g_duree_taille_ET_masse_unite_compatibles": 0.0
+      },
+      "facteur_3.0": {
+        "P_et_g_compatibles": 0.509995,
+        "P_g_duree_et_taille_compatibles": 0.327215,
+        "P_g_duree_taille_ET_masse_unite_compatibles": 0.0
+      }
+    },
+    "ecart_masse_unite_vs_puissance_decades": {
+      "min": 9.824601212192043,
+      "mediane": 10.61763087347953,
+      "max": 12.792448336118559
+    },
+    "ecart_masse_unite_vs_pesanteur_decades": {
+      "min": 8.99085805406974,
+      "mediane": 10.137777015069698,
+      "max": 12.330703268325962
+    },
+    "ecart_dilatation_decades": {
+      "min": 20.12732585273476,
+      "mediane": 20.364944268186836,
+      "max": 20.728568147746305
+    },
+    "champ_levitation_V_m": {
+      "min": 113814504736.68979,
+      "mediane": 114090013701805.23,
+      "fraction_sous_1e9_V_m": 0.0
+    },
+    "sensibilite_spearman_sur_delta": {
+      "puissance revendiquée P": -0.07110239461618806,
+      "pesanteur revendiquée g": -0.08051745920079593,
+      "distance d'évaluation r": -0.6046677695513517
+    },
+    "effets_en_decades_sur_delta": {
+      "puissance revendiquée P": -0.1095059441727701,
+      "pesanteur revendiquée g": -0.1190271510139484,
+      "distance d'évaluation r": -0.8908577920592489,
+      "modèle d'émission (toutes espèces − corps noir)": 0.6528934461042935,
+      "modèle d'émission (Page − corps noir)": 0.10268835921021466,
+      "puissance totale plutôt que par singularité": 0.14712404973052245,
+      "g produit par la paire plutôt que par une masse": 0.30444155813292706
+    }
+  },
+  "desaccords_avec_le_dossier_de_base": [
+    {
+      "sujet": "Masse donnant 300–500 MW",
+      "dossier_de_base": "0,84–1,1e12 kg (photons seuls, corps noir)",
+      "equipe_D": "3,9×10¹² à 5,0×10¹² kg si l'on compte toutes les espèces émises ; le chiffre du dossier est exact pour son hypothèse (photons, corps noir) mais sous-estime la masse d'un facteur ~4,6 pour une puissance TOTALE donnée",
+      "consequence": "avec toutes les espèces, « 300–500 MW » et « 2 g entre 1 et 3 m » ne se recoupent plus (facteur ~1,5 à 20) : la cohérence interne notée au §6 du dossier dépend du modèle d'émission"
+    },
+    {
+      "sujet": "Durée de vie",
+      "dossier_de_base": "8,41e-17 s/kg³ × M³ (photons seuls) : 1e-10 s pour 100 kg, 3e12 ans pour 1e12 kg",
+      "equipe_D": "toutes espèces : 5,9×10⁻¹³ s pour 113 kg (≈ 200 fois plus court) et 1,1×10¹¹ ans pour 1e12 kg (≈ 24 fois plus court)",
+      "consequence": "ne change aucune conclusion"
+    },
+    {
+      "sujet": "Rayonnement à 1e12 kg",
+      "dossier_de_base": "« ~1e11 K, dizaines de MeV : gamma, e±, neutrinos »",
+      "equipe_D": "confirmé : k_BT = 10,6 MeV ; photons ≈ 7 % seulement de la puissance totale (7,8 GW toutes espèces pour 1e12 kg)",
+      "consequence": "renforce l'incohérence n° 4 du dossier (pas des rayons X)"
+    },
+    {
+      "sujet": "Géométrie de DOC-009",
+      "dossier_de_base": "« trois anneaux elliptiques emboîtés de taille croissante » de part et d'autre du centre",
+      "equipe_D": "la numérisation montre des anneaux de taille DÉCROISSANTE en s'éloignant du centre (rayons 0,47 ; 0,34 ; 0,20 A), sections parallèles d'une même ellipse ; l'ordre des repères 2-3-4 (negative, null, positive) va du plus grand (proche) au plus petit (lointain)",
+      "consequence": "à corriger dans la description du dossier §3 (sans incidence sur la physique)"
+    },
+    {
+      "sujet": "Cotes de DOC-009 (ajout de la phase 7)",
+      "dossier_de_base": "« aucune dimension numérique sur le document » (§3)",
+      "equipe_D": "vrai de DOC-009, faux de sa variante DOC-014 (attribution non établie), qui porte 6, 5, 8 et 11 mètres ; à l'échelle correspondante (dispersion 9 %) les demi-envergures des anneaux valent 13 à 18 m, contre 3,0 à 3,7 m dans le texte",
+      "consequence": "la première version de S08 affirmait à tort « ni cote ni échelle » ; corrigé (Red Team n° 37)"
+    },
+    {
+      "sujet": "Autres coefficients du §6",
+      "dossier_de_base": "r_s, T, P (corps noir), τ (corps noir), Q_max/M, M pour 2 g",
+      "equipe_D": "tous re-dérivés et confirmés à mieux que 0,2 %",
+      "consequence": "aucune"
+    }
+  ],
+  "verdict_S08": {
+    "courbes_fermees": "Sphéroïde central : ellipse à 1.46 px près (RMS, 74 points de contour ; exposant de super-ellipse n = 1.92). Contour extérieur : ellipse à 1.14 px près (12 points ; n = 2.15).",
+    "meilleure_famille_physique_par_courbe": {
+      "sphéroïde central (enveloppe)": {
+        "famille": "équipotentielle de deux masses (écartement libre)",
+        "rms_rapporte_a_celui_de_l_ellipse": 1.0329376123169538,
+        "rms_px": 1.5082556479871836
+      },
+      "grande ellipse extérieure": {
+        "famille": "équipotentielle de deux masses (écartement libre)",
+        "rms_rapporte_a_celui_de_l_ellipse": 1.0119165277523194,
+        "rms_px": 1.1501928085487207
+      }
+    },
+    "avertissement_zone_hors_echelle": "Les tests de forme « horizon » et « ergosurface » portent sur le sphéroïde central, que le document déclare lui-même hors d'échelle (« This area is not to scale ») ; la forme d'un horizon dépend en outre des coordonnées (sphère en Boyer-Lindquist, sphéroïde aplati en Kerr-Schild). Ces résultats sont DESCRIPTIFS, sans valeur de preuve.",
+    "horizon_kerr": "rapport d'axes mesuré 1.58 (central) et 1.54 (extérieur) > √2 = 1,414, maximum pour un horizon de Kerr tracé en coordonnées de Kerr-Schild (1 en Boyer-Lindquist) : le dessin n'a pas la forme d'un horizon dans ces coordonnées — constat descriptif, voir l'avertissement",
+    "ergosurface_kerr": "sur les arcs équatoriaux seuls, l'ergosurface (a/M ajusté) n'est pas discernable de l'ellipse au RMS (1.64 px contre 1.46 px) ; mais elle prédit des pôles déprimés, à 5.3 px des pôles dessinés (ellipse : 0.8 px ; horizon : 3.4 px). Grand contour E1 : ellipse 1.1 px, ergosurface 2.1 px, équipotentielle à écartement libre 1.2 px (12 points).",
+    "homothetie": "les deux contours fermés ont le même rapport d'axes (1.58 et 1.54) à une échelle ×2.9 : or les équipotentielles d'une paire de masses s'arrondissent en s'éloignant, et les surfaces caractéristiques d'un trou noir de Kerr (horizon, ergosurface) n'ont pas la même forme entre elles : deux copies homothétiques ne correspondent à aucune des deux familles",
+    "equipotentielle": "les deux masses dessinées ne sont séparées que de 0.20 demi-largeur du sphéroïde : leurs équipotentielles seraient quasi sphériques (RMS 6.2 px sur le sphéroïde) ; une équipotentielle de rapport d'axes 1,6 exigerait des masses 5 fois plus écartées que dessiné",
+    "anneaux": "les 12 sommets des six anneaux s'alignent sur une ellipse E1 à 1.1 px près (RMS, 4 paramètres ajustés) : compatible avec des sections parallèles (« cercles de latitude ») d'une même ellipse. Réserve : en validation croisée par paires, le rayon de la paire écartée est prédit à 2.7 px près (RMS), avec une erreur de 5.2 px sur le plus petit anneau (extrapolation en bout d'ellipse) : le critère de 3 px que nous nous étions fixé n'est PAS satisfait",
+    "deux_grands_contours": "le grand contour pâle est fait de DEUX ellipses de même hauteur : E1 (enveloppe des anneaux, demi-axes 146 × 94 px) et E2 (demi-axes 136 × 93 px, centre décalé de 0.14 A vers la droite, contraste 1.7) ; sur la copie de 318 px elles se confondaient et la première version de S08 les traitait comme une seule",
+    "centrage": "le système d'anneaux est centré 0.22 A à droite des masses (« mass offset ») : aucun champ du vide (newtonien ou relativiste) n'a de surfaces caractéristiques centrées ailleurs que sur ses sources",
+    "entonnoir": "profil asymétrique (anneau droit 1.9 fois plus loin de la gorge que l'anneau gauche) : aucune famille symétrique (Flamm, caténoïde, hyperboloïde, sinusoïde) ne l'ajuste (RMS ≥ 2.5 px pour une incertitude de 1.5 px) ; seul le témoin non physique à deux courbures passe",
+    "sinusoide": "aucune sinusoïde n'apparaît dans le schéma : la sinusoïde ajustée au profil de l'entonnoir n'est pas meilleure que les autres courbes symétriques",
+    "cotes": "DOC-009 ne porte aucune cote ; sa variante DOC-014 (attribution non établie) porte quatre distances en mètres (6, 5, 8, 11 m), à peu près proportionnelles au dessin (dispersion 9 %) et incompatibles avec les distances du texte : à cette échelle les demi-envergures des anneaux valent 13 à 18 m, contre 3,0 à 3,7 m revendiqués",
+    "conclusion": "DOC-009 est une figure géométriquement régulière (ellipses de même rapport d'axes, sections parallèles, sphéroïde « fil de fer ») ; elle ne correspond à aucune famille de surfaces physiques testée mieux qu'à des ellipses génériques. DOC-009 ne porte aucune cote ; sa variante DOC-014 (attribution non établie) porte quatre distances en mètres, à peu près proportionnelles au dessin et incompatibles avec les distances du texte. Description du schéma, sans valeur de test physique ; cela ne prouve rien sur l'intention de l'auteur."
+  }
+}

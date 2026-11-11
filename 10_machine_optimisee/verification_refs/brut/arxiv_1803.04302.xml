@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UrymmpnbNWhr6Jwp3ccdLNVcN8s</id>
+  <title>arXiv Query: search_query=&amp;id_list=1803.04302&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:48:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1803.04302" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1803.04302v2</id>
+    <title>Indefinite Causal Order in a Quantum Switch</title>
+    <updated>2018-11-02T12:39:27Z</updated>
+    <link href="https://arxiv.org/abs/1803.04302v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.04302v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In quantum mechanics events can happen in no definite causal order: in practice this can be verified by measuring a causal witness, in the same way that an entanglement witness verifies entanglement. Indefinite causal order can be observed in a quantum switch, where two operations act in a quantum superposition of the two possible orders. Here we realise a photonic quantum switch, where polarisation coherently controls the order of two operations, $\hat{A}$ and $\hat{B}$, on the transverse spatial mode of the photons. Our setup avoids the limitations of earlier implementations: the operations cannot be distinguished by spatial or temporal position. We show that our quantum switch has no definite causal order, by constructing a causal witness and measuring its value to be 18 standard deviations beyond the definite-order bound.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-12T15:12:59Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 121, 090503 (2018)</arxiv:journal_ref>
+    <author>
+      <name>K. Goswami</name>
+    </author>
+    <author>
+      <name>C. Giarmatzi</name>
+    </author>
+    <author>
+      <name>M. Kewming</name>
+    </author>
+    <author>
+      <name>F. Costa</name>
+    </author>
+    <author>
+      <name>C. Branciard</name>
+    </author>
+    <author>
+      <name>J. Romero</name>
+    </author>
+    <author>
+      <name>A. G. White</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.121.090503</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.121.090503" title="doi"/>
+  </entry>
+</feed>

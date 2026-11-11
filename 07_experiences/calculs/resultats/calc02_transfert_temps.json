@@ -1,0 +1,100 @@
+{
+  "gps": {
+    "net": 4.46473299494481e-10,
+    "net_us_jour": 38.575293076323156,
+    "grav_us_jour": 45.788417636635764,
+    "cin_us_jour": -7.2131245603126075,
+    "excentricite_ns": 45.79476299564388,
+    "sagnac_max_ns": 137.4556612751946,
+    "sagnac_tour_ns": 207.38610668087188
+  },
+  "methodes": [
+    {
+      "methode": "NTP via Internet",
+      "exactitude_s": 0.005,
+      "bruit_s": 0.002,
+      "sigma_y_1j": 4.009376869372401e-08,
+      "cadre": "gratuit — N1"
+    },
+    {
+      "methode": "NTP sur réseau local",
+      "exactitude_s": 0.0002,
+      "bruit_s": 5e-05,
+      "sigma_y_1j": 1.0023442173431003e-09,
+      "cadre": "gratuit — N1"
+    },
+    {
+      "methode": "PTP (IEEE 1588) horodatage matériel",
+      "exactitude_s": 1e-07,
+      "bruit_s": 3e-08,
+      "sigma_y_1j": 6.014065304058601e-13,
+      "cadre": "cartes réseau PTP, 50–300 € — N1/N2"
+    },
+    {
+      "methode": "GPS sens unique, récepteur de temps",
+      "exactitude_s": 2e-08,
+      "bruit_s": 8e-09,
+      "sigma_y_1j": 1.6037507477489603e-13,
+      "cadre": "module 30–250 € — N1"
+    },
+    {
+      "methode": "GPS vue commune (code)",
+      "exactitude_s": 5e-09,
+      "bruit_s": 3e-09,
+      "sigma_y_1j": 6.014065304058602e-14,
+      "cadre": "récepteurs étalonnés — N2"
+    },
+    {
+      "methode": "GPS phase de porteuse / PPP",
+      "exactitude_s": 1e-09,
+      "bruit_s": 1e-10,
+      "sigma_y_1j": 2.0046884346862007e-15,
+      "cadre": "récepteur géodésique — N2/N3"
+    },
+    {
+      "methode": "Deux voies par satellite (TWSTFT)",
+      "exactitude_s": 1e-09,
+      "bruit_s": 5e-10,
+      "sigma_y_1j": 1.0023442173431002e-14,
+      "cadre": "station dédiée — N3"
+    },
+    {
+      "methode": "White Rabbit (fibre, ≤ 10 km)",
+      "exactitude_s": 5e-10,
+      "bruit_s": 1e-11,
+      "sigma_y_1j": 2.0046884346862004e-16,
+      "cadre": "commutateur + nœuds, ≥ 5 k€ — N2/N3"
+    },
+    {
+      "methode": "Lien optique fibré stabilisé (fréquence)",
+      "cadre": "métrologie nationale — N3 (1e-18 à 1e-20 en fréquence)"
+    }
+  ],
+  "simulation": {
+    "NTP Internet (asymétrie 4 ms, gigue 2 ms)": {
+      "biais_s": 0.0019897992081632466,
+      "ecart_type_s": 0.0014257210251880557,
+      "biais_attendu_s": 0.002
+    },
+    "NTP réseau local (asym. 50 µs, gigue 100 µs)": {
+      "biais_s": 2.4324580142243774e-05,
+      "ecart_type_s": 7.027434975952134e-05,
+      "biais_attendu_s": 2.500000000000001e-05
+    },
+    "PTP matériel (asym. 40 ns, gigue 20 ns)": {
+      "biais_s": 1.98192512526415e-08,
+      "ecart_type_s": 1.4155032697515039e-08,
+      "biais_attendu_s": 1.999999999999981e-08
+    },
+    "White Rabbit (asym. résiduelle 100 ps, gigue 10 ps)": {
+      "biais_s": 5.0067457155287147e-11,
+      "ecart_type_s": 7.028773321646537e-12,
+      "biais_attendu_s": 5.0000000000109636e-11
+    }
+  },
+  "cables": {
+    "rg58_ns_par_m": 5.054001442396243,
+    "fibre_ns_par_m": 4.896720917508872,
+    "incertitude_diff_ns": 0.4618802153517007
+  }
+}

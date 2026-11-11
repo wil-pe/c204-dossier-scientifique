@@ -1,0 +1,26 @@
+Kerr 1963 (PRL 11, 237)                                 -> VÉRIFIÉ (Crossref)   | 1963 | Physical Review Letters 11 237-238 | Kerr Roy P. | Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics
+Tipler 1974 (PRD 9, 2203)                               -> NON VÉRIFIÉ (HTTPError: HTTP Error 429: Too Many Requests) | None | None None None |  | 
+Tipler 1976 (PRL 37, 879)                               -> NON VÉRIFIÉ (HTTPError: HTTP Error 429: Too Many Requests) | None | None None None |  | 
+Carter 1968 (Phys. Rev. 174, 1559)                      -> VÉRIFIÉ (Crossref)   | 1968 | Physical Review 174 1559-1571 | Carter Brandon | Global Structure of the Kerr Family of Gravitational Fields
+Hawking 1971 (MNRAS 152, 75)                            -> VÉRIFIÉ (Crossref)   | 1971 | Monthly Notices of the Royal Astronomical Society 152 75-78 | Hawking S. | Gravitationally Collapsed Objects of Very Low Mass
+Hawking 1974 (Nature 248, 30)                           -> VÉRIFIÉ (Crossref)   | 1974 | Nature 248 30-31 | HAWKING S. W. | Black hole explosions?
+Hawking 1975 (CMP 43, 199)                              -> VÉRIFIÉ (Crossref)   | 1975 | Communications In Mathematical Physics 43 199-220 | Hawking S. W. | Particle creation by black holes
+Hawking 1992 (PRD 46, 603)                              -> NON VÉRIFIÉ (HTTPError: HTTP Error 429: Too Many Requests) | None | None None None |  | 
+Page 1976 (PRD 13, 198)                                 -> NON VÉRIFIÉ (HTTPError: HTTP Error 429: Too Many Requests) | None | None None None |  | 
+MacGibbon & Webber 1990 (PRD 41, 3052)                  -> NON VÉRIFIÉ (HTTPError: HTTP Error 429: Too Many Requests) | None | None None None |  | 
+Gibbons 1975 (CMP 44, 245)                              -> NON VÉRIFIÉ (HTTPError: HTTP Error 429: Too Many Requests) | None | None None None |  | 
+Poisson & Israel 1990 (PRD 41, 1796)                    -> VÉRIFIÉ (Crossref)   | 1990 | Physical Review D 41 1796-1809 | Poisson Eric; Israel Werner | Internal structure of black holes
+Hafele & Keating 1972a (Science 177, 166)               -> VÉRIFIÉ (Crossref)   | 1972 | Science 177 166-168 | Hafele J. C.; Keating Richard E. | Around-the-World Atomic Clocks: Predicted Relativistic Time Gains
+Hafele & Keating 1972b (Science 177, 168)               -> VÉRIFIÉ (Crossref)   | 1972 | Science 177 168-170 | Hafele J. C.; Keating Richard E. | Around-the-World Atomic Clocks: Observed Relativistic Time Gains
+Bailey et al. 1977 (Nature 268, 301)                    -> VÉRIFIÉ (Crossref)   | 1977 | Nature 268 301-305 | Bailey J.; Borer K.; Combley F.; Drumm H.; Krienen F.; Lange | Measurements of relativistic time dilatation for positive and negative muons in a circular
+Arkani-Hamed, Dimopoulos, Dvali 1998 (PLB 429, 263)     -> VÉRIFIÉ (Crossref)   | 1998 | Physics Letters B 429 263-272 | Arkani–Hamed Nima; Dimopoulos Savas; Dvali Gia | The hierarchy problem and new dimensions at a millimeter
+Dimopoulos & Landsberg 2001 (PRL 87, 161602)            -> VÉRIFIÉ (Crossref)   | 2001 | Physical Review Letters 87 161602 | Dimopoulos Savas; Landsberg Greg | Black Holes at the Large Hadron Collider
+Giddings & Thomas 2002 (PRD 65, 056010)                 -> NON VÉRIFIÉ (HTTPError: HTTP Error 429: Too Many Requests) | None | None None None |  | 
+Busza, Jaffe, Sandweiss, Wilczek 2000 (RMP 72, 1125)    -> VÉRIFIÉ (Crossref)   | 2000 | Reviews of Modern Physics 72 1125-1140 | Jaffe R. L.; Busza W.; Wilczek F.; Sandweiss J. | Review of speculative “disaster scenarios” at RHIC
+Giddings & Mangano 2008 (PRD 78, 035009)                -> VÉRIFIÉ (Crossref)   | 2008 | Physical Review D 78 035009 | Giddings Steven B.; Mangano Michelangelo L. | Astrophysical implications of hypothetical stable TeV-scale black holes
+CMS 2011 (PLB 697, 434)                                 -> VÉRIFIÉ (Crossref)   | 2011 | Physics Letters B 697 434-453 | Khachatryan V.; Sirunyan A.M.; Tumasyan A.; Adam W.; Bergaue | Search for microscopic black hole signatures at the Large Hadron Collider
+Deutsch 1991 (PRD 44, 3197)                             -> VÉRIFIÉ (Crossref)   | 1991 | Physical Review D 44 3197-3217 | Deutsch David | Quantum mechanics near closed timelike lines
+Polchinski 1991 (PRL 66, 397)                           -> VÉRIFIÉ (Crossref)   | 1991 | Physical Review Letters 66 397-400 | Polchinski Joseph | Weinberg’s nonlinear quantum mechanics and the Einstein-Podolsky-Rosen paradox
+Majumdar 1947 (Phys. Rev. 72, 390)                      -> VÉRIFIÉ (Crossref)   | 1947 | Physical Review 72 390-398 | Majumdar Sudhansu Datta | A Class of Exact Solutions of Einstein's Field Equations
+Morris, Thorne, Yurtsever 1988 (PRL 61, 1446)           -> VÉRIFIÉ (Crossref)   | 1988 | Physical Review Letters 61 1446-1449 | Morris Michael S.; Thorne Kip S.; Yurtsever Ulvi | Wormholes, Time Machines, and the Weak Energy Condition
+Page 1977 (PRD 16, 2402)                                -> VÉRIFIÉ (Crossref)   | 1977 | Physical Review D 16 2402-2411 | Page Don N. | Particle emission rates from a black hole. III. Charged leptons from a nonrotating hole

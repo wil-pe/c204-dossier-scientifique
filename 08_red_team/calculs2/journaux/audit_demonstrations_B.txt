@@ -1,0 +1,30 @@
+(1) EXTÉRIEUR DE VAN STOCKUM-TIPLER, aR > 1/2
+   identité F·L + M² = r² : écart relatif max. sur 4 points = 1.54e-40
+   R_μν = 0 (5 composantes non triviales, 5 points (m, r), 40 chiffres) : résidu relatif max. = 6.49e-33
+   raccord en r = R : saut max. des fonctions = 4.59e-41 ; saut max. des dérivées premières = 4.59e-41
+   L/(R r) = sin(3β + m ln(r/R)) / (2 sin 2β cos β) : sinusoïde exacte de la variable ln r, de « période » 2π/m en ln r ;
+   L, M, F eux-mêmes = r × (sinusoïde en ln r) : log-périodiques d'amplitude ∝ r, pas des sinusoïdes de r.
+   aR = 0.51 : m = 0.2010 ; zéros de g_φφ à r/R = 3.179e+05, 1.951e+12, 1.198e+19 ; raison e^(π/m) = 6.138e+06
+   aR = 0.6  : m = 0.6633 ; zéros de g_φφ à r/R = 8.063, 919.1, 1.048e+05 ; raison e^(π/m) = 114
+   aR = 1.0  : m = 1.7321 ; zéros de g_φφ à r/R = 1, 6.134, 37.62 ; raison e^(π/m) = 6.134
+   aR = 2.0  : m = 3.8730 ; zéros de g_φφ à r/R = 1.824, 4.106, 9.241 ; raison e^(π/m) = 2.251
+   Verdict (1) : formules exactes (vide, raccord C1, FL + M² = r²). « Sinusoïdal en ln r » est exact pour L/r, M/r, F/r.
+
+(2) KERR-NEWMAN : g^{tt} = −N/(ΔΣ), N = (r² + a²)² − Δ a² sin²θ
+   cas sous-extrémal (a² + Q² ≤ M²) : 157109 tirages (r > r+), violations de N > 0, Δ > 0 : 0  → démonstration D4 confirmée
+   a = 1.2, Q = 0.0 (a² + Q² − M² = +0.44) : horizon ? NON (singularité nue) ; g_φφ < 0 sur l'équateur pour r ∈ [-1.093, -0.001] M
+   a = 0.9, Q = 0.6 (a² + Q² − M² = +0.17) : horizon ? NON (singularité nue) ; g_φφ < 0 sur l'équateur pour r ∈ [-1.024, 0.165] M
+   a = 5.0, Q = 0.0 (a² + Q² − M² = +24.00) : horizon ? NON (singularité nue) ; g_φφ < 0 sur l'équateur pour r ∈ [-1.775, -0.001] M
+   a = 0.2, Q = 1.1 (a² + Q² − M² = +0.25) : horizon ? NON (singularité nue) ; g_φφ < 0 sur l'équateur pour r ∈ [-0.531, 0.351] M
+   Cas NON couvert par D4 : pour a² + Q² > M² il n'y a pas d'horizon ; la zone g_φφ < 0 (|r| ≲ 2M autour de l'anneau, et r > 0 dès que Q ≠ 0)
+   est alors accessible depuis l'infini et tout l'espace-temps viole la chronologie (Carter 1968). D4 suppose donc implicitement un horizon.
+   La conclusion pratique est sauvée par D3(b) : toute CTC doit passer à ≲ 32 GM/c² (~1e-13 m) de l'anneau ; un véhicule ne le peut pas.
+
+(3) BORNE Γ − 1 ≤ 2 g L / c² (D2)
+   2 g × 3,7 m / c² = 8.074e-16 (rapport B : 8,1e-16) — exact pour des observateurs SUIVANT UN CHAMP DE KILLING de genre temps.
+   Hypothèses nécessaires : (i) espace-temps stationnaire ; (ii) véhicule immobile dans ce champ ; (iii) |a| ≤ 2 g sur TOUT le chemin statique
+   reliant le véhicule à la zone de référence (N ≈ 1) ; (iv) potentiel négligeable au-delà de L (sinon ajouter GM/(L c²)).
+   hors hypothèse : chute libre (a ressenti = 0) à r/r_s − 1 = 1.0e-01 : dt/dτ = 1.100e+01 — la borne ne contraint pas un observateur non statique.
+   hors hypothèse : chute libre (a ressenti = 0) à r/r_s − 1 = 1.0e-03 : dt/dτ = 1.001e+03 — la borne ne contraint pas un observateur non statique.
+   hors hypothèse : chute libre (a ressenti = 0) à r/r_s − 1 = 1.3e-10 : dt/dτ = 7.692e+09 — la borne ne contraint pas un observateur non statique.
+   Non couvert : géométries non stationnaires (le dispositif est décrit comme dynamique). Aucune solution connue n'exploite cette faille à masse modeste (D3 : échelle GM/c²).

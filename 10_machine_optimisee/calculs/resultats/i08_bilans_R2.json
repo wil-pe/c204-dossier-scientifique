@@ -1,0 +1,40 @@
+{
+ "M1 horloges": {
+  "masse_kg": 913,
+  "puissance_W": 3266,
+  "cout_kEUR": 3408,
+  "TRL_min": 5
+ },
+ "M2 gravité": {
+  "masse_kg": 310.5,
+  "puissance_W": 1025.2,
+  "cout_kEUR": 1340,
+  "TRL_min": 6
+ },
+ "M3 Kerr analogue": {
+  "masse_kg": 730,
+  "puissance_W": 900,
+  "cout_kEUR": 110,
+  "TRL_min": 4
+ },
+ "M4 causalité quantique": {
+  "masse_kg": 60,
+  "puissance_W": 150,
+  "cout_kEUR": 140,
+  "TRL_min": 6
+ },
+ "communs": {
+  "masse_kg": 1575,
+  "puissance_W": 3360,
+  "cout_kEUR": 223,
+  "TRL_min": 9
+ },
+ "total": {
+  "masse_kg": 3588.5,
+  "puissance_W": 8701.2,
+  "cout_kEUR": 5221,
+  "masse_partie_transportable_kg": 2778.5,
+  "rapport_masse_a_227kg": 15.808370044052863,
+  "energie_kWh_par_jour": 208.82880000000003
+ }
+}

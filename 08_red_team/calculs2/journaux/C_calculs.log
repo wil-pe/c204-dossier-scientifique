@@ -1,0 +1,289 @@
+=== c00_constantes.py ===
+{
+  "G": 6.6743e-11,
+  "c": 299792458.0,
+  "hbar": 1.0545718176461565e-34,
+  "kB": 1.380649e-23,
+  "e": 1.602176634e-19,
+  "eps0": 8.8541878188e-12,
+  "mu0": 1.25663706127e-06,
+  "me": 9.1093837139e-31,
+  "g0": 9.80665,
+  "K_HAWKING_W_kg2": 1.7186558922084621e+37,
+  "RS_PAR_KG": 1.4852320538237331e-27,
+  "T_HAWKING_K_kg": 1.2269006705940172e+23,
+  "QM_MAX_C_par_kg": 8.617517200509684e-11,
+  "E_SCHWINGER_V_par_m": 1.3232854777399644e+18,
+  "COFFRE_V_m3": 0.1296,
+  "COFFRE_S_m2": 1.8,
+  "MASSE_UNITE_kg": 226.796185
+}
+--- code de retour c00_constantes.py : 0
+=== c01_hawking.py ===
+spin 0: alpha/état = 7.4384e-05  beta/état = 6.6393e-04  pic flux = 2.21 kT  pic puissance = 2.92 kT  <E> = 2.82 kT
+spin 0.5: alpha/état = 4.0917e-05  beta/état = 2.4284e-04  pic flux = 4.02 kT  pic puissance = 4.52 kT  <E> = 4.23 kT
+spin 1: alpha/état = 1.6819e-05  beta/état = 7.3980e-05  pic flux = 5.73 kT  pic puissance = 6.03 kT  <E> = 5.71 kT
+spin 2: alpha/état = 1.9187e-06  beta/état = 5.5464e-06  pic flux = 8.95 kT  pic puissance = 9.15 kT  <E> = 8.69 kT
+Comparaison Page 1976 : {'alpha_total_calcule': np.float64(0.00020114196557179052), 'alpha_total_Page': 0.0002011, 'fraction_neutrinos': np.float64(0.8136841972454257), 'fraction_photons': np.float64(0.16723820423980942), 'fraction_gravitons': np.float64(0.019077598514764853), 'Page': {'neutrinos': 0.814, 'photons': 0.167, 'gravitons': 0.019}, 'alpha_avec_electrons_calcule': np.float64(0.00036480800436043995), 'alpha_avec_electrons_Page': 0.00036}
+alpha(M~1e12 kg) = 4.4664e-04  (dossier, corps noir photons : 2.0723e-05 ; rapport 21.6)
+fractions : {'photons': np.float64(0.0753), 'neutrinos': np.float64(0.5497), 'electrons_positrons': np.float64(0.3664), 'gravitons': np.float64(0.0086)}
+alpha(MS complet) = 4.3875e-03
+A_total_toutes_particules        P=300 MW  M=5.058e+12 kg  r_s=7.51 fm  kT=2.09 MeV  Ptot=300 MW  g(1m)=34.4 g
+A_total_toutes_particules        P=400 MW  M=4.381e+12 kg  r_s=6.51 fm  kT=2.41 MeV  Ptot=400 MW  g(1m)=29.8 g
+A_total_toutes_particules        P=500 MW  M=3.918e+12 kg  r_s=5.82 fm  kT=2.70 MeV  Ptot=500 MW  g(1m)=26.7 g
+B_photons_plus_e±_(déposé)       P=300 MW  M=3.362e+12 kg  r_s=4.99 fm  kT=3.14 MeV  Ptot=679 MW  g(1m)=22.9 g
+B_photons_plus_e±_(déposé)       P=400 MW  M=2.912e+12 kg  r_s=4.32 fm  kT=3.63 MeV  Ptot=905 MW  g(1m)=19.8 g
+B_photons_plus_e±_(déposé)       P=500 MW  M=2.604e+12 kg  r_s=3.87 fm  kT=4.06 MeV  Ptot=1132 MW  g(1m)=17.7 g
+C_photons_seuls_(corps_gris)     P=300 MW  M=1.388e+12 kg  r_s=2.06 fm  kT=7.62 MeV  Ptot=3983 MW  g(1m)=9.4 g
+C_photons_seuls_(corps_gris)     P=400 MW  M=1.202e+12 kg  r_s=1.79 fm  kT=8.79 MeV  Ptot=5311 MW  g(1m)=8.2 g
+C_photons_seuls_(corps_gris)     P=500 MW  M=1.075e+12 kg  r_s=1.60 fm  kT=9.83 MeV  Ptot=6639 MW  g(1m)=7.3 g
+D_dossier_corps_noir_photons     P=300 MW  M=1.090e+12 kg  r_s=1.62 fm  kT=9.70 MeV  Ptot=6466 MW  g(1m)=7.4 g
+D_dossier_corps_noir_photons     P=400 MW  M=9.436e+11 kg  r_s=1.40 fm  kT=11.20 MeV  Ptot=8621 MW  g(1m)=6.4 g
+D_dossier_corps_noir_photons     P=500 MW  M=8.440e+11 kg  r_s=1.25 fm  kT=12.53 MeV  Ptot=10776 MW  g(1m)=5.7 g
+M=1.00e+02 kg  kT=1.057e+11 MeV  alpha=4.39e-03  P=7.54e+30 W  tau=3.97e-13 s = 1.26e-20 ans (dossier/calcul = 212)
+M=1.00e+04 kg  kT=1.057e+09 MeV  alpha=4.39e-03  P=7.54e+26 W  tau=3.97e-07 s = 1.26e-14 ans (dossier/calcul = 212)
+M=1.00e+06 kg  kT=1.057e+07 MeV  alpha=4.39e-03  P=7.54e+22 W  tau=3.97e-01 s = 1.26e-08 ans (dossier/calcul = 212)
+M=1.00e+08 kg  kT=1.057e+05 MeV  alpha=4.39e-03  P=7.54e+18 W  tau=3.97e+05 s = 1.26e-02 ans (dossier/calcul = 212)
+M=1.00e+09 kg  kT=1.057e+04 MeV  alpha=3.50e-03  P=6.01e+16 W  tau=4.91e+08 s = 1.56e+01 ans (dossier/calcul = 171)
+M=1.00e+10 kg  kT=1.057e+03 MeV  alpha=3.50e-03  P=6.01e+14 W  tau=4.98e+11 s = 1.58e+04 ans (dossier/calcul = 169)
+M=1.00e+11 kg  kT=1.057e+02 MeV  alpha=8.33e-04  P=1.43e+12 W  tau=1.89e+15 s = 5.98e+07 ans (dossier/calcul = 45)
+M=2.94e+11 kg  kT=3.596e+01 MeV  alpha=8.33e-04  P=1.66e+11 W  tau=5.29e+16 s = 1.68e+09 ans (dossier/calcul = 40)
+M=1.00e+12 kg  kT=1.057e+01 MeV  alpha=4.47e-04  P=7.68e+09 W  tau=3.81e+18 s = 1.21e+11 ans (dossier/calcul = 22)
+M=4.40e+12 kg  kT=2.403e+00 MeV  alpha=4.47e-04  P=3.96e+08 W  tau=3.32e+20 s = 1.05e+13 ans (dossier/calcul = 22)
+M=1.00e+13 kg  kT=1.057e+00 MeV  alpha=4.47e-04  P=7.68e+07 W  tau=3.90e+21 s = 1.24e+14 ans (dossier/calcul = 22)
+M=1.00e+15 kg  kT=1.057e-02 MeV  alpha=2.83e-04  P=4.86e+03 W  tau=6.16e+27 s = 1.95e+20 ans (dossier/calcul = 14)
+Bandes photons (400 MW) : {'A_total_toutes_particules': {'kT_MeV': np.float64(2.4134511767977656), 'fraction_puissance_photons_sous_100keV': 0.0, 'fraction_sous_1MeV': 2.1027979205684117e-06, 'fraction_sous_10MeV': 0.10408672095294762, 'energie_mediane_puissance_MeV': 14.843339044131268}, 'B_photons_plus_e±_(déposé)': {'kT_MeV': np.float64(3.6311914867888695), 'fraction_puissance_photons_sous_100keV': 0.0, 'fraction_sous_1MeV': 3.4237017210345576e-07, 'fraction_sous_10MeV': 0.01631809859957865, 'energie_mediane_puissance_MeV': 22.332751907616796}, 'C_photons_seuls_(corps_gris)': {'kT_MeV': np.float64(8.79424843427569), 'fraction_puissance_photons_sous_100keV': 0.0, 'fraction_sous_1MeV': 8.745288046452383e-09, 'fraction_sous_10MeV': 0.00025445809535915015, 'energie_mediane_puissance_MeV': 54.08686631128518}, 'D_dossier_corps_noir_photons': {'kT_MeV': np.float64(11.204393862927523), 'fraction_puissance_photons_sous_100keV': 0.0, 'fraction_sous_1MeV': 0.0, 'fraction_sous_10MeV': 7.923675958223829e-05, 'energie_mediane_puissance_MeV': 68.90987416289168}}
+Trou noir « à rayons X » (kT = 10 keV) : M = 1.057e+15 kg, P_tot = 4.351e+03 W
+--- code de retour c01_hawking.py : 0
+=== c02_confinement.py ===
+(Q/M)max = 8.6175e-11 C/kg ; e/m_e = 1.7588e+11 C/kg ; rapport = 4.900e-22
+E de sustentation (charge extrémale, indépendant de M) = 1.138e+11 V/m (pression électrostatique 5.73e+10 Pa)
+   / claquage du vide, grands intervalles DC (ordre de grandeur) [HYP] : x1.14e+04
+   / gradient accélérateur RF bande X (CLIC) : x1.14e+03
+   / rigidité diélectrique idéale du diamant (10 MV/cm) : x1.14e+02
+   / évaporation par effet de champ du tungstène (57 V/nm) : x2.00e+00
+   / limite de Schwinger : x8.60e-08
+Potentiel d'horizon extrémal = 1.043e+27 V
+M min pour charge extrémale stable (E_h < E_S) = 1.061e+36 kg = 5.34e+05 Msol
+Z_rms thermique = 3.30 e (Page 1977 : 6.14 e)
+Penning : {'omega_z_min_rad_s': np.float64(31.315571206669695), 'B_min_extremal_T': np.float64(513917227937.91833), 'omega_c_a_45p5T_rad_s': 3.920970326231906e-09, 'periode_cyclotron_a_45p5T_ans': 50.77878973826931, 'rapport_B_requis_sur_45p5T': np.float64(11294884130.5037)}
+Paul : {'q_Mathieu': 0.4, 'r0_m': 0.01, 'Omega_rad_s': np.float64(221.43452756966335), 'V_RF_V': np.float64(11379901857.834393), 'E_typique_V_par_m': np.float64(1137990185783.4392)}
+Pressions magnétiques (Pa) : {'aimant supraconducteur compact (20 T)': '1.59e+08', 'record continu hybride/HTS (45,5 T)': '8.24e+08', 'record pulsé non destructif (100,75 T)': '4.04e+09', 'record intérieur destructif (1200 T)': '5.73e+11', 'compression explosive (2800 T)': '3.12e+12', 'champ requis Penning, charge extrémale': '1.05e+29'}
+B max matériau : {'sigma = 1 GPa': 50.13256548931044, 'sigma = 5.8 GPa': 120.73520576340606, 'sigma = 130 GPa': 571.599191680849}
+M max structure (sigma 1 GPa, carter r = 0.05 m) = 8.01e+05 kg
+M=1.00e+02  F=9.81e+02 N  Qmax=8.62e-09 C  E_h/E_S=1.1e+34  E(6e)=1.0e+21 V/m  B(6e)=4.5e+21 T  gradB=1.0e+28 T/m  p_carter=1.2e+05 Pa  F_mut/poids=3.0e-08 T_orb=3.16e+03 s
+M=1.00e+04  F=9.81e+04 N  Qmax=8.62e-07 C  E_h/E_S=1.1e+32  E(6e)=1.0e+23 V/m  B(6e)=4.5e+23 T  gradB=1.0e+26 T/m  p_carter=1.2e+07 Pa  F_mut/poids=3.0e-06 T_orb=3.16e+02 s
+M=1.00e+06  F=9.81e+06 N  Qmax=8.62e-05 C  E_h/E_S=1.1e+30  E(6e)=1.0e+25 V/m  B(6e)=4.5e+25 T  gradB=1.0e+24 T/m  p_carter=1.2e+09 Pa  F_mut/poids=3.0e-04 T_orb=3.16e+01 s
+M=1.00e+08  F=9.81e+08 N  Qmax=8.62e-03 C  E_h/E_S=1.1e+28  E(6e)=1.0e+27 V/m  B(6e)=4.5e+27 T  gradB=1.0e+22 T/m  p_carter=1.2e+11 Pa  F_mut/poids=3.0e-02 T_orb=3.16e+00 s
+M=1.00e+10  F=9.81e+10 N  Qmax=8.62e-01 C  E_h/E_S=1.1e+26  E(6e)=1.0e+29 V/m  B(6e)=4.5e+29 T  gradB=1.0e+20 T/m  p_carter=1.2e+13 Pa  F_mut/poids=3.0e+00 T_orb=3.16e-01 s
+M=2.94e+11  F=2.88e+12 N  Qmax=2.53e+01 C  E_h/E_S=3.6e+24  E(6e)=2.9e+30 V/m  B(6e)=1.3e+31 T  gradB=3.5e+18 T/m  p_carter=3.7e+14 Pa  F_mut/poids=8.9e+01 T_orb=5.83e-02 s
+M=1.00e+12  F=9.81e+12 N  Qmax=8.62e+01 C  E_h/E_S=1.1e+24  E(6e)=1.0e+31 V/m  B(6e)=4.5e+31 T  gradB=1.0e+18 T/m  p_carter=1.2e+15 Pa  F_mut/poids=3.0e+02 T_orb=3.16e-02 s
+M=4.40e+12  F=4.31e+13 N  Qmax=3.79e+02 C  E_h/E_S=2.4e+23  E(6e)=4.4e+31 V/m  B(6e)=2.0e+32 T  gradB=2.3e+17 T/m  p_carter=5.5e+15 Pa  F_mut/poids=1.3e+03 T_orb=1.51e-02 s
+M=2.94e+11 r=0.001 m : g=1.962e+07 m/s² (2.00e+06 g) marée=3.92e+10 s⁻² p_acier=1.52e+08 Pa
+M=2.94e+11 r=0.01 m : g=1.962e+05 m/s² (2.00e+04 g) marée=3.92e+07 s⁻² p_acier=1.38e+07 Pa
+M=2.94e+11 r=0.1 m : g=1.962e+03 m/s² (2.00e+02 g) marée=3.92e+04 s⁻² p_acier=0.00e+00 Pa
+M=2.94e+11 r=1 m : g=1.962e+01 m/s² (2.00e+00 g) marée=3.92e+01 s⁻² p_acier=0.00e+00 Pa
+M=4.40e+12 r=0.001 m : g=2.937e+08 m/s² (2.99e+07 g) marée=5.87e+11 s⁻² p_acier=2.27e+09 Pa
+M=4.40e+12 r=0.01 m : g=2.937e+06 m/s² (2.99e+05 g) marée=5.87e+08 s⁻² p_acier=2.06e+08 Pa
+M=4.40e+12 r=0.1 m : g=2.937e+04 m/s² (2.99e+03 g) marée=5.87e+05 s⁻² p_acier=0.00e+00 Pa
+M=4.40e+12 r=1 m : g=2.937e+02 m/s² (2.99e+01 g) marée=5.87e+02 s⁻² p_acier=0.00e+00 Pa
+--- code de retour c02_confinement.py : 0
+=== c03_injection_rotation.py ===
+ΔM/M quand la charge extrémale est atteinte par apport d'électrons = 4.900e-22
+Énergie pour amener le dernier électron sur un trou extrémal = 1.043e+27 eV
+M=1.00e+02: sigma_geo=4.678e-21 b  E_seuil=1.329e+12 MeV  barrière/Z=9.695e+09 MeV  Z_crit(C=G)=2.635e-11  1 % masse : 1.10e+30 e-, 1.76e+11 C (5.57e+03 ans à 1 A)  décharge 2.8e-30 s  capt(1µm²)=4.7e-37
+M=1.00e+06: sigma_geo=4.678e-13 b  E_seuil=1.329e+08 MeV  barrière/Z=9.695e+05 MeV  Z_crit(C=G)=2.635e-07  1 % masse : 1.10e+34 e-, 1.76e+15 C (5.57e+07 ans à 1 A)  décharge 2.8e-26 s  capt(1µm²)=4.7e-29
+M=2.94e+11: sigma_geo=4.043e-02 b  E_seuil=4.519e+02 MeV  barrière/Z=3.298e+00 MeV  Z_crit(C=G)=7.748e-02  1 % masse : 3.23e+39 e-, 5.17e+20 C (1.64e+13 ans à 1 A)  décharge 8.2e-21 s  capt(1µm²)=4.0e-18
+M=1.00e+12: sigma_geo=4.678e-01 b  E_seuil=1.329e+02 MeV  barrière/Z=9.695e-01 MeV  Z_crit(C=G)=2.635e-01  1 % masse : 1.10e+40 e-, 1.76e+21 C (5.57e+13 ans à 1 A)  décharge 2.8e-20 s  capt(1µm²)=4.7e-17
+M=4.40e+12: sigma_geo=9.056e+00 b  E_seuil=3.020e+01 MeV  barrière/Z=2.203e-01 MeV  Z_crit(C=G)=1.160e+00  1 % masse : 4.83e+40 e-, 7.74e+21 C (2.45e+14 ans à 1 A)  décharge 1.2e-19 s  capt(1µm²)=9.1e-16
+Exemple 1e12 kg : {'courant_A': 0.065, 'electrons_par_s': 4.0569808983994963e+17, 'captures_par_s_tache_1um2': 18.97777246634269, 'masse_ajoutee_kg_par_s_tache_1um2': 1.728758114310019e-29, 'perte_Hawking_kg_par_s': 8.540949140977675e-08, 'rapport_perte_sur_gain': 4.940511382291637e+21}
+M=1.00e+02: Jmax=2.226e-15 (2.11e+19 ħ)  Ω_H=2.02e+33 rad/s  E_rot=2.63e+18 J  précession(45,5 T, extrémal)=3.92e-09 rad/s (période 50.8 ans) ; charge 6e : 4.5e-19 rad/s
+M=1.00e+06: Jmax=2.226e-07 (2.11e+27 ħ)  Ω_H=2.02e+29 rad/s  E_rot=2.63e+22 J  précession(45,5 T, extrémal)=3.92e-09 rad/s (période 50.8 ans) ; charge 6e : 4.5e-23 rad/s
+M=2.94e+11: Jmax=1.924e+04 (1.82e+38 ħ)  Ω_H=6.87e+23 rad/s  E_rot=7.74e+27 J  précession(45,5 T, extrémal)=3.92e-09 rad/s (période 50.8 ans) ; charge 6e : 1.5e-28 rad/s
+M=1.00e+12: Jmax=2.226e+05 (2.11e+39 ħ)  Ω_H=2.02e+23 rad/s  E_rot=2.63e+28 J  précession(45,5 T, extrémal)=3.92e-09 rad/s (période 50.8 ans) ; charge 6e : 4.5e-29 rad/s
+M=4.40e+12: Jmax=4.310e+06 (4.09e+40 ħ)  Ω_H=4.59e+22 rad/s  E_rot=1.16e+29 J  précession(45,5 T, extrémal)=3.92e-09 rad/s (période 50.8 ans) ; charge 6e : 1.0e-29 rad/s
+--- code de retour c03_injection_rotation.py : 0
+=== c05_refroidissement_rayonnement.py ===
+Fractions : {'photons': 0.0753, 'neutrinos': 0.5497, 'electrons_positrons': 0.3664, 'gravitons': 0.0086}  déposée : 0.4418
+- min : 1 singularité, 300 MW au total (dépôt γ + e± seulement): 133 MW ; T_surface coffre = 6163 K ; densité 1.02 MW/L
+- réf. : 1 singularité, 400 MW au total (dépôt γ + e±): 177 MW ; T_surface coffre = 6623 K ; densité 1.36 MW/L
+- réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±): 353 MW ; T_surface coffre = 7876 K ; densité 2.73 MW/L
+- énoncé bas : 300 MW entièrement déposés: 300 MW ; T_surface coffre = 7560 K ; densité 2.31 MW/L
+- énoncé haut : 2 x 500 MW entièrement déposés: 1000 MW ; T_surface coffre = 10215 K ; densité 7.72 MW/L
+  réf. : 1 singularité, 400 MW | eau liquide, ΔT = 50 K                         844.2 kg/s  0.853 m³/s  v=434 m/s  pompe=1137 kW  autonomie=nan s  6 h : 1.82e+07 kg
+  réf. : 1 singularité, 400 MW | eau vaporisée (20 → 100 °C + vaporisation)      68.2 kg/s  0.0689 m³/s  v=35.1 m/s  pompe=91.82 kW  autonomie=0.436 s  6 h : 1.47e+06 kg
+  réf. : 1 singularité, 400 MW | sodium liquide, ΔT = 150 K                     927.6 kg/s  1.09 m³/s  v=556 m/s  pompe=1455 kW  autonomie=nan s  6 h : 2e+07 kg
+  réf. : 1 singularité, 400 MW | hélium gazeux 70 bar, ΔT = 300 K               113.4 kg/s  18.9 m³/s  v=9.63e+03 m/s  pompe=2.52e+04 kW  autonomie=nan s  6 h : 2.45e+06 kg
+  énoncé haut : 2 x 500 MW ent | eau liquide, ΔT = 50 K                        4777.8 kg/s  4.83 m³/s  v=2.46e+03 m/s  pompe=6435 kW  autonomie=nan s  6 h : 1.03e+08 kg
+  énoncé haut : 2 x 500 MW ent | eau vaporisée (20 → 100 °C + vaporisation)     385.8 kg/s  0.39 m³/s  v=198 m/s  pompe=519.6 kW  autonomie=0.077 s  6 h : 8.33e+06 kg
+  énoncé haut : 2 x 500 MW ent | sodium liquide, ΔT = 150 K                    5249.3 kg/s  6.18 m³/s  v=3.15e+03 m/s  pompe=8234 kW  autonomie=nan s  6 h : 1.13e+08 kg
+  énoncé haut : 2 x 500 MW ent | hélium gazeux 70 bar, ΔT = 300 K               641.9 kg/s  107 m³/s  v=5.45e+04 m/s  pompe=1.426e+05 kW  autonomie=nan s  6 h : 1.39e+07 kg
+  radiateur 322 K : 1.22e+06 m² (6.75e+05 x coffre)
+  radiateur 600 K : 2.85e+04 m² (1.58e+04 x coffre)
+  radiateur 1000 K : 3.49e+03 m² (1.94e+03 x coffre)
+  radiateur 1500 K : 685 m² (381 x coffre)
+  radiateur 3000 K : 42.8 m² (23.8 x coffre)
+Puissance d'un coffre à T revendiquée : {'38 °C': 252.1236282534976, '49 °C': 479.48930328373643, '80 °C': 1197.892216297861}
+  flux pariétal  | carter r = 5 cm : 5.625e+09 W/m² = 20.4 x CHF record = 89 x Soleil
+  flux pariétal | carter r = 10 cm : 1.406e+09 W/m² = 5.1 x CHF record = 22 x Soleil
+Absorbeur W : {'rayon_m': 0.03504, 'volume_m3': 0.00018021083617515712, 'masse_kg': 3.4780691381805324, 'densite_de_puissance_W_m3': 980523082167.395, 'energie_volumique_de_fusion_J_m3': 12485749000.0, 'temps_avant_fusion_sans_refroidissement_s': 0.012733763464701824}
+Plomb, TVL faisceau étroit (cm) : {'1 MeV': np.float64(2.86), '2 MeV': np.float64(4.4), '3 MeV': np.float64(4.79), '4 MeV': np.float64(4.83), '5 MeV': np.float64(4.75), '6 MeV': np.float64(4.62), '8 MeV': np.float64(4.34), '10 MeV': np.float64(4.08), '15 MeV': np.float64(3.59), '20 MeV': np.float64(3.27), '30 MeV': np.float64(2.89), '50 MeV': np.float64(2.52), '100 MeV': np.float64(2.18)}
+  1 singularité, 400 MW au total à 1.0 m : photons 3.313e+03 Gy/s ; total calorimétrique 1.406e+05 Gy/s ; DL50 en 0.75-1.51 ms ; corps : 9.84 MW
+  1 singularité, 400 MW au total à 3.0 m : photons 3.681e+02 Gy/s ; total calorimétrique 1.562e+04 Gy/s ; DL50 en 6.79-13.58 ms ; corps : 1.09 MW
+  2 singularités, 400 MW chacune à 1.0 m : photons 6.626e+03 Gy/s ; total calorimétrique 2.812e+05 Gy/s ; DL50 en 0.38-0.75 ms ; corps : 19.69 MW
+  2 singularités, 400 MW chacune à 3.0 m : photons 7.362e+02 Gy/s ; total calorimétrique 3.125e+04 Gy/s ; DL50 en 3.40-6.79 ms ; corps : 2.19 MW
+Blindage requis : {'1 mSv sur le trajet (limite annuelle du public)': {'facteur_attenuation': 71563487444.23776, 'nombre_de_TVL': np.float64(10.854691496524786), 'epaisseur_plomb_m': np.float64(0.6187174153019128), 'masse_sphere_plomb_kg': np.float64(14211.201462175746), 'epaisseur_beton_m': np.float64(4.884611173436154)}, '20 mSv sur le trajet (limite annuelle moyenne des travailleurs)': {'facteur_attenuation': 3578174372.2118883, 'nombre_de_TVL': np.float64(9.553661500860805), 'epaisseur_plomb_m': np.float64(0.5445587055490659), 'masse_sphere_plomb_kg': np.float64(9986.431556501884), 'epaisseur_beton_m': np.float64(4.2991476753873625)}}
+Blindage logeable : {'epaisseur_plomb_m': 0.13, 'attenuation': 190.8542144006686, 'debit_dose_residuel_photons_1m_Gy_s': 17.359451186963703, 'masse_sphere_plomb_kg': 271.3265816804258, 'masse_unite_kg': 226.796185}
+Cône : {'demi-angle 10°': {'fraction_angle_solide': np.float64(0.00759612349389599), 'fraction_absorbee_par_le_collimateur': np.float64(0.9924038765061041)}, 'demi-angle 30°': {'fraction_angle_solide': np.float64(0.06698729810778065), 'fraction_absorbee_par_le_collimateur': np.float64(0.9330127018922194)}, 'demi-angle 45°': {'fraction_angle_solide': np.float64(0.1464466094067262), 'fraction_absorbee_par_le_collimateur': np.float64(0.8535533905932737)}}
+Dose dans le cône : {'10 m': {'debit_Gy_s': np.float64(32.486180557933814), 'debit_Gy_h': np.float64(116950.25000856174)}, '100 m': {'debit_Gy_s': np.float64(0.2721741212930094), 'debit_Gy_h': np.float64(979.8268366548338)}, '1000 m': {'debit_Gy_s': np.float64(0.00046379769560214886), 'debit_Gy_h': np.float64(1.6696717041677358)}}  λ_air = 508.5956478961813
+Giration : {'E = 10.0 MeV, B = 1.0 T': 0.0333564095198152, 'E = 10.0 MeV, B = 10.0 T': 0.00333564095198152, 'E = 10.0 MeV, B = 20.0 T': 0.00166782047599076, 'E = 40.0 MeV, B = 1.0 T': 0.1334256380792608, 'E = 40.0 MeV, B = 10.0 T': 0.01334256380792608, 'E = 40.0 MeV, B = 20.0 T': 0.00667128190396304}
+Neutrinos : {'puissance_W': 219862525.04899263, 'fluence_energetique_1m_W_m2': 17496103.831106417, 'debit_dose_1m_Gy_s': 1.0536153727092284e-11}
+--- code de retour c05_refroidissement_rayonnement.py : 0
+=== c06_alimentation_bilan.py ===
+plomb 12 V 60 Ah (dessin DOC-008 : 6 éléments)                     0.72 kWh =      2.6 MJ ; P soutenue 2.5 kW
+plomb-acide, 50 kg à 30 Wh/kg                                      1.50 kWh =      5.4 MJ ; P soutenue 7.5 kW
+pack Li-ion, 50 kg à 150 Wh/kg                                     7.50 kWh =     27.0 MJ ; P soutenue 25.0 kW
+cellules Li-ion nues, 50 kg à 270 Wh/kg                           13.50 kWh =     48.6 MJ ; P soutenue 40.0 kW
+borne haute : toute l'unité (227 kg) en pack Li-ion à 180 Wh/kg    40.82 kWh =    147.0 MJ ; P soutenue 113.4 kW
+borne chimique : 50 kg à 12 kWh/kg (hydrocarbure + air) [HYP]    600.00 kWh =   2160.0 MJ ; P soutenue 50.0 kW
+Auxiliaires : {'min': 225.68, 'max': 920, 'energie_6h_kWh_min': 1.35408, 'energie_6h_kWh_max': 5.52}
+[6-7 commande     ] 4 horloges miniatures CSAC (0,12 W chacune)                                    P=     0.48 W  E= 1.04e+04 J  (-3.4 décades / batterie)
+[6-7 commande     ] 4 étalons à jet de césium type 5071A (50 W chacun)                             P=      200 W  E= 4.32e+06 J  (-0.8 décades / batterie)
+[6-7 commande     ] 3 calculateurs embarqués + bus + voteur (3 x 30 W) [HYP]                       P=       90 W  E= 1.94e+06 J  (-1.1 décades / batterie)
+[6 capteurs       ] gravimètre relatif type CG-6 (5,2 W)                                           P=      5.2 W  E= 1.12e+05 J  (-2.4 décades / batterie)
+[6 capteurs       ] gravimètre absolu quantique type AQG-B (500 W)                                 P=      500 W  E= 1.08e+07 J  (-0.4 décades / batterie)
+[2 injection      ] canon à électrons 100 kV x 1 mA                                                P=      100 W  E= 2.16e+06 J  (-1.1 décades / batterie)
+[7 commande       ] télécommande, écrans, capteurs divers [HYP]                                    P=       30 W  E= 6.48e+05 J  (-1.6 décades / batterie)
+[TOTAL auxiliaires] électronique et instruments, hypothèse basse                                   P=      226 W  E= 4.87e+06 J  (-0.7 décades / batterie)
+[TOTAL auxiliaires] électronique et instruments, hypothèse haute                                   P=      920 W  E= 1.99e+07 J  (-0.1 décades / batterie)
+[1 confinement    ] cryoréfrigérateur d'un aimant supraconducteur compact (~7 kW) [HYP]            P=    7e+03 W  E= 1.51e+08 J  (+0.7 décades / batterie)
+[1 confinement    ] aimant hybride 45 T (30-33 MW, valeur MagLab)                                  P=  3.3e+07 W  E= 7.13e+11 J  (+4.4 décades / batterie)
+[1 confinement    ] énergie magnétique d'un champ de 5,1e11 T dans 1 litre                         P=          W  E= 1.05e+26 J  (+18.6 décades / batterie)
+[4 refroidissement] pompe de circulation, eau ΔT = 50 K, 353 MW thermiques                         P= 2.27e+06 W  E= 4.91e+10 J  (+3.3 décades / batterie)
+[4 refroidissement] chaleur à évacuer, 2 singularités de 400 MW (dépôt γ + e±)                     P= 3.53e+08 W  E= 7.63e+12 J  (+5.5 décades / batterie)
+[4 rayonnement    ] énergie rayonnée par 2 singularités de 400 MW pendant 6 h                      P=    8e+08 W  E= 1.73e+13 J  (+5.8 décades / batterie)
+[0 fabrication    ] énergie de masse à fournir, scénario A : 2 x 4,4e12 kg (400 MW au total chacun P=          W  E= 7.87e+29 J  (+22.5 décades / batterie)
+[0 fabrication    ] énergie de masse à fournir, 2 x 2,94e11 kg (2 g à 1 m)                         P=          W  E= 5.28e+28 J  (+21.3 décades / batterie)
+[0 fabrication    ] énergie de masse à fournir, 2 x 100 kg (compatible avec les 227 kg)            P=          W  E=  1.8e+19 J  (+11.8 décades / batterie)
+[0 fabrication    ] puissance d'évaporation d'un trou noir de 100 kg (à compenser en continu)      P= 7.54e+30 W  E= 7.54e+30 J  (+23.4 décades / batterie)
+[2 injection      ] ajouter 1 % de masse à 4,4e12 kg                                               P=          W  E= 3.94e+27 J  (+20.2 décades / batterie)
+[2 injection      ] charger 4,4e12 kg jusqu'à l'extrémal (≈ ½ M c²)                                P=          W  E= 1.97e+29 J  (+21.9 décades / batterie)
+[3 rotation       ] mettre 4,4e12 kg en rotation maximale (≈ 0,19 à 0,29 M c²)                     P=          W  E= 7.58e+28 J  (+21.4 décades / batterie)
+[9 Q4             ] énergie électromagnétique donnant 2 g à 1 m par son seul contenu en énergie    P=          W  E= 2.64e+28 J  (+21.0 décades / batterie)
+[déplacement      ] énergie cinétique d'un véhicule de 2500 kg à γ = 87 660 (dilatation équivalent P=          W  E= 1.97e+25 J  (+17.9 décades / batterie)
+Création scénario A : 7.873e+29 J ; {"production mondiale d'électricité 2023 (29 925 TWh)": '7.31e+09', "consommation mondiale d'énergie primaire 2023 (620 EJ)": '1.27e+09', 'énergie rayonnée par le Soleil en 1 s': '2.06e+03', "énergie de masse de l'unité entière (227 kg)": '3.86e+10', "énergie magnétique d'ITER (51 GJ)": '1.54e+19', 'un faisceau du LHC (362 MJ)': '2.17e+21', 'pack Li-ion 50 kg (27 MJ)': '2.92e+22'}
+Création 2 x 100 kg : {"production mondiale d'électricité 2023 (29 925 TWh)": '0.167', "consommation mondiale d'énergie primaire 2023 (620 EJ)": '0.029', 'énergie rayonnée par le Soleil en 1 s': '4.7e-08', "énergie de masse de l'unité entière (227 kg)": '0.882', "énergie magnétique d'ITER (51 GJ)": '3.52e+08', 'un faisceau du LHC (362 MJ)': '4.97e+10', 'pack Li-ion 50 kg (27 MJ)': '6.66e+11'}
+Création 2 g : {"production mondiale d'électricité 2023 (29 925 TWh)": '4.9e+08', "consommation mondiale d'énergie primaire 2023 (620 EJ)": '8.52e+07', 'énergie rayonnée par le Soleil en 1 s': '138', "énergie de masse de l'unité entière (227 kg)": '2.59e+09', "énergie magnétique d'ITER (51 GJ)": '1.04e+18', 'un faisceau du LHC (362 MJ)': '1.46e+20', 'pack Li-ion 50 kg (27 MJ)': '1.96e+21'}
+227 kg = 4.871755396426945 Gt TNT
+Croissance : {'flux_matiere_nucleaire_W_m2': '6.2e+42', 'M_min_matiere_nucleaire_kg': '7.17e+10', 'flux_laser_W_m2': '1e+27', 'M_min_laser_kg': '5.68e+14', 'flux_requis_pour_100kg_W_m2': '1.61e+79', 'masse_de_Planck_kg': '2.18e-08', 'energie_de_Planck_GeV': '1.22e+19', 'energie_collision_LHC_GeV': '1.36e+04', 'rapport_Planck_sur_LHC': '8.98e+14', 'temps_de_formation_r_s_sur_c_s': '3.55e-25', 'puissance_de_formation_W': '1.81e+52'}
+--- code de retour c06_alimentation_bilan.py : 0
+=== c07_capteurs_horloges.py ===
+bloc de béton de 1 m³ (2400 kg)                              d=2 m  Δg=4 µGal  grad=40 E  t(FG5-X)=126 s  t(AQG)=1.4e+03 s  t(iGrav)=0.0505 s
+bloc de béton de 1 m³ (2400 kg)                              d=3.5 m  Δg=1.31 µGal  grad=7.47 E  t(FG5-X)=1.18e+03 s  t(AQG)=1.32e+04 s  t(iGrav)=0.474 s
+mur de 10 t                                                  d=3 m  Δg=7.42 µGal  grad=49.4 E  t(FG5-X)=36.8 s  t(AQG)=409 s  t(iGrav)=0.0147 s
+personne (80 kg)                                             d=1 m  Δg=0.534 µGal  grad=10.7 E  t(FG5-X)=7.1e+03 s  t(AQG)=7.89e+04 s  t(iGrav)=2.84 s
+voiture (1500 kg)                                            d=3 m  Δg=1.11 µGal  grad=7.42 E  t(FG5-X)=1.64e+03 s  t(AQG)=1.82e+04 s  t(iGrav)=0.655 s
+immeuble (1e6 kg)                                            d=20 m  Δg=16.7 µGal  grad=16.7 E  t(FG5-X)=7.27 s  t(AQG)=80.8 s  t(iGrav)=0.00291 s
+fluide de refroidissement interne (10 kg déplacés de 0,5 à 0 d=nan m  Δg=0.475 µGal  grad=nan E  t(FG5-X)=8.99e+03 s  t(AQG)=9.99e+04 s  t(iGrav)=3.6 s
+2,94e11 kg (2 g à 1 m), capteur à 0.3 m {'g_singularite_m_s2': '218', 'g_en_g': '22.2', 'gradient_s2': '1.45e+03', 'gradient_Eotvos': '1.45e+12', 'resolution_relative_pour_1uGal': '4.59e-11', 'stabilite_de_position_requise_m': '6.88e-12', 'dilatation_aluminium_par_K_m': '6.9e-06', 'rapport_dilatation_1K_sur_tolerance': '1e+06', 'stabilite_relative_de_masse_requise': '4.59e-11', 'variation_relative_de_masse_Hawking_par_s': '3.36e-18'}
+2,94e11 kg (2 g à 1 m), capteur à 0.5 m {'g_singularite_m_s2': '78.5', 'g_en_g': '8', 'gradient_s2': '314', 'gradient_Eotvos': '3.14e+11', 'resolution_relative_pour_1uGal': '1.27e-10', 'stabilite_de_position_requise_m': '3.19e-11', 'dilatation_aluminium_par_K_m': '1.15e-05', 'rapport_dilatation_1K_sur_tolerance': '3.61e+05', 'stabilite_relative_de_masse_requise': '1.27e-10', 'variation_relative_de_masse_Hawking_par_s': '3.36e-18'}
+4,4e12 kg (400 MW au total), capteur à 0.3 m {'g_singularite_m_s2': '3.25e+03', 'g_en_g': '331', 'gradient_s2': '2.17e+04', 'gradient_Eotvos': '2.17e+13', 'resolution_relative_pour_1uGal': '3.08e-12', 'stabilite_de_position_requise_m': '4.62e-13', 'dilatation_aluminium_par_K_m': '6.9e-06', 'rapport_dilatation_1K_sur_tolerance': '1.49e+07', 'stabilite_relative_de_masse_requise': '3.08e-12', 'variation_relative_de_masse_Hawking_par_s': '1.02e-21'}
+4,4e12 kg (400 MW au total), capteur à 0.5 m {'g_singularite_m_s2': '1.17e+03', 'g_en_g': '119', 'gradient_s2': '4.68e+03', 'gradient_Eotvos': '4.68e+12', 'resolution_relative_pour_1uGal': '8.55e-12', 'stabilite_de_position_requise_m': '2.14e-12', 'dilatation_aluminium_par_K_m': '1.15e-05', 'rapport_dilatation_1K_sur_tolerance': '5.38e+06', 'stabilite_relative_de_masse_requise': '8.55e-12', 'variation_relative_de_masse_Hawking_par_s': '1.02e-21'}
+1 g / plage CG-6 : 122.58312499999998
+4 x 5071A : {'masse_kg': 120.0, 'volume_m3': 0.11894981851999999, 'fraction_de_la_masse_unite': 0.5291094292437062, 'fraction_du_volume_coffre': 0.917822673765432, 'puissance_W': 200.0}  4 x CSAC : {'masse_kg': 0.14, 'volume_m3': 6.8e-05, 'puissance_W': 0.48}
+Décalages : {'2,94e11 kg, r = 0.1 m': '2.18e-15', '2,94e11 kg, r = 0.3 m': '7.28e-16', '2,94e11 kg, r = 0.5 m': '4.37e-16', '2,94e11 kg, r = 1.0 m': '2.18e-16', '2,94e11 kg, écart entre 0,3 m et 0,5 m': '2.91e-16', '4,4e12 kg, r = 0.1 m': '3.25e-14', '4,4e12 kg, r = 0.3 m': '1.08e-14', '4,4e12 kg, r = 0.5 m': '6.51e-15', '4,4e12 kg, r = 1.0 m': '3.25e-15', '4,4e12 kg, écart entre 0,3 m et 0,5 m': '4.34e-15'}
+Décalage terrestre par mètre : 1.0911369672198217e-16
+Potentiel requis/c² : 0.49999999993493205  disponible : 2.1822739344396434e-16
+Erreurs de temps : {'5071A sur 6 h (5e-13)': 1.0799999999999999e-08, 'CSAC sur 6 h (dérive ~1e-9) [HYP]': 2.16e-05, 'quartz ordinaire sur 6 h (1e-6) [HYP]': 0.021599999999999998, 'précision relative pour viser un jour donné à 60 ans': 4.563084645220169e-05}
+Déplacement Terre 60 ans : {'orbital_cumule': 56387119680000.0, 'galactique': 435494880000000.0}
+--- code de retour c07_capteurs_horloges.py : 0
+=== c08_calculateurs_vote.py ===
+lambda = 0.001 /h {'R_simplex': '0.994', 'defaillance_simplex': '0.005982', 'R_TMR': '0.9999', 'defaillance_TMR': '0.0001069', 'gain': '55.95', 'MTTF_simplex_h': '1000', 'MTTF_TMR_h': '833.3'}
+lambda = 0.0001 /h {'R_simplex': '0.9994', 'defaillance_simplex': '0.0005998', 'R_TMR': '1', 'defaillance_TMR': '1.079e-06', 'gain': '555.9', 'MTTF_simplex_h': '1e+04', 'MTTF_TMR_h': '8333'}
+lambda = 1e-05 /h {'R_simplex': '0.9999', 'defaillance_simplex': '6e-05', 'R_TMR': '1', 'defaillance_TMR': '1.08e-08', 'gain': '5556', 'MTTF_simplex_h': '1e+05', 'MTTF_TMR_h': '8.333e+04'}
+Chaîne complète : {'defaillance_elements_non_redondes': '0.003594', 'defaillance_calculateurs_TMR': '1.079e-06', 'defaillance_horloges_2sur4': '8.628e-10', 'defaillance_systeme': '0.003595', 'part_des_calculateurs_dans_le_risque': '0.0003002'}
+Borda : {'classement_des_2_sains': 'A>B>C>D', 'classement_du_fautif': 'B>C>D>A', 'scores': {'A': 6, 'B': 7, 'C': 4, 'D': 1}, 'gagnant_borda': 'B', 'gagnant_majorite': 'A'}
+Borda stats : {'3 options': {'classements_fautifs_possibles': 6, 'choix_sain_renverse': 0, 'ex_aequo': 1}, '4 options': {'classements_fautifs_possibles': 24, 'choix_sain_renverse': 2, 'ex_aequo': 4}, '5 options': {'classements_fautifs_possibles': 120, 'choix_sain_renverse': 18, 'ex_aequo': 20}}
+Médian : {'entrees': [9.80665, 9.80664, 1000000.0], 'sortie': 9.80665}
+--- code de retour c08_calculateurs_vote.py : 0
+=== c09_structure_vehicule.py ===
+Unité 227 kg : {'poids_N': 2224.11080763025, 'fraction_charge_utile': (0.15119745666666667, 0.32399455), 'masse_volumique_moyenne_kg_m3': 1749.970563271605, 'pression_au_plancher_Pa': 5148.4046472922455, 'equivalent_passagers_de_75kg': 3.0239491333333333}
+Masse pour 2 g : {'r = 0.5 m': '7.35e+10', 'r = 1.0 m': '2.94e+11', 'r = 2.0 m': '1.18e+12', 'r = 3.0 m': '2.64e+12', 'r = 3.7 m': '4.02e+12'}
+Distance 2 g : {'M = 2.94e+11 kg': 1.0002330289892212, 'M = 8.44e+11 kg': 1.694723101381923, 'M = 1.09e+12 kg': 1.9259312284066192, 'M = 3.92e+12 kg': 3.6523346182607677, 'M = 4.38e+12 kg': 3.8606868955420492, 'M = 5.06e+12 kg': 4.1495670326318175}
+Profil : {'r = 0.1 m': {'g_en_g': 199.99999999999997, 'maree_par_metre_en_g': 3999.9999999999995}, 'r = 0.3 m': {'g_en_g': 22.22222222222222, 'maree_par_metre_en_g': 148.14814814814818}, 'r = 0.5 m': {'g_en_g': 8.0, 'maree_par_metre_en_g': 32.0}, 'r = 1.0 m': {'g_en_g': 2.0, 'maree_par_metre_en_g': 4.0}, 'r = 1.5 m': {'g_en_g': 0.8888888888888888, 'maree_par_metre_en_g': 1.1851851851851851}, 'r = 2.0 m': {'g_en_g': 0.5, 'maree_par_metre_en_g': 0.5}, 'r = 3.0 m': {'g_en_g': 0.2222222222222222, 'maree_par_metre_en_g': 0.14814814814814814}}
+{'cas': '2 x 100 kg', 'masse_totale_kg': '200', 'poids_N': '1.96e+03', 'rapport_a_la_charge_utile_max': '0.133', 'pression_sous_les_pneus_Pa': '1.63e+04', 'p / sol meuble (portance ~0,2 MPa) [ordre de grandeur]': '0.0817', 'p / béton (compression ~40 MPa) [ordre de grandeur]': '0.000409', 'p / granite (compression ~200 MPa) [ordre de grandeur]': '8.17e-05', 'p / acier à haute résistance (~2 GPa) [ordre de grandeur]': '8.17e-06', 'p / diamant (compression ~100 GPa) [ordre de grandeur]': '1.63e-07'}
+{'cas': '2 x 1,47e11 kg (2 g à 1 m à elles deux)', 'masse_totale_kg': '2.94e+11', 'poids_N': '2.88e+12', 'rapport_a_la_charge_utile_max': '1.96e+08', 'pression_sous_les_pneus_Pa': '2.4e+13', 'p / sol meuble (portance ~0,2 MPa) [ordre de grandeur]': '1.2e+08', 'p / béton (compression ~40 MPa) [ordre de grandeur]': '6e+05', 'p / granite (compression ~200 MPa) [ordre de grandeur]': '1.2e+05', 'p / acier à haute résistance (~2 GPa) [ordre de grandeur]': '1.2e+04', 'p / diamant (compression ~100 GPa) [ordre de grandeur]': '240'}
+{'cas': '2 x 2,94e11 kg (2 g à 1 m chacune)', 'masse_totale_kg': '5.88e+11', 'poids_N': '5.77e+12', 'rapport_a_la_charge_utile_max': '3.92e+08', 'pression_sous_les_pneus_Pa': '4.81e+13', 'p / sol meuble (portance ~0,2 MPa) [ordre de grandeur]': '2.4e+08', 'p / béton (compression ~40 MPa) [ordre de grandeur]': '1.2e+06', 'p / granite (compression ~200 MPa) [ordre de grandeur]': '2.4e+05', 'p / acier à haute résistance (~2 GPa) [ordre de grandeur]': '2.4e+04', 'p / diamant (compression ~100 GPa) [ordre de grandeur]': '481'}
+{'cas': '2 x 4,38e12 kg (400 MW au total chacune)', 'masse_totale_kg': '8.76e+12', 'poids_N': '8.59e+13', 'rapport_a_la_charge_utile_max': '5.84e+09', 'pression_sous_les_pneus_Pa': '7.16e+14', 'p / sol meuble (portance ~0,2 MPa) [ordre de grandeur]': '3.58e+09', 'p / béton (compression ~40 MPa) [ordre de grandeur]': '1.79e+07', 'p / granite (compression ~200 MPa) [ordre de grandeur]': '3.58e+06', 'p / acier à haute résistance (~2 GPa) [ordre de grandeur]': '3.58e+05', 'p / diamant (compression ~100 GPa) [ordre de grandeur]': '7.16e+03'}
+Chute : {'traversee_aller_simple_min': '42.2', 'vitesse_au_centre_m_s': '7.91e+03', 'friction_dynamique_N': '1.89e+03', 'poids_N': '4.3e+13', 'rapport_friction_sur_poids': '4.4e-11', 'accretion_kg_s': '8.31e-12', 'perte_Hawking_kg_s': '4.45e-09', 'rapport_perte_sur_accretion': '536'}
+M=1.00e+02  P=7.54e+30 W  τ=3.97e-13 s  g(1m)=6.81e-10 g | C1 oui C2 NON C3 NON C4 NON C5 NON C6 oui
+M=1.00e+04  P=7.54e+26 W  τ=3.97e-07 s  g(1m)=6.81e-08 g | C1 NON C2 NON C3 NON C4 NON C5 NON C6 oui
+M=1.00e+06  P=7.54e+22 W  τ=3.97e-01 s  g(1m)=6.81e-06 g | C1 NON C2 NON C3 NON C4 NON C5 NON C6 oui
+M=1.00e+08  P=7.54e+18 W  τ=3.97e+05 s  g(1m)=6.81e-04 g | C1 NON C2 NON C3 NON C4 oui C5 NON C6 oui
+M=1.00e+10  P=6.01e+14 W  τ=4.98e+11 s  g(1m)=6.81e-02 g | C1 NON C2 NON C3 NON C4 oui C5 NON C6 oui
+M=1.00e+11  P=1.43e+12 W  τ=1.89e+15 s  g(1m)=6.81e-01 g | C1 NON C2 NON C3 NON C4 oui C5 NON C6 oui
+M=2.94e+11  P=1.66e+11 W  τ=5.29e+16 s  g(1m)=2.00e+00 g | C1 NON C2 NON C3 oui C4 oui C5 NON C6 oui
+M=1.00e+12  P=7.68e+09 W  τ=3.81e+18 s  g(1m)=6.81e+00 g | C1 NON C2 ≈   C3 oui C4 oui C5 NON C6 oui
+M=4.40e+12  P=3.96e+08 W  τ=3.32e+20 s  g(1m)=2.99e+01 g | C1 NON C2 oui C3 NON C4 oui C5 NON C6 NON
+M=1.00e+13  P=7.68e+07 W  τ=3.90e+21 s  g(1m)=6.81e+01 g | C1 NON C2 NON C3 NON C4 oui C5 NON C6 NON
+M=1.00e+15  P=4.86e+03 W  τ=6.16e+27 s  g(1m)=6.81e+03 g | C1 NON C2 NON C3 NON C4 oui C5 oui C6 NON
+Budget de masse : total 215.7 kg, reste 11.1 kg
+--- code de retour c09_structure_vehicule.py : 0
+=== c10_Q4_energie_EM.py ===
+2 g à 1 m : M = 2.939e+11 kg ; E = 2.641e+28 J = 6.31e+12 Mt TNT = 69 s de Soleil
+ITER, ensemble des aimants supraconducteurs (51 GJ)      E=5.10e+10 J  m=5.67e-07 kg  g(1 m)=3.79e-17 m/s²  manque 17.7 décades
+ITER, bobines toroïdales (41 GJ)                         E=4.10e+10 J  m=4.56e-07 kg  g(1 m)=3.04e-17 m/s²  manque 17.8 décades
+LHC, dipôles principaux (8,82 GJ)                        E=8.82e+09 J  m=9.81e-08 kg  g(1 m)=6.55e-18 m/s²  manque 18.5 décades
+CMS, solénoïde à 4 T (2,6 GJ)                            E=2.60e+09 J  m=2.89e-08 kg  g(1 m)=1.93e-18 m/s²  manque 19.0 décades
+NIF, banc de condensateurs (~400 MJ nominal)             E=4.00e+08 J  m=4.45e-09 kg  g(1 m)=2.97e-19 m/s²  manque 19.8 décades
+LHC, un faisceau nominal (362 MJ)                        E=3.62e+08 J  m=4.03e-09 kg  g(1 m)=2.69e-19 m/s²  manque 19.9 décades
+Z machine, générateurs de Marx (22 MJ)                   E=2.20e+07 J  m=2.45e-10 kg  g(1 m)=1.63e-20 m/s²  manque 21.1 décades
+NIF, rendement de fusion record (8,6 MJ, 2025)           E=8.60e+06 J  m=9.57e-11 kg  g(1 m)=6.39e-21 m/s²  manque 21.5 décades
+ISSP 1200 T, banc de condensateurs (5 MJ)                E=5.00e+06 J  m=5.56e-11 kg  g(1 m)=3.71e-21 m/s²  manque 21.7 décades
+NIF, énergie laser UV sur cible (2,2 MJ)                 E=2.20e+06 J  m=2.45e-11 kg  g(1 m)=1.63e-21 m/s²  manque 22.1 décades
+production mondiale d'électricité 2023 (29 925 TWh)      E=1.08e+20 J  m=1.20e+03 kg  g(1 m)=8.00e-08 m/s²  manque 8.4 décades
+énergie primaire mondiale 2023 (620 EJ)                  E=6.20e+20 J  m=6.90e+03 kg  g(1 m)=4.60e-07 m/s²  manque 7.6 décades
+Sphère 10 cm : {'volume_m3': '0.00419', 'densite_energie_J_m3': '6.31e+30', 'pression_Pa': '6.31e+30', 'B_equivalent_T': '3.98e+12', 'E_equivalent_V_m': '1.19e+21', 'E_sur_Schwinger': '902', 'B_sur_B_critique_QED': '902'}
+Viriel : {'acier à haute résistance (σ = 2 GPa, ρ = 7800)': {'masse_structure_kg': '1.03e+23', 'rapport_masse_structure_sur_masse_du_champ': '3.51e+11', 'fraction_max_du_champ_dans_la_masse_totale': '2.85e-12', 'masse_structure_en_masses_lunaires': '1.4'}, 'fibre de carbone (σ = 3,5 GPa, ρ = 1800) [ordre de grandeur]': {'masse_structure_kg': '1.36e+22', 'rapport_masse_structure_sur_masse_du_champ': '4.62e+10', 'fraction_max_du_champ_dans_la_masse_totale': '2.16e-11', 'masse_structure_en_masses_lunaires': '0.185'}, 'limite idéale type graphène (σ = 130 GPa, ρ = 2200) [ordre de grandeur]': {'masse_structure_kg': '4.47e+20', 'rapport_masse_structure_sur_masse_du_champ': '1.52e+09', 'fraction_max_du_champ_dans_la_masse_totale': '6.57e-10', 'masse_structure_en_masses_lunaires': '0.00609'}}
+45,5 T dans 1 L : {'energie_J': 823726.3024487497, 'masse_equivalente_kg': 9.165191165924411e-12, 'g_a_10cm_m_s2': 6.117123539872928e-20}
+Pack : {'masse_equivalente_kg': 3.00415515134477e-10, 'g_a_1m_m_s2': 2.0050632726620396e-20}
+--- code de retour c10_Q4_energie_EM.py : 0
+=== c11_schema_fonctionnel.py ===
+écrit : <copie_jetable>/C204_repro/04_ingenierie/schema_fonctionnel.svg 18114 octets
+--- code de retour c11_schema_fonctionnel.py : 0
+=== c12_tableaux.py ===
+33 lignes -> tableau_exigences_ecarts.csv ; 21 lignes -> tableau_faisabilite.csv
+1 confinement      champ magnétique d'un piège de Penning tenant la pesanteur (charge ext  5.14e+11 T      vs      45.5  Δ = +10.1
+1 confinement      idem avec la charge réaliste (6 e, Page 1977), M = 4,4e12 kg            1.98e+32 T      vs      45.5  Δ = +30.6
+1 confinement      champ continu soutenable par un matériau (σ = 130 GPa)                  5.14e+11 T      vs       572  Δ = +9.0
+1 confinement      champ électrique de sustentation (charge extrémale)                     1.14e+11 V/m    vs     1e+08  Δ = +3.1
+1 confinement      idem, comparé au champ d'évaporation du tungstène                       1.14e+11 V/m    vs   5.7e+10  Δ = +0.3
+1 confinement      gradient magnétique sur le dipôle maximal (M = 4,4e12 kg)               2.32e+17 T/m    vs     1e+06  Δ = +11.4
+1 confinement      force de sustentation, M = 4,4e12 kg                                    4.31e+13 N      vs  1.47e+04  Δ = +9.5
+1 confinement      pression de réaction sur un carter de 5 cm de rayon (M = 4,4e12 kg)     5.49e+15 Pa     vs     2e+09  Δ = +6.4
+1 confinement      force séparant deux singularités de 4,4e12 kg à 15 cm                   5.74e+16 N      vs  4.31e+13  Δ = +3.1
+2 injection        charge à injecter pour +1 % de masse (M = 4,4e12 kg)                    7.74e+21 C      vs   1.4e+03  Δ = +18.7
+2 injection        énergie par électron pour atteindre l'horizon d'un trou noir extrémal   1.04e+27 eV     vs   6.8e+12  Δ = +14.2
+2 injection        probabilité de capture requise ≈ 1 (tache de 1 µm², M = 4,4e12 kg)             1 —      vs  9.06e-16  Δ = +15.0
+3 rotation         vitesse de réorientation de l'axe ~1 rad/s [HYP]                               1 rad/s  vs  3.92e-09  Δ = +8.4
+4 refroidissement  puissance thermique à évacuer du coffre (2 x 400 MW, dépôt γ + e±)      3.53e+08 W      vs       479  Δ = +5.9
+4 refroidissement  densité de puissance volumique du coffre                                    2.73 MW/L   vs       1.7  Δ = +0.2
+4 refroidissement  flux pariétal sur un carter de 5 cm de rayon                            5.62e+09 W/m²   vs  2.76e+08  Δ = +1.3
+4 refroidissement  eau vaporisée sur 6 h (circuit ouvert)                                  2.95e+06 kg     vs        30  Δ = +5.0
+4 refroidissement  puissance de pompage (eau, ΔT = 50 K)                                   2.27e+06 W      vs   2.5e+04  Δ = +2.0
+4 rayonnement      débit de dose γ à 1 m sans blindage, rapporté à 1 mSv par trajet de 6   3.31e+03 Gy/s   vs  4.63e-08  Δ = +10.9
+4 rayonnement      atténuation requise du blindage                                         7.16e+10 —      vs       191  Δ = +8.6
+4 rayonnement      masse du blindage sphérique en plomb                                    1.42e+04 kg     vs       227  Δ = +1.8
+4 rayonnement      fraction du rayonnement canalisée dans un cône de 30° (revendiqué : ~1         1 —      vs     0.067  Δ = +1.2
+5 alimentation     auxiliaires (horloges, calculateurs, capteurs, canon), hypothèse haute      5.52 kWh    vs       7.5  Δ = -0.1
+5 alimentation     énergie de création des deux singularités (2 x 4,4e12 kg)               7.87e+29 J      vs  1.08e+20  Δ = +9.9
+5 alimentation     idem, rapportée à la batterie                                           7.87e+29 J      vs   2.7e+07  Δ = +22.5
+5 alimentation     énergie par collision pour former un trou noir (masse de Planck, 4 dim  1.22e+19 GeV    vs  1.36e+04  Δ = +15.0
+6 capteurs         résolution pour détecter un bloc de 1 m³ à 2 m — instrument seul, au r         4 µGal   vs         5  Δ = +0.1
+6 capteurs         stabilité de position capteur/singularité pour résoudre 1 µGal (2 g à   6.88e-12 m      vs   6.9e-06  Δ = +6.0
+6 horloges         exactitude relative pour dater à 1 jour près sur 60 ans                 4.56e-05 —      vs     5e-13  Δ = -8.0
+6 horloges         exactitude pour résoudre le potentiel des singularités (à 10 cm de 4,4  3.25e-14 —      vs     5e-13  Δ = +1.2
+8 structure        pression sous les pneus (2 x 4,4e12 kg)                                 7.16e+14 Pa     vs     2e+08  Δ = +6.6
+9 Q4               énergie électromagnétique pour 2 g à 1 m                                2.64e+28 J      vs   5.1e+10  Δ = +17.7
+9 Q4               idem, rapportée à un an de production électrique mondiale               2.64e+28 J      vs  1.08e+20  Δ = +8.4
+--- code de retour c12_tableaux.py : 0

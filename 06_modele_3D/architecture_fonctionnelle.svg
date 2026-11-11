@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 1070" width="1560" height="1070" role="img" aria-label="C204 — architecture fonctionnelle (flux revendiqués)" font-family="Helvetica, Arial, sans-serif">
+<title>C204 — architecture fonctionnelle (flux revendiqués)</title>
+<defs>
+<marker id="f-energie" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+<marker id="f-electrons" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5fbf"/></marker>
+<marker id="f-fluide" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0e8a9c"/></marker>
+<marker id="f-signal" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3d8b2f"/></marker>
+<marker id="f-commande" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a3fb0"/></marker>
+<marker id="f-rayonnement" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b8860b"/></marker>
+<marker id="f-indetermine" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+<pattern id="hachures" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="10" height="10" fill="#fff"/><rect width="3" height="10" fill="#f6e3ee"/></pattern>
+</defs>
+<rect width="1560" height="1070" fill="#ffffff"/>
+<text x="780" y="34" font-size="19" text-anchor="middle" fill="#16181d" font-weight="700">C204 — architecture fonctionnelle : flux d'énergie, d'électrons, de fluide, de signaux et de commande</text>
+<text x="780" y="56" font-size="11.5" text-anchor="middle" fill="#555" font-style="italic">Reconstruction documentaire d'un objet DÉCRIT (documents non authentifiés) : rien n'atteste qu'il ait existé ni fonctionné. Les fonctions sont celles REVENDIQUÉES par les légendes et le texte.</text>
+<rect x="60" y="100" width="230" height="74" rx="7" fill="#fbfbfc" stroke="#0072B2" stroke-width="2.4"/>
+<rect x="60" y="100" width="9" height="74" rx="3" fill="#0072B2"/>
+<text x="179.0" y="125.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Pupitre et télécommande</text>
+<text x="179.0" y="141.5" font-size="12.5" text-anchor="middle" fill="#16181d">commandes d'urgence 8, écran 4,</text>
+<text x="179.0" y="157.5" font-size="12.5" text-anchor="middle" fill="#16181d">télécommande 3</text>
+<rect x="212" y="90" width="74" height="18" rx="9" fill="#fff" stroke="#0072B2" stroke-width="1.3"/>
+<text x="249" y="103.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-007</text>
+<rect x="345" y="100" width="220" height="74" rx="7" fill="#fbfbfc" stroke="#8a8f98" stroke-width="2.4"/>
+<rect x="345" y="100" width="9" height="74" rx="3" fill="#8a8f98"/>
+<text x="459.0" y="133.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Horloges ×4</text>
+<text x="459.0" y="149.5" font-size="12.5" text-anchor="middle" fill="#16181d">« au césium » (texte)</text>
+<rect x="487" y="90" width="74" height="18" rx="9" fill="#fff" stroke="#8a8f98" stroke-width="1.3"/>
+<text x="524" y="103.5" font-size="10.5" text-anchor="middle" fill="#333">texte</text>
+<rect x="640" y="100" width="240" height="74" rx="7" fill="#fbfbfc" stroke="#8a8f98" stroke-width="2.4"/>
+<rect x="640" y="100" width="9" height="74" rx="3" fill="#8a8f98"/>
+<text x="764.0" y="133.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Calculateurs ×3</text>
+<text x="764.0" y="149.5" font-size="12.5" text-anchor="middle" fill="#16181d">vote dit « Borda » (texte)</text>
+<rect x="802" y="90" width="74" height="18" rx="9" fill="#fff" stroke="#8a8f98" stroke-width="1.3"/>
+<text x="839" y="103.5" font-size="10.5" text-anchor="middle" fill="#333">texte</text>
+<rect x="960" y="100" width="260" height="74" rx="7" fill="#fbfbfc" stroke="#CC79A7" stroke-width="2.4"/>
+<rect x="960" y="100" width="9" height="74" rx="3" fill="#CC79A7"/>
+<text x="1094.0" y="133.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Unité de capteurs de gravité</text>
+<text x="1094.0" y="149.5" font-size="12.5" text-anchor="middle" fill="#16181d">système VGL (texte)</text>
+<rect x="1142" y="90" width="74" height="18" rx="9" fill="#fff" stroke="#CC79A7" stroke-width="1.3"/>
+<text x="1179" y="103.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°11</text>
+<rect x="60" y="262" width="230" height="64" rx="7" fill="#fbfbfc" stroke="#0072B2" stroke-width="2.4"/>
+<rect x="60" y="262" width="9" height="64" rx="3" fill="#0072B2"/>
+<text x="179.0" y="290.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Interrupteur général</text>
+<text x="179.0" y="306.5" font-size="12.5" text-anchor="middle" fill="#16181d">marche / arrêt</text>
+<rect x="212" y="252" width="74" height="18" rx="9" fill="#fff" stroke="#0072B2" stroke-width="1.3"/>
+<text x="249" y="265.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-007 n°6</text>
+<rect x="60" y="412" width="230" height="70" rx="7" fill="#fbfbfc" stroke="#CC79A7" stroke-width="2.4"/>
+<rect x="60" y="412" width="9" height="70" rx="3" fill="#CC79A7"/>
+<text x="179.0" y="443.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Batterie</text>
+<text x="179.0" y="459.5" font-size="12.5" text-anchor="middle" fill="#16181d">« battery supply », 6 éléments</text>
+<rect x="212" y="402" width="74" height="18" rx="9" fill="#fff" stroke="#CC79A7" stroke-width="1.3"/>
+<text x="249" y="415.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°12</text>
+<rect x="60" y="566" width="230" height="64" rx="7" fill="#fbfbfc" stroke="#0072B2" stroke-width="2.4"/>
+<rect x="60" y="566" width="9" height="64" rx="3" fill="#0072B2"/>
+<text x="179.0" y="594.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Coupure d'urgence</text>
+<text x="179.0" y="610.5" font-size="12.5" text-anchor="middle" fill="#16181d">« emergency disconnect »</text>
+<rect x="212" y="556" width="74" height="18" rx="9" fill="#fff" stroke="#0072B2" stroke-width="1.3"/>
+<text x="249" y="569.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-007 n°5</text>
+<rect x="345" y="258" width="220" height="72" rx="7" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<rect x="345" y="258" width="9" height="72" rx="3" fill="#E69F00"/>
+<text x="459.0" y="282.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Générateur / régulateur</text>
+<text x="459.0" y="298.5" font-size="12.5" text-anchor="middle" fill="#16181d">de champ magnétique</text>
+<text x="459.0" y="314.5" font-size="12.5" text-anchor="middle" fill="#16181d">(singularité principale)</text>
+<rect x="487" y="248" width="74" height="18" rx="9" fill="#fff" stroke="#E69F00" stroke-width="1.3"/>
+<text x="524" y="261.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°3</text>
+<rect x="345" y="412" width="220" height="70" rx="7" fill="#fbfbfc" stroke="#CC79A7" stroke-width="2.4"/>
+<rect x="345" y="412" width="9" height="70" rx="3" fill="#CC79A7"/>
+<text x="459.0" y="451.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Générateur d'électrons</text>
+<rect x="487" y="402" width="74" height="18" rx="9" fill="#fff" stroke="#CC79A7" stroke-width="1.3"/>
+<text x="524" y="415.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°6</text>
+<rect x="345" y="562" width="220" height="72" rx="7" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<rect x="345" y="562" width="9" height="72" rx="3" fill="#E69F00"/>
+<text x="459.0" y="586.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Générateur / régulateur</text>
+<text x="459.0" y="602.5" font-size="12.5" text-anchor="middle" fill="#16181d">de champ magnétique</text>
+<text x="459.0" y="618.5" font-size="12.5" text-anchor="middle" fill="#16181d">(singularité de direction)</text>
+<rect x="487" y="552" width="74" height="18" rx="9" fill="#fff" stroke="#E69F00" stroke-width="1.3"/>
+<text x="524" y="565.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°3</text>
+<rect x="640" y="262" width="240" height="64" rx="7" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<rect x="640" y="262" width="9" height="64" rx="3" fill="#E69F00"/>
+<text x="764.0" y="290.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Bobines de champ ×6</text>
+<text x="764.0" y="306.5" font-size="12.5" text-anchor="middle" fill="#16181d">(singularité principale)</text>
+<rect x="802" y="252" width="74" height="18" rx="9" fill="#fff" stroke="#E69F00" stroke-width="1.3"/>
+<text x="839" y="265.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°2</text>
+<rect x="640" y="412" width="240" height="70" rx="7" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<rect x="640" y="412" width="9" height="70" rx="3" fill="#E69F00"/>
+<text x="764.0" y="451.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Régulateur d'électrons</text>
+<rect x="802" y="402" width="74" height="18" rx="9" fill="#fff" stroke="#E69F00" stroke-width="1.3"/>
+<text x="839" y="415.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°5</text>
+<rect x="640" y="566" width="240" height="64" rx="7" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<rect x="640" y="566" width="9" height="64" rx="3" fill="#E69F00"/>
+<text x="764.0" y="594.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Bobines de champ ×6</text>
+<text x="764.0" y="610.5" font-size="12.5" text-anchor="middle" fill="#16181d">(singularité de direction)</text>
+<rect x="802" y="556" width="74" height="18" rx="9" fill="#fff" stroke="#E69F00" stroke-width="1.3"/>
+<text x="839" y="569.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°2</text>
+<rect x="960" y="248" width="260" height="92" rx="7" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<rect x="960" y="248" width="9" height="92" rx="3" fill="#E69F00"/>
+<text x="1094.0" y="274.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Carter d'entraînement 1</text>
+<text x="1094.0" y="290.5" font-size="12.5" text-anchor="middle" fill="#16181d">+ enveloppe de refroidissement 8</text>
+<text x="1094.0" y="306.5" font-size="12.5" text-anchor="middle" fill="#16181d">+ amplificateur de capteur 7</text>
+<text x="1094.0" y="322.5" font-size="12.5" text-anchor="middle" fill="#16181d">SINGULARITÉ PRINCIPALE</text>
+<rect x="1142" y="238" width="74" height="18" rx="9" fill="#fff" stroke="#E69F00" stroke-width="1.3"/>
+<text x="1179" y="251.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-007 n°1</text>
+<rect x="960" y="412" width="260" height="70" rx="7" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<rect x="960" y="412" width="9" height="70" rx="3" fill="#E69F00"/>
+<text x="1094.0" y="443.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Collecteur d'injection</text>
+<text x="1094.0" y="459.5" font-size="12.5" text-anchor="middle" fill="#16181d">d'électrons</text>
+<rect x="1142" y="402" width="74" height="18" rx="9" fill="#fff" stroke="#E69F00" stroke-width="1.3"/>
+<text x="1179" y="415.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°4</text>
+<rect x="960" y="552" width="260" height="92" rx="7" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<rect x="960" y="552" width="9" height="92" rx="3" fill="#E69F00"/>
+<text x="1094.0" y="578.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Carter d'entraînement 1</text>
+<text x="1094.0" y="594.5" font-size="12.5" text-anchor="middle" fill="#16181d">+ enveloppe de refroidissement 8</text>
+<text x="1094.0" y="610.5" font-size="12.5" text-anchor="middle" fill="#16181d">+ amplificateur de capteur 7</text>
+<text x="1094.0" y="626.5" font-size="12.5" text-anchor="middle" fill="#16181d">SINGULARITÉ DE DIRECTION</text>
+<rect x="1142" y="542" width="74" height="18" rx="9" fill="#fff" stroke="#E69F00" stroke-width="1.3"/>
+<text x="1179" y="555.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-007 n°2</text>
+<rect x="640" y="742" width="240" height="70" rx="7" fill="#fbfbfc" stroke="#CC79A7" stroke-width="2.4"/>
+<rect x="640" y="742" width="9" height="70" rx="3" fill="#CC79A7"/>
+<text x="764.0" y="773.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Réservoirs de fluide ×2</text>
+<text x="764.0" y="789.5" font-size="12.5" text-anchor="middle" fill="#16181d">« cooling supply »</text>
+<rect x="802" y="732" width="74" height="18" rx="9" fill="#fff" stroke="#CC79A7" stroke-width="1.3"/>
+<text x="839" y="745.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°10</text>
+<rect x="960" y="742" width="260" height="70" rx="7" fill="#fbfbfc" stroke="#CC79A7" stroke-width="2.4"/>
+<rect x="960" y="742" width="9" height="70" rx="3" fill="#CC79A7"/>
+<text x="1094.0" y="781.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Pompe de refroidissement</text>
+<rect x="1142" y="732" width="74" height="18" rx="9" fill="#fff" stroke="#CC79A7" stroke-width="1.3"/>
+<text x="1179" y="745.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-008 n°9</text>
+<rect x="1320" y="412" width="190" height="70" rx="7" fill="#fbfbfc" stroke="#8a8f98" stroke-width="2.4"/>
+<rect x="1320" y="412" width="9" height="70" rx="3" fill="#8a8f98"/>
+<text x="1419.0" y="435.5" font-size="13" text-anchor="middle" fill="#16181d" font-weight="700">Évacuation des rayons X</text>
+<text x="1419.0" y="451.5" font-size="12.5" text-anchor="middle" fill="#16181d">« vers l'arrière » (texte)</text>
+<text x="1419.0" y="467.5" font-size="12.5" text-anchor="middle" fill="#16181d">organe NON localisé</text>
+<rect x="1432" y="402" width="74" height="18" rx="9" fill="#fff" stroke="#8a8f98" stroke-width="1.3"/>
+<text x="1469" y="415.5" font-size="10.5" text-anchor="middle" fill="#333">DOC-009 n°5</text>
+<path d="M290,432 L318,432 L318,304 L345,304" fill="none" stroke="#c0392b" stroke-width="2.6" marker-end="url(#f-energie)" stroke-linejoin="round"/>
+<path d="M290,462 L318,462 L318,584 L345,584" fill="none" stroke="#c0392b" stroke-width="2.6" marker-end="url(#f-energie)" stroke-linejoin="round"/>
+<path d="M290,447 L345,447" fill="none" stroke="#c0392b" stroke-width="2.6" marker-end="url(#f-energie)" stroke-linejoin="round"/>
+<path d="M565,294 L640,294" fill="none" stroke="#c0392b" stroke-width="2.6" marker-end="url(#f-energie)" stroke-linejoin="round"/>
+<rect x="578.7" y="275" width="46.599999999999994" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="602" y="286" font-size="10.5" text-anchor="middle" fill="#c0392b" font-style="italic">tirets</text>
+<path d="M565,598 L640,598" fill="none" stroke="#c0392b" stroke-width="2.6" marker-end="url(#f-energie)" stroke-linejoin="round"/>
+<rect x="578.7" y="579" width="46.599999999999994" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="602" y="590" font-size="10.5" text-anchor="middle" fill="#c0392b" font-style="italic">tirets</text>
+<path d="M880,294 L960,294" fill="none" stroke="#c0392b" stroke-width="2.6" stroke-linejoin="round"/>
+<rect x="899.75" y="275" width="40.5" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="920" y="286" font-size="10.5" text-anchor="middle" fill="#c0392b" font-style="italic">champ</text>
+<path d="M880,598 L960,598" fill="none" stroke="#c0392b" stroke-width="2.6" stroke-linejoin="round"/>
+<rect x="899.75" y="579" width="40.5" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="920" y="590" font-size="10.5" text-anchor="middle" fill="#c0392b" font-style="italic">champ</text>
+<path d="M565,447 L640,447" fill="none" stroke="#1f5fbf" stroke-width="2.6" marker-end="url(#f-electrons)" stroke-linejoin="round"/>
+<rect x="572.6" y="428" width="58.8" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="602" y="439" font-size="10.5" text-anchor="middle" fill="#1f5fbf" font-style="italic">2 traits</text>
+<path d="M880,447 L960,447" fill="none" stroke="#1f5fbf" stroke-width="2.6" marker-end="url(#f-electrons)" stroke-linejoin="round"/>
+<path d="M1090,412 L1090,340" fill="none" stroke="#1f5fbf" stroke-width="2.6" marker-end="url(#f-electrons)" stroke-linejoin="round"/>
+<path d="M1090,482 L1090,552" fill="none" stroke="#1f5fbf" stroke-width="2.6" marker-end="url(#f-electrons)" stroke-linejoin="round"/>
+<path d="M720,412 L720,380 L1252,380 L1252,300 L1220,300" fill="none" stroke="#555555" stroke-width="2.6" marker-end="url(#f-indetermine)" stroke-linejoin="round"/>
+<rect x="853.85" y="361" width="272.3" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="990" y="372" font-size="10.5" text-anchor="middle" fill="#555555" font-style="italic">trait plein en T vers le sommet des carters</text>
+<path d="M720,482 L720,514 L1252,514 L1252,590 L1220,590" fill="none" stroke="#555555" stroke-width="2.6" marker-end="url(#f-indetermine)" stroke-linejoin="round"/>
+<path d="M880,777 L960,777" fill="none" stroke="#0e8a9c" stroke-width="2.6" marker-end="url(#f-fluide)" stroke-linejoin="round"/>
+<rect x="881.45" y="758" width="77.1" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="920" y="769" font-size="10.5" text-anchor="middle" fill="#0e8a9c" font-style="italic">trait mixte</text>
+<path d="M1060,742 L1060,644" fill="none" stroke="#0e8a9c" stroke-width="2.6" marker-end="url(#f-fluide)" stroke-linejoin="round"/>
+<path d="M1220,777 L1282,777 L1282,320 L1220,320" fill="none" stroke="#0e8a9c" stroke-width="2.6" marker-end="url(#f-fluide)" stroke-linejoin="round"/>
+<path d="M1220,137 L1535,137 L1535,880 L1120,880 L1120,812" fill="none" stroke="#555555" stroke-width="2.6" marker-end="url(#f-indetermine)" stroke-linejoin="round"/>
+<rect x="1108.45" y="861" width="443.09999999999997" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="1330" y="872" font-size="10.5" text-anchor="middle" fill="#555555" font-style="italic">trait fin continu 11 → 9 contournant tout DOC-008 (nature non légendée)</text>
+<path d="M1220,266 L1415,266 L1415,412" fill="none" stroke="#b8860b" stroke-width="2.2" stroke-dasharray="2 5" marker-end="url(#f-rayonnement)" stroke-linejoin="round"/>
+<path d="M1220,626 L1415,626 L1415,482" fill="none" stroke="#b8860b" stroke-width="2.2" stroke-dasharray="2 5" marker-end="url(#f-rayonnement)" stroke-linejoin="round"/>
+<rect x="1358.15" y="649" width="113.69999999999999" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="1415" y="660" font-size="10.5" text-anchor="middle" fill="#b8860b" font-style="italic">rayons X, chaleur</text>
+<path d="M565,137 L640,137" fill="none" stroke="#3d8b2f" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-signal)" stroke-linejoin="round"/>
+<rect x="581.75" y="118" width="40.5" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="602" y="129" font-size="10.5" text-anchor="middle" fill="#3d8b2f" font-style="italic">temps</text>
+<path d="M960,137 L880,137" fill="none" stroke="#3d8b2f" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-signal)" stroke-linejoin="round"/>
+<rect x="893.65" y="118" width="52.699999999999996" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="920" y="129" font-size="10.5" text-anchor="middle" fill="#3d8b2f" font-style="italic">gravité</text>
+<path d="M1110,248 L1110,214 L840,214 L840,174" fill="none" stroke="#3d8b2f" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-signal)" stroke-linejoin="round"/>
+<rect x="892.65" y="195" width="174.7" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="980" y="206" font-size="10.5" text-anchor="middle" fill="#3d8b2f" font-style="italic">capteurs de singularité (7)</text>
+<path d="M175,100 L175,78 L760,78 L760,100" fill="none" stroke="#7a3fb0" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-commande)" marker-start="url(#f-commande)" stroke-linejoin="round"/>
+<rect x="394.0" y="59" width="132.0" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="460" y="70" font-size="10.5" text-anchor="middle" fill="#7a3fb0" font-style="italic">consignes, affichage</text>
+<path d="M680,174 L680,232 L300,232 L300,700" fill="none" stroke="#7a3fb0" stroke-width="1.7" stroke-dasharray="9 6" stroke-linejoin="round"/>
+<path d="M300,274 L345,274" fill="none" stroke="#7a3fb0" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-commande)" stroke-linejoin="round"/>
+<path d="M300,392 L780,392 L780,412" fill="none" stroke="#7a3fb0" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-commande)" stroke-linejoin="round"/>
+<path d="M300,620 L345,620" fill="none" stroke="#7a3fb0" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-commande)" stroke-linejoin="round"/>
+<path d="M300,700 L1000,700 L1000,742" fill="none" stroke="#7a3fb0" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-commande)" stroke-linejoin="round"/>
+<rect x="526.05" y="681" width="247.89999999999998" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="650" y="692" font-size="10.5" text-anchor="middle" fill="#7a3fb0" font-style="italic">commande des régulateurs et de la pompe</text>
+<path d="M175,326 L175,412" fill="none" stroke="#7a3fb0" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-commande)" stroke-linejoin="round"/>
+<rect x="118.15" y="361" width="113.69999999999999" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="175" y="372" font-size="10.5" text-anchor="middle" fill="#7a3fb0" font-style="italic">mise sous tension</text>
+<path d="M175,566 L175,482" fill="none" stroke="#7a3fb0" stroke-width="1.7" stroke-dasharray="9 6" marker-end="url(#f-commande)" stroke-linejoin="round"/>
+<rect x="148.65" y="517" width="52.699999999999996" height="15" fill="#ffffff" opacity="0.92"/>
+<text x="175" y="528" font-size="10.5" text-anchor="middle" fill="#7a3fb0" font-style="italic">coupure</text>
+<rect x="50" y="842" width="560" height="62" rx="8" fill="#fff8e6" stroke="#d9b24c"/>
+<text x="62" y="862" font-size="11.5" text-anchor="start" fill="#5b4500">DOC-008 ne dessine AUCUNE alimentation pour la pompe (9), les capteurs (11) et les amplificateurs (7) ;</text>
+<text x="62" y="878" font-size="11.5" text-anchor="start" fill="#5b4500">le texte ne décrit ni horloges ni calculateurs au-delà de leur nombre. Les liaisons correspondantes</text>
+<text x="62" y="894" font-size="11.5" text-anchor="start" fill="#5b4500">sont proposées dans schema_electrique_hypothetique.svg et restent des hypothèses.</text>
+<text x="60" y="930" font-size="12" text-anchor="start" fill="#16181d" font-weight="700">Nature du flux</text>
+<line x1="60" y1="944" x2="94" y2="944" stroke="#c0392b" stroke-width="3"/>
+<text x="102" y="948" font-size="11.5" text-anchor="start" fill="#16181d">Énergie électrique</text>
+<line x1="60" y1="961" x2="94" y2="961" stroke="#1f5fbf" stroke-width="3"/>
+<text x="102" y="965" font-size="11.5" text-anchor="start" fill="#16181d">Électrons (injection)</text>
+<line x1="60" y1="978" x2="94" y2="978" stroke="#0e8a9c" stroke-width="3"/>
+<text x="102" y="982" font-size="11.5" text-anchor="start" fill="#16181d">Fluide de refroidissement</text>
+<line x1="60" y1="995" x2="94" y2="995" stroke="#3d8b2f" stroke-width="3"/>
+<text x="102" y="999" font-size="11.5" text-anchor="start" fill="#16181d">Signaux (capteurs, horloges)</text>
+<line x1="60" y1="1012" x2="94" y2="1012" stroke="#7a3fb0" stroke-width="3"/>
+<text x="102" y="1016" font-size="11.5" text-anchor="start" fill="#16181d">Commande</text>
+<line x1="60" y1="1029" x2="94" y2="1029" stroke="#b8860b" stroke-width="3"/>
+<text x="102" y="1033" font-size="11.5" text-anchor="start" fill="#16181d">Rayons X / chaleur (texte)</text>
+<line x1="60" y1="1046" x2="94" y2="1046" stroke="#555555" stroke-width="3"/>
+<text x="102" y="1050" font-size="11.5" text-anchor="start" fill="#16181d">Nature non légendée (DOC-008)</text>
+<text x="310" y="930" font-size="12" text-anchor="start" fill="#16181d" font-weight="700">Statut de la liaison</text>
+<line x1="310" y1="944" x2="354" y2="944" stroke="#222" stroke-width="2.6"/>
+<text x="362" y="948" font-size="11.5" text-anchor="start" fill="#16181d">Liaison dessinée sur DOC-008</text>
+<line x1="310" y1="961" x2="354" y2="961" stroke="#222" stroke-width="2.2" stroke-dasharray="2 5"/>
+<text x="362" y="965" font-size="11.5" text-anchor="start" fill="#16181d">Affirmée par le texte seulement</text>
+<line x1="310" y1="978" x2="354" y2="978" stroke="#222" stroke-width="1.7" stroke-dasharray="9 6"/>
+<text x="362" y="982" font-size="11.5" text-anchor="start" fill="#16181d">Ajout hypothétique de l'Équipe E</text>
+<text x="580" y="930" font-size="12" text-anchor="start" fill="#16181d" font-weight="700">Classement du bloc</text>
+<rect x="580" y="937" width="16" height="12" rx="3" fill="#fbfbfc" stroke="#0072B2" stroke-width="2.4"/>
+<text x="604" y="948" font-size="11.5" text-anchor="start" fill="#16181d">[DOC] visible sur DOC-007 (pupitre)</text>
+<rect x="580" y="954" width="16" height="12" rx="3" fill="#fbfbfc" stroke="#E69F00" stroke-width="2.4"/>
+<text x="604" y="965" font-size="11.5" text-anchor="start" fill="#16181d">[DÉD] composant de DOC-008, placé sous les logements</text>
+<rect x="580" y="971" width="16" height="12" rx="3" fill="#fbfbfc" stroke="#CC79A7" stroke-width="2.4"/>
+<text x="604" y="982" font-size="11.5" text-anchor="start" fill="#16181d">[HYP] composant de DOC-008, emplacement supposé</text>
+<rect x="580" y="988" width="16" height="12" rx="3" fill="#fbfbfc" stroke="#8a8f98" stroke-width="2.4"/>
+<text x="604" y="999" font-size="11.5" text-anchor="start" fill="#16181d">Cité par le texte seul (aucune image)</text>
+</svg>

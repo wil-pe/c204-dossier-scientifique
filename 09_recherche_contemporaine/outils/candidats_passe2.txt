@@ -1,0 +1,50 @@
+# Passe 2 : références 2024-2026 repérées par recherche web (WebSearch) puis soumises aux API arXiv / Crossref.
+# Même format que candidats.txt.
+ATLASQBH26|1|arxiv|2604.19495|search for quantum black holes in lepton+jet final states|ATLAS
+CMS26|1|arxiv|2604.10732|microscopic black holes, string balls, and sphalerons|CMS
+LHAASOsens24|1|arxiv|2408.10897|prospective sensitivity of lhaaso|
+PBH2505|1|arxiv|2505.24586|primordial black hole|
+PBH2605|1|arxiv|2605.00565|km3|
+PBH2505b|1|arxiv|2505.24666|primordial black hole|
+Lu26|8|arxiv|2512.07346|19th digit|Arnold
+Lu26doi|8|doi|10.1038/s41586-026-11072-8|19th digit|Arnold
+Ca26|8|doi|10.1103/vngc-c1xv|clock|
+Th26a|8|arxiv|2604.16640|continuous-wave laser absorption spectroscopy of the thorium-229 nucleus|
+Th26b|8|arxiv|2606.04997|nuclear clock|
+ACES24|8|arxiv|2411.02912|atomic clock ensemble in space|Cacciapuoti
+QCTRL26|9|arxiv|2608.25563|gravi|
+AzizHowl25|7|biblio|Aziz Howl Classical theories of gravity produce entanglement Nature 2025|classical theories of gravity produce entanglement|Howl
+MV25|7|arxiv|2510.19969|entangle|Marletto
+Diosi25|7|arxiv|2511.00852|classical gravity does not entangle quantized matter fields|
+Ludescher25|7|arxiv|2507.13201|gravit|Ludescher
+Plavala25|7|arxiv|2508.03052|gravit|
+Huang26|6|arxiv|2501.16335|closed timelike curves|Huang
+Bishop26|6|arxiv|2601.17459|qhronology|Bishop
+GIST26|4|arxiv|2604.10090|traversable-wormhole-inspired quantum teleportation|
+HawkingBack26|2|biblio|Backreaction of Stimulated Hawking Radiation in an Optical Analogue Nature 2026|backreaction of stimulated hawking radiation|
+HawkingSingle26|2|biblio|Measurement of analogue Hawking radiation stimulated by a single photon Nature Communications 2026|hawking radiation stimulated by a single photon|
+GW250114spec|3|search|ti:"Black Hole Spectroscopy" AND ti:GW250114|gw250114|
+Friedl83|12|biblio|Friedl SCAMP: The Missing Link in the PC's Past PC Magazine 1983|scamp|Friedl
+Katz78|12|biblio|Katz IBM 5100 APL BASIC emulator microcode PALM IBM Systems Journal|5100|
+Bose1707|7|search|ti:"gravitationally induced entanglement" AND ti:experiment|entanglement|
+KerrCTC|3|search|ti:"closed timelike curves" AND ti:Kerr|kerr|
+TiplerSin|5|search|all:"Tipler sinusoid"|tipler sinusoid|
+KR22|6|arxiv|2106.10576|causal framework for non-linear quantum mechanics|Kaplan
+Polkovnikov23|6|arxiv|2204.11875|experimental limit on non-linear state-dependent terms in quantum theory|Polkovnikov
+Broz23|6|arxiv|2206.12976|nonlinear quantum mechanics|Broz
+Polchinski91|6|doi|10.1103/PhysRevLett.66.397|nonlinear quantum mechanics and the einstein-podolsky-rosen paradox|Polchinski
+Bollinger89|6|doi|10.1103/PhysRevLett.63.1031|test of the linearity of quantum mechanics|Bollinger
+Page77|1|doi|10.1103/PhysRevD.16.2402|particle emission rates from a black hole|Page
+CHT97|1|arxiv|gr-qc/9703018|spinning black hole|Chambers
+TCH98|1|arxiv|gr-qc/9801044|evaporation of a kerr black hole|Taylor
+Bekenstein73|2|doi|10.1103/PhysRevD.7.2333|black holes and entropy|Bekenstein
+Everett57|6|doi|10.1103/RevModPhys.29.454|relative state|Everett
+EHTM87pers|3|search|ti:"persistent shadow of the supermassive black hole of M87"|persistent shadow|
+Thorne74|3|doi|10.1086/152991|disk-accretion onto a black hole|Thorne
+Prezens10|3|arxiv|1008.3244|double kerr solution as a possible mechanism|Prezens
+NH09|3|arxiv|0905.4179|non-existence of stationary two-black-hole configurations|Neugebauer
+HN11|3|arxiv|1103.5248|non-existence of stationary two-black-hole configurations|Hennig
+CHR09|3|arxiv|0907.1280|interacting kerr black holes|Costa
+KN80|3|doi|10.1016/0375-9601(80)90562-1|superposition of two kerr solutions|Kramer
+MR17|3|search|ti:"Metric for two equal Kerr black holes"|two equal kerr black holes|Manko
+BS04|3|biblio|Bonnor Steadman The double-Kerr solution Classical and Quantum Gravity 2004|double-kerr solution|Bonnor

@@ -1,0 +1,1 @@
+figures écrites : ['R1_detectabilite.png', 'R1_scenarios.png', 'figure_de_merite.png', 'proximite.png']

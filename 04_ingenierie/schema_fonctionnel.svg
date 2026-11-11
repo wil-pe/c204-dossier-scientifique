@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1175" width="1600" height="1175" font-family="Helvetica,Arial,sans-serif">
+<title>C204 — schéma fonctionnel de l'architecture revendiquée (analyse de faisabilité)</title>
+<defs><marker id="m-data" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="m-elec" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6a1b9a"/></marker><marker id="m-mag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c77700"/></marker><marker id="m-fluide" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00838f"/></marker><marker id="m-ray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="m-pwr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker><style>
+  .titre{font:700 21px Helvetica,Arial,sans-serif;fill:#111}
+  .sous{font:13px Helvetica,Arial,sans-serif;fill:#444}
+  .bande{font:700 12px Helvetica,Arial,sans-serif;fill:#555;letter-spacing:1.5px}
+  .t{font:700 14px Helvetica,Arial,sans-serif;fill:#111}
+  .r{font:italic 11px Helvetica,Arial,sans-serif;fill:#555}
+  .l{font:12.5px Helvetica,Arial,sans-serif;fill:#222}
+  .n{font:italic 11.5px Helvetica,Arial,sans-serif;fill:#555}
+  .e{font:italic 11.5px Helvetica,Arial,sans-serif}
+  .f{fill:none;stroke-width:2}
+  .data{stroke:#1565c0;stroke-dasharray:6 4} .data-t{fill:#1565c0}
+  .elec{stroke:#6a1b9a} .elec-t{fill:#6a1b9a}
+  .mag{stroke:#c77700} .mag-t{fill:#c77700}
+  .fluide{stroke:#00838f} .fluide-t{fill:#00838f}
+  .ray{stroke:#c62828;stroke-dasharray:2 3} .ray-t{fill:#c62828}
+  .pwr{stroke:#444;stroke-width:1.5} .pwr-t{fill:#444}
+</style></defs>
+<rect width="1600" height="1175" fill="#fafafa"/>
+<text x="800.0" y="34" class="titre" text-anchor="middle">C204 — schéma fonctionnel de l'architecture revendiquée et faisabilité de chaque bloc</text>
+<text x="800.0" y="58" class="sous" text-anchor="middle">Reconstitution d'analyse (Équipe C) d'après DOC-007, DOC-008 et le texte attribué à « John Titor ». Aucune affirmation de la source n'est tenue pour vraie ; ce n'est pas un plan de construction.</text>
+<text x="40" y="92" class="bande">COMMANDE-CONTRÔLE</text>
+<rect x="40" y="102" width="235" height="128" rx="8" fill="#e3f4e4" stroke="#2e7d32" stroke-width="2.2"/>
+<text x="50" y="123" class="t">Télécommande filaire</text>
+<text x="267" y="222" class="r" text-anchor="end">DOC-007 r.3</text>
+<text x="50" y="143" class="l">temps de trajet, écart VGL,</text>
+<text x="50" y="159" class="l">température de l'unité</text>
+<text x="50" y="175" class="l">→ boîtier à cordon spiralé :</text>
+<text x="50" y="191" class="l">technologie banale</text>
+<rect x="300" y="102" width="265" height="128" rx="8" fill="#e3f4e4" stroke="#2e7d32" stroke-width="2.2"/>
+<text x="310" y="123" class="t">Arrêt d'urgence, marche/arrêt</text>
+<text x="557" y="222" class="r" text-anchor="end">DOC-007 r.4-6, 8</text>
+<text x="310" y="143" class="l">coupure, écran de secours</text>
+<text x="310" y="159" class="l">(ISO 13850 : réalisable)</text>
+<text x="310" y="175" class="l">MAIS aucun état sûr : couper</text>
+<text x="310" y="191" class="l">n'éteint ni gravité ni rayonnement</text>
+<rect x="600" y="102" width="300" height="128" rx="8" fill="#e3f4e4" stroke="#2e7d32" stroke-width="2.2"/>
+<text x="610" y="123" class="t">3 calculateurs + vote « Borda »</text>
+<text x="892" y="222" class="r" text-anchor="end">texte</text>
+<text x="610" y="143" class="l">= redondance modulaire triple (TMR)</text>
+<text x="610" y="159" class="l">voteur majoritaire ou médian : classique</text>
+<text x="610" y="175" class="l">« protocole de Borda » : inconnu de la</text>
+<text x="610" y="191" class="l">littérature ; non tolérant aux fautes</text>
+<rect x="935" y="102" width="265" height="128" rx="8" fill="#e3f4e4" stroke="#2e7d32" stroke-width="2.2"/>
+<text x="945" y="123" class="t">4 horloges au césium</text>
+<text x="1192" y="222" class="r" text-anchor="end">texte</text>
+<text x="945" y="143" class="l">2000 : 4 x 30 kg = 189 % du coffre</text>
+<text x="945" y="159" class="l">aujourd'hui : 4 CSAC = 140 g, 0,5 W</text>
+<text x="945" y="175" class="l">exactitude 5e-13 : insensibles au</text>
+<text x="945" y="191" class="l">potentiel des singularités (≤ 3e-14)</text>
+<rect x="1235" y="102" width="325" height="128" rx="8" fill="#fff0d6" stroke="#c77700" stroke-width="2.2"/>
+<text x="1245" y="123" class="t">Unité de capteurs de gravité (VGL)</text>
+<text x="1552" y="222" class="r" text-anchor="end">DOC-008 r.11</text>
+<text x="1245" y="143" class="l">réel : 1-5 µGal (5 à 150 kg, 20-45 °C)</text>
+<text x="1245" y="159" class="l">bloc de 1 m³ à 2 m : 4 µGal → détectable</text>
+<text x="1245" y="175" class="l">à 0,3 m d'une singularité : 22-330 g,</text>
+<text x="1245" y="191" class="l">tenue de position requise ~1e-12 m</text>
+<text x="40" y="292" class="bande">ACTIONNEURS</text>
+<rect x="40" y="302" width="240" height="112" rx="8" fill="#e3f4e4" stroke="#2e7d32" stroke-width="2.2"/>
+<text x="50" y="323" class="t">Générateur d'électrons</text>
+<text x="272" y="406" class="r" text-anchor="end">DOC-008 r.6</text>
+<text x="50" y="343" class="l">canon thermo-ionique ou</text>
+<text x="50" y="359" class="l">photocathode, 100 kV x 1 mA</text>
+<text x="50" y="375" class="l">→ 100 W : réalisable</text>
+<rect x="310" y="302" width="225" height="112" rx="8" fill="#e3f4e4" stroke="#2e7d32" stroke-width="2.2"/>
+<text x="320" y="323" class="t">Régulateur d'électrons</text>
+<text x="527" y="406" class="r" text-anchor="end">DOC-008 r.5</text>
+<text x="320" y="343" class="l">régulation de courant</text>
+<text x="320" y="359" class="l">et de tension d'accélération</text>
+<text x="320" y="375" class="l">→ réalisable</text>
+<rect x="565" y="302" width="290" height="112" rx="8" fill="#fde0e0" stroke="#c62828" stroke-width="2.2"/>
+<text x="575" y="323" class="t">Collecteur d'injection (« masse »)</text>
+<text x="847" y="406" class="r" text-anchor="end">DOC-008 r.4</text>
+<text x="575" y="343" class="l">1 % de masse = 5e40 électrons</text>
+<text x="575" y="359" class="l">= 2e14 ans à 1 A ; charge max atteinte</text>
+<text x="575" y="375" class="l">pour ΔM/M = 4,9e-22 ; barrière</text>
+<text x="575" y="391" class="l">jusqu'à 1e27 eV</text>
+<rect x="985" y="302" width="295" height="112" rx="8" fill="#fff0d6" stroke="#c77700" stroke-width="2.2"/>
+<text x="995" y="323" class="t">Générateurs/régulateurs de champ x2</text>
+<text x="1272" y="406" class="r" text-anchor="end">DOC-008 r.3</text>
+<text x="995" y="343" class="l">alimentations d'aimants : réalisables</text>
+<text x="995" y="359" class="l">(45 T continu = 30-33 MW réseau)</text>
+<text x="995" y="375" class="l">sur batterie : aimant supra</text>
+<text x="995" y="391" class="l">en mode persistant seulement</text>
+<rect x="1305" y="302" width="255" height="112" rx="8" fill="#fde0e0" stroke="#c62828" stroke-width="2.2"/>
+<text x="1315" y="323" class="t">Bobines de champ x2</text>
+<text x="1552" y="406" class="r" text-anchor="end">DOC-008 r.2</text>
+<text x="1315" y="343" class="l">réel : 20-45 T (continu), 100 T (pulsé)</text>
+<text x="1315" y="359" class="l">requis (charge extrémale) : 5.1e+11 T</text>
+<text x="1315" y="375" class="l">limite des matériaux : ~570 T</text>
+<text x="1315" y="391" class="l">trou noir neutre : aucun couplage</text>
+<text x="40" y="472" class="bande">CŒUR REVENDIQUÉ</text>
+<rect x="40" y="482" width="300" height="180" rx="8" fill="#fff0d6" stroke="#c77700" stroke-width="2.2"/>
+<text x="50" y="503" class="t">Capteur de singularité</text>
+<text x="332" y="654" class="r" text-anchor="end">DOC-008 r.7</text>
+<text x="50" y="523" class="l">« détecte divers paramètres »</text>
+<text x="50" y="539" class="l">position : en principe mesurable</text>
+<text x="50" y="555" class="l">(gravité 2e4 à 3e5 g à 1 cm)</text>
+<text x="50" y="571" class="l">mais environnement : &gt; 1e3 Gy/s,</text>
+<text x="50" y="587" class="l">champ fort, MW thermiques</text>
+<text x="50" y="603" class="l">→ aucun capteur ne survit</text>
+<rect x="400" y="482" width="340" height="180" rx="8" fill="#fde0e0" stroke="#c62828" stroke-width="2.2"/>
+<text x="410" y="503" class="t">Carter + SINGULARITÉ PRINCIPALE</text>
+<text x="732" y="654" class="r" text-anchor="end">DOC-007 r.1 / DOC-008 r.1</text>
+<text x="410" y="523" class="l">300-500 MW ⇒ M = 3,9 à 5,1e12 kg</text>
+<text x="410" y="539" class="l">(r_s = 6 à 7,5 fm ; kT = 2,1 à 2,7 MeV)</text>
+<text x="410" y="555" class="l">poids 4e13 N ; création 4e29 J</text>
+<text x="410" y="571" class="l">100 kg ⇒ durée de vie 4e-13 s</text>
+<text x="410" y="587" class="l">charge tenable : quelques e (Page 1977)</text>
+<text x="410" y="603" class="l">sustentation : E ≥ 1.1e+11 V/m</text>
+<text x="410" y="619" class="l">→ IMPOSSIBLE dans 227 kg</text>
+<rect x="800" y="482" width="340" height="180" rx="8" fill="#fde0e0" stroke="#c62828" stroke-width="2.2"/>
+<text x="810" y="503" class="t">Carter + SINGULARITÉ DE DIRECTION</text>
+<text x="1132" y="654" class="r" text-anchor="end">DOC-007 r.2 / DOC-008 r.1</text>
+<text x="810" y="523" class="l">mêmes impossibilités</text>
+<text x="810" y="539" class="l">attraction mutuelle à 9,1 cm :</text>
+<text x="810" y="555" class="l">≈ 3600 fois leur poids,</text>
+<text x="810" y="571" class="l">période orbitale 7,1 ms</text>
+<text x="810" y="587" class="l">orientation de l'axe : précession</text>
+<text x="810" y="603" class="l">≤ 4e-9 rad/s à 45 T (51 ans/tour)</text>
+<text x="810" y="619" class="l">→ IMPOSSIBLE</text>
+<rect x="1200" y="482" width="360" height="180" rx="8" fill="#fde0e0" stroke="#c62828" stroke-width="2.2"/>
+<text x="1210" y="503" class="t">« Cône d'évacuation des rayons X »</text>
+<text x="1552" y="654" class="r" text-anchor="end">DOC-009 r.5</text>
+<text x="1210" y="523" class="l">émission réelle : isotrope</text>
+<text x="1210" y="539" class="l">55 % neutrinos, 37 % e±, 7,5 % γ</text>
+<text x="1210" y="555" class="l">γ de 5 à 70 MeV : pas des rayons X</text>
+<text x="1210" y="571" class="l">collimater = absorber 93 % (cône 30°)</text>
+<text x="1210" y="587" class="l">dans l'axe : ~1000 Gy/h à 100 m</text>
+<text x="1210" y="603" class="l">→ CONTREDIT</text>
+<text x="40" y="742" class="bande">THERMIQUE ET RADIOPROTECTION</text>
+<rect x="40" y="752" width="290" height="128" rx="8" fill="#fff0d6" stroke="#c77700" stroke-width="2.2"/>
+<text x="50" y="773" class="t">Réservoirs de caloporteur x2</text>
+<text x="322" y="872" class="r" text-anchor="end">DOC-008 r.10</text>
+<text x="50" y="793" class="l">2 x 0,25 L à l'échelle du schéma</text>
+<text x="50" y="809" class="l">vaporisés en 1,3 à 9,7 ms</text>
+<text x="50" y="825" class="l">trajet de 6 h en circuit ouvert :</text>
+<text x="50" y="841" class="l">1500 à 8300 t d'eau</text>
+<rect x="365" y="752" width="250" height="128" rx="8" fill="#fff0d6" stroke="#c77700" stroke-width="2.2"/>
+<text x="375" y="773" class="t">Pompe de refroidissement</text>
+<text x="607" y="872" class="r" text-anchor="end">DOC-008 r.9</text>
+<text x="375" y="793" class="l">charge : 353 MW (130 à 1000)</text>
+<text x="375" y="809" class="l">eau ΔT 50 K : 0,6 à 4,8 t/s</text>
+<text x="375" y="825" class="l">puissance pompe : 1 à 6 MW</text>
+<text x="375" y="841" class="l">(batterie : ~25 kW)</text>
+<rect x="650" y="752" width="320" height="128" rx="8" fill="#fff0d6" stroke="#c77700" stroke-width="2.2"/>
+<text x="660" y="773" class="t">Enveloppes de refroidissement x2</text>
+<text x="962" y="872" class="r" text-anchor="end">DOC-008 r.8</text>
+<text x="660" y="793" class="l">flux pariétal (r = 4 cm) : 8,8 GW/m²</text>
+<text x="660" y="809" class="l">= 32 x le flux critique record</text>
+<text x="660" y="825" class="l">coffre : 2,1 à 16 MW/L (HFIR : 1,7 MW/L)</text>
+<text x="660" y="841" class="l">38-49 °C ⇒ en réalité 0,15 à 0,29 kW</text>
+<rect x="1005" y="752" width="555" height="128" rx="8" fill="#fde0e0" stroke="#c62828" stroke-width="2.2" stroke-dasharray="8 5"/>
+<text x="1015" y="773" class="t">Blindage (absent des documents — exigé par le calcul)</text>
+<text x="1552" y="872" class="r" text-anchor="end">—</text>
+<text x="1015" y="793" class="l">sans blindage à 1 m : 3300 Gy/s (γ seuls) ; dose létale en ~1 ms</text>
+<text x="1015" y="809" class="l">pour 1 mSv par trajet : 39 à 62 cm de plomb (faisceau étroit à large), 4 à 14 t</text>
+<text x="1015" y="825" class="l">logeable : 4,5 à 9 cm → reste 549 à 87 Gy/s</text>
+<text x="1015" y="841" class="l">+ neutrons photonucléaires (seuils 6 à 8 MeV dans Pb, W)</text>
+<text x="40" y="952" class="bande">ÉNERGIE</text>
+<rect x="40" y="962" width="420" height="128" rx="8" fill="#fff0d6" stroke="#c77700" stroke-width="2.2"/>
+<text x="50" y="983" class="t">Batterie</text>
+<text x="452" y="1082" class="r" text-anchor="end">DOC-008 r.12</text>
+<text x="50" y="1003" class="l">auxiliaires réels : 226 à 920 W → 1,4 à 5,5 kWh/6 h : OK</text>
+<text x="50" y="1019" class="l">pack logeable (4 L) : 1,3 kWh ; pack de 50 kg (30 L) : 7,5 kWh</text>
+<text x="50" y="1035" class="l">pompe + aimants : 1 à 30 MW → hors de portée</text>
+<text x="50" y="1051" class="l">création des singularités : 2,6e28 à 8e29 J</text>
+<rect x="500" y="962" width="1060" height="178" rx="8" fill="#ffffff" stroke="#999" stroke-width="1"/>
+<text x="512" y="984" class="t">Légende</text>
+<rect x="514" y="998" width="26" height="16" rx="3" fill="#e3f4e4" stroke="#2e7d32" stroke-width="2"/>
+<text x="550" y="1011" class="l">constructible aujourd'hui et apte à sa fonction déclarée</text>
+<rect x="514" y="1024" width="26" height="16" rx="3" fill="#fff0d6" stroke="#c77700" stroke-width="2"/>
+<text x="550" y="1037" class="l">constructible, mais loin de l'exigence (≥ 3 ordres de grandeur) ou fonction partielle</text>
+<rect x="514" y="1050" width="26" height="16" rx="3" fill="#fde0e0" stroke="#c62828" stroke-width="2"/>
+<text x="550" y="1063" class="l">fonction impossible ou contredite par la physique connue (démontré par calcul)</text>
+<polyline points="1060,1006 1106,1006" class="f data" marker-end="url(#m-data)"/>
+<text x="1118" y="1011" class="l">données / commandes</text>
+<polyline points="1060,1032 1106,1032" class="f elec" marker-end="url(#m-elec)"/>
+<text x="1118" y="1037" class="l">faisceau d'électrons</text>
+<polyline points="1060,1058 1106,1058" class="f mag" marker-end="url(#m-mag)"/>
+<text x="1118" y="1063" class="l">courant des bobines / champ</text>
+<polyline points="1310,1006 1356,1006" class="f fluide" marker-end="url(#m-fluide)"/>
+<text x="1368" y="1011" class="l">caloporteur</text>
+<polyline points="1310,1032 1356,1032" class="f ray" marker-end="url(#m-ray)"/>
+<text x="1368" y="1037" class="l">rayonnement</text>
+<polyline points="1310,1058 1356,1058" class="f pwr" marker-end="url(#m-pwr)"/>
+<text x="1368" y="1063" class="l">alimentation électrique</text>
+<text x="512" y="1098" class="t">Périphériques dimensionnés sans contrainte de place : 209 kg (≤ 227 kg) mais 127 L pour 35 L utiles ; seule une version réduite tient (36 kg, Équipe I).</text>
+<text x="512" y="1124" class="n">Valeurs : scripts calculs/c01 à c10 (résultats dans calculs/resultats/). Coffre : 0,85 x 0,26 x 0,285 m (Équipe A). r. = repère du document source. [HYP] = hypothèse de l'Équipe C.</text>
+<polyline points="1235,150 1200,150" class="f data" marker-end="url(#m-data)"/>
+<polyline points="935,166 900,166" class="f data" marker-end="url(#m-data)"/>
+<text x="917" y="160" class="e data-t" text-anchor="middle">bus</text>
+<polyline points="275,150 300,150" class="f data" marker-end="url(#m-data)"/>
+<polyline points="565,166 600,166" class="f data" marker-end="url(#m-data)"/>
+<polyline points="40,572 20,572 20,258 620,258 620,230" class="f data" marker-end="url(#m-data)"/>
+<text x="330" y="252" class="e data-t" text-anchor="middle">mesures</text>
+<polyline points="700,230 700,280 422,280 422,302" class="f data" marker-end="url(#m-data)"/>
+<text x="560" y="294" class="e data-t" text-anchor="middle">consignes</text>
+<polyline points="820,230 820,262 1130,262 1130,302" class="f data" marker-end="url(#m-data)"/>
+<text x="975" y="256" class="e data-t" text-anchor="middle">consignes</text>
+<polyline points="280,358 310,358" class="f elec" marker-end="url(#m-elec)"/>
+<polyline points="535,358 565,358" class="f elec" marker-end="url(#m-elec)"/>
+<polyline points="650,414 650,482" class="f elec" marker-end="url(#m-elec)"/>
+<text x="664" y="440" class="e elec-t" text-anchor="middle">e⁻</text>
+<polyline points="830,414 830,482" class="f elec" marker-end="url(#m-elec)"/>
+<text x="844" y="440" class="e elec-t" text-anchor="middle">e⁻</text>
+<polyline points="1280,358 1305,358" class="f mag" marker-end="url(#m-mag)"/>
+<polyline points="1400,414 1400,456 1060,456 1060,482" class="f mag" marker-end="url(#m-mag)"/>
+<text x="1230" y="450" class="e mag-t" text-anchor="middle">B</text>
+<polyline points="1060,456 710,456 710,482" class="f mag" marker-end="url(#m-mag)"/>
+<polyline points="330,816 365,816" class="f fluide" marker-end="url(#m-fluide)"/>
+<polyline points="615,816 650,816" class="f fluide" marker-end="url(#m-fluide)"/>
+<polyline points="740,752 740,706 570,706 570,662" class="f fluide" marker-end="url(#m-fluide)"/>
+<polyline points="880,752 880,706 970,706 970,662" class="f fluide" marker-end="url(#m-fluide)"/>
+<polyline points="1140,572 1200,572" class="f ray" marker-end="url(#m-ray)"/>
+<text x="1170" y="564" class="e ray-t" text-anchor="middle">γ, e±, ν</text>
+<polyline points="1090,662 1090,712 1280,712 1280,752" class="f ray" marker-end="url(#m-ray)"/>
+<text x="1186" y="706" class="e ray-t" text-anchor="middle">4π sr</text>
+<polyline points="250,962 250,915 1540,915" class="f pwr" marker-end="url(#m-pwr)"/>
+<text x="900" y="908" class="e pwr-t" text-anchor="middle">bus d'alimentation → tous les blocs</text>
+<polyline points="250,915 160,915" class="f pwr"/>
+<polyline points="160,915 160,880" class="f pwr" marker-end="url(#m-pwr)"/>
+<polyline points="490,915 490,880" class="f pwr" marker-end="url(#m-pwr)"/>
+</svg>

@@ -1,0 +1,21 @@
+voie,cas,facteur_dt_sur_dtau,deplacement_vers_le_futur_s_par_h,energie_pour_227kg_J_ou_cout_retour_fraction_mc2,nature,statut_physique,note
+vitesse,"Station spatiale (7,66 km/s ; cinématique seule)",1,1.1755e-06,6.662e+09 J,objet habité,Démontré,
+vitesse,"Muons en anneau de stockage, p = 3,094 GeV/c (CERN 1977 ; BNL ; Fermilab)",29.30012455,1.0188e+05,5.774e+20 J,particules,Démontré,durée de vie au laboratoire 64.37 µs contre 2.197 µs au repos
+vitesse,"Protons du LHC à 6,8 TeV",7247.364679,2.6087e+07,1.478e+23 J,particules,Démontré,
+vitesse,"Électrons du LEP à 45,6 GeV (≈ le facteur revendiqué)",89236.97385,3.2125e+08,1.821e+24 J,particules,Démontré,
+vitesse,"Électrons du LEP à 104,5 GeV",204501.3984,7.3620e+08,4.172e+24 J,particules,Démontré,
+vitesse,Vaisseau à 0.10 c,1.005037815,1.8136e+01,1.028e+17 J,objet macroscopique,Théoriquement possible,
+vitesse,Vaisseau à 0.50 c,1.154700538,5.5692e+02,3.156e+18 J,objet macroscopique,Théoriquement possible,
+vitesse,Vaisseau à 0.90 c,2.294157339,4.6590e+03,2.640e+19 J,objet macroscopique,Théoriquement possible,
+vitesse,Vaisseau à 0.99 c,7.08881205,2.1920e+04,1.242e+20 J,objet macroscopique,Théoriquement possible,
+vitesse,« 10 ans par heure » (Γ revendiqué),87660,3.1557e+08,1.788e+24 J,objet macroscopique,Théoriquement possible (vers le futur seulement),
+gravité,Centre de la Terre contre surface (densité uniforme : ½·g·R/c²),1,1.2513e-06,,astre / orbite,Démontré (principe),
+gravité,Surface du Soleil contre l'infini,1.000002123,7.6413e-03,,astre / orbite,Démontré,
+gravité,"Surface d'une naine blanche (0,6 M☉ ; 8 900 km) [valeurs typiques]",1.000099566,3.5844e-01,,astre / orbite,Démontré (spectroscopie),
+gravité,"Surface d'une étoile à neutrons (1,4 M☉ ; 12 km) [valeurs typiques]",1.2351858,8.4667e+02,0.1904 m·c²,astre / orbite,Théoriquement possible,pesanteur locale ~10¹¹ g : aucun équipage
+gravité,"Dernière orbite stable, trou noir de Kerr a/M = 0 (r = 6.000 GM/c²)",1.414213562,1.4912e+03,0.0572 m·c²,astre / orbite,Théoriquement possible,chute libre : aucune pesanteur ressentie ; énergie de liaison 5.7 % de m·c²
+gravité,"Dernière orbite stable, trou noir de Kerr a/M = 0.5 (r = 4.233 GM/c²)",1.659297905,2.3735e+03,0.0821 m·c²,astre / orbite,Théoriquement possible,chute libre : aucune pesanteur ressentie ; énergie de liaison 8.2 % de m·c²
+gravité,"Dernière orbite stable, trou noir de Kerr a/M = 0.9 (r = 2.321 GM/c²)",2.696377552,6.1070e+03,0.1558 m·c²,astre / orbite,Théoriquement possible,chute libre : aucune pesanteur ressentie ; énergie de liaison 15.6 % de m·c²
+gravité,"Dernière orbite stable, trou noir de Kerr a/M = 0.99 (r = 1.454 GM/c²)",6.081170269,1.8292e+04,0.2640 m·c²,astre / orbite,Théoriquement possible,chute libre : aucune pesanteur ressentie ; énergie de liaison 26.4 % de m·c²
+gravité,"Dernière orbite stable, trou noir de Kerr a/M = 0.998 (r = 1.237 GM/c²)",10.79094283,3.5247e+04,0.3210 m·c²,astre / orbite,Théoriquement possible (limite de Thorne des trous noirs accrétants),chute libre : aucune pesanteur ressentie ; énergie de liaison 32.1 % de m·c²
+gravité,"Dernière orbite stable, trou noir de Kerr a/M = 0.9999 (r = 1.079 GM/c²)",30.51600289,1.0626e+05,0.3820 m·c²,astre / orbite,Théoriquement possible,chute libre : aucune pesanteur ressentie ; énergie de liaison 38.2 % de m·c²

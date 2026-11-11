@@ -1,0 +1,7 @@
+horloge,bruit_blanc_frequence_1s,plancher_scintillation,bruit_48h_ns,environnement_48h_ns,total_48h_ns,SB_1000m,SB_2000m,SB_3000m,denivele_min_3sigma_m,verdict_palier_1,statut_des_parametres
+CSAC au césium (SA.45s),3.0e-10,5.0e-12,1234.54,8640.00,8727.75,0.00,0.00,0.01,1388675,ne détecte pas,a : fiche constructeur vérifiée par l'Équipe C ; plancher et environnement : estimation
+"Rubidium miniature (classe PRS10), nu",2.0e-11,1.0e-12,244.66,17280.00,17281.73,0.00,0.00,0.00,2749701,ne détecte pas,"paramètres de l'Équipe F (calc01) ; environnement : pression, température, champ"
+Rubidium miniature en enceinte étanche thermostatée blindée [à démontrer],2.0e-11,3.0e-13,74.25,51.84,90.56,0.21,0.42,0.62,14408,ne détecte pas,hypothèse de conception : gain ×300 sur l'environnement ; plancher : estimation
+"Césium à jet 5071A, tube standard",2.7e-11,5.0e-14,20.03,0.00,20.03,0.94,1.88,2.82,3187,ne détecte pas,dimensions et masse : fiche vérifiée par l'Équipe C ; bruit : paramètres de l'Équipe F
+"Césium à jet 5071A, tube haute performance",8.5e-12,1.0e-14,5.56,0.00,5.56,3.39,6.77,10.16,885,détecte,idem ; plancher ≤ 1e-14 vérifié par l'Équipe C
+"Horloge optique à iode, 35 L (Roslund et al. 2024)",,,0.60,0.00,0.60,31.41,62.81,94.20,95,détecte,résumé de l'article : erreur de temps < 300 ps par jour en mer ; volume 35 L

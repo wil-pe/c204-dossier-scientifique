@@ -1,0 +1,94 @@
+groupe,cote,valeur,unite,statut,regle_de_proportion,source
+Enveloppe,L,850,mm,HYP,valeur fixe (ne suit pas L),"Équipe A, 02_reconstruction/dimensions.json : médiane de cinq estimations d'étalonnage (sangle, ruban de danger de 2 ou 3 pouces, télécommande, cordon spiralé) "
+Enveloppe,P,260,mm,DOC,"0,3058 × L","DOC-007 : L/P = 3,27 (corps 3,22 ; couvercle 3,33). Équipe A : 3,30 ± 0,05 (accord). DOC-004 et photos suggèrent L/P ≈ 3,4–3,7 (écart E2 du rapport)."
+Enveloppe,H_corps,209,mm,DOC,"0,246 × L","DOC-004 : ajustement d'une caméra en perspective sur 9 coins (H_corps/L = 0,241–0,251 selon la focale ; résidu 4 px). Hauteur du corps SANS couvercle. Équipe A "
+Enveloppe,H_couvercle,32,mm,DÉD,"0,125 × P","DOC-004 : rebord intérieur du couvercle ouvert visible sur 10–15 px (P ≈ 80 px en bout droit), soit 0,125 P. Équipe A : 0,25 P ± 0,10 (estimation visuelle sur D"
+Enveloppe,e_rebord,15,mm,DOC,"0,0175 × L","DOC-007 : distance contour extérieur → panneau intérieur (7,5 px en X, 5 px en Y, moyenne 6,25 px). Modélisé comme épaisseur de paroi pleine ; l'épaisseur réell"
+Enveloppe,retrait_platine,12,mm,DÉD,valeur fixe (ne suit pas L),DOC-004 : la platine supérieure paraît légèrement en retrait sous le rebord du corps.
+Enveloppe,angle_ouverture_deg,108,deg,DOC,valeur fixe (ne suit pas L),DOC-004 : angle du couvercle ouvert ajusté à 101–112° ; photos DOC-001/002/003 compatibles (couvercle proche de la verticale).
+Platine — zones (abscisses depuis l'extrémité gauche),x_division_gauche,67,mm,DOC,"0,0783 × L",DOC-007 : trait vertical divisant la zone tramée de gauche.
+Platine — zones (abscisses depuis l'extrémité gauche),x_bande1_debut,114,mm,DOC,"0,1343 × L",DOC-007 : bord gauche de la bande de danger n°1 (corps et couvercle).
+Platine — zones (abscisses depuis l'extrémité gauche),x_bande1_fin,197,mm,DOC,"0,2322 × L",DOC-007.
+Platine — zones (abscisses depuis l'extrémité gauche),x_cadre_debut,256,mm,DOC,"0,3007 × L",DOC-007 : bord gauche du cadre des deux logements circulaires.
+Platine — zones (abscisses depuis l'extrémité gauche),x_cadre_fin,392,mm,DOC,"0,4615 × L",DOC-007.
+Platine — zones (abscisses depuis l'extrémité gauche),x_bande2_debut,453,mm,DOC,"0,5329 × L","DOC-007 : bande de danger n°2. Photos : bande 2 centrée vers 0,48 L au lieu de 0,58 L (écart E4)."
+Platine — zones (abscisses depuis l'extrémité gauche),x_bande2_fin,535,mm,DOC,"0,6294 × L",DOC-007.
+Platine — zones (abscisses depuis l'extrémité gauche),x_fente_ecran,564,mm,DOC,"0,6638 × L",DOC-007 : double trait vertical étroit pointé par le repère 4 (EMERGENCY VIEW SCREEN).
+Platine — zones (abscisses depuis l'extrémité gauche),l_fente_ecran,4,mm,DOC,"0,0045 × L","DOC-007 : largeur du double trait (≈ 1,5 px)."
+Platine — zones (abscisses depuis l'extrémité gauche),x_zone4_fin,594,mm,DOC,"0,6993 × L",DOC-007 : limite zone 4 / panneau blanc 5.
+Platine — zones (abscisses depuis l'extrémité gauche),x_panneau5_fin,671,mm,DOC,"0,789 × L","DOC-007 : limite panneau 5 / panneau 8 (milieu du filet de séparation, 330–332 px)."
+Platine — zones (abscisses depuis l'extrémité gauche),x_panneau8_fin,748,mm,DOC,"0,8797 × L",DOC-007 : limite panneau 8 / logement de rangement 9.
+Platine — cadre des logements (ordonnées depuis l'avant),y_cadre_avant,62,mm,DOC,"0,2387 × P",DOC-007 : bord avant du cadre des logements (fraction de P depuis l'avant).
+Platine — cadre des logements (ordonnées depuis l'avant),y_cadre_separation,151,mm,DOC,"0,5811 × P",DOC-007 : barrette claire séparant les deux logements.
+Platine — cadre des logements (ordonnées depuis l'avant),y_cadre_arriere,239,mm,DOC,"0,9189 × P",DOC-007.
+Logements,x_logements,325,mm,DOC,"0,382 × L","DOC-007 : abscisse commune des deux disques noirs (0,381 et 0,383)."
+Logements,y_logement_direction,104,mm,DOC,"0,4009 × P","DOC-007 repère 2 (STEERING SINGULARITY), côté avant. Entraxe = 0,356 P = 1,16 diamètre."
+Logements,y_logement_principal,197,mm,DOC,"0,7568 × P","DOC-007 repère 1 (MAIN SINGULARITY), côté charnière."
+Logements,r_logement,40,mm,DOC,"0,0476 × L","DOC-007 : rayon des disques noirs (17 px sur 357,5 px), soit un diamètre de 0,095 L. Équipe A : diamètre 0,090 L (32 px sur 356 px), soit 77 mm contre 81 mm ici"
+Bandes de danger,bande_pente,"0,639",sans,DOC,valeur fixe (ne suit pas L),"DOC-007 : tangente de l'inclinaison des raies noires par rapport à X (32,6°)."
+Bandes de danger,bande_periode,64,mm,DOC,"0,2462 × P",DOC-007 : pas des raies noires mesuré selon Y (4 raies par bande). Photos : 2 à 3 raies seulement (écart E5).
+Bandes de danger,bande_epaisseur_noire,34,mm,DOC,"0,1306 × P",DOC-007 : épaisseur d'une raie noire mesurée selon Y.
+Bandes de danger,bande_phase,7,mm,DOC,"0,0276 × P",DOC-007 : ordonnée du bord avant de la première raie au bord gauche de la bande.
+Pupitre,x_afficheur5_debut,605,mm,DOC,"0,7113 × L",DOC-007 : fenêtre sombre en haut du panneau 5.
+Pupitre,x_afficheur5_fin,659,mm,DOC,"0,7754 × L",DOC-007.
+Pupitre,y_afficheur5_avant,215,mm,DOC,"0,827 × P",DOC-007.
+Pupitre,y_afficheur5_arriere,238,mm,DOC,"0,9171 × P",DOC-007.
+Pupitre,x_interrupteur5,632,mm,DOC,"0,7438 × L",DOC-007 repère 5 (EMERGENCY DISCONNECT) : centre de l'organe rond.
+Pupitre,y_interrupteur5,63,mm,DOC,"0,2423 × P",DOC-007.
+Pupitre,r_interrupteur5,16,mm,DOC,"0,0187 × L","DOC-007 : rayon extérieur de l'organe rond (6,7 px)."
+Pupitre,x_clavier_debut,679,mm,DOC,"0,7983 × L",DOC-007 repère 8 (EMERGENCY CONTROLS) : panneau blanc portant les touches.
+Pupitre,x_clavier_fin,739,mm,DOC,"0,8699 × L",DOC-007.
+Pupitre,y_clavier_avant,86,mm,DOC,"0,3324 × P",DOC-007.
+Pupitre,y_clavier_arriere,246,mm,DOC,"0,9468 × P",DOC-007.
+Pupitre,x_touches_col_isolee,686,mm,DOC,"0,807 × L",DOC-007 : 2 pastilles isolées à gauche.
+Pupitre,x_touches_col1,703,mm,DOC,"0,8266 × L",DOC-007 : colonne de 11 pastilles.
+Pupitre,x_touches_col2,717,mm,DOC,"0,8434 × L",DOC-007 : colonne de 5 pastilles.
+Pupitre,l_touche,9,mm,DOC,"0,0105 × L","DOC-007 : pastille ≈ 3,8 px selon X."
+Pupitre,p_touche,8,mm,DOC,"0,029 × P","DOC-007 : pastille ≈ 3,2 px selon Y."
+Pupitre,x_marche_arret_debut,687,mm,DOC,"0,8078 × L",DOC-007 repère 6 (MAIN UNIT ON/OFF SWITCH).
+Pupitre,x_marche_arret_fin,735,mm,DOC,"0,8649 × L",DOC-007.
+Pupitre,y_marche_arret_avant,24,mm,DOC,"0,0919 × P",DOC-007.
+Pupitre,y_marche_arret_arriere,68,mm,DOC,"0,2604 × P",DOC-007.
+Pupitre,profondeur_rangement,85,mm,HYP,"0,4065 × H_corps",Profondeur du logement de rangement 9 : non documentée (DOC-004 montre seulement un compartiment ouvert d'où sort le cordon). Cote [HYP] rendue proportionnelle 
+Intérieur du couvercle (v : depuis la charnière),x_plaque7_debut,605,mm,DOC,"0,7119 × L",DOC-007 repère 7 (UNIT CONTROL INSTRUCTIONS).
+Intérieur du couvercle (v : depuis la charnière),x_plaque7_fin,739,mm,DOC,"0,8699 × L","DOC-007. Photos : plaque à 0,68–0,83 L."
+Intérieur du couvercle (v : depuis la charnière),v_plaque7_debut,25,mm,DOC,"0,0977 × P",DOC-007 : distance à la charnière (couvercle rabattu).
+Intérieur du couvercle (v : depuis la charnière),v_plaque7_fin,229,mm,DOC,"0,8791 × P",DOC-007.
+Intérieur du couvercle (v : depuis la charnière),x_charniere1_debut,164,mm,DOC,"0,193 × L",DOC-007 : pavé noir entre couvercle et corps. DOC-004 montre plutôt une tringle claire continue (écart E6).
+Intérieur du couvercle (v : depuis la charnière),x_charniere1_fin,233,mm,DOC,"0,2741 × L",DOC-007.
+Intérieur du couvercle (v : depuis la charnière),x_charniere2_debut,621,mm,DOC,"0,7301 × L",DOC-007.
+Intérieur du couvercle (v : depuis la charnière),x_charniere2_fin,687,mm,DOC,"0,8084 × L",DOC-007.
+Intérieur du couvercle (v : depuis la charnière),x_etiq_centrale_debut,274,mm,DÉD,"0,322 × L","DOC-003 (et DOC-004) : étiquette blanche entre les deux bandes, à 30–75 % de l'intervalle ; transposée dans l'intervalle des bandes de DOC-007."
+Intérieur du couvercle (v : depuis la charnière),x_etiq_centrale_fin,390,mm,DÉD,"0,459 × L",DOC-003.
+Intérieur du couvercle (v : depuis la charnière),v_etiq_blanche_debut,103,mm,DÉD,"0,397 × P",DOC-003 : étiquette blanche à liseré rouge.
+Intérieur du couvercle (v : depuis la charnière),v_etiq_blanche_fin,170,mm,DÉD,"0,655 × P",DOC-003.
+Intérieur du couvercle (v : depuis la charnière),v_etiq_orange_debut,58,mm,DÉD,"0,224 × P",DOC-003 : étiquette orange sous la blanche.
+Intérieur du couvercle (v : depuis la charnière),v_etiq_orange_fin,94,mm,DÉD,"0,362 × P",DOC-003.
+Intérieur du couvercle (v : depuis la charnière),x_etiq_jaune_debut,28,mm,DÉD,"0,033 × L",DOC-003 / DOC-002 : étiquette jaune en haut à gauche du couvercle.
+Intérieur du couvercle (v : depuis la charnière),x_etiq_jaune_fin,96,mm,DÉD,"0,113 × L",DOC-003.
+Intérieur du couvercle (v : depuis la charnière),v_etiq_jaune_debut,175,mm,DÉD,"0,672 × P",DOC-003.
+Intérieur du couvercle (v : depuis la charnière),v_etiq_jaune_fin,220,mm,DÉD,"0,845 × P",DOC-003.
+Intérieur du couvercle (v : depuis la charnière),x_boitier_gris_debut,36,mm,DÉD,"0,042 × L",DOC-003 / DOC-002 : petit élément gris sous l'étiquette jaune (étiquette ou boîtier : indéterminé).
+Intérieur du couvercle (v : depuis la charnière),x_boitier_gris_fin,88,mm,DÉD,"0,104 × L",DOC-003.
+Intérieur du couvercle (v : depuis la charnière),v_boitier_gris_debut,108,mm,DÉD,"0,414 × P",DOC-003.
+Intérieur du couvercle (v : depuis la charnière),v_boitier_gris_fin,170,mm,DÉD,"0,655 × P",DOC-003.
+Télécommande,tc_largeur,82,mm,DOC,"0,0965 × L",DOC-007 repère 3 (REMOTE CONTROL UNIT) : largeur du boîtier.
+Télécommande,tc_longueur,86,mm,DOC,"0,1007 × L",DOC-007 : longueur du boîtier (hors connecteur).
+Télécommande,tc_epaisseur,25,mm,HYP,"0,0292 × L","Épaisseur non documentée (DOC-004 montre un boîtier de type combiné, trame illisible)."
+Télécommande,tc_connecteur_largeur,57,mm,DOC,"0,0671 × L","DOC-007 : bloc sous le boîtier, d'où part le câble."
+Télécommande,tc_connecteur_longueur,33,mm,DOC,"0,0392 × L",DOC-007.
+Télécommande,r_cordon,8,mm,HYP,valeur fixe (ne suit pas L),"Rayon extérieur du cordon spiralé : non mesurable sur les documents ; valeur ABSOLUE, égale à l'étalon E4 de l'Équipe A (cordon Ø 16 mm, plage 12–20 mm)."
+Accastillage,x_loquet1,94,mm,DÉD,"0,11 × L",DOC-004 : pièce claire sur la face avant près de l'extrémité gauche (loquet probable).
+Accastillage,x_loquet2,629,mm,DÉD,"0,74 × L","DOC-004 : seconde marque sur la face avant ; photos : ferrures rondes vers 0,6 L et en bout droit. Position incertaine."
+Accastillage,loquet_largeur,21,mm,HYP,"0,025 × L",Dimensions du loquet non mesurables.
+Accastillage,loquet_hauteur,39,mm,HYP,"0,0458 × L",Idem.
+Accastillage,poignee_largeur,104,mm,DÉD,"0,4 × P",DOC-004 : renfoncement sombre (poignée encastrée probable) sur la face d'extrémité gauche.
+Accastillage,poignee_hauteur,46,mm,DÉD,"0,22 × H_corps",DOC-004.
+"Comparaison — Équipe A (photos), à la même longueur",P : profondeur,260,mm,DÉD (confiance faible),proportionnel à L,02_reconstruction/dimensions.json
+"Comparaison — Équipe A (photos), à la même longueur",H_corps : hauteur du corps,220,mm,DÉD (confiance faible),proportionnel à L,02_reconstruction/dimensions.json
+"Comparaison — Équipe A (photos), à la même longueur",e_couv : profondeur de coque du couvercle,65,mm,DÉD (confiance faible),proportionnel à L,02_reconstruction/dimensions.json
+"Comparaison — Équipe A (photos), à la même longueur",H_ferme : hauteur fermée,285,mm,DÉD (confiance faible),proportionnel à L,02_reconstruction/dimensions.json
+"Comparaison — Équipe A (photos), à la même longueur",D_log : diamètre des logements,80,mm,DÉD (confiance faible),proportionnel à L,02_reconstruction/dimensions.json
+"Comparaison — Équipe A (photos), à la même longueur",entraxe_log : entraxe des logements,91,mm,DÉD (confiance faible),proportionnel à L,02_reconstruction/dimensions.json
+"Comparaison — Équipe A (photos), à la même longueur","tele_l : télécommande, largeur",83,mm,DÉD (confiance faible),proportionnel à L,02_reconstruction/dimensions.json
+"Comparaison — Équipe A (photos), à la même longueur","tele_h : télécommande, hauteur",119,mm,DÉD (confiance faible),proportionnel à L,02_reconstruction/dimensions.json

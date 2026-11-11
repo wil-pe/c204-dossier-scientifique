@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Zvz1HvDRVuRhYguhmvTwC1eWj3Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2608.25563&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:48:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2608.25563" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.25563v1</id>
+    <title>GNSS-free quantum gravity-aided navigation and fine-scale marine surveying with a strapdown quantum gravimeter</title>
+    <updated>2026-08-26T09:16:02Z</updated>
+    <link href="https://arxiv.org/abs/2608.25563v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.25563v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Global navigation satellite systems (GNSS) are often disrupted or unavailable at sea, and unaided inertial navigation systems (INS) drift without correction. Quantum-sensing-based gravity map matching offers a passive, infrastructure-free aid, but field demonstrations of GNSS-free quantum gravimetric navigation have not been reported. Here we perform gravity map matching and fine-resolution gravity survey with a mobile quantum gravimeter aboard a 29 m surface vessel. We hybridize an atomic sensor with a classical accelerometer for bias stabilization and independently mechanize a navigation-grade IMU, all installed in an uncontrolled cabin with no environmental stabilization or calibration. Operated in both gimbaled and strapdown configurations over identical traversals, the hybrid sensor corrected the inertial solution over an 83 km maritime trajectory by referencing locally measured gravity to a satellite-derived anomaly map. Gravity-aiding constrains INS drift and delivers bounded positioning at nautical-mile-level accuracy, with GNSS excluded throughout the measurement chain. In a separate GNSS-referenced mode, the same system surveyed coastal routes up to Sea State 4, achieving mGal-level agreement with gravimetric maps and sub-mGal repeatability and stability, with gimbaled and strapdown operation performing comparably. Resolved anomalies reach an along-track scale of ~300 m, 50X finer than the satellite map's half-power wavelength. A 56 h stationary test shows atom referencing lowers long-term drift ~70X versus the classical channel alone. These results provide the first same-instrument comparison of gimbaled and strapdown mobile quantum gravimetry and the first fully GNSS-independent gravity-map-matching navigation demonstration using a quantum gravimeter, pointing toward compact, autonomous-platform-ready quantum sensing for GNSS-denied maritime navigation and survey.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-26T09:16:02Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Patrick J. Everitt</name>
+    </author>
+    <author>
+      <name>Donald H. White</name>
+    </author>
+    <author>
+      <name>Todd Lyon</name>
+    </author>
+    <author>
+      <name>Murat Muradoglu</name>
+    </author>
+    <author>
+      <name>Alessandro D'Ortenzio</name>
+    </author>
+    <author>
+      <name>Aaron J. Canciani</name>
+    </author>
+    <author>
+      <name>Malo Cadoret</name>
+    </author>
+    <author>
+      <name>Daniel D. Brown</name>
+    </author>
+    <author>
+      <name>David Adams</name>
+    </author>
+    <author>
+      <name>Yosri Ben-Aïcha</name>
+    </author>
+    <author>
+      <name>Suraj Bijjahalli</name>
+    </author>
+    <author>
+      <name>Mojtaba K. Farsani</name>
+    </author>
+    <author>
+      <name>Alexander Rischka</name>
+    </author>
+    <author>
+      <name>Karandeep S. Gill</name>
+    </author>
+    <author>
+      <name>Magdalena Meyer</name>
+    </author>
+    <author>
+      <name>Henry W. Orton</name>
+    </author>
+    <author>
+      <name>Nicholas P. Robins</name>
+    </author>
+    <author>
+      <name>Reuben Symon</name>
+    </author>
+    <author>
+      <name>Michael J. Biercuk</name>
+    </author>
+    <author>
+      <name>Michael R. Hush</name>
+    </author>
+    <author>
+      <name>Stuart S. Szigeti</name>
+    </author>
+    <author>
+      <name>Russell P. Anderson</name>
+    </author>
+  </entry>
+</feed>

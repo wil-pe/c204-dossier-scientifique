@@ -1,0 +1,1079 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SzekZWAaaxpglPvWZ/FdrF/SsKU</id>
+  <title>arXiv Query: search_query=&amp;id_list=1910.09908,2001.11405,1807.09409,2004.07187,1907.10731,2011.08948,1904.05363,0805.3880,2104.08222,2104.11857,2205.14808,1710.01722,1702.05715,1507.00601,1109.5139,1601.05120,1711.10502,1808.02895,1912.06047,2203.08502&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=1910.09908,2001.11405,1807.09409,2004.07187,1907.10731,2011.08948,1904.05363,0805.3880,2104.08222,2104.11857,2205.14808,1710.01722,1702.05715,1507.00601,1109.5139,1601.05120,1711.10502,1808.02895,1912.06047,2203.08502" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1808.02895v2</id>
+    <title>Strong cosmic censorship: taking the rough with the smooth</title>
+    <updated>2018-10-04T17:40:57Z</updated>
+    <link href="https://arxiv.org/abs/1808.02895v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.02895v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has been argued that the strong cosmic censorship conjecture is violated by Reissner-Nordström-de Sitter black holes: for near-extremal black holes, generic scalar field perturbations arising from smooth initial data have finite energy at the Cauchy horizon even though they are not continuously differentiable there. In this paper, we consider the analogous problem for coupled gravitational and electromagnetic perturbations. We find that such perturbations exhibit a much worse violation of strong cosmic censorship: for a sufficiently large near-extremal black hole, perturbations arising from smooth initial data can be extended through the Cauchy horizon in an arbitrarily smooth way. This is in apparent contradiction with an old argument in favour of strong cosmic censorship. We resolve this contradiction by showing that this old argument is valid only for initial data that is not smooth. This is in agreement with the recent proposal that, to recover strong cosmic censorship, one must allow rough initial data.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-08T18:00:03Z</published>
+    <arxiv:comment>54 pages, 10 figures. v2: a few comments improved and reference [52] added. Matches published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Oscar J. C. Dias</name>
+    </author>
+    <author>
+      <name>Harvey S. Reall</name>
+    </author>
+    <author>
+      <name>Jorge E. Santos</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP10(2018)001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP10(2018)001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.5139v2</id>
+    <title>Outgoing gravitational shock-wave at the inner horizon: The late-time limit of black hole interiors</title>
+    <updated>2012-12-10T19:11:04Z</updated>
+    <link href="https://arxiv.org/abs/1109.5139v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.5139v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the interiors of 3+1 dimensional asymptotically flat charged and rotating black holes as described by observers who fall into the black holes at late times, long after any perturbations of the exterior region have decayed. In the strict limit of late infall times, the initial experiences of such observers are precisely described by the region of the limiting stationary geometry to the past of its inner horizon. However, we argue that late infall-time observers encounter a null shockwave at the location of the would-be outgoing inner horizon. In particular, for spherically symmetric black hole spacetimes we demonstrate that freely-falling observers experience a metric discontinuity across this shock, that is, a gravitational shock-wave. Furthermore, the magnitude of this shock is at least of order unity. A similar phenomenon of metric discontinuity appears to take place at the inner horizon of a generically-perturbed spinning black hole. We compare the properties of this null shockwave singularity with those of the null weak singularity that forms at the Cauchy horizon.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-23T17:38:23Z</published>
+    <arxiv:comment>23 pages, 4 figures, minor changes</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Donald Marolf</name>
+    </author>
+    <author>
+      <name>Amos Ori</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.86.124026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.86.124026" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07187v1</id>
+    <title>Detection of the Schwarzschild precession in the orbit of the star S2 near the Galactic centre massive black hole</title>
+    <updated>2020-04-15T16:27:23Z</updated>
+    <link href="https://arxiv.org/abs/2004.07187v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.07187v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The star S2 orbiting the compact radio source Sgr A* is a precision probe of the gravitational field around the closest massive black hole (candidate). Over the last 2.7 decades we have monitored the star's radial velocity and motion on the sky, mainly with the SINFONI and NACO adaptive optics (AO) instruments on the ESO VLT, and since 2017, with the four-telescope interferometric beam combiner instrument GRAVITY. In this paper we report the first detection of the General Relativity (GR) Schwarzschild Precession (SP) in S2's orbit. Owing to its highly elliptical orbit (e = 0.88), S2's SP is mainly a kink between the pre-and post-pericentre directions of motion ~ +- 1 year around pericentre passage, relative to the corresponding Kepler orbit. The superb 2017-2019 astrometry of GRAVITY defines the pericentre passage and outgoing direction. The incoming direction is anchored by 118 NACO-AO measurements of S2's position in the infrared reference frame, with an additional 75 direct measurements of the S2-Sgr A* separation during bright states ('flares') of Sgr A*. Our 14-parameter model fits for the distance, central mass, the position and motion of the reference frame of the AO astrometry relative to the mass, the six parameters of the orbit, as well as a dimensionless parameter f_SP for the SP (f_SP = 0 for Newton and 1 for GR). From data up to the end of 2019 we robustly detect the SP of S2, del phi = 12' per orbital period. From posterior fitting and MCMC Bayesian analysis with different weighting schemes and bootstrapping we find f_SP = 1.10 +- 0.19. The S2 data are fully consistent with GR. Any extended mass inside S2's orbit cannot exceed ~ 0.1% of the central mass. Any compact third mass inside the central arcsecond must be less than about 1000 M_sun.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-15T16:27:23Z</published>
+    <arxiv:comment>accepted to A&amp;A</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name> GRAVITY Collaboration</name>
+    </author>
+    <author>
+      <name>R. Abuter</name>
+    </author>
+    <author>
+      <name>A. Amorim</name>
+    </author>
+    <author>
+      <name>M. Bauboeck</name>
+    </author>
+    <author>
+      <name>J. P. Berger</name>
+    </author>
+    <author>
+      <name>H. Bonnet</name>
+    </author>
+    <author>
+      <name>W. Brandner</name>
+    </author>
+    <author>
+      <name>V. Cardoso</name>
+    </author>
+    <author>
+      <name>Y. Clenet</name>
+    </author>
+    <author>
+      <name>P. T. de Zeeuw</name>
+    </author>
+    <author>
+      <name>J. Dexter</name>
+    </author>
+    <author>
+      <name>A. Eckart</name>
+    </author>
+    <author>
+      <name>F. Eisenhauer</name>
+    </author>
+    <author>
+      <name>N. M. Foerster Schreiber</name>
+    </author>
+    <author>
+      <name>P. Garcia</name>
+    </author>
+    <author>
+      <name>F. Gao</name>
+    </author>
+    <author>
+      <name>E. Gendron</name>
+    </author>
+    <author>
+      <name>R. Genzel</name>
+    </author>
+    <author>
+      <name>S. Gillessen</name>
+    </author>
+    <author>
+      <name>M. Habibi</name>
+    </author>
+    <author>
+      <name>X. Haubois</name>
+    </author>
+    <author>
+      <name>T. Henning</name>
+    </author>
+    <author>
+      <name>S. Hippler</name>
+    </author>
+    <author>
+      <name>M. Horrobin</name>
+    </author>
+    <author>
+      <name>A. Jimenez-Rosales</name>
+    </author>
+    <author>
+      <name>L. Jochum</name>
+    </author>
+    <author>
+      <name>L. Jocou</name>
+    </author>
+    <author>
+      <name>A. Kaufer</name>
+    </author>
+    <author>
+      <name>P. Kervella</name>
+    </author>
+    <author>
+      <name>S. Lacour</name>
+    </author>
+    <author>
+      <name>V. Lapeyrere</name>
+    </author>
+    <author>
+      <name>J. -B. Le Bouquin</name>
+    </author>
+    <author>
+      <name>P. Lena</name>
+    </author>
+    <author>
+      <name>M. Nowak</name>
+    </author>
+    <author>
+      <name>T. Ott</name>
+    </author>
+    <author>
+      <name>T. Paumard</name>
+    </author>
+    <author>
+      <name>K. Perraut</name>
+    </author>
+    <author>
+      <name>G. Perrin</name>
+    </author>
+    <author>
+      <name>O. Pfuhl</name>
+    </author>
+    <author>
+      <name>G. Rodriguez-Coira</name>
+    </author>
+    <author>
+      <name>J. Shangguan</name>
+    </author>
+    <author>
+      <name>S. Scheithauer</name>
+    </author>
+    <author>
+      <name>J. Stadler</name>
+    </author>
+    <author>
+      <name>O. Straub</name>
+    </author>
+    <author>
+      <name>C. Straubmeier</name>
+    </author>
+    <author>
+      <name>E. Sturm</name>
+    </author>
+    <author>
+      <name>L. J. Tacconi</name>
+    </author>
+    <author>
+      <name>F. Vincent</name>
+    </author>
+    <author>
+      <name>S. von Fellenberg</name>
+    </author>
+    <author>
+      <name>I. Waisberg</name>
+    </author>
+    <author>
+      <name>F. Widmann</name>
+    </author>
+    <author>
+      <name>E. Wieprecht</name>
+    </author>
+    <author>
+      <name>E. Wiezorrek</name>
+    </author>
+    <author>
+      <name>J. Woillez</name>
+    </author>
+    <author>
+      <name>S. Yazici</name>
+    </author>
+    <author>
+      <name>G. Zins</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202037813</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202037813" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.08222v1</id>
+    <title>The non-linear stability of the Schwarzschild family of black holes</title>
+    <updated>2021-04-16T16:57:31Z</updated>
+    <link href="https://arxiv.org/abs/2104.08222v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.08222v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the non-linear asymptotic stability of the Schwarzschild family as solutions to the Einstein vacuum equations in the exterior of the black hole region: general vacuum initial data, with no symmetry assumed, sufficiently close to Schwarzschild data evolve to a vacuum spacetime which (i) possesses a complete future null infinity $\mathcal{I}^+$ (whose past $J^-(\mathcal{I}^+)$ is moreover bounded by a regular future complete event horizon $\mathcal{H}^+$), (ii) remains close to Schwarzschild in its exterior, and (iii) asymptotes back to a member of the Schwarzschild family as an appropriate notion of time goes to infinity, provided that the data are themselves constrained to lie on a teleologically constructed codimension-$3$ "submanifold" of moduli space. This is the full nonlinear asymptotic stability of Schwarzschild since solutions not arising from data lying on this submanifold should by dimensional considerations approach a Kerr spacetime with rotation parameter $a\neq 0$, i.e. such solutions cannot satisfy (iii). The proof employs teleologically normalised double null gauges, is expressed entirely in physical space and makes essential use of the analysis in our previous study of the linear stability of the Kerr family around Schwarzschild [DHR], as well as techniques developed over the years to control the non-linearities of the Einstein equations. The present work, however, is entirely self-contained. In view of the recent [DHR19, TdCSR20] our approach can be applied to the full non-linear asymptotic stability of the subextremal Kerr family.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-16T16:57:31Z</published>
+    <arxiv:comment>513 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Mihalis Dafermos</name>
+    </author>
+    <author>
+      <name>Gustav Holzegel</name>
+    </author>
+    <author>
+      <name>Igor Rodnianski</name>
+    </author>
+    <author>
+      <name>Martin Taylor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.10502v2</id>
+    <title>Quasinormal modes and Strong Cosmic Censorship</title>
+    <updated>2018-01-11T21:06:57Z</updated>
+    <link href="https://arxiv.org/abs/1711.10502v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.10502v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fate of Cauchy horizons, such as those found inside charged black holes, is intrinsically connected to the decay of small perturbations exterior to the event horizon. As such, the validity of the strong cosmic censorship (SCC) conjecture is tied to how effectively the exterior damps fluctuations. Here, we study massless scalar fields in the exterior of Reissner--Nordstrom--de Sitter black holes. Their decay rates are governed by quasinormal modes of the black hole. We identify three families of modes in these spacetimes: one directly linked to the photon sphere, well described by standard WKB-type tools; another family whose existence and timescale is closely related to the de Sitter horizon. Finally, a third family which dominates for near-extremally-charged black holes and which is also present in asymptotically flat spacetimes. The last two families of modes seem to have gone unnoticed in the literature. We give a detailed description of linear scalar perturbations of such black holes, and conjecture that SCC is violated in the near extremal regime.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-28T19:00:06Z</published>
+    <arxiv:comment>To appear in Physical Review Letters, as an Editors' Suggestion</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 120, 031103 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Vitor Cardoso</name>
+    </author>
+    <author>
+      <name>Joao L. Costa</name>
+    </author>
+    <author>
+      <name>Kyriakos Destounis</name>
+    </author>
+    <author>
+      <name>Peter Hintz</name>
+    </author>
+    <author>
+      <name>Aron Jansen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.120.031103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.120.031103" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08948v1</id>
+    <title>Observational Constraints on Black Hole Spin</title>
+    <updated>2020-11-17T21:12:35Z</updated>
+    <link href="https://arxiv.org/abs/2011.08948v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.08948v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spin of a black hole is an important quantity to study, providing a window into the processes by which a black hole was born and grew. Further, spin can be a potent energy source for powering relativistic jets and energetic particle acceleration. In this review, I describe the techniques currently used to detect and measure the spins of black holes. It is shown that: (1) Two well understood techniques, X-ray reflection spectroscopy and thermal continuum fitting, can be used to measure the spins of black holes that are accreting at moderate rates. There is a rich set of other electromagnetic techniques allowing us to extend spin measurements to lower accretion rates. (2) Many accreting supermassive black holes are found to be rapidly-spinning, although a population of more slowly spinning black holes emerges at masses above $M&gt;3\times 10^7\,M_\odot$ as expected from recent structure formation models. (3) Many accreting stellar-mass black holes in X-ray binary systems are rapidly spinning and must have been born in this state. (4) The advent of gravitational wave astronomy has enabled the detection of spin effects in merging binary black holes. Most of the pre-merger black holes are found to be slowly spinning, a notable exception being an object that may itself be a merger product. (5) The stark difference in spins between the black hole X-ray binary and the binary black hole populations shows that there is a diversity of formation mechanisms. Given the array of new electromagnetic and gravitational wave capabilities currently being planned, the future of black hole spin studies is bright.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-17T21:12:35Z</published>
+    <arxiv:comment>42 pages, 6 figures. Invited review to be published in Annual Reviews of Astronomy and Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Christopher S. Reynolds</name>
+    </author>
+    <arxiv:doi>10.1146/annurev-astro-112420-035022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1146/annurev-astro-112420-035022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.08502v2</id>
+    <title>Quantum fluxes at the inner horizon of a spinning black hole</title>
+    <updated>2022-12-14T11:11:08Z</updated>
+    <link href="https://arxiv.org/abs/2203.08502v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.08502v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rotating or charged classical black holes in isolation possess a special surface in their interior, the Cauchy horizon, beyond which the evolution of spacetime (based on the equations of General Relativity) ceases to be deterministic. In this work, we study the effect of a quantum massless scalar field on the Cauchy horizon inside a rotating (Kerr) black hole that is evaporating via the emission of Hawking radiation (corresponding to the field being in the Unruh state). We calculate the flux components (in Eddington coordinates) of the renormalized stress-energy tensor of the field on the Cauchy horizon, as functions of the black hole spin and of the polar angle. We find that these flux components are generically non-vanishing. Furthermore, we find that the flux components change sign as these parameters vary. The signs of the fluxes are important, as they provide an indication of whether the Cauchy horizon expands or crushes (when backreaction is taken into account). Regardless of these signs, our results imply that the flux components generically diverge on the Cauchy horizon when expressed in coordinates which are regular there. This is the first time that irregularity of the Cauchy horizon under a semiclassical effect is conclusively shown for (four-dimensional) spinning black holes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-16T09:56:01Z</published>
+    <arxiv:comment>v2: Version accepted for publication in Phys. Rev. Lett. Some extensions; fixed typo in Eq. (7)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Noa Zilberman</name>
+    </author>
+    <author>
+      <name>Marc Casals</name>
+    </author>
+    <author>
+      <name>Amos Ori</name>
+    </author>
+    <author>
+      <name>Adrian C. Ottewill</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.129.261102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.129.261102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.09908v2</id>
+    <title>An Improved Test of the General Relativistic Effect of Frame-Dragging Using the LARES and LAGEOS Satellites</title>
+    <updated>2019-10-24T20:01:09Z</updated>
+    <link href="https://arxiv.org/abs/1910.09908v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.09908v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the improved test of frame-dragging, an intriguing phenomenon predicted by Einstein's General Relativity, obtained using 7 years of Satellite Laser Ranging (SLR) data of the satellite LARES (ASI, 2012) and 26 years of SLR data of LAGEOS (NASA, 1976) and LAGEOS 2 (ASI and NASA, 1992). We used the static part and temporal variations of the Earth gravity field obtained by the space geodesy mission GRACE (NASA and DLR) and in particular the static Earth's gravity field model GGM05S augmented by a model for the 7-day temporal variations of the lowest degree Earth spherical harmonics. We used the orbital estimator GEODYN (NASA). We measured frame-dragging to be equal to 0.9910 +/- 0.02, where 1 is the theoretical prediction of General Relativity normalized to its frame-dragging value and +/- 0.02 is the estimated systematic error due to modelling errors in the orbital perturbations, mainly due to the errors in the Earth's gravity field determination. Therefore, our measurement confirms the prediction of General Relativity for frame-dragging with a few percent uncertainty.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-22T11:58:23Z</published>
+    <arxiv:comment>Submitted on September 27, 2019; accepted for publication on October 8, 2019 and published on October 23, 2019 in The European Physical Journal C: Eur. Phys. J. C (2019) 79:872 https://doi.org/10.1140/epjc/s10052-019-7386-z</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Eur. Phys. J. C (2019) 79: 872</arxiv:journal_ref>
+    <author>
+      <name>Ignazio Ciufolini</name>
+    </author>
+    <author>
+      <name>Antonio Paolozzi</name>
+    </author>
+    <author>
+      <name>Erricos C. Pavlis</name>
+    </author>
+    <author>
+      <name>Giampiero Sindoni</name>
+    </author>
+    <author>
+      <name>John Ries</name>
+    </author>
+    <author>
+      <name>Richard Matzner</name>
+    </author>
+    <author>
+      <name>Rolf Koenig</name>
+    </author>
+    <author>
+      <name>Claudio Paris</name>
+    </author>
+    <author>
+      <name>Vahe Gurzadyan</name>
+    </author>
+    <author>
+      <name>Roger Penrose</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-019-7386-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-019-7386-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.05120v2</id>
+    <title>Cauchy-horizon singularity inside perturbed Kerr black holes</title>
+    <updated>2017-12-04T18:23:28Z</updated>
+    <link href="https://arxiv.org/abs/1601.05120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.05120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Cauchy horizon inside a perturbed Kerr black hole develops an instability that transforms it into a curvature singularity. We solve for the linearized Weyl scalars $ψ_0$ and $ψ_4$ and for the curvature scalar $R_{αβγδ}R^{αβγδ}$ along outgoing null rays approaching the Cauchy horizon in the interior of perturbed Kerr black holes using the Teukolsky equation, and compare our results with those found in perturbation analysis. Our results corroborate the previous perturbation analysis result that at its early parts the Cauchy horizon evolves into a deformationally-weak, null, scalar-curvature singularity. We find excellent agreement for $ψ_0(u={\rm const},v)$, where $u,v$ are advanced and retarded times, respectively. We do find, however, that the exponential growth rate of $R_{αβγδ}R^{αβγδ}(u={\rm const},v)$ approaching the singularity is dramatically slower than that found in perturbation analysis, and that the angular frequency is in excellent agreement.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-19T22:22:46Z</published>
+    <arxiv:comment>5 pages, 6 figures in main paper. A 3 page erratum (to be published in PRD) with 3 figures and a corrected table appended. We report in the erratum that we find also the magnitude of $psi_4$ and of the curvature scalar $K$ to agree with perturbation analysis</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 93, 041501(R) (2016)</arxiv:journal_ref>
+    <author>
+      <name>Lior M. Burko</name>
+    </author>
+    <author>
+      <name>Gaurav Khanna</name>
+    </author>
+    <author>
+      <name>Anıl Zenginoǧlu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.93.041501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.93.041501" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.05715v2</id>
+    <title>Strong cosmic censorship in spherical symmetry for two-ended asymptotically flat initial data I. The interior of the black hole region</title>
+    <updated>2019-02-22T03:51:20Z</updated>
+    <link href="https://arxiv.org/abs/1702.05715v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.05715v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the first and main paper of a two-part series, in which we prove the $C^{2}$-formulation of the strong cosmic censorship conjecture for the Einstein-Maxwell-(real)-scalar-field system in spherical symmetry for two-ended asymptotically flat data. For this model, it is known through the works of Dafermos and Dafermos-Rodnianski that the maximal globally hyperbolic future development of any admissible two-ended asymptotically flat Cauchy initial data set possesses a non-empty Cauchy horizon, across which the spacetime is $C^{0}$-future-extendible (in particular, the $C^{0}$-formulation of the strong cosmic censorship conjecture is false). Nevertheless, the main conclusion of the present series of papers is that for a generic (in the sense of being open and dense relative to appropriate topologies) class of such data, the spacetime is future-inextendible with a Lorentzian metric of higher regularity (specifically, $C^{2}$).
+  In this paper, we prove that the solution is $C^{2}$-future-inextendible under the condition that the scalar field obeys an $L^{2}$-averaged polynomial lower bound along each of the event horizons. This, in particular, improves upon a previous result of Dafermos, which required instead a pointwise lower bound. Key to the proof are appropriate stability and instability results in the interior of the black hole region, whose proofs are in turn based on ideas from the work of Dafermos-Luk on the stability of the Kerr Cauchy horizon (without symmetry) and from our previous paper on linear instability of Reissner-Nordström Cauchy horizon. In the second paper of the series (arXiv:1702.05716), which concerns analysis in the exterior of the black hole region, we show that the $L^2$-averaged polynomial lower bound needed for the instability result indeed holds for a generic class of admissible two-ended asymptotically flat Cauchy initial data.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-19T08:20:12Z</published>
+    <arxiv:comment>70 pages, 9 figures; minor revisions and appendices B &amp; C added; version accepted for publication</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Jonathan Luk</name>
+    </author>
+    <author>
+      <name>Sung-Jin Oh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.09409v1</id>
+    <title>Detection of the gravitational redshift in the orbit of the star S2 near the Galactic centre massive black hole</title>
+    <updated>2018-07-25T01:36:07Z</updated>
+    <link href="https://arxiv.org/abs/1807.09409v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.09409v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The highly elliptical, 16-year-period orbit of the star S2 around the massive black hole candidate Sgr A* is a sensitive probe of the gravitational field in the Galactic centre. Near pericentre at 120 AU, ~1400 Schwarzschild radii, the star has an orbital speed of ~7650 km/s, such that the first-order effects of Special and General Relativity have now become detectable with current capabilities. Over the past 26 years, we have monitored the radial velocity and motion on the sky of S2, mainly with the SINFONI and NACO adaptive optics instruments on the ESO Very Large Telescope, and since 2016 and leading up to the pericentre approach in May 2018, with the four-telescope interferometric beam-combiner instrument GRAVITY. From data up to and including pericentre, we robustly detect the combined gravitational redshift and relativistic transverse Doppler effect for S2 of z ~ 200 km/s / c with different statistical analysis methods. When parameterising the post-Newtonian contribution from these effects by a factor f, with f = 0 and f = 1 corresponding to the Newtonian and general relativistic limits, respectively, we find from posterior fitting with different weighting schemes f = 0.90 +/- 0.09 (stat) +\- 0.15 (sys). The S2 data are inconsistent with pure Newtonian dynamics.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-25T01:36:07Z</published>
+    <arxiv:comment>Accepted for publication in A&amp;A Letters, 29 June 2018, 10 pages, 6 figures, corresponding author: F. Eisenhauer &lt;eisenhau@mpe.mpg.de&gt;</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>A&amp;A 615, L15 (2018)</arxiv:journal_ref>
+    <author>
+      <name> GRAVITY Collaboration</name>
+    </author>
+    <author>
+      <name>R. Abuter</name>
+    </author>
+    <author>
+      <name>A. Amorim</name>
+    </author>
+    <author>
+      <name>N. Anugu</name>
+    </author>
+    <author>
+      <name>M. Bauböck</name>
+    </author>
+    <author>
+      <name>M. Benisty</name>
+    </author>
+    <author>
+      <name>J. P. Berger</name>
+    </author>
+    <author>
+      <name>N. Blind</name>
+    </author>
+    <author>
+      <name>H. Bonnet</name>
+    </author>
+    <author>
+      <name>W. Brandner</name>
+    </author>
+    <author>
+      <name>A. Buron</name>
+    </author>
+    <author>
+      <name>C. Collin</name>
+    </author>
+    <author>
+      <name>F. Chapron</name>
+    </author>
+    <author>
+      <name>Y. Clénet</name>
+    </author>
+    <author>
+      <name>V. Coudé du Foresto</name>
+    </author>
+    <author>
+      <name>P. T. de Zeeuw</name>
+    </author>
+    <author>
+      <name>C. Deen</name>
+    </author>
+    <author>
+      <name>F. Delplancke-Ströbele</name>
+    </author>
+    <author>
+      <name>R. Dembet</name>
+    </author>
+    <author>
+      <name>J. Dexter</name>
+    </author>
+    <author>
+      <name>G. Duvert</name>
+    </author>
+    <author>
+      <name>A. Eckart</name>
+    </author>
+    <author>
+      <name>F. Eisenhauer</name>
+    </author>
+    <author>
+      <name>G. Finger</name>
+    </author>
+    <author>
+      <name>N. M. Förster Schreiber</name>
+    </author>
+    <author>
+      <name>P. Fédou</name>
+    </author>
+    <author>
+      <name>P. Garcia</name>
+    </author>
+    <author>
+      <name>R. Garcia Lopez</name>
+    </author>
+    <author>
+      <name>F. Gao</name>
+    </author>
+    <author>
+      <name>E. Gendron</name>
+    </author>
+    <author>
+      <name>R. Genzel</name>
+    </author>
+    <author>
+      <name>S. Gillessen</name>
+    </author>
+    <author>
+      <name>P. Gordo</name>
+    </author>
+    <author>
+      <name>M. Habibi</name>
+    </author>
+    <author>
+      <name>X. Haubois</name>
+    </author>
+    <author>
+      <name>M. Haug</name>
+    </author>
+    <author>
+      <name>F. Haußmann</name>
+    </author>
+    <author>
+      <name>Th. Henning</name>
+    </author>
+    <author>
+      <name>S. Hippler</name>
+    </author>
+    <author>
+      <name>M. Horrobin</name>
+    </author>
+    <author>
+      <name>Z. Hubert</name>
+    </author>
+    <author>
+      <name>N. Hubin</name>
+    </author>
+    <author>
+      <name>A. Jimenez Rosales</name>
+    </author>
+    <author>
+      <name>L. Jochum</name>
+    </author>
+    <author>
+      <name>L. Jocou</name>
+    </author>
+    <author>
+      <name>A. Kaufer</name>
+    </author>
+    <author>
+      <name>S. Kellner</name>
+    </author>
+    <author>
+      <name>S. Kendrew</name>
+    </author>
+    <author>
+      <name>P. Kervella</name>
+    </author>
+    <author>
+      <name>Y. Kok</name>
+    </author>
+    <author>
+      <name>M. Kulas</name>
+    </author>
+    <author>
+      <name>S. Lacour</name>
+    </author>
+    <author>
+      <name>V. Lapeyrère</name>
+    </author>
+    <author>
+      <name>B. Lazareff</name>
+    </author>
+    <author>
+      <name>J. -B. Le Bouquin</name>
+    </author>
+    <author>
+      <name>P. Léna</name>
+    </author>
+    <author>
+      <name>M. Lippa</name>
+    </author>
+    <author>
+      <name>R. Lenzen</name>
+    </author>
+    <author>
+      <name>A. Mérand</name>
+    </author>
+    <author>
+      <name>E. Müller</name>
+    </author>
+    <author>
+      <name>U. Neumann</name>
+    </author>
+    <author>
+      <name>T. Ott</name>
+    </author>
+    <author>
+      <name>L. Palanca</name>
+    </author>
+    <author>
+      <name>T. Paumard</name>
+    </author>
+    <author>
+      <name>L. Pasquini</name>
+    </author>
+    <author>
+      <name>K. Perraut</name>
+    </author>
+    <author>
+      <name>G. Perrin</name>
+    </author>
+    <author>
+      <name>O. Pfuhl</name>
+    </author>
+    <author>
+      <name>P. M. Plewa</name>
+    </author>
+    <author>
+      <name>S. Rabien</name>
+    </author>
+    <author>
+      <name>A. Ramírez</name>
+    </author>
+    <author>
+      <name>J. Ramos</name>
+    </author>
+    <author>
+      <name>C. Rau</name>
+    </author>
+    <author>
+      <name>G. Rodríguez-Coira</name>
+    </author>
+    <author>
+      <name>R. -R. Rohloff</name>
+    </author>
+    <author>
+      <name>G. Rousset</name>
+    </author>
+    <author>
+      <name>J. Sanchez-Bermudez</name>
+    </author>
+    <author>
+      <name>S. Scheithauer</name>
+    </author>
+    <author>
+      <name>M. Schöller</name>
+    </author>
+    <author>
+      <name>N. Schuler</name>
+    </author>
+    <author>
+      <name>J. Spyromilio</name>
+    </author>
+    <author>
+      <name>O. Straub</name>
+    </author>
+    <author>
+      <name>C. Straubmeier</name>
+    </author>
+    <author>
+      <name>E. Sturm</name>
+    </author>
+    <author>
+      <name>L. J. Tacconi</name>
+    </author>
+    <author>
+      <name>K. R. W. Tristram</name>
+    </author>
+    <author>
+      <name>F. Vincent</name>
+    </author>
+    <author>
+      <name>S. von Fellenberg</name>
+    </author>
+    <author>
+      <name>I. Wank</name>
+    </author>
+    <author>
+      <name>I. Waisberg</name>
+    </author>
+    <author>
+      <name>F. Widmann</name>
+    </author>
+    <author>
+      <name>E. Wieprecht</name>
+    </author>
+    <author>
+      <name>M. Wiest</name>
+    </author>
+    <author>
+      <name>E. Wiezorrek</name>
+    </author>
+    <author>
+      <name>J. Woillez</name>
+    </author>
+    <author>
+      <name>S. Yazici</name>
+    </author>
+    <author>
+      <name>D. Ziegler</name>
+    </author>
+    <author>
+      <name>G. Zins</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/201833718</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/201833718" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.14808v1</id>
+    <title>Wave equations estimates and the nonlinear stability of slowly rotating Kerr black holes</title>
+    <updated>2022-05-30T02:09:43Z</updated>
+    <link href="https://arxiv.org/abs/2205.14808v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.14808v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the last part of our proof of the nonlinear stability of the Kerr family for small angular momentum, i.e $|a|/m\ll 1$, in which we deal with the nonlinear wave type estimates needed to complete the project. More precisely we provide complete proofs for Theorems M1 and M2 as well the curvature estimates of Theorem M8, which were stated without proof in sections 3.7.1 and 9.4.7 of \cite{KS:Kerr}. Our procedure is based on a new general interest formalism (detailed in Part I of this work), which extends the one used in the stability of Minkowski space. Together with \cite{KS:Kerr} and the GCM papers \cite{KS-GCM1}, \cite{KS-GCM2}, \cite{Shen}, this work completes proof of the Main Theorem stated in Section 3.4 of \cite{KS:Kerr}.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-30T02:09:43Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Elena Giorgi</name>
+    </author>
+    <author>
+      <name>Sergiu Klainerman</name>
+    </author>
+    <author>
+      <name>Jeremie Szeftel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0805.3880v1</id>
+    <title>The Formation of Black Holes in General Relativity</title>
+    <updated>2008-05-26T06:39:32Z</updated>
+    <link href="https://arxiv.org/abs/0805.3880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0805.3880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The subject of this work is the formation of black holes in pure general relativity, by the focusing of incoming gravitational waves. The theorems established in this monograph constitute the first foray into the long time dynamics of general relativity in the large, that is, when the initial data are no longer confined to a suitably small neighborhood of Minkowskian data. The theorems are general, no symmetry conditions on the initial data being imposed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-05-26T06:39:32Z</published>
+    <arxiv:comment>594 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Demetrios Christodoulou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.05363v3</id>
+    <title>Testing the nature of dark compact objects: a status report</title>
+    <updated>2019-06-13T08:23:28Z</updated>
+    <link href="https://arxiv.org/abs/1904.05363v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.05363v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Very compact objects probe extreme gravitational fields and may be the key to understand outstanding puzzles in fundamental physics. These include the nature of dark matter, the fate of spacetime singularities, or the loss of unitarity in Hawking evaporation. The standard astrophysical description of collapsing objects tells us that massive, dark and compact objects are black holes. Any observation suggesting otherwise would be an indication of beyond-the-standard-model physics. Null results strengthen and quantify the Kerr black hole paradigm. The advent of gravitational-wave astronomy and precise measurements with very long baseline interferometry allow one to finally probe into such foundational issues. We overview the physics of exotic dark compact objects and their observational status, including the observational evidence for black holes with current and future experiments.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-10T18:00:05Z</published>
+    <arxiv:comment>76 pages + references. Invited review article for Living Reviews in Relativity. v3: Overall improvements and references added, a few typos corrected. Version to appear in LRR</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Living Rev Relativ (2019) 22: 4</arxiv:journal_ref>
+    <author>
+      <name>Vitor Cardoso</name>
+    </author>
+    <author>
+      <name>Paolo Pani</name>
+    </author>
+    <arxiv:doi>10.1007/s41114-019-0020-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s41114-019-0020-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.11857v1</id>
+    <title>Kerr stability for small angular momentum</title>
+    <updated>2021-04-24T02:14:35Z</updated>
+    <link href="https://arxiv.org/abs/2104.11857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.11857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is our main paper in a series in which we prove the full, unconditional, nonlinear stability of the Kerr family $Kerr(a, m)$ for small angular momentum, i.e. $|a|/m\ll 1$, in the context of asymptotically flat solutions of the Einstein vacuum equations (EVE). Three papers in the series, \cite{KS-GCM1} and \cite{KS-GCM2} and \cite{GKS1} have already been released. We expect that the remaining ones \cite{GKS2}, \cite{KS:Kerr-B} and \cite{Shen} will appear shortly. Our work extends the strategy developed in \cite{KS}, in which only axial polarized perturbations of Schwarzschild were treated, by developing new geometric and analytic ideas on how to deal with with general perturbations of Kerr. We note that the restriction to small angular momentum appears only in connection to Morawetz type estimates in \cite{GKS2} and \cite{KS:Kerr-B}</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-24T02:14:35Z</published>
+    <arxiv:comment>801 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Sergiu Klainerman</name>
+    </author>
+    <author>
+      <name>Jeremie Szeftel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01722v1</id>
+    <title>The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon</title>
+    <updated>2017-10-04T17:54:05Z</updated>
+    <link href="https://arxiv.org/abs/1710.01722v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01722v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We initiate a series of works where we study the interior of dynamical rotating vacuum black holes without symmetry. In the present paper, we take up the problem starting from appropriate Cauchy data for the Einstein vacuum equations defined on a hypersurface already within the black hole interior, representing the expected geometry just inside the event horizon. We prove that for all such data, the maximal Cauchy evolution can be extended across a non-trivial piece of Cauchy horizon as a Lorentzian manifold with continuous metric. In subsequent work, we will retrieve our assumptions on data assuming only that the black hole event horizon geometry suitably asymptotes to a rotating Kerr solution. In particular, if the exterior region of the Kerr family is proven to be dynamically stable---as is widely expected---then it will follow that the $C^0$-inextendibility formulation of Penrose's celebrated strong cosmic censorship conjecture is in fact false. The proof suggests, however, that the $C^0$-metric Cauchy horizons thus arising are generically singular in an essential way, representing so-called "weak null singularities", and thus that a revised version of strong cosmic censorship holds.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-04T17:54:05Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Ann. of Math. (2) 202(2): 309-630 (September 2025)</arxiv:journal_ref>
+    <author>
+      <name>Mihalis Dafermos</name>
+    </author>
+    <author>
+      <name>Jonathan Luk</name>
+    </author>
+    <arxiv:doi>10.4007/annals.2025.202.2.1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4007/annals.2025.202.2.1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.06047v2</id>
+    <title>Quantum Instability of the Cauchy Horizon in Reissner-Nordström-deSitter Spacetime</title>
+    <updated>2020-05-18T12:51:43Z</updated>
+    <link href="https://arxiv.org/abs/1912.06047v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.06047v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In classical General Relativity, the values of fields on spacetime are uniquely determined by their values at an initial time within the domain of dependence of this initial data surface. However, it may occur that the spacetime under consideration extends beyond this domain of dependence, and fields, therefore, are not entirely determined by their initial data. This occurs, for example, in the well-known (maximally) extended Reissner-Nordström or Reissner-Nordström-deSitter (RNdS) spacetimes. The boundary of the region determined by the initial data is called the "Cauchy horizon." It is located inside the black hole in these spacetimes. The strong cosmic censorship conjecture asserts that the Cauchy horizon does not, in fact, exist in practice because the slightest perturbation (of the metric itself or the matter fields) will become singular there in a sufficiently catastrophic way that solutions cannot be extended beyond the Cauchy horizon. Thus, if strong cosmic censorship holds, the Cauchy horizon will be converted into a "final singularity," and determinism will hold. Recently, however, it has been found that, classically this is not the case in RNdS spacetimes in a certain range of mass, charge, and cosmological constant. In this paper, we consider a quantum scalar field in RNdS spacetime and show that quantum theory comes to the rescue of strong cosmic censorship. We find that for any state that is nonsingular (i.e., Hadamard) within the domain of dependence, the expected stress-tensor blows up with affine parameter, $V$, along a radial null geodesic transverse to the Cauchy horizon as $T_{VV} \sim C/V^2$ with $C$ independent of the state and $C \neq 0$ generically in RNdS spacetimes. This divergence is stronger than in the classical theory and should be sufficient to convert the Cauchy horizon into a strong curvature singularity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-12T15:50:09Z</published>
+    <arxiv:comment>50 pages, abstract truncated due to arXiv length restriction. v2: minor corrections</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Stefan Hollands</name>
+    </author>
+    <author>
+      <name>Robert M. Wald</name>
+    </author>
+    <author>
+      <name>Jochen Zahn</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ab8052</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ab8052" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.11405v1</id>
+    <title>Lense-Thirring frame dragging induced by a fast-rotating white dwarf in a binary pulsar system</title>
+    <updated>2020-01-30T15:40:03Z</updated>
+    <link href="https://arxiv.org/abs/2001.11405v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.11405v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio pulsars in short-period eccentric binary orbits can be used to study both gravitational dynamics and binary evolution. The binary system containing PSR J1141$-$6545 includes a massive white dwarf (WD) companion that formed before the gravitationally bound young radio pulsar. We observe a temporal evolution of the orbital inclination of this pulsar that we infer is caused by a combination of a Newtonian quadrupole moment and Lense-Thirring precession of the orbit resulting from rapid rotation of the WD. Lense-Thirring precession, an effect of relativistic frame-dragging, is a prediction of general relativity. This detection is consistent with the evolutionary scenario in which the WD accreted matter from the pulsar progenitor, spinning up the WD to a period $&lt; 200$ seconds.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-30T15:40:03Z</published>
+    <arxiv:comment>Accepted for publication in Science</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>V. Venkatraman Krishnan</name>
+    </author>
+    <author>
+      <name>M. Bailes</name>
+    </author>
+    <author>
+      <name>W. van Straten</name>
+    </author>
+    <author>
+      <name>N. Wex</name>
+    </author>
+    <author>
+      <name>P. C. C. Freire</name>
+    </author>
+    <author>
+      <name>E. F. Keane</name>
+    </author>
+    <author>
+      <name>T. M. Tauris</name>
+    </author>
+    <author>
+      <name>P. A. Rosado</name>
+    </author>
+    <author>
+      <name>N. D. R. Bhat</name>
+    </author>
+    <author>
+      <name>C. Flynn</name>
+    </author>
+    <author>
+      <name>A. Jameson</name>
+    </author>
+    <author>
+      <name>S. Osłowski</name>
+    </author>
+    <arxiv:doi>10.1126/science.aax7007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.aax7007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.10731v1</id>
+    <title>Relativistic redshift of the star S0-2 orbiting the Galactic center supermassive black hole</title>
+    <updated>2019-07-24T21:26:20Z</updated>
+    <link href="https://arxiv.org/abs/1907.10731v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.10731v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General Relativity predicts that a star passing close to a supermassive black hole should exhibit a relativistic redshift. We test this using observations of the Galactic center star S0-2. We combine existing spectroscopic and astrometric measurements from 1995-2017, which cover S0-2's 16-year orbit, with measurements in 2018 March to September which cover three events during its closest approach to the black hole. We detect the combination of special relativistic- and gravitational-redshift, quantified using a redshift parameter, $Υ$. Our result, $Υ=0.88 \pm 0.17$, is consistent with General Relativity ($Υ=1$) and excludes a Newtonian model ($Υ=0$ ) with a statistical significance of 5 $σ$.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-24T21:26:20Z</published>
+    <arxiv:comment>78 pages, 21 figures, accepted to Science, astrometry and radial velocity measurements, and posterior chains available here, http://www.astro.ucla.edu/~ghezgroup/gc/gr/data.zip</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Tuan Do</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aurelien Hees</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+      <arxiv:affiliation>Sytèmes de Référence Temps Espace, Observatoire de Paris</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrea Ghez</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gregory D. Martinez</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Devin S. Chu</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Siyao Jia</name>
+      <arxiv:affiliation>UC Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shoko Sakai</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jessica R. Lu</name>
+      <arxiv:affiliation>UC Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Abhimat K. Gautam</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kelly Kosmo O'Neil</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric E. Becklin</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+      <arxiv:affiliation>Universities Space Research Association/Stratospheric Observatory for Infrared Astronomy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mark R. Morris</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Keith Matthews</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shogo Nishiyama</name>
+      <arxiv:affiliation>Miyagi University of Education</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Randy Campbell</name>
+      <arxiv:affiliation>W. M. Keck Observatory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Samantha Chappell</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anna Ciurlo</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arezu Dehghanfar</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+      <arxiv:affiliation>Institut de Planétologie et d'Astrophysique de Grenoble</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eulalia Gallego-Cano</name>
+      <arxiv:affiliation>Instituto de Astrofísica de Andalucía, Consejo Superior de Investigaciones Científicas</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wolfgang E. Kerzendorf</name>
+      <arxiv:affiliation>European Southern Observatory</arxiv:affiliation>
+      <arxiv:affiliation>Center for Cosmology and Particle Physics, New York University</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics and Astronomy, Michigan State University</arxiv:affiliation>
+      <arxiv:affiliation>Department of Computational Mathematics, Science, and Engineering, Michigan State University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James E. Lyke</name>
+      <arxiv:affiliation>W. M. Keck Observatory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Smadar Naoz</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+      <arxiv:affiliation>Mani L. Bhaumik Institute for Theoretical Physics, UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hiromi Saida</name>
+      <arxiv:affiliation>Daido University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rainer Schödel</name>
+      <arxiv:affiliation>Instituto de Astrofísica de Andalucía, Consejo Superior de Investigaciones Científicas</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Masaaki Takahashi</name>
+      <arxiv:affiliation>Aichi University of Education</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yohsuke Takamori</name>
+      <arxiv:affiliation>National Institute of Technology, Wakayama College</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gunther Witzel</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+      <arxiv:affiliation>Max Planck Institute for Radio Astronomy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Wizinowich</name>
+      <arxiv:affiliation>W. M. Keck Observatory</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1126/science.aav8137</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.aav8137" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.00601v2</id>
+    <title>The $C^0$-inextendibility of the Schwarzschild spacetime and the spacelike diameter in Lorentzian Geometry</title>
+    <updated>2016-04-25T14:02:53Z</updated>
+    <link href="https://arxiv.org/abs/1507.00601v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.00601v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The maximal analytic Schwarzschild spacetime is manifestly inextendible as a Lorentzian manifold with a twice continuously differentiable metric. In this paper, we prove the stronger statement that it is even inextendible as a Lorentzian manifold with a continuous metric. To capture the obstruction to continuous extensions through the curvature singularity, we introduce the notion of the spacelike diameter of a globally hyperbolic region of a Lorentzian manifold with a merely continuous metric and give a sufficient condition for the spacelike diameter to be finite. The investigation of low-regularity inextendibility criteria is motivated by the strong cosmic censorship conjecture.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-02T14:24:49Z</published>
+    <arxiv:comment>46 pages, v2 small changes and corrections</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Jan Sbierski</name>
+    </author>
+  </entry>
+</feed>

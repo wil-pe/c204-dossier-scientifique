@@ -1,0 +1,15 @@
+Fichiers comparés : 515
+Identiques à l'octet : 513
+Modifiés : 2 (dont différences réelles : 2)
+Nouveaux dans la copie : 0
+Absents de la copie : 0
+
+MODIFIÉS
+  [TEXTE DIFFÉRENT : 8 lignes] 03_physique_theorique/verifications/sorties/02_hawking_corps_gris.txt
+  [TEXTE DIFFÉRENT : 2 lignes] 05_simulations/journal_run_all.txt
+
+NOUVEAUX
+
+
+ABSENTS
+

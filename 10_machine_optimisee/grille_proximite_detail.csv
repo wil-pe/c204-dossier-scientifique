@@ -1,0 +1,101 @@
+conception,type,element_ou_fonction,poids,note_A_ou_F,coherence_C,TRL_ou_commentaire
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Singularité principale,2,1.0,0.0,0
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Singularité de direction,2,1.0,0.0,0
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Logements et bobines de champ magnétique (avec générateur / régulateur de champ),1,1.0,0.0,0
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,"Générateur, régulateur et collecteur d'injection d'électrons",1,1.0,0.0,0
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Capteur de singularité (« sensor booster »),1,1.0,0.2,1
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,"Refroidissement (enveloppe, pompe, deux réservoirs)",1,1.0,0.0,0
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,« Évent à rayons X » (cône ou zone),1,1.0,0.0,0
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Capteurs de gravité (système VGL),1,1.0,0.0,0
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Quatre horloges au césium,1,1.0,1.0,9
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Trois calculateurs à vote (« Borda »),1,1.0,1.0,9
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Batterie,1,1.0,0.0,5
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Télécommande filaire,1,1.0,1.0,9
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,"Arrêt d'urgence, interrupteur général, écran de secours",1,1.0,0.0,4
+"C204 d'origine (fonctions revendiquées, physique réelle)",élément,Coffre transportable de 227 kg dans un véhicule,1,1.0,0.0,5
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,"Ampleur du décalage relativiste subi sur le trajet nominal (échelle logarithmique) — pour R1 et R2 : effet du TRAJET, non imputable à la machine",3,0.0,,O : 6.1e-22 s/h (masse propre) ; R1 : 1.3e-09 s/h (train vers l'est) ; R2 : 5.0e-10 s/h (remorque à 130 km/h vers l'est) ; R3 : 3.4e+04 s/h (γ = 10.5)
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,Déplacement vers le PASSÉ,3,0,,aucune conception : interdit par la structure causale (Équipe B §5.5)
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,Déplacement vers le futur,1,1,,toute horloge en mouvement ou plus bas dans un potentiel
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,Changement de « ligne d'univers »,1,0,,aucune définition physique
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,Mesure effective du décalage relativiste de son propre trajet,2,0,,"O : horloges au césium 15 à 2 300 fois trop peu exactes (Équipe C) ; R1 : seulement avec le module externe ; R2 : oui, à 10⁻¹⁸"
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,Unité immobile pendant le déplacement (« masse stationnaire »),1,1,,R1/R2 : vrai pour les scénarios d'altitude seulement (où l'unité vieillit PLUS)
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,"Autonomie sur batterie, transport dans un véhicule",1,1,,
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,Mesure du champ de gravité local,1,1,,"R1 : milligal en natif, microgal avec l'option"
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,Datation par horloges atomiques redondantes et calcul à vote,1,1,,
+"C204 d'origine (fonctions revendiquées, physique réelle)",fonction,Mise en sécurité effective,1,1,,O : la maquette inerte est sûre ; la machine revendiquée ne le serait pas
+"C204 d'origine (fonctions revendiquées, physique réelle)",intégration,assemblage d'ensemble,,,,0
+C204-R1 (constructible aujourd'hui),élément,Singularité principale,2,0.5,1.0,8
+C204-R1 (constructible aujourd'hui),élément,Singularité de direction,2,0.5,1.0,7
+C204-R1 (constructible aujourd'hui),élément,Logements et bobines de champ magnétique (avec générateur / régulateur de champ),1,0.5,1.0,8
+C204-R1 (constructible aujourd'hui),élément,"Générateur, régulateur et collecteur d'injection d'électrons",1,0.25,1.0,9
+C204-R1 (constructible aujourd'hui),élément,Capteur de singularité (« sensor booster »),1,0.5,1.0,9
+C204-R1 (constructible aujourd'hui),élément,"Refroidissement (enveloppe, pompe, deux réservoirs)",1,0.75,1.0,9
+C204-R1 (constructible aujourd'hui),élément,« Évent à rayons X » (cône ou zone),1,0.5,1.0,9
+C204-R1 (constructible aujourd'hui),élément,Capteurs de gravité (système VGL),1,0.75,1.0,9
+C204-R1 (constructible aujourd'hui),élément,Quatre horloges au césium,1,1.0,1.0,9
+C204-R1 (constructible aujourd'hui),élément,Trois calculateurs à vote (« Borda »),1,1.0,1.0,9
+C204-R1 (constructible aujourd'hui),élément,Batterie,1,1.0,1.0,9
+C204-R1 (constructible aujourd'hui),élément,Télécommande filaire,1,1.0,1.0,9
+C204-R1 (constructible aujourd'hui),élément,"Arrêt d'urgence, interrupteur général, écran de secours",1,1.0,1.0,9
+C204-R1 (constructible aujourd'hui),élément,Coffre transportable de 227 kg dans un véhicule,1,1.0,1.0,9
+C204-R1 (constructible aujourd'hui),fonction,"Ampleur du décalage relativiste subi sur le trajet nominal (échelle logarithmique) — pour R1 et R2 : effet du TRAJET, non imputable à la machine",3,0.4152666850218448,,O : 6.1e-22 s/h (masse propre) ; R1 : 1.3e-09 s/h (train vers l'est) ; R2 : 5.0e-10 s/h (remorque à 130 km/h vers l'est) ; R3 : 3.4e+04 s/h (γ = 10.5)
+C204-R1 (constructible aujourd'hui),fonction,Déplacement vers le PASSÉ,3,0,,aucune conception : interdit par la structure causale (Équipe B §5.5)
+C204-R1 (constructible aujourd'hui),fonction,Déplacement vers le futur,1,1,,toute horloge en mouvement ou plus bas dans un potentiel
+C204-R1 (constructible aujourd'hui),fonction,Changement de « ligne d'univers »,1,0,,aucune définition physique
+C204-R1 (constructible aujourd'hui),fonction,Mesure effective du décalage relativiste de son propre trajet,2,0.5,,"O : horloges au césium 15 à 2 300 fois trop peu exactes (Équipe C) ; R1 : seulement avec le module externe ; R2 : oui, à 10⁻¹⁸"
+C204-R1 (constructible aujourd'hui),fonction,Unité immobile pendant le déplacement (« masse stationnaire »),1,0.5,,R1/R2 : vrai pour les scénarios d'altitude seulement (où l'unité vieillit PLUS)
+C204-R1 (constructible aujourd'hui),fonction,"Autonomie sur batterie, transport dans un véhicule",1,1,,
+C204-R1 (constructible aujourd'hui),fonction,Mesure du champ de gravité local,1,0.75,,"R1 : milligal en natif, microgal avec l'option"
+C204-R1 (constructible aujourd'hui),fonction,Datation par horloges atomiques redondantes et calcul à vote,1,1,,
+C204-R1 (constructible aujourd'hui),fonction,Mise en sécurité effective,1,1,,O : la maquette inerte est sûre ; la machine revendiquée ne le serait pas
+C204-R1 (constructible aujourd'hui),intégration,assemblage d'ensemble,,,,6
+C204-R2 (laboratoire de recherche),élément,Singularité principale,2,0.5,1.0,5
+C204-R2 (laboratoire de recherche),élément,Singularité de direction,2,0.5,1.0,5
+C204-R2 (laboratoire de recherche),élément,Logements et bobines de champ magnétique (avec générateur / régulateur de champ),1,0.75,1.0,6
+C204-R2 (laboratoire de recherche),élément,"Générateur, régulateur et collecteur d'injection d'électrons",1,0.5,1.0,8
+C204-R2 (laboratoire de recherche),élément,Capteur de singularité (« sensor booster »),1,0.75,1.0,9
+C204-R2 (laboratoire de recherche),élément,"Refroidissement (enveloppe, pompe, deux réservoirs)",1,0.5,1.0,8
+C204-R2 (laboratoire de recherche),élément,« Évent à rayons X » (cône ou zone),1,0.25,1.0,9
+C204-R2 (laboratoire de recherche),élément,Capteurs de gravité (système VGL),1,0.75,1.0,8
+C204-R2 (laboratoire de recherche),élément,Quatre horloges au césium,1,0.75,1.0,6
+C204-R2 (laboratoire de recherche),élément,Trois calculateurs à vote (« Borda »),1,1.0,1.0,9
+C204-R2 (laboratoire de recherche),élément,Batterie,1,0.25,1.0,9
+C204-R2 (laboratoire de recherche),élément,Télécommande filaire,1,0.75,1.0,9
+C204-R2 (laboratoire de recherche),élément,"Arrêt d'urgence, interrupteur général, écran de secours",1,1.0,1.0,9
+C204-R2 (laboratoire de recherche),élément,Coffre transportable de 227 kg dans un véhicule,1,0.25,1.0,6
+C204-R2 (laboratoire de recherche),fonction,"Ampleur du décalage relativiste subi sur le trajet nominal (échelle logarithmique) — pour R1 et R2 : effet du TRAJET, non imputable à la machine",3,0.4010293374140409,,O : 6.1e-22 s/h (masse propre) ; R1 : 1.3e-09 s/h (train vers l'est) ; R2 : 5.0e-10 s/h (remorque à 130 km/h vers l'est) ; R3 : 3.4e+04 s/h (γ = 10.5)
+C204-R2 (laboratoire de recherche),fonction,Déplacement vers le PASSÉ,3,0,,aucune conception : interdit par la structure causale (Équipe B §5.5)
+C204-R2 (laboratoire de recherche),fonction,Déplacement vers le futur,1,1,,toute horloge en mouvement ou plus bas dans un potentiel
+C204-R2 (laboratoire de recherche),fonction,Changement de « ligne d'univers »,1,0,,aucune définition physique
+C204-R2 (laboratoire de recherche),fonction,Mesure effective du décalage relativiste de son propre trajet,2,1,,"O : horloges au césium 15 à 2 300 fois trop peu exactes (Équipe C) ; R1 : seulement avec le module externe ; R2 : oui, à 10⁻¹⁸"
+C204-R2 (laboratoire de recherche),fonction,Unité immobile pendant le déplacement (« masse stationnaire »),1,0.5,,R1/R2 : vrai pour les scénarios d'altitude seulement (où l'unité vieillit PLUS)
+C204-R2 (laboratoire de recherche),fonction,"Autonomie sur batterie, transport dans un véhicule",1,0.25,,
+C204-R2 (laboratoire de recherche),fonction,Mesure du champ de gravité local,1,1,,"R1 : milligal en natif, microgal avec l'option"
+C204-R2 (laboratoire de recherche),fonction,Datation par horloges atomiques redondantes et calcul à vote,1,1,,
+C204-R2 (laboratoire de recherche),fonction,Mise en sécurité effective,1,1,,O : la maquette inerte est sûre ; la machine revendiquée ne le serait pas
+C204-R2 (laboratoire de recherche),intégration,assemblage d'ensemble,,,,4
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Singularité principale,2,1.0,0.6,1
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Singularité de direction,2,0.5,0.6,1
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Logements et bobines de champ magnétique (avec générateur / régulateur de champ),1,0.25,0.2,1
+C204-R3 (limite théorique : vaisseau à trou noir),élément,"Générateur, régulateur et collecteur d'injection d'électrons",1,0.5,0.2,1
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Capteur de singularité (« sensor booster »),1,0.75,0.6,3
+C204-R3 (limite théorique : vaisseau à trou noir),élément,"Refroidissement (enveloppe, pompe, deux réservoirs)",1,0.75,0.6,2
+C204-R3 (limite théorique : vaisseau à trou noir),élément,« Évent à rayons X » (cône ou zone),1,0.75,0.6,2
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Capteurs de gravité (système VGL),1,0.5,1.0,9
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Quatre horloges au césium,1,1.0,1.0,9
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Trois calculateurs à vote (« Borda »),1,1.0,1.0,9
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Batterie,1,0.25,0.6,1
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Télécommande filaire,1,0.5,1.0,9
+C204-R3 (limite théorique : vaisseau à trou noir),élément,"Arrêt d'urgence, interrupteur général, écran de secours",1,0.25,0.2,1
+C204-R3 (limite théorique : vaisseau à trou noir),élément,Coffre transportable de 227 kg dans un véhicule,1,0.0,0.6,1
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,"Ampleur du décalage relativiste subi sur le trajet nominal (échelle logarithmique) — pour R1 et R2 : effet du TRAJET, non imputable à la machine",3,0.8665291126931817,,O : 6.1e-22 s/h (masse propre) ; R1 : 1.3e-09 s/h (train vers l'est) ; R2 : 5.0e-10 s/h (remorque à 130 km/h vers l'est) ; R3 : 3.4e+04 s/h (γ = 10.5)
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,Déplacement vers le PASSÉ,3,0,,aucune conception : interdit par la structure causale (Équipe B §5.5)
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,Déplacement vers le futur,1,1,,toute horloge en mouvement ou plus bas dans un potentiel
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,Changement de « ligne d'univers »,1,0,,aucune définition physique
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,Mesure effective du décalage relativiste de son propre trajet,2,1,,"O : horloges au césium 15 à 2 300 fois trop peu exactes (Équipe C) ; R1 : seulement avec le module externe ; R2 : oui, à 10⁻¹⁸"
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,Unité immobile pendant le déplacement (« masse stationnaire »),1,0,,R1/R2 : vrai pour les scénarios d'altitude seulement (où l'unité vieillit PLUS)
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,"Autonomie sur batterie, transport dans un véhicule",1,0,,
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,Mesure du champ de gravité local,1,1,,"R1 : milligal en natif, microgal avec l'option"
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,Datation par horloges atomiques redondantes et calcul à vote,1,1,,
+C204-R3 (limite théorique : vaisseau à trou noir),fonction,Mise en sécurité effective,1,0,,O : la maquette inerte est sûre ; la machine revendiquée ne le serait pas
+C204-R3 (limite théorique : vaisseau à trou noir),intégration,assemblage d'ensemble,,,,1

@@ -1,0 +1,606 @@
+{
+  "meta": {
+    "programme": "C204 — Équipe A (archivistes et rétro-ingénierie documentaire)",
+    "version": "1.1 (corrections post-validation n° 7 à 10 et 15 de la Red Team n° 2 ; voir DOSSIER_TECHNIQUE.md, « Journal des corrections post-validation »)",
+    "date": "2026-11-10",
+    "avertissement": "Aucune cote chiffrée de l'unité elle-même ne figure dans les documents. Les seules valeurs numériques lisibles sur une pièce sont les quatre distances de champ de C204-DOC-014 (mètres) — dont l'ATTRIBUTION À L'AUTEUR DE 2000-2001 N'EST PAS ÉTABLIE — et la masse revendiquée dans le texte. Toutes les dimensions du coffre sont des estimations photogrammétriques grossières sur des images de 250 à 640 pixels de large ; l'échelle absolue repose sur des étalons de taille SUPPOSÉE (plage 0,65–1,25 m pour la longueur). Rien ici ne valide l'existence ni le fonctionnement de la machine.",
+    "etiquettes": {
+      "DOC": "lisible dans un document source",
+      "DÉD": "déduit de plusieurs éléments documentés",
+      "HYP": "hypothèse de l'équipe",
+      "INT": "interprétation de tiers",
+      "VÉR": "fait vérifiable indépendamment"
+    },
+    "unite_par_defaut": "m",
+    "repere_geometrique": "X = longueur (grand côté, de gauche à droite pour un observateur placé devant les fermoirs, charnière au fond) ; Y = profondeur (de la charnière vers la face avant) ; Z = hauteur.",
+    "fichiers_de_mesure": [
+      "01_archive/analyses/grille_OP3_x3.png (C204-DOC-007, meilleure copie OP3.jpg 460×600)",
+      "01_archive/analyses/grille_M2_x3.png (C204-DOC-003, copie M2.JPG 640×480)",
+      "01_archive/analyses/grille_M3_x5.png (C204-DOC-001, copie M3.JPG 288×216)",
+      "01_archive/analyses/grille_M4_x5.png (C204-DOC-002, copie M4.JPG 288×216)",
+      "01_archive/analyses/grille_voiture_x3.png (C204-DOC-013, copie timetravel16_08.jpg 477×486)",
+      "01_archive/analyses/grille_DOC004_x3.png (C204-DOC-004)"
+    ],
+    "note_harmonisation_equipe_E": "Valeurs nominales de l'Équipe A conservées sauf pour le diamètre et l'entraxe des logements, re-mesurés (profils de pixels sur OP3.jpg) et alignés sur la mesure de l'Équipe E. Pour l'épaisseur du couvercle et la hauteur fermée, les deux valeurs (A et E) sont données en fourchette : aucune des deux n'est mesurée de façon sûre."
+  },
+  "rapports_sans_dimension": [
+    {
+      "id": "R1",
+      "nom": "Longueur / profondeur du corps (L/P)",
+      "valeur": 3.3,
+      "incertitude": 0.05,
+      "methode": "Vue de dessus DOC-007 (copie OP3.jpg) : corps x = 48→404 px (356 px), y = 190→298 px (108 px).",
+      "etiquette": "DOC",
+      "confiance": "élevée pour le dessin ; moyenne pour l'objet photographié",
+      "remarque": "Contrôle photo : couvercle ouvert de DOC-001 : 182 px × 46 px (rapport 3,96) ; DOC-003 : 300 × 67 px (4,5). Compatible avec 3,30 si le couvercle est incliné vers l'arrière de 34° à 43° (raccourci en hauteur) ; sinon L/P réel pourrait atteindre 4,0–4,5. Re-mesure par profils de pixels : cadre extérieur du corps 356,5 × 109 px, soit L/P = 3,27 (valeur de l'Équipe E : 3,27) ; 3,30 conservé comme nominal, fourchette 3,27–3,30."
+    },
+    {
+      "id": "R2",
+      "nom": "Profondeur du couvercle / profondeur du corps",
+      "valeur": 0.99,
+      "incertitude": 0.03,
+      "methode": "DOC-007 : couvercle y = 80→187 px (107 px) contre corps 108 px.",
+      "etiquette": "DOC",
+      "confiance": "élevée (dessin)"
+    },
+    {
+      "id": "R3",
+      "nom": "Hauteur du corps / profondeur (H/P)",
+      "valeur": 0.85,
+      "incertitude": 0.2,
+      "methode": "DOC-013 (photo voiture, visée plongeante ≈ 45°) : face avant ≈ 90 px pour ≈ 105 px de dessus ; DOC-004 : arête verticale droite ≈ 57 px pour ≈ 68 px d'arête de profondeur ; DOC-001 : face avant visible ≥ 45 px pour 46 px de couvercle.",
+      "etiquette": "DÉD",
+      "confiance": "faible"
+    },
+    {
+      "id": "R4",
+      "nom": "Épaisseur du couvercle / profondeur",
+      "valeur": 0.25,
+      "incertitude": 0.1,
+      "methode": "DOC-004 : coque du couvercle vue en perspective (estimation visuelle).",
+      "etiquette": "DÉD",
+      "confiance": "faible",
+      "plage": [
+        0.125,
+        0.35
+      ],
+      "remarque": "Estimation visuelle (A). L'Équipe E mesure 0,125 P (rebord intérieur du couvercle ouvert de DOC-004 : 10–15 px pour P ≈ 80 px), valeur raccourcie par la perspective si la visée est proche de la normale au couvercle. Fourchette inter-équipes : 0,125 à 0,25 P ; aucune des deux valeurs n'est sûre."
+    },
+    {
+      "id": "R5",
+      "nom": "Diamètre des logements circulaires / L",
+      "valeur": 0.094,
+      "incertitude": 0.004,
+      "methode": "DOC-007 (OP3.jpg) : disques noirs de 33 à 34 px en largeur comme en hauteur (profils de pixels au seuil 70 ; diamètre équivalent par aire : 33,1 et 33,9 px) pour un corps de 356,5 px.",
+      "etiquette": "DOC",
+      "confiance": "élevée (dessin)",
+      "remarque": "Valeur v1.0 : 0,090 (32 px lus à l'œil), corrigée après re-mesure. Équipe E : 0,0952 (34 px sur 357,5 px)."
+    },
+    {
+      "id": "R6",
+      "nom": "Entraxe des deux logements (selon Y) / L",
+      "valeur": 0.107,
+      "incertitude": 0.005,
+      "methode": "DOC-007 (OP3.jpg) : centres des disques en y = 215,5 et 253 px (profils de pixels), soit 37,5 px ; Équipe E : 0,356 P, soit 38,8 px. Valeur retenue : 38 ± 1,5 px.",
+      "etiquette": "DOC",
+      "confiance": "élevée (dessin)",
+      "remarque": "Valeur v1.0 : 0,115 (41 px lus à l'œil), corrigée après re-mesure."
+    },
+    {
+      "id": "R7",
+      "nom": "Abscisse des logements depuis l'extrémité gauche / L",
+      "valeur": 0.382,
+      "incertitude": 0.008,
+      "methode": "DOC-007 : centres en x ≈ 184 px ; extrémité gauche du corps x = 48 px.",
+      "etiquette": "DOC",
+      "confiance": "élevée (dessin)"
+    },
+    {
+      "id": "R8",
+      "nom": "Largeur d'une bande de danger / L",
+      "valeur": 0.093,
+      "incertitude": 0.006,
+      "methode": "DOC-007 : bandes x = 97→130 px et 239→272 px (33 px). Photos : 0,058 (DOC-001) et 0,073 (DOC-003) : les bandes photographiées sont plus étroites que celles du dessin.",
+      "etiquette": "DOC",
+      "confiance": "élevée (dessin) ; écart dessin/photo relevé dans INCOHERENCES.md"
+    },
+    {
+      "id": "R9",
+      "nom": "Télécommande : largeur / L et hauteur / L",
+      "valeur": [
+        0.098,
+        0.14
+      ],
+      "incertitude": [
+        0.008,
+        0.008
+      ],
+      "methode": "DOC-007 : boîtier repère 3, x = 63→98 px, y = 312→362 px.",
+      "etiquette": "DOC",
+      "confiance": "élevée (dessin)"
+    },
+    {
+      "id": "R10",
+      "nom": "Ordonnées des deux logements depuis le bord charnière / P",
+      "valeur": [
+        0.24,
+        0.59
+      ],
+      "incertitude": [
+        0.01,
+        0.01
+      ],
+      "methode": "DOC-007 (OP3.jpg) : centres en y = 215,5 et 253 px ; bord charnière du corps y = 189,5 px ; P = 109 px. Équipe E : 0,243 et 0,599.",
+      "etiquette": "DOC",
+      "confiance": "élevée (dessin)"
+    }
+  ],
+  "etalons": [
+    {
+      "id": "E1",
+      "nom": "Sangle de harnais / ceinture (DOC-003)",
+      "valeur_reelle_mm": 48,
+      "plage_mm": [
+        46,
+        50
+      ],
+      "mesure_px": 31,
+      "incertitude_px": 3,
+      "image": "M2.JPG (640×480)",
+      "statut": "VÉR pour la largeur normalisée d'une sangle de ceinture automobile (≈ 46–50 mm) ; HYP pour l'identification des deux bandes sombres comme sangles de 2 pouces",
+      "remarque": "Les deux sangles sont espacées de ≈ 135 px d'axe en axe, soit ≈ 0,21 m si elles font 48 mm : cohérent avec les bretelles d'un harnais. La sangle est plus proche de l'appareil photo que l'unité : il faut un facteur de profondeur k (voir M1)."
+    },
+    {
+      "id": "E2",
+      "nom": "Ruban adhésif de danger jaune/noir",
+      "valeur_reelle_mm": [
+        50.8,
+        76.2
+      ],
+      "statut": "HYP (largeurs commerciales courantes : 2 et 3 pouces)",
+      "mesure": "largeur de bande / longueur du couvercle = 0,058 (DOC-001) et 0,073 (DOC-003) ; moyenne 0,066 ± 0,010"
+    },
+    {
+      "id": "E3",
+      "nom": "Télécommande tenue en main",
+      "valeur_reelle_mm": 90,
+      "plage_mm": [
+        70,
+        110
+      ],
+      "statut": "HYP (gabarit d'un boîtier portatif)",
+      "mesure": "largeur = 0,098 L sur DOC-007"
+    },
+    {
+      "id": "E4",
+      "nom": "Cordon spiralé (DOC-013)",
+      "valeur_reelle_mm": 16,
+      "plage_mm": [
+        12,
+        20
+      ],
+      "statut": "HYP (cordon de combiné téléphonique ≈ 12 mm ; cordon de microphone CB ≈ 15–20 mm)",
+      "mesure_px": 9.5,
+      "incertitude_px": 1.5,
+      "image": "timetravel16_08.jpg (477×486) ; longueur de l'unité extrapolée à 510 ± 30 px (extrémité droite hors cadre)"
+    },
+    {
+      "id": "E5",
+      "nom": "Habitacle d'un coupé américain des années 1960",
+      "valeur_reelle_mm": [
+        1000,
+        1250
+      ],
+      "statut": "HYP (borne supérieure : l'unité tient côté passager, console comprise)",
+      "mesure": "borne supérieure seulement"
+    }
+  ],
+  "estimations_longueur_L": [
+    {
+      "id": "M1",
+      "methode": "Sangle (E1) sur DOC-003 : L = 300 px × (48 mm / 31 px) × k, k = distance(unité)/distance(siège)",
+      "hypotheses": "k entre 1,3 et 2,0 (unité 0,3 à 0,7 m derrière le dossier) [HYP]",
+      "valeur": 0.74,
+      "intervalle": [
+        0.56,
+        1.03
+      ],
+      "etiquette": "DÉD",
+      "confiance": "faible",
+      "remarque": "L'étalon (sangle) a une largeur normalisée, mais son identification et surtout le facteur de profondeur k sont SUPPOSÉS."
+    },
+    {
+      "id": "M2a",
+      "methode": "Ruban de danger de 2 pouces (E2) : L = 50,8 mm / 0,066",
+      "valeur": 0.77,
+      "intervalle": [
+        0.67,
+        0.91
+      ],
+      "etiquette": "HYP",
+      "confiance": "faible",
+      "remarque": "M2a et M2b sont UNE SEULE mesure (largeur de bande / longueur du couvercle) lue sous deux hypothèses EXCLUSIVES sur la largeur du ruban (2 ou 3 pouces) : elles ne comptent que pour une méthode."
+    },
+    {
+      "id": "M2b",
+      "methode": "Ruban de danger de 3 pouces (E2) : L = 76,2 mm / 0,066",
+      "valeur": 1.15,
+      "intervalle": [
+        1.0,
+        1.36
+      ],
+      "etiquette": "HYP",
+      "confiance": "faible",
+      "remarque": "M2a et M2b sont UNE SEULE mesure (largeur de bande / longueur du couvercle) lue sous deux hypothèses EXCLUSIVES sur la largeur du ruban (2 ou 3 pouces) : elles ne comptent que pour une méthode."
+    },
+    {
+      "id": "M3",
+      "methode": "Télécommande (E3) sur DOC-007 : L = 90 mm / 0,098",
+      "valeur": 0.92,
+      "intervalle": [
+        0.71,
+        1.12
+      ],
+      "etiquette": "HYP",
+      "confiance": "faible",
+      "remarque": "MÉTHODE LA PLUS FAIBLE, à ne pas pondérer comme les autres : le rapport télécommande/L est lu sur le dessin DOC-007, dont INCOHERENCES.md (I-03) établit qu'il n'est pas un relevé de l'objet photographié ; la taille « tenue en main » est supposée. Sans M3, la médiane passe à 0,82–0,83 m."
+    },
+    {
+      "id": "M4",
+      "methode": "Cordon spiralé (E4) sur DOC-013 : L = 510 px × 16 mm / 9,5 px",
+      "valeur": 0.86,
+      "intervalle": [
+        0.64,
+        1.07
+      ],
+      "etiquette": "HYP",
+      "confiance": "faible",
+      "remarque": "Diamètre du cordon SUPPOSÉ ; extrémité droite de l'unité hors cadre (longueur extrapolée)."
+    },
+    {
+      "id": "M5",
+      "methode": "Largeur d'habitacle (E5) sur DOC-013",
+      "valeur": null,
+      "intervalle": [
+        null,
+        1.25
+      ],
+      "etiquette": "HYP",
+      "confiance": "faible",
+      "remarque": "borne supérieure uniquement"
+    },
+    {
+      "id": "H1",
+      "methode": "Hypothèse de travail du dossier de base (§7)",
+      "valeur": 1.2,
+      "intervalle": [
+        1.0,
+        1.4
+      ],
+      "etiquette": "HYP",
+      "remarque": "non étayée par une mesure ; reste compatible avec M2b et la borne M5, mais au-dessus de la médiane des méthodes M1–M4"
+    }
+  ],
+  "cotes": [
+    {
+      "id": "L",
+      "nom": "Longueur hors tout du coffre",
+      "valeur": 0.85,
+      "incertitude": 0.2,
+      "intervalle_plausible": [
+        0.65,
+        1.25
+      ],
+      "unite": "m",
+      "methode": "Médiane de cinq valeurs issues de quatre méthodes NON indépendantes (M1 sangle ; M2 ruban de danger sous deux hypothèses exclusives, 2 et 3 pouces ; M3 télécommande ; M4 cordon). Quatre des cinq valeurs reposent sur un étalon supposé, la cinquième sur un facteur de profondeur supposé. Voir « synthese_statistique_L ».",
+      "etiquette": "DÉD (mesures) sur étalons HYP",
+      "confiance": "faible",
+      "nature_incertitude": "0,20 m = demi-étendue des cinq valeurs centrales (leur écart-type vaut 0,16 m). CE N'EST PAS une incertitude statistique : utiliser « intervalle_central » et « intervalle_plausible ». Clé conservée pour la compatibilité des scripts aval.",
+      "intervalle_central": [
+        0.74,
+        1.05
+      ],
+      "loi": "bimodale selon la largeur du ruban de danger (2 ou 3 pouces)",
+      "remarque": "L'Équipe E porte « HYP » pour la même cote (06_modele_3D/parametres.json) : les deux étiquettes désignent la même réalité (rapports mesurés, échelle supposée)."
+    },
+    {
+      "id": "P",
+      "nom": "Profondeur du coffre (charnière → face avant)",
+      "valeur": 0.26,
+      "incertitude": 0.07,
+      "intervalle_plausible": [
+        0.14,
+        0.38
+      ],
+      "unite": "m",
+      "methode": "P = L / R1 (3,30 ; fourchette 3,27–3,30) ; borne basse si L/P réel = 4,0–4,5 sur l'objet photographié.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible",
+      "intervalle_central": [
+        0.22,
+        0.32
+      ]
+    },
+    {
+      "id": "H_corps",
+      "nom": "Hauteur du corps (sans couvercle)",
+      "valeur": 0.22,
+      "incertitude": 0.07,
+      "intervalle_plausible": [
+        0.12,
+        0.32
+      ],
+      "unite": "m",
+      "methode": "H = R3 × P.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible",
+      "remarque": "Équipe E : 0,209 m (0,246 L, ajustement d'une caméra en perspective sur DOC-004). Compatible."
+    },
+    {
+      "id": "e_couv",
+      "nom": "Épaisseur (profondeur de coque) du couvercle",
+      "valeur": 0.065,
+      "incertitude": 0.03,
+      "unite": "m",
+      "methode": "R4 × P.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible",
+      "fourchette_inter_equipes": [
+        0.0325,
+        0.065
+      ],
+      "remarque": "A : 0,25 P = 0,065 m (estimation visuelle) ; E : 0,125 P = 0,0325 m (rebord mesuré sur DOC-004). Nominal A conservé, fourchette 0,03–0,09 m."
+    },
+    {
+      "id": "H_ferme",
+      "nom": "Hauteur totale, couvercle fermé",
+      "valeur": 0.285,
+      "incertitude": 0.08,
+      "unite": "m",
+      "methode": "H_corps + e_couv.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible",
+      "fourchette_inter_equipes": [
+        0.242,
+        0.285
+      ],
+      "intervalle_plausible": [
+        0.2,
+        0.37
+      ],
+      "remarque": "A : 0,285 m ; E : 0,242 m (à L = 0,85 m). L'écart vient entièrement de l'épaisseur du couvercle (0,25 P contre 0,125 P)."
+    },
+    {
+      "id": "D_log",
+      "nom": "Diamètre apparent de chaque logement circulaire (« singularité »)",
+      "valeur": 0.08,
+      "incertitude": 0.02,
+      "unite": "m",
+      "methode": "R5 × L = 0,094 × 0,85. Contrôle DOC-013 : dômes noirs ≈ 28 px, soit 45–60 mm avec l'échelle du cordon (les dômes sont plus petits que les ouvertures dessinées).",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible",
+      "remarque": "Valeur v1.0 : 0,077 m ; corrigée après re-mesure du dessin. Équipe E : 0,081 m. L'incertitude (± 0,02 m) vient presque entièrement de l'échelle L."
+    },
+    {
+      "id": "entraxe_log",
+      "nom": "Entraxe des deux logements (selon la profondeur)",
+      "valeur": 0.091,
+      "incertitude": 0.022,
+      "unite": "m",
+      "methode": "R6 × L = 0,107 × 0,85.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible",
+      "remarque": "Valeur v1.0 : 0,098 m ; corrigée après re-mesure. Équipe E : 0,0925 m (0,356 P)."
+    },
+    {
+      "id": "x_log",
+      "nom": "Position des logements depuis l'extrémité gauche",
+      "valeur": 0.325,
+      "incertitude": 0.08,
+      "unite": "m",
+      "methode": "R7 × L.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible"
+    },
+    {
+      "id": "tele_l",
+      "nom": "Télécommande : largeur",
+      "valeur": 0.083,
+      "incertitude": 0.02,
+      "unite": "m",
+      "methode": "R9 × L.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible"
+    },
+    {
+      "id": "tele_h",
+      "nom": "Télécommande : hauteur",
+      "valeur": 0.119,
+      "incertitude": 0.03,
+      "unite": "m",
+      "methode": "R9 × L.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible"
+    },
+    {
+      "id": "V",
+      "nom": "Volume enveloppe (couvercle fermé)",
+      "valeur": 0.062,
+      "intervalle_plausible": [
+        0.024,
+        0.2
+      ],
+      "unite": "m3",
+      "methode": "L × P × H_ferme sans arrondi intermédiaire (0,85 × 0,258 × 0,283 = 0,062 m³ ; avec la hauteur de l'Équipe E : 0,053 m³). Intervalle central : L = 0,74–1,05 m ; plage : L = 0,65–1,25 m, les deux variantes de hauteur confondues.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible",
+      "fourchette_inter_equipes": [
+        0.053,
+        0.062
+      ],
+      "intervalle_central": [
+        0.035,
+        0.117
+      ]
+    },
+    {
+      "id": "m",
+      "nom": "Masse revendiquée de l'unité",
+      "valeur": 227,
+      "unite": "kg",
+      "methode": "Texte : « It weighs about 500 pounds » (message Post-to-Post de fin janvier 2001) ; 500 lb = 226,8 kg.",
+      "etiquette": "DOC",
+      "confiance": "élevée pour la lecture ; la valeur elle-même est une affirmation non vérifiée"
+    },
+    {
+      "id": "rho",
+      "nom": "Masse volumique moyenne impliquée par m et V",
+      "valeur": 3700,
+      "intervalle_plausible": [
+        1150,
+        9500
+      ],
+      "unite": "kg/m3",
+      "methode": "227 kg / V. Repères [VÉR] : eau 1 000 ; aluminium 2 700 ; acier 7 850 ; équipement électronique en coffret : typiquement 300–1 000.",
+      "etiquette": "DÉD sur étalons HYP (via L)",
+      "confiance": "faible",
+      "remarque": "Valeur v1.0 : 3 600 (dimensions arrondies). À L = 0,85 m : 3 700 kg/m³ (hauteur A) à 4 300 kg/m³ (hauteur E). Même à L = 1,25 m la densité reste supérieure à celle de l'eau (1 150–1 340 kg/m³). Voir INCOHERENCES.md, I-09.",
+      "fourchette_inter_equipes": [
+        3700,
+        4300
+      ],
+      "intervalle_central": [
+        1900,
+        6400
+      ]
+    },
+    {
+      "id": "champ_6",
+      "nom": "VERTICAL SAFE DISTANCE (repère 6 de DOC-014)",
+      "valeur": 6,
+      "unite": "m",
+      "methode": "Lecture directe de la légende de DOC-014 (OP4.jpg et timetravel16_07.jpg).",
+      "etiquette": "DOC (lecture) ; provenance non établie",
+      "confiance": "élevée (lecture seulement)",
+      "attribution_auteur": "non établie",
+      "provenance": "État C204-DOC-014 uniquement. Première trace : page d'un site TIERS (johntitor.strategicbrains.com) capturée le 11 juillet 2003 pour la description, le 5 août 2003 pour le fichier image. Absent de toutes les archives de 2000-2002 consultées, où seule figure la version sans cotes (DOC-009). ATTRIBUTION À L'AUTEUR DE 2000-2001 NON ÉTABLIE. DOC-014 a la même trame matricielle que PT3.jpg (DOC-009), public depuis 2000-2001 : barre des cotes 8 + 9 de 246 px sur les deux fichiers ; un tiers pouvait donc produire cet état à partir du fichier public (redressement, légende retapée, valeurs ajoutées). L'erreur de numérotation 11-12-13 est typique d'une retouche. Rien ne prouve non plus que ce soit le cas : l'auteur a pu produire les deux états."
+    },
+    {
+      "id": "champ_7",
+      "nom": "MASS OFFSET (repère 7 de DOC-014)",
+      "valeur": 5,
+      "unite": "m",
+      "methode": "Idem.",
+      "etiquette": "DOC (lecture) ; provenance non établie",
+      "confiance": "élevée (lecture seulement)",
+      "attribution_auteur": "non établie",
+      "provenance": "État C204-DOC-014 uniquement. Première trace : page d'un site TIERS (johntitor.strategicbrains.com) capturée le 11 juillet 2003 pour la description, le 5 août 2003 pour le fichier image. Absent de toutes les archives de 2000-2002 consultées, où seule figure la version sans cotes (DOC-009). ATTRIBUTION À L'AUTEUR DE 2000-2001 NON ÉTABLIE. DOC-014 a la même trame matricielle que PT3.jpg (DOC-009), public depuis 2000-2001 : barre des cotes 8 + 9 de 246 px sur les deux fichiers ; un tiers pouvait donc produire cet état à partir du fichier public (redressement, légende retapée, valeurs ajoutées). L'erreur de numérotation 11-12-13 est typique d'une retouche. Rien ne prouve non plus que ce soit le cas : l'auteur a pu produire les deux états."
+    },
+    {
+      "id": "champ_8",
+      "nom": "REAR MASS DIST. (repère 8 de DOC-014)",
+      "valeur": 8,
+      "unite": "m",
+      "methode": "Idem.",
+      "etiquette": "DOC (lecture) ; provenance non établie",
+      "confiance": "élevée à moyenne (lecture seulement ; le chiffre 8 est moins net que les trois autres)",
+      "attribution_auteur": "non établie",
+      "provenance": "État C204-DOC-014 uniquement. Première trace : page d'un site TIERS (johntitor.strategicbrains.com) capturée le 11 juillet 2003 pour la description, le 5 août 2003 pour le fichier image. Absent de toutes les archives de 2000-2002 consultées, où seule figure la version sans cotes (DOC-009). ATTRIBUTION À L'AUTEUR DE 2000-2001 NON ÉTABLIE. DOC-014 a la même trame matricielle que PT3.jpg (DOC-009), public depuis 2000-2001 : barre des cotes 8 + 9 de 246 px sur les deux fichiers ; un tiers pouvait donc produire cet état à partir du fichier public (redressement, légende retapée, valeurs ajoutées). L'erreur de numérotation 11-12-13 est typique d'une retouche. Rien ne prouve non plus que ce soit le cas : l'auteur a pu produire les deux états."
+    },
+    {
+      "id": "champ_9",
+      "nom": "FORWARD MASS DIST. (repère 9 de DOC-014)",
+      "valeur": 11,
+      "unite": "m",
+      "methode": "Idem.",
+      "etiquette": "DOC (lecture) ; provenance non établie",
+      "confiance": "élevée (lecture seulement)",
+      "attribution_auteur": "non établie",
+      "provenance": "État C204-DOC-014 uniquement. Première trace : page d'un site TIERS (johntitor.strategicbrains.com) capturée le 11 juillet 2003 pour la description, le 5 août 2003 pour le fichier image. Absent de toutes les archives de 2000-2002 consultées, où seule figure la version sans cotes (DOC-009). ATTRIBUTION À L'AUTEUR DE 2000-2001 NON ÉTABLIE. DOC-014 a la même trame matricielle que PT3.jpg (DOC-009), public depuis 2000-2001 : barre des cotes 8 + 9 de 246 px sur les deux fichiers ; un tiers pouvait donc produire cet état à partir du fichier public (redressement, légende retapée, valeurs ajoutées). L'erreur de numérotation 11-12-13 est typique d'une retouche. Rien ne prouve non plus que ce soit le cas : l'auteur a pu produire les deux états."
+    },
+    {
+      "id": "champ_echelle",
+      "nom": "Échelle du dessin DOC-014 déduite des quatre cotes chiffrées",
+      "valeur": 12.3,
+      "incertitude": 1.1,
+      "unite": "px/m",
+      "methode": "Copie de 550 px : cote 8 = 95 px (11,9 px/m), cote 9 = 151 px (13,7), cote 7 = 62 px (12,4), cote 6 = 67 px (11,2). Mesure de la Red Team (08_red_team/calculs2/journaux/mesure_doc014.txt), recoupée par l'Équipe A sur OP4.jpg (73 et 117 px, rapport 0,62).",
+      "etiquette": "DÉD",
+      "confiance": "moyenne",
+      "remarque": "Les valeurs sont approximativement proportionnelles au dessin (dispersion 9 %), pas exactement : rapport cote 8 / cote 9 dessiné 0,63 pour 8/11 = 0,73. Même réserve de provenance que champ_6 à champ_9.",
+      "attribution_auteur": "non établie"
+    },
+    {
+      "id": "champ_envergures",
+      "nom": "Envergures des trois « horizons » (cotes 11, 12, 13 du dessin DOC-014) à l'échelle des cotes chiffrées",
+      "valeur": [
+        26,
+        32,
+        36
+      ],
+      "incertitude": [
+        3,
+        3,
+        3
+      ],
+      "unite": "m",
+      "methode": "Longueurs dessinées ≈ 316, 399 et 445 px sur la copie de 550 px, divisées par 12,3 px/m (Red Team) ; recoupé par l'Équipe A sur OP4.jpg : 246, 311 et 346 px × 1,29 → 25,8 ; 32,7 ; 36,3 m.",
+      "etiquette": "DÉD",
+      "confiance": "moyenne",
+      "remarque": "À comparer aux 3,0–3,7 m du texte (INCOHERENCES.md, I-10). Même réserve de provenance que champ_6 à champ_9.",
+      "attribution_auteur": "non établie"
+    },
+    {
+      "id": "champ_texte_cg",
+      "nom": "Réglage du centre de gravité (texte)",
+      "valeur": 1.2,
+      "unite": "m",
+      "methode": "Texte du 23 nov. 2000 : « adjustable within about 4 feet » ; 4 ft = 1,22 m.",
+      "etiquette": "DOC",
+      "confiance": "élevée (lecture)"
+    },
+    {
+      "id": "champ_texte_portee",
+      "nom": "Portée efficace de part et d'autre (texte)",
+      "valeur": 3.35,
+      "incertitude": 0.3,
+      "unite": "m",
+      "methode": "Texte du 23 nov. 2000 : « about 10 to 12 feet in either direction » ; 3,05–3,66 m.",
+      "etiquette": "DOC",
+      "confiance": "élevée (lecture)"
+    }
+  ],
+  "synthese_statistique_L": {
+    "avertissement": "Les cinq valeurs centrales (0,74 ; 0,77 ; 1,15 ; 0,92 ; 0,86 m) proviennent de QUATRE méthodes NON indépendantes (le ruban de danger y figure sous deux hypothèses exclusives). Quatre des cinq valeurs reposent sur un étalon de taille supposée ; la cinquième (sangle) sur un facteur de profondeur supposé. Ce n'est pas un échantillon statistique.",
+    "mediane": 0.86,
+    "moyenne": 0.89,
+    "ecart_type_des_cinq_valeurs": 0.16,
+    "demi_etendue": 0.205,
+    "melange_equipondere_ruban_compte_une_fois": {
+      "intervalle_68": [
+        0.74,
+        1.02
+      ],
+      "intervalle_95": [
+        0.65,
+        1.24
+      ],
+      "P_L_sup_1.20": 0.043
+    },
+    "idem_sans_M3": {
+      "mediane": 0.83,
+      "intervalle_68": [
+        0.73,
+        1.05
+      ],
+      "intervalle_95": [
+        0.64,
+        1.26
+      ],
+      "P_L_sup_1.20": 0.057
+    },
+    "loi": "bimodale : un mode vers 0,75–0,90 m (ruban de 2 pouces, sangle, cordon), un mode vers 1,15 m (ruban de 3 pouces)",
+    "methode": "Lois triangulaires sur les intervalles de chaque méthode, 400 000 tirages ; calcul de la Red Team (08_red_team/calculs2/09_longueur_L.py) reproduit indépendamment par l'Équipe A avec une autre graine (mêmes résultats à 0,01 m près).",
+    "formulation_retenue": "L = 0,85 m ; intervalle central 0,74–1,05 m ; plage 0,65–1,25 m ; H1 (1,20 m) peu probable (4 à 7 %), non exclue."
+  }
+}

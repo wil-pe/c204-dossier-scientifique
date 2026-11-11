@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/foE5U1zg9G+//WLoOXODdvWzBzM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2207.07666&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:48:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2207.07666" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2207.07666v2</id>
+    <title>Nonclassical advantage in metrology established via quantum simulations of hypothetical closed timelike curves</title>
+    <updated>2023-11-03T20:20:20Z</updated>
+    <link href="https://arxiv.org/abs/2207.07666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.07666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a metrology experiment in which the metrologist can sometimes amend her input state by simulating a closed timelike curve, a worldline that travels backward in time. The existence of closed timelike curves is hypothetical. Nevertheless, they can be simulated probabilistically by quantum-teleportation circuits. We leverage such simulations to pinpoint a counterintuitive nonclassical advantage achievable with entanglement. Our experiment echoes a common information-processing task: A metrologist must prepare probes to input into an unknown quantum interaction. The goal is to infer as much information per probe as possible. If the input is optimal, the information gained per probe can exceed any value achievable classically. The problem is that, only after the interaction does the metrologist learn which input would have been optimal. The metrologist can attempt to change her input by effectively teleporting the optimal input back in time, via entanglement manipulation. The effective time travel sometimes fails but ensures that, summed over trials, the metrologist's winnings are positive. Our Gedankenexperiment demonstrates that entanglement can generate operational advantages forbidden in classical chronology-respecting theories.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-15T18:00:02Z</published>
+    <arxiv:comment>5+5 pages. 2+2 figures. As published in PRL</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett., 131, 150202, (2023)</arxiv:journal_ref>
+    <author>
+      <name>David R. M. Arvidsson-Shukur</name>
+    </author>
+    <author>
+      <name>Aidan G. McConnell</name>
+    </author>
+    <author>
+      <name>Nicole Yunger Halpern</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.131.150202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.131.150202" title="doi"/>
+  </entry>
+</feed>

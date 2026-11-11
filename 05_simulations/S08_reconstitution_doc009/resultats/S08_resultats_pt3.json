@@ -1,0 +1,1706 @@
+{
+  "simulation": "S08_reconstitution_doc009",
+  "copie_analysee": {
+    "cle": "pt3",
+    "designation": "C204-DOC-009, meilleure copie (PT3.jpg, 578×799 px)",
+    "copie": "pt3",
+    "fichier": "01_archive/copies_alternatives/anomalies.net/20030830123900__PT3.jpg",
+    "echelle_x": 1.6157066666215256,
+    "echelle_y": 1.6164961853375313,
+    "rotation_deg": 0.003156280231119852,
+    "translation_px": [
+      49.793328453041696,
+      113.86467628965966
+    ],
+    "correlation": 0.993475208186708,
+    "pixels_natifs": [
+      578,
+      799
+    ]
+  },
+  "avertissement": "Simulation illustrative — ce n'est PAS une preuve expérimentale (Équipe D, programme C204 ; aucune affirmation « Titor » n'est tenue pour vraie)",
+  "source": {
+    "fichier": "01_archive/copies_alternatives/anomalies.net/20030830123900__PT3.jpg",
+    "repere_de_travail_px": [
+      318,
+      369
+    ],
+    "nature": "copie secondaire ; DOC-009 ne porte aucune cote ; la variante DOC-014 (attribution non établie) porte quatre distances en mètres ; les deux états portent « This area is not to scale » au-dessus du sphéroïde central"
+  },
+  "axe": {
+    "pente": -0.011924352112913953,
+    "inclinaison_deg": -0.6831826701048166,
+    "ordonnee_a_l_origine_px": 150.2658354572485
+  },
+  "noirceur_moyenne_du_fond": 0.10462093373374012,
+  "ellipses_numerisees_px": {
+    "anneau G2 (« negative », gauche)": {
+      "cx": 70.46987662546454,
+      "cy": 151.54180363875506,
+      "a": 7.983307830823839,
+      "b": 67.9674505095472,
+      "incertitude_px": [
+        0.0009401123704066475,
+        0.0029297953730679197,
+        0.0011960663676553588,
+        0.003748415353986416
+      ],
+      "score": 0.7461681037127907,
+      "initial": [
+        71.5,
+        152.0,
+        8.0,
+        68.0
+      ],
+      "ecart_a_la_lecture_px": 1.0301233745354637,
+      "contraste_sur_fond": 7.132110917799546
+    },
+    "anneau G3 (« null », gauche)": {
+      "cx": 47.47310581353011,
+      "cy": 151.8990721497456,
+      "a": 6.816687176461739,
+      "b": 51.71108504201871,
+      "incertitude_px": [
+        0.0014488056336721949,
+        0.004334060377781503,
+        0.002121970544286907,
+        0.0024668758012750397
+      ],
+      "score": 0.7442936895831571,
+      "initial": [
+        48.0,
+        152.0,
+        7.0,
+        52.0
+      ],
+      "ecart_a_la_lecture_px": 0.5268941864698888,
+      "contraste_sur_fond": 7.114194674245422
+    },
+    "anneau G4 (« positive », gauche)": {
+      "cx": 32.505877513585496,
+      "cy": 151.04966225537302,
+      "a": 5.430391495782974,
+      "b": 34.24838466783231,
+      "incertitude_px": [
+        0.0013574474460954198,
+        0.003279608689029737,
+        0.0017740703665861423,
+        0.0036013130669902346
+      ],
+      "score": 0.7603200870753734,
+      "initial": [
+        33.5,
+        151.5,
+        6.0,
+        34.5
+      ],
+      "ecart_a_la_lecture_px": 0.9941224864145042,
+      "contraste_sur_fond": 7.267380054267008
+    },
+    "anneau D2 (« negative », droite)": {
+      "cx": 268.1656817358389,
+      "cy": 149.11194248840818,
+      "a": 6.875190499557665,
+      "b": 70.57195325126841,
+      "incertitude_px": [
+        0.0007309225002267752,
+        0.005084697176157023,
+        0.000673889671486168,
+        0.004675808722182711
+      ],
+      "score": 0.719897657880402,
+      "initial": [
+        268.0,
+        149.0,
+        7.0,
+        71.0
+      ],
+      "ecart_a_la_lecture_px": 0.4280467487315889,
+      "contraste_sur_fond": 6.881009681222487
+    },
+    "anneau D3 (« null », droite)": {
+      "cx": 295.2657378106228,
+      "cy": 147.62409670847268,
+      "a": 5.378891851312632,
+      "b": 47.785276379907614,
+      "incertitude_px": [
+        0.0011948636112204055,
+        0.00782936492721639,
+        0.0017272323053341195,
+        0.004786134772202157
+      ],
+      "score": 0.7196399471856135,
+      "initial": [
+        296.0,
+        148.5,
+        6.0,
+        48.5
+      ],
+      "ecart_a_la_lecture_px": 0.8759032915273224,
+      "contraste_sur_fond": 6.878546400829249
+    },
+    "anneau D4 (« positive », droite)": {
+      "cx": 308.7166686491571,
+      "cy": 146.1118061134837,
+      "a": 5.046181852543196,
+      "b": 24.783609329100635,
+      "incertitude_px": [
+        0.0016957698234017875,
+        0.004534209636496323,
+        0.0017365057085005522,
+        0.005045837913375187
+      ],
+      "score": 0.6798714404094296,
+      "initial": [
+        310.0,
+        146.5,
+        5.0,
+        25.5
+      ],
+      "ecart_a_la_lecture_px": 1.2833313508429,
+      "contraste_sur_fond": 6.49842642524774
+    },
+    "sphéroïde central (enveloppe)": {
+      "cx": 143.28392090664886,
+      "cy": 144.42750160479312,
+      "a": 49.45322754117266,
+      "b": 31.16019509746466,
+      "incertitude_px": [
+        0.001466383668698585,
+        0.000949523757207174,
+        0.0018675406952469982,
+        0.0012730702106966986
+      ],
+      "score": 0.4916714179008644,
+      "initial": [
+        144.5,
+        145.3,
+        50.0,
+        30.8
+      ],
+      "ecart_a_la_lecture_px": 1.2160790933511407,
+      "contraste_sur_fond": 4.699551039681659
+    },
+    "grande ellipse extérieure": {
+      "cx": 170.42232701770024,
+      "cy": 149.48612210082854,
+      "a": 143.9465837508639,
+      "b": 94.40648099965881,
+      "incertitude_px": [
+        0.016093622947483115,
+        0.37625208296871576,
+        0.019091579305818344,
+        0.5619215653332379
+      ],
+      "score": 0.21414776167281374,
+      "initial": [
+        169.5,
+        150.2,
+        146.0,
+        93.5
+      ],
+      "ecart_a_la_lecture_px": 2.0534162491360917,
+      "contraste_sur_fond": 2.0468920896636136
+    },
+    "second grand contour E2 (décalé vers la droite)": {
+      "cx": 189.7095581588208,
+      "cy": 150.37249303746688,
+      "a": 135.77026153906286,
+      "b": 93.54452473641862,
+      "incertitude_px": [
+        0.21936102213407702,
+        0.044283169560644604,
+        0.2195890497713869,
+        0.11121299767205228
+      ],
+      "score": 0.19370619633323538,
+      "initial": [
+        192.0,
+        150.3,
+        137.0,
+        93.0
+      ],
+      "ecart_a_la_lecture_px": 2.290441841179188,
+      "contraste_sur_fond": 1.8515051378361516
+    }
+  },
+  "singularites": {
+    "x_px": [
+      133.19999999999925,
+      142.49999999999872
+    ],
+    "separation_px": 9.299999999999471
+  },
+  "proportions_relatives": {
+    "unite": "demi-grand axe A du grand contour E1, ellipse passant par les 12 sommets des anneaux (DOC-009 ne porte aucune cote ; voir cotes_doc014 pour la variante cotée)",
+    "A_px": 145.67925110870596,
+    "B_sur_A": 0.6501399251676181,
+    "spheroide_central_demi_axes_sur_A": [
+      0.3394665140354863,
+      0.21389590391436664
+    ],
+    "spheroide_central_rapport_d_axes": 1.5870641177466955,
+    "grande_ellipse_rapport_d_axes": 1.538130425911286,
+    "rapport_d_echelle_grande_ellipse_sur_spheroide": [
+      2.945798653635288,
+      3.039515545972783
+    ],
+    "second_grand_contour_E2": {
+      "demi_axes_sur_A": [
+        0.9319807762997834,
+        0.6421266173767988
+      ],
+      "rapport_d_axes": 1.4513972027932596,
+      "decalage_du_centre_vs_E1_sur_A": 0.14070413479163443,
+      "contraste_sur_fond": 1.8515051378361516,
+      "extremites_gauche_droite_px": [
+        53.939296619757954,
+        325.47981969788367
+      ]
+    },
+    "separation_des_singularites_sur_A": 0.06383887842105809,
+    "separation_des_singularites_sur_demi_largeur_du_spheroide": 0.18805648210233974,
+    "decalage_masses_vs_centre_des_anneaux_sur_A": 0.22366139613838454,
+    "decalage_spheroide_vs_centre_des_anneaux_sur_A": 0.18636081376104197,
+    "decalage_vertical_spheroide_vs_axe_px": -4.12976592744559,
+    "envergures_des_paires_d_anneaux_sur_A": {
+      "negative": 1.357062200730656,
+      "null": 1.7009466352362674,
+      "positive": 1.8960201197730135
+    },
+    "rayons_des_anneaux_sur_A": {
+      "anneau G2 (« negative », gauche)": 0.4665554634052165,
+      "anneau G3 (« null », gauche)": 0.35496534096974364,
+      "anneau G4 (« positive », gauche)": 0.23509445859435496,
+      "anneau D2 (« negative », droite)": 0.48443380038113715,
+      "anneau D3 (« null », droite)": 0.32801703754126393,
+      "anneau D4 (« positive », droite)": 0.17012449707478994
+    },
+    "cotes_lues_a_l_oeil_sur_A": {
+      "7_mass_offset": 0.2635927883192226,
+      "8_rear_mass_dist": 0.3967620615846632,
+      "9_forward_mass_dist": 0.6397616633164463,
+      "6_vertical_safe_distance_hauteur_du_crochet": 0.2848724144595765,
+      "barre_epaisse_horizontale": 1.043388120430256
+    }
+  },
+  "cotes_doc014": {
+    "statut": "valeurs portées par DOC-014 seulement ; attribution à l'auteur non établie ; [DOC] pour la lecture, [DÉD] pour les conversions",
+    "cotes": {
+      "6 — VERTICAL SAFE DISTANCE": {
+        "metres": 6.0,
+        "extremites_px": [
+          125.5,
+          167.0
+        ],
+        "direction": "verticale (hauteur du crochet)",
+        "longueur_px": 41.5,
+        "echelle_px_par_m": 6.916666666666667
+      },
+      "7 — MASS OFFSET": {
+        "metres": 5.0,
+        "extremites_px": [
+          140.4,
+          178.8
+        ],
+        "direction": "horizontale",
+        "longueur_px": 38.400000000000006,
+        "echelle_px_par_m": 7.6800000000000015
+      },
+      "8 — REAR MASS DIST.": {
+        "metres": 8.0,
+        "extremites_px": [
+          82.6,
+          140.4
+        ],
+        "direction": "horizontale",
+        "longueur_px": 57.80000000000001,
+        "echelle_px_par_m": 7.225000000000001
+      },
+      "9 — FORWARD MASS DIST.": {
+        "metres": 11.0,
+        "extremites_px": [
+          140.4,
+          233.6
+        ],
+        "direction": "horizontale",
+        "longueur_px": 93.19999999999999,
+        "echelle_px_par_m": 8.47272727272727
+      }
+    },
+    "echelle_moyenne_px_ref_par_m": 7.573598484848485,
+    "dispersion_relative_des_echelles": 0.08931946984602453,
+    "incertitude_relative_de_pointe": 0.0259852750108272,
+    "rapport_cote8_sur_cote9_dessine": 0.6201716738197427,
+    "rapport_cote8_sur_cote9_inscrit": 0.7272727272727273,
+    "conversions_en_metres_DED": {
+      "demi_grand_axe_A_du_contour_exterieur": 19.235143162150397,
+      "envergures_des_paires_d_anneaux": {
+        "negative": 26.10328571099705,
+        "null": 32.71795203994762,
+        "positive": 36.470218442151456
+      },
+      "demi_largeur_du_spheroide_central_(zone_declaree_hors_echelle)": 6.529686996228715,
+      "separation_des_deux_singularites_(zone_declaree_hors_echelle)": 1.227949965740166
+    },
+    "comparaison_au_texte": {
+      "champ_efficace_revendique_m": [
+        3.048,
+        3.6576000000000004
+      ],
+      "demi_envergures_dessinees_m": {
+        "negative": 13.051642855498525,
+        "null": 16.35897601997381,
+        "positive": 18.235109221075728
+      },
+      "rapport_min_dessin_sur_texte": 3.56836254798188,
+      "rapport_max_dessin_sur_texte": 5.982647382242693
+    },
+    "lecture": "les quatre valeurs sont à peu près proportionnelles au dessin (une seule échelle à ~9 % près, pour ~2,5 % d'incertitude de pointé), mais pas exactement (rapport cote 8 / cote 9 dessiné 0,62 contre 8/11 = 0,73) ; à cette échelle les « horizons » dessinés s'étendent sur 26 à 36 m, sans rapport avec les 3,0 à 3,7 m (« 10 à 12 pieds ») du texte"
+  },
+  "grand_contour_E1_par_les_sommets_des_anneaux": {
+    "cx": 169.2118851744771,
+    "cy": 149.89612487945848,
+    "a": 145.67925110870596,
+    "b": 94.71189741428873,
+    "rms_sommets_px": 1.1497834139495908,
+    "definition": "ellipse ajustée aux 12 sommets des six anneaux (indépendante du trait pâle)"
+  },
+  "validation_croisee_des_anneaux_par_paires": {
+    "table": {
+      "anneau G2 (« negative », gauche)": {
+        "rayon_mesure_px": 67.9674505095472,
+        "rayon_predit_px": 70.35261534891893,
+        "erreur_px": -2.3851648393717255
+      },
+      "anneau D2 (« negative », droite)": {
+        "rayon_mesure_px": 70.57195325126841,
+        "rayon_predit_px": 69.61743585772118,
+        "erreur_px": 0.9545173935472349
+      },
+      "anneau G3 (« null », gauche)": {
+        "rayon_mesure_px": 51.71108504201871,
+        "rayon_predit_px": 52.204283554609724,
+        "erreur_px": -0.49319851259101455
+      },
+      "anneau D3 (« null », droite)": {
+        "rayon_mesure_px": 47.785276379907614,
+        "rayon_predit_px": 47.275527001453625,
+        "erreur_px": 0.5097493784539893
+      },
+      "anneau G4 (« positive », gauche)": {
+        "rayon_mesure_px": 34.24838466783231,
+        "rayon_predit_px": 30.86291775642358,
+        "erreur_px": 3.385466911408731
+      },
+      "anneau D4 (« positive », droite)": {
+        "rayon_mesure_px": 24.783609329100635,
+        "rayon_predit_px": 29.556330790574968,
+        "erreur_px": -4.772721461474333
+      }
+    },
+    "erreur_max_px": 4.772721461474333,
+    "erreur_rms_px": 2.624990803929182
+  },
+  "anneaux_sur_grande_ellipse": {
+    "table": {
+      "anneau G2 (« negative », gauche)": {
+        "position_relative": -0.6778042020227795,
+        "demi_hauteur_mesuree_px": 67.9674505095472,
+        "demi_hauteur_predite_px": 69.63620772048392,
+        "residu_fraction_de_B": -0.017619298699478498,
+        "decentrement_vertical_vs_axe_px": 2.1162758037422122
+      },
+      "anneau G3 (« null », gauche)": {
+        "position_relative": -0.835663132769027,
+        "demi_hauteur_mesuree_px": 51.71108504201871,
+        "demi_hauteur_predite_px": 52.01978247881043,
+        "residu_fraction_de_B": -0.0032593311423317153,
+        "decentrement_vertical_vs_axe_px": 2.1993227221112477
+      },
+      "anneau G4 (« positive », gauche)": {
+        "position_relative": -0.9384041077948807,
+        "demi_hauteur_mesuree_px": 34.24838466783231,
+        "demi_hauteur_predite_px": 32.72672695030939,
+        "residu_fraction_de_B": 0.016066172878649934,
+        "decentrement_vertical_vs_axe_px": 1.1714383273357782
+      },
+      "anneau D2 (« negative », droite)": {
+        "position_relative": 0.6792579987078766,
+        "demi_hauteur_mesuree_px": 70.57195325126841,
+        "demi_hauteur_predite_px": 69.50902029229245,
+        "residu_fraction_de_B": 0.011222802921226281,
+        "decentrement_vertical_vs_axe_px": 2.043809044777447
+      },
+      "anneau D3 (« null », droite)": {
+        "position_relative": 0.8652835024672404,
+        "demi_hauteur_mesuree_px": 47.785276379907614,
+        "demi_hauteur_predite_px": 47.47744652561343,
+        "residu_fraction_de_B": 0.0032501709151456924,
+        "decentrement_vertical_vs_axe_px": 0.8791138757573833
+      },
+      "anneau D4 (« positive », droite)": {
+        "position_relative": 0.9576160119781331,
+        "demi_hauteur_mesuree_px": 24.783609329100635,
+        "demi_hauteur_predite_px": 27.2815600165312,
+        "residu_fraction_de_B": -0.026374201717277702,
+        "decentrement_vertical_vs_axe_px": -0.4727830836664566
+      }
+    },
+    "rms_fraction_de_B": 0.015336765574556906,
+    "ellipse_par_les_12_sommets": {
+      "cx": 169.42395190776213,
+      "cy": 150.0768751038523,
+      "A": 145.47795109924277,
+      "B": 94.86235374979202,
+      "rms_relatif": 0.01221262815419591
+    },
+    "centre_du_systeme_d_anneaux_px": 170.43282469136648
+  },
+  "envergures_vs_rayons_de_kerr": {
+    "rapports_mesures_null_et_positive_sur_negative": [
+      1.2534035907274261,
+      1.397150490782351
+    ],
+    "meilleur_a_sur_M": 0.9999,
+    "rapports_kerr_au_meilleur_a": [
+      1.0286892817012838,
+      2.028689281701284
+    ],
+    "ecart_minimal": 0.6703266107774957
+  },
+  "courbes_fermees_vs_familles_physiques": {
+    "sphéroïde central (enveloppe)": {
+      "n_points": 83,
+      "points_px": [
+        [
+          175.9275063213605,
+          120.7105485344296
+        ],
+        [
+          176.95042185588716,
+          121.28915655963851
+        ],
+        [
+          177.80474552017765,
+          122.009415977328
+        ],
+        [
+          178.9915440545505,
+          122.54584199715532
+        ],
+        [
+          180.091788307322,
+          123.17646945271845
+        ],
+        [
+          182.41677358986894,
+          123.18009619732749
+        ],
+        [
+          185.03434781303946,
+          123.15459656873016
+        ],
+        [
+          187.85853635769897,
+          123.16650065521286
+        ],
+        [
+          184.037253480958,
+          126.28294892079192
+        ],
+        [
+          185.1620176982491,
+          127.08102594733911
+        ],
+        [
+          185.7970915039573,
+          128.1082243971613
+        ],
+        [
+          186.77224499454755,
+          129.02747835703406
+        ],
+        [
+          187.6177519134307,
+          130.02256670122856
+        ],
+        [
+          188.23013585179027,
+          131.1138261905759
+        ],
+        [
+          192.6568201542135,
+          131.198073123425
+        ],
+        [
+          192.60789370733653,
+          132.58586342190262
+        ],
+        [
+          192.58809965573843,
+          133.94757489392248
+        ],
+        [
+          190.72729071359822,
+          135.63439275643952
+        ],
+        [
+          192.62790449326673,
+          136.61218238104354
+        ],
+        [
+          191.98921466942664,
+          138.0153280351956
+        ],
+        [
+          192.56043323264876,
+          139.24833146020922
+        ],
+        [
+          192.65491535993158,
+          140.541920073691
+        ],
+        [
+          192.66683517750283,
+          141.83945273333285
+        ],
+        [
+          192.59453191360035,
+          143.1362578124364
+        ],
+        [
+          192.63714844782143,
+          144.42750160479312
+        ],
+        [
+          190.14696535276804,
+          153.5367546713644
+        ],
+        [
+          189.73862388926824,
+          154.7262613107029
+        ],
+        [
+          188.9768755157919,
+          155.82003472149486
+        ],
+        [
+          188.3542774194466,
+          156.9266176753191
+        ],
+        [
+          187.6806127407083,
+          158.00093245373026
+        ],
+        [
+          187.055760871003,
+          159.0733543828598
+        ],
+        [
+          186.01225359081778,
+          159.97934286165432
+        ],
+        [
+          185.1240942623615,
+          160.90878419115353
+        ],
+        [
+          184.02231367441357,
+          161.71992338756473
+        ],
+        [
+          183.3547487859789,
+          162.6888299503309
+        ],
+        [
+          182.1205953267367,
+          163.36941335099215
+        ],
+        [
+          181.23144953545514,
+          164.18173465881875
+        ],
+        [
+          180.23928517813337,
+          164.91219452021124
+        ],
+        [
+          179.32341859083078,
+          165.65638810996046
+        ],
+        [
+          178.313113004611,
+          166.31617016895407
+        ],
+        [
+          182.2183869816572,
+          170.19766253270464
+        ],
+        [
+          180.0498865701971,
+          170.17130791196894
+        ],
+        [
+          110.39763039362475,
+          168.3207902508444
+        ],
+        [
+          109.45259471968616,
+          167.6791278973327
+        ],
+        [
+          108.42762806594189,
+          167.06344284626425
+        ],
+        [
+          107.320505709441,
+          166.4659107818457
+        ],
+        [
+          106.56265604635418,
+          165.6285337568678
+        ],
+        [
+          105.38141218115557,
+          165.0068847478953
+        ],
+        [
+          104.65201683491759,
+          164.11143989176765
+        ],
+        [
+          103.49300746265308,
+          163.4067937412894
+        ],
+        [
+          102.621942878104,
+          162.53138062448676
+        ],
+        [
+          101.68298797480203,
+          161.6591722325376
+        ],
+        [
+          100.86410835199015,
+          160.71094201747042
+        ],
+        [
+          99.79559681875017,
+          159.8275248525522
+        ],
+        [
+          99.14030120312606,
+          158.7706331094827
+        ],
+        [
+          98.52946990848109,
+          157.68437395006956
+        ],
+        [
+          97.77472496424056,
+          156.62165390575117
+        ],
+        [
+          96.87705786715424,
+          155.5688036961159
+        ],
+        [
+          96.1316668791737,
+          154.45002259586468
+        ],
+        [
+          94.13542444860099,
+          143.99858917408918
+        ],
+        [
+          94.20628494981702,
+          142.71367279234468
+        ],
+        [
+          94.1618570352454,
+          141.42306747121864
+        ],
+        [
+          94.69910028634757,
+          140.1768805810762
+        ],
+        [
+          94.81859270821951,
+          138.9055749549662
+        ],
+        [
+          95.41287575350012,
+          137.69966496089373
+        ],
+        [
+          95.4876193007623,
+          136.42914378962163
+        ],
+        [
+          96.12638830549537,
+          135.26100583960888
+        ],
+        [
+          93.60744110053366,
+          133.4144911728876
+        ],
+        [
+          93.61275381977417,
+          132.04308871613273
+        ],
+        [
+          93.58813821844967,
+          130.64564132909146
+        ],
+        [
+          98.98285954818573,
+          130.88330792632826
+        ],
+        [
+          99.79657803885657,
+          129.87684022364797
+        ],
+        [
+          100.46161896040134,
+          128.84145833359935
+        ],
+        [
+          101.62983106453262,
+          128.01951926377757
+        ],
+        [
+          102.26937668284842,
+          127.01786048347473
+        ],
+        [
+          103.39508528149412,
+          126.24911190778658
+        ],
+        [
+          104.17760827267126,
+          125.35407851455737
+        ],
+        [
+          105.24769119452475,
+          124.62709368944398
+        ],
+        [
+          106.06617072302252,
+          123.79736580330109
+        ],
+        [
+          107.24442322246695,
+          123.19861509962578
+        ],
+        [
+          104.09929313752014,
+          119.94222864588943
+        ],
+        [
+          105.85044931136144,
+          119.65082725044333
+        ],
+        [
+          105.37114238109602,
+          117.88068828672581
+        ]
+      ],
+      "rapport_d_axes_mesure": 1.545369082845035,
+      "rapport_max_horizon_kerr": 1.4142135623730951,
+      "a_sur_M_donnant_ce_rapport_pour_l_ergosurface": 0.9070316101637338,
+      "ecart_de_forme_ergosurface_vs_ellipse_fraction_du_demi_grand_axe": 0.04301344451852935,
+      "ecart_de_forme_ergosurface_vs_ellipse_px": 2.132326705603908,
+      "familles": {
+        "ellipse générique": {
+          "n_parametres": 4,
+          "parametres": [
+            143.3734538117906,
+            144.06560586367172,
+            49.573493345443275,
+            32.078740215365336
+          ],
+          "rms_px": 1.4765735930748463,
+          "sigma_robuste_px": 0.37509083921044495,
+          "rms_sur_demi_grand_axe": 0.029785546537655305,
+          "rms_sur_rms_ellipse": 1.0,
+          "erreur_aux_poles_px": 0.9280704481475024
+        },
+        "super-ellipse (témoin de forme, exposant n libre)": {
+          "n_parametres": 5,
+          "parametres": [
+            143.378470519368,
+            144.06650661181177,
+            49.54872428458782,
+            31.840816971881637,
+            2.0190186092956526
+          ],
+          "rms_px": 1.4774433295724942,
+          "sigma_robuste_px": 0.3863919461846958,
+          "exposant_n": 2.0190186092956526,
+          "rms_sur_demi_grand_axe": 0.02980309092355499,
+          "rms_sur_rms_ellipse": 1.000589023467389,
+          "erreur_aux_poles_px": 0.7023016254139101
+        },
+        "ergosurface de Kerr, axe de rotation vertical": {
+          "n_parametres": 4,
+          "parametres": [
+            143.4013834851478,
+            143.75019308097478,
+            21.659932910811925,
+            0.9999999999999661
+          ],
+          "rms_px": 1.5604348738128273,
+          "sigma_robuste_px": 1.135750480416536,
+          "a_sur_M": 0.9999999999999661,
+          "rms_sur_demi_grand_axe": 0.03147720220036219,
+          "rms_sur_rms_ellipse": 1.0567945147680358,
+          "erreur_aux_poles_px": 5.5315266676857515
+        },
+        "ergosurface de Kerr, axe de rotation horizontal": {
+          "n_parametres": 4,
+          "parametres": [
+            143.56011134073984,
+            142.9728120573239,
+            22.980261071399234,
+            1.844672621134854e-09
+          ],
+          "rms_px": 2.873812592441804,
+          "sigma_robuste_px": 3.477580584494621,
+          "a_sur_M": 1.844672621134854e-09,
+          "rms_sur_demi_grand_axe": 0.05797075006226005,
+          "rms_sur_rms_ellipse": 1.9462711550037404,
+          "erreur_aux_poles_px": 14.48734149120257
+        },
+        "horizon de Kerr, axe vertical (rapport d'axes ≤ √2)": {
+          "n_parametres": 4,
+          "parametres": [
+            143.40592705655538,
+            143.79068031590532,
+            34.45324452232567,
+            0.9999999999999999
+          ],
+          "rms_px": 1.5174392890755415,
+          "sigma_robuste_px": 0.9708671691529317,
+          "a_sur_M": 0.9999999999999999,
+          "rms_sur_demi_grand_axe": 0.030609892236190824,
+          "rms_sur_rms_ellipse": 1.0276760306376573,
+          "erreur_aux_poles_px": 3.2681941240059995
+        },
+        "équipotentielle de deux masses (écartement libre)": {
+          "n_parametres": 4,
+          "parametres": [
+            143.39686213396067,
+            144.06453399559777,
+            26.379202429609574,
+            23.198455093408754
+          ],
+          "rms_px": 1.50396257616709,
+          "sigma_robuste_px": 0.4863858301465584,
+          "demi_separation_h_px": 26.379202429609574,
+          "rapport_h_sur_demi_separation_dessinee": 5.672946759056145,
+          "rms_sur_demi_grand_axe": 0.030338039034026078,
+          "rms_sur_rms_ellipse": 1.0185490132159336,
+          "erreur_aux_poles_px": 7.250155392847542
+        },
+        "équipotentielle des deux masses telles que dessinées": {
+          "n_parametres": 1,
+          "parametres": [
+            137.849999999999,
+            148.62206351848332,
+            4.649999999999736,
+            45.4256940348688
+          ],
+          "rms_px": 6.225514096223593,
+          "sigma_robuste_px": 7.455958302716631,
+          "rms_sur_demi_grand_axe": 0.1255815089092533,
+          "rms_sur_rms_ellipse": 4.216189511597223,
+          "erreur_aux_poles_px": 14.475804297310038
+        }
+      }
+    },
+    "grande ellipse extérieure": {
+      "n_points": 23,
+      "points_px": [
+        [
+          70.46987662546454,
+          83.57435312920785
+        ],
+        [
+          47.47310581353011,
+          100.18798710772688
+        ],
+        [
+          32.505877513585496,
+          116.80127758754071
+        ],
+        [
+          268.1656817358389,
+          78.53998923713976
+        ],
+        [
+          295.2657378106228,
+          99.83882032856506
+        ],
+        [
+          308.7166686491571,
+          121.32819678438307
+        ],
+        [
+          70.46987662546454,
+          219.50925414830226
+        ],
+        [
+          47.47310581353011,
+          203.6101571917643
+        ],
+        [
+          32.505877513585496,
+          185.29804692320533
+        ],
+        [
+          268.1656817358389,
+          219.6838957396766
+        ],
+        [
+          295.2657378106228,
+          195.40937308838028
+        ],
+        [
+          308.7166686491571,
+          170.89541544258435
+        ],
+        [
+          92.0,
+          73.08142402704026
+        ],
+        [
+          100.0,
+          70.05599877695093
+        ],
+        [
+          116.0,
+          65.22857046085815
+        ],
+        [
+          124.0,
+          63.36094708897855
+        ],
+        [
+          132.0,
+          61.82623058381236
+        ],
+        [
+          92.0,
+          229.51082573187614
+        ],
+        [
+          98.0,
+          231.5209845792322
+        ],
+        [
+          104.0,
+          233.88880820804275
+        ],
+        [
+          110.0,
+          235.13167063944687
+        ],
+        [
+          116.0,
+          236.96367929805876
+        ],
+        [
+          122.0,
+          238.19635660867485
+        ]
+      ],
+      "rapport_d_axes_mesure": 1.5920936027327799,
+      "rapport_max_horizon_kerr": 1.4142135623730951,
+      "a_sur_M_donnant_ce_rapport_pour_l_ergosurface": 0.9234762848875946,
+      "ecart_de_forme_ergosurface_vs_ellipse_fraction_du_demi_grand_axe": 0.049087007352004663,
+      "ecart_de_forme_ergosurface_vs_ellipse_px": 7.20459263921522,
+      "familles": {
+        "ellipse générique": {
+          "n_parametres": 4,
+          "parametres": [
+            169.0728132766849,
+            150.5282775210542,
+            146.7718858383611,
+            92.18797537181963
+          ],
+          "rms_px": 1.0421271754159287,
+          "sigma_robuste_px": 0.33121793359435225,
+          "rms_sur_demi_grand_axe": 0.007100318766521924,
+          "rms_sur_rms_ellipse": 1.0
+        },
+        "super-ellipse (témoin de forme, exposant n libre)": {
+          "n_parametres": 5,
+          "parametres": [
+            169.40337653961268,
+            150.47453714925243,
+            145.34830471830188,
+            91.51438137348596,
+            2.0790800287590003
+          ],
+          "rms_px": 0.9060572906459083,
+          "sigma_robuste_px": 0.5216005931925223,
+          "exposant_n": 2.0790800287590003,
+          "rms_sur_demi_grand_axe": 0.006173234645521576,
+          "rms_sur_rms_ellipse": 0.8694306338228702
+        },
+        "ergosurface de Kerr, axe de rotation vertical": {
+          "n_parametres": 4,
+          "parametres": [
+            170.49952620864647,
+            149.72635175501827,
+            63.21324015903075,
+            0.961531124813644
+          ],
+          "rms_px": 2.4146501398874363,
+          "sigma_robuste_px": 2.61183271475616,
+          "a_sur_M": 0.961531124813644,
+          "rms_sur_demi_grand_axe": 0.016451721159641393,
+          "rms_sur_rms_ellipse": 2.3170397978766006
+        },
+        "ergosurface de Kerr, axe de rotation horizontal": {
+          "n_parametres": 4,
+          "parametres": [
+            184.38566669577705,
+            149.62361709468007,
+            59.7953955433364,
+            0.00032704689120304604
+          ],
+          "rms_px": 15.596616151103923,
+          "sigma_robuste_px": 14.96158655379073,
+          "a_sur_M": 0.00032704689120304604,
+          "rms_sur_demi_grand_axe": 0.1062643302701743,
+          "rms_sur_rms_ellipse": 14.966135150327577
+        },
+        "horizon de Kerr, axe vertical (rapport d'axes ≤ √2)": {
+          "n_parametres": 4,
+          "parametres": [
+            173.1639939059117,
+            149.95173934139746,
+            97.89292549905915,
+            0.9999999999999999
+          ],
+          "rms_px": 4.08406103571049,
+          "sigma_robuste_px": 3.305098356947253,
+          "a_sur_M": 0.9999999999999999,
+          "rms_sur_demi_grand_axe": 0.027825908295599874,
+          "rms_sur_rms_ellipse": 3.918966064847584
+        },
+        "équipotentielle de deux masses (écartement libre)": {
+          "n_parametres": 4,
+          "parametres": [
+            169.92341382329482,
+            149.92692584372705,
+            67.74784725444191,
+            85.52644420540524
+          ],
+          "rms_px": 1.8676212760886919,
+          "sigma_robuste_px": 2.006974721156815,
+          "demi_separation_h_px": 67.74784725444191,
+          "rapport_h_sur_demi_separation_dessinee": 14.56942951708511,
+          "rms_sur_demi_grand_axe": 0.012724652718201704,
+          "rms_sur_rms_ellipse": 1.792124147749334
+        },
+        "équipotentielle des deux masses telles que dessinées": {
+          "n_parametres": 1,
+          "parametres": [
+            137.849999999999,
+            148.62206351848332,
+            4.649999999999736,
+            94.64785919116093
+          ],
+          "rms_px": 35.18381305204333,
+          "sigma_robuste_px": 10.542348167747956,
+          "rms_sur_demi_grand_axe": 0.23971766017090648,
+          "rms_sur_rms_ellipse": 33.76153494701924
+        }
+      }
+    }
+  },
+  "test_des_poles_spheroide_central": {
+    "y_pole_haut_px": 113.29999999999959,
+    "y_pole_bas_px": 175.2000000000005,
+    "demi_hauteur_polaire_px": 30.950000000000458,
+    "erreur_de_prediction_px": {
+      "ellipse générique": 0.9280704481475024,
+      "super-ellipse (témoin de forme, exposant n libre)": 0.7023016254139101,
+      "ergosurface de Kerr, axe de rotation vertical": 5.5315266676857515,
+      "ergosurface de Kerr, axe de rotation horizontal": 14.48734149120257,
+      "horizon de Kerr, axe vertical (rapport d'axes ≤ √2)": 3.2681941240059995,
+      "équipotentielle de deux masses (écartement libre)": 7.250155392847542,
+      "équipotentielle des deux masses telles que dessinées": 14.475804297310038
+    },
+    "puissance_sur_donnees_de_synthese": {
+      "ellipse de rapport 1,6": {
+        "n_realisations": 20,
+        "erreur_poles_si_on_ajuste_une_ellipse_px": 0.39403222354852036,
+        "ecart_type_ellipse_px": 0.25529820349585425,
+        "erreur_poles_si_on_ajuste_une_ergosurface_px": 7.7773034625019175,
+        "ecart_type_ergosurface_px": 0.03828655017003029
+      },
+      "ergosurface de Kerr a/M = 0,93": {
+        "n_realisations": 20,
+        "erreur_poles_si_on_ajuste_une_ellipse_px": 6.566074936540005,
+        "ecart_type_ellipse_px": 0.35107272805193895,
+        "erreur_poles_si_on_ajuste_une_ergosurface_px": 0.9709162730108515,
+        "ecart_type_ergosurface_px": 0.7099859747247087
+      }
+    }
+  },
+  "methode_abandonnee_score_de_noirceur": {
+    "cibles": {
+      "sphéroïde central (enveloppe)": {
+        "familles": {
+          "ellipse générique": {
+            "parametres": [
+              143.28392090664886,
+              144.42750160479312,
+              49.45322754117266,
+              31.16019509746466
+            ],
+            "score_de_noirceur": 0.4916714179008644,
+            "score_rapporte_a_l_ellipse": 1.0,
+            "rms_distance_aux_points_du_contour_px": 1.6617955050870552
+          },
+          "ergosurface de Kerr, axe de rotation vertical": {
+            "parametres": [
+              141.280193987465,
+              144.5150634542356,
+              20.10583789132429,
+              0.8618212067217139
+            ],
+            "score_de_noirceur": 0.39100111161989237,
+            "score_rapporte_a_l_ellipse": 0.7952488133014269,
+            "rms_distance_aux_points_du_contour_px": 4.706318440105301,
+            "fraction_des_points_du_contour_a_plus_de_3_px": 0.5662650602409639
+          },
+          "ergosurface de Kerr, axe de rotation horizontal": {
+            "parametres": [
+              144.74648781841847,
+              144.43268068505606,
+              15.284801093767237,
+              0.4801709407084463
+            ],
+            "score_de_noirceur": 0.5129681079403258,
+            "score_rapporte_a_l_ellipse": 1.0433148832006245,
+            "rms_distance_aux_points_du_contour_px": 17.14074072579078,
+            "fraction_des_points_du_contour_a_plus_de_3_px": 1.0
+          },
+          "horizon de Kerr, axe vertical (rapport d'axes ≤ √2)": {
+            "parametres": [
+              143.27031881654938,
+              144.2792211613201,
+              29.788134988744254,
+              0.9991759439989764
+            ],
+            "score_de_noirceur": 0.4711537618851397,
+            "score_rapporte_a_l_ellipse": 0.9582695774683782,
+            "rms_distance_aux_points_du_contour_px": 5.5312330107719125,
+            "fraction_des_points_du_contour_a_plus_de_3_px": 0.963855421686747
+          },
+          "équipotentielle de deux masses (écartement libre)": {
+            "parametres": [
+              143.8240219383743,
+              144.68477101616912,
+              35.41581112610202,
+              31.066857177313164
+            ],
+            "score_de_noirceur": 0.3149914200253195,
+            "score_rapporte_a_l_ellipse": 0.6406543243252573,
+            "rms_distance_aux_points_du_contour_px": 13.777033321753994,
+            "fraction_des_points_du_contour_a_plus_de_3_px": 1.0
+          }
+        },
+        "meilleure_famille_physique_au_score": "ergosurface de Kerr, axe de rotation horizontal",
+        "son_score_rapporte_a_l_ellipse": 1.0433148832006245,
+        "sa_distance_rms_au_contour_px": 17.14074072579078,
+        "distance_rms_de_l_ellipse_au_contour_px": 1.6617955050870552,
+        "une_famille_physique_devance_l_ellipse_au_score": true
+      },
+      "grande ellipse extérieure": {
+        "familles": {
+          "ellipse générique": {
+            "parametres": [
+              170.42232701770024,
+              149.48612210082854,
+              143.9465837508639,
+              94.40648099965881
+            ],
+            "score_de_noirceur": 0.21414776167281374,
+            "score_rapporte_a_l_ellipse": 1.0,
+            "rms_distance_aux_points_du_contour_px": 1.7937797023959074
+          },
+          "ergosurface de Kerr, axe de rotation vertical": {
+            "parametres": [
+              165.85204755963446,
+              152.88754863222252,
+              63.66465860783189,
+              0.8759236147026661
+            ],
+            "score_de_noirceur": 0.19504725273479093,
+            "score_rapporte_a_l_ellipse": 0.9108068709716164,
+            "rms_distance_aux_points_du_contour_px": 6.577730819242058,
+            "fraction_des_points_du_contour_a_plus_de_3_px": 0.7391304347826086
+          },
+          "horizon de Kerr, axe vertical (rapport d'axes ≤ √2)": {
+            "parametres": [
+              177.0251292670663,
+              150.16387548164244,
+              96.81380031863002,
+              1.0468891085286662
+            ],
+            "score_de_noirceur": 0.18511909828745457,
+            "score_rapporte_a_l_ellipse": 0.864445637168458,
+            "rms_distance_aux_points_du_contour_px": 5.783603127266206,
+            "fraction_des_points_du_contour_a_plus_de_3_px": 0.2608695652173913
+          },
+          "équipotentielle de deux masses (écartement libre)": {
+            "parametres": [
+              174.34747022753587,
+              149.71558353589324,
+              96.33293803963313,
+              91.47525550129097
+            ],
+            "score_de_noirceur": 0.10932742064399131,
+            "score_rapporte_a_l_ellipse": 0.5105232937761335,
+            "rms_distance_aux_points_du_contour_px": 25.467426279647917,
+            "fraction_des_points_du_contour_a_plus_de_3_px": 1.0
+          }
+        },
+        "meilleure_famille_physique_au_score": "ergosurface de Kerr, axe de rotation vertical",
+        "son_score_rapporte_a_l_ellipse": 0.9108068709716164,
+        "sa_distance_rms_au_contour_px": 6.577730819242058,
+        "distance_rms_de_l_ellipse_au_contour_px": 1.7937797023959074,
+        "une_famille_physique_devance_l_ellipse_au_score": false
+      }
+    },
+    "constat": "sphéroïde central : « ergosurface de Kerr, axe de rotation horizontal » obtient 1.04 fois le score de l'ellipse et passe à 17.1 px (RMS) des points du contour, contre 1.7 px pour l'ellipse ; grande ellipse extérieure : « ergosurface de Kerr, axe de rotation vertical » obtient 0.91 fois le score de l'ellipse et passe à 6.6 px (RMS) des points du contour, contre 1.8 px pour l'ellipse. Un score supérieur ou voisin de celui de l'ellipse s'obtient donc avec une courbe qui ne suit pas le contour (elle longe d'autres traits) : le score de noirceur n'est pas un critère de ressemblance.",
+    "premiere_execution_non_archivee": "sur la copie de 318 px : équipotentielle 1,13 fois le score de l'ellipse (sphéroïde), ergosurface 1,12 fois (grand contour) ; valeurs relevées dans la sortie de la première exécution, non reproductibles à l'identique (départs aléatoires)"
+  },
+  "meridiens_du_spheroide": {
+    "x_ligne_des_poles_px": 137.849999999999,
+    "demi_largeurs_px": [
+      -43.5,
+      -36.5,
+      -28.25,
+      -21.0,
+      -18.5,
+      -13.0,
+      -5.75,
+      5.5,
+      10.25,
+      18.25,
+      26.75,
+      36.25,
+      43.0,
+      48.5,
+      55.25
+    ],
+    "nombre": 15,
+    "ecarts_successifs_px": [
+      7.0,
+      8.25,
+      7.25,
+      2.5,
+      5.5,
+      7.25,
+      11.25,
+      4.75,
+      8.0,
+      8.5,
+      9.5,
+      6.75,
+      5.5,
+      6.75
+    ]
+  },
+  "entonnoir": {
+    "asymetrie": {
+      "x_gorge_px": 139.66340841409556,
+      "R_gorge_px": 30.506573512121232,
+      "distance_gorge_anneau_gauche_px": 69.19353178863102,
+      "distance_gorge_anneau_droit_px": 128.50227332174336,
+      "rapport_droite_sur_gauche": 1.8571428571428577,
+      "R_anneau_gauche_px": 67.9674505095472,
+      "R_anneau_droit_px": 70.57195325126841
+    },
+    "sigma_numerisation_px": 1.5,
+    "familles": {
+      "parabole de Flamm (Schwarzschild) : R0 + (x−x0)²/(4R0)": {
+        "parametres": [
+          166.08174052871922,
+          36.6499400550693
+        ],
+        "n_parametres": 2,
+        "rms_px": 19.600817979020725,
+        "rms_sur_R_gorge": 0.6425112925656071,
+        "chi2_reduit": 179.5085433995987
+      },
+      "caténoïde d'Ellis/Morris-Thorne : R0 cosh((x−x0)/R0)": {
+        "parametres": [
+          167.96666269996027,
+          60.09862878628091
+        ],
+        "n_parametres": 2,
+        "rms_px": 53.42413980392997,
+        "rms_sur_R_gorge": 1.7512337064896146,
+        "chi2_reduit": 1333.557689634006
+      },
+      "parabole libre : R0 + κ(x−x0)²": {
+        "parametres": [
+          160.5146487182903,
+          31.868189246722203,
+          0.0033857143625900307
+        ],
+        "n_parametres": 3,
+        "rms_px": 2.4795958792700743,
+        "rms_sur_R_gorge": 0.08128070752635828,
+        "chi2_reduit": 2.9483535053124954
+      },
+      "chaînette libre : R0 cosh((x−x0)/L)": {
+        "parametres": [
+          161.33466844809357,
+          32.35431052771908,
+          73.96013525424667
+        ],
+        "n_parametres": 3,
+        "rms_px": 2.502108838424113,
+        "rms_sur_R_gorge": 0.08201867828354914,
+        "chi2_reduit": 3.002134435229504
+      },
+      "hyperboloïde à une nappe : R0 sqrt(1 + ((x−x0)/L)²)": {
+        "parametres": [
+          158.56400060334832,
+          30.772761424591856,
+          55.63835132992487
+        ],
+        "n_parametres": 3,
+        "rms_px": 2.714818261427418,
+        "rms_sur_R_gorge": 0.08899125496177847,
+        "chi2_reduit": 3.5342662677867995
+      },
+      "sinusoïde : A − B cos(2π(x−x0)/λ)": {
+        "parametres": [
+          160.51285147236766,
+          18194.07415998156,
+          18162.206963218436,
+          10288.785622537443
+        ],
+        "n_parametres": 4,
+        "rms_px": 2.4796152179049415,
+        "rms_sur_R_gorge": 0.08128134144333553,
+        "chi2_reduit": 3.0280859673693286
+      },
+      "témoin non physique : parabole à deux courbures (gauche ≠ droite)": {
+        "parametres": [
+          138.60870414605924,
+          31.235419971776793,
+          0.007360638843800534,
+          0.0021710483058782946
+        ],
+        "n_parametres": 4,
+        "rms_px": 1.0314650376803105,
+        "rms_sur_R_gorge": 0.0338112386587919,
+        "chi2_reduit": 0.5239726736604279
+      }
+    }
+  },
+  "verdict": {
+    "courbes_fermees": "Sphéroïde central : ellipse à 1.48 px près (RMS, 83 points de contour ; exposant de super-ellipse n = 2.02). Contour extérieur : ellipse à 1.04 px près (23 points ; n = 2.08).",
+    "meilleure_famille_physique_par_courbe": {
+      "sphéroïde central (enveloppe)": {
+        "famille": "équipotentielle de deux masses (écartement libre)",
+        "rms_rapporte_a_celui_de_l_ellipse": 1.0185490132159336,
+        "rms_px": 1.50396257616709
+      },
+      "grande ellipse extérieure": {
+        "famille": "équipotentielle de deux masses (écartement libre)",
+        "rms_rapporte_a_celui_de_l_ellipse": 1.792124147749334,
+        "rms_px": 1.8676212760886919
+      }
+    },
+    "avertissement_zone_hors_echelle": "Les tests de forme « horizon » et « ergosurface » portent sur le sphéroïde central, que le document déclare lui-même hors d'échelle (« This area is not to scale ») ; la forme d'un horizon dépend en outre des coordonnées (sphère en Boyer-Lindquist, sphéroïde aplati en Kerr-Schild). Ces résultats sont DESCRIPTIFS, sans valeur de preuve.",
+    "horizon_kerr": "rapport d'axes mesuré 1.55 (central) et 1.59 (extérieur) > √2 = 1,414, maximum pour un horizon de Kerr tracé en coordonnées de Kerr-Schild (1 en Boyer-Lindquist) : le dessin n'a pas la forme d'un horizon dans ces coordonnées — constat descriptif, voir l'avertissement",
+    "ergosurface_kerr": "sur les arcs équatoriaux seuls, l'ergosurface (a/M ajusté) n'est pas discernable de l'ellipse au RMS (1.56 px contre 1.48 px) ; mais elle prédit des pôles déprimés, à 5.5 px des pôles dessinés (ellipse : 0.9 px ; horizon : 3.3 px). Grand contour E1 : ellipse 1.0 px, ergosurface 2.4 px, équipotentielle à écartement libre 1.9 px (23 points).",
+    "homothetie": "les deux contours fermés ont le même rapport d'axes (1.55 et 1.59) à une échelle ×2.9 : or les équipotentielles d'une paire de masses s'arrondissent en s'éloignant, et les surfaces caractéristiques d'un trou noir de Kerr (horizon, ergosurface) n'ont pas la même forme entre elles : deux copies homothétiques ne correspondent à aucune des deux familles",
+    "equipotentielle": "les deux masses dessinées ne sont séparées que de 0.19 demi-largeur du sphéroïde : leurs équipotentielles seraient quasi sphériques (RMS 6.2 px sur le sphéroïde) ; une équipotentielle de rapport d'axes 1,6 exigerait des masses 6 fois plus écartées que dessiné",
+    "anneaux": "les 12 sommets des six anneaux s'alignent sur une ellipse E1 à 1.1 px près (RMS, 4 paramètres ajustés) : compatible avec des sections parallèles (« cercles de latitude ») d'une même ellipse. Réserve : en validation croisée par paires, le rayon de la paire écartée est prédit à 2.6 px près (RMS), avec une erreur de 4.8 px sur le plus petit anneau (extrapolation en bout d'ellipse) : le critère de 3 px que nous nous étions fixé n'est PAS satisfait",
+    "deux_grands_contours": "le grand contour pâle est fait de DEUX ellipses de même hauteur : E1 (enveloppe des anneaux, demi-axes 146 × 95 px) et E2 (demi-axes 136 × 94 px, centre décalé de 0.14 A vers la droite, contraste 1.9) ; sur la copie de 318 px elles se confondaient et la première version de S08 les traitait comme une seule",
+    "centrage": "le système d'anneaux est centré 0.22 A à droite des masses (« mass offset ») : aucun champ du vide (newtonien ou relativiste) n'a de surfaces caractéristiques centrées ailleurs que sur ses sources",
+    "entonnoir": "profil asymétrique (anneau droit 1.9 fois plus loin de la gorge que l'anneau gauche) : aucune famille symétrique (Flamm, caténoïde, hyperboloïde, sinusoïde) ne l'ajuste (RMS ≥ 2.5 px pour une incertitude de 1.5 px) ; seul le témoin non physique à deux courbures passe",
+    "sinusoide": "aucune sinusoïde n'apparaît dans le schéma : la sinusoïde ajustée au profil de l'entonnoir n'est pas meilleure que les autres courbes symétriques",
+    "cotes": "DOC-009 ne porte aucune cote ; sa variante DOC-014 (attribution non établie) porte quatre distances en mètres (6, 5, 8, 11 m), à peu près proportionnelles au dessin (dispersion 9 %) et incompatibles avec les distances du texte : à cette échelle les demi-envergures des anneaux valent 13 à 18 m, contre 3,0 à 3,7 m revendiqués",
+    "conclusion": "DOC-009 est une figure géométriquement régulière (ellipses de même rapport d'axes, sections parallèles, sphéroïde « fil de fer ») ; elle ne correspond à aucune famille de surfaces physiques testée mieux qu'à des ellipses génériques. DOC-009 ne porte aucune cote ; sa variante DOC-014 (attribution non établie) porte quatre distances en mètres, à peu près proportionnelles au dessin et incompatibles avec les distances du texte. Description du schéma, sans valeur de test physique ; cela ne prouve rien sur l'intention de l'auteur."
+  },
+  "validation": {
+    "simulation": "S08_reconstitution_doc009_pt3",
+    "n_tests": 9,
+    "n_passes": 9,
+    "n_echecs": 0,
+    "tests": [
+      {
+        "test": "Méthode : ellipse de synthèse retrouvée (erreur max. sur cx, cy, a, b) [px]",
+        "valeur": 0.035857787040939115,
+        "attendu": 0.0,
+        "ecart_abs": 0.035857787040939115,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.3,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Inclinaison de l'axe en tirets (numérisation) ≈ −0,7° (lecture à l'œil : −0,6° à −0,8°)",
+        "valeur": -0.6831826701048166,
+        "attendu": -0.7,
+        "ecart_abs": 0.016817329895183364,
+        "ecart_rel": 0.02402475699311909,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.25,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Deux singularités détectées sur l'axe (« deux points noirs rapprochés », transcription de l'Équipe A)",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": "x = [133.2, 142.5]"
+      },
+      {
+        "test": "Équipotentielle : limite h → 0 = cercle (rapport d'axes)",
+        "valeur": 1.0000000000000016,
+        "attendu": 1.0,
+        "ecart_abs": 1.5543122344752192e-15,
+        "ecart_rel": 1.5543122344752192e-15,
+        "tol_rel": 0.02,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Ergosurface de Kerr : rapport d'axes (a = M) = √5",
+        "valeur": 2.23606797749979,
+        "attendu": 2.23606797749979,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-12,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Test des pôles, synthèse « vraie ellipse » (moyenne de 20 tirages) : l'ellipse ajustée prédit les pôles [px]",
+        "valeur": 0.39403222354852036,
+        "attendu": 0.0,
+        "ecart_abs": 0.39403222354852036,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 2.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Test des pôles, synthèse « vraie ellipse » : l'ergosurface ajustée manque les pôles de plus de 4 px",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": "7.8 px"
+      },
+      {
+        "test": "Test des pôles, synthèse « vraie ergosurface » (moyenne de 20 tirages) : l'ergosurface ajustée prédit les pôles [px]",
+        "valeur": 0.9709162730108515,
+        "attendu": 0.0,
+        "ecart_abs": 0.9709162730108515,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 2.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Test des pôles, synthèse « vraie ergosurface » : l'ellipse ajustée manque les pôles de plus de 4 px",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": "6.6 px"
+      }
+    ],
+    "n_hors_decompte": 21,
+    "hors_decompte": [
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau G2 (« negative », gauche))",
+        "valeur": 7.132110917799546,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau G2 (« negative », gauche))",
+        "valeur": 1.0301233745354637,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau G3 (« null », gauche))",
+        "valeur": 7.114194674245422,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau G3 (« null », gauche))",
+        "valeur": 0.5268941864698888,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau G4 (« positive », gauche))",
+        "valeur": 7.267380054267008,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau G4 (« positive », gauche))",
+        "valeur": 0.9941224864145042,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau D2 (« negative », droite))",
+        "valeur": 6.881009681222487,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau D2 (« negative », droite))",
+        "valeur": 0.4280467487315889,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau D3 (« null », droite))",
+        "valeur": 6.878546400829249,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau D3 (« null », droite))",
+        "valeur": 0.8759032915273224,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (anneau D4 (« positive », droite))",
+        "valeur": 6.49842642524774,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (anneau D4 (« positive », droite))",
+        "valeur": 1.2833313508429,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Contraste du trait ajusté / fond (sphéroïde central (enveloppe))",
+        "valeur": 4.699551039681659,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "attendu > 2"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (sphéroïde central (enveloppe))",
+        "valeur": 1.2160790933511407,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (grande ellipse extérieure)",
+        "valeur": 2.0534162491360917,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Écart de l'ajustement à la lecture à l'œil [px] (second grand contour E2 (décalé vers la droite))",
+        "valeur": 2.290441841179188,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné par le terme de rappel de l'optimiseur : ne peut guère dépasser 4 px"
+      },
+      {
+        "categorie": "résultat",
+        "element": "Les sommets des 6 anneaux sont sur une même ellipse E1 : erreur max. de validation croisée par paires [px]",
+        "valeur": 4.772721461474333,
+        "attendu": null,
+        "constat": false,
+        "commentaire": "l'ellipse ajustée à deux paires prédit le rayon de la troisième ; RMS 2.62 px ; RMS des 12 sommets 1.15 px"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Ancres de l'entonnoir : déplacement max. lors de l'affinage automatique [px]",
+        "valeur": 1.9783008291439899,
+        "attendu": null,
+        "constat": true,
+        "commentaire": "borné à ±2 px par la fenêtre de recherche : ne peut pas échouer"
+      },
+      {
+        "categorie": "résultat",
+        "element": "Sphéroïde central : erreur de prédiction des pôles, ellipse [px] (référence : meilleure famille physique)",
+        "valeur": 0.9280704481475024,
+        "attendu": 3.2681941240059995,
+        "constat": true,
+        "commentaire": "zone déclarée « not to scale » par le document : résultat descriptif"
+      },
+      {
+        "categorie": "résultat",
+        "element": "RMS de la meilleure famille physique rapporté à celui de l'ellipse (minimum sur les deux contours)",
+        "valeur": 1.0185490132159336,
+        "attendu": 1.0,
+        "constat": true,
+        "commentaire": "{'sphéroïde central (enveloppe)': ('équipotentielle de deux masses (écartement libre)', 1.02), 'grande ellipse extérieure': ('équipotentielle de deux masses (écartement libre)', 1.79)} — un rapport de 1,03 à 1,08 signifie « aussi bien que l'ellipse », non « moins bien » : le RMS ne départage pas les familles à 4 paramètres"
+      },
+      {
+        "categorie": "contrôle",
+        "element": "Méthode abandonnée (score de noirceur) : meilleur score d'une famille physique rapporté à l'ellipse, max. sur les deux cibles",
+        "valeur": 1.0433148832006245,
+        "attendu": 1.0,
+        "constat": null,
+        "commentaire": "sphéroïde central : « ergosurface de Kerr, axe de rotation horizontal » obtient 1.04 fois le score de l'ellipse et passe à 17.1 px (RMS) des points du contour, contre 1.7 px pour l'ellipse ; grande ellipse extérieure : « ergosurface de Kerr, axe de rotation vertical » obtient 0.91 fois le score de l'ellipse et passe à 6.6 px (RMS) des points du contour, contre 1.8 px pour l'ellipse. Un score supérieur ou voisin de celui de l'ellipse s'obtient donc avec une courbe qui ne suit pas le contour (elle longe d'autres traits) : le score de noirceur n'est pas un critère de ressemblance."
+      }
+    ]
+  }
+}

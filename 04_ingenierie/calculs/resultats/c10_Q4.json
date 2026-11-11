@@ -1,0 +1,167 @@
+{
+  "masse_equivalente_kg": 293863026834.2748,
+  "energie_requise_J": 2.6411091720658086e+28,
+  "energie_requise_Mt_TNT": 6312402418895.336,
+  "energie_requise_secondes_de_Soleil": 68.99449247820816,
+  "comparaisons": [
+    {
+      "installation": "ITER, ensemble des aimants supraconducteurs (51 GJ)",
+      "energie_J": 51000000000.0,
+      "masse_equivalente_kg": 5.674515285873455e-07,
+      "g_a_1m_m_s2": 3.7873417372505195e-17,
+      "g_a_1m_en_g": 3.8620137735623475e-18,
+      "g_a_1m_uGal": 3.78734173725052e-09,
+      "rapport_energie_requise": 5.178645435423154e+17,
+      "ordres_de_grandeur_manquants": 17.71421617734141
+    },
+    {
+      "installation": "ITER, bobines toroïdales (41 GJ)",
+      "energie_J": 41000000000.0,
+      "masse_equivalente_kg": 4.5618652298198355e-07,
+      "g_a_1m_m_s2": 3.0447257103386524e-17,
+      "g_a_1m_en_g": 3.1047561709030633e-18,
+      "g_a_1m_uGal": 3.0447257103386525e-09,
+      "rapport_energie_requise": 6.441729687965386e+17,
+      "ordres_de_grandeur_manquants": 17.80900249671961
+    },
+    {
+      "installation": "LHC, dipôles principaux (8,82 GJ)",
+      "energie_J": 8820000000.0,
+      "masse_equivalente_kg": 9.813573494392915e-08,
+      "g_a_1m_m_s2": 6.549873357362662e-18,
+      "g_a_1m_en_g": 6.679012055454883e-19,
+      "g_a_1m_uGal": 6.549873357362662e-10,
+      "rapport_energie_requise": 2.994454843612028e+18,
+      "ordres_de_grandeur_manquants": 18.476317768307524
+    },
+    {
+      "installation": "CMS, solénoïde à 4 T (2,6 GJ)",
+      "energie_J": 2600000000.0,
+      "masse_equivalente_kg": 2.892890145739408e-08,
+      "g_a_1m_m_s2": 1.9308016699708528e-18,
+      "g_a_1m_en_g": 1.9688697669141378e-19,
+      "g_a_1m_uGal": 1.9308016699708527e-10,
+      "rapport_energie_requise": 1.015811220025311e+19,
+      "ordres_de_grandeur_manquants": 19.006813005468526
+    },
+    {
+      "installation": "NIF, banc de condensateurs (~400 MJ nominal)",
+      "energie_J": 400000000.0,
+      "masse_equivalente_kg": 4.450600224214474e-09,
+      "g_a_1m_m_s2": 2.970464107647466e-19,
+      "g_a_1m_en_g": 3.029030410637135e-20,
+      "g_a_1m_uGal": 2.970464107647466e-11,
+      "rapport_energie_requise": 6.602772930164521e+19,
+      "ordres_de_grandeur_manquants": 19.819726362111382
+    },
+    {
+      "installation": "LHC, un faisceau nominal (362 MJ)",
+      "energie_J": 362000000.0,
+      "masse_equivalente_kg": 4.0277932029140986e-09,
+      "g_a_1m_m_s2": 2.6882700174209567e-19,
+      "g_a_1m_en_g": 2.741272521626607e-20,
+      "g_a_1m_uGal": 2.6882700174209568e-11,
+      "rapport_energie_requise": 7.295881690789527e+19,
+      "ordres_de_grandeur_manquants": 19.863077782906178
+    },
+    {
+      "installation": "Z machine, générateurs de Marx (22 MJ)",
+      "energie_J": 22000000.0,
+      "masse_equivalente_kg": 2.4478301233179606e-10,
+      "g_a_1m_m_s2": 1.6337552592061063e-20,
+      "g_a_1m_en_g": 1.6659667258504244e-21,
+      "g_a_1m_uGal": 1.6337552592061062e-12,
+      "rapport_energie_requise": 1.2005041691208222e+21,
+      "ordres_de_grandeur_manquants": 21.079363672617138
+    },
+    {
+      "installation": "NIF, rendement de fusion record (8,6 MJ, 2025)",
+      "energie_J": 8600000.0,
+      "masse_equivalente_kg": 9.56879048206112e-11,
+      "g_a_1m_m_s2": 6.3864978314420526e-21,
+      "g_a_1m_en_g": 6.5124153828698415e-22,
+      "g_a_1m_uGal": 6.386497831442052e-13,
+      "rapport_energie_requise": 3.071057176820708e+21,
+      "ordres_de_grandeur_manquants": 21.487287902195778
+    },
+    {
+      "installation": "ISSP 1200 T, banc de condensateurs (5 MJ)",
+      "energie_J": 5000000.0,
+      "masse_equivalente_kg": 5.563250280268092e-11,
+      "g_a_1m_m_s2": 3.713080134559332e-21,
+      "g_a_1m_en_g": 3.7862880132964186e-22,
+      "g_a_1m_uGal": 3.7130801345593324e-13,
+      "rapport_energie_requise": 5.282218344131617e+21,
+      "ordres_de_grandeur_manquants": 21.722816349103326
+    },
+    {
+      "installation": "NIF, énergie laser UV sur cible (2,2 MJ)",
+      "energie_J": 2200000.0,
+      "masse_equivalente_kg": 2.4478301233179608e-11,
+      "g_a_1m_m_s2": 1.6337552592061064e-21,
+      "g_a_1m_en_g": 1.6659667258504245e-22,
+      "g_a_1m_uGal": 1.6337552592061065e-13,
+      "rapport_energie_requise": 1.2005041691208221e+22,
+      "ordres_de_grandeur_manquants": 22.079363672617138
+    },
+    {
+      "installation": "production mondiale d'électricité 2023 (29 925 TWh)",
+      "energie_J": 1.0773e+20,
+      "masse_equivalente_kg": 1198.6579053865632,
+      "g_a_1m_m_s2": 8.000202457921538e-08,
+      "g_a_1m_en_g": 8.157936153448464e-09,
+      "g_a_1m_uGal": 8.000202457921539,
+      "rapport_energie_requise": 245160045.67583853,
+      "ordres_de_grandeur_manquants": 8.38944969359361
+    },
+    {
+      "installation": "énergie primaire mondiale 2023 (620 EJ)",
+      "energie_J": 6.2e+20,
+      "masse_equivalente_kg": 6898.430347532435,
+      "g_a_1m_m_s2": 4.6042193668535725e-07,
+      "g_a_1m_en_g": 4.6949971364875596e-08,
+      "g_a_1m_uGal": 46.042193668535724,
+      "rapport_energie_requise": 42598535.033319496,
+      "ordres_de_grandeur_manquants": 7.629394663941091
+    }
+  ],
+  "dans_une_sphere_de_10cm": {
+    "volume_m3": 0.004188790204786391,
+    "densite_energie_J_m3": 6.305183699694248e+30,
+    "pression_Pa": 6.305183699694248e+30,
+    "B_equivalent_T": 3980785730267.6533,
+    "E_equivalent_V_m": 1.1934095388475526e+21,
+    "E_sur_Schwinger": 901.8534238626826,
+    "B_sur_B_critique_QED": 901.8534238632207
+  },
+  "B_critique_QED_T": 4414005230.711857,
+  "viriel": {
+    "acier à haute résistance (σ = 2 GPa, ρ = 7800)": {
+      "masse_structure_kg": 1.0300325771056654e+23,
+      "rapport_masse_structure_sur_masse_du_champ": 350514519707.3589,
+      "fraction_max_du_champ_dans_la_masse_totale": 2.8529488616759448e-12,
+      "masse_structure_en_masses_lunaires": 1.402931867482519
+    },
+    "fibre de carbone (σ = 3,5 GPa, ρ = 1800) [ordre de grandeur]": {
+      "masse_structure_kg": 1.358284717062416e+22,
+      "rapport_masse_structure_sur_masse_du_champ": 46221694906.464905,
+      "fraction_max_du_champ_dans_la_masse_totale": 2.163486220104258e-11,
+      "masse_structure_en_masses_lunaires": 0.18500200450318932
+    },
+    "limite idéale type graphène (σ = 130 GPa, ρ = 2200) [ordre de grandeur]": {
+      "masse_structure_kg": 4.469569368111368e+20,
+      "rapport_masse_structure_sur_masse_du_champ": 1520970302.4776912,
+      "fraction_max_du_champ_dans_la_masse_totale": 6.574750331225928e-10,
+      "masse_structure_en_masses_lunaires": 0.006087672797754519
+    }
+  },
+  "champ_45p5T_dans_1_litre": {
+    "energie_J": 823726.3024487497,
+    "masse_equivalente_kg": 9.165191165924411e-12,
+    "g_a_10cm_m_s2": 6.117123539872928e-20
+  },
+  "pack_7p5kWh": {
+    "masse_equivalente_kg": 3.00415515134477e-10,
+    "g_a_1m_m_s2": 2.0050632726620396e-20
+  }
+}

@@ -1,0 +1,4 @@
+arXiv lot 1 : HTTP 200, cumul 14 notices
+recherche CHR09b : vérifiée
+Crossref DOI terminé
+BILAN : {'vérifiée': 21}

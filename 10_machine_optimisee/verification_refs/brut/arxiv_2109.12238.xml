@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/372vPu3lcafBvyloEevYGm+2MEI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2109.12238&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T02:52:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2109.12238" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2109.12238v1</id>
+    <title>Resolving the gravitational redshift within a millimeter atomic sample</title>
+    <updated>2021-09-24T23:58:35Z</updated>
+    <link href="https://arxiv.org/abs/2109.12238v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.12238v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Einstein's theory of general relativity states that clocks at different gravitational potentials tick at different rates - an effect known as the gravitational redshift. As fundamental probes of space and time, atomic clocks have long served to test this prediction at distance scales from 30 centimeters to thousands of kilometers. Ultimately, clocks will study the union of general relativity and quantum mechanics once they become sensitive to the finite wavefunction of quantum objects oscillating in curved spacetime. Towards this regime, we measure a linear frequency gradient consistent with the gravitational redshift within a single millimeter scale sample of ultracold strontium. Our result is enabled by improving the fractional frequency measurement uncertainty by more than a factor of 10, now reaching 7.6$\times 10^{-21}$. This heralds a new regime of clock operation necessitating intra-sample corrections for gravitational perturbations.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-24T23:58:35Z</published>
+    <arxiv:comment>27 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature 602, 420 - 424 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Tobias Bothwell</name>
+    </author>
+    <author>
+      <name>Colin J. Kennedy</name>
+    </author>
+    <author>
+      <name>Alexander Aeppli</name>
+    </author>
+    <author>
+      <name>Dhruv Kedar</name>
+    </author>
+    <author>
+      <name>John M. Robinson</name>
+    </author>
+    <author>
+      <name>Eric Oelker</name>
+    </author>
+    <author>
+      <name>Alexander Staron</name>
+    </author>
+    <author>
+      <name>Jun Ye</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-021-04349-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-021-04349-7" title="doi"/>
+  </entry>
+</feed>

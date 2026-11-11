@@ -1,0 +1,146 @@
+{
+  "sagnac": [
+    {
+      "cas": "Interféromètre de table 1 m × 1 m, He-Ne 633 nm, plateau tournant à 1 rad/s",
+      "dphi_rad": 0.1324388639463938,
+      "franges": 0.021078299854543573
+    },
+    {
+      "cas": "Même interféromètre, rotation terrestre (latitude 48,85°)",
+      "dphi_rad": 7.272066470420962e-06,
+      "franges": 1.1573853252603283e-06
+    },
+    {
+      "cas": "Bobine de fibre 200 m, Ø 10 cm, 1550 nm, plateau à 0,1 rad/s (≈ 5,7 °/s)",
+      "dphi_rad": 0.02704316157357009,
+      "franges": 0.004304052841266478
+    },
+    {
+      "cas": "Bobine de fibre 1 km, Ø 10 cm, 1550 nm, rotation terrestre complète",
+      "dphi_rad": 9.860092207902702e-05,
+      "franges": 1.5692824142295954e-05
+    },
+    {
+      "cas": "Bobine de fibre 1 km, Ø 10 cm, 1550 nm, 0,01 °/h (classe navigation)",
+      "dphi_rad": 6.555447355661234e-08,
+      "franges": 1.0433318508321795e-08
+    }
+  ],
+  "michelson_gale_frange": 0.23630757691570228,
+  "gyrolaser_G_Hz": 348.64160778209344,
+  "LT": {
+    "terre_surface_rad_s": 1.6828256328193445e-14,
+    "GPB_frame_dragging_rad_s": 6.022224852173109e-15,
+    "GPB_geodetique_rad_s": 1.014883152957673e-12,
+    "spin_1.0e+12": {
+      "J_max": 222630.6840581026,
+      "Omega_rad_s": 3.3065822812779833e-22
+    },
+    "spin_3.9e+12": {
+      "J_max": 3386212.7045237403,
+      "Omega_rad_s": 5.0293116498238125e-21
+    },
+    "spin_5.1e+12": {
+      "J_max": 5790624.0923512485,
+      "Omega_rad_s": 8.600420513604035e-21
+    },
+    "paire": [
+      {
+        "cas": "2 × 1e12 kg (ancienne valeur)",
+        "entraxe_m": 0.098,
+        "L_orbital": 1808426664258.1887,
+        "Omega_rad_s": 2.685933248745792e-15,
+        "periode_ms": 16.68403615219464
+      },
+      {
+        "cas": "2 × 1e12 kg (ancienne valeur)",
+        "entraxe_m": 0.3,
+        "L_orbital": 3164087546197.165,
+        "Omega_rad_s": 4.699404244716511e-15,
+        "periode_ms": 89.36015034189026
+      },
+      {
+        "cas": "2 × 3,9e12 kg",
+        "entraxe_m": 0.098,
+        "L_orbital": 13928290377250.18,
+        "Omega_rad_s": 2.068674332325662e-14,
+        "periode_ms": 8.448290106587304
+      },
+      {
+        "cas": "2 × 3,9e12 kg",
+        "entraxe_m": 0.3,
+        "L_orbital": 24369431723985.684,
+        "Omega_rad_s": 3.6194261129932495e-14,
+        "periode_ms": 45.24927104987363
+      },
+      {
+        "cas": "2 × 4,4e12 kg",
+        "entraxe_m": 0.098,
+        "L_orbital": 16690906203319.219,
+        "Omega_rad_s": 2.4789868900535087e-14,
+        "periode_ms": 7.953802154369284
+      },
+      {
+        "cas": "2 × 4,4e12 kg",
+        "entraxe_m": 0.3,
+        "L_orbital": 29203002530561.816,
+        "Omega_rad_s": 4.3373235426286e-14,
+        "periode_ms": 42.600780160177045
+      },
+      {
+        "cas": "2 × 5,1e12 kg",
+        "entraxe_m": 0.098,
+        "L_orbital": 20828412300437.113,
+        "Omega_rad_s": 3.0935025578865714e-14,
+        "periode_ms": 7.387815383636332
+      },
+      {
+        "cas": "2 × 5,1e12 kg",
+        "entraxe_m": 0.3,
+        "L_orbital": 36442130205985.484,
+        "Omega_rad_s": 5.4125019891547724e-14,
+        "periode_ms": 39.56933965843943
+      }
+    ],
+    "paire_max_rad_s": 5.4125019891547724e-14
+  },
+  "capteurs": [
+    {
+      "capteur": "Gyromètre MEMS de smartphone (instabilité de biais ~10 °/h)",
+      "resolution_rad_s": 4.84813681109536e-05,
+      "niveau": "N1"
+    },
+    {
+      "capteur": "Gyromètre à fibre de TP / tactique (~1 °/h)",
+      "resolution_rad_s": 4.84813681109536e-06,
+      "niveau": "N2"
+    },
+    {
+      "capteur": "Gyromètre à fibre de navigation (~0,01 °/h)",
+      "resolution_rad_s": 4.84813681109536e-08,
+      "niveau": "N3 (industrie)"
+    },
+    {
+      "capteur": "Gyromètre à fibre stratégique (~1e-4 °/h)",
+      "resolution_rad_s": 4.84813681109536e-10,
+      "niveau": "N3 (industrie)"
+    },
+    {
+      "capteur": "Gyrolaser géant type G (résolution ~1e-8 Ω_T après intégration)",
+      "resolution_rad_s": 7.292115e-13,
+      "niveau": "N3"
+    },
+    {
+      "capteur": "Objectif des réseaux de gyrolasers (GINGER : ~1e-9 à 1e-10 Ω_T)",
+      "resolution_rad_s": 7.292115e-15,
+      "niveau": "N3 (projet)"
+    }
+  ],
+  "ecart_gyrolaser": {
+    "spin_ordres": [
+      7.9283338226686375,
+      9.343474174864511
+    ],
+    "paire_ordres": 1.1294554400907175
+  }
+}

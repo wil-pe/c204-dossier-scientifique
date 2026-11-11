@@ -1,0 +1,18 @@
+--- livré/03_physique_theorique/verifications/sorties/02_hawking_corps_gris.txt
++++ régénéré/03_physique_theorique/verifications/sorties/02_hawking_corps_gris.txt
+@@ -5,3 +5,3 @@
+-spin 0.5 : P/ddl = 4.0916e-05 hbar c^6/(G² M²) ; dN/dt/ddl = 2.4284e-04 c³/(G M) ; pic puissance x = E/kT = 4.51 ; pic flux x = 4.03 ; erreur relative de flux max = 8.6e-09   [36 s]
+-spin   1 : P/ddl = 1.6819e-05 hbar c^6/(G² M²) ; dN/dt/ddl = 7.3980e-05 c³/(G M) ; pic puissance x = E/kT = 6.06 ; pic flux x = 5.72 ; erreur relative de flux max = 8.7e-09   [54 s]
+-spin   2 : P/ddl = 1.9184e-06 hbar c^6/(G² M²) ; dN/dt/ddl = 5.5455e-06 c³/(G M) ; pic puissance x = E/kT = 9.13 ; pic flux x = 8.90 ; erreur relative de flux max = 8.7e-09   [74 s]
++spin 0.5 : P/ddl = 4.0916e-05 hbar c^6/(G² M²) ; dN/dt/ddl = 2.4284e-04 c³/(G M) ; pic puissance x = E/kT = 4.51 ; pic flux x = 4.03 ; erreur relative de flux max = 8.6e-09   [37 s]
++spin   1 : P/ddl = 1.6819e-05 hbar c^6/(G² M²) ; dN/dt/ddl = 7.3980e-05 c³/(G M) ; pic puissance x = E/kT = 6.06 ; pic flux x = 5.72 ; erreur relative de flux max = 8.7e-09   [56 s]
++spin   2 : P/ddl = 1.9184e-06 hbar c^6/(G² M²) ; dN/dt/ddl = 5.5455e-06 c³/(G M) ; pic puissance x = E/kT = 9.13 ; pic flux x = 8.90 ; erreur relative de flux max = 8.7e-09   [76 s]
+@@ -71 +71 @@
+-Temps de calcul : 77 s
++Temps de calcul : 79 s
+
+--- livré/05_simulations/journal_run_all.txt
++++ régénéré/05_simulations/journal_run_all.txt
+@@ -47 +47 @@
+-  (vérification symbolique en 103.6 s)
++  (vérification symbolique en 105.5 s)

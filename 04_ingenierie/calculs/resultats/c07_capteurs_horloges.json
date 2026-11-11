@@ -1,0 +1,323 @@
+{
+  "instruments": [
+    {
+      "nom": "Micro-g LaCoste FG5-X",
+      "principe": "absolu, chute libre + interférométrie laser",
+      "bruit_uGal_rtHz": 15.0,
+      "exactitude_uGal": 2.0,
+      "masse_kg": 150.0,
+      "puissance_W": 500.0,
+      "T_min_C": 20,
+      "T_max_C": 30
+    },
+    {
+      "nom": "Exail AQG-B",
+      "principe": "absolu, interférométrie atomique",
+      "bruit_uGal_rtHz": 50.0,
+      "exactitude_uGal": 2.0,
+      "masse_kg": 140.0,
+      "puissance_W": 500.0,
+      "T_min_C": 0,
+      "T_max_C": 40
+    },
+    {
+      "nom": "GWR iGrav",
+      "principe": "relatif, supraconducteur",
+      "bruit_uGal_rtHz": 0.3,
+      "exactitude_uGal": 0.001,
+      "masse_kg": null,
+      "puissance_W": null,
+      "T_min_C": 4,
+      "T_max_C": 38
+    },
+    {
+      "nom": "Scintrex CG-6",
+      "principe": "relatif, ressort de quartz",
+      "bruit_uGal_rtHz": null,
+      "exactitude_uGal": 5.0,
+      "masse_kg": 5.5,
+      "puissance_W": 5.2,
+      "T_min_C": -40,
+      "T_max_C": 45
+    },
+    {
+      "nom": "MEMS (Middlemiss et al. 2016)",
+      "principe": "relatif, MEMS (laboratoire)",
+      "bruit_uGal_rtHz": 40.0,
+      "exactitude_uGal": null,
+      "masse_kg": null,
+      "puissance_W": null,
+      "T_min_C": null,
+      "T_max_C": null
+    }
+  ],
+  "signaux": [
+    {
+      "objet": "masse d'une tonne",
+      "masse_kg": 1000.0,
+      "distance_m": 2.0,
+      "delta_g_uGal": 1.6685749999999997,
+      "gradient_Eotvos": 16.685749999999995,
+      "temps_integration_SNR3_FG5-X_s": 727.3334528406551,
+      "temps_integration_SNR3_AQG_s": 8081.482809340611,
+      "temps_integration_SNR3_iGrav_s": 0.290933381136262,
+      "temps_integration_SNR3_MEMS_s": 5172.1489979779935,
+      "rapport_a_l_ecart_type_CG6_5uGal": 0.33371499999999993,
+      "lectures_CG6_a_moyenner_pour_SNR3": 80.81482809340615
+    },
+    {
+      "objet": "masse d'une tonne",
+      "masse_kg": 1000.0,
+      "distance_m": 3.0,
+      "delta_g_uGal": 0.7415888888888887,
+      "gradient_Eotvos": 4.943925925925925,
+      "temps_integration_SNR3_FG5-X_s": 3682.125605005817,
+      "temps_integration_SNR3_AQG_s": 40912.50672228685,
+      "temps_integration_SNR3_iGrav_s": 1.4728502420023264,
+      "temps_integration_SNR3_MEMS_s": 26184.004302263587,
+      "rapport_a_l_ecart_type_CG6_5uGal": 0.14831777777777774,
+      "lectures_CG6_a_moyenner_pour_SNR3": 409.12506722286855
+    },
+    {
+      "objet": "bloc de béton de 1 m³ (2400 kg)",
+      "masse_kg": 2400.0,
+      "distance_m": 2.0,
+      "delta_g_uGal": 4.00458,
+      "gradient_Eotvos": 40.04579999999999,
+      "temps_integration_SNR3_FG5-X_s": 126.27316889594705,
+      "temps_integration_SNR3_AQG_s": 1403.035209954967,
+      "temps_integration_SNR3_iGrav_s": 0.050509267558378805,
+      "temps_integration_SNR3_MEMS_s": 897.942534371179,
+      "rapport_a_l_ecart_type_CG6_5uGal": 0.800916,
+      "lectures_CG6_a_moyenner_pour_SNR3": 14.030352099549672
+    },
+    {
+      "objet": "bloc de béton de 1 m³ (2400 kg)",
+      "masse_kg": 2400.0,
+      "distance_m": 3.5,
+      "delta_g_uGal": 1.3076179591836734,
+      "gradient_Eotvos": 7.472102623906704,
+      "temps_integration_SNR3_FG5-X_s": 1184.3042129655034,
+      "temps_integration_SNR3_AQG_s": 13158.935699616703,
+      "temps_integration_SNR3_iGrav_s": 0.47372168518620117,
+      "temps_integration_SNR3_MEMS_s": 8421.71884775469,
+      "rapport_a_l_ecart_type_CG6_5uGal": 0.2615235918367347,
+      "lectures_CG6_a_moyenner_pour_SNR3": 131.58935699616703
+    },
+    {
+      "objet": "mur de 10 t",
+      "masse_kg": 10000.0,
+      "distance_m": 3.0,
+      "delta_g_uGal": 7.415888888888888,
+      "gradient_Eotvos": 49.43925925925925,
+      "temps_integration_SNR3_FG5-X_s": 36.82125605005817,
+      "temps_integration_SNR3_AQG_s": 409.12506722286855,
+      "temps_integration_SNR3_iGrav_s": 0.014728502420023264,
+      "temps_integration_SNR3_MEMS_s": 261.8400430226359,
+      "rapport_a_l_ecart_type_CG6_5uGal": 1.4831777777777775,
+      "lectures_CG6_a_moyenner_pour_SNR3": 4.091250672228686
+    },
+    {
+      "objet": "personne (80 kg)",
+      "masse_kg": 80.0,
+      "distance_m": 1.0,
+      "delta_g_uGal": 0.533944,
+      "gradient_Eotvos": 10.678879999999998,
+      "temps_integration_SNR3_FG5-X_s": 7102.865750397022,
+      "temps_integration_SNR3_AQG_s": 78920.7305599669,
+      "temps_integration_SNR3_iGrav_s": 2.841146300158808,
+      "temps_integration_SNR3_MEMS_s": 50509.26755837881,
+      "rapport_a_l_ecart_type_CG6_5uGal": 0.10678879999999999,
+      "lectures_CG6_a_moyenner_pour_SNR3": 789.2073055996689
+    },
+    {
+      "objet": "voiture (1500 kg)",
+      "masse_kg": 1500.0,
+      "distance_m": 3.0,
+      "delta_g_uGal": 1.1123833333333333,
+      "gradient_Eotvos": 7.415888888888888,
+      "temps_integration_SNR3_FG5-X_s": 1636.5002688914735,
+      "temps_integration_SNR3_AQG_s": 18183.336321016377,
+      "temps_integration_SNR3_iGrav_s": 0.6546001075565894,
+      "temps_integration_SNR3_MEMS_s": 11637.335245450478,
+      "rapport_a_l_ecart_type_CG6_5uGal": 0.22247666666666666,
+      "lectures_CG6_a_moyenner_pour_SNR3": 181.83336321016372
+    },
+    {
+      "objet": "immeuble (1e6 kg)",
+      "masse_kg": 1000000.0,
+      "distance_m": 20.0,
+      "delta_g_uGal": 16.68575,
+      "gradient_Eotvos": 16.685749999999995,
+      "temps_integration_SNR3_FG5-X_s": 7.273334528406549,
+      "temps_integration_SNR3_AQG_s": 80.8148280934061,
+      "temps_integration_SNR3_iGrav_s": 0.0029093338113626195,
+      "temps_integration_SNR3_MEMS_s": 51.72148997977991,
+      "rapport_a_l_ecart_type_CG6_5uGal": 3.33715,
+      "lectures_CG6_a_moyenner_pour_SNR3": 0.8081482809340611
+    },
+    {
+      "objet": "fluide de refroidissement interne (10 kg déplacés de 0,5 à 0,3 m)",
+      "masse_kg": 10.0,
+      "distance_m": NaN,
+      "delta_g_uGal": 0.4746168888888888,
+      "gradient_Eotvos": NaN,
+      "temps_integration_SNR3_FG5-X_s": 8989.564465346231,
+      "temps_integration_SNR3_AQG_s": 99884.04961495813,
+      "temps_integration_SNR3_iGrav_s": 3.595825786138492,
+      "temps_integration_SNR3_MEMS_s": 63925.7917535732,
+      "rapport_a_l_ecart_type_CG6_5uGal": 0.09492337777777776,
+      "lectures_CG6_a_moyenner_pour_SNR3": 998.8404961495812
+    }
+  ],
+  "effets_parasites": {
+    "gradient vertical à l'air libre (µGal/m) [valeur normale, non vérifiée en ligne]": 308.6,
+    "variation de hauteur donnant 1 µGal (mm)": 3.2404406999351907,
+    "marée terrestre, amplitude typique (µGal) [ordre de grandeur, non vérifié en ligne]": 150.0
+  },
+  "capteur_dans_le_champ": {
+    "2,94e11 kg (2 g à 1 m), capteur à 0.3 m": {
+      "g_singularite_m_s2": 218.02713333333332,
+      "g_en_g": 22.23258027291005,
+      "gradient_s2": 1453.5142222222223,
+      "gradient_Eotvos": 1453514222222.2222,
+      "resolution_relative_pour_1uGal": 4.586585094760377e-11,
+      "stabilite_de_position_requise_m": 6.8798776421405654e-12,
+      "dilatation_aluminium_par_K_m": 6.9e-06,
+      "rapport_dilatation_1K_sur_tolerance": 1002924.8133333334,
+      "stabilite_relative_de_masse_requise": 4.586585094760377e-11,
+      "variation_relative_de_masse_Hawking_par_s": 3.3609661967573015e-18
+    },
+    "2,94e11 kg (2 g à 1 m), capteur à 0.5 m": {
+      "g_singularite_m_s2": 78.489768,
+      "g_en_g": 8.003728898247617,
+      "gradient_s2": 313.959072,
+      "gradient_Eotvos": 313959072000.0,
+      "resolution_relative_pour_1uGal": 1.274051415211216e-10,
+      "stabilite_de_position_requise_m": 3.18512853802804e-11,
+      "dilatation_aluminium_par_K_m": 1.15e-05,
+      "rapport_dilatation_1K_sur_tolerance": 361052.93279999995,
+      "stabilite_relative_de_masse_requise": 1.274051415211216e-10,
+      "variation_relative_de_masse_Hawking_par_s": 3.3609661967573015e-18
+    },
+    "4,4e12 kg (400 MW au total), capteur à 0.3 m": {
+      "g_singularite_m_s2": 3248.1593333333335,
+      "g_en_g": 331.2200734535579,
+      "gradient_s2": 21654.39555555556,
+      "gradient_Eotvos": 21654395555555.56,
+      "resolution_relative_pour_1uGal": 3.0786667074418967e-12,
+      "stabilite_de_position_requise_m": 4.618000061162845e-13,
+      "dilatation_aluminium_par_K_m": 6.9e-06,
+      "rapport_dilatation_1K_sur_tolerance": 14941532.933333334,
+      "stabilite_relative_de_masse_requise": 3.0786667074418967e-12,
+      "variation_relative_de_masse_Hawking_par_s": 1.0164448136772938e-21
+    },
+    "4,4e12 kg (400 MW au total), capteur à 0.5 m": {
+      "g_singularite_m_s2": 1169.33736,
+      "g_en_g": 119.23922644328084,
+      "gradient_s2": 4677.34944,
+      "gradient_Eotvos": 4677349440000.0,
+      "resolution_relative_pour_1uGal": 8.55185196511638e-12,
+      "stabilite_de_position_requise_m": 2.137962991279095e-12,
+      "dilatation_aluminium_par_K_m": 1.15e-05,
+      "rapport_dilatation_1K_sur_tolerance": 5378951.856,
+      "stabilite_relative_de_masse_requise": 8.55185196511638e-12,
+      "variation_relative_de_masse_Hawking_par_s": 1.0164448136772938e-21
+    }
+  },
+  "plage_CG6_mGal": 8000.0,
+  "un_g_en_mGal": 980664.9999999999,
+  "rapport_1g_sur_plage_CG6": 122.58312499999998,
+  "degres_de_liberte_mesurables_en_un_point": {
+    "vecteur_g": 3,
+    "tenseur_gradient_independants": 5,
+    "total": 8
+  },
+  "deplacement_de_la_Terre_en_60_ans_m": {
+    "orbital_cumule": 56387119680000.0,
+    "galactique": 435494880000000.0
+  },
+  "sensibilite_spatiale": {
+    "vertical : 1 µGal ↔ (mm)": 3.240440699935191,
+    "horizontal, gradient régional typique 1 µGal/m [HYP] : 1 µGal ↔ (m)": 1.0
+  },
+  "horloges": {
+    "Microchip 5071A (jet de césium, option hautes performances)": {
+      "exactitude": 5e-13,
+      "palier": 1e-14,
+      "masse_kg": 30.0,
+      "volume_m3": 0.029737454629999997,
+      "puissance_W": 50.0,
+      "T_min_C": 0,
+      "T_max_C": 50,
+      "annee": 1992
+    },
+    "Microchip CSAC SA.45s (vapeur de césium, CPT)": {
+      "exactitude": null,
+      "stabilite_1s": 3e-10,
+      "vieillissement_par_mois": 9e-10,
+      "masse_kg": 0.035,
+      "volume_m3": 1.7e-05,
+      "puissance_W": 0.12,
+      "T_min_C": -10,
+      "T_max_C": 70,
+      "annee": 2011
+    },
+    "NIST-F2 (fontaine à césium, laboratoire)": {
+      "exactitude": 1.1e-16,
+      "annee": 2014
+    },
+    "horloge optique Al+ (laboratoire, Brewer et al. 2019)": {
+      "exactitude": 9.4e-19,
+      "annee": 2019
+    }
+  },
+  "quatre_5071A": {
+    "masse_kg": 120.0,
+    "volume_m3": 0.11894981851999999,
+    "fraction_de_la_masse_unite": 0.5291094292437062,
+    "fraction_du_volume_coffre": 1.8885420103199173,
+    "fraction_du_volume_utile": 3.398566243428571,
+    "fraction_du_volume_ancienne_hypothese_H1": 0.917822673765432,
+    "un_seul_etalon_sur_volume_utile": 0.8496415608571427,
+    "longueur_etalon_sur_profondeur_coffre": 1.6365384615384615,
+    "puissance_W": 200.0
+  },
+  "gravimetre_CG6_volume": {
+    "volume_L": 10.836,
+    "part_du_volume_utile": 0.3096,
+    "hauteur_m": 0.24,
+    "hauteur_interieure_disponible_m_equipe_I": [
+      0.228,
+      0.269
+    ]
+  },
+  "quatre_CSAC": {
+    "masse_kg": 0.14,
+    "volume_m3": 6.8e-05,
+    "puissance_W": 0.48
+  },
+  "decalage_gravitationnel_relatif": {
+    "2,94e11 kg, r = 0.1 m": 2.1832911191208877e-15,
+    "2,94e11 kg, r = 0.3 m": 7.277637063736292e-16,
+    "2,94e11 kg, r = 0.5 m": 4.3665822382417753e-16,
+    "2,94e11 kg, r = 1.0 m": 2.1832911191208877e-16,
+    "2,94e11 kg, écart entre 0,3 m et 0,5 m": 2.911054825494517e-16,
+    "4,4e12 kg, r = 0.1 m": 3.2526581978739755e-14,
+    "4,4e12 kg, r = 0.3 m": 1.0842193992913253e-14,
+    "4,4e12 kg, r = 0.5 m": 6.505316395747951e-15,
+    "4,4e12 kg, r = 1.0 m": 3.2526581978739755e-15,
+    "4,4e12 kg, écart entre 0,3 m et 0,5 m": 4.336877597165301e-15
+  },
+  "decalage_terrestre_par_metre": 1.0911369672198217e-16,
+  "rapport_decalage_max_sur_exactitude_5071A": 0.06505316395747951,
+  "facteur_10_ans_par_heure": 87660.0,
+  "potentiel_requis_sur_c2_pour_ce_facteur": 0.49999999993493205,
+  "potentiel_disponible_sur_c2_2g_sur_1m": 2.1822739344396434e-16,
+  "erreur_temps": {
+    "5071A sur 6 h (5e-13)": 1.0799999999999999e-08,
+    "CSAC sur 6 h (dérive ~1e-9) [HYP]": 2.16e-05,
+    "quartz ordinaire sur 6 h (1e-6) [HYP]": 0.021599999999999998,
+    "précision relative pour viser un jour donné à 60 ans": 4.563084645220169e-05
+  }
+}

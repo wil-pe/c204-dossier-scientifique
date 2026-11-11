@@ -1,0 +1,105 @@
+==============================================================================
+SCRIPT 03 — Kerr / Kerr-Newman : vérifications symboliques et ordres de grandeur
+==============================================================================
+
+[A1] Kerr-Newman : équations d'Einstein-Maxwell
+  R_{μν} - 2(F_{μα}F_ν^α - ¼ g_{μν}F²) = 0 (vérifié, les 10 composantes)
+  det g = -(a**2*x**2 + r**2)**2   -> sqrt(-g) = Σ (en coordonnée x = cos θ)
+  ∂_μ(√-g F^{μν}) = [0, 0, 0, 0] (équations de Maxwell sans source)
+  invariant F_{μν}F^{μν} = -2*Q**2*(a**2*x**2 - 2*a*r*x - r**2)*(a**2*x**2 + 2*a*r*x - r**2)/(a**2*x**2 + r**2)**4
+  [temps écoulé 21 s]
+
+[A2] Kerr (Q = 0) : tenseur de Ricci
+  R_{μν}(Q=0) = 0 (vérifié)
+
+[A3] Coefficient g_φφ et région à CTC
+  g_φφ = -(x - 1)*(x + 1)*(-2*M*a**2*r*x**2 + 2*M*a**2*r + Q**2*a**2*x**2 - Q**2*a**2 + a**4*x**2 + a**2*r**2*x**2 + a**2*r**2 + r**4)/(a**2*x**2 + r**2)
+  plan équatorial (x = 0) : g_φφ = 2*M*a**2/r - Q**2*a**2/r**2 + a**2 + r**2  = r² + a² + a²(2Mr - Q²)/r²
+  Kerr (Q=0), r>0 : g_φφ = r² + a² + 2Ma²/r > 0 ; pour r<0 petit : 2Ma²/r -> -∞ : g_φφ < 0  => ∂_φ de genre temps (CTC)
+  Kerr-Newman (Q≠0) : -a²Q²/r² domine quand r -> 0 des DEUX côtés : CTC aussi pour r > 0 petit
+   a=0.9, Q=0.0 (M=1) : g_φφ(équateur) -> r=-1.00: +0.190, r=-0.50: -2.180, r=-0.20: -7.250, r=-0.05: -31.588, r=+0.05: +33.212, r=+0.20: +8.950, r=+0.50: +4.300, r=+1.00: +3.430
+   a=0.6, Q=0.6 (M=1) : g_φφ(équateur) -> r=-1.00: +0.510, r=-0.50: -1.348, r=-0.20: -6.440, r=-0.05: -65.877, r=+0.05: -37.077, r=+0.20: +0.760, r=+0.50: +1.532, r=+1.00: +1.950
+   Kerr a/M=0.5 : g_φφ(équateur) < 0 pour -0.6894 M < r < 0
+   Kerr a/M=0.9 : g_φφ(équateur) < 0 pour -0.9480 M < r < 0
+   Kerr a/M=0.998 : g_φφ(équateur) < 0 pour -0.9990 M < r < 0
+
+[A4] Horizons, ergosphère, thermodynamique (unités géométriques)
+  r± = M ± sqrt(M² - a² - Q²) ; r+ r- = a² + Q² ; r+ + r- = 2M
+  d r-/dQ = Q/sqrt(M**2 - Q**2 - a**2)  (> 0 : ajouter de la charge agrandit l'horizon interne)
+  d r+/dQ = -Q/sqrt(M**2 - Q**2 - a**2)  (< 0 : et réduit l'horizon externe)
+  ergosphère (g_tt = 0) : r_E(θ) = M + sqrt(M² - Q² - a² cos²θ)
+   contrôle : -g_tt Σ = -2*M*r + Q**2 + a**2*x**2 + r**2
+  aire A = 4π(r+² + a²) ; gravité de surface κ = (r+ - r-)/(2(r+² + a²)) ; T = κ/2π (-> 0 à l'extrémalité)
+   contrôle Schwarzschild : κ = 1/(4*M) (= 1/4M)
+  masse irréductible M_irr² = A/16π :
+   Kerr extrémal (a=M, Q=0)  : M_irr/M = sqrt(2)/2 -> énergie de rotation extractible ≤ 29.3 %
+   RN extrémal (Q=M, a=0)    : M_irr/M = 1/2 -> énergie électrostatique = 50 % de M c²
+  [temps écoulé 21 s]
+
+[A5] Aucune anomalie causale hors de l'horizon externe : t est une fonction de temps globale pour r > r+
+  g^{tt} = -N/(ΔΣ) avec N = (r²+a²)² - Δ a² sin²θ = r²(r²+a²) + a²(2Mr - Q²) + Δ a² cos²θ : identité vérifiée
+  pour r > r+ : Δ > 0 et 2Mr - Q² > 2M r+ - Q² = r+² + a² > 0, donc N > 0 et g^{tt} < 0 :
+  le gradient de t est partout de genre temps ; t croît strictement le long de toute courbe causale dirigée vers le futur.
+  => la région extérieure (r > r+) est stablement causale : AUCUNE courbe temporelle fermée n'y passe.
+  balayage numérique (20 000 points, 0 ≤ a, Q, a²+Q² < M², r > r+) : min de N/r⁴ = 1.000 > 0
+  [temps écoulé 21 s]
+
+[A6] Sans hypothèse d'horizon (correction n° 19) : temps de Kerr-Schild  dt_KS = dt + (2Mr - Q²)/Δ dr
+  g^{tt}_KS = g^{tt} + [(2Mr - Q²)/Δ]² g^{rr} = -(1 + (2Mr - Q²)/Σ) : identité vérifiée
+  => t_KS est une fonction temporelle partout où Σ + 2Mr - Q² > 0, y compris sur le feuillet r < 0 et SANS horizon ;
+     elle ne cesse de l'être que dans le tube (r + M)² + a² cos²θ <= M² + Q² entourant l'anneau (taille fixée par M et Q, pas par a).
+     Toute courbe causale fermée d'un Kerr-Newman sur-extrémal doit donc traverser ce tube.
+  [temps écoulé 21 s]
+
+------------------------------------------------------------------------------
+Partie B — ordres de grandeur (SI)
+------------------------------------------------------------------------------
+     M (kg)  r_g=GM/c² (m)  a_max=r_g (m)  J_max (J s)  J_max/hbar  Ω_H extr. (rad/s)     hbar Ω_H  t_traversée r_g/c (s)
+      113.5      8.429e-26      8.429e-26    2.868e-15    2.72e+19          1.778e+33 1.17e+09 GeV              2.812e-34
+        227      1.686e-25      1.686e-25    1.147e-14    1.09e+20          8.892e+32 5.85e+08 GeV              5.623e-34
+      1e+09      7.426e-19      7.426e-19    2.226e-01    2.11e+33          2.018e+26      133 GeV              2.477e-27
+      1e+12      7.426e-16      7.426e-16    2.226e+05    2.11e+39          2.018e+23      133 MeV              2.477e-24
+      4e+12      2.970e-15      2.970e-15    3.562e+06    3.38e+40          5.046e+22     33.2 MeV              9.908e-24
+  5.972e+24      4.435e-03      4.435e-03    7.941e+30    7.53e+64          3.380e+10  2.22e-05 eV              1.479e-11
+  1.898e+27      1.410e+00      1.410e+00    8.021e+35    7.61e+69          1.063e+08     7e-08 eV              4.702e-09
+  1.988e+30      1.477e+03      1.477e+03    8.803e+41    8.35e+75          1.015e+05  6.68e-11 eV              4.926e-06
+
+Rayon de l'anneau singulier (rayon coordonné a ≤ GM/c²) : masse minimale pour un anneau de rayon donné
+  a = 1e-15 m -> M ≥ 1.347e+12 kg = 2.25e-13 M_Terre = 7.09e-16 M_Jupiter ; énergie de masse 1.21e+29 J
+  a = 1e-10 m -> M ≥ 1.347e+17 kg = 2.25e-08 M_Terre = 7.09e-11 M_Jupiter ; énergie de masse 1.21e+34 J
+  a = 0.001 m -> M ≥ 1.347e+24 kg = 0.225 M_Terre = 0.000709 M_Jupiter ; énergie de masse 1.21e+41 J
+  a = 1 m -> M ≥ 1.347e+27 kg = 225 M_Terre = 0.709 M_Jupiter ; énergie de masse 1.21e+44 J
+  a = 2 m -> M ≥ 2.693e+27 kg = 451 M_Terre = 1.42 M_Jupiter ; énergie de masse 2.42e+44 J
+  a = 3.7 m -> M ≥ 4.982e+27 kg = 834 M_Terre = 2.62 M_Jupiter ; énergie de masse 4.48e+44 J
+
+Marées à l'horizon de Schwarzschild : accélération différentielle 2GM L/r_s³ = c^6 L /(4 G² M²)
+  M = 2.270e+02 kg : 7.907e+65 s^-2  -> sur 1 m : 8.06e+64 g ; sur 1 fm : 8.06e+49 g
+  M = 1.000e+12 kg : 4.074e+46 s^-2  -> sur 1 m : 4.15e+45 g ; sur 1 fm : 4.15e+30 g
+  M = 1.350e+27 kg : 2.236e+16 s^-2  -> sur 1 m : 2.28e+15 g ; sur 1 fm : 2.28e+00 g
+  M = 1.988e+30 kg : 1.030e+10 s^-2  -> sur 1 m : 1.05e+09 g ; sur 1 fm : 1.05e-06 g
+  M = 8.550e+36 kg : 5.573e-04 s^-2  -> sur 1 m : 5.68e-05 g ; sur 1 fm : 5.68e-20 g
+
+Horizon interne dû à la charge (Reissner-Nordström) : r- ≈ r_Q²/r_s, r_Q² = G Q²/(4π ε0 c^4)
+  M = 1e+12 kg, Q =                      1 e : r- = 1.283e-57 m  (r- / l_Planck = 7.94e-23 ; r-/r_s = 8.64e-43)
+  M = 1e+12 kg, Q =  6,14 e (rms, Page 1977) : r- = 4.839e-56 m  (r- / l_Planck = 2.99e-21 ; r-/r_s = 3.26e-41)
+  M = 1e+12 kg, Q =      137 e (borne ≈ e/α) : r- = 2.410e-53 m  (r- / l_Planck = 1.49e-18 ; r-/r_s = 1.62e-38)
+  M = 1e+12 kg, Q =                     1 µC : r- = 5.000e-32 m  (r- / l_Planck = 3.09e+03 ; r-/r_s = 3.37e-17)
+  M = 1e+12 kg, Q =                      1 C : r- = 5.000e-20 m  (r- / l_Planck = 3.09e+15 ; r-/r_s = 3.37e-05)
+  M = 1e+12 kg, Q =         extrémale 86.2 C : r- = 7.426e-16 m  (r- / l_Planck = 4.59e+19 ; r-/r_s = 5.00e-01)
+  M = 4e+12 kg, Q =                      1 e : r- = 3.209e-58 m  (r- / l_Planck = 1.99e-23 ; r-/r_s = 5.40e-44)
+  M = 4e+12 kg, Q =  6,14 e (rms, Page 1977) : r- = 1.210e-56 m  (r- / l_Planck = 7.48e-22 ; r-/r_s = 2.04e-42)
+  M = 4e+12 kg, Q =      137 e (borne ≈ e/α) : r- = 6.026e-54 m  (r- / l_Planck = 3.73e-19 ; r-/r_s = 1.01e-39)
+  M = 4e+12 kg, Q =                     1 µC : r- = 1.250e-32 m  (r- / l_Planck = 7.73e+02 ; r-/r_s = 2.10e-18)
+  M = 4e+12 kg, Q =                      1 C : r- = 1.250e-20 m  (r- / l_Planck = 7.73e+14 ; r-/r_s = 2.10e-06)
+  M = 4e+12 kg, Q =        extrémale 344.7 C : r- = 2.970e-15 m  (r- / l_Planck = 1.84e+20 ; r-/r_s = 5.00e-01)
+
+Coût énergétique de la charge : pour un RN extrémal, la moitié de M c² est électrostatique
+  M = 113.5 kg : Q_ext = 9.781e-09 C = 6.10e+10 e ; potentiel à l'horizon = 1.043e+27 V ; énergie par électron injecté (fin de charge) = 1.671e+08 J ; énergie électrostatique totale = 5.100e+18 J ; masse au repos des électrons = 5.561e-20 kg
+  M = 1e+12 kg : Q_ext = 8.618e+01 C = 5.38e+20 e ; potentiel à l'horizon = 1.043e+27 V ; énergie par électron injecté (fin de charge) = 1.671e+08 J ; énergie électrostatique totale = 4.494e+28 J ; masse au repos des électrons = 4.900e-10 kg
+
+Moment magnétique d'un trou noir de Kerr-Newman (g = 2) : μ = Q J / M = Q a c
+  M = 1e+12 kg, Q = 6,14 e (typique) : μ = 2.190e-25 A m² (0.0236 magnétons de Bohr) ; dans B = 10.0 T : couple 2.19e-24 N m ; vitesse de précession μB/J = 9.84e-30 rad/s
+  M = 1e+12 kg, Q = 137 e (borne) : μ = 4.888e-24 A m² (0.527 magnétons de Bohr) ; dans B = 10.0 T : couple 4.89e-23 N m ; vitesse de précession μB/J = 2.20e-28 rad/s
+  M = 1e+12 kg, Q = extrémale-moitié 61 C : μ = 9.593e-06 A m² (1.03e+18 magnétons de Bohr) ; dans B = 10.0 T : couple 9.59e-05 N m ; vitesse de précession μB/J = 6.09e-10 rad/s
+
+Temps de calcul : 21 s

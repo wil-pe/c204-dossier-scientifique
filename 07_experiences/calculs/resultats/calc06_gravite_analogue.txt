@@ -1,0 +1,72 @@
+EXP-06 — GRAVITÉ ANALOGUE DANS L'EAU
+========================================================================
+1. Ondes de surface de l'eau
+   eau profonde : vitesse de phase minimale c_min = (4gγ/ρ)^(1/4) = 23.1 cm/s à λ = 17.0 mm (frontière gravité/capillarité)
+   ondes longues, profondeur h =   0.30 mm : c = √(gh) =    5.4 cm/s
+   ondes longues, profondeur h =   1.00 mm : c = √(gh) =    9.9 cm/s
+   ondes longues, profondeur h =   3.00 mm : c = √(gh) =   17.2 cm/s
+   ondes longues, profondeur h =  10.00 mm : c = √(gh) =   31.3 cm/s
+   ondes longues, profondeur h =  62.50 mm : c = √(gh) =   78.3 cm/s
+
+2. Ressaut hydraulique circulaire (jet vertical sur plaque horizontale)
+      débit Q |  R (Bohr 1993) |  R (Bhagat 2018) | commentaire
+       10 mL/s |         7.3 cm |           1.7 cm | à mesurer
+       20 mL/s |        11.3 cm |           2.8 cm | à mesurer
+       30 mL/s |        14.5 cm |           3.8 cm | à mesurer
+       60 mL/s |        22.4 cm |           6.3 cm | à mesurer
+      100 mL/s |        30.9 cm |           9.3 cm | à mesurer
+   (Bohr, Dimon & Putkaradze 1993 : loi d'échelle gravité-viscosité, R ∝ Q^(5/8) ν^(-3/8) g^(-1/8), préfacteur 0,73 ;
+    Bhagat et al. 2018 : loi capillaire-visqueuse pour films minces, contestée par Duchesne et al. 2019.
+    Les deux encadrent grossièrement les rayons de quelques cm observés dans un évier ; l'expérience tranche.)
+
+   Exemple : Q = 30 mL/s, jet de rayon 3 mm → vitesse du jet U0 = 1.06 m/s
+         r | h film (mm) |  c=√(gh) (cm/s) | Froude U0/c   (film non visqueux h = a²/2r : borne haute de U)
+      1 cm |       0.450 |             6.6 |        16.0
+      2 cm |       0.225 |             4.7 |        22.6
+      3 cm |       0.150 |             3.8 |        27.7
+   La viscosité freine le film (Watson 1964) : U décroît avec r. Angle de Mach attendu, sin θ = c/U,
+   pour les ondes capillaires-gravité les plus lentes (c_min = 23 cm/s) :
+     U = 1.00 m/s → demi-angle θ = 13.3°
+     U = 0.60 m/s → demi-angle θ = 22.6°
+     U = 0.40 m/s → demi-angle θ = 35.2°
+     U = 0.30 m/s → demi-angle θ = 50.2°
+     U = 0.25 m/s → demi-angle θ = 67.3°
+     (θ → 90° quand U → c : le sillage en V s'ouvre puis disparaît — c'est le passage de l'horizon)
+   extérieur du ressaut (h ≈ 3 mm à r = 5 cm) : U = 3.2 cm/s, c = 17.2 cm/s, Froude = 0.19 < 1
+   → intérieur supercritique (Fr >> 1) : aucune onde de surface ne peut remonter vers le centre ;
+     extérieur sous-critique. Le ressaut est la frontière : c'est un horizon de TROU BLANC pour les ondes.
+   Mesure N1 (Jannes et al. 2011) : une aiguille plantée dans le film crée un sillage en V (cône de Mach),
+     de demi-angle θ avec sin θ = c/U ; le V s'ouvre en s'approchant du ressaut et disparaît à l'extérieur.
+     (L'angle ci-dessus utilise c_min = 23 cm/s, ondes capillaires ; il est indicatif.)
+
+3. Tourbillon de vidange (« draining bathtub ») : v_r = -D/r, v_θ = C/r, ondes longues c = √(gh)
+   évier (h = 5 cm, C = 1,5e-2 m²/s, D = 1e-3 m²/s, vidange Ø 4 cm)
+      c = 0.70 m/s ; horizon r_H = D/c = 1.4 mm ; ergorégion r_E = √(C²+D²)/c = 21.5 mm
+      r_H < rayon de vidange (20 mm) : l'horizon du modèle idéal tombe DANS le trou ; seule l'ergorégion est accessible
+      vitesse angulaire au bord utile Ω = C/r² = 38 rad/s → amplification possible du mode m si f < m·Ω/2π = 6.0 Hz (m = 1), 11.9 Hz (m = 2) — critère indicatif
+   bassin de laboratoire (h = 6,25 cm, mêmes C et D, vidange Ø 4 cm) — ordres de grandeur
+      c = 0.78 m/s ; horizon r_H = D/c = 1.3 mm ; ergorégion r_E = √(C²+D²)/c = 19.2 mm
+      r_H < rayon de vidange (20 mm) : l'horizon du modèle idéal tombe DANS le trou ; seule l'ergorégion est accessible
+      vitesse angulaire au bord utile Ω = C/r² = 38 rad/s → amplification possible du mode m si f < m·Ω/2π = 6.0 Hz (m = 1), 11.9 Hz (m = 2) — critère indicatif
+   bac de TP peu profond (h = 2 cm, C = 5e-3, D = 2e-3, vidange Ø 1 cm)
+      c = 0.44 m/s ; horizon r_H = D/c = 4.5 mm ; ergorégion r_E = √(C²+D²)/c = 12.2 mm
+      r_H < rayon de vidange (5 mm) : l'horizon du modèle idéal tombe DANS le trou ; seule l'ergorégion est accessible
+      vitesse angulaire au bord utile Ω = C/r² = 200 rad/s → amplification possible du mode m si f < m·Ω/2π = 31.8 Hz (m = 1), 63.7 Hz (m = 2) — critère indicatif
+   Mise en garde : à 3.7 Hz dans 6.25 cm d'eau (conditions de Torres et al. 2017), λ = 11.6 cm et k·h = 3.4 :
+   ce N'EST PAS le régime d'eau peu profonde (k·h << 1) ; les ondes sont dispersives et l'analogie avec une
+   métrique effective n'est qu'approchée. Dans un évier, l'horizon (mm) tombe dans le trou de vidange.
+
+4. Température de Hawking analogue  T = ħ·κ/(2π·k_B), κ = |d(v-c)/dx| à l'horizon
+   canal ou ressaut dans l'eau (κ ≈ 10 s⁻¹)     T_H = 1,22e-11 K   (milieu à 293 K → rapport 4.1e-14)
+   ressaut très raide (κ ≈ 1000 s⁻¹)            T_H = 1,22e-9 K   (milieu à 293 K → rapport 4.1e-12)
+   condensat de Bose-Einstein (κ ≈ 290 s⁻¹)     T_H = 3,53e-10 K   (milieu à 1e-09 K → rapport 3.5e-01)
+   trou noir de 4,4e12 kg (valeur retenue, E2)  T_H = 2,79e10 K
+   trou noir d'une masse solaire                T_H = 6,17e-8 K
+   → dans l'eau, l'émission spontanée analogue (1e-11 K) est noyée de 13 ordres de grandeur sous l'agitation
+     thermique : seuls les effets STIMULÉS (classiques) sont mesurables (Weinfurtner et al. 2011).
+     L'émission spontanée n'a été rapportée que dans des condensats (Steinhauer 2016 ; Muñoz de Nova et al. 2019).
+
+Ce que les analogues enseignent : la cinématique des ondes sur un fond en mouvement (horizon, ergorégion,
+conversion de modes, superradiance) est robuste et indépendante de la gravitation. Ce qu'ils n'enseignent
+pas : la dynamique d'Einstein (l'écoulement n'obéit pas aux équations du champ), l'entropie des trous noirs,
+ni quoi que ce soit sur le voyage temporel. Un évier n'est pas un trou noir de Kerr.

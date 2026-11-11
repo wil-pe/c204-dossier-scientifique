@@ -1,0 +1,47 @@
+=== S01_hawking/s01_hawking.py ===
+  Bilan validation S01_hawking : 19/19 tests passés
+    terminé en 3 s
+=== S02_kerr_geometrie/s02_kerr_geometrie.py ===
+  Bilan validation S02_kerr_geometrie : 17/17 tests passés
+    terminé en 109 s
+=== S03_geodesiques_kerr/s03_geodesiques_kerr.py ===
+  Bilan validation S03_geodesiques_kerr : 41/41 tests passés
+    terminé en 3 s
+=== S04_cylindre_tipler/s04_cylindre_tipler.py ===
+  Bilan validation S04_cylindre_tipler : 25/25 tests passés
+    terminé en 20 s
+=== S05_champ_faible_c204/s05_champ_faible_c204.py ===
+  Bilan validation S05_champ_faible_c204 : 11/11 tests passés
+    terminé en 2 s
+=== S06_confinement_em/s06_confinement_em.py ===
+  Bilan validation S06_confinement_em : 20/20 tests passés
+    terminé en 5 s
+=== S07_energie_negative/s07_energie_negative.py ===
+  Bilan validation S07_energie_negative : 13/13 tests passés
+    terminé en 4 s
+=== S08_reconstitution_doc009/s08_reconstitution_doc009.py ===
+  Bilan validation S08_reconstitution_doc009 : 28/28 tests passés
+    terminé en 4 s
+=== S09_synthese/s09_synthese.py ===
+  Bilan validation S09_synthese : 7/7 tests passés
+    terminé en 1 s
+
+=== Récapitulatif ===
+Scripts en échec d'exécution : 0 / 9
+Tests de validation en échec : 0
+  Bilan validation S01_hawking : 19/19 tests passés
+  Bilan validation S02_kerr_geometrie : 17/17 tests passés
+  Bilan validation S03_geodesiques_kerr : 41/41 tests passés
+  Bilan validation S04_cylindre_tipler : 25/25 tests passés
+  Bilan validation S05_champ_faible_c204 : 11/11 tests passés
+  Bilan validation S06_confinement_em : 20/20 tests passés
+  Bilan validation S07_energie_negative : 13/13 tests passés
+  Bilan validation S08_reconstitution_doc009 : 28/28 tests passés
+  Bilan validation S09_synthese : 7/7 tests passés
+Journal complet : <copie_jetable>/C204_repro/05_simulations/journal_run_all.txt
+Synthèse machine-lisible : <copie_jetable>/C204_repro/05_simulations/resultats_globaux.json
+Rappel : simulations illustratives, non des preuves expérimentales.
+real 151.24
+user 147.97
+sys 2.55
+--- code de retour run_all.sh : 0

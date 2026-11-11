@@ -1,0 +1,565 @@
+{
+  "simulation": "S03_geodesiques_kerr",
+  "avertissement": "Simulation illustrative — ce n'est PAS une preuve expérimentale (Équipe D, programme C204 ; aucune affirmation « Titor » n'est tenue pour vraie)",
+  "unites": "G = c = 1, M = 1 ; 1 GM/c³ = 2,48e-24 s pour M = 1e12 kg",
+  "GM_sur_c3_pour_1e12_kg_s": 2.477100430965033e-24,
+  "parametres": {
+    "a": 0.9,
+    "r_plus": 1.4358898943540672,
+    "r_moins": 0.5641101056459328,
+    "r_isco_prograde": 2.320883041761887
+  },
+  "orbites_liees": {
+    "équatoriale prograde": {
+      "E": 0.9409177840177982,
+      "L_z": 2.8381296218157637,
+      "Q_carter": 0.0,
+      "derives": {
+        "E": 5.879622455517864e-12,
+        "L": 7.26027661030401e-11,
+        "norme": 1.2026379891949546e-11,
+        "Q_abs": 2.941044848805734e-29
+      }
+    },
+    "équatoriale rétrograde": {
+      "E": 0.9627032321513359,
+      "L_z": -4.205609349054523,
+      "Q_carter": 0.0,
+      "derives": {
+        "E": 3.4700839984008155e-13,
+        "L": 2.0223458341323314e-12,
+        "norme": 1.021405182655144e-13,
+        "Q_abs": 1.8984158825563142e-29
+      }
+    },
+    "quasi polaire": {
+      "E": 0.948007904760805,
+      "L_z": 0.15,
+      "Q_carter": 12.209208238930014,
+      "derives": {
+        "E": 1.7894584772004288e-13,
+        "L": 2.360504384550194e-10,
+        "norme": 1.5063061908904274e-11,
+        "Q": 7.277453728573295e-11
+      }
+    }
+  },
+  "theta_min_orbite_quasi_polaire_deg": 2.4664106808142003,
+  "avance_periastre_schwarzschild_p50_e0p3_rad": {
+    "numerique": 0.4149462859174413,
+    "quadrature_exacte": 0.4149462859202373,
+    "premier_ordre_6piM_sur_p": 0.37699111843077515
+  },
+  "precession_nodale_r500_rad_par_orbite": {
+    "numerique": 0.000996709288660469,
+    "lense_thirring": 0.0010115733212698644
+  },
+  "passages_par_l_anneau": {
+    "axe, E = 1,2 (rebond en r < 0)": {
+      "E": 1.2,
+      "L_z": 0.0,
+      "Q_carter": -0.3564,
+      "issue": "rebond en r < 0 puis retour vers l'horizon interne (sortie vers un autre feuillet)",
+      "r_min_M": -0.185794285783354,
+      "temps_propre_total_M": 12.452265380713676,
+      "invariant_radial": 3.253718351612807e-13,
+      "invariant_polaire": 0.0
+    },
+    "axe, E = 1,6 (traversée complète)": {
+      "E": 1.6,
+      "L_z": 0.0,
+      "Q_carter": -1.2636000000000005,
+      "issue": "fuite vers r → −∞ (autre région asymptotique)",
+      "r_min_M": -24.999999999999964,
+      "temps_propre_total_M": 29.525930447342713,
+      "invariant_radial": 8.944529495869361e-11,
+      "invariant_polaire": 0.0
+    },
+    "vorticale, E = 1,6, L = 0,05 (traverse le disque)": {
+      "E": 1.6,
+      "L_z": 0.05,
+      "Q_carter": -1.1372400000000005,
+      "issue": "fuite vers r → −∞ (autre région asymptotique)",
+      "r_min_M": -25.00000000000007,
+      "temps_propre_total_M": 29.610928604756918,
+      "invariant_radial": 6.31146705220872e-11,
+      "invariant_polaire": 5.129091210274007e-16
+    },
+    "équatoriale, E = 1, L = 0,5 (atteint l'anneau)": {
+      "E": 1.0,
+      "L_z": 0.5,
+      "Q_carter": 0.0,
+      "issue": "atteint la singularité annulaire",
+      "r_min_M": 0.003162277660168385,
+      "temps_propre_total_M": 14.938519820834562,
+      "invariant_radial": 2.4395947130131435e-13,
+      "invariant_polaire": 4.07824882948528e-33
+    }
+  },
+  "seuil_energie_traversee_axe": 1.4529663145135578,
+  "chute_equatoriale": {
+    "tau_horizon_externe_M": 14.212495882370398,
+    "tau_horizon_interne_M": 14.808746833869785,
+    "tau_anneau_M": 14.938519820834562,
+    "tau_anneau_secondes_pour_1e12_kg": 3.7004213886168977e-23
+  },
+  "dilatation_temporelle": {
+    "facteur_revendique": 87660.0,
+    "observateur_statique_schwarzschild_1_moins_rs_sur_r": 1.3013588424652547e-10,
+    "altitude_au_dessus_horizon_pour_M_1e12kg_m": 1.9328198663563458e-25,
+    "acceleration_propre_requise_M_1e12kg_m_s2": 2.6522750692471792e+36,
+    "ut_ISCO_schwarzschild": 1.414213562373095,
+    "ut_ISCO_a_0p9": 2.6963775519113087,
+    "ut_ISCO_a_0p998": 10.790942834217475,
+    "un_moins_a_requis_pour_ut_ISCO_87660_ordre_de_grandeur": 4.607425552187844e-15
+  },
+  "validation": {
+    "simulation": "S03_geodesiques_kerr",
+    "n_tests": 41,
+    "n_passes": 41,
+    "n_echecs": 0,
+    "tests": [
+      {
+        "test": "Conservation de E (équatoriale prograde), dérive relative",
+        "valeur": 5.879622455517864e-12,
+        "attendu": 0.0,
+        "ecart_abs": 5.879622455517864e-12,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Conservation de L_z (équatoriale prograde), dérive relative",
+        "valeur": 7.26027661030401e-11,
+        "attendu": 0.0,
+        "ecart_abs": 7.26027661030401e-11,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Conservation de g(u,u) = −1 (équatoriale prograde)",
+        "valeur": 1.2026379891949546e-11,
+        "attendu": 0.0,
+        "ecart_abs": 1.2026379891949546e-11,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Constante de Carter Q = 0 conservée (équatoriale prograde)",
+        "valeur": 2.941044848805734e-29,
+        "attendu": 0.0,
+        "ecart_abs": 2.941044848805734e-29,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Conservation de E (équatoriale rétrograde), dérive relative",
+        "valeur": 3.4700839984008155e-13,
+        "attendu": 0.0,
+        "ecart_abs": 3.4700839984008155e-13,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Conservation de L_z (équatoriale rétrograde), dérive relative",
+        "valeur": 2.0223458341323314e-12,
+        "attendu": 0.0,
+        "ecart_abs": 2.0223458341323314e-12,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Conservation de g(u,u) = −1 (équatoriale rétrograde)",
+        "valeur": 1.021405182655144e-13,
+        "attendu": 0.0,
+        "ecart_abs": 1.021405182655144e-13,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Constante de Carter Q = 0 conservée (équatoriale rétrograde)",
+        "valeur": 1.8984158825563142e-29,
+        "attendu": 0.0,
+        "ecart_abs": 1.8984158825563142e-29,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Conservation de E (quasi polaire)",
+        "valeur": 1.7894584772004288e-13,
+        "attendu": 0.0,
+        "ecart_abs": 1.7894584772004288e-13,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Conservation de L_z (quasi polaire)",
+        "valeur": 2.360504384550194e-10,
+        "attendu": 0.0,
+        "ecart_abs": 2.360504384550194e-10,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-07,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Conservation de la constante de Carter (quasi polaire), dérive relative",
+        "valeur": 7.277453728573295e-11,
+        "attendu": 0.0,
+        "ecart_abs": 7.277453728573295e-11,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Schwarzschild : R(r_p) = 0 avec (E, L) analytiques",
+        "valeur": 0.0,
+        "attendu": 0.0,
+        "ecart_abs": 0.0,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-09,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Schwarzschild : avance du périastre par orbite (p = 50 M, e = 0,3) ↔ quadrature exacte",
+        "valeur": 0.4149462859174413,
+        "attendu": 0.4149462859202373,
+        "ecart_abs": 2.7959856652159942e-12,
+        "ecart_rel": 6.738186989709435e-12,
+        "tol_rel": 1e-07,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "… et ↔ formule d'Einstein au premier ordre 6πM/p",
+        "valeur": 0.4149462859174413,
+        "attendu": 0.37699111843077515,
+        "ecart_abs": 0.037955167486666164,
+        "ecart_rel": 0.1006792086897285,
+        "tol_rel": 0.12,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": "écart attendu d'ordre M/p (terme du second ordre)"
+      },
+      {
+        "test": "Orbite circulaire r = 8 M : dérive de r",
+        "valeur": 2.5490720645393594e-12,
+        "attendu": 0.0,
+        "ecart_abs": 2.5490720645393594e-12,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-07,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Orbite circulaire : dφ/dt = 1/(r^{3/2} + a) (Bardeen et al. 1972)",
+        "valeur": 0.042503603352901584,
+        "attendu": 0.04250360335290111,
+        "ecart_abs": 4.718447854656915e-16,
+        "ecart_rel": 1.1101289025968794e-14,
+        "tol_rel": 1e-09,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "r_ISCO(a = 0)",
+        "valeur": 6.0,
+        "attendu": 6.0,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-05,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "r_ISCO(a = 0.9)",
+        "valeur": 2.320883041761887,
+        "attendu": 2.320883,
+        "ecart_abs": 4.176188728166608e-08,
+        "ecart_rel": 1.7993964918380667e-08,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-05,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "r_ISCO(a = 1)",
+        "valeur": 1.0015896068369652,
+        "attendu": 1.0,
+        "ecart_abs": 0.001589606836965185,
+        "ecart_rel": 0.001589606836965185,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.002,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "ISCO (a = 0,9) : R = 0",
+        "valeur": -5.329070518200751e-15,
+        "attendu": 0.0,
+        "ecart_abs": 5.329070518200751e-15,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-10,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "ISCO (a = 0,9) : R' = 0",
+        "valeur": -6.217248937900877e-15,
+        "attendu": 0.0,
+        "ecart_abs": 6.217248937900877e-15,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-09,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "ISCO (a = 0,9) : R'' = 0 (stabilité marginale)",
+        "valeur": -8.881784197001252e-07,
+        "attendu": 0.0,
+        "ecart_abs": 8.881784197001252e-07,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0001,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Schwarzschild : temps propre de chute 10M → 3M = (2/3)(r0^{3/2} − r1^{3/2})/√(2M)",
+        "valeur": 12.457630107216609,
+        "attendu": 12.457630107215417,
+        "ecart_abs": 1.191935439237568e-12,
+        "ecart_rel": 9.567914835962283e-14,
+        "tol_rel": 1e-09,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Précession nodale par orbite (r = 500 M, i ≈ 61°) ↔ Lense-Thirring 4πa(M/r)^(3/2)",
+        "valeur": 0.000996709288660469,
+        "attendu": 0.0010115733212698644,
+        "ecart_abs": 1.4864032609395502e-05,
+        "ecart_rel": 0.014693974521526671,
+        "tol_rel": 0.03,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": "champ faible : corrections relatives d'ordre M/r et a²/r^(1/2)"
+      },
+      {
+        "test": "Invariant radial r'² − R(r) = 0 (axe, E = 1,2 (rebond en r < 0))",
+        "valeur": 3.253718351612807e-13,
+        "attendu": 0.0,
+        "ecart_abs": 3.253718351612807e-13,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Invariant polaire θ'² − Θ(θ) = 0 (axe, E = 1,2 (rebond en r < 0))",
+        "valeur": 0.0,
+        "attendu": 0.0,
+        "ecart_abs": 0.0,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Invariant radial r'² − R(r) = 0 (axe, E = 1,6 (traversée complète))",
+        "valeur": 8.944529495869361e-11,
+        "attendu": 0.0,
+        "ecart_abs": 8.944529495869361e-11,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Invariant polaire θ'² − Θ(θ) = 0 (axe, E = 1,6 (traversée complète))",
+        "valeur": 0.0,
+        "attendu": 0.0,
+        "ecart_abs": 0.0,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Invariant radial r'² − R(r) = 0 (vorticale, E = 1,6, L = 0,05 (traverse le disque))",
+        "valeur": 6.31146705220872e-11,
+        "attendu": 0.0,
+        "ecart_abs": 6.31146705220872e-11,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Invariant polaire θ'² − Θ(θ) = 0 (vorticale, E = 1,6, L = 0,05 (traverse le disque))",
+        "valeur": 5.129091210274007e-16,
+        "attendu": 0.0,
+        "ecart_abs": 5.129091210274007e-16,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Invariant radial r'² − R(r) = 0 (équatoriale, E = 1, L = 0,5 (atteint l'anneau))",
+        "valeur": 2.4395947130131435e-13,
+        "attendu": 0.0,
+        "ecart_abs": 2.4395947130131435e-13,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Invariant polaire θ'² − Θ(θ) = 0 (équatoriale, E = 1, L = 0,5 (atteint l'anneau))",
+        "valeur": 4.07824882948528e-33,
+        "attendu": 0.0,
+        "ecart_abs": 4.07824882948528e-33,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Seuil de traversée sur l'axe : E² = 1 + M/a (a = 0,9) → E_seuil",
+        "valeur": 1.4529663145135578,
+        "attendu": 1.4529663145135578,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-12,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Axe, E = 1,2 < E_seuil : rebond en r < 0 (comme prédit)",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Axe, E = 1,6 > E_seuil : traversée vers r → −∞ (comme prédit)",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Équatoriale Q = 0 : atteint la singularité annulaire",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Axe, E = 1,2 : rayon de rebond ↔ racine analytique",
+        "valeur": -0.185794285783354,
+        "attendu": -0.1857942943596523,
+        "ecart_abs": 8.576298310414288e-09,
+        "ecart_rel": 4.616018129067339e-08,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Axe, E = 1,6 : temps propre 10M → disque (r = 0) ↔ quadrature",
+        "valeur": 7.041784200021097,
+        "attendu": 7.041784183833082,
+        "ecart_abs": 1.6188015372620157e-08,
+        "ecart_rel": 2.2988513919221634e-09,
+        "tol_rel": 1e-07,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Recoupement des deux intégrateurs : τ(r = 2,2 M) (BL second ordre ↔ Mino)",
+        "valeur": 5.625283732051069,
+        "attendu": 5.625283733301414,
+        "ecart_abs": 1.2503447166523074e-09,
+        "ecart_rel": 2.222722934401203e-10,
+        "tol_rel": 1e-05,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Recoupement des deux intégrateurs : θ(r = 2,2 M)",
+        "valeur": 0.24811397967722928,
+        "attendu": 0.24811397944005534,
+        "ecart_abs": 2.371739471485057e-10,
+        "ecart_rel": 9.559072313610094e-10,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-05,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "dt/dτ à l'ISCO de Schwarzschild = √2",
+        "valeur": 1.414213562373095,
+        "attendu": 1.4142135623730951,
+        "ecart_abs": 2.220446049250313e-16,
+        "ecart_rel": 1.570092458683775e-16,
+        "tol_rel": 1e-12,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      }
+    ],
+    "n_hors_decompte": 0,
+    "hors_decompte": []
+  }
+}

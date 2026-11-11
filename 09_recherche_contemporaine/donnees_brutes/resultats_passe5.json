@@ -1,0 +1,22 @@
+{
+ "Tipler76": {
+  "cle": "Tipler76",
+  "theme": "3",
+  "type": "journal-article",
+  "ident": "10.1103/PhysRevLett.37.879",
+  "fragment": "causality violation in asymptotically flat space-times",
+  "auteur": "Tipler",
+  "titre": "Causality Violation in Asymptotically Flat Space-Times",
+  "auteurs": [
+   "Frank J. Tipler"
+  ],
+  "annee": "1976",
+  "revue": "Physical Review Letters 37, 879-882",
+  "doi": "10.1103/physrevlett.37.879",
+  "url": "https://doi.org/10.1103/PhysRevLett.37.879",
+  "url_requete": "https://api.crossref.org/works/10.1103/PhysRevLett.37.879",
+  "statut": "vérifiée",
+  "note": "",
+  "source_verif": "API Crossref (DOI)"
+ }
+}

@@ -1,0 +1,574 @@
+{
+ "graine": 20261110,
+ "tailles_des_viviers": {
+  "H": 445,
+  "B": 207,
+  "C": 45,
+  "F": 150
+ },
+ "quotas": {
+  "H": 14,
+  "B": 8,
+  "C": 6,
+  "F": 6
+ },
+ "tirage": [
+  {
+   "equipe": "H",
+   "cle": "HKS23",
+   "ref": "Gary T. Horowitz; Maciej Kolanowski; Jorge E. Santos (2023). Almost all extremal black holes in AdS are singular. Journal of High Energy Physics 2023, 162",
+   "doi": "10.1007/JHEP01(2023)162",
+   "arxiv": "2210.02473"
+  },
+  {
+   "equipe": "H",
+   "cle": "Heavner14",
+   "ref": "Thomas P Heavner; Elizabeth A Donley; Filippo Levi et al. (2014). First accuracy evaluation of NIST-F2. Metrologia 51, 174-182",
+   "doi": "10.1088/0026-1394/51/3/174",
+   "arxiv": ""
+  },
+  {
+   "equipe": "H",
+   "cle": "Penington19",
+   "ref": "Geoffrey Penington (2020). Entanglement Wedge Reconstruction and the Information Paradox. Journal of High Energy Physics 2020, 2",
+   "doi": "10.1007/jhep09(2020)002",
+   "arxiv": "1905.08255"
+  },
+  {
+   "equipe": "H",
+   "cle": "HR15",
+   "ref": "Hal M. Haggard; Carlo Rovelli (2015). Black hole fireworks: quantum-gravity effects outside the horizon spark black to white hole tunneling. Physical Review D 92, 104020",
+   "doi": "10.1103/PhysRevD.92.104020",
+   "arxiv": "1407.0989"
+  },
+  {
+   "equipe": "H",
+   "cle": "Choi17",
+   "ref": "Soonwon Choi; Joonhee Choi; Renate Landig et al. (2017). Observation of discrete time-crystalline order in a disordered dipolar many-body system. Nature 543, 221-225",
+   "doi": "10.1038/nature21426",
+   "arxiv": "1610.08057"
+  },
+  {
+   "equipe": "H",
+   "cle": "Asenbaum17",
+   "ref": "Peter Asenbaum; Chris Overstreet; Tim Kovachy et al. (2017). Phase shift in atom interferometry due to spacetime curvature. Physical Review Letters 118, 183602",
+   "doi": "10.1103/PhysRevLett.118.183602",
+   "arxiv": "1610.03832"
+  },
+  {
+   "equipe": "H",
+   "cle": "Bidel18",
+   "ref": "Y. Bidel; N. Zahzam; C. Blanchard et al. (2018). Absolute marine gravimetry with matter-wave interferometry. Nature Communications 9, 627",
+   "doi": "10.1038/s41467-018-03040-2",
+   "arxiv": ""
+  },
+  {
+   "equipe": "H",
+   "cle": "BLSS09",
+   "ref": "Charles H. Bennett; Debbie Leung; Graeme Smith et al. (2009). Can closed timelike curves or nonlinear quantum mechanics improve quantum state discrimination or help solve hard problems?. Physical Review Letters 103, 170502",
+   "doi": "10.1103/PhysRevLett.103.170502",
+   "arxiv": "0908.3023"
+  },
+  {
+   "equipe": "H",
+   "cle": "Menoret18",
+   "ref": "Vincent Ménoret; Pierre Vermeulen; Nicolas Le Moigne et al. (2018). Gravity measurements below 10−9 g with a transportable absolute quantum gravimeter. Scientific Reports 8, 12300",
+   "doi": "10.1038/s41598-018-30608-1",
+   "arxiv": ""
+  },
+  {
+   "equipe": "H",
+   "cle": "McGrew18",
+   "ref": "W. F. McGrew; X. Zhang; R. J. Fasano et al. (2018). Atomic clock performance beyond the geodetic limit. Nature 564, 87-90",
+   "doi": "10.1038/s41586-018-0738-2",
+   "arxiv": "1807.11282"
+  },
+  {
+   "equipe": "H",
+   "cle": "MMP18",
+   "ref": "Juan Maldacena; Alexey Milekhin; Fedor Popov (2023). Traversable wormholes in four dimensions. Classical and Quantum Gravity 40, 155016",
+   "doi": "10.1088/1361-6382/acde30",
+   "arxiv": "1807.04726"
+  },
+  {
+   "equipe": "H",
+   "cle": "GW250114spec",
+   "ref": "The LIGO Scientific Collaboration; the Virgo Collaboration; the KAGRA Collaboration (2025). Black Hole Spectroscopy and Tests of General Relativity with GW250114. prépublication arXiv (pas de version publiée retrouvée par titre exact)",
+   "doi": "",
+   "arxiv": "2509.08099"
+  },
+  {
+   "equipe": "H",
+   "cle": "PSSY19",
+   "ref": "Geoff Penington; Stephen H. Shenker; Douglas Stanford et al. (2022). Replica wormholes and the black hole interior. Journal of High Energy Physics 2022, 205",
+   "doi": "10.1007/jhep03(2022)205",
+   "arxiv": "1911.11977"
+  },
+  {
+   "equipe": "H",
+   "cle": "APS06",
+   "ref": "Abhay Ashtekar; Tomasz Pawlowski; Parampreet Singh (2006). Quantum Nature of the Big Bang. Physical Review Letters 96, 141301",
+   "doi": "10.1103/PhysRevLett.96.141301",
+   "arxiv": "gr-qc/0602086"
+  },
+  {
+   "ligne": 125,
+   "ref": "| P. Chen, Y. C. Ong, D.-h. Yeom (2015). Black hole remnants and the information loss paradox. *Phys. Rep.* 603, 1–45 | 10.1016/j.physrep.2015.10.007 | V-CR | §4.7 |",
+   "doi": "10.1016/j.physrep.2015.10.007",
+   "arxiv": "",
+   "equipe": "B",
+   "cle": "B-l125"
+  },
+  {
+   "ligne": 100,
+   "ref": "| B. J. Carr, K. Kohri, Y. Sendouda, J. Yokoyama (2010). New cosmological constraints on primordial black holes. *Phys. Rev. D* 81, 104019 | 10.1103/PhysRevD.81.104019 | V-CR | contexte |",
+   "doi": "10.1103/PhysRevD.81.104019",
+   "arxiv": "",
+   "equipe": "B",
+   "cle": "B-l100"
+  },
+  {
+   "ligne": 277,
+   "ref": "| K. S. Thorne (1994). *Black Holes and Time Warps*. Norton | recension : 10.1063/1.2808700 | V-ind |",
+   "doi": "10.1063/1.2808700",
+   "arxiv": "",
+   "equipe": "B",
+   "cle": "B-l277"
+  },
+  {
+   "ligne": 190,
+   "ref": "| J. Maldacena, A. Milekhin, F. Popov (2023). Traversable wormholes in four dimensions. *Class. Quantum Grav.* 40, 155016 | 10.1088/1361-6382/acde30 ; arXiv:1807.04726 | V-CR, V-AX | §6.2 |",
+   "doi": "10.1088/1361-6382/acde30",
+   "arxiv": "1807.04726",
+   "equipe": "B",
+   "cle": "B-l190"
+  },
+  {
+   "ligne": 194,
+   "ref": "| S. K. Lamoreaux (1997). Demonstration of the Casimir force in the 0.6 to 6 μm range. *Phys. Rev. Lett.* 78, 5–8 | 10.1103/PhysRevLett.78.5 | V-CR | §6.2 |",
+   "doi": "10.1103/PhysRevLett.78.5",
+   "arxiv": "",
+   "equipe": "B",
+   "cle": "B-l194"
+  },
+  {
+   "ligne": 152,
+   "ref": "| W. F. McGrew et al. (2018). Atomic clock performance enabling geodesy below the centimetre level. *Nature* 564, 87–90 | 10.1038/s41586-018-0738-2 | V-CR | contexte |",
+   "doi": "10.1038/s41586-018-0738-2",
+   "arxiv": "",
+   "equipe": "B",
+   "cle": "B-l152"
+  },
+  {
+   "ligne": 71,
+   "ref": "| S. D. Majumdar (1947). A class of exact solutions of Einstein's field equations. *Phys. Rev.* 72, 390–398 | 10.1103/PhysRev.72.390 | V-CR | §3.5 |",
+   "doi": "10.1103/PhysRev.72.390",
+   "arxiv": "",
+   "equipe": "B",
+   "cle": "B-l71"
+  },
+  {
+   "ligne": 139,
+   "ref": "| R. Geroch (1967). Topology in general relativity. *J. Math. Phys.* 8, 782–786 | 10.1063/1.1705276 | V-CR | complément |",
+   "doi": "10.1063/1.1705276",
+   "arxiv": "",
+   "equipe": "B",
+   "cle": "B-l139"
+  },
+  {
+   "ligne": 113,
+   "ref": "76. T. K. Ho, J. J. Hull & S. N. Srihari, « Decision combination in multiple classifier systems », *IEEE Trans. Pattern Anal. Mach. Intell.* **16**, 66–75 (1994). DOI 10.1109/34.273716. **[C+]** — emploie le décompte de Borda pour fusionner des classifieurs.",
+   "doi": "10.1109/34.273716",
+   "arxiv": "",
+   "equipe": "C",
+   "cle": "C-n76"
+  },
+  {
+   "ligne": 94,
+   "ref": "63. C. Jekeli, « Precision Free-Inertial Navigation with Gravity Compensation by an Onboard Gradiometer », *J. Guid. Control Dyn.* **29**, 704–713 (2006). DOI 10.2514/1.15368. **[C]** (contenu non relu).",
+   "doi": "10.2514/1.15368",
+   "arxiv": "",
+   "equipe": "C",
+   "cle": "C-n63"
+  },
+  {
+   "ligne": 54,
+   "ref": "35. J. W. Yoon et al., « Realization of laser intensity over 10²³ W/cm² », *Optica* **8**, 630 (2021). DOI 10.1364/OPTICA.420520. **[C]**",
+   "doi": "10.1364/OPTICA.420520",
+   "arxiv": "",
+   "equipe": "C",
+   "cle": "C-n35"
+  },
+  {
+   "ligne": 48,
+   "ref": "29. D. Nakamura, A. Ikeda, H. Sawabe, Y. H. Matsuda & S. Takeyama, « Record indoor magnetic field of 1200 T generated by electromagnetic flux-compression », *Rev. Sci. Instrum.* **89**, 095106 (2018). DOI 10.1063/1.5044557. **[C+]** ; banc de 5 MJ : **[P]** https://www.issp.u-tokyo.ac.jp/maincontents/highlight/2018/28_en.html",
+   "doi": "10.1063/1.5044557",
+   "arxiv": "",
+   "equipe": "C",
+   "cle": "C-n29"
+  },
+  {
+   "ligne": 31,
+   "ref": "15. J. M. Bardeen, « Kerr Metric Black Holes », *Nature* **226**, 64–65 (1970). DOI 10.1038/226064a0. **[C]** (facteur √6 : **[N]**, contenu non relu).",
+   "doi": "10.1038/226064a0",
+   "arxiv": "",
+   "equipe": "C",
+   "cle": "C-n15"
+  },
+  {
+   "ligne": 28,
+   "ref": "12. R. Wald, « Gedanken experiments to destroy a black hole », *Ann. Phys.* **82**, 548–556 (1974). DOI 10.1016/0003-4916(74)90125-0. **[C]**",
+   "doi": "10.1016/0003-4916(74",
+   "arxiv": "",
+   "equipe": "C",
+   "cle": "C-n12"
+  },
+  {
+   "ligne": 210,
+   "ref": "| MacGibbon et un coauteur (1990). Quark- and gluon-jet emission from primordial black holes: The instantaneous spectra. *Physical Review D* **41**, 3052-3079. doi:10.1103/physrevd.41.3052 | vérifiée (Crossref) | |",
+   "doi": "10.1103/physrevd.41.3052",
+   "arxiv": "",
+   "equipe": "F",
+   "cle": "F-l210"
+  },
+  {
+   "ligne": 188,
+   "ref": "| Walborn et al. (2002). Double-slit quantum eraser. *Physical Review A* **65**, 033818. doi:10.1103/physreva.65.033818 | vérifiée (Crossref) | |",
+   "doi": "10.1103/physreva.65.033818",
+   "arxiv": "",
+   "equipe": "F",
+   "cle": "F-l188"
+  },
+  {
+   "ligne": 199,
+   "ref": "| Ma et al. (2016). Delayed-choice gedanken experiments and their realizations. *Reviews of Modern Physics* **88**, 015005. doi:10.1103/revmodphys.88.015005 | vérifiée (Crossref) | |",
+   "doi": "10.1103/revmodphys.88.015005",
+   "arxiv": "",
+   "equipe": "F",
+   "cle": "F-l199"
+  },
+  {
+   "ligne": 88,
+   "ref": "| Larraza et un coauteur (1998). An acoustic Casimir effect. *Physics Letters A* **248**, 151-155. doi:10.1016/s0375-9601(98)00652-5 | vérifiée (Crossref) | |",
+   "doi": "10.1016/s0375-9601(98",
+   "arxiv": "",
+   "equipe": "F",
+   "cle": "F-l88"
+  },
+  {
+   "ligne": 65,
+   "ref": "| Westphal et al. (2021). Measurement of gravitational coupling between millimetre-sized masses. *Nature* **591**, 225-228. doi:10.1038/s41586-021-03250-7 | vérifiée (Crossref) | |",
+   "doi": "10.1038/s41586-021-03250-7",
+   "arxiv": "",
+   "equipe": "F",
+   "cle": "F-l65"
+  },
+  {
+   "ligne": 67,
+   "ref": "| Mohr et al. (2025). CODATA recommended values of the fundamental physical constants: 2022. *Reviews of Modern Physics* **97**, 025002. doi:10.1103/revmodphys.97.025002 | vérifiée (Crossref) | Lecture complémentaire ; les scripts utilisent les valeurs CODATA 2018. |",
+   "doi": "10.1103/revmodphys.97.025002",
+   "arxiv": "",
+   "equipe": "F",
+   "cle": "F-l67"
+  }
+ ],
+ "majeures": [
+  {
+   "equipe": "H",
+   "cle": "Page76a",
+   "ref": "Don N. Page (1976). Particle emission rates from a black hole: Massless particles from an uncharged, nonrotating hole. Physical Review D 13, 198-206",
+   "doi": "10.1103/physrevd.13.198",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Page77",
+   "ref": "Don N. Page (1977). Particle emission rates from a black hole. III. Charged leptons from a nonrotating hole. Physical Review D 16, 2402-2411",
+   "doi": "10.1103/physrevd.16.2402",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Gibbons75",
+   "ref": "G. W. Gibbons (1975). Vacuum polarization and the spontaneous loss of charge by black holes. Communications in Mathematical Physics 44, 245-264",
+   "doi": "10.1007/bf01609829",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "MW90",
+   "ref": "Jane H. MacGibbon; B. R. Webber (1990). Quark- and gluon-jet emission from primordial black holes: The instantaneous spectra. Physical Review D 41, 3052-3079",
+   "doi": "10.1103/physrevd.41.3052",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "MCP08",
+   "ref": "Jane H. MacGibbon; B. J. Carr; Don N. Page (2008). Do Evaporating Black Holes Form Photospheres?. Physical Review D 78, 064043",
+   "doi": "10.1103/PhysRevD.78.064043",
+   "arxiv": "0709.2380",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Carter68",
+   "ref": "Brandon Carter (1968). Global Structure of the Kerr Family of Gravitational Fields. Physical Review 174, 1559-1571",
+   "doi": "10.1103/physrev.174.1559",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Tipler74",
+   "ref": "Frank J. Tipler (1974). Rotating cylinders and the possibility of global causality violation. Physical Review D 9, 2203-2206",
+   "doi": "10.1103/physrevd.9.2203",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Tipler77",
+   "ref": "Frank J. Tipler (1977). Singularities and causality violation. Annals of Physics 108, 1-36",
+   "doi": "10.1016/0003-4916(77)90348-7",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Hawking92",
+   "ref": "S. W. Hawking (1992). Chronology protection conjecture. Physical Review D 46, 603-611",
+   "doi": "10.1103/physrevd.46.603",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "NH09",
+   "ref": "Gernot Neugebauer; Jörg Hennig (2009). Non-existence of stationary two-black-hole configurations. General Relativity and Gravitation 41, 2113-2130",
+   "doi": "10.1007/s10714-009-0840-8",
+   "arxiv": "0905.4179",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "DL17",
+   "ref": "Mihalis Dafermos; Jonathan Luk (2025). The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon. Annals of Mathematics 202, 309-630",
+   "doi": "10.4007/annals.2025.202.2.1",
+   "arxiv": "1710.01722",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Zilberman22",
+   "ref": "Noa Zilberman; Marc Casals; Amos Ori et al. (2022). Quantum fluxes at the inner horizon of a spinning black hole. Physical Review Letters 129, 261102",
+   "doi": "10.1103/PhysRevLett.129.261102",
+   "arxiv": "2203.08502",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "GJW17",
+   "ref": "Ping Gao; Daniel Louis Jafferis; Aron C. Wall (2017). Traversable Wormholes via a Double Trace Deformation. Journal of High Energy Physics 2017, 151",
+   "doi": "10.1007/JHEP12(2017)151",
+   "arxiv": "1608.05687",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "MMP18",
+   "ref": "Juan Maldacena; Alexey Milekhin; Fedor Popov (2023). Traversable wormholes in four dimensions. Classical and Quantum Gravity 40, 155016",
+   "doi": "10.1088/1361-6382/acde30",
+   "arxiv": "1807.04726",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "FR96",
+   "ref": "L. H. Ford; Thomas A. Roman (1996). Quantum Field Theory Constrains Traversable Wormhole Geometries. Physical Review D 53, 5496-5507",
+   "doi": "10.1103/PhysRevD.53.5496",
+   "arxiv": "gr-qc/9510071",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "PF97",
+   "ref": "Michael J. Pfenning; L. H. Ford (1997). The unphysical nature of \"Warp Drive\". Classical and Quantum Gravity 14, 1743-1751",
+   "doi": "10.1088/0264-9381/14/7/011",
+   "arxiv": "gr-qc/9702026",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "OE05",
+   "ref": "Ken D. Olum; Allen Everett (2005). Can a circulating light beam produce a time machine?. Foundations of Physics Letters 18, 379-385",
+   "doi": "10.1007/s10702-005-7127-4",
+   "arxiv": "gr-qc/0410078",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Polchinski91",
+   "ref": "Joseph Polchinski (1991). Weinberg’s nonlinear quantum mechanics and the Einstein-Podolsky-Rosen paradox. Physical Review Letters 66, 397-400",
+   "doi": "10.1103/physrevlett.66.397",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Deutsch91",
+   "ref": "David Deutsch (1991). Quantum mechanics near closed timelike lines. Physical Review D 44, 3197-3217",
+   "doi": "10.1103/physrevd.44.3197",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Everett04",
+   "ref": "Allen Everett (2004). Time travel paradoxes, path integrals, and the many worlds interpretation of quantum mechanics. Physical Review D 69, 124023",
+   "doi": "10.1103/PhysRevD.69.124023",
+   "arxiv": "gr-qc/0410035",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Ori05",
+   "ref": "Amos Ori (2005). A new time-machine model with compact vacuum core. Physical Review Letters 95, 021101",
+   "doi": "10.1103/PhysRevLett.95.021101",
+   "arxiv": "gr-qc/0503077",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Bothwell22",
+   "ref": "Tobias Bothwell; Colin J. Kennedy; Alexander Aeppli et al. (2022). Resolving the gravitational redshift within a millimeter atomic sample. Nature 602, 420-424",
+   "doi": "10.1038/s41586-021-04349-7",
+   "arxiv": "2109.12238",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Prezens10",
+   "ref": "Jude Prezens (2010). The Double Kerr Solution as a Possible Mechanism for Controlled Global Causality Violation. prépublication arXiv (pas de version publiée retrouvée par titre exact)",
+   "doi": "",
+   "arxiv": "1008.3244",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "KRW97",
+   "ref": "Bernard S. Kay; Marek J. Radzikowski; Robert M. Wald (1997). Quantum Field Theory on Spacetimes with a Compactly Generated Cauchy Horizon. Communications in Mathematical Physics 183, 533-556",
+   "doi": "10.1007/s002200050042",
+   "arxiv": "gr-qc/9603012",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "PBH2505",
+   "ref": "Zhen Cao; F. Aharonian; Y. X. Bai et al. (2025). All-sky search for individual Primordial Black Hole bursts with LHAASO. prépublication arXiv (pas de version publiée retrouvée par titre exact)",
+   "doi": "",
+   "arxiv": "2505.24586",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "CMS26",
+   "ref": "CMS Collaboration (2026). A search for microscopic black holes, string balls, and sphalerons in proton-proton collisions at $\\sqrt{s}$ = 13 TeV. Journal of High Energy Physics 2026, 98",
+   "doi": "10.1007/JHEP08(2026)098",
+   "arxiv": "2604.10732",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "GW250114LVK",
+   "ref": "The LIGO Scientific Collaboration; the Virgo Collaboration; the KAGRA Collaboration et al. (2025). GW250114: testing Hawking's area law and the Kerr nature of black holes. Physical Review Letters 135, 111403",
+   "doi": "10.1103/kw5g-d732",
+   "arxiv": "2509.08054",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Lu26",
+   "ref": "K. J. Arnold; M. D. K. Lee; Zhao Qi et al. (2026). Lu$^+$ optical frequency references with accuracy verified at the 19th digit. Nature 658, 60-64",
+   "doi": "10.1038/s41586-026-11072-8",
+   "arxiv": "2512.07346",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "QCTRL26",
+   "ref": "Patrick J. Everitt; Donald H. White; Todd Lyon et al. (2026). GNSS-free quantum gravity-aided navigation and fine-scale marine surveying with a strapdown quantum gravimeter. prépublication arXiv (pas de version publiée retrouvée par titre exact)",
+   "doi": "",
+   "arxiv": "2608.25563",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Kugel24",
+   "ref": "Álvaro Álvarez-Domínguez; Luis J. Garay; Eduardo Martín-Martínez et al. (2024). No black holes from light. Physical Review Letters 133, 041401",
+   "doi": "10.1103/PhysRevLett.133.041401",
+   "arxiv": "2405.02389",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "SW17",
+   "ref": "Jonathan Sorce; Robert M. Wald (2017). Gedanken Experiments to Destroy a Black Hole II: Kerr-Newman Black Holes Cannot be Over-Charged or Over-Spun. Physical Review D 96, 104014",
+   "doi": "10.1103/PhysRevD.96.104014",
+   "arxiv": "1707.05862",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Olum98",
+   "ref": "Ken D. Olum (1998). Superluminal travel requires negative energies. Physical Review Letters 81, 3567-3570",
+   "doi": "10.1103/PhysRevLett.81.3567",
+   "arxiv": "gr-qc/9805003",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "SSV22",
+   "ref": "Jessica Santiago; Sebastian Schuster; Matt Visser (2022). Generic warp drives violate the null energy condition. Physical Review D 105, 064038",
+   "doi": "10.1103/PhysRevD.105.064038",
+   "arxiv": "2105.03079",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "CW09",
+   "ref": "Louis Crane; Shawn Westmoreland (2009). Are Black Hole Starships Possible. prépublication arXiv (pas de version publiée retrouvée par titre exact)",
+   "doi": "",
+   "arxiv": "0908.1803",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Westphal21",
+   "ref": "Tobias Westphal; Hans Hepach; Jeremias Pfaff et al. (2021). Measurement of Gravitational Coupling between Millimeter-Sized Masses. Nature 591, 225-228",
+   "doi": "10.1038/s41586-021-03250-7",
+   "arxiv": "2009.09546",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "Bollinger89",
+   "ref": "J. J. Bollinger; D. J. Heinzen; Wayne M. Itano et al. (1989). Test of the linearity of quantum mechanics by rf spectroscopy of theBe+9ground state. Physical Review Letters 63, 1031-1034",
+   "doi": "10.1103/physrevlett.63.1031",
+   "arxiv": "",
+   "majeure": true
+  },
+  {
+   "equipe": "H",
+   "cle": "GPB11",
+   "ref": "C. W. F. Everitt; D. B. DeBra; B. W. Parkinson et al. (2011). Gravity Probe B: Final Results of a Space Experiment to Test General Relativity. Physical Review Letters 106, 221101",
+   "doi": "10.1103/PhysRevLett.106.221101",
+   "arxiv": "1105.3456",
+   "majeure": true
+  }
+ ],
+ "cles_majeures_absentes_du_csv": []
+}

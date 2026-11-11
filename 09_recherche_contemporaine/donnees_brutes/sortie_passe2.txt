@@ -1,0 +1,18 @@
+arXiv lot 1 : HTTP 200, cumul 20 notices
+arXiv lot 2 : HTTP 200, cumul 27 notices
+recherche GW250114spec : vérifiée
+recherche Bose1707 : non vérifiée
+recherche KerrCTC : vérifiée
+recherche TiplerSin : non vérifiée
+recherche EHTM87pers : non vérifiée
+recherche MR17 : vérifiée
+Crossref DOI terminé
+BILAN : {'vérifiée': 40, 'à revoir': 2, 'non vérifiée': 6}
+  CHT97 [arxiv gr-qc/9703018] à revoir — discordance (titre NON, auteur ok) — titre reçu : Spinning Down a Black Hole With Scalar Fields — auteurs : Chris M. Chambers, William A. Hiscock, Brett Taylor
+  CHR09 [arxiv 0907.1280] à revoir — discordance (titre NON, auteur NON) — titre reçu : The Complexity of Guarding Terrains — auteurs : James King, Erik Krohn
+  Bose1707 [search ti:"gravitationally induced entanglement" AND ti:e] non vérifiée — recherche arXiv sans résultat concordant ; candidats :  — titre reçu :  — auteurs : 
+  TiplerSin [search all:"Tipler sinusoid"] non vérifiée — recherche arXiv sans résultat concordant ; candidats :  — titre reçu :  — auteurs : 
+  EHTM87pers [search ti:"persistent shadow of the supermassive black ho] non vérifiée — recherche arXiv sans résultat concordant ; candidats :  — titre reçu :  — auteurs : 
+  KN80 [doi 10.1016/0375-9601(80)90562-1] non vérifiée — Crossref HTTP 404 — titre reçu :  — auteurs : 
+  Friedl83 [biblio Friedl SCAMP: The Missing Link in the PC's Past PC] non vérifiée — recherche Crossref sans résultat concordant ; candidats : Programmpakete für PC-1500 und PC-1251 / Three-way deal puts Visi On on Ethernet/PC link / Analyse elektrischer und elektronischer Netzwerke mit BASIC-Programmen (SHARP PC / EDP user documentation: The missing link / Einleitung — titre reçu :  — auteurs : 
+  Katz78 [biblio Katz IBM 5100 APL BASIC emulator microcode PALM IB] non vérifiée — recherche Crossref sans résultat concordant ; candidats : An APL emulator on System/370 / Storage management in IBM APL systems / The IBM family of APL systems / Emulator Express: A system for optimizing emulator performance for wireless netw / Problem formulation using APL — titre reçu :  — auteurs : 

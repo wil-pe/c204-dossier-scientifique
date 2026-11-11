@@ -1,0 +1,10 @@
+i11 — RÉPLIQUE INERTE : cotes et débit pour L = 0.850 m
+==========================================================================================
+Enveloppe (modèle E) : L 850 × P 260 × H corps 209 + couvercle 32 = hauteur fermée 242 mm
+Enveloppe (photos A) : P 260 ; H corps 220 ; couvercle 65 ; hauteur fermée 285 mm ; logements Ø 80, entraxe 91 mm
+Logements (modèle E) : Ø 81 mm, centres à x = 325 mm ; y = 104 mm (direction, côté avant) et 197 mm (principal, côté charnière) ; entraxe 93 mm
+Bandes : raies noires inclinées de 32.6° sur le grand axe ; pas 64 mm et épaisseur 34 mm mesurés selon la profondeur ; 4 raies par bande
+Débit « modèle E » : 0.93 m² de contreplaqué de 9 mm, 0.24 m² de 3 mm ; masse de bois ≈ 5.5 kg (estimation)
+Débit « photos A » : 1.03 m² de contreplaqué de 9 mm, 0.24 m² de 3 mm ; masse de bois ≈ 6.0 kg (estimation)
+Gabarit écrit : schemas/replique_platine_gabarit.svg (1415 × 729 px, 1 mm = 1.5 px)
+Nomenclature de la réplique : 13 lignes ; 142 à 240 € (estimation)

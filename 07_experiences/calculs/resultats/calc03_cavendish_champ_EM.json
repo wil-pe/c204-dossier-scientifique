@@ -1,0 +1,98 @@
+{
+  "cavendish": {
+    "F_N": 7.415888888888889e-10,
+    "couple_Nm": 7.415888888888889e-11,
+    "kappa": 2.0580908904132356e-08,
+    "theta_rad": 0.0036032854153491166,
+    "periode_s": 379.2959669394919,
+    "deplacement_spot_mm": 28.826283322792932,
+    "theta_thermique": 4.433463898034985e-07,
+    "F_min_thermique_1h": 7.472839423651773e-15
+  },
+  "incertitude_G_TP": 0.03888170727339307,
+  "champ_EM": [
+    {
+      "source": "Aimant NdFeB de 1 litre (u ≈ 4e5 J/m³)",
+      "E_J": 400.0,
+      "m_eq_kg": 4.450600224214474e-15,
+      "r_m": 0.05,
+      "a_m_s2": 1.1881856430589863e-22,
+      "F_N": 1.7822784645884793e-24,
+      "rapport_masse": 5.934133632285965e-16
+    },
+    {
+      "source": "Condensateur 1 nF chargé à 5 kV (12,5 mJ)",
+      "E_J": 0.0125,
+      "m_eq_kg": 1.390812570067023e-19,
+      "r_m": 0.05,
+      "a_m_s2": 3.713080134559332e-27,
+      "F_N": 5.569620201838997e-29,
+      "rapport_masse": 2.781625140134046e-18
+    },
+    {
+      "source": "Condensateur 100 µF à 400 V (8 J) — DANGEREUX, calcul seul",
+      "E_J": 8.0,
+      "m_eq_kg": 8.901200448428948e-17,
+      "r_m": 0.05,
+      "a_m_s2": 2.3763712861179725e-24,
+      "F_N": 3.564556929176959e-26,
+      "rapport_masse": 8.901200448428947e-16
+    },
+    {
+      "source": "Bobine supraconductrice d'IRM 3 T (≈ 10 MJ)",
+      "E_J": 10000000.0,
+      "m_eq_kg": 1.1126500560536184e-10,
+      "r_m": 1.0,
+      "a_m_s2": 7.426160269118665e-21,
+      "F_N": 1.1139240403677996e-22,
+      "rapport_masse": 2.2253001121072367e-14
+    },
+    {
+      "source": "Aimant hybride 45 T (≈ 100 MJ)",
+      "E_J": 100000000.0,
+      "m_eq_kg": 1.1126500560536184e-09,
+      "r_m": 1.0,
+      "a_m_s2": 7.426160269118665e-20,
+      "F_N": 1.1139240403677996e-21,
+      "rapport_masse": 3.708833520178728e-14
+    },
+    {
+      "source": "Dipôles du LHC, total (≈ 11 GJ)",
+      "E_J": 11000000000.0,
+      "m_eq_kg": 1.2239150616589803e-07,
+      "r_m": 100.0,
+      "a_m_s2": 8.168776296030532e-22,
+      "F_N": 1.2253164444045797e-23,
+      "rapport_masse": null
+    },
+    {
+      "source": "Aimants d'ITER, total (≈ 51 GJ)",
+      "E_J": 51000000000.0,
+      "m_eq_kg": 5.674515285873455e-07,
+      "r_m": 10.0,
+      "a_m_s2": 3.7873417372505197e-19,
+      "F_N": 5.681012605875779e-21,
+      "rapport_masse": null
+    }
+  ],
+  "B_equivalent_eau_T": 15029365.038969344,
+  "E_equivalent_eau_V_m": 4505690287211983.0,
+  "parasites_N": {
+    "magnétique, plomb (diamagnétique) (χ = -1.6e-05)": 8.42089645530451e-06,
+    "magnétique, tungstène (paramagnétique) (χ = +7.8e-05)": 4.105187021960949e-05,
+    "magnétique, cuivre (χ = -9.6e-06)": 5.052537873182707e-06,
+    "magnétique, aluminium (χ = +2.1e-05)": 1.1052426597587171e-05,
+    "électrostatique, sphère neutre polarisée (10 kV à 5 cm)": 2.8108532739047642e-05,
+    "électrostatique, charge résiduelle de 1 pC dans 2e5 V/m": 2e-07,
+    "courant d'air de 1 mm/s (traînée de Stokes)": 2.310486808217467e-09,
+    "attraction newtonienne de la masse de l'aimant (7,5 kg)": 3.003434999999999e-09,
+    "attraction newtonienne des grosses masses (signal de Cavendish)": 7.415888888888889e-10,
+    "SIGNAL RG : énergie du champ de l'aimant (E/c²)": 1.7822784645884793e-24
+  },
+  "sensibilites_m_s2": {
+    "Cavendish de TP (N2), ~1e-11 N sur 15 g": 6.666666666666666e-10,
+    "Limite thermique du même montage, 1 h": 4.981892949101182e-13,
+    "Meilleures balances de torsion (Schlamminger et al. 2008 : Δa ~ 1e-15 m/s²)": 1e-15
+  },
+  "ecart_meilleure_balance_aimant": 8416193.259375682
+}

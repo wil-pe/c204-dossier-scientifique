@@ -1,0 +1,229 @@
+{
+  "simulation": "S07_energie_negative",
+  "avertissement": "Simulation illustrative — ce n'est PAS une preuve expérimentale (Équipe D, programme C204 ; aucune affirmation « Titor » n'est tenue pour vraie)",
+  "constante_c4_sur_8piG_N": 4.815453886722423e+42,
+  "morris_thorne": {
+    "gorge_b0_m": 1.0,
+    "tension_a_la_gorge_Pa": 4.815453886722423e+42,
+    "densite_energie_gorge_modele_Ellis_J_m3": -4.815453886722423e+42,
+    "densite_massique_gorge_kg_m3": -5.3579150369853185e+25,
+    "masse_exotique_kg": -6.732954607500545e+26,
+    "masse_exotique_masses_de_Jupiter": -0.3547151463545987,
+    "masse_exotique_masses_terrestres": -112.73826408192198,
+    "energie_exotique_J": -6.051277821691031e+43,
+    "integrale_VKD_un_cote_J": -1.2102555643382063e+44,
+    "separation_casimir_pour_atteindre_la_densite_de_gorge_m": 3.080042584554486e-18,
+    "rapport_densite_requise_sur_casimir_100nm": 1.1111510875574006e+42,
+    "note_VKD": "Visser, Kar & Dadhich (2003) : la quantité intégrée de matière exotique peut en principe être rendue arbitrairement petite pour des géométries très particulières ; la violation locale à la gorge (τ0 > ρ0c²) reste obligatoire."
+  },
+  "alcubierre": {
+    "rayon_R_m": 3.0,
+    "sigma_m-1": 8.0,
+    "epaisseur_paroi_approx_m": 0.25,
+    "vitesse": "c",
+    "energie_J": -2.421866224237236e+44,
+    "masse_equivalente_kg": -2.694689590151926e+27,
+    "masse_equivalente_masses_de_Jupiter": -1.4196549183416973,
+    "densite_min_J_m3": -1.9261815546889691e+43,
+    "energie_v_0p1c_J": -2.4218662242372363e+42,
+    "paroi_inegalites_quantiques_Delta_m": 1.61625502392855e-33,
+    "energie_paroi_inegalites_quantiques_J": -5.6160176445878825e+76,
+    "masse_paroi_inegalites_quantiques_kg": -6.248662347048817e+59,
+    "masse_univers_observable_ordre_de_grandeur_kg": 1.5e+53,
+    "repere_Pfenning_Ford_R100m_kg": -6.942958163387575e+62
+  },
+  "casimir": {
+    "1 µm": {
+      "d_m": 1e-06,
+      "densite_J_m3": -0.0004333752574825846,
+      "densite_equivalente_kg_m3": -4.821950045302491e-21,
+      "pression_Pa": -0.0013001257724477536,
+      "energie_negative_par_m3_d_empilement_J": -0.0002166876287412923,
+      "energie_de_masse_des_plaques_par_m3_J": 1.2133194912947038e+20,
+      "rapport_negatif_sur_positif": 1.7859074241861075e-24
+    },
+    "100 nm (réalisable)": {
+      "d_m": 1e-07,
+      "densite_J_m3": -4.333752574825845,
+      "densite_equivalente_kg_m3": -4.8219500453024903e-17,
+      "pression_Pa": -13.001257724477536,
+      "energie_negative_par_m3_d_empilement_J": -2.1668762874129226,
+      "energie_de_masse_des_plaques_par_m3_J": 1.2133194912947038e+20,
+      "rapport_negatif_sur_positif": 1.7859074241861075e-20
+    },
+    "10 nm (optimiste [HYP])": {
+      "d_m": 1e-08,
+      "densite_J_m3": -43337.52574825844,
+      "densite_equivalente_kg_m3": -4.821950045302489e-13,
+      "pression_Pa": -130012.57724477533,
+      "energie_negative_par_m3_d_empilement_J": -21668.76287412922,
+      "energie_de_masse_des_plaques_par_m3_J": 1.2133194912947038e+20,
+      "rapport_negatif_sur_positif": 1.785907424186107e-16
+    },
+    "1 nm (idéalisation invalide)": {
+      "d_m": 1e-09,
+      "densite_J_m3": -433375257.48258436,
+      "densite_equivalente_kg_m3": -4.821950045302488e-09,
+      "pression_Pa": -1300125772.447753,
+      "energie_negative_par_m3_d_empilement_J": -216687628.74129218,
+      "energie_de_masse_des_plaques_par_m3_J": 1.2133194912947038e+20,
+      "rapport_negatif_sur_positif": 1.7859074241861067e-12
+    }
+  },
+  "comparaison": {
+    "energie_casimir_disponible_dans_sphere_R3m_100nm_J": -245.06793452787701,
+    "rapport_MT_sur_casimir_sphere_1m": 6.666906525344404e+42,
+    "rapport_Alcubierre_sur_casimir_sphere_3m": 9.882428025122738e+41,
+    "lois_d_echelle": {
+      "MT_masse_exotique": "∝ b0",
+      "MT_densite_et_tension_a_la_gorge": "∝ b0⁻²",
+      "MT_gap_Casimir_equivalent": "∝ b0^(1/2)",
+      "Alcubierre_energie": "∝ v² R² σ ≈ 2 v² R²/Δ",
+      "Casimir_densite": "∝ d⁻⁴"
+    }
+  },
+  "verification_symbolique": {
+    "Ellis b = b0²/r": true,
+    "bénin b = b0(1 − (r − b0)/a0)²": true,
+    "Alcubierre G^tt": true
+  },
+  "validation": {
+    "simulation": "S07_energie_negative",
+    "n_tests": 12,
+    "n_passes": 12,
+    "n_echecs": 0,
+    "tests": [
+      {
+        "test": "Morris-Thorne (Ellis b = b0²/r) : G^t_t = −8πρ, G^r_r = −8πτ, G^θ_θ = G^φ_φ = 8πp (calcul formel)",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Morris-Thorne (bénin b = b0(1 − (r − b0)/a0)²) : G^t_t = −8πρ, G^r_r = −8πτ, G^θ_θ = G^φ_φ = 8πp (calcul formel)",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "MT (Ellis) : masse exotique ∫ρ dV numérique ↔ −b0c²/(2G)",
+        "valeur": -6.732954607500545e+26,
+        "attendu": -6.732954607500545e+26,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-08,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "MT (bénin, a0 = 0,1 m) : même masse exotique −b0c²/(2G), indépendante de a0",
+        "valeur": -6.732954607500544e+26,
+        "attendu": -6.732954607500545e+26,
+        "ecart_abs": 137438953472.0,
+        "ecart_rel": 2.0412873914060303e-16,
+        "tol_rel": 1e-08,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "MT : tension à la gorge pour b0 = 10 m ≈ 5e40 Pa (5e41 dyn/cm², Morris & Thorne 1988)",
+        "valeur": 4.815453886722423e+40,
+        "attendu": 5e+40,
+        "ecart_abs": 1.845461132775768e+39,
+        "ecart_rel": 0.036909222655515356,
+        "tol_rel": 0.05,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "MT (Ellis) : ∫(ρc² − τ) dV = −(c⁴/G) b0 (quantificateur de Visser-Kar-Dadhich, un côté)",
+        "valeur": -1.2102555643382063e+44,
+        "attendu": -1.2102555643382063e+44,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-08,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Alcubierre : G^{tt} ≡ −¼[(∂_yF)² + (∂_zF)²] pour tout décalage F (calcul formel) → ρ_E ≤ 0",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Alcubierre : énergie par intégrale radiale ↔ intégration 2D cylindrique indépendante",
+        "valeur": -2.42186622423747e+44,
+        "attendu": -2.421866224237236e+44,
+        "ecart_abs": 2.341192202296511e+31,
+        "ecart_rel": 9.66689315399271e-14,
+        "tol_rel": 0.002,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Alcubierre : limite de paroi mince E → −(c²v²/12G) R²σ/3 (σR = 24)",
+        "valeur": -2.421866224237236e+44,
+        "attendu": -2.4205111286764126e+44,
+        "ecart_abs": 1.355095560823483e+41,
+        "ecart_rel": 0.0005598385996946349,
+        "tol_rel": 0.005,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Alcubierre : profil linéaire par morceaux ↔ formule de Pfenning & Ford (1997)",
+        "valeur": -3.63286783114715e+44,
+        "attendu": -3.6328678311471505e+44,
+        "ecart_abs": 7.922816251426434e+28,
+        "ecart_rel": 2.180871041742426e-16,
+        "tol_rel": 1e-10,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Casimir : pression à d = 1 µm ≈ −1,3 mPa",
+        "valeur": -0.0013001257724477536,
+        "attendu": -0.0013,
+        "ecart_abs": 1.2577244775367237e-07,
+        "ecart_rel": 9.674803673359413e-05,
+        "tol_rel": 0.01,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Casimir : u = P/3·… relation u = P/3 (plaques idéales)",
+        "valeur": 0.3333333333333333,
+        "attendu": 0.3333333333333333,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-12,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      }
+    ],
+    "n_hors_decompte": 1,
+    "hors_decompte": [
+      {
+        "categorie": "repère non vérifié",
+        "element": "Pfenning & Ford : R = 100 m, Δ = 100 L_P, v = c → masse équivalente [kg]",
+        "valeur": -6.942958163387575e+62,
+        "attendu": -6.2e+62,
+        "constat": true,
+        "commentaire": "valeur de référence citée de mémoire, absente du résumé en ligne ; écart obtenu 12 % (0,05 décade)"
+      }
+    ]
+  }
+}

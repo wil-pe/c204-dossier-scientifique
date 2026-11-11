@@ -1,0 +1,6 @@
+i10 — MODÈLE 3D DU PALIER 1
+================================================================================
+Pièces reprises de l'Équipe E : 109 ; pièces internes R1 : 34 ; pièces externes (configuration B) : 6
+Volume intérieur 34.9 L ; composants 10.7 L ; occupation 31 %
+Contrôles géométriques : AUCUNE anomalie (toutes les pièces dans le volume intérieur, aucune interpénétration)
+Rendus : R1_01_ouvert_aspect.png, R1_02_interieur.png, R1_03_eclate.png, R1_04_dessus.png, R1_05_face.png, R1_06_configuration_B.png

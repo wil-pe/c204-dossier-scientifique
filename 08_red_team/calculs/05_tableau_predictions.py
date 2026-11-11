@@ -1,0 +1,65 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+_RACINE = str(__import__("pathlib").Path(__file__).resolve().parents[2])  # racine du projet
+"""Équipe G — génère ../tableau_predictions.csv (prédictions du corpus confrontées à l'histoire réelle).
+Verdicts : RÉFUTÉ / RÉFUTÉ (calendrier) / RÉALISÉ MAIS BANAL / BANAL (déjà connu en 2000) / NON TESTABLE / NON ÉCHU.
+Statut de vérification : « en ligne » = recoupé pendant cette session (source indiquée) ; « notoriété » = fait public non contesté,
+non re-vérifié en ligne dans cette session ; « non vérifié »."""
+import csv
+rows = [
+# id, prédiction (citation brève), date du message, échéance, réalité constatée (au 10-11-2026), source / statut de vérification, verdict
+("P01", "Guerre civile aux États-Unis : « starts in 2005 » puis « will start in 2004 », « a Waco type event every month »", "07-11-2000 ; 31-01-2001", "2004-2005",
+ "Aucune guerre civile ; élections de 2004 tenues normalement.", "notoriété", "RÉFUTÉ"),
+("P02", "« civil unrest develops near the next presidential election » ; « Western stability […] collapses in 2005 »", "13-12-2000", "2004-2005",
+ "Pas d'effondrement de la stabilité occidentale en 2004-2005.", "notoriété", "RÉFUTÉ"),
+("P03", "« there were no official Olympics after 2004 »", "29-01-2001", "2006-2008",
+ "Jeux tenus : Turin 2006, Pékin 2008, Vancouver 2010, Londres 2012, Sotchi 2014, Rio 2016, Pyeongchang 2018, Tokyo 2020 (en 2021), Pékin 2022, Paris 2024, Milan-Cortina 2026.", "notoriété", "RÉFUTÉ"),
+("P04", "« The year 2008 was a general date by which time everyone will realize the world they thought they were living in was over »", "31-01-2001", "2008",
+ "Énoncé sans contenu vérifiable ; rattaché après coup par des partisans à la crise financière de 2008.", "—", "NON TESTABLE (vague)"),
+("P05", "Conflit « will consume everyone in the US by 2012 » ; l'auteur, 13 ans, rejoint une unité d'infanterie en 2011", "31-01-2001 ; 02-02-2001", "2011-2012",
+ "Rien de tel.", "notoriété", "RÉFUTÉ"),
+("P06", "Troisième guerre mondiale en 2015 : frappe nucléaire russe sur les villes américaines, la Chine et l'Europe ; « nearly three billion » morts", "04-11-2000 ; 07-11-2000", "2015",
+ "Aucun échange nucléaire ; population mondiale passée d'environ 6,1 à plus de 8 milliards.", "notoriété", "RÉFUTÉ"),
+("P07", "Capitale transférée à Omaha (Nebraska) ; cinq présidents ; Constitution révisée (2020)", "07-11-2000 ; 30-12-2000", "2015-2020",
+ "Capitale inchangée (Washington) ; un président.", "notoriété", "RÉFUTÉ"),
+("P08", "« The basics for time travel start at CERN in about a year » ; percée « within a year or so when CERN brings their larger facility online »", "02-11-2000 ; 31-01-2001", "2001-2002",
+ "LEP arrêté fin 2000 ; premier faisceau du LHC le 10-09-2008, premières collisions à basse énergie le 23-11-2009, programme de physique à 3,5 TeV par faisceau le 30-03-2010.", "en ligne (CERN Courier, home.cern)", "RÉFUTÉ (calendrier : 7 à 9 ans d'écart)"),
+("P09", "Le CERN produira des « microsingularities » lourdes et chaudes (300-500 MW), capturables", "14-02-2001", "après mise en service du LHC",
+ "Aucun micro-trou noir observé (p. ex. CMS, Phys. Lett. B 697, 434, 2011 ; recherches ultérieures négatives). Un tel objet aurait de toute façon ~1e-23 kg, pas 1e12 kg.", "en ligne (Crossref pour la référence)", "RÉFUTÉ à ce jour"),
+("P10", "« the mad cow pandemic » ; en 2036 « a great deal of them are passing from CJD »", "15-02-2001 ; 24-03-2001", "années 2000-2030",
+ "vMCJ : 178 décès au Royaume-Uni au total (NCJDRSU, janv. 2025), ~230 dans le monde (revue de 2014 : 228) ; pic en 2000 (28 décès) puis déclin.", "en ligne (cjd.ed.ac.uk ; PMC)", "RÉFUTÉ (pas de pandémie)"),
+("P11", "« The \"Mad Cow\" story here is yet to begin » (aux États-Unis)", "31-01-2001", "indéterminée",
+ "Premier cas d'ESB aux États-Unis annoncé le 23-12-2003 (vache née au Canada) ; 6 cas détectés aux États-Unis de 2003 à 2018 ; aucun cas humain acquis sur place.", "en ligne (CDC MMWR, USDA/APHIS)", "RÉALISÉ MAIS BANAL (crise européenne à son pic médiatique en nov. 2000)"),
+("P12", "« UNIX has a problem in 2038 »", "15-11-2000", "2038",
+ "Problème réel (débordement du time_t signé 32 bits le 19-01-2038) mais connu et discuté bien avant 2000.", "notoriété", "BANAL (déjà connu en 2000)"),
+("P13", "L'IBM 5100 sait lire « all the IBM code written before » APL/BASIC ; fonction inconnue du public", "25-11-2000 ; 30-12-2000", "—",
+ "Le microcode du 5100 émule une grande partie d'un System/370 (APL) et d'un System/3 (BASIC) : fait d'ingénierie réel, décrit dans la littérature (Proc. IEEE 1976 ; PC Magazine 1983, d'après la notice Wikipédia). « Traduire UNIX » n'a pas de sens technique.", "en ligne (Wikipédia IBM 5100 ; listes classiccmp)", "VRAI MAIS DÉJÀ DOCUMENTÉ ; partie « UNIX » erronée"),
+("P14", "La Chine est « pretty close to putting a man in orbit »", "19-02-2001", "proche",
+ "Shenzhou 5, premier vol habité chinois, le 15-10-2003 ; Shenzhou 1 (1999) et 2 (janv. 2001) avaient déjà volé sans équipage.", "notoriété (non re-vérifié en ligne)", "RÉALISÉ MAIS BANAL (programme public)"),
+("P15", "Guerre au Proche-Orient avec emploi d'armes de destruction massive entre États arabes et Israël", "13-12-2000", "avant 2015",
+ "Conflits récurrents, mais aucun emploi d'armes de destruction massive entre États de la région dans ce cadre.", "notoriété", "RÉFUTÉ (pour la partie précise) / BANAL (pour « guerre au Proche-Orient »)"),
+("P16", "« I think Russia is still very likely to attack the United States with nuclear weapons »", "13-12-2000", "2015",
+ "Non.", "notoriété", "RÉFUTÉ"),
+("P17", "Premier appareil temporel construit par General Electric en 2034 ; public informé vers 2034 ; voyage temporel courant vers 2045", "02-11-2000 ; 31-01-2001", "2034-2045",
+ "Échéance future. Testable.", "—", "NON ÉCHU"),
+("P18", "« the ice caps are not melting any faster than they are now » (en 2036)", "06-11-2000", "2036",
+ "Échéance future ; la tendance observée depuis 2000 (perte de masse des calottes, banquise arctique) va en sens inverse.", "notoriété", "NON ÉCHU (tendance contraire)"),
+("P19", "Allusion aux « elections » de novembre 2000 comme signe avant-coureur", "11-11-2000", "—",
+ "Commentaire de l'actualité (recomptage de Floride en cours), pas une prédiction.", "—", "BANAL (actualité du jour)"),
+("P20", "« the Russians moving Nukes into the Balkans »", "30-12-2000", "—",
+ "Reprise d'articles de presse de l'époque (qui portaient, de mémoire, sur Kaliningrad, c'est-à-dire la Baltique).", "non vérifié", "BANAL (actualité du jour ; possible confusion Balkans/Baltique)"),
+("P21", "Y2K : désastre sur sa ligne d'univers ; « why Y2K didn't hit them at all? »", "24-03-2001", "2000",
+ "Explication rétrospective d'un non-événement, invérifiable par construction.", "—", "NON TESTABLE"),
+("P22", "Toute divergence d'avec l'histoire réelle : « your worldline is about 2.5% different than mine » ; « any \"prediction\" I might make has a slight chance of being incorrect anyway »", "29-01-2001 ; 02-02-2001", "—",
+ "Clause d'échappement générale : tout échec est attribué à la divergence des lignes d'univers.", "—", "NON RÉFUTABLE (échappatoire)"),
+("P23", "« Hydrogen fuel cells and more efficient solar cells are big deals » ; « Computer technology and software get MUCH better »", "07-11-2000", "2036",
+ "Extrapolations génériques des tendances de 2000.", "—", "BANAL"),
+]
+P = _RACINE + "/08_red_team/tableau_predictions.csv"
+with open(P, "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f, quoting=csv.QUOTE_ALL)
+    w.writerow(["id", "prediction_citation_breve", "date_du_message", "echeance", "realite_constatee_au_2026-11-10", "verification", "verdict"])
+    w.writerows(rows)
+from collections import Counter
+c = Counter(r[-1].split(" ")[0] + (" " + r[-1].split(" ")[1] if r[-1].startswith(("NON", "RÉALISÉ", "VRAI")) else "") for r in rows)
+print(len(rows), "lignes ->", P); print(dict(c))

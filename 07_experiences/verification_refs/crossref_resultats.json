@@ -1,0 +1,5524 @@
+[
+ {
+  "cle": "HafeleKeating1972a",
+  "doi_demande": "10.1126/science.177.4044.166",
+  "requete": null,
+  "auteur_attendu": "Hafele",
+  "annee_attendue": 1972,
+  "resultats": [
+   {
+    "doi": "10.1126/science.177.4044.166",
+    "premier_auteur": "Hafele",
+    "nb_auteurs": 2,
+    "annee": 1972,
+    "revue": "Science",
+    "volume": "177",
+    "page": "166-168",
+    "titre": "Around-the-World Atomic Clocks: Predicted Relativistic Time Gains",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "HafeleKeating1972b",
+  "doi_demande": "10.1126/science.177.4044.168",
+  "requete": null,
+  "auteur_attendu": "Hafele",
+  "annee_attendue": 1972,
+  "resultats": [
+   {
+    "doi": "10.1126/science.177.4044.168",
+    "premier_auteur": "Hafele",
+    "nb_auteurs": 2,
+    "annee": 1972,
+    "revue": "Science",
+    "volume": "177",
+    "page": "168-170",
+    "titre": "Around-the-World Atomic Clocks: Observed Relativistic Time Gains",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "PoundRebka1960",
+  "doi_demande": "10.1103/PhysRevLett.4.337",
+  "requete": null,
+  "auteur_attendu": "Pound",
+  "annee_attendue": 1960,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.4.337",
+    "premier_auteur": "Pound",
+    "nb_auteurs": 2,
+    "annee": 1960,
+    "revue": "Physical Review Letters",
+    "volume": "4",
+    "page": "337-341",
+    "titre": "Apparent Weight of Photons",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Vessot1980",
+  "doi_demande": "10.1103/PhysRevLett.45.2081",
+  "requete": null,
+  "auteur_attendu": "Vessot",
+  "annee_attendue": 1980,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.45.2081",
+    "premier_auteur": "Vessot",
+    "nb_auteurs": 13,
+    "annee": 1980,
+    "revue": "Physical Review Letters",
+    "volume": "45",
+    "page": "2081-2084",
+    "titre": "Test of Relativistic Gravitation with a Space-Borne Hydrogen Maser",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Chou2010",
+  "doi_demande": null,
+  "requete": "Chou Hume Rosenband Wineland Optical clocks and relativity Science 2010",
+  "auteur_attendu": "Chou",
+  "annee_attendue": 2010,
+  "resultats": [
+   {
+    "doi": "10.1126/science.1192720",
+    "premier_auteur": "Chou",
+    "nb_auteurs": 4,
+    "annee": 2010,
+    "revue": "Science",
+    "volume": "329",
+    "page": "1630-1633",
+    "titre": "Optical Clocks and Relativity",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1364/ls.2010.lwb4",
+    "premier_auteur": "Rosenband",
+    "nb_auteurs": 4,
+    "annee": 2010,
+    "revue": "Frontiers in Optics 2010/Laser Science XXVI",
+    "volume": null,
+    "page": "LWB4",
+    "titre": "Al+ optical clocks for fundamental physics, geodesy, and quantum metrology",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1103/physrevlett.104.070802",
+    "premier_auteur": "Chou",
+    "nb_auteurs": 5,
+    "annee": 2010,
+    "revue": "Physical Review Letters",
+    "volume": "104",
+    "page": null,
+    "titre": "Frequency Comparison of Two High-Accuracy\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:msup>\n                        <mml:mi>Al</mml:mi>\n                        <mml:mo>+</mml:mo>\n                      </mml:msup>\n                    </mml:math>\n                    Optical Clocks",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Bothwell2022",
+  "doi_demande": null,
+  "requete": "Bothwell Resolving the gravitational redshift across a millimetre-scale atomic sample Nature 2022",
+  "auteur_attendu": "Bothwell",
+  "annee_attendue": 2022,
+  "resultats": [
+   {
+    "doi": "10.1038/s41586-021-04349-7",
+    "premier_auteur": "Bothwell",
+    "nb_auteurs": 8,
+    "annee": 2022,
+    "revue": "Nature",
+    "volume": "602",
+    "page": "420-424",
+    "titre": "Resolving the gravitational redshift across a millimetre-scale atomic sample",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.2139/ssrn.4396772",
+    "premier_auteur": "Li",
+    "nb_auteurs": 2,
+    "annee": 2023,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Cosmological Application of the Lens-Redshift Probability Distribution with Improved Galaxy-Scale Gravitational Lensing Sample",
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.1016/j.dark.2023.101234",
+    "premier_auteur": "Li",
+    "nb_auteurs": 2,
+    "annee": 2023,
+    "revue": "Physics of the Dark Universe",
+    "volume": "41",
+    "page": "101234",
+    "titre": "Cosmological application of the lens-redshift probability distribution with improved galaxy-scale gravitational lensing sample",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Zheng2022",
+  "doi_demande": null,
+  "requete": "Zheng Kolkowitz Differential clock comparisons with a multiplexed optical lattice clock Nature 2022",
+  "auteur_attendu": "Zheng",
+  "annee_attendue": 2022,
+  "resultats": [
+   {
+    "doi": "10.26226/m.6275705966d5dcf63a31149b",
+    "premier_auteur": "Zheng",
+    "nb_auteurs": 5,
+    "annee": 2022,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Differential clock comparisons with a multiplexed optical lattice clock",
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.1038/s41586-021-04344-y",
+    "premier_auteur": "Zheng",
+    "nb_auteurs": 6,
+    "annee": 2022,
+    "revue": "Nature",
+    "volume": "602",
+    "page": "425-430",
+    "titre": "Differential clock comparisons with a multiplexed optical lattice clock",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.26226/m.6275705866d5dcf63a3113bc",
+    "premier_auteur": "Dolde",
+    "nb_auteurs": 5,
+    "annee": 2022,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Measuring the Gravitational Redshift at the Centimeter-Scale using a Multiplexed Optical Lattice Clock",
+    "type": "posted-content"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Takamoto2020",
+  "doi_demande": null,
+  "requete": "Takamoto Katori Test of general relativity by a pair of transportable optical lattice clocks Nature Photonics 2020",
+  "auteur_attendu": "Takamoto",
+  "annee_attendue": 2020,
+  "resultats": [
+   {
+    "doi": "10.1038/s41566-020-0619-8",
+    "premier_auteur": "Takamoto",
+    "nb_auteurs": 7,
+    "annee": 2020,
+    "revue": "Nature Photonics",
+    "volume": "14",
+    "page": "411-415",
+    "titre": "Test of general relativity by a pair of transportable optical lattice clocks",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1364/quantum.2020.qw4a.2",
+    "premier_auteur": "Katori",
+    "nb_auteurs": 4,
+    "annee": 2020,
+    "revue": "OSA Quantum 2.0 Conference",
+    "volume": null,
+    "page": "QW4A.2",
+    "titre": "Transportable Optical Lattice Clocks to Test Gravitational Redshift",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1142/s0218271825400127",
+    "premier_auteur": "Shinkai",
+    "nb_auteurs": 3,
+    "annee": 2025,
+    "revue": "International Journal of Modern Physics D",
+    "volume": "34",
+    "page": null,
+    "titre": "Transportable optical lattice clocks and general relativity",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Grotti2018",
+  "doi_demande": null,
+  "requete": "Grotti Geodesy and metrology with a transportable optical clock Nature Physics 2018",
+  "auteur_attendu": "Grotti",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1038/s41567-017-0042-3",
+    "premier_auteur": "Grotti",
+    "nb_auteurs": 24,
+    "annee": 2018,
+    "revue": "Nature Physics",
+    "volume": "14",
+    "page": "437-441",
+    "titre": "Geodesy and metrology with a transportable optical clock",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1088/1742-6596/723/1/012020",
+    "premier_auteur": "Vogt",
+    "nb_auteurs": 7,
+    "annee": 2016,
+    "revue": "Journal of Physics: Conference Series",
+    "volume": "723",
+    "page": "012020",
+    "titre": "A transportable optical lattice clock",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.5194/egusphere-egu26-13866",
+    "premier_auteur": "Nosske",
+    "nb_auteurs": 8,
+    "annee": 2026,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Transportable optical atomic clock for geodesy at the centimeter height level",
+    "type": "posted-content"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "McGrew2018",
+  "doi_demande": null,
+  "requete": "McGrew Atomic clock performance enabling geodesy below the centimetre level Nature 2018",
+  "auteur_attendu": "McGrew",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1038/s41586-018-0738-2",
+    "premier_auteur": "McGrew",
+    "nb_auteurs": 12,
+    "annee": 2018,
+    "revue": "Nature",
+    "volume": "564",
+    "page": "87-90",
+    "titre": "Atomic clock performance enabling geodesy below the centimetre level",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/d41586-018-07571-y",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 2018,
+    "revue": "Nature",
+    "volume": null,
+    "page": null,
+    "titre": "Podcast: Atomic clock accuracy and wind farm worries",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/d41586-018-01907-4",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 2018,
+    "revue": "Nature",
+    "volume": "554",
+    "page": "407-407",
+    "titre": "Portable atomic clock scales new heights",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Delva2018",
+  "doi_demande": "10.1103/PhysRevLett.121.231101",
+  "requete": null,
+  "auteur_attendu": "Delva",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.121.231101",
+    "premier_auteur": "Delva",
+    "nb_auteurs": 14,
+    "annee": 2018,
+    "revue": "Physical Review Letters",
+    "volume": "121",
+    "page": "231101",
+    "titre": "Gravitational Redshift Test Using Eccentric\n                    <i>Galileo</i>\n                    Satellites",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Herrmann2018",
+  "doi_demande": "10.1103/PhysRevLett.121.231102",
+  "requete": null,
+  "auteur_attendu": "Herrmann",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.121.231102",
+    "premier_auteur": "Herrmann",
+    "nb_auteurs": 17,
+    "annee": 2018,
+    "revue": "Physical Review Letters",
+    "volume": "121",
+    "page": "231102",
+    "titre": "Test of the Gravitational Redshift with<i>Galileo</i>Satellites in an Eccentric Orbit",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "VanBaak2007",
+  "doi_demande": null,
+  "requete": "Van Baak An adventure in relative time-keeping Physics Today 2007",
+  "auteur_attendu": "Van Baak",
+  "annee_attendue": 2007,
+  "resultats": [
+   {
+    "doi": "10.1063/1.2718741",
+    "premier_auteur": "Baak",
+    "nb_auteurs": 1,
+    "annee": 2007,
+    "revue": "Physics Today",
+    "volume": "60",
+    "page": "16-16",
+    "titre": "An adventure in relative time-keeping",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/pt.5.020790",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 2007,
+    "revue": "Physics Today",
+    "volume": "2007",
+    "page": null,
+    "titre": "The Atomic Secrets of Accurate Time Keeping",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/pt.6.1.20210716a",
+    "premier_auteur": "Hill",
+    "nb_auteurs": 1,
+    "annee": 2021,
+    "revue": "Physics Today",
+    "volume": "2021",
+    "page": null,
+    "titre": "Keeping time in space",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Briatore1977",
+  "doi_demande": null,
+  "requete": "Briatore Leschiutta Evidence for the earth gravitational shift by direct atomic-time-scale comparison Nuovo Cimento 1977",
+  "auteur_attendu": "Briatore",
+  "annee_attendue": 1977,
+  "resultats": [
+   {
+    "doi": "10.1007/bf02726320",
+    "premier_auteur": "Briatore",
+    "nb_auteurs": 2,
+    "annee": 1977,
+    "revue": "Il Nuovo Cimento B Series 11",
+    "volume": "37",
+    "page": "219-231",
+    "titre": "Evidence for the Earth gravitational shift by direct atomic-time-scale comparison; Подтверждение земного гравитационного сдвига с помощью прямого сравнения масштабов атомных времен",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/bf02727483",
+    "premier_auteur": "Briatore",
+    "nb_auteurs": 2,
+    "annee": 1976,
+    "revue": "Lettere Al Nuovo Cimento Series 2",
+    "volume": "15",
+    "page": "203-207",
+    "titre": "Verifying the gravitational shift due to the Earth’s rotation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/bf02746512",
+    "premier_auteur": "Briatore",
+    "nb_auteurs": 2,
+    "annee": 1976,
+    "revue": "Lettere Al Nuovo Cimento Series 2",
+    "volume": "17",
+    "page": "328-328",
+    "titre": "Verifying the gravitational shift due to the Earth’s rotation",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Knappe2004",
+  "doi_demande": null,
+  "requete": "Knappe A microfabricated atomic clock Applied Physics Letters 2004",
+  "auteur_attendu": "Knappe",
+  "annee_attendue": 2004,
+  "resultats": [
+   {
+    "doi": "10.1063/1.1787942",
+    "premier_auteur": "Knappe",
+    "nb_auteurs": 7,
+    "annee": 2004,
+    "revue": "Applied Physics Letters",
+    "volume": "85",
+    "page": "1460-1462",
+    "titre": "A microfabricated atomic clock",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.1691490",
+    "premier_auteur": "Liew",
+    "nb_auteurs": 6,
+    "annee": 2004,
+    "revue": "Applied Physics Letters",
+    "volume": "84",
+    "page": "2694-2696",
+    "titre": "Microfabricated alkali atom vapor cells",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.3491548",
+    "premier_auteur": "Knappe",
+    "nb_auteurs": 6,
+    "annee": 2010,
+    "revue": "Applied Physics Letters",
+    "volume": "97",
+    "page": null,
+    "titre": "Cross-validation of microfabricated atomic magnetometers with superconducting quantum interference devices for biomagnetic applications",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Allan1966",
+  "doi_demande": null,
+  "requete": "Allan Statistics of atomic frequency standards Proceedings of the IEEE 1966",
+  "auteur_attendu": "Allan",
+  "annee_attendue": 1966,
+  "resultats": [
+   {
+    "doi": "10.1109/proc.1966.4634",
+    "premier_auteur": "Allan",
+    "nb_auteurs": 1,
+    "annee": 1966,
+    "revue": "Proceedings of the IEEE",
+    "volume": "54",
+    "page": "221-230",
+    "titre": "Statistics of atomic frequency standards",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/proc.1966.4626",
+    "premier_auteur": "McCoubrey",
+    "nb_auteurs": 1,
+    "annee": 1966,
+    "revue": "Proceedings of the IEEE",
+    "volume": "54",
+    "page": "116-135",
+    "titre": "A survey of atomic frequency standards",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/freq.1996.560290",
+    "premier_auteur": "Watts",
+    "nb_auteurs": 5,
+    "annee": null,
+    "revue": "Proceedings of 1996 IEEE International Frequency Control Symposium",
+    "volume": null,
+    "page": "1023-1031",
+    "titre": "Specifying commercial atomic frequency standards using statistics",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Ashby2003",
+  "doi_demande": null,
+  "requete": "Ashby Relativity in the Global Positioning System Living Reviews in Relativity 2003",
+  "auteur_attendu": "Ashby",
+  "annee_attendue": 2003,
+  "resultats": [
+   {
+    "doi": "10.12942/lrr-2003-1",
+    "premier_auteur": "Ashby",
+    "nb_auteurs": 1,
+    "annee": 2003,
+    "revue": "Living Reviews in Relativity",
+    "volume": "6",
+    "page": null,
+    "titre": "Relativity in the Global Positioning System",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1142/9789812700988_0010",
+    "premier_auteur": "ASHBY",
+    "nb_auteurs": 1,
+    "annee": 2005,
+    "revue": "100 Years of Relativity",
+    "volume": null,
+    "page": "257-289",
+    "titre": "RELATIVITY IN THE GLOBAL POSITIONING SYSTEM",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1063/1.1485583",
+    "premier_auteur": "Ashby",
+    "nb_auteurs": 1,
+    "annee": 2002,
+    "revue": "Physics Today",
+    "volume": "55",
+    "page": "41-47",
+    "titre": "Relativity and the Global Positioning System",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "AllanWeiss1980",
+  "doi_demande": null,
+  "requete": "Allan Weiss Accurate time and frequency transfer during common-view of a GPS satellite Frequency Control Symposium 1980",
+  "auteur_attendu": "Allan",
+  "annee_attendue": 1980,
+  "resultats": [
+   {
+    "doi": "10.1109/freq.1980.200424",
+    "premier_auteur": "Allan",
+    "nb_auteurs": 2,
+    "annee": 1980,
+    "revue": "34th Annual Symposium on Frequency Control",
+    "volume": null,
+    "page": "334-346",
+    "titre": "Accurate Time and Frequency Transfer During Common-View of a GPS Satellite",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1049/cp:19960079",
+    "premier_auteur": "Davis",
+    "nb_auteurs": 1,
+    "annee": 1996,
+    "revue": "10th International Conference on European Frequency and Time",
+    "volume": "1996",
+    "page": "382-387",
+    "titre": "Comparison of two-way satellite time and frequency transfer and GPS common-view time transfer during the INTELSAT field trial",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/freq.2005.1573953",
+    "premier_auteur": "Weiss",
+    "nb_auteurs": 3,
+    "annee": null,
+    "revue": "Proceedings of the 2005 IEEE International Frequency Control Symposium and Exposition, 2005.",
+    "volume": null,
+    "page": "324-328",
+    "titre": "A comparison of GPS common-view time transfer to all-in-view",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lipinski2011",
+  "doi_demande": null,
+  "requete": "Lipinski Wlostowski Serrano Alvarez White Rabbit: a PTP application for robust sub-nanosecond synchronization ISPCS 2011",
+  "auteur_attendu": "Lipi",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1109/ispcs.2011.6070148",
+    "premier_auteur": "Lipinski",
+    "nb_auteurs": 4,
+    "annee": 2011,
+    "revue": "2011 IEEE International Symposium on Precision Clock Synchronization for Measurement, Control and Communication",
+    "volume": null,
+    "page": "25-30",
+    "titre": "White rabbit: a PTP application for robust sub-nanosecond synchronization",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/ispcs.2016.7579514",
+    "premier_auteur": "Rizzi",
+    "nb_auteurs": 7,
+    "annee": 2016,
+    "revue": "2016 IEEE International Symposium on Precision Clock Synchronization for Measurement, Control, and Communication (ISPCS)",
+    "volume": null,
+    "page": "1-6",
+    "titre": "White rabbit clock characteristics",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/ispcs.2018.8543072",
+    "premier_auteur": "Lipinski",
+    "nb_auteurs": 8,
+    "annee": 2018,
+    "revue": "2018 IEEE International Symposium on Precision Clock Synchronization for Measurement, Control, and Communication (ISPCS)",
+    "volume": null,
+    "page": "1-7",
+    "titre": "White Rabbit Applications and Enhancements",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lisdat2016",
+  "doi_demande": null,
+  "requete": "Lisdat A clock network for geodesy and fundamental science Nature Communications 2016",
+  "auteur_attendu": "Lisdat",
+  "annee_attendue": 2016,
+  "resultats": [
+   {
+    "doi": "10.1038/ncomms12443",
+    "premier_auteur": "Lisdat",
+    "nb_auteurs": 35,
+    "annee": 2016,
+    "revue": "Nature Communications",
+    "volume": "7",
+    "page": null,
+    "titre": "A clock network for geodesy and fundamental science",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.5194/egusphere-egu26-13866",
+    "premier_auteur": "Nosske",
+    "nb_auteurs": 8,
+    "annee": 2026,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Transportable optical atomic clock for geodesy at the centimeter height level",
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.1038/s41567-017-0042-3",
+    "premier_auteur": "Grotti",
+    "nb_auteurs": 24,
+    "annee": 2018,
+    "revue": "Nature Physics",
+    "volume": "14",
+    "page": "437-441",
+    "titre": "Geodesy and metrology with a transportable optical clock",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "OPERA2012",
+  "doi_demande": null,
+  "requete": "OPERA Measurement of the neutrino velocity with the OPERA detector in the CNGS beam JHEP 2012",
+  "auteur_attendu": "Adam",
+  "annee_attendue": 2012,
+  "resultats": [
+   {
+    "doi": "10.70675/77fdf702z8723z4492z96d3zb81fbccea5be",
+    "premier_auteur": "Brunetti",
+    "nb_auteurs": 1,
+    "annee": null,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Neutrino velocity measurement with the OPERA experiment in the CNGS beam",
+    "type": "dissertation"
+   },
+   {
+    "doi": "10.22323/1.369.0140",
+    "premier_auteur": "Klicek",
+    "nb_auteurs": 3,
+    "annee": 2020,
+    "revue": "Proceedings of The 21st international workshop on neutrinos from accelerators — PoS(NuFact2019)",
+    "volume": null,
+    "page": "140",
+    "titre": "Neutrino oscillation results of the OPERA experiment in the CNGS beam",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1088/1742-6596/1390/1/012054",
+    "premier_auteur": "Vasina",
+    "nb_auteurs": 2,
+    "annee": 2019,
+    "revue": "Journal of Physics: Conference Series",
+    "volume": "1390",
+    "page": "012054",
+    "titre": "New results from the OPERA experiment in the CNGS neutrino beam",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Mills1991",
+  "doi_demande": null,
+  "requete": "Mills Internet time synchronization: the network time protocol IEEE Transactions on Communications 1991",
+  "auteur_attendu": "Mills",
+  "annee_attendue": 1991,
+  "resultats": [
+   {
+    "doi": "10.1109/26.103043",
+    "premier_auteur": "Mills",
+    "nb_auteurs": 1,
+    "annee": 1991,
+    "revue": "IEEE Transactions on Communications",
+    "volume": "39",
+    "page": "1482-1493",
+    "titre": "Internet time synchronization: the network time protocol",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.17487/rfc1129",
+    "premier_auteur": "Mills",
+    "nb_auteurs": 1,
+    "annee": 1989,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Internet Time Synchronization: The Network Time Protocol",
+    "type": "report"
+   },
+   {
+    "doi": "10.1201/9781420006155",
+    "premier_auteur": "Mills",
+    "nb_auteurs": 2,
+    "annee": 2006,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Computer Network Time Synchronization",
+    "type": "reference-book"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Cavendish1798",
+  "doi_demande": null,
+  "requete": "Cavendish Experiments to determine the density of the Earth Philosophical Transactions 1798",
+  "auteur_attendu": "Cavendish",
+  "annee_attendue": 1798,
+  "resultats": [
+   {
+    "doi": "10.1098/rstl.1798.0022",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 1798,
+    "revue": "Philosophical Transactions of the Royal Society of London",
+    "volume": "88",
+    "page": "469-526",
+    "titre": "XXI. Experiments to determine the density of the earth",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/cbo9780511722424.019",
+    "premier_auteur": "Cavendish",
+    "nb_auteurs": 1,
+    "annee": null,
+    "revue": "The Scientific Papers of the Honourable Henry Cavendish",
+    "volume": null,
+    "page": "249-286",
+    "titre": "Experiments to determine the Density of the Earth",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.4159/harvard.9780674180666.c26",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 1970,
+    "revue": "A Source Book in Geology, 1400–1900",
+    "volume": null,
+    "page": "103-107",
+    "titre": "HENRY CAVENDISH (1731–1810): EXPERIMENTS TO DETERMINE THE DENSITY OF THE EARTH",
+    "type": "book-chapter"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Gundlach2000",
+  "doi_demande": "10.1103/PhysRevLett.85.2869",
+  "requete": null,
+  "auteur_attendu": "Gundlach",
+  "annee_attendue": 2000,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.85.2869",
+    "premier_auteur": "Gundlach",
+    "nb_auteurs": 2,
+    "annee": 2000,
+    "revue": "Physical Review Letters",
+    "volume": "85",
+    "page": "2869-2872",
+    "titre": "Measurement of Newton's Constant Using a Torsion Balance with Angular Acceleration Feedback",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Quinn2013",
+  "doi_demande": "10.1103/PhysRevLett.111.101102",
+  "requete": null,
+  "auteur_attendu": "Quinn",
+  "annee_attendue": 2013,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.111.101102",
+    "premier_auteur": "Quinn",
+    "nb_auteurs": 4,
+    "annee": 2013,
+    "revue": "Physical Review Letters",
+    "volume": "111",
+    "page": "101102",
+    "titre": "Improved Determination of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>G</mml:mi></mml:math>Using Two Methods",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Rosi2014",
+  "doi_demande": null,
+  "requete": "Rosi Tino Precision measurement of the Newtonian gravitational constant using cold atoms Nature 2014",
+  "auteur_attendu": "Rosi",
+  "annee_attendue": 2014,
+  "resultats": [
+   {
+    "doi": "10.1038/nature13433",
+    "premier_auteur": "Rosi",
+    "nb_auteurs": 5,
+    "annee": 2014,
+    "revue": "Nature",
+    "volume": "510",
+    "page": "518-521",
+    "titre": "Precision measurement of the Newtonian gravitational constant using cold atoms",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1142/9789813200616_0006",
+    "premier_auteur": "Rosi",
+    "nb_auteurs": 6,
+    "annee": 2016,
+    "revue": "Laser Spectroscopy",
+    "volume": null,
+    "page": "61-70",
+    "titre": "Precision Measurement of the Newtonian Gravitational Constant by Atom Interferometry",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/eftf-ifc.2013.6702069",
+    "premier_auteur": "Tino",
+    "nb_auteurs": 5,
+    "annee": 2013,
+    "revue": "2013 Joint European Frequency and Time Forum &amp; International Frequency Control Symposium (EFTF/IFC)",
+    "volume": null,
+    "page": "593-598",
+    "titre": "Precision measurement of the gravitational constant with atom interferometry",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Li2018",
+  "doi_demande": null,
+  "requete": "Li Luo Measurements of the gravitational constant using two independent methods Nature 2018",
+  "auteur_attendu": "Li",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1038/s41586-018-0431-5",
+    "premier_auteur": "Li",
+    "nb_auteurs": 19,
+    "annee": 2018,
+    "revue": "Nature",
+    "volume": "560",
+    "page": "582-588",
+    "titre": "Measurements of the gravitational constant using two independent methods",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/229372a0",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 1971,
+    "revue": "Nature",
+    "volume": "229",
+    "page": "372-373",
+    "titre": "Gravitational Constant: Measurements Refined",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.20944/preprints201809.0396.v1",
+    "premier_auteur": "Haug",
+    "nb_auteurs": 1,
+    "annee": 2018,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Finding the Planck Length Independent of Newton's Gravitational Constant and the Planck Constant: The Compton Clock Model of Matter",
+    "type": "posted-content"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Westphal2021",
+  "doi_demande": null,
+  "requete": "Westphal Aspelmeyer Measurement of gravitational coupling between millimetre-sized masses Nature 2021",
+  "auteur_attendu": "Westphal",
+  "annee_attendue": 2021,
+  "resultats": [
+   {
+    "doi": "10.1038/s41586-021-03250-7",
+    "premier_auteur": "Westphal",
+    "nb_auteurs": 4,
+    "annee": 2021,
+    "revue": "Nature",
+    "volume": "591",
+    "page": "225-228",
+    "titre": "Measurement of gravitational coupling between millimetre-sized masses",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.4236/jmp.2025.161005",
+    "premier_auteur": "Cui",
+    "nb_auteurs": 1,
+    "annee": 2025,
+    "revue": "Journal of Modern Physics",
+    "volume": "16",
+    "page": "133-139",
+    "titre": "The Gravitational Constant &lt;i&gt;G&lt;/i&gt; May Decrease between Millimetre-Sized Masses",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/nphys1170",
+    "premier_auteur": "Aspelmeyer",
+    "nb_auteurs": 1,
+    "annee": 2009,
+    "revue": "Nature Physics",
+    "volume": "5",
+    "page": "11-12",
+    "titre": "Measured measurement",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Kapner2007",
+  "doi_demande": "10.1103/PhysRevLett.98.021101",
+  "requete": null,
+  "auteur_attendu": "Kapner",
+  "annee_attendue": 2007,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.98.021101",
+    "premier_auteur": "Kapner",
+    "nb_auteurs": 7,
+    "annee": 2007,
+    "revue": "Physical Review Letters",
+    "volume": "98",
+    "page": "021101",
+    "titre": "Tests of the Gravitational Inverse-Square Law below the Dark-Energy Length Scale",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lee2020",
+  "doi_demande": "10.1103/PhysRevLett.124.101101",
+  "requete": null,
+  "auteur_attendu": "Lee",
+  "annee_attendue": 2020,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.124.101101",
+    "premier_auteur": "Lee",
+    "nb_auteurs": 5,
+    "annee": 2020,
+    "revue": "Physical Review Letters",
+    "volume": "124",
+    "page": "101101",
+    "titre": "New Test of the Gravitational\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mn>1</mml:mn>\n                      <mml:mo stretchy=\"false\">/</mml:mo>\n                      <mml:msup>\n                        <mml:mi>r</mml:mi>\n                        <mml:mn>2</mml:mn>\n                      </mml:msup>\n                    </mml:math>\n                    Law at Separations down to\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mrow>\n                        <mml:mn>52</mml:mn>\n                        <mml:mtext> </mml:mtext>\n                        <mml:mtext> </mml:mtext>\n                        <mml:mi>μ</mml:mi>\n                        <mml:mi mathvariant=\"normal\">m</mml:mi>\n                      </mml:mrow>\n                    </mml:math>",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Schlamminger2008",
+  "doi_demande": "10.1103/PhysRevLett.100.041101",
+  "requete": null,
+  "auteur_attendu": "Schlamminger",
+  "annee_attendue": 2008,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.100.041101",
+    "premier_auteur": "Schlamminger",
+    "nb_auteurs": 5,
+    "annee": 2008,
+    "revue": "Physical Review Letters",
+    "volume": "100",
+    "page": "041101",
+    "titre": "Test of the Equivalence Principle Using a Rotating Torsion Balance",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Adelberger2009",
+  "doi_demande": null,
+  "requete": "Adelberger Torsion balance experiments: A low-energy frontier of particle physics Progress in Particle and Nuclear Physics 2009",
+  "auteur_attendu": "Adelberger",
+  "annee_attendue": 2009,
+  "resultats": [
+   {
+    "doi": "10.1016/j.ppnp.2008.08.002",
+    "premier_auteur": "Adelberger",
+    "nb_auteurs": 5,
+    "annee": 2009,
+    "revue": "Progress in Particle and Nuclear Physics",
+    "volume": "62",
+    "page": "102-134",
+    "titre": "Torsion balance experiments: A low-energy frontier of particle physics",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/0375-9474(91)90117-o",
+    "premier_auteur": "Adelberger",
+    "nb_auteurs": 1,
+    "annee": 1991,
+    "revue": "Nuclear Physics A",
+    "volume": "527",
+    "page": "223-238",
+    "titre": "A low-energy frontier of particle physics",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/j.ppnp.2009.12.035",
+    "premier_auteur": "Bogdanova",
+    "nb_auteurs": 1,
+    "annee": 2010,
+    "revue": "Progress in Particle and Nuclear Physics",
+    "volume": "64",
+    "page": "300-302",
+    "titre": "40 MCi tritium source for experiments with low energy neutrino",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Tolman1931",
+  "doi_demande": "10.1103/PhysRev.37.602",
+  "requete": null,
+  "auteur_attendu": "Tolman",
+  "annee_attendue": 1931,
+  "resultats": [
+   {
+    "doi": "10.1103/physrev.37.602",
+    "premier_auteur": "Tolman",
+    "nb_auteurs": 3,
+    "annee": 1931,
+    "revue": "Physical Review",
+    "volume": "37",
+    "page": "602-615",
+    "titre": "On the Gravitational Field Produced by Light",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Fuzfa2016",
+  "doi_demande": "10.1103/PhysRevD.93.024014",
+  "requete": null,
+  "auteur_attendu": "Füzfa",
+  "annee_attendue": 2016,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.93.024014",
+    "premier_auteur": "Füzfa",
+    "nb_auteurs": 1,
+    "annee": 2016,
+    "revue": "Physical Review D",
+    "volume": "93",
+    "page": "024014",
+    "titre": "How current loops and solenoids curve spacetime",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Hathaway2003",
+  "doi_demande": null,
+  "requete": "Hathaway Cleveland Bao Gravity modification experiment using a rotating superconducting disk and radio frequency fields Physica C 2003",
+  "auteur_attendu": "Hathaway",
+  "annee_attendue": 2003,
+  "resultats": [
+   {
+    "doi": "10.1016/s0921-4534(02)02284-0",
+    "premier_auteur": "Hathaway",
+    "nb_auteurs": 3,
+    "annee": 2003,
+    "revue": "Physica C: Superconductivity",
+    "volume": "385",
+    "page": "488-500",
+    "titre": "Gravity modification experiment using a rotating superconducting disk and radio frequency fields",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.1593880",
+    "premier_auteur": "Sato",
+    "nb_auteurs": 1,
+    "annee": 2003,
+    "revue": "AIP Conference Proceedings",
+    "volume": "669",
+    "page": "117-120",
+    "titre": "Wave Properties in a Weakly-Magnetized Plasma Produced by Rotating Radio-Frequency Electromagnetic Fields",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1016/s0921-4526(02)02349-9",
+    "premier_auteur": "KANDA",
+    "nb_auteurs": 1,
+    "annee": 2003,
+    "revue": "Physica B: Condensed Matter",
+    "volume": "329-333",
+    "page": "1421-1422",
+    "titre": "Paramagnetic supercurrent in a mesoscopic superconducting disk",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Tajmar2004",
+  "doi_demande": null,
+  "requete": "Tajmar Biefeld-Brown effect: misinterpretation of corona wind phenomena AIAA Journal 2004",
+  "auteur_attendu": "Tajmar",
+  "annee_attendue": 2004,
+  "resultats": [
+   {
+    "doi": "10.2514/1.9095",
+    "premier_auteur": "Tajmar",
+    "nb_auteurs": 1,
+    "annee": 2004,
+    "revue": "AIAA Journal",
+    "volume": "42",
+    "page": "315-318",
+    "titre": "Biefeld-Brown Effect:  Misinterpretation of Corona Wind Phenomena",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1088/0305-4470/37/36/n01",
+    "premier_auteur": "Hense",
+    "nb_auteurs": 3,
+    "annee": 2004,
+    "revue": "Journal of Physics A: Mathematical and General",
+    "volume": "37",
+    "page": "8747-8749",
+    "titre": "Electrostatic torque—a misinterpretation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.2514/6.2004-3619",
+    "premier_auteur": "Tajmar",
+    "nb_auteurs": 1,
+    "annee": 2004,
+    "revue": "40th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit",
+    "volume": null,
+    "page": null,
+    "titre": "MEMS Indium FEEP Thruster: Manufacturing Study and First Prototype Results",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "CODATA2018",
+  "doi_demande": "10.1103/RevModPhys.93.025010",
+  "requete": null,
+  "auteur_attendu": "Tiesinga",
+  "annee_attendue": 2021,
+  "resultats": [
+   {
+    "doi": "10.1103/revmodphys.93.025010",
+    "premier_auteur": "Tiesinga",
+    "nb_auteurs": 4,
+    "annee": 2021,
+    "revue": "Reviews of Modern Physics",
+    "volume": "93",
+    "page": "025010",
+    "titre": "CODATA recommended values of the fundamental physical constants: 2018",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "CODATA2022",
+  "doi_demande": "10.1103/RevModPhys.97.025002",
+  "requete": null,
+  "auteur_attendu": "Mohr",
+  "annee_attendue": 2025,
+  "resultats": [
+   {
+    "doi": "10.1103/revmodphys.97.025002",
+    "premier_auteur": "Mohr",
+    "nb_auteurs": 4,
+    "annee": 2025,
+    "revue": "Reviews of Modern Physics",
+    "volume": "97",
+    "page": "025002",
+    "titre": "CODATA recommended values of the fundamental physical constants: 2022",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Peters1999",
+  "doi_demande": null,
+  "requete": "Peters Chung Chu Measurement of gravitational acceleration by dropping atoms Nature 1999",
+  "auteur_attendu": "Peters",
+  "annee_attendue": 1999,
+  "resultats": [
+   {
+    "doi": "10.1038/23655",
+    "premier_auteur": "Peters",
+    "nb_auteurs": 3,
+    "annee": 1999,
+    "revue": "Nature",
+    "volume": "400",
+    "page": "849-852",
+    "titre": "Measurement of gravitational acceleration by dropping atoms",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/nature08776",
+    "premier_auteur": "Müller",
+    "nb_auteurs": 3,
+    "annee": 2010,
+    "revue": "Nature",
+    "volume": "463",
+    "page": "926-929",
+    "titre": "A precision measurement of the gravitational redshift by the interference of matter waves",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/nature09341",
+    "premier_auteur": "Müller",
+    "nb_auteurs": 3,
+    "annee": 2010,
+    "revue": "Nature",
+    "volume": "467",
+    "page": "E2-E2",
+    "titre": "Müller, Peters &amp; Chu reply",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Middlemiss2016",
+  "doi_demande": null,
+  "requete": "Middlemiss Hammond Measurement of the Earth tides with a MEMS gravimeter Nature 2016",
+  "auteur_attendu": "Middlemiss",
+  "annee_attendue": 2016,
+  "resultats": [
+   {
+    "doi": "10.1038/nature17397",
+    "premier_auteur": "Middlemiss",
+    "nb_auteurs": 6,
+    "annee": 2016,
+    "revue": "Nature",
+    "volume": "531",
+    "page": "614-617",
+    "titre": "Measurement of the Earth tides with a MEMS gravimeter",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/icsens.2018.8589884",
+    "premier_auteur": "Prasad",
+    "nb_auteurs": 7,
+    "annee": 2018,
+    "revue": "2018 IEEE SENSORS",
+    "volume": null,
+    "page": "1-3",
+    "titre": "A Portable MEMS Gravimeter for the Detection of the Earth Tides",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.5194/egusphere-egu23-8681",
+    "premier_auteur": "Utting",
+    "nb_auteurs": 4,
+    "annee": 2023,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Integrated system development of a MEMS Pendulum Gravimeter",
+    "type": "posted-content"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Menoret2018",
+  "doi_demande": null,
+  "requete": "Menoret Gravity measurements below 10-9 g with a transportable absolute quantum gravimeter Scientific Reports 2018",
+  "auteur_attendu": "Ménoret",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1038/s41598-018-30608-1",
+    "premier_auteur": "Ménoret",
+    "nb_auteurs": 7,
+    "annee": 2018,
+    "revue": "Scientific Reports",
+    "volume": "8",
+    "page": null,
+    "titre": "Gravity measurements below 10−9 g with a transportable absolute quantum gravimeter",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.26226/m.6275705d66d5dcf63a311652",
+    "premier_auteur": "Heine",
+    "nb_auteurs": 5,
+    "annee": 2022,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Atom interferometric gravity data acquisition with the transportable absolute Quantum Gravimeter QG-1",
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.1088/0026-1394/18/4/006",
+    "premier_auteur": "Alasia",
+    "nb_auteurs": 4,
+    "annee": 1982,
+    "revue": "Metrologia",
+    "volume": "18",
+    "page": "221-229",
+    "titre": "Absolute Gravity Acceleration Measurements: Experiences with a Transportable Gravimeter",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Stray2022",
+  "doi_demande": null,
+  "requete": "Stray Holynski Quantum sensing for gravity cartography Nature 2022",
+  "auteur_attendu": "Stray",
+  "annee_attendue": 2022,
+  "resultats": [
+   {
+    "doi": "10.1038/s41586-021-04315-3",
+    "premier_auteur": "Stray",
+    "nb_auteurs": 23,
+    "annee": 2022,
+    "revue": "Nature",
+    "volume": "602",
+    "page": "590-594",
+    "titre": "Quantum sensing for gravity cartography",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.21203/rs.3.rs-882491/v1",
+    "premier_auteur": "Stray*",
+    "nb_auteurs": 23,
+    "annee": 2021,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Quantum sensing for gravitational cartography",
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.1117/12.3053409",
+    "premier_auteur": "Holynski",
+    "nb_auteurs": 2,
+    "annee": 2025,
+    "revue": "Quantum Sensing, Imaging, and Precision Metrology III",
+    "volume": null,
+    "page": "86",
+    "titre": "Applications of quantum sensing, imaging, and timing",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Niebauer1995",
+  "doi_demande": null,
+  "requete": "Niebauer Sasagawa Faller A new generation of absolute gravimeters Metrologia 1995",
+  "auteur_attendu": "Niebauer",
+  "annee_attendue": 1995,
+  "resultats": [
+   {
+    "doi": "10.1088/0026-1394/32/3/004",
+    "premier_auteur": "Niebauer",
+    "nb_auteurs": 5,
+    "annee": 1995,
+    "revue": "Metrologia",
+    "volume": "32",
+    "page": "159-180",
+    "titre": "A new generation of absolute gravimeters",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1088/0026-1394/26/2/005",
+    "premier_auteur": "Niebauer",
+    "nb_auteurs": 1,
+    "annee": 1989,
+    "revue": "Metrologia",
+    "volume": "26",
+    "page": "115-118",
+    "titre": "The Effective Measurement Height of Free-fall Absolute Gravimeters",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1088/0026-1394/40/5/008",
+    "premier_auteur": "Westrum",
+    "nb_auteurs": 2,
+    "annee": 2003,
+    "revue": "Metrologia",
+    "volume": "40",
+    "page": "258-263",
+    "titre": "The diffraction correction for absolute gravimeters",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Goodkind1999",
+  "doi_demande": null,
+  "requete": "Goodkind The superconducting gravimeter Review of Scientific Instruments 1999",
+  "auteur_attendu": "Goodkind",
+  "annee_attendue": 1999,
+  "resultats": [
+   {
+    "doi": "10.1063/1.1150092",
+    "premier_auteur": "Goodkind",
+    "nb_auteurs": 1,
+    "annee": 1999,
+    "revue": "Review of Scientific Instruments",
+    "volume": "70",
+    "page": "4131-4152",
+    "titre": "The superconducting gravimeter",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.1683645",
+    "premier_auteur": "Prothero",
+    "nb_auteurs": 2,
+    "annee": 1968,
+    "revue": "Review of Scientific Instruments",
+    "volume": "39",
+    "page": "1257-1262",
+    "titre": "A Superconducting Gravimeter",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.1684651",
+    "premier_auteur": "Goodkind",
+    "nb_auteurs": 2,
+    "annee": 1970,
+    "revue": "Review of Scientific Instruments",
+    "volume": "41",
+    "page": "799-807",
+    "titre": "The Superconducting Magnetic Flux Detector",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Staacks2018",
+  "doi_demande": null,
+  "requete": "Staacks Advanced tools for smartphone-based experiments: phyphox Physics Education 2018",
+  "auteur_attendu": "Staacks",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1088/1361-6552/aac05e",
+    "premier_auteur": "Staacks",
+    "nb_auteurs": 4,
+    "annee": 2018,
+    "revue": "Physics Education",
+    "volume": "53",
+    "page": "045009",
+    "titre": "Advanced tools for smartphone-based experiments: phyphox",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1088/1361-6552/ae6c86",
+    "premier_auteur": "Staacks",
+    "nb_auteurs": 6,
+    "annee": 2026,
+    "revue": "Physics Education",
+    "volume": "61",
+    "page": "035049",
+    "titre": "Real-time camera experiments with phyphox",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1088/1361-6404/ac7830",
+    "premier_auteur": "Staacks",
+    "nb_auteurs": 7,
+    "annee": 2022,
+    "revue": "European Journal of Physics",
+    "volume": "43",
+    "page": "055702",
+    "titre": "Collaborative smartphone experiments for large audiences with phyphox",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lamoreaux1997",
+  "doi_demande": "10.1103/PhysRevLett.78.5",
+  "requete": null,
+  "auteur_attendu": "Lamoreaux",
+  "annee_attendue": 1997,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.78.5",
+    "premier_auteur": "Lamoreaux",
+    "nb_auteurs": 1,
+    "annee": 1997,
+    "revue": "Physical Review Letters",
+    "volume": "78",
+    "page": "5-8",
+    "titre": "Demonstration of the Casimir Force in the 0.6 to\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mn>6</mml:mn>\n                      <mml:mi/>\n                      <mml:mi>μ</mml:mi>\n                      <mml:mi>m</mml:mi>\n                    </mml:math>\n                    Range",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "MohideenRoy1998",
+  "doi_demande": "10.1103/PhysRevLett.81.4549",
+  "requete": null,
+  "auteur_attendu": "Mohideen",
+  "annee_attendue": 1998,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.81.4549",
+    "premier_auteur": "Mohideen",
+    "nb_auteurs": 2,
+    "annee": 1998,
+    "revue": "Physical Review Letters",
+    "volume": "81",
+    "page": "4549-4552",
+    "titre": "Precision Measurement of the Casimir Force from 0.1 to\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mn>0.9</mml:mn>\n                      <mml:mi/>\n                      <mml:mi mathvariant=\"italic\">μ</mml:mi>\n                      <mml:mi>m</mml:mi>\n                    </mml:math>",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Bressi2002",
+  "doi_demande": "10.1103/PhysRevLett.88.041804",
+  "requete": null,
+  "auteur_attendu": "Bressi",
+  "annee_attendue": 2002,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.88.041804",
+    "premier_auteur": "Bressi",
+    "nb_auteurs": 4,
+    "annee": 2002,
+    "revue": "Physical Review Letters",
+    "volume": "88",
+    "page": "041804",
+    "titre": "Measurement of the Casimir Force between Parallel Metallic Surfaces",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Chan2001",
+  "doi_demande": null,
+  "requete": "Chan Aksyuk Kleiman Bishop Capasso Quantum mechanical actuation of microelectromechanical systems by the Casimir force Science 2001",
+  "auteur_attendu": "Chan",
+  "annee_attendue": 2001,
+  "resultats": [
+   {
+    "doi": "10.1126/science.1057984",
+    "premier_auteur": "Chan",
+    "nb_auteurs": 5,
+    "annee": 2001,
+    "revue": "Science",
+    "volume": "291",
+    "page": "1941-1944",
+    "titre": "Quantum Mechanical Actuation of Microelectromechanical Systems by the Casimir Force",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevlett.87.211801",
+    "premier_auteur": "Chan",
+    "nb_auteurs": 5,
+    "annee": 2001,
+    "revue": "Physical Review Letters",
+    "volume": "87",
+    "page": null,
+    "titre": "Nonlinear Micromechanical Casimir Oscillator",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-3-642-20288-9_9",
+    "premier_auteur": "Decca",
+    "nb_auteurs": 3,
+    "annee": 2011,
+    "revue": "Lecture Notes in Physics; Casimir Physics",
+    "volume": null,
+    "page": "287-309",
+    "titre": "Casimir Force in Micro and Nano Electro Mechanical Systems",
+    "type": "book-chapter"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Munday2009",
+  "doi_demande": null,
+  "requete": "Munday Capasso Parsegian Measured long-range repulsive Casimir-Lifshitz forces Nature 2009",
+  "auteur_attendu": "Munday",
+  "annee_attendue": 2009,
+  "resultats": [
+   {
+    "doi": "10.1038/nature07610",
+    "premier_auteur": "Munday",
+    "nb_auteurs": 3,
+    "annee": 2009,
+    "revue": "Nature",
+    "volume": "457",
+    "page": "170-173",
+    "titre": "Measured long-range repulsive Casimir–Lifshitz forces",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-3-642-20288-9_8",
+    "premier_auteur": "Capasso",
+    "nb_auteurs": 2,
+    "annee": 2011,
+    "revue": "Lecture Notes in Physics; Casimir Physics",
+    "volume": null,
+    "page": "249-286",
+    "titre": "Attractive and Repulsive Casimir–Lifshitz Forces, QED Torques, and Applications to Nanomachines",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1103/physreva.78.032109",
+    "premier_auteur": "Munday",
+    "nb_auteurs": 4,
+    "annee": 2008,
+    "revue": "Physical Review A",
+    "volume": "78",
+    "page": null,
+    "titre": "Measurements of the Casimir-Lifshitz force in fluids: The effect of electrostatic forces and Debye screening",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Sushkov2011",
+  "doi_demande": null,
+  "requete": "Sushkov Kim Dalvit Lamoreaux Observation of the thermal Casimir force Nature Physics 2011",
+  "auteur_attendu": "Sushkov",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1038/nphys1909",
+    "premier_auteur": "Sushkov",
+    "nb_auteurs": 4,
+    "annee": 2011,
+    "revue": "Nature Physics",
+    "volume": "7",
+    "page": "230-233",
+    "titre": "Observation of the thermal Casimir force",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physreva.81.022505",
+    "premier_auteur": "Kim",
+    "nb_auteurs": 4,
+    "annee": 2010,
+    "revue": "Physical Review A",
+    "volume": "81",
+    "page": null,
+    "titre": "Surface contact potential patches and Casimir force measurements",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.4249/scholarpedia.9746",
+    "premier_auteur": "Lamoreaux",
+    "nb_auteurs": 1,
+    "annee": 2011,
+    "revue": "Scholarpedia",
+    "volume": "6",
+    "page": "9746",
+    "titre": "Casimir Force",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Decca2007",
+  "doi_demande": "10.1103/PhysRevD.75.077101",
+  "requete": null,
+  "auteur_attendu": "Decca",
+  "annee_attendue": 2007,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.75.077101",
+    "premier_auteur": "Decca",
+    "nb_auteurs": 6,
+    "annee": 2007,
+    "revue": "Physical Review D",
+    "volume": "75",
+    "page": "077101",
+    "titre": "Tests of new physics from precise measurements of the Casimir pressure between two gold-coated plates",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Garrett2018",
+  "doi_demande": "10.1103/PhysRevLett.120.040401",
+  "requete": null,
+  "auteur_attendu": "Garrett",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.120.040401",
+    "premier_auteur": "Garrett",
+    "nb_auteurs": 3,
+    "annee": 2018,
+    "revue": "Physical Review Letters",
+    "volume": "120",
+    "page": "040401",
+    "titre": "Measurement of the Casimir Force between Two Spheres",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Wilson2011",
+  "doi_demande": null,
+  "requete": "Wilson Johansson Delsing Observation of the dynamical Casimir effect in a superconducting circuit Nature 2011",
+  "auteur_attendu": "Wilson",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1038/nature10561",
+    "premier_auteur": "Wilson",
+    "nb_auteurs": 8,
+    "annee": 2011,
+    "revue": "Nature",
+    "volume": "479",
+    "page": "376-379",
+    "titre": "Observation of the dynamical Casimir effect in a superconducting circuit",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physreva.87.043804",
+    "premier_auteur": "Johansson",
+    "nb_auteurs": 5,
+    "annee": 2013,
+    "revue": "Physical Review A",
+    "volume": "87",
+    "page": null,
+    "titre": "Nonclassical microwave radiation from the dynamical Casimir effect",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physreva.82.052509",
+    "premier_auteur": "Johansson",
+    "nb_auteurs": 4,
+    "annee": 2010,
+    "revue": "Physical Review A",
+    "volume": "82",
+    "page": null,
+    "titre": "Dynamical Casimir effect in superconducting microwave circuits",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "FordRoman1995",
+  "doi_demande": "10.1103/PhysRevD.51.4277",
+  "requete": null,
+  "auteur_attendu": "Ford",
+  "annee_attendue": 1995,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.51.4277",
+    "premier_auteur": "Ford",
+    "nb_auteurs": 2,
+    "annee": 1995,
+    "revue": "Physical Review D",
+    "volume": "51",
+    "page": "4277-4286",
+    "titre": "Averaged energy conditions and quantum inequalities",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "FordRoman1996",
+  "doi_demande": "10.1103/PhysRevD.53.5496",
+  "requete": null,
+  "auteur_attendu": "Ford",
+  "annee_attendue": 1996,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.53.5496",
+    "premier_auteur": "Ford",
+    "nb_auteurs": 2,
+    "annee": 1996,
+    "revue": "Physical Review D",
+    "volume": "53",
+    "page": "5496-5507",
+    "titre": "Quantum field theory constrains traversable wormhole geometries",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "MTY1988",
+  "doi_demande": "10.1103/PhysRevLett.61.1446",
+  "requete": null,
+  "auteur_attendu": "Morris",
+  "annee_attendue": 1988,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.61.1446",
+    "premier_auteur": "Morris",
+    "nb_auteurs": 3,
+    "annee": 1988,
+    "revue": "Physical Review Letters",
+    "volume": "61",
+    "page": "1446-1449",
+    "titre": "Wormholes, Time Machines, and the Weak Energy Condition",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Jaffe2005",
+  "doi_demande": "10.1103/PhysRevD.72.021301",
+  "requete": null,
+  "auteur_attendu": "Jaffe",
+  "annee_attendue": 2005,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.72.021301",
+    "premier_auteur": "Jaffe",
+    "nb_auteurs": 1,
+    "annee": 2005,
+    "revue": "Physical Review D",
+    "volume": "72",
+    "page": "021301",
+    "titre": "Casimir effect and the quantum vacuum",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lamoreaux2005",
+  "doi_demande": null,
+  "requete": "Lamoreaux The Casimir force: background, experiments, and applications Reports on Progress in Physics 2005",
+  "auteur_attendu": "Lamoreaux",
+  "annee_attendue": 2005,
+  "resultats": [
+   {
+    "doi": "10.1088/0034-4885/68/1/r04",
+    "premier_auteur": "Lamoreaux",
+    "nb_auteurs": 1,
+    "annee": 2005,
+    "revue": "Reports on Progress in Physics",
+    "volume": "68",
+    "page": "201-236",
+    "titre": "The Casimir force: background, experiments, and applications",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-3-642-20288-9_7",
+    "premier_auteur": "Lamoreaux",
+    "nb_auteurs": 1,
+    "annee": 2011,
+    "revue": "Lecture Notes in Physics; Casimir Physics",
+    "volume": null,
+    "page": "219-248",
+    "titre": "Progress in Experimental Measurements of the Surface–Surface Casimir Force: Electrostatic Calibrations and Limitations to Accuracy",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1088/0953-8984/27/21/214016",
+    "premier_auteur": "Lamoreaux",
+    "nb_auteurs": 2,
+    "annee": 2015,
+    "revue": "Journal of Physics: Condensed Matter",
+    "volume": "27",
+    "page": "214016",
+    "titre": "Mechanical temporal fluctuation induced distance and force systematic errors in Casimir force experiments",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Unruh1981",
+  "doi_demande": "10.1103/PhysRevLett.46.1351",
+  "requete": null,
+  "auteur_attendu": "Unruh",
+  "annee_attendue": 1981,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.46.1351",
+    "premier_auteur": "Unruh",
+    "nb_auteurs": 1,
+    "annee": 1981,
+    "revue": "Physical Review Letters",
+    "volume": "46",
+    "page": "1351-1353",
+    "titre": "Experimental Black-Hole Evaporation?",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "SchutzholdUnruh2002",
+  "doi_demande": "10.1103/PhysRevD.66.044019",
+  "requete": null,
+  "auteur_attendu": "Schützhold",
+  "annee_attendue": 2002,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.66.044019",
+    "premier_auteur": "Schützhold",
+    "nb_auteurs": 2,
+    "annee": 2002,
+    "revue": "Physical Review D",
+    "volume": "66",
+    "page": "044019",
+    "titre": "Gravity wave analogues of black holes",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Rousseaux2008",
+  "doi_demande": null,
+  "requete": "Rousseaux Observation of negative-frequency waves in a water tank: a classical analogue to the Hawking effect New Journal of Physics 2008",
+  "auteur_attendu": "Rousseaux",
+  "annee_attendue": 2008,
+  "resultats": [
+   {
+    "doi": "10.1088/1367-2630/10/5/053015",
+    "premier_auteur": "Rousseaux",
+    "nb_auteurs": 5,
+    "annee": 2008,
+    "revue": "New Journal of Physics",
+    "volume": "10",
+    "page": "053015",
+    "titre": "Observation of negative-frequency waves in a water tank: a classical analogue to the Hawking effect?",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevlett.117.121301",
+    "premier_auteur": "Euvé",
+    "nb_auteurs": 5,
+    "annee": 2016,
+    "revue": "Physical Review Letters",
+    "volume": "117",
+    "page": null,
+    "titre": "Observation of Noise Correlated by the Hawking Effect in a Water Tank",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-3-319-00266-8_5",
+    "premier_auteur": "Rousseaux",
+    "nb_auteurs": 1,
+    "annee": 2013,
+    "revue": "Lecture Notes in Physics; Analogue Gravity Phenomenology",
+    "volume": null,
+    "page": "81-107",
+    "titre": "The Basics of Water Waves Theory for Analogue Gravity",
+    "type": "book-chapter"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Weinfurtner2011",
+  "doi_demande": "10.1103/PhysRevLett.106.021302",
+  "requete": null,
+  "auteur_attendu": "Weinfurtner",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.106.021302",
+    "premier_auteur": "Weinfurtner",
+    "nb_auteurs": 5,
+    "annee": 2011,
+    "revue": "Physical Review Letters",
+    "volume": "106",
+    "page": "021302",
+    "titre": "Measurement of Stimulated Hawking Emission in an Analogue System",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Jannes2011",
+  "doi_demande": "10.1103/PhysRevE.83.056312",
+  "requete": null,
+  "auteur_attendu": "Jannes",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1103/physreve.83.056312",
+    "premier_auteur": "Jannes",
+    "nb_auteurs": 5,
+    "annee": 2011,
+    "revue": "Physical Review E",
+    "volume": "83",
+    "page": "056312",
+    "titre": "Experimental demonstration of the supersonic-subsonic bifurcation in the circular jump: A hydrodynamic white hole",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Volovik2005",
+  "doi_demande": null,
+  "requete": "Volovik Hydraulic jump as a white hole JETP Letters 2005",
+  "auteur_attendu": "Volovik",
+  "annee_attendue": 2005,
+  "resultats": [
+   {
+    "doi": "10.1134/1.2166908",
+    "premier_auteur": "Volovik",
+    "nb_auteurs": 1,
+    "annee": 2005,
+    "revue": "Journal of Experimental and Theoretical Physics Letters",
+    "volume": "82",
+    "page": "624-627",
+    "titre": "Hydraulic jump as a white hole",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1134/s0021364024603464",
+    "premier_auteur": "Volovik",
+    "nb_auteurs": 1,
+    "annee": 2025,
+    "revue": "JETP Letters",
+    "volume": "121",
+    "page": "243-248",
+    "titre": "Tsallis–Cirto Entropy of a Black Hole and a Black Hole Atom",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1134/s0021364016210050",
+    "premier_auteur": "Volovik",
+    "nb_auteurs": 1,
+    "annee": 2016,
+    "revue": "JETP Letters",
+    "volume": "104",
+    "page": "645-648",
+    "titre": "Black hole and hawking radiation by type-II Weyl fermions",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Torres2017",
+  "doi_demande": null,
+  "requete": "Torres Patrick Coutant Richartz Tedford Weinfurtner Rotational superradiant scattering in a vortex flow Nature Physics 2017",
+  "auteur_attendu": "Torres",
+  "annee_attendue": 2017,
+  "resultats": [
+   {
+    "doi": "10.1038/nphys4151",
+    "premier_auteur": "Torres",
+    "nb_auteurs": 6,
+    "annee": 2017,
+    "revue": "Nature Physics",
+    "volume": "13",
+    "page": "833-836",
+    "titre": "Rotational superradiant scattering in a vortex flow",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevlett.121.061101",
+    "premier_auteur": "Patrick",
+    "nb_auteurs": 4,
+    "annee": 2018,
+    "revue": "Physical Review Letters",
+    "volume": "121",
+    "page": null,
+    "titre": "Black Hole Quasibound States from a Draining Bathtub Vortex Flow",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevlett.117.271101",
+    "premier_auteur": "Cardoso",
+    "nb_auteurs": 4,
+    "annee": 2016,
+    "revue": "Physical Review Letters",
+    "volume": "117",
+    "page": null,
+    "titre": "Detecting Rotational Superradiance in Fluid Laboratories",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Euve2016",
+  "doi_demande": "10.1103/PhysRevLett.117.121301",
+  "requete": null,
+  "auteur_attendu": "Euvé",
+  "annee_attendue": 2016,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.117.121301",
+    "premier_auteur": "Euvé",
+    "nb_auteurs": 5,
+    "annee": 2016,
+    "revue": "Physical Review Letters",
+    "volume": "117",
+    "page": "121301",
+    "titre": "Observation of Noise Correlated by the Hawking Effect in a Water Tank",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Steinhauer2016",
+  "doi_demande": null,
+  "requete": "Steinhauer Observation of quantum Hawking radiation and its entanglement in an analogue black hole Nature Physics 2016",
+  "auteur_attendu": "Steinhauer",
+  "annee_attendue": 2016,
+  "resultats": [
+   {
+    "doi": "10.1038/nphys3863",
+    "premier_auteur": "Steinhauer",
+    "nb_auteurs": 1,
+    "annee": 2016,
+    "revue": "Nature Physics",
+    "volume": "12",
+    "page": "959-965",
+    "titre": "Observation of quantum Hawking radiation and its entanglement in an analogue black hole",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/nphys3104",
+    "premier_auteur": "Steinhauer",
+    "nb_auteurs": 1,
+    "annee": 2014,
+    "revue": "Nature Physics",
+    "volume": "10",
+    "page": "864-869",
+    "titre": "Observation of self-amplifying Hawking radiation in an analogue black-hole laser",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/s41586-019-1241-0",
+    "premier_auteur": "Muñoz de Nova",
+    "nb_auteurs": 4,
+    "annee": 2019,
+    "revue": "Nature",
+    "volume": "569",
+    "page": "688-691",
+    "titre": "Observation of thermal Hawking radiation and its temperature in an analogue black hole",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "MunozdeNova2019",
+  "doi_demande": null,
+  "requete": "Munoz de Nova Golubkov Kolobov Steinhauer Observation of thermal Hawking radiation and its temperature in an analogue black hole Nature 2019",
+  "auteur_attendu": "Nova",
+  "annee_attendue": 2019,
+  "resultats": [
+   {
+    "doi": "10.1038/s41586-019-1241-0",
+    "premier_auteur": "Muñoz de Nova",
+    "nb_auteurs": 4,
+    "annee": 2019,
+    "revue": "Nature",
+    "volume": "569",
+    "page": "688-691",
+    "titre": "Observation of thermal Hawking radiation and its temperature in an analogue black hole",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/s41567-020-01076-0",
+    "premier_auteur": "Kolobov",
+    "nb_auteurs": 4,
+    "annee": 2021,
+    "revue": "Nature Physics",
+    "volume": "17",
+    "page": "362-367",
+    "titre": "Observation of stationary spontaneous Hawking radiation and the time evolution of an analogue black hole",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/nphys3863",
+    "premier_auteur": "Steinhauer",
+    "nb_auteurs": 1,
+    "annee": 2016,
+    "revue": "Nature Physics",
+    "volume": "12",
+    "page": "959-965",
+    "titre": "Observation of quantum Hawking radiation and its entanglement in an analogue black hole",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Philbin2008",
+  "doi_demande": null,
+  "requete": "Philbin Kuklewicz Robertson Hill Konig Leonhardt Fiber-optical analog of the event horizon Science 2008",
+  "auteur_attendu": "Philbin",
+  "annee_attendue": 2008,
+  "resultats": [
+   {
+    "doi": "10.1109/cleo.2008.4552280",
+    "premier_auteur": "Kuklewicz",
+    "nb_auteurs": 6,
+    "annee": 2008,
+    "revue": "2008 Conference on Lasers and Electro-Optics",
+    "volume": null,
+    "page": "1-2",
+    "titre": "Frequency shifts at the fiber-optical event horizon",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1126/science.1153625",
+    "premier_auteur": "Philbin",
+    "nb_auteurs": 6,
+    "annee": 2008,
+    "revue": "Science",
+    "volume": "319",
+    "page": "1367-1370",
+    "titre": "Fiber-Optical Analog of the Event Horizon",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/leoswt.2009.4771736",
+    "premier_auteur": "Leonhardt",
+    "nb_auteurs": 6,
+    "annee": 2009,
+    "revue": "2009 IEEE/LEOS Winter Topicals Meeting Series",
+    "volume": null,
+    "page": "219-220",
+    "titre": "Fibre-optical analogue of the event horizon",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Belgiorno2010",
+  "doi_demande": "10.1103/PhysRevLett.105.203901",
+  "requete": null,
+  "auteur_attendu": "Belgiorno",
+  "annee_attendue": 2010,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.105.203901",
+    "premier_auteur": "Belgiorno",
+    "nb_auteurs": 9,
+    "annee": 2010,
+    "revue": "Physical Review Letters",
+    "volume": "105",
+    "page": "203901",
+    "titre": "Hawking Radiation from Ultrashort Laser Pulse Filaments",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Drori2019",
+  "doi_demande": "10.1103/PhysRevLett.122.010404",
+  "requete": null,
+  "auteur_attendu": "Drori",
+  "annee_attendue": 2019,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.122.010404",
+    "premier_auteur": "Drori",
+    "nb_auteurs": 5,
+    "annee": 2019,
+    "revue": "Physical Review Letters",
+    "volume": "122",
+    "page": "010404",
+    "titre": "Observation of Stimulated Hawking Radiation in an Optical Analogue",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Barcelo2011",
+  "doi_demande": null,
+  "requete": "Barcelo Liberati Visser Analogue gravity Living Reviews in Relativity 2011",
+  "auteur_attendu": "Barceló",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.12942/lrr-2011-3",
+    "premier_auteur": "Barceló",
+    "nb_auteurs": 3,
+    "annee": 2011,
+    "revue": "Living Reviews in Relativity",
+    "volume": "14",
+    "page": null,
+    "titre": "Analogue Gravity",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/s41114-026-00064-9",
+    "premier_auteur": "Barceló",
+    "nb_auteurs": 3,
+    "annee": 2026,
+    "revue": "Living Reviews in Relativity",
+    "volume": "29",
+    "page": null,
+    "titre": "Analogue gravity",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.12942/lrr-2005-12",
+    "premier_auteur": "Barceló",
+    "nb_auteurs": 3,
+    "annee": 2005,
+    "revue": "Living Reviews in Relativity",
+    "volume": "8",
+    "page": null,
+    "titre": "Analogue Gravity",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Torres2020",
+  "doi_demande": "10.1103/PhysRevLett.125.011301",
+  "requete": null,
+  "auteur_attendu": "Torres",
+  "annee_attendue": 2020,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.125.011301",
+    "premier_auteur": "Torres",
+    "nb_auteurs": 4,
+    "annee": 2020,
+    "revue": "Physical Review Letters",
+    "volume": "125",
+    "page": "011301",
+    "titre": "Quasinormal Mode Oscillations in an Analogue Black Hole Experiment",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Cromb2020",
+  "doi_demande": null,
+  "requete": "Cromb Gibson Toninelli Padgett Wright Faccio Amplification of waves from a rotating body Nature Physics 2020",
+  "auteur_attendu": "Cromb",
+  "annee_attendue": 2020,
+  "resultats": [
+   {
+    "doi": "10.1038/s41567-020-0944-3",
+    "premier_auteur": "Cromb",
+    "nb_auteurs": 6,
+    "annee": 2020,
+    "revue": "Nature Physics",
+    "volume": "16",
+    "page": "1069-1073",
+    "titre": "Amplification of waves from a rotating body",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/s41467-024-49689-w",
+    "premier_auteur": "Braidotti",
+    "nb_auteurs": 6,
+    "annee": 2024,
+    "revue": "Nature Communications",
+    "volume": "15",
+    "page": null,
+    "titre": "Amplification of electromagnetic fields by a rotating body",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physreva.101.043837",
+    "premier_auteur": "Toroš",
+    "nb_auteurs": 7,
+    "annee": 2020,
+    "revue": "Physical Review A",
+    "volume": "101",
+    "page": null,
+    "titre": "Revealing and concealing entanglement with noninertial motion",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Svancara2024",
+  "doi_demande": null,
+  "requete": "Svancara Rotating curved spacetime signatures from a giant quantum vortex Nature 2024",
+  "auteur_attendu": "Švančara",
+  "annee_attendue": 2024,
+  "resultats": [
+   {
+    "doi": "10.1038/s41586-024-07176-8",
+    "premier_auteur": "Švančara",
+    "nb_auteurs": 8,
+    "annee": 2024,
+    "revue": "Nature",
+    "volume": "628",
+    "page": "66-70",
+    "titre": "Rotating curved spacetime signatures from a giant quantum vortex",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.21203/rs.3.rs-6549466/v1",
+    "premier_auteur": "Weinfurtner",
+    "nb_auteurs": 8,
+    "annee": 2025,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Black-hole spectroscopy from a giant quantum vortex",
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.22541/au.170664906.64429874/v1",
+    "premier_auteur": "Roy",
+    "nb_auteurs": 1,
+    "annee": 2024,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Gravity in Curved Spacetime yields Quantum Mechanics in Flat Spacetime",
+    "type": "posted-content"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "BushAristoff2003",
+  "doi_demande": null,
+  "requete": "Bush Aristoff The influence of surface tension on the circular hydraulic jump Journal of Fluid Mechanics 2003",
+  "auteur_attendu": "Bush",
+  "annee_attendue": 2003,
+  "resultats": [
+   {
+    "doi": "10.1017/s0022112003005159",
+    "premier_auteur": "BUSH",
+    "nb_auteurs": 2,
+    "annee": 2003,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "489",
+    "page": "229-238",
+    "titre": "The influence of surface tension on the circular hydraulic jump",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/s0022112006009839",
+    "premier_auteur": "BUSH",
+    "nb_auteurs": 3,
+    "annee": 2006,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "558",
+    "page": "33-52",
+    "titre": "An experimental investigation of the stability of the circular hydraulic jump",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/jfm.2022.136",
+    "premier_auteur": "Duchesne",
+    "nb_auteurs": 2,
+    "annee": 2022,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "937",
+    "page": null,
+    "titre": "Circular hydraulic jumps: where does surface tension matter?",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Watson1964",
+  "doi_demande": null,
+  "requete": "Watson The radial spread of a liquid jet over a horizontal plane Journal of Fluid Mechanics 1964",
+  "auteur_attendu": "Watson",
+  "annee_attendue": 1964,
+  "resultats": [
+   {
+    "doi": "10.1017/s0022112064001367",
+    "premier_auteur": "Watson",
+    "nb_auteurs": 1,
+    "annee": 1964,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "20",
+    "page": "481-499",
+    "titre": "The radial spread of a liquid jet over a horizontal plane",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/s0022112008003431",
+    "premier_auteur": "ZHAO",
+    "nb_auteurs": 2,
+    "annee": 2008,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "613",
+    "page": "411-443",
+    "titre": "Spread of a non-Newtonian liquid jet over a horizontal plate",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/s0022112064001379",
+    "premier_auteur": "Chaudhury",
+    "nb_auteurs": 1,
+    "annee": 1964,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "20",
+    "page": "501-511",
+    "titre": "Heat transfer in a radial liquid jet",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Bohr1993",
+  "doi_demande": null,
+  "requete": "Bohr Dimon Putkaradze Shallow-water approach to the circular hydraulic jump Journal of Fluid Mechanics 1993",
+  "auteur_attendu": "Bohr",
+  "annee_attendue": 1993,
+  "resultats": [
+   {
+    "doi": "10.1017/s0022112093002289",
+    "premier_auteur": "Bohr",
+    "nb_auteurs": 3,
+    "annee": 1993,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "254",
+    "page": "635-648",
+    "titre": "Shallow-water approach to the circular hydraulic jump",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/s0022112003003744",
+    "premier_auteur": "WATANABE",
+    "nb_auteurs": 3,
+    "annee": 2003,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "480",
+    "page": "233-265",
+    "titre": "Integral methods for shallow free-surface flows with separation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/jfm.2013.174",
+    "premier_auteur": "Richard",
+    "nb_auteurs": 2,
+    "annee": 2013,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "725",
+    "page": "492-521",
+    "titre": "The classical hydraulic jump in a model of shear shallow-water flows",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Bhagat2018",
+  "doi_demande": null,
+  "requete": "Bhagat Jha Linden Wilson On the origin of the circular hydraulic jump in a thin liquid film Journal of Fluid Mechanics 2018",
+  "auteur_attendu": "Bhagat",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1017/jfm.2018.558",
+    "premier_auteur": "Bhagat",
+    "nb_auteurs": 4,
+    "annee": 2018,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "851",
+    "page": null,
+    "titre": "On the origin of the circular hydraulic jump in a thin liquid film",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/jfm.2020.303",
+    "premier_auteur": "Bhagat",
+    "nb_auteurs": 2,
+    "annee": 2020,
+    "revue": "Journal of Fluid Mechanics",
+    "volume": "896",
+    "page": null,
+    "titre": "The circular capillary jump",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevfluids.4.084001",
+    "premier_auteur": "Duchesne",
+    "nb_auteurs": 3,
+    "annee": 2019,
+    "revue": "Physical Review Fluids",
+    "volume": "4",
+    "page": null,
+    "titre": "Surface tension and the origin of the circular hydraulic jump in a thin liquid film",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Paul1990",
+  "doi_demande": "10.1103/RevModPhys.62.531",
+  "requete": null,
+  "auteur_attendu": "Paul",
+  "annee_attendue": 1990,
+  "resultats": [
+   {
+    "doi": "10.1103/revmodphys.62.531",
+    "premier_auteur": "Paul",
+    "nb_auteurs": 1,
+    "annee": 1990,
+    "revue": "Reviews of Modern Physics",
+    "volume": "62",
+    "page": "531-540",
+    "titre": "Electromagnetic traps for charged and neutral particles",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Wuerker1959",
+  "doi_demande": null,
+  "requete": "Wuerker Shelton Langmuir Electrodynamic containment of charged particles Journal of Applied Physics 1959",
+  "auteur_attendu": "Wuerker",
+  "annee_attendue": 1959,
+  "resultats": [
+   {
+    "doi": "10.1063/1.1735165",
+    "premier_auteur": "Wuerker",
+    "nb_auteurs": 3,
+    "annee": 1959,
+    "revue": "Journal of Applied Physics",
+    "volume": "30",
+    "page": "342-349",
+    "titre": "Electrodynamic Containment of Charged Particles",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.1735185",
+    "premier_auteur": "Wuerker",
+    "nb_auteurs": 3,
+    "annee": 1959,
+    "revue": "Journal of Applied Physics",
+    "volume": "30",
+    "page": "441-442",
+    "titre": "Electrodynamic Containment of Charged Particles by Three-Phase Voltages",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.366407",
+    "premier_auteur": "Peik",
+    "nb_auteurs": 2,
+    "annee": 1997,
+    "revue": "Journal of Applied Physics",
+    "volume": "82",
+    "page": "5283-5286",
+    "titre": "Electrodynamic trapping of charged particles in a monopole field",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "WinterOrtjohann1991",
+  "doi_demande": null,
+  "requete": "Winter Ortjohann Simple demonstration of storing macroscopic particles in a Paul trap American Journal of Physics 1991",
+  "auteur_attendu": "Winter",
+  "annee_attendue": 1991,
+  "resultats": [
+   {
+    "doi": "10.1119/1.16830",
+    "premier_auteur": "Winter",
+    "nb_auteurs": 2,
+    "annee": 1991,
+    "revue": "American Journal of Physics",
+    "volume": "59",
+    "page": "807-813",
+    "titre": "Simple demonstration of storing macroscopic particles in a ‘‘Paul trap’’",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.348478",
+    "premier_auteur": "Yu",
+    "nb_auteurs": 3,
+    "annee": 1991,
+    "revue": "Journal of Applied Physics",
+    "volume": "69",
+    "page": "3779-3781",
+    "titre": "Demonstration of new Paul–Straubel trap for trapping single ions",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.5040/9781350954175",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 2019,
+    "revue": "Paul Costelloe, Autumn/Winter 1991",
+    "volume": null,
+    "page": null,
+    "titre": "Paul Costelloe, Autumn/Winter 1991",
+    "type": "other"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "BerryGeim1997",
+  "doi_demande": null,
+  "requete": "Berry Geim Of flying frogs and levitrons European Journal of Physics 1997",
+  "auteur_attendu": "Berry",
+  "annee_attendue": 1997,
+  "resultats": [
+   {
+    "doi": "10.1088/0143-0807/18/4/012",
+    "premier_auteur": "Berry",
+    "nb_auteurs": 2,
+    "annee": 1997,
+    "revue": "European Journal of Physics",
+    "volume": "18",
+    "page": "307-313",
+    "titre": "Of flying frogs and levitrons",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1142/9789813221215_0062",
+    "premier_auteur": "Berry",
+    "nb_auteurs": 2,
+    "annee": 2017,
+    "revue": "A Half-Century of Physical Asymptotics and Other Diversions",
+    "volume": null,
+    "page": "615-621",
+    "titre": "Of flying frogs and levitrons",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1063/1.372654",
+    "premier_auteur": "Simon",
+    "nb_auteurs": 2,
+    "annee": 2000,
+    "revue": "Journal of Applied Physics",
+    "volume": "87",
+    "page": "6200-6204",
+    "titre": "Diamagnetic levitation: Flying frogs and floating magnets (invited)",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "SimonGeim2000",
+  "doi_demande": null,
+  "requete": "Simon Geim Diamagnetic levitation: Flying frogs and floating magnets Journal of Applied Physics 2000",
+  "auteur_attendu": "Simon",
+  "annee_attendue": 2000,
+  "resultats": [
+   {
+    "doi": "10.1063/1.372654",
+    "premier_auteur": "Simon",
+    "nb_auteurs": 2,
+    "annee": 2000,
+    "revue": "Journal of Applied Physics",
+    "volume": "87",
+    "page": "6200-6204",
+    "titre": "Diamagnetic levitation: Flying frogs and floating magnets (invited)",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.4159/harvard.9780674061095.c6",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 2011,
+    "revue": "Rising Force",
+    "volume": null,
+    "page": "83-100",
+    "titre": "6. Flying Frogs",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1063/5.0241203",
+    "premier_auteur": "Naito",
+    "nb_auteurs": 3,
+    "annee": 2024,
+    "revue": "Applied Physics Letters",
+    "volume": "125",
+    "page": null,
+    "titre": "Diamagnetic levitation of water realized with a simple device consisting of ordinary permanent magnets",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Simon1997",
+  "doi_demande": null,
+  "requete": "Simon Heflinger Ridgway Spin stabilized magnetic levitation American Journal of Physics 1997",
+  "auteur_attendu": "Simon",
+  "annee_attendue": 1997,
+  "resultats": [
+   {
+    "doi": "10.1119/1.18488",
+    "premier_auteur": "Simon",
+    "nb_auteurs": 3,
+    "annee": 1997,
+    "revue": "American Journal of Physics",
+    "volume": "65",
+    "page": "286-292",
+    "titre": "Spin stabilized magnetic levitation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.1375157",
+    "premier_auteur": "Simon",
+    "nb_auteurs": 3,
+    "annee": 2001,
+    "revue": "American Journal of Physics",
+    "volume": "69",
+    "page": "702-713",
+    "titre": "Diamagnetically stabilized magnet levitation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.1430699",
+    "premier_auteur": "Joseph",
+    "nb_auteurs": 1,
+    "annee": 2002,
+    "revue": "American Journal of Physics",
+    "volume": "70",
+    "page": "188-189",
+    "titre": "Comment on “Diamagnetically stabilized magnetic levitation,” by M. D. Simon, L. O. Heflinger, and A. K. Geim [Am. J. Phys. <b>69</b>, 702 (2001)]",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "LibbrechtBlack2018",
+  "doi_demande": null,
+  "requete": "Libbrecht Black Improved microparticle electrodynamic ion traps for physics teaching American Journal of Physics 2018",
+  "auteur_attendu": "Libbrecht",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1119/1.5034344",
+    "premier_auteur": "Libbrecht",
+    "nb_auteurs": 2,
+    "annee": 2018,
+    "revue": "American Journal of Physics",
+    "volume": "86",
+    "page": "539-558",
+    "titre": "Improved microparticle electrodynamic ion traps for physics teaching",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.4902185",
+    "premier_auteur": "Vinitsky",
+    "nb_auteurs": 3,
+    "annee": 2015,
+    "revue": "American Journal of Physics",
+    "volume": "83",
+    "page": "313-319",
+    "titre": "Particle dynamics in damped nonlinear quadrupole ion traps",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.4901972",
+    "premier_auteur": "Libbrecht",
+    "nb_auteurs": 2,
+    "annee": 2015,
+    "revue": "American Journal of Physics",
+    "volume": "83",
+    "page": "409-417",
+    "titre": "A basic Michelson laser interferometer for the undergraduate teaching laboratory demonstrating picometer sensitivity",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Rueckner1995",
+  "doi_demande": null,
+  "requete": "Rueckner Georgi Goodale Rosenberg Tavilla Rotating saddle Paul trap American Journal of Physics 1995",
+  "auteur_attendu": "Rueckner",
+  "annee_attendue": 1995,
+  "resultats": [
+   {
+    "doi": "10.1119/1.17983",
+    "premier_auteur": "Rueckner",
+    "nb_auteurs": 5,
+    "annee": 1995,
+    "revue": "American Journal of Physics",
+    "volume": "63",
+    "page": "186-187",
+    "titre": "Rotating saddle Paul trap",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.17778",
+    "premier_auteur": "Rueckner",
+    "nb_auteurs": 4,
+    "annee": 1995,
+    "revue": "American Journal of Physics",
+    "volume": "63",
+    "page": "90-91",
+    "titre": "Demonstration of charge conservation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.17281",
+    "premier_auteur": "Rueckner",
+    "nb_auteurs": 5,
+    "annee": 1993,
+    "revue": "American Journal of Physics",
+    "volume": "61",
+    "page": "184-186",
+    "titre": "Lecture demonstration of wineglass resonances",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Thompson2002",
+  "doi_demande": null,
+  "requete": "Thompson Harmon Ball The rotating-saddle trap: a mechanical analogy to RF-electric-quadrupole ion trapping Canadian Journal of Physics 2002",
+  "auteur_attendu": "Thompson",
+  "annee_attendue": 2002,
+  "resultats": [
+   {
+    "doi": "10.1139/p02-110",
+    "premier_auteur": "Thompson",
+    "nb_auteurs": 3,
+    "annee": 2002,
+    "revue": "Canadian Journal of Physics",
+    "volume": "80",
+    "page": "1433-1448",
+    "titre": "The rotating-saddle trap: a mechanical analogy to RF-electric-quadrupole ion trapping?",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1002/0471717983.ch3",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 2005,
+    "revue": "Quadrupole Ion Trap Mass Spectrometry",
+    "volume": null,
+    "page": "73-132",
+    "titre": "Dynamics of Ion Trapping",
+    "type": "other"
+   },
+   {
+    "doi": "10.1119/5.0274638",
+    "premier_auteur": "Carey",
+    "nb_auteurs": 6,
+    "annee": 2026,
+    "revue": "American Journal of Physics",
+    "volume": "94",
+    "page": "702-709",
+    "titre": "The asymmetric rotating saddle potential as a mechanical analog to the RF Paul trap",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Dyson1920",
+  "doi_demande": null,
+  "requete": "Dyson Eddington Davidson A determination of the deflection of light by the Sun's gravitational field Philosophical Transactions 1920",
+  "auteur_attendu": "Dyson",
+  "annee_attendue": 1920,
+  "resultats": [
+   {
+    "doi": "10.1098/rsta.2014.0287",
+    "premier_auteur": "Longair",
+    "nb_auteurs": 1,
+    "annee": 2015,
+    "revue": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "volume": "373",
+    "page": null,
+    "titre": "Bending space–time: a commentary on Dyson, Eddington and Davidson (1920) ‘A determination of the deflection of light by the Sun's gravitational field’",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1098/rsta.1920.0009",
+    "premier_auteur": "Dyson",
+    "nb_auteurs": 3,
+    "annee": 1920,
+    "revue": "Philosophical Transactions of the Royal Society of London. Series A, Containing Papers of a Mathematical or Physical Character",
+    "volume": "220",
+    "page": "291-333",
+    "titre": "IX. A determination of the deflection of light by the sun's gravitational field, from observations made at the total eclipse of May 29, 1919",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.4159/harvard.9780674366688.c132",
+    "premier_auteur": "Dyson",
+    "nb_auteurs": 3,
+    "annee": 1979,
+    "revue": "A Source Book in Astronomy and Astrophysics, 1900–1975",
+    "volume": null,
+    "page": "826-832",
+    "titre": "123. A Determination of the Deflection of Light by the Sun's Gravitational Field, from Observations Made at the Total Eclipse of May 29, 1919",
+    "type": "book-chapter"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Shapiro2004",
+  "doi_demande": "10.1103/PhysRevLett.92.121101",
+  "requete": null,
+  "auteur_attendu": "Shapiro",
+  "annee_attendue": 2004,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.92.121101",
+    "premier_auteur": "Shapiro",
+    "nb_auteurs": 4,
+    "annee": 2004,
+    "revue": "Physical Review Letters",
+    "volume": "92",
+    "page": "121101",
+    "titre": "Measurement of the Solar Gravitational Deflection of Radio Waves using Geodetic Very-Long-Baseline Interferometry Data, 1979–1999",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Bertotti2003",
+  "doi_demande": null,
+  "requete": "Bertotti Iess Tortora A test of general relativity using radio links with the Cassini spacecraft Nature 2003",
+  "auteur_attendu": "Bertotti",
+  "annee_attendue": 2003,
+  "resultats": [
+   {
+    "doi": "10.1038/nature01997",
+    "premier_auteur": "Bertotti",
+    "nb_auteurs": 3,
+    "annee": 2003,
+    "revue": "Nature",
+    "volume": "425",
+    "page": "374-376",
+    "titre": "A test of general relativity using radio links with the Cassini spacecraft",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/aero.2003.1235053",
+    "premier_auteur": "Iess",
+    "nb_auteurs": 12,
+    "annee": 2003,
+    "revue": "2003 IEEE Aerospace Conference Proceedings (Cat. No.03TH8652)",
+    "volume": null,
+    "page": "1-211 vol.1",
+    "titre": "The Cassini solar conjunction experiment: a new test of general relativity",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1007/bf00774207",
+    "premier_auteur": "Bertotti",
+    "nb_auteurs": 2,
+    "annee": 1985,
+    "revue": "General Relativity and Gravitation",
+    "volume": "17",
+    "page": "1043-1058",
+    "titre": "Doppler search for a gravitational background radiation with two spacecraft",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "MichelsonGale1925",
+  "doi_demande": null,
+  "requete": "Michelson Gale The effect of the Earth's rotation on the velocity of light Astrophysical Journal 1925",
+  "auteur_attendu": "Michelson",
+  "annee_attendue": 1925,
+  "resultats": [
+   {
+    "doi": "10.1086/142879",
+    "premier_auteur": "Michelson",
+    "nb_auteurs": 2,
+    "annee": 1925,
+    "revue": "The Astrophysical Journal",
+    "volume": "61",
+    "page": "140",
+    "titre": "The Effect of the Earth's Rotation on the Velocity of Light, II.",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/115566a0",
+    "premier_auteur": "MICHELSON",
+    "nb_auteurs": 2,
+    "annee": 1925,
+    "revue": "Nature",
+    "volume": "115",
+    "page": "566-566",
+    "titre": "The Effect of the Earth's Rotation on the Velocity of Light",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1086/142878",
+    "premier_auteur": "Michelson",
+    "nb_auteurs": 1,
+    "annee": 1925,
+    "revue": "The Astrophysical Journal",
+    "volume": "61",
+    "page": "137",
+    "titre": "The Effect of the Earth's Rotation on the Velocity of Light, I.",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Post1967",
+  "doi_demande": "10.1103/RevModPhys.39.475",
+  "requete": null,
+  "auteur_attendu": "Post",
+  "annee_attendue": 1967,
+  "resultats": [
+   {
+    "doi": "10.1103/revmodphys.39.475",
+    "premier_auteur": "POST",
+    "nb_auteurs": 1,
+    "annee": 1967,
+    "revue": "Reviews of Modern Physics",
+    "volume": "39",
+    "page": "475-493",
+    "titre": "Sagnac Effect",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "ValiShorthill1976",
+  "doi_demande": null,
+  "requete": "Vali Shorthill Fiber ring interferometer Applied Optics 1976",
+  "auteur_attendu": "Vali",
+  "annee_attendue": 1976,
+  "resultats": [
+   {
+    "doi": "10.1364/ao.15.001099",
+    "premier_auteur": "Vali",
+    "nb_auteurs": 2,
+    "annee": 1976,
+    "revue": "Applied Optics",
+    "volume": "15",
+    "page": "1099",
+    "titre": "Fiber ring interferometer",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1364/ao.16.002605",
+    "premier_auteur": "Vali",
+    "nb_auteurs": 3,
+    "annee": 1977,
+    "revue": "Applied Optics",
+    "volume": "16",
+    "page": "2605",
+    "titre": "Fresnel-Fizeau effect in a rotating optical fiber ring interferometer",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1364/ao.16.000290",
+    "premier_auteur": "Vali",
+    "nb_auteurs": 2,
+    "annee": 1977,
+    "revue": "Applied Optics",
+    "volume": "16",
+    "page": "290",
+    "titre": "Ring interferometer 950 m long",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "SchreiberWells2013",
+  "doi_demande": null,
+  "requete": "Schreiber Wells Invited Review Article: Large ring lasers for rotation sensing Review of Scientific Instruments 2013",
+  "auteur_attendu": "Schreiber",
+  "annee_attendue": 2013,
+  "resultats": [
+   {
+    "doi": "10.1063/1.4798216",
+    "premier_auteur": "Schreiber",
+    "nb_auteurs": 2,
+    "annee": 2013,
+    "revue": "Review of Scientific Instruments",
+    "volume": "84",
+    "page": null,
+    "titre": "Invited Review Article: Large ring lasers for rotation sensing",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/9781108524933",
+    "premier_auteur": "Schreiber",
+    "nb_auteurs": 2,
+    "annee": 2023,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Rotation Sensing with Large Ring Lasers",
+    "type": "monograph"
+   },
+   {
+    "doi": "10.5194/egusphere-egu26-6692",
+    "premier_auteur": "Schreiber",
+    "nb_auteurs": 4,
+    "annee": 2026,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": " How accurate is Inertial Earth Rotation Sensing utilizing Large Ring Lasers ",
+    "type": "posted-content"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Everitt2011",
+  "doi_demande": "10.1103/PhysRevLett.106.221101",
+  "requete": null,
+  "auteur_attendu": "Everitt",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.106.221101",
+    "premier_auteur": "Everitt",
+    "nb_auteurs": 27,
+    "annee": 2011,
+    "revue": "Physical Review Letters",
+    "volume": "106",
+    "page": "221101",
+    "titre": "Gravity Probe B: Final Results of a Space Experiment to Test General Relativity",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "CiufoliniPavlis2004",
+  "doi_demande": null,
+  "requete": "Ciufolini Pavlis A confirmation of the general relativistic prediction of the Lense-Thirring effect Nature 2004",
+  "auteur_attendu": "Ciufolini",
+  "annee_attendue": 2004,
+  "resultats": [
+   {
+    "doi": "10.1038/nature03007",
+    "premier_auteur": "Ciufolini",
+    "nb_auteurs": 2,
+    "annee": 2004,
+    "revue": "Nature",
+    "volume": "431",
+    "page": "958-960",
+    "titre": "A confirmation of the general relativistic prediction of the Lense–Thirring effect",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1023/b:gerg.0000046182.33249.77",
+    "premier_auteur": "Ciufolini",
+    "nb_auteurs": 1,
+    "annee": 2004,
+    "revue": "General Relativity and Gravitation",
+    "volume": "36",
+    "page": "2257-2270",
+    "titre": "Frame Dragging and Lense-Thirring Effect",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1142/9789812564818_0015",
+    "premier_auteur": "CIUFOLINI",
+    "nb_auteurs": 2,
+    "annee": 2003,
+    "revue": "Nonlinear Gravitodynamics",
+    "volume": null,
+    "page": "185-200",
+    "titre": "THE GRAVITOMAGNETIC FIELD AND ITS MEASUREMENT WITH THE LAGEOS SATELLITES",
+    "type": "book-chapter"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Ciufolini2016",
+  "doi_demande": null,
+  "requete": "Ciufolini A test of general relativity using the LARES and LAGEOS satellites and a GRACE Earth gravity model European Physical Journal C 2016",
+  "auteur_attendu": "Ciufolini",
+  "annee_attendue": 2016,
+  "resultats": [
+   {
+    "doi": "10.1140/epjc/s10052-017-4607-1",
+    "premier_auteur": "Iorio",
+    "nb_auteurs": 1,
+    "annee": 2017,
+    "revue": "The European Physical Journal C",
+    "volume": "77",
+    "page": null,
+    "titre": "A comment on “A test of general relativity using the LARES and LAGEOS satellites and a GRACE Earth gravity model”, by I. Ciufolini et al.",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1140/epjc/s10052-018-6303-1",
+    "premier_auteur": "Ciufolini",
+    "nb_auteurs": 10,
+    "annee": 2018,
+    "revue": "The European Physical Journal C",
+    "volume": "78",
+    "page": null,
+    "titre": "Reply to “A comment on “A test of general relativity using the LARES and LAGEOS satellites and a GRACE Earth gravity model, by I. Ciufolini et al.””",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1140/epjc/s10052-016-3961-8",
+    "premier_auteur": "Ciufolini",
+    "nb_auteurs": 12,
+    "annee": 2016,
+    "revue": "The European Physical Journal C",
+    "volume": "76",
+    "page": null,
+    "titre": "A test of general relativity using the LARES and LAGEOS satellites and a GRACE Earth gravity model",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Bosi2011",
+  "doi_demande": "10.1103/PhysRevD.84.122002",
+  "requete": null,
+  "auteur_attendu": "Bosi",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.84.122002",
+    "premier_auteur": "Bosi",
+    "nb_auteurs": 22,
+    "annee": 2011,
+    "revue": "Physical Review D",
+    "volume": "84",
+    "page": "122002",
+    "titre": "Measuring gravitomagnetic effects by a multi-ring-laser gyroscope",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "VenkatramanKrishnan2020",
+  "doi_demande": null,
+  "requete": "Venkatraman Krishnan Lense-Thirring frame dragging induced by a fast-rotating white dwarf in a binary pulsar system Science 2020",
+  "auteur_attendu": "Krishnan",
+  "annee_attendue": 2020,
+  "resultats": [
+   {
+    "doi": "10.1093/mnras/staa1322",
+    "premier_auteur": "Iorio",
+    "nb_auteurs": 1,
+    "annee": 2020,
+    "revue": "Monthly Notices of the Royal Astronomical Society",
+    "volume": "495",
+    "page": "2777-2785",
+    "titre": "A comment on ‘Lense–Thirring frame dragging induced by a fast-rotating white dwarf in a binary pulsar system’ by V. Venkatraman Krishnan et al.",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1126/science.aax7007",
+    "premier_auteur": "Krishnan",
+    "nb_auteurs": 12,
+    "annee": 2020,
+    "revue": "Science",
+    "volume": "367",
+    "page": "577-580",
+    "titre": "Lense–Thirring frame dragging induced by a fast-rotating white dwarf in a binary pulsar system",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.31219/osf.io/ytmw6_v1",
+    "premier_auteur": "Maes",
+    "nb_auteurs": 1,
+    "annee": 2025,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Dynamic sources, Dynamic Multi-folds, and General Relativity Lense-Thirring and Frame Dragging Effects",
+    "type": "posted-content"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "ScullyDruhl1982",
+  "doi_demande": "10.1103/PhysRevA.25.2208",
+  "requete": null,
+  "auteur_attendu": "Scully",
+  "annee_attendue": 1982,
+  "resultats": [
+   {
+    "doi": "10.1103/physreva.25.2208",
+    "premier_auteur": "Scully",
+    "nb_auteurs": 2,
+    "annee": 1982,
+    "revue": "Physical Review A",
+    "volume": "25",
+    "page": "2208-2213",
+    "titre": "Quantum eraser: A proposed photon correlation experiment concerning observation and \"delayed choice\" in quantum mechanics",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Kim2000",
+  "doi_demande": "10.1103/PhysRevLett.84.1",
+  "requete": null,
+  "auteur_attendu": "Kim",
+  "annee_attendue": 2000,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.84.1",
+    "premier_auteur": "Kim",
+    "nb_auteurs": 5,
+    "annee": 2000,
+    "revue": "Physical Review Letters",
+    "volume": "84",
+    "page": "1-5",
+    "titre": "Delayed “Choice” Quantum Eraser",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Walborn2002",
+  "doi_demande": "10.1103/PhysRevA.65.033818",
+  "requete": null,
+  "auteur_attendu": "Walborn",
+  "annee_attendue": 2002,
+  "resultats": [
+   {
+    "doi": "10.1103/physreva.65.033818",
+    "premier_auteur": "Walborn",
+    "nb_auteurs": 4,
+    "annee": 2002,
+    "revue": "Physical Review A",
+    "volume": "65",
+    "page": "033818",
+    "titre": "Double-slit quantum eraser",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Jacques2007",
+  "doi_demande": null,
+  "requete": "Jacques Wu Grosshans Treussart Grangier Aspect Roch Experimental realization of Wheeler's delayed-choice gedanken experiment Science 2007",
+  "auteur_attendu": "Jacques",
+  "annee_attendue": 2007,
+  "resultats": [
+   {
+    "doi": "10.1364/cqo.2007.cwb4",
+    "premier_auteur": "Jacques",
+    "nb_auteurs": 7,
+    "annee": 2007,
+    "revue": "Conference on Coherence and Quantum Optics",
+    "volume": null,
+    "page": "CWB4",
+    "titre": "Experimental realization of Wheeler’s delayed-choice Gedanken Experiment",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1126/science.1136303",
+    "premier_auteur": "Jacques",
+    "nb_auteurs": 7,
+    "annee": 2007,
+    "revue": "Science",
+    "volume": "315",
+    "page": "966-968",
+    "titre": "Experimental Realization of Wheeler's Delayed-Choice Gedanken Experiment",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/cleoe-iqec.2007.4386903",
+    "premier_auteur": "Jacques",
+    "nb_auteurs": 7,
+    "annee": 2007,
+    "revue": "2007 European Conference on Lasers and Electro-Optics and the International Quantum Electronics Conference",
+    "volume": null,
+    "page": "1-1",
+    "titre": "\"Experimental realization of Wheeler's delayed-choice Gedanken Experiment\"",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Ma2013",
+  "doi_demande": null,
+  "requete": "Ma Kofler Qarry Zeilinger Quantum erasure with causally disconnected choice PNAS 2013",
+  "auteur_attendu": "Ma",
+  "annee_attendue": 2013,
+  "resultats": [
+   {
+    "doi": "10.1073/pnas.1213201110",
+    "premier_auteur": "Ma",
+    "nb_auteurs": 12,
+    "annee": 2013,
+    "revue": "Proceedings of the National Academy of Sciences",
+    "volume": "110",
+    "page": "1221-1226",
+    "titre": "Quantum erasure with causally disconnected choice",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/cleoe-eqec.2009.5191613",
+    "premier_auteur": "Xiao-song Ma",
+    "nb_auteurs": 5,
+    "annee": 2009,
+    "revue": "CLEO/Europe - EQEC 2009 - European Conference on Lasers and Electro-Optics and the European Quantum Electronics Conference",
+    "volume": null,
+    "page": "1-1",
+    "titre": "Hybrid entanglement and a non-local quantum eraser",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/cleoe-iqec.2007.4386925",
+    "premier_auteur": "Ma",
+    "nb_auteurs": 5,
+    "annee": 2007,
+    "revue": "2007 European Conference on Lasers and Electro-Optics and the International Quantum Electronics Conference",
+    "volume": null,
+    "page": "1-1",
+    "titre": "Entanglement-assisted Delayed-Choice Experiment",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Ma2016",
+  "doi_demande": "10.1103/RevModPhys.88.015005",
+  "requete": null,
+  "auteur_attendu": "Ma",
+  "annee_attendue": 2016,
+  "resultats": [
+   {
+    "doi": "10.1103/revmodphys.88.015005",
+    "premier_auteur": "Ma",
+    "nb_auteurs": 3,
+    "annee": 2016,
+    "revue": "Reviews of Modern Physics",
+    "volume": "88",
+    "page": "015005",
+    "titre": "Delayed-choice gedanken experiments and their realizations",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lloyd2011",
+  "doi_demande": "10.1103/PhysRevLett.106.040403",
+  "requete": null,
+  "auteur_attendu": "Lloyd",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.106.040403",
+    "premier_auteur": "Lloyd",
+    "nb_auteurs": 11,
+    "annee": 2011,
+    "revue": "Physical Review Letters",
+    "volume": "106",
+    "page": "040403",
+    "titre": "Closed Timelike Curves via Postselection: Theory and Experimental Test of Consistency",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Ringbauer2014",
+  "doi_demande": null,
+  "requete": "Ringbauer Broome Myers White Ralph Experimental simulation of closed timelike curves Nature Communications 2014",
+  "auteur_attendu": "Ringbauer",
+  "annee_attendue": 2014,
+  "resultats": [
+   {
+    "doi": "10.1038/ncomms5145",
+    "premier_auteur": "Ringbauer",
+    "nb_auteurs": 5,
+    "annee": 2014,
+    "revue": "Nature Communications",
+    "volume": "5",
+    "page": null,
+    "titre": "Experimental simulation of closed timelike curves",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physreva.84.062316",
+    "premier_auteur": "Pienaar",
+    "nb_auteurs": 3,
+    "annee": 2011,
+    "revue": "Physical Review A",
+    "volume": "84",
+    "page": null,
+    "titre": "Quantum fields on closed timelike curves",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physreva.82.062330",
+    "premier_auteur": "Ralph",
+    "nb_auteurs": 2,
+    "annee": 2010,
+    "revue": "Physical Review A",
+    "volume": "82",
+    "page": null,
+    "titre": "Information flow of quantum states interacting with closed timelike curves",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Deutsch1991",
+  "doi_demande": "10.1103/PhysRevD.44.3197",
+  "requete": null,
+  "auteur_attendu": "Deutsch",
+  "annee_attendue": 1991,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.44.3197",
+    "premier_auteur": "Deutsch",
+    "nb_auteurs": 1,
+    "annee": 1991,
+    "revue": "Physical Review D",
+    "volume": "44",
+    "page": "3197-3217",
+    "titre": "Quantum mechanics near closed timelike lines",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Chiribella2013",
+  "doi_demande": "10.1103/PhysRevA.88.022318",
+  "requete": null,
+  "auteur_attendu": "Chiribella",
+  "annee_attendue": 2013,
+  "resultats": [
+   {
+    "doi": "10.1103/physreva.88.022318",
+    "premier_auteur": "Chiribella",
+    "nb_auteurs": 4,
+    "annee": 2013,
+    "revue": "Physical Review A",
+    "volume": "88",
+    "page": "022318",
+    "titre": "Quantum computations without definite causal structure",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Procopio2015",
+  "doi_demande": null,
+  "requete": "Procopio Experimental superposition of orders of quantum gates Nature Communications 2015",
+  "auteur_attendu": "Procopio",
+  "annee_attendue": 2015,
+  "resultats": [
+   {
+    "doi": "10.1038/ncomms8913",
+    "premier_auteur": "Procopio",
+    "nb_auteurs": 10,
+    "annee": 2015,
+    "revue": "Nature Communications",
+    "volume": "6",
+    "page": null,
+    "titre": "Experimental superposition of orders of quantum gates",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/prxquantum.2.010320",
+    "premier_auteur": "Taddei",
+    "nb_auteurs": 12,
+    "annee": 2021,
+    "revue": "PRX Quantum",
+    "volume": "2",
+    "page": null,
+    "titre": "Computational Advantage from the Quantum Superposition of Multiple Temporal Orders of Photonic Gates",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/ncomms9748",
+    "premier_auteur": "Rong",
+    "nb_auteurs": 10,
+    "annee": 2015,
+    "revue": "Nature Communications",
+    "volume": "6",
+    "page": null,
+    "titre": "Experimental fault-tolerant universal quantum gates with solid-state spins under ambient conditions",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Rubino2017",
+  "doi_demande": null,
+  "requete": "Rubino Rozema Experimental verification of an indefinite causal order Science Advances 2017",
+  "auteur_attendu": "Rubino",
+  "annee_attendue": 2017,
+  "resultats": [
+   {
+    "doi": "10.1126/sciadv.1602589",
+    "premier_auteur": "Rubino",
+    "nb_auteurs": 8,
+    "annee": 2017,
+    "revue": "Science Advances",
+    "volume": "3",
+    "page": null,
+    "titre": "Experimental verification of an indefinite causal order",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1364/cleo_qels.2017.ftu1f.6",
+    "premier_auteur": "Rozema",
+    "nb_auteurs": 6,
+    "annee": 2017,
+    "revue": "Conference on Lasers and Electro-Optics",
+    "volume": null,
+    "page": "FTu1F.6",
+    "titre": "Experimental Tests of Indefinite Causal Orders",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1103/5t2y-ddmt",
+    "premier_auteur": "Richter",
+    "nb_auteurs": 5,
+    "annee": 2026,
+    "revue": "PRX Quantum",
+    "volume": "7",
+    "page": null,
+    "titre": "Toward an Experimental Device-Independent Verification of Indefinite Causal Order",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Goswami2018",
+  "doi_demande": "10.1103/PhysRevLett.121.090503",
+  "requete": null,
+  "auteur_attendu": "Goswami",
+  "annee_attendue": 2018,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.121.090503",
+    "premier_auteur": "Goswami",
+    "nb_auteurs": 7,
+    "annee": 2018,
+    "revue": "Physical Review Letters",
+    "volume": "121",
+    "page": "090503",
+    "titre": "Indefinite Causal Order in a Quantum Switch",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Oreshkov2012",
+  "doi_demande": null,
+  "requete": "Oreshkov Costa Brukner Quantum correlations with no causal order Nature Communications 2012",
+  "auteur_attendu": "Oreshkov",
+  "annee_attendue": 2012,
+  "resultats": [
+   {
+    "doi": "10.1038/ncomms2076",
+    "premier_auteur": "Oreshkov",
+    "nb_auteurs": 3,
+    "annee": 2012,
+    "revue": "Nature Communications",
+    "volume": "3",
+    "page": null,
+    "titre": "Quantum correlations with no causal order",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1088/1367-2630/17/8/083034",
+    "premier_auteur": "Brukner",
+    "nb_auteurs": 1,
+    "annee": 2015,
+    "revue": "New Journal of Physics",
+    "volume": "17",
+    "page": "083034",
+    "titre": "Bounding quantum correlations with indefinite causal order",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/s41467-020-20456-x",
+    "premier_auteur": "Barrett",
+    "nb_auteurs": 3,
+    "annee": 2021,
+    "revue": "Nature Communications",
+    "volume": "12",
+    "page": null,
+    "titre": "Cyclic quantum causal models",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "HillmerKwiat2007",
+  "doi_demande": null,
+  "requete": "Hillmer Kwiat A do-it-yourself quantum eraser Scientific American 2007",
+  "auteur_attendu": "Hillmer",
+  "annee_attendue": 2007,
+  "resultats": [
+   {
+    "doi": "10.1038/scientificamerican0507-90",
+    "premier_auteur": "Hillmer",
+    "nb_auteurs": 2,
+    "annee": 2007,
+    "revue": "Scientific American",
+    "volume": "296",
+    "page": "90-95",
+    "titre": "A Do-It-Yourself Quantum Eraser",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/eqec.1994.698238",
+    "premier_auteur": "Kwiat",
+    "nb_auteurs": 4,
+    "annee": 1994,
+    "revue": "Proceedings of 5th European Quantum Electronics Conference",
+    "volume": null,
+    "page": "122-122",
+    "titre": "Delayed choice quantum eraser - theory and experiment",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1142/9789814436687_0023",
+    "premier_auteur": "Kwiat",
+    "nb_auteurs": 3,
+    "annee": 1992,
+    "revue": "Foundations of Quantum Mechanics",
+    "volume": null,
+    "page": "193-199",
+    "titre": "EXPERIMENTAL OBSERVATION OF A QUANTUM ERASER: HOW MUCH IS NATURE WILLING TO FORGET?",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Hawking1974",
+  "doi_demande": null,
+  "requete": "Hawking Black hole explosions? Nature 1974",
+  "auteur_attendu": "Hawking",
+  "annee_attendue": 1974,
+  "resultats": [
+   {
+    "doi": "10.1038/248030a0",
+    "premier_auteur": "HAWKING",
+    "nb_auteurs": 1,
+    "annee": 1974,
+    "revue": "Nature",
+    "volume": "248",
+    "page": "30-31",
+    "titre": "Black hole explosions?",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/d44151-024-00187-4",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 2024,
+    "revue": "Nature India",
+    "volume": null,
+    "page": null,
+    "titre": "How a black hole emits Hawking radiation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/536258a",
+    "premier_auteur": "Castelvecchi",
+    "nb_auteurs": 1,
+    "annee": 2016,
+    "revue": "Nature",
+    "volume": "536",
+    "page": "258-259",
+    "titre": "Artificial black hole creates its own version of Hawking radiation",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Hawking1975",
+  "doi_demande": null,
+  "requete": "Hawking Particle creation by black holes Communications in Mathematical Physics 1975",
+  "auteur_attendu": "Hawking",
+  "annee_attendue": 1975,
+  "resultats": [
+   {
+    "doi": "10.1007/bf02345020",
+    "premier_auteur": "Hawking",
+    "nb_auteurs": 1,
+    "annee": 1975,
+    "revue": "Communications In Mathematical Physics",
+    "volume": "43",
+    "page": "199-220",
+    "titre": "Particle creation by black holes",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/bf01608497",
+    "premier_auteur": "Hawking",
+    "nb_auteurs": 1,
+    "annee": 1976,
+    "revue": "Communications in Mathematical Physics",
+    "volume": "46",
+    "page": "206-206",
+    "titre": "Particle creation by black holes",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/bf01609863",
+    "premier_auteur": "Wald",
+    "nb_auteurs": 1,
+    "annee": 1975,
+    "revue": "Communications in Mathematical Physics",
+    "volume": "45",
+    "page": "9-34",
+    "titre": "On particle creation by black holes",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Page1976",
+  "doi_demande": "10.1103/PhysRevD.13.198",
+  "requete": null,
+  "auteur_attendu": "Page",
+  "annee_attendue": 1976,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.13.198",
+    "premier_auteur": "Page",
+    "nb_auteurs": 1,
+    "annee": 1976,
+    "revue": "Physical Review D",
+    "volume": "13",
+    "page": "198-206",
+    "titre": "Particle emission rates from a black hole: Massless particles from an uncharged, nonrotating hole",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "MacGibbonWebber1990",
+  "doi_demande": "10.1103/PhysRevD.41.3052",
+  "requete": null,
+  "auteur_attendu": "MacGibbon",
+  "annee_attendue": 1990,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.41.3052",
+    "premier_auteur": "MacGibbon",
+    "nb_auteurs": 2,
+    "annee": 1990,
+    "revue": "Physical Review D",
+    "volume": "41",
+    "page": "3052-3079",
+    "titre": "Quark- and gluon-jet emission from primordial black holes: The instantaneous spectra",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lamport1982",
+  "doi_demande": null,
+  "requete": "Lamport Shostak Pease The Byzantine Generals Problem ACM Transactions on Programming Languages and Systems 1982",
+  "auteur_attendu": "Lamport",
+  "annee_attendue": 1982,
+  "resultats": [
+   {
+    "doi": "10.1145/357172.357176",
+    "premier_auteur": "Lamport",
+    "nb_auteurs": 3,
+    "annee": 1982,
+    "revue": "ACM Transactions on Programming Languages and Systems",
+    "volume": "4",
+    "page": "382-401",
+    "titre": "The Byzantine Generals Problem",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1145/3335772.3335936",
+    "premier_auteur": "SRI International",
+    "nb_auteurs": 6,
+    "annee": 2019,
+    "revue": "Concurrency: the Works of Leslie Lamport",
+    "volume": null,
+    "page": null,
+    "titre": "The Byzantine generals problem",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1007/springerreference_57579",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": null,
+    "revue": "SpringerReference",
+    "volume": null,
+    "page": null,
+    "titre": "Byzantine Agreement, 1980; Pease, Shostak, Lamport",
+    "type": "reference-entry"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "LyonsVanderkulk1962",
+  "doi_demande": null,
+  "requete": "Lyons Vanderkulk The use of triple-modular redundancy to improve computer reliability IBM Journal of Research and Development 1962",
+  "auteur_attendu": "Lyons",
+  "annee_attendue": 1962,
+  "resultats": [
+   {
+    "doi": "10.1147/rd.62.0200",
+    "premier_auteur": "Lyons",
+    "nb_auteurs": 2,
+    "annee": 1962,
+    "revue": "IBM Journal of Research and Development",
+    "volume": "6",
+    "page": "200-209",
+    "titre": "The Use of Triple-Modular Redundancy to Improve Computer Reliability",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/0026-2714(63)90201-4",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 1963,
+    "revue": "Microelectronics Reliability",
+    "volume": "2",
+    "page": "155",
+    "titre": "The use of triple-modular redundancy to improve computer reliability",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/0026-2714(76)90514-x",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 1976,
+    "revue": "Microelectronics Reliability",
+    "volume": "15",
+    "page": "375",
+    "titre": "Microcomputer reliability improvement using triple-modular redundancy",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "KleinRoodman2005",
+  "doi_demande": null,
+  "requete": "Klein Roodman Blind analysis in nuclear and particle physics Annual Review of Nuclear and Particle Science 2005",
+  "auteur_attendu": "Klein",
+  "annee_attendue": 2005,
+  "resultats": [
+   {
+    "doi": "10.1146/annurev.nucl.55.090704.151521",
+    "premier_auteur": "Klein",
+    "nb_auteurs": 2,
+    "annee": 2005,
+    "revue": "Annual Review of Nuclear and Particle Science",
+    "volume": "55",
+    "page": "141-163",
+    "titre": "BLIND ANALYSIS IN NUCLEAR AND PARTICLE PHYSICS",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.2172/826602",
+    "premier_auteur": "Roodman",
+    "nb_auteurs": 1,
+    "annee": 2003,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Blind Analysis in Particle Physics",
+    "type": "report"
+   },
+   {
+    "doi": "10.1146/annurev.nucl.55.090704.151526",
+    "premier_auteur": "Bertulani",
+    "nb_auteurs": 3,
+    "annee": 2005,
+    "revue": "Annual Review of Nuclear and Particle Science",
+    "volume": "55",
+    "page": "271-310",
+    "titre": "PHYSICS OF ULTRA-PERIPHERAL NUCLEAR COLLISIONS",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "MacCounPerlmutter2015",
+  "doi_demande": null,
+  "requete": "MacCoun Perlmutter Blind analysis: Hide results to seek the truth Nature 2015",
+  "auteur_attendu": "MacCoun",
+  "annee_attendue": 2015,
+  "resultats": [
+   {
+    "doi": "10.1038/526187a",
+    "premier_auteur": "MacCoun",
+    "nb_auteurs": 2,
+    "annee": 2015,
+    "revue": "Nature",
+    "volume": "526",
+    "page": "187-189",
+    "titre": "Blind analysis: Hide results to seek the truth",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/nature.2015.18876",
+    "premier_auteur": "Schiermeier",
+    "nb_auteurs": 1,
+    "annee": 2015,
+    "revue": "Nature",
+    "volume": null,
+    "page": null,
+    "titre": "Pirate research-paper sites play hide-and-seek with publishers",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/nclimate2775",
+    "premier_auteur": "McPhaden",
+    "nb_auteurs": 1,
+    "annee": 2015,
+    "revue": "Nature Climate Change",
+    "volume": "5",
+    "page": "791-795",
+    "titre": "Playing hide and seek with El Niño",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "OPERA2012doi",
+  "doi_demande": "10.1007/JHEP10(2012)093",
+  "requete": null,
+  "auteur_attendu": "Adam",
+  "annee_attendue": 2012,
+  "resultats": [
+   {
+    "doi": "10.1007/jhep10(2012)093",
+    "premier_auteur": "The OPERA collaboration",
+    "nb_auteurs": 191,
+    "annee": 2012,
+    "revue": "Journal of High Energy Physics",
+    "volume": "2012",
+    "page": "93",
+    "titre": "Measurement of the neutrino velocity with the OPERA detector in the CNGS beam",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Ambrosini1997",
+  "doi_demande": null,
+  "requete": "Ambrosini Ponticiello Schirripa Spagnolo Borghi Gori Bouncing light beams and the Hamiltonian analogy European Journal of Physics 1997",
+  "auteur_attendu": "Ambrosini",
+  "annee_attendue": 1997,
+  "resultats": [
+   {
+    "doi": "10.1088/0143-0807/18/4/008",
+    "premier_auteur": "Ambrosini",
+    "nb_auteurs": 5,
+    "annee": 1997,
+    "revue": "European Journal of Physics",
+    "volume": "18",
+    "page": "284-289",
+    "titre": "Bouncing light beams and the Hamiltonian analogy",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1051/jp3:1997230",
+    "premier_auteur": "Schirripa Spagnolo",
+    "nb_auteurs": 4,
+    "annee": 1997,
+    "revue": "Journal de Physique III",
+    "volume": "7",
+    "page": "1893-1898",
+    "titre": "Temperature Measurement in Laminar Free Convection Using Electro-Optic Holography",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.18538",
+    "premier_auteur": "Ambrosini",
+    "nb_auteurs": 2,
+    "annee": 1997,
+    "revue": "American Journal of Physics",
+    "volume": "65",
+    "page": "256-257",
+    "titre": "Successful pinhole photography",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Kolobov2021",
+  "doi_demande": null,
+  "requete": "Kolobov Golubkov Munoz de Nova Steinhauer Observation of stationary spontaneous Hawking radiation and the time evolution of an analogue black hole Nature Physics 2021",
+  "auteur_attendu": "Kolobov",
+  "annee_attendue": 2021,
+  "resultats": [
+   {
+    "doi": "10.1038/s41567-020-01076-0",
+    "premier_auteur": "Kolobov",
+    "nb_auteurs": 4,
+    "annee": 2021,
+    "revue": "Nature Physics",
+    "volume": "17",
+    "page": "362-367",
+    "titre": "Observation of stationary spontaneous Hawking radiation and the time evolution of an analogue black hole",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/s41586-019-1241-0",
+    "premier_auteur": "Muñoz de Nova",
+    "nb_auteurs": 4,
+    "annee": 2019,
+    "revue": "Nature",
+    "volume": "569",
+    "page": "688-691",
+    "titre": "Observation of thermal Hawking radiation and its temperature in an analogue black hole",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1038/nphys3104",
+    "premier_auteur": "Steinhauer",
+    "nb_auteurs": 1,
+    "annee": 2014,
+    "revue": "Nature Physics",
+    "volume": "10",
+    "page": "864-869",
+    "titre": "Observation of self-amplifying Hawking radiation in an analogue black-hole laser",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Duchesne2019",
+  "doi_demande": null,
+  "requete": "Duchesne Andersen Bohr Surface tension and the origin of the circular hydraulic jump in a thin liquid film Physical Review Fluids 2019",
+  "auteur_attendu": "Duchesne",
+  "annee_attendue": 2019,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevfluids.4.084001",
+    "premier_auteur": "Duchesne",
+    "nb_auteurs": 3,
+    "annee": 2019,
+    "revue": "Physical Review Fluids",
+    "volume": "4",
+    "page": null,
+    "titre": "Surface tension and the origin of the circular hydraulic jump in a thin liquid film",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevfluids.6.104801",
+    "premier_auteur": "Bhattacharjee",
+    "nb_auteurs": 2,
+    "annee": 2021,
+    "revue": "Physical Review Fluids",
+    "volume": "6",
+    "page": null,
+    "titre": "Surface tension and instability in the hydrodynamic white hole of a circular hydraulic jump",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevfluids.4.100507",
+    "premier_auteur": "Duchesne",
+    "nb_auteurs": 4,
+    "annee": 2019,
+    "revue": "Physical Review Fluids",
+    "volume": "4",
+    "page": null,
+    "titre": "Nitrogen swirl: Creating rotating polygons in a boiling liquid",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Vinitsky2015",
+  "doi_demande": null,
+  "requete": "Vinitsky Black Libbrecht Particle dynamics in damped nonlinear quadrupole ion traps American Journal of Physics 2015",
+  "auteur_attendu": "Vinitsky",
+  "annee_attendue": 2015,
+  "resultats": [
+   {
+    "doi": "10.1119/1.4902185",
+    "premier_auteur": "Vinitsky",
+    "nb_auteurs": 3,
+    "annee": 2015,
+    "revue": "American Journal of Physics",
+    "volume": "83",
+    "page": "313-319",
+    "titre": "Particle dynamics in damped nonlinear quadrupole ion traps",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.5034344",
+    "premier_auteur": "Libbrecht",
+    "nb_auteurs": 2,
+    "annee": 2018,
+    "revue": "American Journal of Physics",
+    "volume": "86",
+    "page": "539-558",
+    "titre": "Improved microparticle electrodynamic ion traps for physics teaching",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1021/jasms.4c00488.s001",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": null,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Impact of Multipole Fields on the Performance and Dynamics of Quadrupole Linear Ion Traps",
+    "type": "component"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Gibbons1975",
+  "doi_demande": null,
+  "requete": "Gibbons Vacuum polarization and the spontaneous loss of charge by black holes Communications in Mathematical Physics 1975",
+  "auteur_attendu": "Gibbons",
+  "annee_attendue": 1975,
+  "resultats": [
+   {
+    "doi": "10.1007/bf01609829",
+    "premier_auteur": "Gibbons",
+    "nb_auteurs": 1,
+    "annee": 1975,
+    "revue": "Communications in Mathematical Physics",
+    "volume": "44",
+    "page": "245-264",
+    "titre": "Vacuum polarization and the spontaneous loss of charge by black holes",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-94-017-2651-1_10",
+    "premier_auteur": "Novikov",
+    "nb_auteurs": 2,
+    "annee": 1989,
+    "revue": "Physics of Black Holes",
+    "volume": null,
+    "page": "233-253",
+    "titre": "Vacuum Polarization near Black Holes",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1007/bf01646451",
+    "premier_auteur": "Gibbons",
+    "nb_auteurs": 1,
+    "annee": 1974,
+    "revue": "Communications in Mathematical Physics",
+    "volume": "35",
+    "page": "13-23",
+    "titre": "The motion of black holes",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lefevre2014",
+  "doi_demande": null,
+  "requete": "Lefevre The fiber-optic gyroscope, a century after Sagnac's experiment: The ultimate rotation-sensing technology? Comptes Rendus Physique 2014",
+  "auteur_attendu": "Lefèvre",
+  "annee_attendue": 2014,
+  "resultats": [
+   {
+    "doi": "10.1016/j.crhy.2014.10.007",
+    "premier_auteur": "Lefèvre",
+    "nb_auteurs": 1,
+    "annee": 2014,
+    "revue": "Comptes Rendus. Physique",
+    "volume": "15",
+    "page": "851-858",
+    "titre": "The fiber-optic gyroscope, a century after Sagnac's experiment: The ultimate rotation-sensing technology?",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/j.crhy.2014.10.004",
+    "premier_auteur": "Sato",
+    "nb_auteurs": 1,
+    "annee": 2014,
+    "revue": "Comptes Rendus. Physique",
+    "volume": "15",
+    "page": "898-906",
+    "titre": "Sagnac-based rotation sensing with superfluid helium quantum interference devices",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/j.yofte.2013.08.007",
+    "premier_auteur": "Lefèvre",
+    "nb_auteurs": 1,
+    "annee": 2013,
+    "revue": "Optical Fiber Technology",
+    "volume": "19",
+    "page": "828-832",
+    "titre": "The fiber-optic gyroscope: Challenges to become the ultimate rotation-sensing technology",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Schreiber2011",
+  "doi_demande": null,
+  "requete": "Schreiber Klugel Velikoseltsev Schluter Stedman Wells How to detect the Chandler and the annual wobble of the Earth with a large ring laser gyroscope Physical Review Letters 2011",
+  "auteur_attendu": "Schreiber",
+  "annee_attendue": 2011,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.107.173904",
+    "premier_auteur": "Schreiber",
+    "nb_auteurs": 5,
+    "annee": 2011,
+    "revue": "Physical Review Letters",
+    "volume": "107",
+    "page": null,
+    "titre": "How to Detect the Chandler and the Annual Wobble of the Earth with a Large Ring Laser Gyroscope",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/lo.2014.6886320",
+    "premier_auteur": "Schreiber",
+    "nb_auteurs": 4,
+    "annee": 2014,
+    "revue": "2014 International Conference Laser Optics",
+    "volume": null,
+    "page": "1-1",
+    "titre": "Precision cavity control for the stable operation of a large ring laser gyroscope",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1007/s00024-004-0490-4",
+    "premier_auteur": "Schreiber",
+    "nb_auteurs": 6,
+    "annee": 2009,
+    "revue": "Pure and Applied Geophysics",
+    "volume": "166",
+    "page": "1485-1498",
+    "titre": "The Large Ring Laser G for Continuous Earth Rotation Monitoring",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Lutwak2009",
+  "doi_demande": null,
+  "requete": "Lutwak The Chip-Scale Atomic Clock - Recent developments IEEE International Frequency Control Symposium 2009",
+  "auteur_attendu": "Lutwak",
+  "annee_attendue": 2009,
+  "resultats": [
+   {
+    "doi": "10.1109/freq.2009.5168247",
+    "premier_auteur": "Lutwak",
+    "nb_auteurs": 1,
+    "annee": 2009,
+    "revue": "2009 IEEE International Frequency Control Symposium Joint with the 22nd European Frequency and Time forum",
+    "volume": null,
+    "page": "573-577",
+    "titre": "The Chip-Scale Atomic Clock - Recent developments",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/freq.2009.5168386",
+    "premier_auteur": "Zhu",
+    "nb_auteurs": 2,
+    "annee": 2009,
+    "revue": "2009 IEEE International Frequency Control Symposium Joint with the 22nd European Frequency and Time forum",
+    "volume": null,
+    "page": "1183-1186",
+    "titre": "Application of reduced light shift optical pumping method to chip scale atomic clock",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/fcs.2014.6859911",
+    "premier_auteur": "Peter",
+    "nb_auteurs": 4,
+    "annee": 2014,
+    "revue": "2014 IEEE International Frequency Control Symposium (FCS)",
+    "volume": null,
+    "page": "1-4",
+    "titre": "Low Noise Chip Scale Atomic Clock (LNCSAC)",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Greenberger1983",
+  "doi_demande": null,
+  "requete": "Greenberger The neutron interferometer as a device for illustrating the strange behavior of quantum systems Reviews of Modern Physics 1983",
+  "auteur_attendu": "Greenberger",
+  "annee_attendue": 1983,
+  "resultats": [
+   {
+    "doi": "10.1103/revmodphys.55.875",
+    "premier_auteur": "Greenberger",
+    "nb_auteurs": 1,
+    "annee": 1983,
+    "revue": "Reviews of Modern Physics",
+    "volume": "55",
+    "page": "875-905",
+    "titre": "The neutron interferometer as a device for illustrating the strange behavior of quantum systems",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-3-540-70626-7_111",
+    "premier_auteur": "Greenberger",
+    "nb_auteurs": 3,
+    "annee": 2009,
+    "revue": "Compendium of Quantum Physics",
+    "volume": null,
+    "page": "359-359",
+    "titre": "Mach—Zehnder Interferometer",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1016/0375-9601(88)90114-4",
+    "premier_auteur": "Greenberger",
+    "nb_auteurs": 2,
+    "annee": 1988,
+    "revue": "Physics Letters A",
+    "volume": "128",
+    "page": "391-394",
+    "titre": "Simultaneous wave and particle knowledge in a neutron interferometer",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Pease1980",
+  "doi_demande": null,
+  "requete": "Pease Shostak Lamport Reaching agreement in the presence of faults Journal of the ACM 1980",
+  "auteur_attendu": "Pease",
+  "annee_attendue": 1980,
+  "resultats": [
+   {
+    "doi": "10.1145/322186.322188",
+    "premier_auteur": "Pease",
+    "nb_auteurs": 3,
+    "annee": 1980,
+    "revue": "Journal of the ACM",
+    "volume": "27",
+    "page": "228-234",
+    "titre": "Reaching Agreement in the Presence of Faults",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/springerreference_57579",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": null,
+    "revue": "SpringerReference",
+    "volume": null,
+    "page": null,
+    "titre": "Byzantine Agreement, 1980; Pease, Shostak, Lamport",
+    "type": "reference-entry"
+   },
+   {
+    "doi": "10.1007/978-0-387-30162-4_60",
+    "premier_auteur": "Okun",
+    "nb_auteurs": 1,
+    "annee": 2008,
+    "revue": "Encyclopedia of Algorithms",
+    "volume": null,
+    "page": "116-119",
+    "titre": "Byzantine Agreement",
+    "type": "book-chapter"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Peres2004",
+  "doi_demande": null,
+  "requete": "Peres Terno Quantum information and relativity theory Reviews of Modern Physics 2004",
+  "auteur_attendu": "Peres",
+  "annee_attendue": 2004,
+  "resultats": [
+   {
+    "doi": "10.1103/revmodphys.76.93",
+    "premier_auteur": "Peres",
+    "nb_auteurs": 2,
+    "annee": 2004,
+    "revue": "Reviews of Modern Physics",
+    "volume": "76",
+    "page": "93-123",
+    "titre": "Quantum information and relativity theory",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1142/s0219749903000127",
+    "premier_auteur": "Peres",
+    "nb_auteurs": 2,
+    "annee": 2003,
+    "revue": "International Journal of Quantum Information",
+    "volume": "01",
+    "page": "225-235",
+    "titre": "Quantum Information and Special Relativity",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevlett.88.230402",
+    "premier_auteur": "Peres",
+    "nb_auteurs": 3,
+    "annee": 2002,
+    "revue": "Physical Review Letters",
+    "volume": "88",
+    "page": null,
+    "titre": "Quantum Entropy and Special Relativity",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Brun2009",
+  "doi_demande": null,
+  "requete": "Brun Harrington Wilde Localized closed timelike curves can perfectly distinguish quantum states Physical Review Letters 2009",
+  "auteur_attendu": "Brun",
+  "annee_attendue": 2009,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.102.210402",
+    "premier_auteur": "Brun",
+    "nb_auteurs": 3,
+    "annee": 2009,
+    "revue": "Physical Review Letters",
+    "volume": "102",
+    "page": null,
+    "titre": "Localized Closed Timelike Curves Can Perfectly Distinguish Quantum States",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevlett.111.190401",
+    "premier_auteur": "Brun",
+    "nb_auteurs": 3,
+    "annee": 2013,
+    "revue": "Physical Review Letters",
+    "volume": "111",
+    "page": null,
+    "titre": "Quantum State Cloning Using Deutschian Closed Timelike Curves",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/znyd-npk5",
+    "premier_auteur": "Ji",
+    "nb_auteurs": 3,
+    "annee": 2026,
+    "revue": "Physical Review Letters",
+    "volume": "136",
+    "page": null,
+    "titre": "Retrocausal Capacity of a Quantum Channel: Communicating through Noisy Closed Timelike Curves",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Overstreet2022",
+  "doi_demande": null,
+  "requete": "Overstreet Asenbaum Curti Kim Kasevich Observation of a gravitational Aharonov-Bohm effect Science 2022",
+  "auteur_attendu": "Overstreet",
+  "annee_attendue": 2022,
+  "resultats": [
+   {
+    "doi": "10.26226/m.6275705d66d5dcf63a3115f4",
+    "premier_auteur": "Overstreet",
+    "nb_auteurs": 5,
+    "annee": 2022,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Observation of a gravitational Aharonov-Bohm effect",
+    "type": "posted-content"
+   },
+   {
+    "doi": "10.1126/science.abl7152",
+    "premier_auteur": "Overstreet",
+    "nb_auteurs": 5,
+    "annee": 2022,
+    "revue": "Science",
+    "volume": "375",
+    "page": "226-229",
+    "titre": "Observation of a gravitational Aharonov-Bohm effect",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1117/12.2648709",
+    "premier_auteur": "Kim",
+    "nb_auteurs": 6,
+    "annee": 2023,
+    "revue": "Quantum Sensing, Imaging, and Precision Metrology",
+    "volume": null,
+    "page": "97",
+    "titre": "Laser system with Stark-shift-compensated dual beam splitters for observing a gravitational Aharonov-Bohm effect",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Rothleitner2017",
+  "doi_demande": null,
+  "requete": "Rothleitner Schlamminger Invited Review Article: Measurements of the Newtonian constant of gravitation, G Review of Scientific Instruments 2017",
+  "auteur_attendu": "Rothleitner",
+  "annee_attendue": 2017,
+  "resultats": [
+   {
+    "doi": "10.1063/1.4994619",
+    "premier_auteur": "Rothleitner",
+    "nb_auteurs": 2,
+    "annee": 2017,
+    "revue": "Review of Scientific Instruments",
+    "volume": "88",
+    "page": null,
+    "titre": "Invited Review Article: Measurements of the Newtonian constant of gravitation, <i>G</i>",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.4869875",
+    "premier_auteur": "Rothleitner",
+    "nb_auteurs": 2,
+    "annee": 2014,
+    "revue": "Review of Scientific Instruments",
+    "volume": "85",
+    "page": null,
+    "titre": "Measuring the Newtonian constant of gravitation with a differential free-fall gradiometer: A feasibility study",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1063/1.4953825",
+    "premier_auteur": "Haddad",
+    "nb_auteurs": 8,
+    "annee": 2016,
+    "revue": "Review of Scientific Instruments",
+    "volume": "87",
+    "page": null,
+    "titre": "Invited Article: A precise instrument to determine the Planck constant, and the future kilogram",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Klimchitskaya2009",
+  "doi_demande": null,
+  "requete": "Klimchitskaya Mohideen Mostepanenko The Casimir force between real materials: Experiment and theory Reviews of Modern Physics 2009",
+  "auteur_attendu": "Klimchitskaya",
+  "annee_attendue": 2009,
+  "resultats": [
+   {
+    "doi": "10.1103/revmodphys.81.1827",
+    "premier_auteur": "Klimchitskaya",
+    "nb_auteurs": 3,
+    "annee": 2009,
+    "revue": "Reviews of Modern Physics",
+    "volume": "81",
+    "page": "1827-1885",
+    "titre": "The Casimir force between real materials: Experiment and theory",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1093/acprof:oso/9780199238743.003.0019",
+    "premier_auteur": "Bordag",
+    "nb_auteurs": 4,
+    "annee": 2009,
+    "revue": "Advances in the Casimir Effect",
+    "volume": null,
+    "page": "530-580",
+    "titre": "Measurements of the Casimir Force Between Metals",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1093/acprof:oso/9780199238743.003.0010",
+    "premier_auteur": "Bordag",
+    "nb_auteurs": 4,
+    "annee": 2009,
+    "revue": "Advances in the Casimir Effect",
+    "volume": null,
+    "page": "227-261",
+    "titre": "The Casimir Force Between Objects of Arbitrary Shape",
+    "type": "book-chapter"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Visser2002",
+  "doi_demande": null,
+  "requete": "Visser Barcelo Liberati Analogue models of and for gravity General Relativity and Gravitation 2002",
+  "auteur_attendu": "Visser",
+  "annee_attendue": 2002,
+  "resultats": [
+   {
+    "doi": "10.1023/a:1020180409214",
+    "premier_auteur": "Visser",
+    "nb_auteurs": 3,
+    "annee": 2002,
+    "revue": "General Relativity and Gravitation",
+    "volume": "34",
+    "page": "1719-1734",
+    "titre": "Analogue Models of and for Gravity",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/s10714-014-1707-1",
+    "premier_auteur": "Fewster",
+    "nb_auteurs": 2,
+    "annee": 2014,
+    "revue": "General Relativity and Gravitation",
+    "volume": "46",
+    "page": null,
+    "titre": "Quantum fields in curved spacetime, semiclassical gravity, quantum gravity phenomenology, and analogue models: parallel session D4",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/s41114-026-00064-9",
+    "premier_auteur": "Barceló",
+    "nb_auteurs": 3,
+    "annee": 2026,
+    "revue": "Living Reviews in Relativity",
+    "volume": "29",
+    "page": null,
+    "titre": "Analogue gravity",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Euve2020",
+  "doi_demande": null,
+  "requete": "Euve Robertson James Fabbri Rousseaux Scattering of co-current surface waves on an analogue black hole Physical Review Letters 2020",
+  "auteur_attendu": "Euvé",
+  "annee_attendue": 2020,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevlett.124.141101",
+    "premier_auteur": "Euvé",
+    "nb_auteurs": 5,
+    "annee": 2020,
+    "revue": "Physical Review Letters",
+    "volume": "124",
+    "page": null,
+    "titre": "Scattering of Co-Current Surface Waves on an Analogue Black Hole",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevd.105.085022",
+    "premier_auteur": "Fourdrinoy",
+    "nb_auteurs": 5,
+    "annee": 2022,
+    "revue": "Physical Review D",
+    "volume": "105",
+    "page": null,
+    "titre": "Correlations on weakly time-dependent transcritical white-hole flows",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1103/physrevd.12.933",
+    "premier_auteur": "Fabbri",
+    "nb_auteurs": 1,
+    "annee": 1975,
+    "revue": "Physical Review D",
+    "volume": "12",
+    "page": "933-942",
+    "titre": "Scattering and absorption of electromagnetic waves by a Schwarzschild black hole",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Denardo2009",
+  "doi_demande": null,
+  "requete": "Denardo Puda Larraza A water wave analog of the Casimir effect American Journal of Physics 2009",
+  "auteur_attendu": "Denardo",
+  "annee_attendue": 2009,
+  "resultats": [
+   {
+    "doi": "10.1119/1.3211416",
+    "premier_auteur": "Denardo",
+    "nb_auteurs": 3,
+    "annee": 2009,
+    "revue": "American Journal of Physics",
+    "volume": "77",
+    "page": "1095-1101",
+    "titre": "A water wave analog of the Casimir effect",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/s0375-9601(98)00652-5",
+    "premier_auteur": "Larraza",
+    "nb_auteurs": 2,
+    "annee": 1998,
+    "revue": "Physics Letters A",
+    "volume": "248",
+    "page": "151-155",
+    "titre": "An acoustic Casimir effect",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1119/1.19166",
+    "premier_auteur": "Larraza",
+    "nb_auteurs": 1,
+    "annee": 1999,
+    "revue": "American Journal of Physics",
+    "volume": "67",
+    "page": "1028-1030",
+    "titre": "A demonstration apparatus for an acoustic analog to the Casimir effect",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Larraza1998",
+  "doi_demande": null,
+  "requete": "Larraza Denardo An acoustic Casimir effect Physics Letters A 1998",
+  "auteur_attendu": "Larraza",
+  "annee_attendue": 1998,
+  "resultats": [
+   {
+    "doi": "10.1016/s0375-9601(98)00652-5",
+    "premier_auteur": "Larraza",
+    "nb_auteurs": 2,
+    "annee": 1998,
+    "revue": "Physics Letters A",
+    "volume": "248",
+    "page": "151-155",
+    "titre": "An acoustic Casimir effect",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1121/1.421425",
+    "premier_auteur": "Larraza",
+    "nb_auteurs": 4,
+    "annee": 1998,
+    "revue": "The Journal of the Acoustical Society of America",
+    "volume": "103",
+    "page": "2763-2763",
+    "titre": "An acoustic Casimir effect",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1121/1.422744",
+    "premier_auteur": "Larraza",
+    "nb_auteurs": 4,
+    "annee": 1998,
+    "revue": "The Journal of the Acoustical Society of America",
+    "volume": "103",
+    "page": "2267-2272",
+    "titre": "The force between two parallel rigid plates due to the radiation pressure of broadband noise: An acoustic Casimir effect",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Jekeli2006",
+  "doi_demande": null,
+  "requete": "Jekeli Precision free-inertial navigation with gravity compensation by an onboard gradiometer Journal of Guidance Control and Dynamics 2006",
+  "auteur_attendu": "Jekeli",
+  "annee_attendue": 2006,
+  "resultats": [
+   {
+    "doi": "10.2514/1.15368",
+    "premier_auteur": "Jekeli",
+    "nb_auteurs": 1,
+    "annee": 2006,
+    "revue": "Journal of Guidance, Control, and Dynamics",
+    "volume": "29",
+    "page": "704-713",
+    "titre": "Precision Free-Inertial Navigation with Gravity Compensation by an Onboard Gradiometer",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.2514/1.29808",
+    "premier_auteur": "Kerr",
+    "nb_auteurs": 1,
+    "annee": 2007,
+    "revue": "Journal of Guidance, Control, and Dynamics",
+    "volume": "30",
+    "page": "1214-1215",
+    "titre": "Comment on �Precision Free-Inertial Navigation with Gravity Compensation by an Onboard Gradiometer�",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.2514/1.g7694tc",
+    "premier_auteur": "Kerr",
+    "nb_auteurs": 1,
+    "annee": 2007,
+    "revue": "Journal of Guidance, Control, and Dynamics",
+    "volume": "30",
+    "page": "1214-1215",
+    "titre": "Comment on \"Precision Free-Inertial Navigation with Gravity Compensation by an Onboard Gradiometer\"",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Casimir1948",
+  "doi_demande": null,
+  "requete": "Casimir On the attraction between two perfectly conducting plates Proceedings Koninklijke Nederlandse Akademie van Wetenschappen 1948",
+  "auteur_attendu": "Casimir",
+  "annee_attendue": 1948,
+  "resultats": [
+   {
+    "doi": "10.5962/bhl.title.11828",
+    "premier_auteur": "Hubrecht",
+    "nb_auteurs": 2,
+    "annee": 1880,
+    "revue": "Verhandelingen der Koninklijke Akademie van Wetenschappen",
+    "volume": null,
+    "page": null,
+    "titre": "Zur Anatomie und Physiologie des Nervensystems der Nemertinen",
+    "type": "monograph"
+   },
+   {
+    "doi": "10.1163/002820376x00372",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 1976,
+    "revue": "Nederlands Archief voor Kerkgeschiedenis / Dutch Review of Church History",
+    "volume": "56",
+    "page": "501",
+    "titre": "Rapport over de huidige stand en toekomstige planning van het wetenschappelijk onderzoek der Nederlandse geschiedenis, samengesteld door de Historisch-Wetenschappelijke Commissie der Koninklijke Akademie van Wetenschappen. Koninklijke Nederlandse Akademie van Wetenschappen, Amsterdam 1974",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.2307/2964494",
+    "premier_auteur": "Łoś",
+    "nb_auteurs": 1,
+    "annee": 1958,
+    "revue": "Journal of Symbolic Logic",
+    "volume": "23",
+    "page": "57-57",
+    "titre": "Dana Scott. Equationally complete extensions of finite algebras. Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings, series A, vol. 59 (1956), pp. 35–38; also <b><i>Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings</i></b>, series A, vol. 18 (1956), pp. 35–38.",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "LenseThirring1918",
+  "doi_demande": null,
+  "requete": "Lense Thirring Uber den Einfluss der Eigenrotation der Zentralkorper auf die Bewegung der Planeten und Monde Physikalische Zeitschrift 1918",
+  "auteur_attendu": "Lense",
+  "annee_attendue": 1918,
+  "resultats": [
+   {
+    "doi": "10.1002/phbl.19580140504",
+    "premier_auteur": "Thirring",
+    "nb_auteurs": 1,
+    "annee": 1958,
+    "revue": "Physikalische Blätter",
+    "volume": "14",
+    "page": "212-214",
+    "titre": "Der Einfluß der Eigenrotation der Planeten auf die Bewegung ihrer Trabanten",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1515/zpch-1889-0108",
+    "premier_auteur": "Arrhenius",
+    "nb_auteurs": 1,
+    "annee": 1889,
+    "revue": "Zeitschrift für Physikalische Chemie",
+    "volume": "4",
+    "page": null,
+    "titre": "Über die Dissociationswärme und den Einfluss der Temperatur auf den Dissociationsgrad der Elektrolyte",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.5962/bhl.title.50540",
+    "premier_auteur": "Weismann",
+    "nb_auteurs": 1,
+    "annee": 1872,
+    "revue": "",
+    "volume": null,
+    "page": null,
+    "titre": "Uber den Einfluss der Isolirung auf die Artbildung /",
+    "type": "monograph"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Mashhoon1984",
+  "doi_demande": null,
+  "requete": "Mashhoon Hehl Theiss On the gravitational effects of rotating masses: The Thirring-Lense papers General Relativity and Gravitation 1984",
+  "auteur_attendu": "Mashhoon",
+  "annee_attendue": 1984,
+  "resultats": [
+   {
+    "doi": "10.1007/bf00762913",
+    "premier_auteur": "Mashhoon",
+    "nb_auteurs": 3,
+    "annee": 1984,
+    "revue": "General Relativity and Gravitation",
+    "volume": "16",
+    "page": "711-750",
+    "titre": "On the gravitational effects of rotating masses: The Thirring-Lense papers",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1142/9789812564818_0030",
+    "premier_auteur": "MASHHOON",
+    "nb_auteurs": 3,
+    "annee": 2003,
+    "revue": "Nonlinear Gravitodynamics",
+    "volume": null,
+    "page": "349-388",
+    "titre": "On the Gravitational Effects of Rotating Masses: The Thirring–Lense Papers",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1007/bf00762188",
+    "premier_auteur": "Mashhoon",
+    "nb_auteurs": 1,
+    "annee": 1984,
+    "revue": "General Relativity and Gravitation",
+    "volume": "16",
+    "page": "311-316",
+    "titre": "On a new gravitational effect of a rotating mass",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Sagnac1913",
+  "doi_demande": null,
+  "requete": "Sagnac L'ether lumineux demontre par l'effet du vent relatif d'ether dans un interferometre en rotation uniforme Comptes Rendus 1913",
+  "auteur_attendu": "Sagnac",
+  "annee_attendue": 1913,
+  "resultats": [
+   {
+    "doi": "10.1016/s1287-4620(00)87505-5",
+    "premier_auteur": "Roudet",
+    "nb_auteurs": 2,
+    "annee": 1999,
+    "revue": "Comptes Rendus de l'Académie des Sciences - Series IIB - Mechanics-Physics-Astronomy",
+    "volume": "327",
+    "page": "1363-1369",
+    "titre": "Effet du matage en fatigue par flexion trois points avec cisaillement prépondérant dans un V/E-UD",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/j.crma.2005.02.009",
+    "premier_auteur": "Varron",
+    "nb_auteurs": 1,
+    "annee": 2005,
+    "revue": "Comptes Rendus. Mathématique",
+    "volume": "340",
+    "page": "453-456",
+    "titre": "Uniformité en h dans la loi fonctionnelle limite uniforme les accroissements du processus empirique indéxé par des fonctions",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1051/jphystap:019140040017700",
+    "premier_auteur": "Sagnac",
+    "nb_auteurs": 1,
+    "annee": 1914,
+    "revue": "Journal de Physique Théorique et Appliquée",
+    "volume": "4",
+    "page": "177-195",
+    "titre": "Effet tourbillonnaire optique. La circulation de l'éther lumineux dans un interférographe tournant",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Levine2002",
+  "doi_demande": null,
+  "requete": "Levine Time and frequency distribution using satellites Reports on Progress in Physics 2002",
+  "auteur_attendu": "Levine",
+  "annee_attendue": 2002,
+  "resultats": [
+   {
+    "doi": "10.1088/0034-4885/65/8/201",
+    "premier_auteur": "Levine",
+    "nb_auteurs": 1,
+    "annee": 2002,
+    "revue": "Reports on Progress in Physics",
+    "volume": "65",
+    "page": "1119-1164",
+    "titre": "Time and frequency distribution using satellites",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1088/0034-4885/65/5/203",
+    "premier_auteur": "Bauch",
+    "nb_auteurs": 2,
+    "annee": 2002,
+    "revue": "Reports on Progress in Physics",
+    "volume": "65",
+    "page": "789-843",
+    "titre": "Frequency standards and frequency measurement",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/freq.2002.1075939",
+    "premier_auteur": "Levine",
+    "nb_auteurs": 1,
+    "annee": null,
+    "revue": "Proceedings of the 2002 IEEE International Frequency Control Symposium and PDA Exhibition (Cat. No.02CH37234)",
+    "volume": null,
+    "page": "522-529",
+    "titre": "Efficient time transfer using the Internet",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Novick2015",
+  "doi_demande": null,
+  "requete": "Novick Lombardi Practical limitations of NTP time transfer IEEE International Frequency Control Symposium European Frequency and Time Forum 2015",
+  "auteur_attendu": "Novick",
+  "annee_attendue": 2015,
+  "resultats": [
+   {
+    "doi": "10.1109/fcs.2015.7138909",
+    "premier_auteur": "Novick",
+    "nb_auteurs": 2,
+    "annee": 2015,
+    "revue": "2015 Joint Conference of the IEEE International Frequency Control Symposium &amp; the European Frequency and Time Forum",
+    "volume": null,
+    "page": "570-574",
+    "titre": "Practical limitations of NTP time transfer",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/freq.2009.5168125",
+    "premier_auteur": "Defraigne",
+    "nb_auteurs": 1,
+    "annee": 2009,
+    "revue": "2009 IEEE International Frequency Control Symposium Joint with the 22nd European Frequency and Time forum",
+    "volume": null,
+    "page": "xix-xix",
+    "titre": "Precise GNSS time and frequency transfer",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.1109/fcs.2015.7138830",
+    "premier_auteur": "Jiang",
+    "nb_auteurs": 1,
+    "annee": 2015,
+    "revue": "2015 Joint Conference of the IEEE International Frequency Control Symposium &amp; the European Frequency and Time Forum",
+    "volume": null,
+    "page": "230-235",
+    "titre": "Link calibration or receiver calibration for accurate time transfer?",
+    "type": "proceedings-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Tipler1974",
+  "doi_demande": "10.1103/PhysRevD.9.2203",
+  "requete": null,
+  "auteur_attendu": "Tipler",
+  "annee_attendue": 1974,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.9.2203",
+    "premier_auteur": "Tipler",
+    "nb_auteurs": 1,
+    "annee": 1974,
+    "revue": "Physical Review D",
+    "volume": "9",
+    "page": "2203-2206",
+    "titre": "Rotating cylinders and the possibility of global causality violation",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Tipler1977",
+  "doi_demande": null,
+  "requete": "Tipler Singularities and causality violation Annals of Physics 1977",
+  "auteur_attendu": "Tipler",
+  "annee_attendue": 1977,
+  "resultats": [
+   {
+    "doi": "10.1016/0003-4916(77)90348-7",
+    "premier_auteur": "Tipler",
+    "nb_auteurs": 1,
+    "annee": 1977,
+    "revue": "Annals of Physics",
+    "volume": "108",
+    "page": "1-36",
+    "titre": "Singularities and causality violation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1016/0003-4916(77)90220-2",
+    "premier_auteur": "",
+    "nb_auteurs": 0,
+    "annee": 1977,
+    "revue": "Annals of Physics",
+    "volume": "107",
+    "page": "431",
+    "titre": "Singularities and causality violation",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/bf00776516",
+    "premier_auteur": "Tipler",
+    "nb_auteurs": 1,
+    "annee": 1979,
+    "revue": "General Relativity and Gravitation",
+    "volume": "10",
+    "page": "983-984",
+    "titre": "Singularities and causality violation",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ },
+ {
+  "cle": "Hawking1992",
+  "doi_demande": "10.1103/PhysRevD.46.603",
+  "requete": null,
+  "auteur_attendu": "Hawking",
+  "annee_attendue": 1992,
+  "resultats": [
+   {
+    "doi": "10.1103/physrevd.46.603",
+    "premier_auteur": "Hawking",
+    "nb_auteurs": 1,
+    "annee": 1992,
+    "revue": "Physical Review D",
+    "volume": "46",
+    "page": "603-611",
+    "titre": "Chronology protection conjecture",
+    "type": "journal-article"
+   }
+  ],
+  "erreur": null
+ }
+]

@@ -1,0 +1,70 @@
+EXP-08 — DÉVIATION DE LA LUMIÈRE : GRAVITATION CONTRE GRADIENT D'INDICE
+========================================================================
+1. Déviation gravitationnelle (champ faible) : α = 4GM/(c²b)
+   Soleil, rayon rasant                             α = 8,49e-6 rad = 1,75e0″ ; déplacement à 10 m : 8,49e-5 m
+   Terre, rayon rasant                              α = 2,78e-9 rad = 5,74e-4″ ; déplacement à 10 m : 2,78e-8 m
+   unité de 227 kg, b = 0,1 m                       α = 6,74e-24 rad = 1,39e-18″ ; déplacement à 10 m : 6,74e-23 m
+   une singularité de 3,9e12 kg, b = 1 m            α = 1,16e-14 rad = 2,39e-9″ ; déplacement à 10 m : 1,16e-13 m
+   une singularité de 5,1e12 kg, b = 1 m            α = 1,51e-14 rad = 3,12e-9″ ; déplacement à 10 m : 1,51e-13 m
+   la paire (7,8e12 kg), b = 1 m                    α = 2,32e-14 rad = 4,78e-9″ ; déplacement à 10 m : 2,32e-13 m
+   la paire (1,02e13 kg), b = 1 m                   α = 3,03e-14 rad = 6,25e-9″ ; déplacement à 10 m : 3,03e-13 m
+   la paire (1,02e13 kg), b = 1 cm                  α = 3,03e-12 rad = 6,25e-7″ ; déplacement à 10 m : 3,03e-11 m
+   masse donnant « 2 g à 1 m » (2,9e11 kg), b = 1 m α = 8,73e-16 rad = 1,80e-10″ ; déplacement à 10 m : 8,73e-15 m
+   ancienne fourchette v1 : 1e11 kg, b = 1 m        α = 2,97e-16 rad = 6,13e-11″ ; déplacement à 10 m : 2,97e-15 m
+   ancienne fourchette v1 : 1e12 kg, b = 1 m        α = 2,97e-15 rad = 6,13e-10″ ; déplacement à 10 m : 2,97e-14 m
+   (Soleil : 1,75″, valeur d'Einstein vérifiée en 1919 puis à ~1e-4 près par VLBI ; Shapiro et al. 2004)
+   pour dévier de  0.1° à b = 1 m il faudrait M = 5,88e23 kg = 0.098 masse terrestre (rayon de Schwarzschild 0.87 mm)
+   pour dévier de  1.0° à b = 1 m il faudrait M = 5,88e24 kg = 0.98 masse terrestre (rayon de Schwarzschild 8.7 mm)
+   pour dévier de 10.0° à b = 1 m il faudrait M = 5,88e25 kg = 9.8 masse terrestre (rayon de Schwarzschild 87 mm)
+
+2. Comparaison en termes d'indice de réfraction effectif
+   gravitation : n - 1 = 2GM/(rc²) = 1,51e-14 à 1 m de la paire de singularités (1,02e13 kg)
+   air ambiant : n - 1 ≈ 2.7e-04 ; dn/dT ≈ -(n-1)/T = -9,22e-7 K⁻¹
+   gradient thermique transverse de      1 K/m : courbure 9,22e-7 rad/m = 3.0e+07 × la déviation TOTALE par la paire (1,02e13 kg) à 1 m
+   gradient thermique transverse de     20 K/m : courbure 1,84e-5 rad/m = 6.1e+08 × la déviation TOTALE par la paire (1,02e13 kg) à 1 m
+   gradient thermique transverse de    100 K/m : courbure 9,22e-5 rad/m = 3.0e+09 × la déviation TOTALE par la paire (1,02e13 kg) à 1 m
+   gradient thermique transverse de   1000 K/m : courbure 9,22e-4 rad/m = 3.0e+10 × la déviation TOTALE par la paire (1,02e13 kg) à 1 m
+   Une unité revendiquée « à 38–49 °C » dans un habitacle à ~20 °C crée des gradients de 10²–10³ K/m près
+   de ses parois : l'effet thermique dépasse l'effet gravitationnel de la paire de 9 à 10 ordres de grandeur.
+
+3. Limite de détection angulaire d'un laser de classe 2 (1 mW, 633 nm, col w0 = 1 mm)
+   flux de photons 3,19e15 /s ; divergence λ/(πw0) = 2,01e-4 rad
+   bruit de photons sur la direction : ≈ divergence/√N = 3,57e-12 rad/√Hz (borne idéale)
+   temps d'intégration pour voir α(3.90e+12 kg, 1 m) à 3σ : 8,54e5 s = 9.89 jours (avec modulation parfaite de la masse et zéro dérive — irréaliste)
+   temps d'intégration pour voir α(5.10e+12 kg, 1 m) à 3σ : 5,00e5 s = 5.78 jours (avec modulation parfaite de la masse et zéro dérive — irréaliste)
+   temps d'intégration pour voir α(1.02e+13 kg, 1 m) à 3σ : 1,25e5 s = 1.45 jours (avec modulation parfaite de la masse et zéro dérive — irréaliste)
+   temps d'intégration pour voir α(1.00e+12 kg, 1 m) à 3σ : 1,30e7 s = 150 jours (avec modulation parfaite de la masse et zéro dérive — irréaliste)
+   En pratique la stabilité de pointé (µrad), la turbulence de l'air (~µrad sur 1 m) et les dérives
+   mécaniques fixent le plancher 7 à 8 ordres de grandeur au-dessus de α ≈ 1–3e-14 rad : INDÉTECTABLE.
+
+4. Cuve d'eau sucrée stratifiée (sirop n ≈ 1,45 sous eau n = 1,333 ; diffusion D ≈ 5e-10 m²/s)
+   déviation maximale d'un rayon entré horizontalement dans l'eau : arccos(n_eau/n_sirop) = 23.2°
+   après 0.25 j : épaisseur 2√(Dt) =   6.6 mm ; dn/dy max =  10.0 m⁻¹ ; rayon de courbure minimal  13.9 cm ; après 10 cm de trajet : descente  24.8 mm, inclinaison 18.1°
+   après  1.0 j : épaisseur 2√(Dt) =  13.1 mm ; dn/dy max =   5.0 m⁻¹ ; rayon de courbure minimal  27.7 cm ; après 10 cm de trajet : descente  17.3 mm, inclinaison 17.2°
+   après  3.0 j : épaisseur 2√(Dt) =  22.8 mm ; dn/dy max =   2.9 m⁻¹ ; rayon de courbure minimal  48.0 cm ; après 10 cm de trajet : descente  10.3 mm, inclinaison 11.7°
+   après  7.0 j : épaisseur 2√(Dt) =  34.8 mm ; dn/dy max =   1.9 m⁻¹ ; rayon de courbure minimal  73.3 cm ; après 10 cm de trajet : descente   6.7 mm, inclinaison  7.7°
+   Courbure du rayon dans la couche (1 jour) : ~3.6 rad/m, à comparer aux 3,03e-14 rad AU TOTAL
+   produits par la paire (1,02e13 kg) à 1 m : rapport ~1e+13 sur 10 cm de trajet.
+   Un rayon injecté légèrement vers le haut depuis le sirop décrit une arche et retombe (« mirage en cuve »).
+
+5. Mirage thermique (air chaud sous air froid) : angle rasant critique θ_c ≈ √(2·Δn/n), Δn = |dn/dT|·ΔT
+   ΔT =    5 K : θ_c = 3.0 mrad = 0.17°
+   ΔT =   20 K : θ_c = 6.1 mrad = 0.35°
+   ΔT =   40 K : θ_c = 8.6 mrad = 0.49°
+
+6. Confrontation à la photographie dite « du laser » (C204-DOC-012, 252×206 px ; lecture visuelle, confiance faible)
+   courbure apparente : ≈ 45–65° sur le dernier tiers du trait ; rayon de courbure ~10 cm [HYP d'échelle]
+   • gravitation : un rayon de courbure R exige un champ transverse g = c²/(2R) = 4,49e17 m/s² = 4.6e+16 g ;
+     avec les « 2 g » revendiqués, R = c²/(2·2g) = 2,29e15 m (0.24 année-lumière) : écart de 2e+16.
+   • réfraction dans l'AIR : la déviation totale d'un rayon rasant est bornée par √(2Δn) ; même entre le vide et l'air
+     (Δn = 2,7e-4) : 1.33° ; pour un écart thermique de 30 K : 0.43°.
+     Courber un rayon à R = 10 cm demande dn/dy ≈ 10 m⁻¹ : accessible dans un liquide stratifié
+     (10 m⁻¹ dans la cuve sucrée après 6 h), IMPOSSIBLE dans l'air (≲ 1e-3 m⁻¹).
+   → ni la gravité ni la réfraction dans l'air n'expliquent une courbure de ~50° sur ~10 cm. Si la scène est bien
+     dans l'air (légende : faisceau rendu visible par de la fumée), il reste des explications ordinaires d'une autre
+     nature : guide de lumière souple à émission latérale, pose longue avec source mobile, retouche [HYP ; aucune
+     n'est démontrable sur une image de 252 px — cf. Équipe A, incohérence I-11].
+
+Conclusion : un gradient d'indice courbe visiblement un faisceau dans un LIQUIDE stratifié (expérience N1), pas
+dans l'air. La déviation gravitationnelle par les masses retenues (3,9e12 à 1,0e13 kg) à 1 m vaut 1,2e-14 à 3,0e-14 rad :
+ni l'œil ni un appareil photo ne peuvent la voir. Une courbure photographiable n'est donc JAMAIS gravitationnelle ici.

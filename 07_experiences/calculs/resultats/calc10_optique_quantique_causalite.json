@@ -1,0 +1,71 @@
+{
+  "gomme": {
+    "ecart_marginales": 6.505213034913027e-19,
+    "V_signal_seul": 5.551115123125784e-16,
+    "V_coinc_D": 0.9999599461820226,
+    "V_coinc_A": 1.0,
+    "V_coinc_H": 5.551115123125784e-16,
+    "chi2": 51.26431193180605,
+    "ndl": 59
+  },
+  "gomme_table": {
+    "V_residuelle": 0.19801980198019803
+  },
+  "pctc": [
+    {
+      "theta_deg": 0.0,
+      "P": 0.9999999999999996
+    },
+    {
+      "theta_deg": 29.999999999999996,
+      "P": 0.9330127018922192
+    },
+    {
+      "theta_deg": 59.99999999999999,
+      "P": 0.7499999999999997
+    },
+    {
+      "theta_deg": 90.0,
+      "P": 0.4999999999999999
+    },
+    {
+      "theta_deg": 119.99999999999999,
+      "P": 0.25
+    },
+    {
+      "theta_deg": 149.99999999999997,
+      "P": 0.06698729810778076
+    },
+    {
+      "theta_deg": 180.0,
+      "P": 3.7493994566546427e-33
+    }
+  ],
+  "interrupteur": [
+    {
+      "cas": "A = X, B = X (commutent)",
+      "P_plus": 1.0,
+      "P_moins": 0.0
+    },
+    {
+      "cas": "A = X, B = Z (anticommutent)",
+      "P_plus": 0.0,
+      "P_moins": 1.0
+    },
+    {
+      "cas": "A = Z, B = Z (commutent)",
+      "P_plus": 1.0,
+      "P_moins": 0.0
+    },
+    {
+      "cas": "A = Z, B = X (anticommutent)",
+      "P_plus": 0.0,
+      "P_moins": 1.0
+    }
+  ],
+  "budget": {
+    "R_c": 30000.0,
+    "R_acc": 40.0,
+    "coups_par_point": 6000.0
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "simulation": "S06_confinement_em",
+  "avertissement": "Simulation illustrative — ce n'est PAS une preuve expérimentale (Équipe D, programme C204 ; aucune affirmation « Titor » n'est tenue pour vraie)",
+  "Q_sur_M": {
+    "extremal_C_kg": 8.617517197589872e-11,
+    "electron_C_kg": 175882001077.2163,
+    "proton_C_kg": 95788331.55943637,
+    "rapport_proton_sur_extremal": 1.1115537034985696e+18
+  },
+  "champ_levitation_charge_extremale_V_m": 113799018616.90164,
+  "charge_critique_schwinger_C": 2.195558756148777e-17,
+  "charge_critique_schwinger_en_e": 137.03599900014376,
+  "charge_typique_C": 9.837364532759998e-19,
+  "charge_typique_en_e": 6.139999999999999,
+  "note_charge": "≈ 137 e est une borne supérieure d'ordre de grandeur ; la valeur typique est ≈ 6 e (valeur quadratique moyenne, Page 1977)",
+  "champ_schwinger_V_m": 1.323285474948166e+18,
+  "penning_extremal_d0_5cm_affaissement_10pct": {
+    "V0_V": 56899509308.45082,
+    "B_min_T": 726788713933.242,
+    "B_min_sur_magnetar": 7.267887139332419
+  },
+  "paul_extremal_r0_5cm_q0p4": {
+    "V_V": 284497546542.2541,
+    "Omega_rad_s": 313.1557120666969
+  },
+  "penning_adimensionnel": {
+    "beta": 3.0,
+    "omega_plus": 2.8228756555322954,
+    "omega_moins": 0.17712434446770464,
+    "condition_stabilite": "β² = (ω_c/ω_z)² > 2"
+  },
+  "mathieu": {
+    "q_max_a0": 0.9080463337352489,
+    "beta_floquet_q0p3": 0.21605913493634693,
+    "approximation_dehmelt_q0p3": 0.21213203435596423
+  },
+  "bilan_par_masse": {
+    "113 kg (demi-unité)": {
+      "M_kg": 113.3980925,
+      "poids_N": 1112.055403815125,
+      "poids_en_tonnes_force": 0.11339809249999999,
+      "rayon_champ_superieur_Schwinger_charge_extremale_m": 8.146815562010899e-09,
+      "rayon_claquage_air_charge_extremale_m": 0.0054107071618523985,
+      "moment_magnetique_max_A_m2": 2.4670541269631836e-25,
+      "gradient_B_pour_levitation_dipolaire_T_m": 4.507624667254495e+27,
+      "charge_extremale": {
+        "Q_C": 9.772100122926371e-09,
+        "Q_en_e": 60992651593.78409,
+        "Q_sur_M_C_kg": 8.617517197589872e-11,
+        "E_levitation_V_m": 113799018616.90164,
+        "E_levitation_sur_E_Schwinger": 8.599733071305664e-08,
+        "Penning_V0_V": 56899509308.45082,
+        "Penning_B_min_T": 726788713933.242,
+        "Paul_V_V": 284497546542.2541,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 87.82725597396252
+      },
+      "charge_limitee_claquage_air_a_1m": {
+        "Q_C": 9.772100122926371e-09,
+        "Q_en_e": 60992651593.78409,
+        "Q_sur_M_C_kg": 8.617517197589872e-11,
+        "E_levitation_V_m": 113799018616.90164,
+        "E_levitation_sur_E_Schwinger": 8.599733071305664e-08,
+        "Penning_V0_V": 56899509308.45082,
+        "Penning_B_min_T": 726788713933.242,
+        "Paul_V_V": 284497546542.2541,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 87.82725597396252
+      },
+      "charge_borne_superieure_schwinger_137e": {
+        "Q_C": 2.195558756148777e-17,
+        "Q_en_e": 137.03599900014376,
+        "Q_sur_M_C_kg": 1.9361514005615013e-19,
+        "E_levitation_V_m": 5.065022289659777e+19,
+        "E_levitation_sur_E_Schwinger": 38.27611188627441,
+        "Penning_V0_V": 2.5325111448298885e+19,
+        "Penning_B_min_T": 3.2348266977043114e+20,
+        "Paul_V_V": 1.266255572414944e+20,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 1.9732698033839648e-07
+      },
+      "charge_typique_6e_page_1977": {
+        "Q_C": 9.837364532759998e-19,
+        "Q_en_e": 6.139999999999999,
+        "Q_sur_M_C_kg": 8.675070555318201e-21,
+        "E_levitation_V_m": 1.1304403736506892e+21,
+        "E_levitation_sur_E_Schwinger": 854.2679527975394,
+        "Penning_V0_V": 5.652201868253446e+20,
+        "Penning_B_min_T": 7.219669513228769e+21,
+        "Paul_V_V": 2.8261009341267224e+21,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 8.84138232375336e-09
+      }
+    },
+    "1e9 kg": {
+      "M_kg": 1000000000.0,
+      "poids_N": 9806650000.0,
+      "poids_en_tonnes_force": 1000000.0,
+      "rayon_champ_superieur_Schwinger_charge_extremale_m": 2.4192737304106737e-05,
+      "rayon_claquage_air_charge_extremale_m": 16.067605311520477,
+      "moment_magnetique_max_A_m2": 1.9185237485818962e-11,
+      "gradient_B_pour_levitation_dipolaire_T_m": 5.111560389726071e+20,
+      "charge_extremale": {
+        "Q_C": 0.08617517197589872,
+        "Q_en_e": 5.378631178807887e+17,
+        "Q_sur_M_C_kg": 8.617517197589872e-11,
+        "E_levitation_V_m": 113799018616.90164,
+        "E_levitation_sur_E_Schwinger": 8.599733071305664e-08,
+        "Penning_V0_V": 56899509308.45082,
+        "Penning_B_min_T": 726788713933.242,
+        "Paul_V_V": 284497546542.2541,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 774503821.3404032
+      },
+      "charge_limitee_claquage_air_a_1m": {
+        "Q_C": 0.00033379501663436116,
+        "Q_en_e": 2083384625333146.5,
+        "Q_sur_M_C_kg": 3.337950166343612e-13,
+        "E_levitation_V_m": 29379258261192.668,
+        "E_levitation_sur_E_Schwinger": 2.220175375411226e-05,
+        "Penning_V0_V": 14689629130596.334,
+        "Penning_B_min_T": 187633545416124.3,
+        "Paul_V_V": 73448145652981.66,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 3000000.0
+      },
+      "charge_borne_superieure_schwinger_137e": {
+        "Q_C": 2.195558756148777e-17,
+        "Q_en_e": 137.03599900014376,
+        "Q_sur_M_C_kg": 2.195558756148777e-26,
+        "E_levitation_V_m": 4.466585087980891e+26,
+        "E_levitation_sur_E_Schwinger": 337537528.5635815,
+        "Penning_V0_V": 2.2332925439904454e+26,
+        "Penning_B_min_T": 2.852628846207718e+27,
+        "Paul_V_V": 1.1166462719952225e+27,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 1.9732698033839648e-07
+      },
+      "charge_typique_6e_page_1977": {
+        "Q_C": 9.837364532759998e-19,
+        "Q_en_e": 6.139999999999999,
+        "Q_sur_M_C_kg": 9.837364532759997e-28,
+        "E_levitation_V_m": 9.96877768160597e+27,
+        "E_levitation_sur_E_Schwinger": 7533353815.43159,
+        "Penning_V0_V": 4.984388840802985e+27,
+        "Penning_B_min_T": 6.366658692454434e+28,
+        "Paul_V_V": 2.4921944204014917e+28,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 8.84138232375336e-09
+      }
+    },
+    "1,5e11 kg": {
+      "M_kg": 146931513417.1374,
+      "poids_N": 1440905926052.1704,
+      "poids_en_tonnes_force": 146931513.41713738,
+      "rayon_champ_superieur_Schwinger_charge_extremale_m": 0.00029325301484052404,
+      "rayon_claquage_air_charge_extremale_m": 194.76397563623996,
+      "moment_magnetique_max_A_m2": 4.141875909988282e-07,
+      "gradient_B_pour_levitation_dipolaire_T_m": 3.478872755645272e+18,
+      "charge_extremale": {
+        "Q_C": 12.661848437400884,
+        "Q_en_e": 7.902904192148446e+19,
+        "Q_sur_M_C_kg": 8.617517197589872e-11,
+        "E_levitation_V_m": 113799018616.90164,
+        "E_levitation_sur_E_Schwinger": 8.599733071305664e-08,
+        "Penning_V0_V": 56899509308.45082,
+        "Penning_B_min_T": 726788713933.242,
+        "Paul_V_V": 284497546542.2541,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 113799018616.90163
+      },
+      "charge_limitee_claquage_air_a_1m": {
+        "Q_C": 0.00033379501663436116,
+        "Q_en_e": 2083384625333146.5,
+        "Q_sur_M_C_kg": 2.2717728067410548e-15,
+        "E_levitation_V_m": 4316738879389975.0,
+        "E_levitation_sur_E_Schwinger": 0.003262137279606326,
+        "Penning_V0_V": 2158369439694987.5,
+        "Penning_B_min_T": 2.7569280795814332e+16,
+        "Paul_V_V": 1.0791847198474936e+16,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 3000000.0
+      },
+      "charge_borne_superieure_schwinger_137e": {
+        "Q_C": 2.195558756148777e-17,
+        "Q_en_e": 137.03599900014376,
+        "Q_sur_M_C_kg": 1.4942735598969864e-28,
+        "E_levitation_V_m": 6.5628210678345e+28,
+        "E_levitation_sur_E_Schwinger": 49594899906.92727,
+        "Penning_V0_V": 3.28141053391725e+28,
+        "Penning_B_min_T": 4.191410735906825e+29,
+        "Paul_V_V": 1.6407052669586248e+29,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 1.9732698033839648e-07
+      },
+      "charge_typique_6e_page_1977": {
+        "Q_C": 9.837364532759998e-19,
+        "Q_en_e": 6.139999999999999,
+        "Q_sur_M_C_kg": 6.69520397903464e-30,
+        "E_levitation_V_m": 1.464727591677347e+30,
+        "E_levitation_sur_E_Schwinger": 1106887077208.1296,
+        "Penning_V0_V": 7.323637958386734e+29,
+        "Penning_B_min_T": 9.354627970927028e+30,
+        "Paul_V_V": 3.661818979193367e+30,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 8.84138232375336e-09
+      }
+    },
+    "1e12 kg": {
+      "M_kg": 1000000000000.0,
+      "poids_N": 9806650000000.0,
+      "poids_en_tonnes_force": 1000000000.0,
+      "rayon_champ_superieur_Schwinger_charge_extremale_m": 0.0007650415271509891,
+      "rayon_claquage_air_charge_extremale_m": 508.10229329024,
+      "moment_magnetique_max_A_m2": 1.9185237485818967e-05,
+      "gradient_B_pour_levitation_dipolaire_T_m": 5.11156038972607e+17,
+      "charge_extremale": {
+        "Q_C": 86.17517197589872,
+        "Q_en_e": 5.378631178807887e+20,
+        "Q_sur_M_C_kg": 8.617517197589872e-11,
+        "E_levitation_V_m": 113799018616.90164,
+        "E_levitation_sur_E_Schwinger": 8.599733071305664e-08,
+        "Penning_V0_V": 56899509308.45082,
+        "Penning_B_min_T": 726788713933.242,
+        "Paul_V_V": 284497546542.2541,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 774503821340.4032
+      },
+      "charge_limitee_claquage_air_a_1m": {
+        "Q_C": 0.00033379501663436116,
+        "Q_en_e": 2083384625333146.5,
+        "Q_sur_M_C_kg": 3.3379501663436117e-16,
+        "E_levitation_V_m": 2.9379258261192668e+16,
+        "E_levitation_sur_E_Schwinger": 0.02220175375411226,
+        "Penning_V0_V": 1.4689629130596334e+16,
+        "Penning_B_min_T": 1.8763354541612432e+17,
+        "Paul_V_V": 7.344814565298166e+16,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 3000000.0
+      },
+      "charge_borne_superieure_schwinger_137e": {
+        "Q_C": 2.195558756148777e-17,
+        "Q_en_e": 137.03599900014376,
+        "Q_sur_M_C_kg": 2.195558756148777e-29,
+        "E_levitation_V_m": 4.46658508798089e+29,
+        "E_levitation_sur_E_Schwinger": 337537528563.5815,
+        "Penning_V0_V": 2.233292543990445e+29,
+        "Penning_B_min_T": 2.852628846207718e+30,
+        "Paul_V_V": 1.1166462719952224e+30,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 1.9732698033839648e-07
+      },
+      "charge_typique_6e_page_1977": {
+        "Q_C": 9.837364532759998e-19,
+        "Q_en_e": 6.139999999999999,
+        "Q_sur_M_C_kg": 9.837364532759998e-31,
+        "E_levitation_V_m": 9.968777681605968e+30,
+        "E_levitation_sur_E_Schwinger": 7533353815431.589,
+        "Penning_V0_V": 4.984388840802984e+30,
+        "Penning_B_min_T": 6.366658692454433e+31,
+        "Paul_V_V": 2.4921944204014917e+31,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 8.84138232375336e-09
+      }
+    },
+    "4,4e12 kg": {
+      "M_kg": 4400000000000.0,
+      "poids_N": 43149260000000.0,
+      "poids_en_tonnes_force": 4400000000.0,
+      "rayon_champ_superieur_Schwinger_charge_extremale_m": 0.0016047646457871252,
+      "rayon_claquage_air_charge_extremale_m": 1065.8043619566984,
+      "moment_magnetique_max_A_m2": 0.0003714261977254552,
+      "gradient_B_pour_levitation_dipolaire_T_m": 1.1617182703922885e+17,
+      "charge_extremale": {
+        "Q_C": 379.1707566939544,
+        "Q_en_e": 2.3665977186754704e+21,
+        "Q_sur_M_C_kg": 8.617517197589872e-11,
+        "E_levitation_V_m": 113799018616.90164,
+        "E_levitation_sur_E_Schwinger": 8.599733071305664e-08,
+        "Penning_V0_V": 56899509308.45082,
+        "Penning_B_min_T": 726788713933.242,
+        "Paul_V_V": 284497546542.2541,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 3407816813897.7744
+      },
+      "charge_limitee_claquage_air_a_1m": {
+        "Q_C": 0.00033379501663436116,
+        "Q_en_e": 2083384625333146.5,
+        "Q_sur_M_C_kg": 7.586250378053663e-17,
+        "E_levitation_V_m": 1.2926873634924774e+17,
+        "E_levitation_sur_E_Schwinger": 0.09768771651809395,
+        "Penning_V0_V": 6.463436817462387e+16,
+        "Penning_B_min_T": 8.255875998309471e+17,
+        "Paul_V_V": 3.231718408731193e+17,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 3000000.0
+      },
+      "charge_borne_superieure_schwinger_137e": {
+        "Q_C": 2.195558756148777e-17,
+        "Q_en_e": 137.03599900014376,
+        "Q_sur_M_C_kg": 4.9899062639744926e-30,
+        "E_levitation_V_m": 1.965297438711592e+30,
+        "E_levitation_sur_E_Schwinger": 1485165125679.7588,
+        "Penning_V0_V": 9.82648719355796e+29,
+        "Penning_B_min_T": 1.255156692331396e+31,
+        "Paul_V_V": 4.913243596778979e+30,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 1.9732698033839648e-07
+      },
+      "charge_typique_6e_page_1977": {
+        "Q_C": 9.837364532759998e-19,
+        "Q_en_e": 6.139999999999999,
+        "Q_sur_M_C_kg": 2.2357646665363633e-31,
+        "E_levitation_V_m": 4.386262179906626e+31,
+        "E_levitation_sur_E_Schwinger": 33146756787898.992,
+        "Penning_V0_V": 2.193131089953313e+31,
+        "Penning_B_min_T": 2.8013298246799504e+32,
+        "Paul_V_V": 1.0965655449766562e+32,
+        "Paul_Omega_rad_s": 313.1557120666969,
+        "champ_propre_a_1m_V_m": 8.84138232375336e-09
+      }
+    }
+  },
+  "reaction_sur_le_vehicule": {
+    "principe": "le piège transmet au véhicule l'intégralité du poids M·g (troisième loi de Newton) : léviter une masse ne l'allège pas",
+    "poids_1e12_kg_N": 9806650000000.0,
+    "rapport_au_poids_supportable_par_un_pick_up": 980665000.0,
+    "pression_sur_0p1_m2_Pa": 98066500000000.0
+  },
+  "validation": {
+    "simulation": "S06_confinement_em",
+    "n_tests": 20,
+    "n_passes": 20,
+    "n_echecs": 0,
+    "tests": [
+      {
+        "test": "(Q/M) extrémal = sqrt(4πε₀G) (dossier : 8,62e-11 C/kg)",
+        "valeur": 8.617517197589872e-11,
+        "attendu": 8.62e-11,
+        "ecart_abs": 2.4828024101276016e-14,
+        "ecart_rel": 0.00028802812182454775,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Charge critique de Schwinger à l'échelle de Compton ≈ e/α (137 e)",
+        "valeur": 137.03599900014376,
+        "attendu": 137.036,
+        "ecart_abs": 9.998562404689437e-07,
+        "ecart_rel": 7.29630345652926e-09,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Deux masses extrémales de même signe : Coulomb = gravitation (Majumdar-Papapetrou)",
+        "valeur": 0.9999999999999998,
+        "attendu": 1.0,
+        "ecart_abs": 2.220446049250313e-16,
+        "ecart_rel": 2.220446049250313e-16,
+        "tol_rel": 1e-12,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Penning : conservation de l'énergie (dérive relative)",
+        "valeur": 4.656068065822536e-09,
+        "attendu": 0.0,
+        "ecart_abs": 4.656068065822536e-09,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-08,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Penning : position d'équilibre axiale z_eq = γ_z (affaissement g/ω_z²)",
+        "valeur": -0.10000000000000002,
+        "attendu": -0.1,
+        "ecart_abs": 1.3877787807814457e-17,
+        "ecart_rel": 1.3877787807814457e-16,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Penning : pulsation axiale = ω_z",
+        "valeur": 1.0000020503794946,
+        "attendu": 1.0,
+        "ecart_abs": 2.050379494633603e-06,
+        "ecart_rel": 2.050379494633603e-06,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.00078125,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Penning : pulsation cyclotron modifiée ω₊",
+        "valeur": 2.822633120864992,
+        "attendu": 2.8228756555322954,
+        "ecart_abs": 0.00024253466730339568,
+        "ecart_rel": 8.591758791361362e-05,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.00078125,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Penning : pulsation magnétron ω₋",
+        "valeur": 0.17736475406006638,
+        "attendu": 0.17712434446770464,
+        "ecart_abs": 0.00024040959236173998,
+        "ecart_rel": 0.0013572927712687977,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.00078125,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Théorème d'invariance : ω₊² + ω₋² + ω_z² = ω_c² (Brown & Gabrielse 1986)",
+        "valeur": 9.0,
+        "attendu": 9.0,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-12,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Penning : centre de l'orbite sous accélération latérale x_eq = −2γ_x",
+        "valeur": -0.16004615723179932,
+        "attendu": -0.16,
+        "ecart_abs": 4.615723179932085e-05,
+        "ecart_rel": 0.00028848269874575533,
+        "tol_rel": 0.02,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Penning instable (β = 1,2) : taux de croissance = sqrt(2 − β²)/2",
+        "valeur": 0.3741659105278214,
+        "attendu": 0.37416573867739417,
+        "ecart_abs": 1.7185042722189792e-07,
+        "ecart_rel": 4.592895860250514e-07,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Mathieu : q_max à a = 0 (Floquet numérique) ↔ zéro de b₁(q) (scipy) ≈ 0,908",
+        "valeur": 0.9080463337352489,
+        "attendu": 0.9080463337344571,
+        "ecart_abs": 7.918110611626616e-13,
+        "ecart_rel": 8.719941172013074e-13,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Mathieu : q_max ≈ 0,908046 (valeur tabulée)",
+        "valeur": 0.9080463337352489,
+        "attendu": 0.908046,
+        "ecart_abs": 3.337352488808065e-07,
+        "ecart_rel": 3.675312141464271e-07,
+        "tol_rel": 1e-05,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Mathieu : frontière inférieure a₀(q = 0.3) (Floquet ↔ scipy.special.mathieu_a)",
+        "valeur": -0.044565975020844584,
+        "attendu": -0.044565975020843966,
+        "ecart_abs": 6.175615574477433e-16,
+        "ecart_rel": 1.3857243270430041e-14,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-07,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Mathieu : frontière supérieure b₁(q = 0.3) (Floquet ↔ scipy.special.mathieu_b)",
+        "valeur": 0.6891659356144133,
+        "attendu": 0.6891659356138624,
+        "ecart_abs": 5.508926648190027e-13,
+        "ecart_rel": 7.993614256750876e-13,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-07,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Mathieu : frontière inférieure a₀(q = 0.6) (Floquet ↔ scipy.special.mathieu_a)",
+        "valeur": -0.1734449702000718,
+        "attendu": -0.17344497019994923,
+        "ecart_abs": 1.2256862191861728e-13,
+        "ecart_rel": 7.066715268671029e-13,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-07,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Mathieu : frontière supérieure b₁(q = 0.6) (Floquet ↔ scipy.special.mathieu_b)",
+        "valeur": 0.35827110290848624,
+        "attendu": 0.3582711029082406,
+        "ecart_abs": 2.456368441983159e-13,
+        "ecart_rel": 6.856172384665578e-13,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-07,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Paul : pulsation séculaire numérique ↔ exposant de Floquet β (en unités de ξ)",
+        "valeur": 0.21591062715386394,
+        "attendu": 0.21605913493634693,
+        "ecart_abs": 0.00014850778248298724,
+        "ecart_rel": 0.0006873478528308421,
+        "tol_rel": 0.001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Paul : β ↔ approximation de Dehmelt q/√2 (q = 0,3)",
+        "valeur": 0.21605913493634693,
+        "attendu": 0.21213203435596423,
+        "ecart_abs": 0.003927100580382703,
+        "ecart_rel": 0.018512529671934907,
+        "tol_rel": 0.05,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": "approximation valable pour q ≲ 0,4"
+      },
+      {
+        "test": "Paul : affaissement moyen sous pesanteur ↔ pseudo-potentiel −γ/β²",
+        "valeur": -0.08961438036112673,
+        "attendu": -0.08568695808176947,
+        "ecart_abs": 0.003927422279357259,
+        "ecart_rel": 0.04583453966949548,
+        "tol_rel": 0.05,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      }
+    ],
+    "n_hors_decompte": 0,
+    "hors_decompte": []
+  }
+}

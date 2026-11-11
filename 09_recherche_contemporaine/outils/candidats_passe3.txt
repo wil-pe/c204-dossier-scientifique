@@ -1,0 +1,22 @@
+# Passe 3 : corrections (identifiants erronés de la passe 1/2, choix de la bonne notice) et compléments.
+GW250114LVK|3|arxiv|2509.08054|gw250114|LIGO
+GW231123LVK|3|arxiv|2507.08219|gw231123|LIGO
+GWTC4cat|3|arxiv|2508.18082|gwtc-4.0|LIGO
+CHR09b|3|search|ti:"interacting Kerr black holes"|interacting kerr black holes|Costa
+KN80b|3|biblio|Kramer Neugebauer The superposition of two Kerr solutions Physics Letters A 1980|superposition of two kerr solutions|Kramer
+DRS14|3|arxiv|1402.7034|decay for solutions of the wave equation on kerr exterior spacetimes iii|Dafermos
+Dafermos03|3|arxiv|gr-qc/0307013|interior of charged black holes and the problem of uniqueness|Dafermos
+Hayward06|3|arxiv|gr-qc/0506126|formation and evaporation of non-singular black holes|Hayward
+CR21|3|arxiv|2101.05006|inner horizon instability and the unstable cores of regular black holes|Carballo
+FH06|6|arxiv|0801.0735|topological censorship and chronology protection|Friedman
+TDN20|6|arxiv|1903.10568|translating uncontrolled systems in time|Trillo
+Trillo23|6|arxiv|2205.01131|universal quantum rewinding protocol|Trillo
+Zurek03|6|arxiv|quant-ph/0105127|decoherence, einselection, and the quantum origins of the classical|Zurek
+RV14|7|arxiv|1401.6562|planck stars|Rovelli
+Mehl18|8|arxiv|1803.01585|atomic clocks for geodesy|Mehlst
+Tino21|9|arxiv|2009.01484|testing gravity with cold atom interferometry|Tino
+Ford78|10|doi|10.1098/rspa.1978.0197|quantum coherence effects and the second law of thermodynamics|Ford
+EGJ65|10|doi|10.1007/BF02749799|nonpositivity of the energy density in quantized field theories|Epstein
+Lyons62|12|doi|10.1147/rd.62.0200|triple-modular redundancy|Lyons
+LSP82|12|doi|10.1145/357172.357176|byzantine generals problem|Lamport
+Falkoff91|12|biblio|Falkoff The IBM family of APL systems IBM Systems Journal 1991|ibm family of apl systems|Falkoff

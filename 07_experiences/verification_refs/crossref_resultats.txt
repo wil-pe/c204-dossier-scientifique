@@ -1,0 +1,516 @@
+=== HafeleKeating1972a (attendu : Hafele 1972)
+    Hafele (1972) | Science | vol. 177 | p. 166-168 | Around-the-World Atomic Clocks: Predicted Relativistic Time Gains | doi:10.1126/science.177.4044.166
+=== HafeleKeating1972b (attendu : Hafele 1972)
+    Hafele (1972) | Science | vol. 177 | p. 168-170 | Around-the-World Atomic Clocks: Observed Relativistic Time Gains | doi:10.1126/science.177.4044.168
+=== PoundRebka1960 (attendu : Pound 1960)
+    Pound (1960) | Physical Review Letters | vol. 4 | p. 337-341 | Apparent Weight of Photons | doi:10.1103/physrevlett.4.337
+=== Vessot1980 (attendu : Vessot 1980)
+    Vessot (1980) | Physical Review Letters | vol. 45 | p. 2081-2084 | Test of Relativistic Gravitation with a Space-Borne Hydrogen Maser | doi:10.1103/physrevlett.45.2081
+=== Chou2010 (attendu : Chou 2010)
+    Chou (2010) | Science | vol. 329 | p. 1630-1633 | Optical Clocks and Relativity | doi:10.1126/science.1192720
+    Rosenband (2010) | Frontiers in Optics 2010/Laser Science XXVI | vol. None | p. LWB4 | Al+ optical clocks for fundamental physics, geodesy, and quantum metrology | doi:10.1364/ls.2010.lwb4
+    Chou (2010) | Physical Review Letters | vol. 104 | p. None | Frequency Comparison of Two High-Accuracy <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"> <mml:msup> <mml:mi>Al</mml:mi> <mml:mo>+</mml:mo> </mml:msup> </mml:math> Optical Clocks | doi:10.1103/physrevlett.104.070802
+=== Bothwell2022 (attendu : Bothwell 2022)
+    Bothwell (2022) | Nature | vol. 602 | p. 420-424 | Resolving the gravitational redshift across a millimetre-scale atomic sample | doi:10.1038/s41586-021-04349-7
+    Li (2023) |  | vol. None | p. None | Cosmological Application of the Lens-Redshift Probability Distribution with Improved Galaxy-Scale Gravitational Lensing Sample | doi:10.2139/ssrn.4396772
+    Li (2023) | Physics of the Dark Universe | vol. 41 | p. 101234 | Cosmological application of the lens-redshift probability distribution with improved galaxy-scale gravitational lensing sample | doi:10.1016/j.dark.2023.101234
+=== Zheng2022 (attendu : Zheng 2022)
+    Zheng (2022) |  | vol. None | p. None | Differential clock comparisons with a multiplexed optical lattice clock | doi:10.26226/m.6275705966d5dcf63a31149b
+    Zheng (2022) | Nature | vol. 602 | p. 425-430 | Differential clock comparisons with a multiplexed optical lattice clock | doi:10.1038/s41586-021-04344-y
+    Dolde (2022) |  | vol. None | p. None | Measuring the Gravitational Redshift at the Centimeter-Scale using a Multiplexed Optical Lattice Clock | doi:10.26226/m.6275705866d5dcf63a3113bc
+=== Takamoto2020 (attendu : Takamoto 2020)
+    Takamoto (2020) | Nature Photonics | vol. 14 | p. 411-415 | Test of general relativity by a pair of transportable optical lattice clocks | doi:10.1038/s41566-020-0619-8
+    Katori (2020) | OSA Quantum 2.0 Conference | vol. None | p. QW4A.2 | Transportable Optical Lattice Clocks to Test Gravitational Redshift | doi:10.1364/quantum.2020.qw4a.2
+    Shinkai (2025) | International Journal of Modern Physics D | vol. 34 | p. None | Transportable optical lattice clocks and general relativity | doi:10.1142/s0218271825400127
+=== Grotti2018 (attendu : Grotti 2018)
+    Grotti (2018) | Nature Physics | vol. 14 | p. 437-441 | Geodesy and metrology with a transportable optical clock | doi:10.1038/s41567-017-0042-3
+    Vogt (2016) | Journal of Physics: Conference Series | vol. 723 | p. 012020 | A transportable optical lattice clock | doi:10.1088/1742-6596/723/1/012020
+    Nosske (2026) |  | vol. None | p. None | Transportable optical atomic clock for geodesy at the centimeter height level | doi:10.5194/egusphere-egu26-13866
+=== McGrew2018 (attendu : McGrew 2018)
+    McGrew (2018) | Nature | vol. 564 | p. 87-90 | Atomic clock performance enabling geodesy below the centimetre level | doi:10.1038/s41586-018-0738-2
+     (2018) | Nature | vol. None | p. None | Podcast: Atomic clock accuracy and wind farm worries | doi:10.1038/d41586-018-07571-y
+     (2018) | Nature | vol. 554 | p. 407-407 | Portable atomic clock scales new heights | doi:10.1038/d41586-018-01907-4
+=== Delva2018 (attendu : Delva 2018)
+    Delva (2018) | Physical Review Letters | vol. 121 | p. 231101 | Gravitational Redshift Test Using Eccentric <i>Galileo</i> Satellites | doi:10.1103/physrevlett.121.231101
+=== Herrmann2018 (attendu : Herrmann 2018)
+    Herrmann (2018) | Physical Review Letters | vol. 121 | p. 231102 | Test of the Gravitational Redshift with<i>Galileo</i>Satellites in an Eccentric Orbit | doi:10.1103/physrevlett.121.231102
+=== VanBaak2007 (attendu : Van Baak 2007)
+    Baak (2007) | Physics Today | vol. 60 | p. 16-16 | An adventure in relative time-keeping | doi:10.1063/1.2718741
+     (2007) | Physics Today | vol. 2007 | p. None | The Atomic Secrets of Accurate Time Keeping | doi:10.1063/pt.5.020790
+    Hill (2021) | Physics Today | vol. 2021 | p. None | Keeping time in space | doi:10.1063/pt.6.1.20210716a
+=== Briatore1977 (attendu : Briatore 1977)
+    Briatore (1977) | Il Nuovo Cimento B Series 11 | vol. 37 | p. 219-231 | Evidence for the Earth gravitational shift by direct atomic-time-scale comparison; Подтверждение земного гравитационного сдвига с помощью прямого сравнения масштабов атомных времен | doi:10.1007/bf02726320
+    Briatore (1976) | Lettere Al Nuovo Cimento Series 2 | vol. 15 | p. 203-207 | Verifying the gravitational shift due to the Earth’s rotation | doi:10.1007/bf02727483
+    Briatore (1976) | Lettere Al Nuovo Cimento Series 2 | vol. 17 | p. 328-328 | Verifying the gravitational shift due to the Earth’s rotation | doi:10.1007/bf02746512
+=== Knappe2004 (attendu : Knappe 2004)
+    Knappe (2004) | Applied Physics Letters | vol. 85 | p. 1460-1462 | A microfabricated atomic clock | doi:10.1063/1.1787942
+    Liew (2004) | Applied Physics Letters | vol. 84 | p. 2694-2696 | Microfabricated alkali atom vapor cells | doi:10.1063/1.1691490
+    Knappe (2010) | Applied Physics Letters | vol. 97 | p. None | Cross-validation of microfabricated atomic magnetometers with superconducting quantum interference devices for biomagnetic applications | doi:10.1063/1.3491548
+=== Allan1966 (attendu : Allan 1966)
+    Allan (1966) | Proceedings of the IEEE | vol. 54 | p. 221-230 | Statistics of atomic frequency standards | doi:10.1109/proc.1966.4634
+    McCoubrey (1966) | Proceedings of the IEEE | vol. 54 | p. 116-135 | A survey of atomic frequency standards | doi:10.1109/proc.1966.4626
+    Watts (None) | Proceedings of 1996 IEEE International Frequency Control Symposium | vol. None | p. 1023-1031 | Specifying commercial atomic frequency standards using statistics | doi:10.1109/freq.1996.560290
+=== Ashby2003 (attendu : Ashby 2003)
+    Ashby (2003) | Living Reviews in Relativity | vol. 6 | p. None | Relativity in the Global Positioning System | doi:10.12942/lrr-2003-1
+    ASHBY (2005) | 100 Years of Relativity | vol. None | p. 257-289 | RELATIVITY IN THE GLOBAL POSITIONING SYSTEM | doi:10.1142/9789812700988_0010
+    Ashby (2002) | Physics Today | vol. 55 | p. 41-47 | Relativity and the Global Positioning System | doi:10.1063/1.1485583
+=== AllanWeiss1980 (attendu : Allan 1980)
+    Allan (1980) | 34th Annual Symposium on Frequency Control | vol. None | p. 334-346 | Accurate Time and Frequency Transfer During Common-View of a GPS Satellite | doi:10.1109/freq.1980.200424
+    Davis (1996) | 10th International Conference on European Frequency and Time | vol. 1996 | p. 382-387 | Comparison of two-way satellite time and frequency transfer and GPS common-view time transfer during the INTELSAT field trial | doi:10.1049/cp:19960079
+    Weiss (None) | Proceedings of the 2005 IEEE International Frequency Control Symposium and Exposition, 2005. | vol. None | p. 324-328 | A comparison of GPS common-view time transfer to all-in-view | doi:10.1109/freq.2005.1573953
+=== Lipinski2011 (attendu : Lipi 2011)
+    Lipinski (2011) | 2011 IEEE International Symposium on Precision Clock Synchronization for Measurement, Control and Communication | vol. None | p. 25-30 | White rabbit: a PTP application for robust sub-nanosecond synchronization | doi:10.1109/ispcs.2011.6070148
+    Rizzi (2016) | 2016 IEEE International Symposium on Precision Clock Synchronization for Measurement, Control, and Communication (ISPCS) | vol. None | p. 1-6 | White rabbit clock characteristics | doi:10.1109/ispcs.2016.7579514
+    Lipinski (2018) | 2018 IEEE International Symposium on Precision Clock Synchronization for Measurement, Control, and Communication (ISPCS) | vol. None | p. 1-7 | White Rabbit Applications and Enhancements | doi:10.1109/ispcs.2018.8543072
+=== Lisdat2016 (attendu : Lisdat 2016)
+    Lisdat (2016) | Nature Communications | vol. 7 | p. None | A clock network for geodesy and fundamental science | doi:10.1038/ncomms12443
+    Nosske (2026) |  | vol. None | p. None | Transportable optical atomic clock for geodesy at the centimeter height level | doi:10.5194/egusphere-egu26-13866
+    Grotti (2018) | Nature Physics | vol. 14 | p. 437-441 | Geodesy and metrology with a transportable optical clock | doi:10.1038/s41567-017-0042-3
+=== OPERA2012 (attendu : Adam 2012)
+    Brunetti (None) |  | vol. None | p. None | Neutrino velocity measurement with the OPERA experiment in the CNGS beam | doi:10.70675/77fdf702z8723z4492z96d3zb81fbccea5be
+    Klicek (2020) | Proceedings of The 21st international workshop on neutrinos from accelerators — PoS(NuFact2019) | vol. None | p. 140 | Neutrino oscillation results of the OPERA experiment in the CNGS beam | doi:10.22323/1.369.0140
+    Vasina (2019) | Journal of Physics: Conference Series | vol. 1390 | p. 012054 | New results from the OPERA experiment in the CNGS neutrino beam | doi:10.1088/1742-6596/1390/1/012054
+=== Mills1991 (attendu : Mills 1991)
+    Mills (1991) | IEEE Transactions on Communications | vol. 39 | p. 1482-1493 | Internet time synchronization: the network time protocol | doi:10.1109/26.103043
+    Mills (1989) |  | vol. None | p. None | Internet Time Synchronization: The Network Time Protocol | doi:10.17487/rfc1129
+    Mills (2006) |  | vol. None | p. None | Computer Network Time Synchronization | doi:10.1201/9781420006155
+=== Cavendish1798 (attendu : Cavendish 1798)
+     (1798) | Philosophical Transactions of the Royal Society of London | vol. 88 | p. 469-526 | XXI. Experiments to determine the density of the earth | doi:10.1098/rstl.1798.0022
+    Cavendish (None) | The Scientific Papers of the Honourable Henry Cavendish | vol. None | p. 249-286 | Experiments to determine the Density of the Earth | doi:10.1017/cbo9780511722424.019
+     (1970) | A Source Book in Geology, 1400–1900 | vol. None | p. 103-107 | HENRY CAVENDISH (1731–1810): EXPERIMENTS TO DETERMINE THE DENSITY OF THE EARTH | doi:10.4159/harvard.9780674180666.c26
+=== Gundlach2000 (attendu : Gundlach 2000)
+    Gundlach (2000) | Physical Review Letters | vol. 85 | p. 2869-2872 | Measurement of Newton's Constant Using a Torsion Balance with Angular Acceleration Feedback | doi:10.1103/physrevlett.85.2869
+=== Quinn2013 (attendu : Quinn 2013)
+    Quinn (2013) | Physical Review Letters | vol. 111 | p. 101102 | Improved Determination of<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>G</mml:mi></mml:math>Using Two Methods | doi:10.1103/physrevlett.111.101102
+=== Rosi2014 (attendu : Rosi 2014)
+    Rosi (2014) | Nature | vol. 510 | p. 518-521 | Precision measurement of the Newtonian gravitational constant using cold atoms | doi:10.1038/nature13433
+    Rosi (2016) | Laser Spectroscopy | vol. None | p. 61-70 | Precision Measurement of the Newtonian Gravitational Constant by Atom Interferometry | doi:10.1142/9789813200616_0006
+    Tino (2013) | 2013 Joint European Frequency and Time Forum &amp; International Frequency Control Symposium (EFTF/IFC) | vol. None | p. 593-598 | Precision measurement of the gravitational constant with atom interferometry | doi:10.1109/eftf-ifc.2013.6702069
+=== Li2018 (attendu : Li 2018)
+    Li (2018) | Nature | vol. 560 | p. 582-588 | Measurements of the gravitational constant using two independent methods | doi:10.1038/s41586-018-0431-5
+     (1971) | Nature | vol. 229 | p. 372-373 | Gravitational Constant: Measurements Refined | doi:10.1038/229372a0
+    Haug (2018) |  | vol. None | p. None | Finding the Planck Length Independent of Newton's Gravitational Constant and the Planck Constant: The Compton Clock Model of Matter | doi:10.20944/preprints201809.0396.v1
+=== Westphal2021 (attendu : Westphal 2021)
+    Westphal (2021) | Nature | vol. 591 | p. 225-228 | Measurement of gravitational coupling between millimetre-sized masses | doi:10.1038/s41586-021-03250-7
+    Cui (2025) | Journal of Modern Physics | vol. 16 | p. 133-139 | The Gravitational Constant &lt;i&gt;G&lt;/i&gt; May Decrease between Millimetre-Sized Masses | doi:10.4236/jmp.2025.161005
+    Aspelmeyer (2009) | Nature Physics | vol. 5 | p. 11-12 | Measured measurement | doi:10.1038/nphys1170
+=== Kapner2007 (attendu : Kapner 2007)
+    Kapner (2007) | Physical Review Letters | vol. 98 | p. 021101 | Tests of the Gravitational Inverse-Square Law below the Dark-Energy Length Scale | doi:10.1103/physrevlett.98.021101
+=== Lee2020 (attendu : Lee 2020)
+    Lee (2020) | Physical Review Letters | vol. 124 | p. 101101 | New Test of the Gravitational <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"> <mml:mn>1</mml:mn> <mml:mo stretchy="false">/</mml:mo> <mml:msup> <mml:mi>r</mml:mi> <mml:mn>2</mml:mn> </mml:msup> </mml:math> Law at Separations down to <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"> <mml:mrow> <mml:mn>52</mml:mn> <mml:mtext> </mml:mtext> <mml:mtext> </mml:mtext> <mml:mi>μ</mml:mi> <mml:mi mathvariant="normal">m</mml:mi> </mml:mrow> </mml:math> | doi:10.1103/physrevlett.124.101101
+=== Schlamminger2008 (attendu : Schlamminger 2008)
+    Schlamminger (2008) | Physical Review Letters | vol. 100 | p. 041101 | Test of the Equivalence Principle Using a Rotating Torsion Balance | doi:10.1103/physrevlett.100.041101
+=== Adelberger2009 (attendu : Adelberger 2009)
+    Adelberger (2009) | Progress in Particle and Nuclear Physics | vol. 62 | p. 102-134 | Torsion balance experiments: A low-energy frontier of particle physics | doi:10.1016/j.ppnp.2008.08.002
+    Adelberger (1991) | Nuclear Physics A | vol. 527 | p. 223-238 | A low-energy frontier of particle physics | doi:10.1016/0375-9474(91)90117-o
+    Bogdanova (2010) | Progress in Particle and Nuclear Physics | vol. 64 | p. 300-302 | 40 MCi tritium source for experiments with low energy neutrino | doi:10.1016/j.ppnp.2009.12.035
+=== Tolman1931 (attendu : Tolman 1931)
+    Tolman (1931) | Physical Review | vol. 37 | p. 602-615 | On the Gravitational Field Produced by Light | doi:10.1103/physrev.37.602
+=== Fuzfa2016 (attendu : Füzfa 2016)
+    Füzfa (2016) | Physical Review D | vol. 93 | p. 024014 | How current loops and solenoids curve spacetime | doi:10.1103/physrevd.93.024014
+=== Hathaway2003 (attendu : Hathaway 2003)
+    Hathaway (2003) | Physica C: Superconductivity | vol. 385 | p. 488-500 | Gravity modification experiment using a rotating superconducting disk and radio frequency fields | doi:10.1016/s0921-4534(02)02284-0
+    Sato (2003) | AIP Conference Proceedings | vol. 669 | p. 117-120 | Wave Properties in a Weakly-Magnetized Plasma Produced by Rotating Radio-Frequency Electromagnetic Fields | doi:10.1063/1.1593880
+    KANDA (2003) | Physica B: Condensed Matter | vol. 329-333 | p. 1421-1422 | Paramagnetic supercurrent in a mesoscopic superconducting disk | doi:10.1016/s0921-4526(02)02349-9
+=== Tajmar2004 (attendu : Tajmar 2004)
+    Tajmar (2004) | AIAA Journal | vol. 42 | p. 315-318 | Biefeld-Brown Effect: Misinterpretation of Corona Wind Phenomena | doi:10.2514/1.9095
+    Hense (2004) | Journal of Physics A: Mathematical and General | vol. 37 | p. 8747-8749 | Electrostatic torque—a misinterpretation | doi:10.1088/0305-4470/37/36/n01
+    Tajmar (2004) | 40th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit | vol. None | p. None | MEMS Indium FEEP Thruster: Manufacturing Study and First Prototype Results | doi:10.2514/6.2004-3619
+=== CODATA2018 (attendu : Tiesinga 2021)
+    Tiesinga (2021) | Reviews of Modern Physics | vol. 93 | p. 025010 | CODATA recommended values of the fundamental physical constants: 2018 | doi:10.1103/revmodphys.93.025010
+=== CODATA2022 (attendu : Mohr 2025)
+    Mohr (2025) | Reviews of Modern Physics | vol. 97 | p. 025002 | CODATA recommended values of the fundamental physical constants: 2022 | doi:10.1103/revmodphys.97.025002
+=== Peters1999 (attendu : Peters 1999)
+    Peters (1999) | Nature | vol. 400 | p. 849-852 | Measurement of gravitational acceleration by dropping atoms | doi:10.1038/23655
+    Müller (2010) | Nature | vol. 463 | p. 926-929 | A precision measurement of the gravitational redshift by the interference of matter waves | doi:10.1038/nature08776
+    Müller (2010) | Nature | vol. 467 | p. E2-E2 | Müller, Peters &amp; Chu reply | doi:10.1038/nature09341
+=== Middlemiss2016 (attendu : Middlemiss 2016)
+    Middlemiss (2016) | Nature | vol. 531 | p. 614-617 | Measurement of the Earth tides with a MEMS gravimeter | doi:10.1038/nature17397
+    Prasad (2018) | 2018 IEEE SENSORS | vol. None | p. 1-3 | A Portable MEMS Gravimeter for the Detection of the Earth Tides | doi:10.1109/icsens.2018.8589884
+    Utting (2023) |  | vol. None | p. None | Integrated system development of a MEMS Pendulum Gravimeter | doi:10.5194/egusphere-egu23-8681
+=== Menoret2018 (attendu : Ménoret 2018)
+    Ménoret (2018) | Scientific Reports | vol. 8 | p. None | Gravity measurements below 10−9 g with a transportable absolute quantum gravimeter | doi:10.1038/s41598-018-30608-1
+    Heine (2022) |  | vol. None | p. None | Atom interferometric gravity data acquisition with the transportable absolute Quantum Gravimeter QG-1 | doi:10.26226/m.6275705d66d5dcf63a311652
+    Alasia (1982) | Metrologia | vol. 18 | p. 221-229 | Absolute Gravity Acceleration Measurements: Experiences with a Transportable Gravimeter | doi:10.1088/0026-1394/18/4/006
+=== Stray2022 (attendu : Stray 2022)
+    Stray (2022) | Nature | vol. 602 | p. 590-594 | Quantum sensing for gravity cartography | doi:10.1038/s41586-021-04315-3
+    Stray* (2021) |  | vol. None | p. None | Quantum sensing for gravitational cartography | doi:10.21203/rs.3.rs-882491/v1
+    Holynski (2025) | Quantum Sensing, Imaging, and Precision Metrology III | vol. None | p. 86 | Applications of quantum sensing, imaging, and timing | doi:10.1117/12.3053409
+=== Niebauer1995 (attendu : Niebauer 1995)
+    Niebauer (1995) | Metrologia | vol. 32 | p. 159-180 | A new generation of absolute gravimeters | doi:10.1088/0026-1394/32/3/004
+    Niebauer (1989) | Metrologia | vol. 26 | p. 115-118 | The Effective Measurement Height of Free-fall Absolute Gravimeters | doi:10.1088/0026-1394/26/2/005
+    Westrum (2003) | Metrologia | vol. 40 | p. 258-263 | The diffraction correction for absolute gravimeters | doi:10.1088/0026-1394/40/5/008
+=== Goodkind1999 (attendu : Goodkind 1999)
+    Goodkind (1999) | Review of Scientific Instruments | vol. 70 | p. 4131-4152 | The superconducting gravimeter | doi:10.1063/1.1150092
+    Prothero (1968) | Review of Scientific Instruments | vol. 39 | p. 1257-1262 | A Superconducting Gravimeter | doi:10.1063/1.1683645
+    Goodkind (1970) | Review of Scientific Instruments | vol. 41 | p. 799-807 | The Superconducting Magnetic Flux Detector | doi:10.1063/1.1684651
+=== Staacks2018 (attendu : Staacks 2018)
+    Staacks (2018) | Physics Education | vol. 53 | p. 045009 | Advanced tools for smartphone-based experiments: phyphox | doi:10.1088/1361-6552/aac05e
+    Staacks (2026) | Physics Education | vol. 61 | p. 035049 | Real-time camera experiments with phyphox | doi:10.1088/1361-6552/ae6c86
+    Staacks (2022) | European Journal of Physics | vol. 43 | p. 055702 | Collaborative smartphone experiments for large audiences with phyphox | doi:10.1088/1361-6404/ac7830
+=== Lamoreaux1997 (attendu : Lamoreaux 1997)
+    Lamoreaux (1997) | Physical Review Letters | vol. 78 | p. 5-8 | Demonstration of the Casimir Force in the 0.6 to <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"> <mml:mn>6</mml:mn> <mml:mi/> <mml:mi>μ</mml:mi> <mml:mi>m</mml:mi> </mml:math> Range | doi:10.1103/physrevlett.78.5
+=== MohideenRoy1998 (attendu : Mohideen 1998)
+    Mohideen (1998) | Physical Review Letters | vol. 81 | p. 4549-4552 | Precision Measurement of the Casimir Force from 0.1 to <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"> <mml:mn>0.9</mml:mn> <mml:mi/> <mml:mi mathvariant="italic">μ</mml:mi> <mml:mi>m</mml:mi> </mml:math> | doi:10.1103/physrevlett.81.4549
+=== Bressi2002 (attendu : Bressi 2002)
+    Bressi (2002) | Physical Review Letters | vol. 88 | p. 041804 | Measurement of the Casimir Force between Parallel Metallic Surfaces | doi:10.1103/physrevlett.88.041804
+=== Chan2001 (attendu : Chan 2001)
+    Chan (2001) | Science | vol. 291 | p. 1941-1944 | Quantum Mechanical Actuation of Microelectromechanical Systems by the Casimir Force | doi:10.1126/science.1057984
+    Chan (2001) | Physical Review Letters | vol. 87 | p. None | Nonlinear Micromechanical Casimir Oscillator | doi:10.1103/physrevlett.87.211801
+    Decca (2011) | Lecture Notes in Physics; Casimir Physics | vol. None | p. 287-309 | Casimir Force in Micro and Nano Electro Mechanical Systems | doi:10.1007/978-3-642-20288-9_9
+=== Munday2009 (attendu : Munday 2009)
+    Munday (2009) | Nature | vol. 457 | p. 170-173 | Measured long-range repulsive Casimir–Lifshitz forces | doi:10.1038/nature07610
+    Capasso (2011) | Lecture Notes in Physics; Casimir Physics | vol. None | p. 249-286 | Attractive and Repulsive Casimir–Lifshitz Forces, QED Torques, and Applications to Nanomachines | doi:10.1007/978-3-642-20288-9_8
+    Munday (2008) | Physical Review A | vol. 78 | p. None | Measurements of the Casimir-Lifshitz force in fluids: The effect of electrostatic forces and Debye screening | doi:10.1103/physreva.78.032109
+=== Sushkov2011 (attendu : Sushkov 2011)
+    Sushkov (2011) | Nature Physics | vol. 7 | p. 230-233 | Observation of the thermal Casimir force | doi:10.1038/nphys1909
+    Kim (2010) | Physical Review A | vol. 81 | p. None | Surface contact potential patches and Casimir force measurements | doi:10.1103/physreva.81.022505
+    Lamoreaux (2011) | Scholarpedia | vol. 6 | p. 9746 | Casimir Force | doi:10.4249/scholarpedia.9746
+=== Decca2007 (attendu : Decca 2007)
+    Decca (2007) | Physical Review D | vol. 75 | p. 077101 | Tests of new physics from precise measurements of the Casimir pressure between two gold-coated plates | doi:10.1103/physrevd.75.077101
+=== Garrett2018 (attendu : Garrett 2018)
+    Garrett (2018) | Physical Review Letters | vol. 120 | p. 040401 | Measurement of the Casimir Force between Two Spheres | doi:10.1103/physrevlett.120.040401
+=== Wilson2011 (attendu : Wilson 2011)
+    Wilson (2011) | Nature | vol. 479 | p. 376-379 | Observation of the dynamical Casimir effect in a superconducting circuit | doi:10.1038/nature10561
+    Johansson (2013) | Physical Review A | vol. 87 | p. None | Nonclassical microwave radiation from the dynamical Casimir effect | doi:10.1103/physreva.87.043804
+    Johansson (2010) | Physical Review A | vol. 82 | p. None | Dynamical Casimir effect in superconducting microwave circuits | doi:10.1103/physreva.82.052509
+=== FordRoman1995 (attendu : Ford 1995)
+    Ford (1995) | Physical Review D | vol. 51 | p. 4277-4286 | Averaged energy conditions and quantum inequalities | doi:10.1103/physrevd.51.4277
+=== FordRoman1996 (attendu : Ford 1996)
+    Ford (1996) | Physical Review D | vol. 53 | p. 5496-5507 | Quantum field theory constrains traversable wormhole geometries | doi:10.1103/physrevd.53.5496
+=== MTY1988 (attendu : Morris 1988)
+    Morris (1988) | Physical Review Letters | vol. 61 | p. 1446-1449 | Wormholes, Time Machines, and the Weak Energy Condition | doi:10.1103/physrevlett.61.1446
+=== Jaffe2005 (attendu : Jaffe 2005)
+    Jaffe (2005) | Physical Review D | vol. 72 | p. 021301 | Casimir effect and the quantum vacuum | doi:10.1103/physrevd.72.021301
+=== Lamoreaux2005 (attendu : Lamoreaux 2005)
+    Lamoreaux (2005) | Reports on Progress in Physics | vol. 68 | p. 201-236 | The Casimir force: background, experiments, and applications | doi:10.1088/0034-4885/68/1/r04
+    Lamoreaux (2011) | Lecture Notes in Physics; Casimir Physics | vol. None | p. 219-248 | Progress in Experimental Measurements of the Surface–Surface Casimir Force: Electrostatic Calibrations and Limitations to Accuracy | doi:10.1007/978-3-642-20288-9_7
+    Lamoreaux (2015) | Journal of Physics: Condensed Matter | vol. 27 | p. 214016 | Mechanical temporal fluctuation induced distance and force systematic errors in Casimir force experiments | doi:10.1088/0953-8984/27/21/214016
+=== Unruh1981 (attendu : Unruh 1981)
+    Unruh (1981) | Physical Review Letters | vol. 46 | p. 1351-1353 | Experimental Black-Hole Evaporation? | doi:10.1103/physrevlett.46.1351
+=== SchutzholdUnruh2002 (attendu : Schützhold 2002)
+    Schützhold (2002) | Physical Review D | vol. 66 | p. 044019 | Gravity wave analogues of black holes | doi:10.1103/physrevd.66.044019
+=== Rousseaux2008 (attendu : Rousseaux 2008)
+    Rousseaux (2008) | New Journal of Physics | vol. 10 | p. 053015 | Observation of negative-frequency waves in a water tank: a classical analogue to the Hawking effect? | doi:10.1088/1367-2630/10/5/053015
+    Euvé (2016) | Physical Review Letters | vol. 117 | p. None | Observation of Noise Correlated by the Hawking Effect in a Water Tank | doi:10.1103/physrevlett.117.121301
+    Rousseaux (2013) | Lecture Notes in Physics; Analogue Gravity Phenomenology | vol. None | p. 81-107 | The Basics of Water Waves Theory for Analogue Gravity | doi:10.1007/978-3-319-00266-8_5
+=== Weinfurtner2011 (attendu : Weinfurtner 2011)
+    Weinfurtner (2011) | Physical Review Letters | vol. 106 | p. 021302 | Measurement of Stimulated Hawking Emission in an Analogue System | doi:10.1103/physrevlett.106.021302
+=== Jannes2011 (attendu : Jannes 2011)
+    Jannes (2011) | Physical Review E | vol. 83 | p. 056312 | Experimental demonstration of the supersonic-subsonic bifurcation in the circular jump: A hydrodynamic white hole | doi:10.1103/physreve.83.056312
+=== Volovik2005 (attendu : Volovik 2005)
+    Volovik (2005) | Journal of Experimental and Theoretical Physics Letters | vol. 82 | p. 624-627 | Hydraulic jump as a white hole | doi:10.1134/1.2166908
+    Volovik (2025) | JETP Letters | vol. 121 | p. 243-248 | Tsallis–Cirto Entropy of a Black Hole and a Black Hole Atom | doi:10.1134/s0021364024603464
+    Volovik (2016) | JETP Letters | vol. 104 | p. 645-648 | Black hole and hawking radiation by type-II Weyl fermions | doi:10.1134/s0021364016210050
+=== Torres2017 (attendu : Torres 2017)
+    Torres (2017) | Nature Physics | vol. 13 | p. 833-836 | Rotational superradiant scattering in a vortex flow | doi:10.1038/nphys4151
+    Patrick (2018) | Physical Review Letters | vol. 121 | p. None | Black Hole Quasibound States from a Draining Bathtub Vortex Flow | doi:10.1103/physrevlett.121.061101
+    Cardoso (2016) | Physical Review Letters | vol. 117 | p. None | Detecting Rotational Superradiance in Fluid Laboratories | doi:10.1103/physrevlett.117.271101
+=== Euve2016 (attendu : Euvé 2016)
+    Euvé (2016) | Physical Review Letters | vol. 117 | p. 121301 | Observation of Noise Correlated by the Hawking Effect in a Water Tank | doi:10.1103/physrevlett.117.121301
+=== Steinhauer2016 (attendu : Steinhauer 2016)
+    Steinhauer (2016) | Nature Physics | vol. 12 | p. 959-965 | Observation of quantum Hawking radiation and its entanglement in an analogue black hole | doi:10.1038/nphys3863
+    Steinhauer (2014) | Nature Physics | vol. 10 | p. 864-869 | Observation of self-amplifying Hawking radiation in an analogue black-hole laser | doi:10.1038/nphys3104
+    Muñoz de Nova (2019) | Nature | vol. 569 | p. 688-691 | Observation of thermal Hawking radiation and its temperature in an analogue black hole | doi:10.1038/s41586-019-1241-0
+=== MunozdeNova2019 (attendu : Nova 2019)
+    Muñoz de Nova (2019) | Nature | vol. 569 | p. 688-691 | Observation of thermal Hawking radiation and its temperature in an analogue black hole | doi:10.1038/s41586-019-1241-0
+    Kolobov (2021) | Nature Physics | vol. 17 | p. 362-367 | Observation of stationary spontaneous Hawking radiation and the time evolution of an analogue black hole | doi:10.1038/s41567-020-01076-0
+    Steinhauer (2016) | Nature Physics | vol. 12 | p. 959-965 | Observation of quantum Hawking radiation and its entanglement in an analogue black hole | doi:10.1038/nphys3863
+=== Philbin2008 (attendu : Philbin 2008)
+    Kuklewicz (2008) | 2008 Conference on Lasers and Electro-Optics | vol. None | p. 1-2 | Frequency shifts at the fiber-optical event horizon | doi:10.1109/cleo.2008.4552280
+    Philbin (2008) | Science | vol. 319 | p. 1367-1370 | Fiber-Optical Analog of the Event Horizon | doi:10.1126/science.1153625
+    Leonhardt (2009) | 2009 IEEE/LEOS Winter Topicals Meeting Series | vol. None | p. 219-220 | Fibre-optical analogue of the event horizon | doi:10.1109/leoswt.2009.4771736
+=== Belgiorno2010 (attendu : Belgiorno 2010)
+    Belgiorno (2010) | Physical Review Letters | vol. 105 | p. 203901 | Hawking Radiation from Ultrashort Laser Pulse Filaments | doi:10.1103/physrevlett.105.203901
+=== Drori2019 (attendu : Drori 2019)
+    Drori (2019) | Physical Review Letters | vol. 122 | p. 010404 | Observation of Stimulated Hawking Radiation in an Optical Analogue | doi:10.1103/physrevlett.122.010404
+=== Barcelo2011 (attendu : Barceló 2011)
+    Barceló (2011) | Living Reviews in Relativity | vol. 14 | p. None | Analogue Gravity | doi:10.12942/lrr-2011-3
+    Barceló (2026) | Living Reviews in Relativity | vol. 29 | p. None | Analogue gravity | doi:10.1007/s41114-026-00064-9
+    Barceló (2005) | Living Reviews in Relativity | vol. 8 | p. None | Analogue Gravity | doi:10.12942/lrr-2005-12
+=== Torres2020 (attendu : Torres 2020)
+    Torres (2020) | Physical Review Letters | vol. 125 | p. 011301 | Quasinormal Mode Oscillations in an Analogue Black Hole Experiment | doi:10.1103/physrevlett.125.011301
+=== Cromb2020 (attendu : Cromb 2020)
+    Cromb (2020) | Nature Physics | vol. 16 | p. 1069-1073 | Amplification of waves from a rotating body | doi:10.1038/s41567-020-0944-3
+    Braidotti (2024) | Nature Communications | vol. 15 | p. None | Amplification of electromagnetic fields by a rotating body | doi:10.1038/s41467-024-49689-w
+    Toroš (2020) | Physical Review A | vol. 101 | p. None | Revealing and concealing entanglement with noninertial motion | doi:10.1103/physreva.101.043837
+=== Svancara2024 (attendu : Švančara 2024)
+    Švančara (2024) | Nature | vol. 628 | p. 66-70 | Rotating curved spacetime signatures from a giant quantum vortex | doi:10.1038/s41586-024-07176-8
+    Weinfurtner (2025) |  | vol. None | p. None | Black-hole spectroscopy from a giant quantum vortex | doi:10.21203/rs.3.rs-6549466/v1
+    Roy (2024) |  | vol. None | p. None | Gravity in Curved Spacetime yields Quantum Mechanics in Flat Spacetime | doi:10.22541/au.170664906.64429874/v1
+=== BushAristoff2003 (attendu : Bush 2003)
+    BUSH (2003) | Journal of Fluid Mechanics | vol. 489 | p. 229-238 | The influence of surface tension on the circular hydraulic jump | doi:10.1017/s0022112003005159
+    BUSH (2006) | Journal of Fluid Mechanics | vol. 558 | p. 33-52 | An experimental investigation of the stability of the circular hydraulic jump | doi:10.1017/s0022112006009839
+    Duchesne (2022) | Journal of Fluid Mechanics | vol. 937 | p. None | Circular hydraulic jumps: where does surface tension matter? | doi:10.1017/jfm.2022.136
+=== Watson1964 (attendu : Watson 1964)
+    Watson (1964) | Journal of Fluid Mechanics | vol. 20 | p. 481-499 | The radial spread of a liquid jet over a horizontal plane | doi:10.1017/s0022112064001367
+    ZHAO (2008) | Journal of Fluid Mechanics | vol. 613 | p. 411-443 | Spread of a non-Newtonian liquid jet over a horizontal plate | doi:10.1017/s0022112008003431
+    Chaudhury (1964) | Journal of Fluid Mechanics | vol. 20 | p. 501-511 | Heat transfer in a radial liquid jet | doi:10.1017/s0022112064001379
+=== Bohr1993 (attendu : Bohr 1993)
+    Bohr (1993) | Journal of Fluid Mechanics | vol. 254 | p. 635-648 | Shallow-water approach to the circular hydraulic jump | doi:10.1017/s0022112093002289
+    WATANABE (2003) | Journal of Fluid Mechanics | vol. 480 | p. 233-265 | Integral methods for shallow free-surface flows with separation | doi:10.1017/s0022112003003744
+    Richard (2013) | Journal of Fluid Mechanics | vol. 725 | p. 492-521 | The classical hydraulic jump in a model of shear shallow-water flows | doi:10.1017/jfm.2013.174
+=== Bhagat2018 (attendu : Bhagat 2018)
+    Bhagat (2018) | Journal of Fluid Mechanics | vol. 851 | p. None | On the origin of the circular hydraulic jump in a thin liquid film | doi:10.1017/jfm.2018.558
+    Bhagat (2020) | Journal of Fluid Mechanics | vol. 896 | p. None | The circular capillary jump | doi:10.1017/jfm.2020.303
+    Duchesne (2019) | Physical Review Fluids | vol. 4 | p. None | Surface tension and the origin of the circular hydraulic jump in a thin liquid film | doi:10.1103/physrevfluids.4.084001
+=== Paul1990 (attendu : Paul 1990)
+    Paul (1990) | Reviews of Modern Physics | vol. 62 | p. 531-540 | Electromagnetic traps for charged and neutral particles | doi:10.1103/revmodphys.62.531
+=== Wuerker1959 (attendu : Wuerker 1959)
+    Wuerker (1959) | Journal of Applied Physics | vol. 30 | p. 342-349 | Electrodynamic Containment of Charged Particles | doi:10.1063/1.1735165
+    Wuerker (1959) | Journal of Applied Physics | vol. 30 | p. 441-442 | Electrodynamic Containment of Charged Particles by Three-Phase Voltages | doi:10.1063/1.1735185
+    Peik (1997) | Journal of Applied Physics | vol. 82 | p. 5283-5286 | Electrodynamic trapping of charged particles in a monopole field | doi:10.1063/1.366407
+=== WinterOrtjohann1991 (attendu : Winter 1991)
+    Winter (1991) | American Journal of Physics | vol. 59 | p. 807-813 | Simple demonstration of storing macroscopic particles in a ‘‘Paul trap’’ | doi:10.1119/1.16830
+    Yu (1991) | Journal of Applied Physics | vol. 69 | p. 3779-3781 | Demonstration of new Paul–Straubel trap for trapping single ions | doi:10.1063/1.348478
+     (2019) | Paul Costelloe, Autumn/Winter 1991 | vol. None | p. None | Paul Costelloe, Autumn/Winter 1991 | doi:10.5040/9781350954175
+=== BerryGeim1997 (attendu : Berry 1997)
+    Berry (1997) | European Journal of Physics | vol. 18 | p. 307-313 | Of flying frogs and levitrons | doi:10.1088/0143-0807/18/4/012
+    Berry (2017) | A Half-Century of Physical Asymptotics and Other Diversions | vol. None | p. 615-621 | Of flying frogs and levitrons | doi:10.1142/9789813221215_0062
+    Simon (2000) | Journal of Applied Physics | vol. 87 | p. 6200-6204 | Diamagnetic levitation: Flying frogs and floating magnets (invited) | doi:10.1063/1.372654
+=== SimonGeim2000 (attendu : Simon 2000)
+    Simon (2000) | Journal of Applied Physics | vol. 87 | p. 6200-6204 | Diamagnetic levitation: Flying frogs and floating magnets (invited) | doi:10.1063/1.372654
+     (2011) | Rising Force | vol. None | p. 83-100 | 6. Flying Frogs | doi:10.4159/harvard.9780674061095.c6
+    Naito (2024) | Applied Physics Letters | vol. 125 | p. None | Diamagnetic levitation of water realized with a simple device consisting of ordinary permanent magnets | doi:10.1063/5.0241203
+=== Simon1997 (attendu : Simon 1997)
+    Simon (1997) | American Journal of Physics | vol. 65 | p. 286-292 | Spin stabilized magnetic levitation | doi:10.1119/1.18488
+    Simon (2001) | American Journal of Physics | vol. 69 | p. 702-713 | Diamagnetically stabilized magnet levitation | doi:10.1119/1.1375157
+    Joseph (2002) | American Journal of Physics | vol. 70 | p. 188-189 | Comment on “Diamagnetically stabilized magnetic levitation,” by M. D. Simon, L. O. Heflinger, and A. K. Geim [Am. J. Phys. <b>69</b>, 702 (2001)] | doi:10.1119/1.1430699
+=== LibbrechtBlack2018 (attendu : Libbrecht 2018)
+    Libbrecht (2018) | American Journal of Physics | vol. 86 | p. 539-558 | Improved microparticle electrodynamic ion traps for physics teaching | doi:10.1119/1.5034344
+    Vinitsky (2015) | American Journal of Physics | vol. 83 | p. 313-319 | Particle dynamics in damped nonlinear quadrupole ion traps | doi:10.1119/1.4902185
+    Libbrecht (2015) | American Journal of Physics | vol. 83 | p. 409-417 | A basic Michelson laser interferometer for the undergraduate teaching laboratory demonstrating picometer sensitivity | doi:10.1119/1.4901972
+=== Rueckner1995 (attendu : Rueckner 1995)
+    Rueckner (1995) | American Journal of Physics | vol. 63 | p. 186-187 | Rotating saddle Paul trap | doi:10.1119/1.17983
+    Rueckner (1995) | American Journal of Physics | vol. 63 | p. 90-91 | Demonstration of charge conservation | doi:10.1119/1.17778
+    Rueckner (1993) | American Journal of Physics | vol. 61 | p. 184-186 | Lecture demonstration of wineglass resonances | doi:10.1119/1.17281
+=== Thompson2002 (attendu : Thompson 2002)
+    Thompson (2002) | Canadian Journal of Physics | vol. 80 | p. 1433-1448 | The rotating-saddle trap: a mechanical analogy to RF-electric-quadrupole ion trapping? | doi:10.1139/p02-110
+     (2005) | Quadrupole Ion Trap Mass Spectrometry | vol. None | p. 73-132 | Dynamics of Ion Trapping | doi:10.1002/0471717983.ch3
+    Carey (2026) | American Journal of Physics | vol. 94 | p. 702-709 | The asymmetric rotating saddle potential as a mechanical analog to the RF Paul trap | doi:10.1119/5.0274638
+=== Dyson1920 (attendu : Dyson 1920)
+    Longair (2015) | Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences | vol. 373 | p. None | Bending space–time: a commentary on Dyson, Eddington and Davidson (1920) ‘A determination of the deflection of light by the Sun's gravitational field’ | doi:10.1098/rsta.2014.0287
+    Dyson (1920) | Philosophical Transactions of the Royal Society of London. Series A, Containing Papers of a Mathematical or Physical Character | vol. 220 | p. 291-333 | IX. A determination of the deflection of light by the sun's gravitational field, from observations made at the total eclipse of May 29, 1919 | doi:10.1098/rsta.1920.0009
+    Dyson (1979) | A Source Book in Astronomy and Astrophysics, 1900–1975 | vol. None | p. 826-832 | 123. A Determination of the Deflection of Light by the Sun's Gravitational Field, from Observations Made at the Total Eclipse of May 29, 1919 | doi:10.4159/harvard.9780674366688.c132
+=== Shapiro2004 (attendu : Shapiro 2004)
+    Shapiro (2004) | Physical Review Letters | vol. 92 | p. 121101 | Measurement of the Solar Gravitational Deflection of Radio Waves using Geodetic Very-Long-Baseline Interferometry Data, 1979–1999 | doi:10.1103/physrevlett.92.121101
+=== Bertotti2003 (attendu : Bertotti 2003)
+    Bertotti (2003) | Nature | vol. 425 | p. 374-376 | A test of general relativity using radio links with the Cassini spacecraft | doi:10.1038/nature01997
+    Iess (2003) | 2003 IEEE Aerospace Conference Proceedings (Cat. No.03TH8652) | vol. None | p. 1-211 vol.1 | The Cassini solar conjunction experiment: a new test of general relativity | doi:10.1109/aero.2003.1235053
+    Bertotti (1985) | General Relativity and Gravitation | vol. 17 | p. 1043-1058 | Doppler search for a gravitational background radiation with two spacecraft | doi:10.1007/bf00774207
+=== MichelsonGale1925 (attendu : Michelson 1925)
+    Michelson (1925) | The Astrophysical Journal | vol. 61 | p. 140 | The Effect of the Earth's Rotation on the Velocity of Light, II. | doi:10.1086/142879
+    MICHELSON (1925) | Nature | vol. 115 | p. 566-566 | The Effect of the Earth's Rotation on the Velocity of Light | doi:10.1038/115566a0
+    Michelson (1925) | The Astrophysical Journal | vol. 61 | p. 137 | The Effect of the Earth's Rotation on the Velocity of Light, I. | doi:10.1086/142878
+=== Post1967 (attendu : Post 1967)
+    POST (1967) | Reviews of Modern Physics | vol. 39 | p. 475-493 | Sagnac Effect | doi:10.1103/revmodphys.39.475
+=== ValiShorthill1976 (attendu : Vali 1976)
+    Vali (1976) | Applied Optics | vol. 15 | p. 1099 | Fiber ring interferometer | doi:10.1364/ao.15.001099
+    Vali (1977) | Applied Optics | vol. 16 | p. 2605 | Fresnel-Fizeau effect in a rotating optical fiber ring interferometer | doi:10.1364/ao.16.002605
+    Vali (1977) | Applied Optics | vol. 16 | p. 290 | Ring interferometer 950 m long | doi:10.1364/ao.16.000290
+=== SchreiberWells2013 (attendu : Schreiber 2013)
+    Schreiber (2013) | Review of Scientific Instruments | vol. 84 | p. None | Invited Review Article: Large ring lasers for rotation sensing | doi:10.1063/1.4798216
+    Schreiber (2023) |  | vol. None | p. None | Rotation Sensing with Large Ring Lasers | doi:10.1017/9781108524933
+    Schreiber (2026) |  | vol. None | p. None | How accurate is Inertial Earth Rotation Sensing utilizing Large Ring Lasers | doi:10.5194/egusphere-egu26-6692
+=== Everitt2011 (attendu : Everitt 2011)
+    Everitt (2011) | Physical Review Letters | vol. 106 | p. 221101 | Gravity Probe B: Final Results of a Space Experiment to Test General Relativity | doi:10.1103/physrevlett.106.221101
+=== CiufoliniPavlis2004 (attendu : Ciufolini 2004)
+    Ciufolini (2004) | Nature | vol. 431 | p. 958-960 | A confirmation of the general relativistic prediction of the Lense–Thirring effect | doi:10.1038/nature03007
+    Ciufolini (2004) | General Relativity and Gravitation | vol. 36 | p. 2257-2270 | Frame Dragging and Lense-Thirring Effect | doi:10.1023/b:gerg.0000046182.33249.77
+    CIUFOLINI (2003) | Nonlinear Gravitodynamics | vol. None | p. 185-200 | THE GRAVITOMAGNETIC FIELD AND ITS MEASUREMENT WITH THE LAGEOS SATELLITES | doi:10.1142/9789812564818_0015
+=== Ciufolini2016 (attendu : Ciufolini 2016)
+    Iorio (2017) | The European Physical Journal C | vol. 77 | p. None | A comment on “A test of general relativity using the LARES and LAGEOS satellites and a GRACE Earth gravity model”, by I. Ciufolini et al. | doi:10.1140/epjc/s10052-017-4607-1
+    Ciufolini (2018) | The European Physical Journal C | vol. 78 | p. None | Reply to “A comment on “A test of general relativity using the LARES and LAGEOS satellites and a GRACE Earth gravity model, by I. Ciufolini et al.”” | doi:10.1140/epjc/s10052-018-6303-1
+    Ciufolini (2016) | The European Physical Journal C | vol. 76 | p. None | A test of general relativity using the LARES and LAGEOS satellites and a GRACE Earth gravity model | doi:10.1140/epjc/s10052-016-3961-8
+=== Bosi2011 (attendu : Bosi 2011)
+    Bosi (2011) | Physical Review D | vol. 84 | p. 122002 | Measuring gravitomagnetic effects by a multi-ring-laser gyroscope | doi:10.1103/physrevd.84.122002
+=== VenkatramanKrishnan2020 (attendu : Krishnan 2020)
+    Iorio (2020) | Monthly Notices of the Royal Astronomical Society | vol. 495 | p. 2777-2785 | A comment on ‘Lense–Thirring frame dragging induced by a fast-rotating white dwarf in a binary pulsar system’ by V. Venkatraman Krishnan et al. | doi:10.1093/mnras/staa1322
+    Krishnan (2020) | Science | vol. 367 | p. 577-580 | Lense–Thirring frame dragging induced by a fast-rotating white dwarf in a binary pulsar system | doi:10.1126/science.aax7007
+    Maes (2025) |  | vol. None | p. None | Dynamic sources, Dynamic Multi-folds, and General Relativity Lense-Thirring and Frame Dragging Effects | doi:10.31219/osf.io/ytmw6_v1
+=== ScullyDruhl1982 (attendu : Scully 1982)
+    Scully (1982) | Physical Review A | vol. 25 | p. 2208-2213 | Quantum eraser: A proposed photon correlation experiment concerning observation and "delayed choice" in quantum mechanics | doi:10.1103/physreva.25.2208
+=== Kim2000 (attendu : Kim 2000)
+    Kim (2000) | Physical Review Letters | vol. 84 | p. 1-5 | Delayed “Choice” Quantum Eraser | doi:10.1103/physrevlett.84.1
+=== Walborn2002 (attendu : Walborn 2002)
+    Walborn (2002) | Physical Review A | vol. 65 | p. 033818 | Double-slit quantum eraser | doi:10.1103/physreva.65.033818
+=== Jacques2007 (attendu : Jacques 2007)
+    Jacques (2007) | Conference on Coherence and Quantum Optics | vol. None | p. CWB4 | Experimental realization of Wheeler’s delayed-choice Gedanken Experiment | doi:10.1364/cqo.2007.cwb4
+    Jacques (2007) | Science | vol. 315 | p. 966-968 | Experimental Realization of Wheeler's Delayed-Choice Gedanken Experiment | doi:10.1126/science.1136303
+    Jacques (2007) | 2007 European Conference on Lasers and Electro-Optics and the International Quantum Electronics Conference | vol. None | p. 1-1 | "Experimental realization of Wheeler's delayed-choice Gedanken Experiment" | doi:10.1109/cleoe-iqec.2007.4386903
+=== Ma2013 (attendu : Ma 2013)
+    Ma (2013) | Proceedings of the National Academy of Sciences | vol. 110 | p. 1221-1226 | Quantum erasure with causally disconnected choice | doi:10.1073/pnas.1213201110
+    Xiao-song Ma (2009) | CLEO/Europe - EQEC 2009 - European Conference on Lasers and Electro-Optics and the European Quantum Electronics Conference | vol. None | p. 1-1 | Hybrid entanglement and a non-local quantum eraser | doi:10.1109/cleoe-eqec.2009.5191613
+    Ma (2007) | 2007 European Conference on Lasers and Electro-Optics and the International Quantum Electronics Conference | vol. None | p. 1-1 | Entanglement-assisted Delayed-Choice Experiment | doi:10.1109/cleoe-iqec.2007.4386925
+=== Ma2016 (attendu : Ma 2016)
+    Ma (2016) | Reviews of Modern Physics | vol. 88 | p. 015005 | Delayed-choice gedanken experiments and their realizations | doi:10.1103/revmodphys.88.015005
+=== Lloyd2011 (attendu : Lloyd 2011)
+    Lloyd (2011) | Physical Review Letters | vol. 106 | p. 040403 | Closed Timelike Curves via Postselection: Theory and Experimental Test of Consistency | doi:10.1103/physrevlett.106.040403
+=== Ringbauer2014 (attendu : Ringbauer 2014)
+    Ringbauer (2014) | Nature Communications | vol. 5 | p. None | Experimental simulation of closed timelike curves | doi:10.1038/ncomms5145
+    Pienaar (2011) | Physical Review A | vol. 84 | p. None | Quantum fields on closed timelike curves | doi:10.1103/physreva.84.062316
+    Ralph (2010) | Physical Review A | vol. 82 | p. None | Information flow of quantum states interacting with closed timelike curves | doi:10.1103/physreva.82.062330
+=== Deutsch1991 (attendu : Deutsch 1991)
+    Deutsch (1991) | Physical Review D | vol. 44 | p. 3197-3217 | Quantum mechanics near closed timelike lines | doi:10.1103/physrevd.44.3197
+=== Chiribella2013 (attendu : Chiribella 2013)
+    Chiribella (2013) | Physical Review A | vol. 88 | p. 022318 | Quantum computations without definite causal structure | doi:10.1103/physreva.88.022318
+=== Procopio2015 (attendu : Procopio 2015)
+    Procopio (2015) | Nature Communications | vol. 6 | p. None | Experimental superposition of orders of quantum gates | doi:10.1038/ncomms8913
+    Taddei (2021) | PRX Quantum | vol. 2 | p. None | Computational Advantage from the Quantum Superposition of Multiple Temporal Orders of Photonic Gates | doi:10.1103/prxquantum.2.010320
+    Rong (2015) | Nature Communications | vol. 6 | p. None | Experimental fault-tolerant universal quantum gates with solid-state spins under ambient conditions | doi:10.1038/ncomms9748
+=== Rubino2017 (attendu : Rubino 2017)
+    Rubino (2017) | Science Advances | vol. 3 | p. None | Experimental verification of an indefinite causal order | doi:10.1126/sciadv.1602589
+    Rozema (2017) | Conference on Lasers and Electro-Optics | vol. None | p. FTu1F.6 | Experimental Tests of Indefinite Causal Orders | doi:10.1364/cleo_qels.2017.ftu1f.6
+    Richter (2026) | PRX Quantum | vol. 7 | p. None | Toward an Experimental Device-Independent Verification of Indefinite Causal Order | doi:10.1103/5t2y-ddmt
+=== Goswami2018 (attendu : Goswami 2018)
+    Goswami (2018) | Physical Review Letters | vol. 121 | p. 090503 | Indefinite Causal Order in a Quantum Switch | doi:10.1103/physrevlett.121.090503
+=== Oreshkov2012 (attendu : Oreshkov 2012)
+    Oreshkov (2012) | Nature Communications | vol. 3 | p. None | Quantum correlations with no causal order | doi:10.1038/ncomms2076
+    Brukner (2015) | New Journal of Physics | vol. 17 | p. 083034 | Bounding quantum correlations with indefinite causal order | doi:10.1088/1367-2630/17/8/083034
+    Barrett (2021) | Nature Communications | vol. 12 | p. None | Cyclic quantum causal models | doi:10.1038/s41467-020-20456-x
+=== HillmerKwiat2007 (attendu : Hillmer 2007)
+    Hillmer (2007) | Scientific American | vol. 296 | p. 90-95 | A Do-It-Yourself Quantum Eraser | doi:10.1038/scientificamerican0507-90
+    Kwiat (1994) | Proceedings of 5th European Quantum Electronics Conference | vol. None | p. 122-122 | Delayed choice quantum eraser - theory and experiment | doi:10.1109/eqec.1994.698238
+    Kwiat (1992) | Foundations of Quantum Mechanics | vol. None | p. 193-199 | EXPERIMENTAL OBSERVATION OF A QUANTUM ERASER: HOW MUCH IS NATURE WILLING TO FORGET? | doi:10.1142/9789814436687_0023
+=== Hawking1974 (attendu : Hawking 1974)
+    HAWKING (1974) | Nature | vol. 248 | p. 30-31 | Black hole explosions? | doi:10.1038/248030a0
+     (2024) | Nature India | vol. None | p. None | How a black hole emits Hawking radiation | doi:10.1038/d44151-024-00187-4
+    Castelvecchi (2016) | Nature | vol. 536 | p. 258-259 | Artificial black hole creates its own version of Hawking radiation | doi:10.1038/536258a
+=== Hawking1975 (attendu : Hawking 1975)
+    Hawking (1975) | Communications In Mathematical Physics | vol. 43 | p. 199-220 | Particle creation by black holes | doi:10.1007/bf02345020
+    Hawking (1976) | Communications in Mathematical Physics | vol. 46 | p. 206-206 | Particle creation by black holes | doi:10.1007/bf01608497
+    Wald (1975) | Communications in Mathematical Physics | vol. 45 | p. 9-34 | On particle creation by black holes | doi:10.1007/bf01609863
+=== Page1976 (attendu : Page 1976)
+    Page (1976) | Physical Review D | vol. 13 | p. 198-206 | Particle emission rates from a black hole: Massless particles from an uncharged, nonrotating hole | doi:10.1103/physrevd.13.198
+=== MacGibbonWebber1990 (attendu : MacGibbon 1990)
+    MacGibbon (1990) | Physical Review D | vol. 41 | p. 3052-3079 | Quark- and gluon-jet emission from primordial black holes: The instantaneous spectra | doi:10.1103/physrevd.41.3052
+=== Lamport1982 (attendu : Lamport 1982)
+    Lamport (1982) | ACM Transactions on Programming Languages and Systems | vol. 4 | p. 382-401 | The Byzantine Generals Problem | doi:10.1145/357172.357176
+    SRI International (2019) | Concurrency: the Works of Leslie Lamport | vol. None | p. None | The Byzantine generals problem | doi:10.1145/3335772.3335936
+     (None) | SpringerReference | vol. None | p. None | Byzantine Agreement, 1980; Pease, Shostak, Lamport | doi:10.1007/springerreference_57579
+=== LyonsVanderkulk1962 (attendu : Lyons 1962)
+    Lyons (1962) | IBM Journal of Research and Development | vol. 6 | p. 200-209 | The Use of Triple-Modular Redundancy to Improve Computer Reliability | doi:10.1147/rd.62.0200
+     (1963) | Microelectronics Reliability | vol. 2 | p. 155 | The use of triple-modular redundancy to improve computer reliability | doi:10.1016/0026-2714(63)90201-4
+     (1976) | Microelectronics Reliability | vol. 15 | p. 375 | Microcomputer reliability improvement using triple-modular redundancy | doi:10.1016/0026-2714(76)90514-x
+=== KleinRoodman2005 (attendu : Klein 2005)
+    Klein (2005) | Annual Review of Nuclear and Particle Science | vol. 55 | p. 141-163 | BLIND ANALYSIS IN NUCLEAR AND PARTICLE PHYSICS | doi:10.1146/annurev.nucl.55.090704.151521
+    Roodman (2003) |  | vol. None | p. None | Blind Analysis in Particle Physics | doi:10.2172/826602
+    Bertulani (2005) | Annual Review of Nuclear and Particle Science | vol. 55 | p. 271-310 | PHYSICS OF ULTRA-PERIPHERAL NUCLEAR COLLISIONS | doi:10.1146/annurev.nucl.55.090704.151526
+=== MacCounPerlmutter2015 (attendu : MacCoun 2015)
+    MacCoun (2015) | Nature | vol. 526 | p. 187-189 | Blind analysis: Hide results to seek the truth | doi:10.1038/526187a
+    Schiermeier (2015) | Nature | vol. None | p. None | Pirate research-paper sites play hide-and-seek with publishers | doi:10.1038/nature.2015.18876
+    McPhaden (2015) | Nature Climate Change | vol. 5 | p. 791-795 | Playing hide and seek with El Niño | doi:10.1038/nclimate2775
+=== OPERA2012doi (attendu : Adam 2012)
+    The OPERA collaboration (2012) | Journal of High Energy Physics | vol. 2012 | p. 93 | Measurement of the neutrino velocity with the OPERA detector in the CNGS beam | doi:10.1007/jhep10(2012)093
+=== Ambrosini1997 (attendu : Ambrosini 1997)
+    Ambrosini (1997) | European Journal of Physics | vol. 18 | p. 284-289 | Bouncing light beams and the Hamiltonian analogy | doi:10.1088/0143-0807/18/4/008
+    Schirripa Spagnolo (1997) | Journal de Physique III | vol. 7 | p. 1893-1898 | Temperature Measurement in Laminar Free Convection Using Electro-Optic Holography | doi:10.1051/jp3:1997230
+    Ambrosini (1997) | American Journal of Physics | vol. 65 | p. 256-257 | Successful pinhole photography | doi:10.1119/1.18538
+=== Kolobov2021 (attendu : Kolobov 2021)
+    Kolobov (2021) | Nature Physics | vol. 17 | p. 362-367 | Observation of stationary spontaneous Hawking radiation and the time evolution of an analogue black hole | doi:10.1038/s41567-020-01076-0
+    Muñoz de Nova (2019) | Nature | vol. 569 | p. 688-691 | Observation of thermal Hawking radiation and its temperature in an analogue black hole | doi:10.1038/s41586-019-1241-0
+    Steinhauer (2014) | Nature Physics | vol. 10 | p. 864-869 | Observation of self-amplifying Hawking radiation in an analogue black-hole laser | doi:10.1038/nphys3104
+=== Duchesne2019 (attendu : Duchesne 2019)
+    Duchesne (2019) | Physical Review Fluids | vol. 4 | p. None | Surface tension and the origin of the circular hydraulic jump in a thin liquid film | doi:10.1103/physrevfluids.4.084001
+    Bhattacharjee (2021) | Physical Review Fluids | vol. 6 | p. None | Surface tension and instability in the hydrodynamic white hole of a circular hydraulic jump | doi:10.1103/physrevfluids.6.104801
+    Duchesne (2019) | Physical Review Fluids | vol. 4 | p. None | Nitrogen swirl: Creating rotating polygons in a boiling liquid | doi:10.1103/physrevfluids.4.100507
+=== Vinitsky2015 (attendu : Vinitsky 2015)
+    Vinitsky (2015) | American Journal of Physics | vol. 83 | p. 313-319 | Particle dynamics in damped nonlinear quadrupole ion traps | doi:10.1119/1.4902185
+    Libbrecht (2018) | American Journal of Physics | vol. 86 | p. 539-558 | Improved microparticle electrodynamic ion traps for physics teaching | doi:10.1119/1.5034344
+     (None) |  | vol. None | p. None | Impact of Multipole Fields on the Performance and Dynamics of Quadrupole Linear Ion Traps | doi:10.1021/jasms.4c00488.s001
+=== Gibbons1975 (attendu : Gibbons 1975)
+    Gibbons (1975) | Communications in Mathematical Physics | vol. 44 | p. 245-264 | Vacuum polarization and the spontaneous loss of charge by black holes | doi:10.1007/bf01609829
+    Novikov (1989) | Physics of Black Holes | vol. None | p. 233-253 | Vacuum Polarization near Black Holes | doi:10.1007/978-94-017-2651-1_10
+    Gibbons (1974) | Communications in Mathematical Physics | vol. 35 | p. 13-23 | The motion of black holes | doi:10.1007/bf01646451
+=== Lefevre2014 (attendu : Lefèvre 2014)
+    Lefèvre (2014) | Comptes Rendus. Physique | vol. 15 | p. 851-858 | The fiber-optic gyroscope, a century after Sagnac's experiment: The ultimate rotation-sensing technology? | doi:10.1016/j.crhy.2014.10.007
+    Sato (2014) | Comptes Rendus. Physique | vol. 15 | p. 898-906 | Sagnac-based rotation sensing with superfluid helium quantum interference devices | doi:10.1016/j.crhy.2014.10.004
+    Lefèvre (2013) | Optical Fiber Technology | vol. 19 | p. 828-832 | The fiber-optic gyroscope: Challenges to become the ultimate rotation-sensing technology | doi:10.1016/j.yofte.2013.08.007
+=== Schreiber2011 (attendu : Schreiber 2011)
+    Schreiber (2011) | Physical Review Letters | vol. 107 | p. None | How to Detect the Chandler and the Annual Wobble of the Earth with a Large Ring Laser Gyroscope | doi:10.1103/physrevlett.107.173904
+    Schreiber (2014) | 2014 International Conference Laser Optics | vol. None | p. 1-1 | Precision cavity control for the stable operation of a large ring laser gyroscope | doi:10.1109/lo.2014.6886320
+    Schreiber (2009) | Pure and Applied Geophysics | vol. 166 | p. 1485-1498 | The Large Ring Laser G for Continuous Earth Rotation Monitoring | doi:10.1007/s00024-004-0490-4
+=== Lutwak2009 (attendu : Lutwak 2009)
+    Lutwak (2009) | 2009 IEEE International Frequency Control Symposium Joint with the 22nd European Frequency and Time forum | vol. None | p. 573-577 | The Chip-Scale Atomic Clock - Recent developments | doi:10.1109/freq.2009.5168247
+    Zhu (2009) | 2009 IEEE International Frequency Control Symposium Joint with the 22nd European Frequency and Time forum | vol. None | p. 1183-1186 | Application of reduced light shift optical pumping method to chip scale atomic clock | doi:10.1109/freq.2009.5168386
+    Peter (2014) | 2014 IEEE International Frequency Control Symposium (FCS) | vol. None | p. 1-4 | Low Noise Chip Scale Atomic Clock (LNCSAC) | doi:10.1109/fcs.2014.6859911
+=== Greenberger1983 (attendu : Greenberger 1983)
+    Greenberger (1983) | Reviews of Modern Physics | vol. 55 | p. 875-905 | The neutron interferometer as a device for illustrating the strange behavior of quantum systems | doi:10.1103/revmodphys.55.875
+    Greenberger (2009) | Compendium of Quantum Physics | vol. None | p. 359-359 | Mach—Zehnder Interferometer | doi:10.1007/978-3-540-70626-7_111
+    Greenberger (1988) | Physics Letters A | vol. 128 | p. 391-394 | Simultaneous wave and particle knowledge in a neutron interferometer | doi:10.1016/0375-9601(88)90114-4
+=== Pease1980 (attendu : Pease 1980)
+    Pease (1980) | Journal of the ACM | vol. 27 | p. 228-234 | Reaching Agreement in the Presence of Faults | doi:10.1145/322186.322188
+     (None) | SpringerReference | vol. None | p. None | Byzantine Agreement, 1980; Pease, Shostak, Lamport | doi:10.1007/springerreference_57579
+    Okun (2008) | Encyclopedia of Algorithms | vol. None | p. 116-119 | Byzantine Agreement | doi:10.1007/978-0-387-30162-4_60
+=== Peres2004 (attendu : Peres 2004)
+    Peres (2004) | Reviews of Modern Physics | vol. 76 | p. 93-123 | Quantum information and relativity theory | doi:10.1103/revmodphys.76.93
+    Peres (2003) | International Journal of Quantum Information | vol. 01 | p. 225-235 | Quantum Information and Special Relativity | doi:10.1142/s0219749903000127
+    Peres (2002) | Physical Review Letters | vol. 88 | p. None | Quantum Entropy and Special Relativity | doi:10.1103/physrevlett.88.230402
+=== Brun2009 (attendu : Brun 2009)
+    Brun (2009) | Physical Review Letters | vol. 102 | p. None | Localized Closed Timelike Curves Can Perfectly Distinguish Quantum States | doi:10.1103/physrevlett.102.210402
+    Brun (2013) | Physical Review Letters | vol. 111 | p. None | Quantum State Cloning Using Deutschian Closed Timelike Curves | doi:10.1103/physrevlett.111.190401
+    Ji (2026) | Physical Review Letters | vol. 136 | p. None | Retrocausal Capacity of a Quantum Channel: Communicating through Noisy Closed Timelike Curves | doi:10.1103/znyd-npk5
+=== Overstreet2022 (attendu : Overstreet 2022)
+    Overstreet (2022) |  | vol. None | p. None | Observation of a gravitational Aharonov-Bohm effect | doi:10.26226/m.6275705d66d5dcf63a3115f4
+    Overstreet (2022) | Science | vol. 375 | p. 226-229 | Observation of a gravitational Aharonov-Bohm effect | doi:10.1126/science.abl7152
+    Kim (2023) | Quantum Sensing, Imaging, and Precision Metrology | vol. None | p. 97 | Laser system with Stark-shift-compensated dual beam splitters for observing a gravitational Aharonov-Bohm effect | doi:10.1117/12.2648709
+=== Rothleitner2017 (attendu : Rothleitner 2017)
+    Rothleitner (2017) | Review of Scientific Instruments | vol. 88 | p. None | Invited Review Article: Measurements of the Newtonian constant of gravitation, <i>G</i> | doi:10.1063/1.4994619
+    Rothleitner (2014) | Review of Scientific Instruments | vol. 85 | p. None | Measuring the Newtonian constant of gravitation with a differential free-fall gradiometer: A feasibility study | doi:10.1063/1.4869875
+    Haddad (2016) | Review of Scientific Instruments | vol. 87 | p. None | Invited Article: A precise instrument to determine the Planck constant, and the future kilogram | doi:10.1063/1.4953825
+=== Klimchitskaya2009 (attendu : Klimchitskaya 2009)
+    Klimchitskaya (2009) | Reviews of Modern Physics | vol. 81 | p. 1827-1885 | The Casimir force between real materials: Experiment and theory | doi:10.1103/revmodphys.81.1827
+    Bordag (2009) | Advances in the Casimir Effect | vol. None | p. 530-580 | Measurements of the Casimir Force Between Metals | doi:10.1093/acprof:oso/9780199238743.003.0019
+    Bordag (2009) | Advances in the Casimir Effect | vol. None | p. 227-261 | The Casimir Force Between Objects of Arbitrary Shape | doi:10.1093/acprof:oso/9780199238743.003.0010
+=== Visser2002 (attendu : Visser 2002)
+    Visser (2002) | General Relativity and Gravitation | vol. 34 | p. 1719-1734 | Analogue Models of and for Gravity | doi:10.1023/a:1020180409214
+    Fewster (2014) | General Relativity and Gravitation | vol. 46 | p. None | Quantum fields in curved spacetime, semiclassical gravity, quantum gravity phenomenology, and analogue models: parallel session D4 | doi:10.1007/s10714-014-1707-1
+    Barceló (2026) | Living Reviews in Relativity | vol. 29 | p. None | Analogue gravity | doi:10.1007/s41114-026-00064-9
+=== Euve2020 (attendu : Euvé 2020)
+    Euvé (2020) | Physical Review Letters | vol. 124 | p. None | Scattering of Co-Current Surface Waves on an Analogue Black Hole | doi:10.1103/physrevlett.124.141101
+    Fourdrinoy (2022) | Physical Review D | vol. 105 | p. None | Correlations on weakly time-dependent transcritical white-hole flows | doi:10.1103/physrevd.105.085022
+    Fabbri (1975) | Physical Review D | vol. 12 | p. 933-942 | Scattering and absorption of electromagnetic waves by a Schwarzschild black hole | doi:10.1103/physrevd.12.933
+=== Denardo2009 (attendu : Denardo 2009)
+    Denardo (2009) | American Journal of Physics | vol. 77 | p. 1095-1101 | A water wave analog of the Casimir effect | doi:10.1119/1.3211416
+    Larraza (1998) | Physics Letters A | vol. 248 | p. 151-155 | An acoustic Casimir effect | doi:10.1016/s0375-9601(98)00652-5
+    Larraza (1999) | American Journal of Physics | vol. 67 | p. 1028-1030 | A demonstration apparatus for an acoustic analog to the Casimir effect | doi:10.1119/1.19166
+=== Larraza1998 (attendu : Larraza 1998)
+    Larraza (1998) | Physics Letters A | vol. 248 | p. 151-155 | An acoustic Casimir effect | doi:10.1016/s0375-9601(98)00652-5
+    Larraza (1998) | The Journal of the Acoustical Society of America | vol. 103 | p. 2763-2763 | An acoustic Casimir effect | doi:10.1121/1.421425
+    Larraza (1998) | The Journal of the Acoustical Society of America | vol. 103 | p. 2267-2272 | The force between two parallel rigid plates due to the radiation pressure of broadband noise: An acoustic Casimir effect | doi:10.1121/1.422744
+=== Jekeli2006 (attendu : Jekeli 2006)
+    Jekeli (2006) | Journal of Guidance, Control, and Dynamics | vol. 29 | p. 704-713 | Precision Free-Inertial Navigation with Gravity Compensation by an Onboard Gradiometer | doi:10.2514/1.15368
+    Kerr (2007) | Journal of Guidance, Control, and Dynamics | vol. 30 | p. 1214-1215 | Comment on �Precision Free-Inertial Navigation with Gravity Compensation by an Onboard Gradiometer� | doi:10.2514/1.29808
+    Kerr (2007) | Journal of Guidance, Control, and Dynamics | vol. 30 | p. 1214-1215 | Comment on "Precision Free-Inertial Navigation with Gravity Compensation by an Onboard Gradiometer" | doi:10.2514/1.g7694tc
+=== Casimir1948 (attendu : Casimir 1948)
+    Hubrecht (1880) | Verhandelingen der Koninklijke Akademie van Wetenschappen | vol. None | p. None | Zur Anatomie und Physiologie des Nervensystems der Nemertinen | doi:10.5962/bhl.title.11828
+     (1976) | Nederlands Archief voor Kerkgeschiedenis / Dutch Review of Church History | vol. 56 | p. 501 | Rapport over de huidige stand en toekomstige planning van het wetenschappelijk onderzoek der Nederlandse geschiedenis, samengesteld door de Historisch-Wetenschappelijke Commissie der Koninklijke Akademie van Wetenschappen. Koninklijke Nederlandse Akademie van Wetenschappen, Amsterdam 1974 | doi:10.1163/002820376x00372
+    Łoś (1958) | Journal of Symbolic Logic | vol. 23 | p. 57-57 | Dana Scott. Equationally complete extensions of finite algebras. Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings, series A, vol. 59 (1956), pp. 35–38; also <b><i>Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings</i></b>, series A, vol. 18 (1956), pp. 35–38. | doi:10.2307/2964494
+=== LenseThirring1918 (attendu : Lense 1918)
+    Thirring (1958) | Physikalische Blätter | vol. 14 | p. 212-214 | Der Einfluß der Eigenrotation der Planeten auf die Bewegung ihrer Trabanten | doi:10.1002/phbl.19580140504
+    Arrhenius (1889) | Zeitschrift für Physikalische Chemie | vol. 4 | p. None | Über die Dissociationswärme und den Einfluss der Temperatur auf den Dissociationsgrad der Elektrolyte | doi:10.1515/zpch-1889-0108
+    Weismann (1872) |  | vol. None | p. None | Uber den Einfluss der Isolirung auf die Artbildung / | doi:10.5962/bhl.title.50540
+=== Mashhoon1984 (attendu : Mashhoon 1984)
+    Mashhoon (1984) | General Relativity and Gravitation | vol. 16 | p. 711-750 | On the gravitational effects of rotating masses: The Thirring-Lense papers | doi:10.1007/bf00762913
+    MASHHOON (2003) | Nonlinear Gravitodynamics | vol. None | p. 349-388 | On the Gravitational Effects of Rotating Masses: The Thirring–Lense Papers | doi:10.1142/9789812564818_0030
+    Mashhoon (1984) | General Relativity and Gravitation | vol. 16 | p. 311-316 | On a new gravitational effect of a rotating mass | doi:10.1007/bf00762188
+=== Sagnac1913 (attendu : Sagnac 1913)
+    Roudet (1999) | Comptes Rendus de l'Académie des Sciences - Series IIB - Mechanics-Physics-Astronomy | vol. 327 | p. 1363-1369 | Effet du matage en fatigue par flexion trois points avec cisaillement prépondérant dans un V/E-UD | doi:10.1016/s1287-4620(00)87505-5
+    Varron (2005) | Comptes Rendus. Mathématique | vol. 340 | p. 453-456 | Uniformité en h dans la loi fonctionnelle limite uniforme les accroissements du processus empirique indéxé par des fonctions | doi:10.1016/j.crma.2005.02.009
+    Sagnac (1914) | Journal de Physique Théorique et Appliquée | vol. 4 | p. 177-195 | Effet tourbillonnaire optique. La circulation de l'éther lumineux dans un interférographe tournant | doi:10.1051/jphystap:019140040017700
+=== Levine2002 (attendu : Levine 2002)
+    Levine (2002) | Reports on Progress in Physics | vol. 65 | p. 1119-1164 | Time and frequency distribution using satellites | doi:10.1088/0034-4885/65/8/201
+    Bauch (2002) | Reports on Progress in Physics | vol. 65 | p. 789-843 | Frequency standards and frequency measurement | doi:10.1088/0034-4885/65/5/203
+    Levine (None) | Proceedings of the 2002 IEEE International Frequency Control Symposium and PDA Exhibition (Cat. No.02CH37234) | vol. None | p. 522-529 | Efficient time transfer using the Internet | doi:10.1109/freq.2002.1075939
+=== Novick2015 (attendu : Novick 2015)
+    Novick (2015) | 2015 Joint Conference of the IEEE International Frequency Control Symposium &amp; the European Frequency and Time Forum | vol. None | p. 570-574 | Practical limitations of NTP time transfer | doi:10.1109/fcs.2015.7138909
+    Defraigne (2009) | 2009 IEEE International Frequency Control Symposium Joint with the 22nd European Frequency and Time forum | vol. None | p. xix-xix | Precise GNSS time and frequency transfer | doi:10.1109/freq.2009.5168125
+    Jiang (2015) | 2015 Joint Conference of the IEEE International Frequency Control Symposium &amp; the European Frequency and Time Forum | vol. None | p. 230-235 | Link calibration or receiver calibration for accurate time transfer? | doi:10.1109/fcs.2015.7138830
+=== Tipler1974 (attendu : Tipler 1974)
+    Tipler (1974) | Physical Review D | vol. 9 | p. 2203-2206 | Rotating cylinders and the possibility of global causality violation | doi:10.1103/physrevd.9.2203
+=== Tipler1977 (attendu : Tipler 1977)
+    Tipler (1977) | Annals of Physics | vol. 108 | p. 1-36 | Singularities and causality violation | doi:10.1016/0003-4916(77)90348-7
+     (1977) | Annals of Physics | vol. 107 | p. 431 | Singularities and causality violation | doi:10.1016/0003-4916(77)90220-2
+    Tipler (1979) | General Relativity and Gravitation | vol. 10 | p. 983-984 | Singularities and causality violation | doi:10.1007/bf00776516
+=== Hawking1992 (attendu : Hawking 1992)
+    Hawking (1992) | Physical Review D | vol. 46 | p. 603-611 | Chronology protection conjecture | doi:10.1103/physrevd.46.603

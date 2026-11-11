@@ -1,0 +1,44 @@
+
+== 1. Échelle de Planck et LHC ==
+masse de Planck            : 2.176e-08 kg = 1.221e+19 GeV
+énergie LHC Run 3 (13,6 TeV): 2.18e-06 J  <=> 2.42e-23 kg ; E_P/E_LHC = 9.0e+14
+
+== 2. Puissance de Hawking ==
+hbar c^6/G^2                         : 1.7187e+37 W kg²
+formule naïve (photons, corps noir)  : P M² = 3.562e+32 W kg²
+toutes espèces légères (f = 1.569)  : P M² = 7.530e+33 W kg²  (rapport 21.1)
+recoupement Page 1976 (6 esp. de ν)  : P M² = 4.863e+33 W kg² contre 4.799e+33 (écart 1.3 %)
+répartition (f = 1,569)              : ν 55 % ; e± 36 % ; γ 8 % ; gravitons 1 %
+P = 300 MW -> M = 5.01e+12 kg ; kT = 2.11 MeV ; pic photons ≈ 5,77 kT = 12 MeV ; r_s = 7.4 fm ; durée de vie = 1.6e+13 ans ; g(1 m) = 34 g0 ; dM/dt = 3.3e-09 kg/s
+P = 500 MW -> M = 3.88e+12 kg ; kT = 2.72 MeV ; pic photons ≈ 5,77 kT = 16 MeV ; r_s = 5.8 fm ; durée de vie = 7.4e+12 ans ; g(1 m) = 26 g0 ; dM/dt = 5.6e-09 kg/s
+trou « à rayons X » (kT = 10 keV)    : M = 1.1e+15 kg ; P (f = 1) = 4.3e+03 W
+trou de 227 kg (f = 15.35, de mémoire) : durée de vie = 4.8e-12 s ; énergie = 2.0e+19 J
+énergie de masse de 4.5e+12 kg    : 4.0e+29 J = 7e+08 années de consommation mondiale (6e20 J/an)
+
+== 3. Charge (corrigé en phase 7 : errata E14 du dossier) ==
+charge extrémale (4.5e+12 kg)       : 388 C = 2.4e+21 e ; champ à l'horizon extrémal = 2e+23 E_Schwinger
+paramètre de Page GMμ/ħc (électron)  : 0.0087  (<< 0,16 : régime « sans masse », rms 6,14 e selon le résumé de Page 1977)
+Q =    6.1 e  [valeur quadratique moyenne (Page 1977)] : Q/Q_max = 2.5e-21 ; r_- ≈ (GM/c²) q²/2 = 1e-56 m
+Q =  137.0 e  [borne d'ordre de grandeur Zα ≈ 1] : Q/Q_max = 5.7e-20 ; r_- ≈ (GM/c²) q²/2 = 5e-54 m
+longueur de Planck                   : 1.6e-35 m ; longueur de Compton réduite de l'électron : 3.86e-13 m ; r_s = 6.68e-15 m
+[estimation propre à l'Équipe H, non issue de Gibbons 1975, peu adaptée car r_s << ħ/m_e c] e²/(4πε0 r_s) = 0.22 MeV par charge ; m_e c² = 0,511 MeV
+
+== 4. Dilatation du temps et horloges ==
+décalage gravitationnel terrestre g/c² : 1.091e-16 par m = 1.09e-19 par mm
+masse donnant 2 g à 1 m                : 2.9e+11 kg ; potentiel GM/(r c²) = 2.2e-16
+« 10 ans par heure »                   : rapport = 87660 ; exige 1 − r_s/r = 1.3e-10
+horloge à 5e-13 (ordre de grandeur)    : 1.1e-08 s en 6 h de temps propre ; x 87660 = 9.5e-04 s ; 1 % de 60 ans = 1.9e+07 s = 219 jours ; rapport = 2e+10
+
+== 5. Gravimétrie ==
+2 x 4.5e+12 kg à     1 km : a = 6.0e-04 m/s² = 60069 µGal
+2 x 4.5e+12 kg à    10 km : a = 6.0e-06 m/s² = 601 µGal
+2 x 4.5e+12 kg à   100 km : a = 6.0e-08 m/s² = 6 µGal
+champ propre de 4.5e+12 kg : 31 g0 à 1 m ; 340 g0 à 0,3 m ; gradient 2GM/r³ à 1 m = 601 s⁻² (Terre : 3,1e-6 s⁻²)
+potentiel de 227 kg à 1 m : GM/(r c²) = 1.7e-25
+
+== 6. Divers ==
+entraînement des référentiels, rotor J = 5e+03 kg m²/s à 1 m : Ω = 2GJ/(c² r³) = 7.4e-24 rad/s ; Terre (39 mas/an) = 6.0e-15 rad/s
+Casimir, plaques à 100 nm : ρ = −4.3 J/m³ = −5e-17 kg/m³
+écart de masse : log10(1e12 kg / 0,4 mg) = 18.4 ; log10(1e12 kg / 90 mg) = 16.0
+matière noire locale 0,4 GeV/cm³ = 7.1e-22 kg/m³ ; si faite de trous de 4.5e+12 kg : un par cube de 1.2 UA de côté
+dernier instant d'un time_t signé de 32 bits : 2038-01-19 03:14:07 UTC

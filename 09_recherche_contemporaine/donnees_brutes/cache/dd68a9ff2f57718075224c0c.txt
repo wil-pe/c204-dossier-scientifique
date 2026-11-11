@@ -1,0 +1,1056 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OHVoDw8HnNohfE0SPZGscSwH2ek</id>
+  <title>arXiv Query: search_query=&amp;id_list=1905.06308,2209.10276,2404.12311,2406.18719,2410.01753,2307.14141,1412.7954,1610.03832,1904.09084,1910.06666,2005.11624,2201.03345,2209.13209,2209.15487,2504.08167,physics/9805038,quant-ph/0203002,hep-th/0503158,hep-ph/0703290,0902.4022&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=1905.06308,2209.10276,2404.12311,2406.18719,2410.01753,2307.14141,1412.7954,1610.03832,1904.09084,1910.06666,2005.11624,2201.03345,2209.13209,2209.15487,2504.08167,physics/9805038,quant-ph/0203002,hep-th/0503158,hep-ph/0703290,0902.4022" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2005.11624v2</id>
+    <title>Atom-interferometric test of the equivalence principle at the $10^{-12}$ level</title>
+    <updated>2020-08-12T23:59:30Z</updated>
+    <link href="https://arxiv.org/abs/2005.11624v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.11624v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Does gravity influence local measurements? We use a dual-species atom interferometer with $2\,\text{s}$ of free-fall time to measure the relative acceleration between $^{85}$Rb and $^{87}$Rb wave packets in the Earth's gravitational field. Systematic errors arising from kinematic differences between the isotopes are suppressed by calibrating the angles and frequencies of the interferometry beams. We find an Eötvös parameter of $η= [1.6\; \pm\; 1.8\; \text{(stat)}\; \pm \; 3.4 \; \text{(sys)}] \times 10^{-12}$, consistent with zero violation of the equivalence principle. With a resolution of up to $1.4 \times 10^{-11} \, g$ per shot, we demonstrate a sensitivity to $η$ of $5.4 \times 10^{-11}\,/\sqrt{\text{Hz}}$.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-23T23:58:05Z</published>
+    <arxiv:comment>8 pages, 6 figures, 1 Table</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 125, 191101 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Peter Asenbaum</name>
+    </author>
+    <author>
+      <name>Chris Overstreet</name>
+    </author>
+    <author>
+      <name>Minjeong Kim</name>
+    </author>
+    <author>
+      <name>Joseph Curti</name>
+    </author>
+    <author>
+      <name>Mark A. Kasevich</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.125.191101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.125.191101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.13209v1</id>
+    <title>Tracking the Vector Acceleration with a Hybrid Quantum Accelerometer Triad</title>
+    <updated>2022-09-27T07:25:24Z</updated>
+    <link href="https://arxiv.org/abs/2209.13209v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.13209v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robust and accurate acceleration tracking remains a challenge in many fields. For geophysics and economic geology, precise gravity mapping requires onboard sensors combined with accurate positioning and navigation systems. Cold-atom-based quantum inertial sensors can potentially provide such high-precision instruments. However, current scalar instruments require precise alignment with vector quantities. Here, we present the first hybrid three-axis accelerometer exploiting the quantum advantage to measure the full acceleration vector by combining three orthogonal atom interferometer measurements with a classical navigation-grade accelerometer triad. Its ultra-low bias permits tracking the acceleration vector over long timescales -- yielding a 50-fold improvement in stability ($6 \times 10^{-8}~g$) over our classical accelerometers. We record the acceleration vector at a high data rate (1 kHz), with absolute magnitude accuracy below 10 $μg$, and pointing accuracy of 4 $μ$rad. This paves the way toward future strapdown applications with quantum sensors and highlights their potential as future inertial navigation units.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-27T07:25:24Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Simon Templier</name>
+    </author>
+    <author>
+      <name>Pierrick Cheiney</name>
+    </author>
+    <author>
+      <name>Quentin d'Armagnac de Castanet</name>
+    </author>
+    <author>
+      <name>Baptiste Gouraud</name>
+    </author>
+    <author>
+      <name>Henri Porte</name>
+    </author>
+    <author>
+      <name>Fabien Napolitano</name>
+    </author>
+    <author>
+      <name>Philippe Bouyer</name>
+    </author>
+    <author>
+      <name>Baptiste Battelier</name>
+    </author>
+    <author>
+      <name>Brynle Barrett</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.10276v1</id>
+    <title>Observation of the radiative decay of the ${}^{229}\mathrm{Th}$ nuclear clock isomer</title>
+    <updated>2022-09-21T11:40:11Z</updated>
+    <link href="https://arxiv.org/abs/2209.10276v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.10276v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The nucleus of the radioisotope thorium-229 (${}^{229}$Th) features an isomer with an exceptionally low excitation energy that enables direct laser manipulation of nuclear states. For this reason, it is a leading candidate for use in next-generation optical clocks. This nuclear clock will be a unique tool, amongst others, for tests of fundamental physics. While first indirect experimental evidence for the existence of such an extraordinary nuclear state is significantly older, the proof of existence has been delivered only recently by observing the isomer's electron conversion decay and its hyperfine structure in a laser spectroscopy study, revealing information on the isomer's excitation energy, nuclear spin and electromagnetic moments. Further studies reported the electron conversion lifetime and refined the isomer's energy. In spite of recent progress, the isomer's radiative decay, a key ingredient for the development of a nuclear clock, remained unobserved.
+  In this Letter, we report the detection of the radiative decay of this low-energy isomer in thorium-229 (${}^{229\mathrm{m}}$Th). By performing vacuum-ultraviolet spectroscopy of ${}^{229\mathrm{m}}$Th incorporated into large-bandgap CaF${}_2$ and MgF${}_2$ crystals at the ISOLDE facility at CERN, the photon vacuum wavelength of the isomer's decay is measured as 148.71(42) nm, corresponding to an excitation energy of 8.338(24) eV. This value is in agreement with recent measurements, and decreases the uncertainty by a factor of seven. The half-life of ${}^{229\mathrm{m}}$Th embedded in MgF${}_2$ is determined to be 670(102) s. The observation of the radiative decay in a large-bandgap crystal has important consequences for the design of a future nuclear clock and the improved uncertainty of the energy eases the search for direct laser excitation of the atomic nucleus.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-21T11:40:11Z</published>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Sandro Kraemer</name>
+    </author>
+    <author>
+      <name>Janni Moens</name>
+    </author>
+    <author>
+      <name>Michail Athanasakis-Kaklamanakis</name>
+    </author>
+    <author>
+      <name>Silvia Bara</name>
+    </author>
+    <author>
+      <name>Kjeld Beeks</name>
+    </author>
+    <author>
+      <name>Premaditya Chhetri</name>
+    </author>
+    <author>
+      <name>Katerina Chrysalidis</name>
+    </author>
+    <author>
+      <name>Arno Claessens</name>
+    </author>
+    <author>
+      <name>Thomas E. Cocolios</name>
+    </author>
+    <author>
+      <name>João M. Correia</name>
+    </author>
+    <author>
+      <name>Hilde De Witte</name>
+    </author>
+    <author>
+      <name>Rafael Ferrer</name>
+    </author>
+    <author>
+      <name>Sarina Geldhof</name>
+    </author>
+    <author>
+      <name>Reinhard Heinke</name>
+    </author>
+    <author>
+      <name>Niyusha Hosseini</name>
+    </author>
+    <author>
+      <name>Mark Huyse</name>
+    </author>
+    <author>
+      <name>Ulli Köster</name>
+    </author>
+    <author>
+      <name>Yuri Kudryavtsev</name>
+    </author>
+    <author>
+      <name>Mustapha Laatiaoui</name>
+    </author>
+    <author>
+      <name>Razvan Lica</name>
+    </author>
+    <author>
+      <name>Goele Magchiels</name>
+    </author>
+    <author>
+      <name>Vladimir Manea</name>
+    </author>
+    <author>
+      <name>Clement Merckling</name>
+    </author>
+    <author>
+      <name>Lino M. C. Pereira</name>
+    </author>
+    <author>
+      <name>Sebastian Raeder</name>
+    </author>
+    <author>
+      <name>Thorsten Schumm</name>
+    </author>
+    <author>
+      <name>Simon Sels</name>
+    </author>
+    <author>
+      <name>Peter G. Thirolf</name>
+    </author>
+    <author>
+      <name>Shandirai Malven Tunhuma</name>
+    </author>
+    <author>
+      <name>Paul Van Den Bergh</name>
+    </author>
+    <author>
+      <name>Piet Van Duppen</name>
+    </author>
+    <author>
+      <name>André Vantomme</name>
+    </author>
+    <author>
+      <name>Matthias Verlinde</name>
+    </author>
+    <author>
+      <name>Renan Villarreal</name>
+    </author>
+    <author>
+      <name>Ulrich Wahl</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-023-05894-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-023-05894-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.4022v1</id>
+    <title>The Casimir force between real materials: experiment and theory</title>
+    <updated>2009-02-23T21:59:24Z</updated>
+    <link href="https://arxiv.org/abs/0902.4022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.4022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The physical origin of the Casimir force is connected with the existence of zero-point and thermal fluctuations. The Casimir effect is very general and finds applications in various fields of physics. This review is limited to the rapid progress at the intersection of experiment and theory that has been achieved in the last few years. It includes a critical assessment of the proposed approaches to the resolution of the puzzles arising in the applications of the Lifshitz theory of the van der Waals and Casimir forces to real materials. All the primary experiments on the measurement of the Casimir force between macroscopic bodies and the Casimir-Polder force between an atom and a wall that have been performed in the last decade are reviewed, including the theory needed for their interpretation. The methodology for the comparison between experiment and theory in the force-distance measurements is presented. The experimental and theoretical results described here provide a deeper understanding of the phenomenon of dispersion forces in real materials and offer guidance for the application of Lifshitz theory for the interpretation of the measurement results.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-23T21:59:24Z</published>
+    <arxiv:comment>126 pages, 33 figures, accepted for publication in Reviews of Modern Physics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>Rev.Mod.Phys.81:1827-1885,2009</arxiv:journal_ref>
+    <author>
+      <name>G. L. Klimchitskaya</name>
+    </author>
+    <author>
+      <name>U. Mohideen</name>
+    </author>
+    <author>
+      <name>V. M. Mostepanenko</name>
+    </author>
+    <arxiv:doi>10.1103/RevModPhys.81.1827</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/RevModPhys.81.1827" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.06308v1</id>
+    <title>Energy of the $^{229}$Th nuclear clock transition</title>
+    <updated>2019-05-10T14:58:56Z</updated>
+    <link href="https://arxiv.org/abs/1905.06308v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.06308v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first nuclear excited state of $^{229}$Th offers the unique opportunity for laser-based optical control of a nucleus. Its exceptional properties allow for the development of a nuclear optical clock which offers a complementary technology and is expected to outperform current electronic-shell based atomic clocks. The development of a nuclear clock was so far impeded by an imprecise knowledge of the energy of the $^{229}$Th nuclear excited state. In this letter we report a direct excitation energy measurement of this elusive state and constrain this to 8.28$\pm$0.17 eV. The energy is determined by spectroscopy of the internal conversion electrons emitted in-flight during the decay of the excited nucleus in neutral $^{229}$Th atoms. The nuclear excitation energy is measured via the valence electronic shell, thereby merging the fields of nuclear- and atomic physics to advance precision metrology. The transition energy between ground and excited state corresponds to a wavelength of 149.7$\pm$3.1 nm. These findings set the starting point for high-resolution nuclear laser spectroscopy and thus the development of a nuclear optical clock of unprecedented accuracy. A nuclear clock is expected to have a large variety of applications, ranging from relativistic geodesy over dark matter research to the observation of potential temporal variation of fundamental constants.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-10T14:58:56Z</published>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Benedict Seiferle</name>
+    </author>
+    <author>
+      <name>Lars von der Wense</name>
+    </author>
+    <author>
+      <name>Pavlo V. Bilous</name>
+    </author>
+    <author>
+      <name>Ines Amersdorffer</name>
+    </author>
+    <author>
+      <name>Christoph Lemell</name>
+    </author>
+    <author>
+      <name>Florian Libisch</name>
+    </author>
+    <author>
+      <name>Simon Stellmer</name>
+    </author>
+    <author>
+      <name>Thorsten Schumm</name>
+    </author>
+    <author>
+      <name>Christoph E. Düllmann</name>
+    </author>
+    <author>
+      <name>Adriana Pálffy</name>
+    </author>
+    <author>
+      <name>Peter G. Thirolf</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-1533-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-1533-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.06666v1</id>
+    <title>Absolute airborne gravimetry with a cold atom sensor</title>
+    <updated>2019-10-15T11:50:58Z</updated>
+    <link href="https://arxiv.org/abs/1910.06666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.06666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measuring gravity from an aircraft is essential in geodesy, geophysics and exploration. Today, only relative sensors are available for airborne gravimetry. This is a major drawback because of the calibration and drift estimation procedures which lead to important operational constraints and measurement errors. Here, we report an absolute airborne gravimeter based on atom interferometry. This instrument has been first tested on a motion simulator leading to gravity measurements noise of 0.3 mGal for 75 s filtering time constant. Then, we realized an airborne campaign across Iceland in April 2017. From a repeated line and crossing points, we obtain gravity measurements with an estimated error between 1.7 and 3.9 mGal. The airborne measurements have also been compared to upward continued ground gravity data and show differences with a standard deviation ranging from 3.3 to 6.2 mGal and a mean value ranging from -0.7 mGal to -1.9 mGal.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-15T11:50:58Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Yannick Bidel</name>
+    </author>
+    <author>
+      <name>Nassim Zahzam</name>
+    </author>
+    <author>
+      <name>Alexandre Bresson</name>
+    </author>
+    <author>
+      <name>Cédric Blanchard</name>
+    </author>
+    <author>
+      <name>Malo Cadoret</name>
+    </author>
+    <author>
+      <name>Arne V. Olesen</name>
+    </author>
+    <author>
+      <name>René Forsberg</name>
+    </author>
+    <arxiv:doi>10.1007/s00190-020-01350-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00190-020-01350-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.03345v1</id>
+    <title>A compact differential gravimeter at the quantum projection noise limit</title>
+    <updated>2022-01-10T13:56:47Z</updated>
+    <link href="https://arxiv.org/abs/2201.03345v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.03345v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atom interferometry offers new perspectives for geophysics and inertial sensing. We present the industrial prototype of a new type of quantum-based instrument: a compact, transportable, differential quantum gravimeter capable of measuring simultaneously the absolute values of both gravitational acceleration, $g$, and its vertical gradient, $Γ_{zz}$. While the sensitivity to g is competitive with the best industrial gravimeters, the sensitivity on $Γ_{zz}$ reaches the limit set by quantum projection noise-leading to an unprecedented long-term stability of 0.1 E ($1E=1\times 10^{-9}s^{-2}$). This unique, dual-purpose instrument, paves the way for new applications in geophysics, civil engineering, and gravity-aided navigation, where accurate mapping of the gravitational field plays an important role.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-10T13:56:47Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Camille Janvier</name>
+    </author>
+    <author>
+      <name>Vincent Ménoret</name>
+    </author>
+    <author>
+      <name>Sébastien Merlet</name>
+    </author>
+    <author>
+      <name>Arnaud Landragin</name>
+    </author>
+    <author>
+      <name>Franck Pereira Dos Santos</name>
+    </author>
+    <author>
+      <name>Bruno Desruelle</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.105.022801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.105.022801" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0503158v1</id>
+    <title>The Casimir Effect and the Quantum Vacuum</title>
+    <updated>2005-03-21T19:24:29Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0503158v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0503158v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In discussions of the cosmological constant, the Casimir effect is often invoked as decisive evidence that the zero point energies of quantum fields are "real''. On the contrary, Casimir effects can be formulated and Casimir forces can be computed without reference to zero point energies. They are relativistic, quantum forces between charges and currents. The Casimir force (per unit area) between parallel plates vanishes as α, the fine structure constant, goes to zero, and the standard result, which appears to be independent of α, corresponds to the α\to\infty limit.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-03-21T19:24:29Z</published>
+    <arxiv:comment>9 pages, 3 figures, uses aip class and the package floatftm to float text around figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev. D72 (2005) 021301</arxiv:journal_ref>
+    <author>
+      <name>R. L. Jaffe</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.72.021301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.72.021301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0203002v1</id>
+    <title>Measurement of the Casimir force between parallel metallic surfaces</title>
+    <updated>2002-03-01T10:54:01Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0203002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0203002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We report on the measurement of the Casimir force between conducting surfaces in a parallel configuration. The force is exerted between a silicon cantilever coated with chromium and a similar rigid surface and is detected looking at the shifts induced in the cantilever frequency when the latter is approached. The scaling of the force with the distance between the surfaces was tested in the 0.5 - 3.0 $μ$m range, and the related force coefficient was determined at the 15% precision level.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-03-01T10:54:01Z</published>
+    <arxiv:comment>4 Figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.88:041804,2002</arxiv:journal_ref>
+    <author>
+      <name>G. Bressi</name>
+    </author>
+    <author>
+      <name>G. Carugno</name>
+    </author>
+    <author>
+      <name>R. Onofrio</name>
+    </author>
+    <author>
+      <name>G. Ruoso</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.88.041804</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.88.041804" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.12311v1</id>
+    <title>Laser excitation of the $^{229}$Th nuclear isomeric transition in a solid-state host</title>
+    <updated>2024-04-18T16:45:39Z</updated>
+    <link href="https://arxiv.org/abs/2404.12311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.12311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LiSrAlF$_6$ crystals doped with $^{229}$Th are used in a laser-based search for the nuclear isomeric transition. Two spectroscopic features near the nuclear transition energy are observed. The first is a broad excitation feature that produces red-shifted fluorescence that decays with a timescale of a few seconds. The second is a narrow, laser-linewidth-limited spectral feature at $148.38219(4)_{\textrm{stat}}(20)_{\textrm{sys}}$ nm ($2020407.3(5)_{\textrm{stat}}(30)_{\textrm{sys}}$ GHz) that decays with a lifetime of $568(13)_{\textrm{stat}}(20)_{\textrm{sys}}$ s. This feature is assigned to the excitation of the $^{229}$Th nuclear isomeric state, whose energy is found to be $8.355733(2)_{\textrm{stat}}(10)_{\textrm{sys}}$ eV in $^{229}$Th:\thor:LiSrAlF$_6$.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-18T16:45:39Z</published>
+    <arxiv:comment>Submitted to Physical Review Letters on March 25, 2024</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>R. Elwell</name>
+    </author>
+    <author>
+      <name>Christian Schneider</name>
+    </author>
+    <author>
+      <name>Justin Jeet</name>
+    </author>
+    <author>
+      <name>J. E. S. Terhune</name>
+    </author>
+    <author>
+      <name>H. W. T. Morgan</name>
+    </author>
+    <author>
+      <name>A. N. Alexandrova</name>
+    </author>
+    <author>
+      <name>H. B. Tran Tan</name>
+    </author>
+    <author>
+      <name>Andrei Derevianko</name>
+    </author>
+    <author>
+      <name>Eric R. Hudson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9805038v2</id>
+    <title>Precision Measurement of the Casimir Force from 0.1 to 0.9 microns</title>
+    <updated>1998-12-09T19:32:37Z</updated>
+    <link href="https://arxiv.org/abs/physics/9805038v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9805038v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have used an atomic force microscope to make precision measurements of the Casimir force between a metallized sphere of diameter 196 microns and flat plate. The force was measured for plate-sphere separations from 0.1 to 0.9 microns. The experimental results are consistent with present theoretical calculations including the finite conductivity, roughness, and temperature corrections. The root mean square average deviation of 1.6 pN between theory and experiment corresponds to a 1% deviation at the smallest separation.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-05-29T22:55:34Z</published>
+    <arxiv:comment>Minor changes in text and figures; references added</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.81:4549-4552,1998</arxiv:journal_ref>
+    <author>
+      <name>U. Mohideen</name>
+    </author>
+    <author>
+      <name>Anushree Roy</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.81.4549</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.81.4549" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.7954v1</id>
+    <title>Precision Measurement of the Newtonian Gravitational Constant Using Cold Atoms</title>
+    <updated>2014-12-26T16:39:23Z</updated>
+    <link href="https://arxiv.org/abs/1412.7954v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.7954v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>About 300 experiments have tried to determine the value of the Newtonian gravitational constant, G, so far, but large discrepancies in the results have made it impossible to know its value precisely. The weakness of the gravitational interaction and the impossibility of shielding the effects of gravity make it very difficult to measure G while keeping systematic effects under control. Most previous experiments performed were based on the torsion pendulum or torsion balance scheme as in the experiment by Cavendish in 1798, and in all cases macroscopic masses were used. Here we report the precise determination of G using laser-cooled atoms and quantum interferometry. We obtain the value G=6.67191(99) x 10^(-11) m^3 kg^(-1) s^(-2) with a relative uncertainty of 150 parts per million (the combined standard uncertainty is given in parentheses). Our value differs by 1.5 combined standard deviations from the current recommended value of the Committee on Data for Science and Technology. A conceptually different experiment such as ours helps to identify the systematic errors that have proved elusive in previous experiments, thus improving the confidence in the value of G. There is no definitive relationship between G and the other fundamental constants, and there is no theoretical prediction for its value, against which to test experimental results. Improving the precision with which we know G has not only a pure metrological interest, but is also important because of the key role that G has in theories of gravitation, cosmology, particle physics and astrophysics and in geophysical models.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-26T16:39:23Z</published>
+    <arxiv:comment>3 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature, Vol 510, p. 518, 26 June 2014</arxiv:journal_ref>
+    <author>
+      <name>G. Rosi</name>
+    </author>
+    <author>
+      <name>F. Sorrentino</name>
+    </author>
+    <author>
+      <name>L. Cacciapuoti</name>
+    </author>
+    <author>
+      <name>M. Prevedelli</name>
+    </author>
+    <author>
+      <name>G. M. Tino</name>
+    </author>
+    <arxiv:doi>10.1038/nature13433</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature13433" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.03832v2</id>
+    <title>Phase shift in atom interferometry due to spacetime curvature</title>
+    <updated>2016-10-13T01:58:20Z</updated>
+    <link href="https://arxiv.org/abs/1610.03832v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.03832v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a single-source dual atom interferometer and utilize it as a gradiometer for precise gravitational measurements. The macroscopic separation between interfering atomic wave packets (as large as 16 cm) reveals the interplay of recoil effects and gravitational curvature from a nearby Pb source mass. The gradiometer baseline is set by the laser wavelength and pulse timings, which can be measured to high precision. Using a long drift time and large momentum transfer atom optics, the gradiometer reaches a resolution of $3 \times 10^{-9}$ s$^{-2}$ per shot and measures a 1 rad phase shift induced by the source mass.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-12T19:23:46Z</published>
+    <arxiv:comment>5 pages, 4 figures, Supplemental material</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 118, 183602 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Peter Asenbaum</name>
+    </author>
+    <author>
+      <name>Chris Overstreet</name>
+    </author>
+    <author>
+      <name>Tim Kovachy</name>
+    </author>
+    <author>
+      <name>Daniel D. Brown</name>
+    </author>
+    <author>
+      <name>Jason M. Hogan</name>
+    </author>
+    <author>
+      <name>Mark A. Kasevich</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.118.183602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.118.183602" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.08167v1</id>
+    <title>Quantum-assured magnetic navigation achieves positioning accuracy better than a strategic-grade INS in airborne and ground-based field trials</title>
+    <updated>2025-04-10T23:25:19Z</updated>
+    <link href="https://arxiv.org/abs/2504.08167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.08167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern navigation systems rely critically on GNSS, which in many cases is unavailable or unreliable (e.g. due to jamming or spoofing). For this reason there is great interest in augmenting backup navigation systems such as inertial navigation systems (INS) with additional modalities that reduce positioning error in the absence of reliable GNSS. Magnetic-anomaly navigation is one such approach, providing passive, non-jammable navigation through periodic position fixes obtained by comparing local measurements of Earth's crustal field against known anomaly maps. Despite its potential, existing MagNav efforts have been limited by magnetometer performance and platform noise; solutions addressing these problems have proven either too brittle or impractical for realistic deployment. Here we demonstrate a quantum-assured MagNav solution based on proprietary quantum magnetometers with by a novel denoising and map-matching algorithms. The system fits on fixed-wing drones or in the avionics bay of a commercial airliner. We present trials at altitudes up to 19000 feet, testing onboard and outboard quantum magnetometers comparing against a strategic-grade INS. Our MagNav solution achieves superior performance, delivering up to 46x better positioning error than the velocity-aided INS; the best final positioning accuracy we achieve is 22m or 0.006% of the flight distance. Airborne trials consistently achieve at least 11x advantage over the INS across varying conditions, altitudes, and flight patterns. The system learns model parameters online without special vehicle maneuvers providing robustness to various configuration changes (e.g. changing payload or latitude). Our trials also include the first successful MagNav performed in a ground vehicle using publicly-available anomaly maps, delivering bounded positioning error 7x lower than the INS, with both systems in strapdown configuration.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-10T23:25:19Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Murat Muradoglu</name>
+    </author>
+    <author>
+      <name>Mattias T. Johnsson</name>
+    </author>
+    <author>
+      <name>Nathanial M. Wilson</name>
+    </author>
+    <author>
+      <name>Yuval Cohen</name>
+    </author>
+    <author>
+      <name>Dongki Shin</name>
+    </author>
+    <author>
+      <name>Tomas Navickas</name>
+    </author>
+    <author>
+      <name>Tadas Pyragius</name>
+    </author>
+    <author>
+      <name>Divya Thomas</name>
+    </author>
+    <author>
+      <name>Daniel Thompson</name>
+    </author>
+    <author>
+      <name>Steven I. Moore</name>
+    </author>
+    <author>
+      <name>Md Tanvir Rahman</name>
+    </author>
+    <author>
+      <name>Adrian Walker</name>
+    </author>
+    <author>
+      <name>Indranil Dutta</name>
+    </author>
+    <author>
+      <name>Suraj Bijjahalli</name>
+    </author>
+    <author>
+      <name>Jacob Berlocher</name>
+    </author>
+    <author>
+      <name>Michael R. Hush</name>
+    </author>
+    <author>
+      <name>Russell P. Anderson</name>
+    </author>
+    <author>
+      <name>Stuart S. Szigeti</name>
+    </author>
+    <author>
+      <name>Michael J. Biercuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.15487v1</id>
+    <title>MICROSCOPE mission: final results of the test of the Equivalence Principle</title>
+    <updated>2022-09-30T14:21:20Z</updated>
+    <link href="https://arxiv.org/abs/2209.15487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.15487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The MICROSCOPE mission was designed to test the Weak Equivalence Principle (WEP), stating the equality between the inertial and the gravitational masses, with a precision of $10^{-15}$ in terms of the Eötvös ratio $η$. Its experimental test consisted of comparing the accelerations undergone by two collocated test masses of different compositions as they orbited the Earth, by measuring the electrostatic forces required to keep them in equilibrium. This was done with ultra-sensitive differential electrostatic accelerometers onboard a drag-free satellite. The mission lasted two and a half years, cumulating five-months-worth of science free-fall data, two thirds with a pair of test masses of different compositions -- Titanium and Platinum alloys -- and the last third with a reference pair of test masses of the same composition -- Platinum. We summarize the data analysis, with an emphasis on the characterization of the systematic uncertainties due to thermal instabilities and on the correction of short-lived events which could mimic a WEP violation signal. We found no violation of the WEP, with the Eötvös parameter of the Titanium and Platinum pair constrained to $η({\rm Ti, Pt})~=~ [-1.5 \pm 2.3~{\rm (stat)} \pm 1.5~{\rm (syst)}]~\times 10^{-15}$ at $1σ$ in statistical errors.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-30T14:21:20Z</published>
+    <arxiv:comment>Phys. Rev. Lett. 129, 121102</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 129, 121102 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Pierre Touboul</name>
+    </author>
+    <author>
+      <name>Gilles Métris</name>
+    </author>
+    <author>
+      <name>Manuel Rodrigues</name>
+    </author>
+    <author>
+      <name>Joel Bergé</name>
+    </author>
+    <author>
+      <name>Alain Robert</name>
+    </author>
+    <author>
+      <name>Quentin Baghi</name>
+    </author>
+    <author>
+      <name>Yves André</name>
+    </author>
+    <author>
+      <name>Judicaël Bedouet</name>
+    </author>
+    <author>
+      <name>Damien Boulanger</name>
+    </author>
+    <author>
+      <name>Stefanie Bremer</name>
+    </author>
+    <author>
+      <name>Patrice Carle</name>
+    </author>
+    <author>
+      <name>Ratana Chhun</name>
+    </author>
+    <author>
+      <name>Bruno Christophe</name>
+    </author>
+    <author>
+      <name>Valerio Cipolla</name>
+    </author>
+    <author>
+      <name>Thibault Damour</name>
+    </author>
+    <author>
+      <name>Pascale Danto</name>
+    </author>
+    <author>
+      <name>Louis Demange</name>
+    </author>
+    <author>
+      <name>Hansjoerg Dittus</name>
+    </author>
+    <author>
+      <name>Océane Dhuicque</name>
+    </author>
+    <author>
+      <name>Pierre Fayet</name>
+    </author>
+    <author>
+      <name>Bernard Foulon</name>
+    </author>
+    <author>
+      <name>Pierre-Yves Guidotti</name>
+    </author>
+    <author>
+      <name>Daniel Hagedorn</name>
+    </author>
+    <author>
+      <name>Emilie Hardy</name>
+    </author>
+    <author>
+      <name>Phuong-Anh Huynh</name>
+    </author>
+    <author>
+      <name>Patrick Kayser</name>
+    </author>
+    <author>
+      <name>Stéphanie Lala</name>
+    </author>
+    <author>
+      <name>Claus Lämmerzahl</name>
+    </author>
+    <author>
+      <name>Vincent Lebat</name>
+    </author>
+    <author>
+      <name>Françoise Liorzou</name>
+    </author>
+    <author>
+      <name>Meike List</name>
+    </author>
+    <author>
+      <name>Frank Löffler</name>
+    </author>
+    <author>
+      <name>Isabelle Panet</name>
+    </author>
+    <author>
+      <name>Martin Pernot-Borràs</name>
+    </author>
+    <author>
+      <name>Laurent Perraud</name>
+    </author>
+    <author>
+      <name>Sandrine Pires</name>
+    </author>
+    <author>
+      <name>Benjamin Pouilloux</name>
+    </author>
+    <author>
+      <name>Pascal Prieur</name>
+    </author>
+    <author>
+      <name>Alexandre Rebray</name>
+    </author>
+    <author>
+      <name>Serge Reynaud</name>
+    </author>
+    <author>
+      <name>Benny Rievers</name>
+    </author>
+    <author>
+      <name>Hanns Selig</name>
+    </author>
+    <author>
+      <name>Laura Serron</name>
+    </author>
+    <author>
+      <name>Timothy Sumner</name>
+    </author>
+    <author>
+      <name>Nicolas Tanguy</name>
+    </author>
+    <author>
+      <name>Patrizia Torresi</name>
+    </author>
+    <author>
+      <name>Pieter Visser</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.129.121102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.129.121102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.09084v4</id>
+    <title>Gravity surveys using a mobile atom interferometer</title>
+    <updated>2019-07-29T21:38:03Z</updated>
+    <link href="https://arxiv.org/abs/1904.09084v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.09084v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mobile gravimetry is important in metrology, navigation, geodesy, and geophysics. Atomic gravimeters could be among the most accurate mobile gravimeters, but are currently constrained by being complex and fragile. Here, we demonstrate a mobile atomic gravimeter, measuring tidal gravity variations in the laboratory as well as surveying gravity in the field. The tidal gravity measurements achieve a sensitivity of 37 $μ$Gal/$\sqrt{\rm Hz}$ and a long-term stability of better than 2 $μ$Gal, revealing ocean tidal loading effects and recording several distant earthquakes. We survey gravity in the Berkeley Hills with an accuracy of around 0.04 mGal and determine the density of the subsurface rocks from the vertical gravity gradient. With simplicity and sensitivity, our instrument paves the way for bringing atomic gravimeters to field applications.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-19T05:31:03Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>2019</arxiv:journal_ref>
+    <author>
+      <name>Xuejian Wu</name>
+    </author>
+    <author>
+      <name>Zachary Pagel</name>
+    </author>
+    <author>
+      <name>Bola S. Malek</name>
+    </author>
+    <author>
+      <name>Timothy H. Nguyen</name>
+    </author>
+    <author>
+      <name>Fei Zi</name>
+    </author>
+    <author>
+      <name>Daniel S. Scheirer</name>
+    </author>
+    <author>
+      <name>Holger Müller</name>
+    </author>
+    <arxiv:doi>10.1126/sciadv.aax0800</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/sciadv.aax0800" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0703290v1</id>
+    <title>Tests of new physics from precise measurements of the Casimir pressure between two gold-coated plates</title>
+    <updated>2007-03-27T20:34:44Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0703290v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0703290v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A micromechanical torsion oscillator has been used to strengthen the limits on new Yukawa forces by determining the Casimir pressure between two gold-coated plates. By significantly reducing the random errors and obtaining the electronic parameters of the gold coatings, we were able to conclusively exclude the predictions of large thermal effects below 1 $μ$m and strengthen the constraints on Yukawa corrections to Newtonian gravity in the interaction range from 29.5 nm to 86 nm.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-03-27T20:34:44Z</published>
+    <arxiv:comment>8 pages, 3 figures, to appear in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D75:077101,2007</arxiv:journal_ref>
+    <author>
+      <name>R. S. Decca</name>
+    </author>
+    <author>
+      <name>D. López</name>
+    </author>
+    <author>
+      <name>E. Fischbach</name>
+    </author>
+    <author>
+      <name>G. L. Klimchitskaya</name>
+    </author>
+    <author>
+      <name>D. E. Krause</name>
+    </author>
+    <author>
+      <name>V. M. Mostepanenko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.75.077101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.75.077101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.14141v1</id>
+    <title>Roadmap towards the redefinition of the second</title>
+    <updated>2023-07-26T12:12:31Z</updated>
+    <link href="https://arxiv.org/abs/2307.14141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.14141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper outlines the roadmap towards the redefinition of the second, which was recently updated by the CCTF Task Force created by the CCTF in 2020. The main achievements and the open challenges related to the status of the optical frequency standards, their contribution to time scales and UTC, the possibility of their comparison and the knowledge of the Earth's gravitational potential at the necessary level of uncertainty are discussed. In addition, the mandatory criteria to be achieved before redefinition and their current fulfilment level, together with the redefinition options based on a single or on a set of transitions are described.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-26T12:12:31Z</published>
+    <arxiv:comment>26 pages. This paper is based on the work of a CCTF Task Force on the roadmap to the redefinition of the second</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Metrologia 61 012001 (2024)</arxiv:journal_ref>
+    <author>
+      <name>N. Dimarcq</name>
+    </author>
+    <author>
+      <name>M. Gertsvolf</name>
+    </author>
+    <author>
+      <name>G. Mileti</name>
+    </author>
+    <author>
+      <name>S. Bize</name>
+    </author>
+    <author>
+      <name>C. W. Oates</name>
+    </author>
+    <author>
+      <name>E. Peik</name>
+    </author>
+    <author>
+      <name>D. Calonico</name>
+    </author>
+    <author>
+      <name>T. Ido</name>
+    </author>
+    <author>
+      <name>P. Tavella</name>
+    </author>
+    <author>
+      <name>F. Meynadier</name>
+    </author>
+    <author>
+      <name>G. Petit</name>
+    </author>
+    <author>
+      <name>G. Panfilo</name>
+    </author>
+    <author>
+      <name>J. Bartholomew</name>
+    </author>
+    <author>
+      <name>P. Defraigne</name>
+    </author>
+    <author>
+      <name>E. A. Donley</name>
+    </author>
+    <author>
+      <name>P. O. Hedekvist</name>
+    </author>
+    <author>
+      <name>I. Sesia</name>
+    </author>
+    <author>
+      <name>M. Wouters</name>
+    </author>
+    <author>
+      <name>P. Dube</name>
+    </author>
+    <author>
+      <name>F. Fang</name>
+    </author>
+    <author>
+      <name>F. Levi</name>
+    </author>
+    <author>
+      <name>J. Lodewyck</name>
+    </author>
+    <author>
+      <name>H. S. Margolis</name>
+    </author>
+    <author>
+      <name>D. Newell</name>
+    </author>
+    <author>
+      <name>S. Slyusarev</name>
+    </author>
+    <author>
+      <name>S. Weyers</name>
+    </author>
+    <author>
+      <name>J. -P. Uzan</name>
+    </author>
+    <author>
+      <name>M. Yasuda</name>
+    </author>
+    <author>
+      <name>D. -H. Yu</name>
+    </author>
+    <author>
+      <name>C. Rieck</name>
+    </author>
+    <author>
+      <name>H. Schnatz</name>
+    </author>
+    <author>
+      <name>Y. Hanado</name>
+    </author>
+    <author>
+      <name>M. Fujieda</name>
+    </author>
+    <author>
+      <name>P. -E. Pottie</name>
+    </author>
+    <author>
+      <name>J. Hanssen</name>
+    </author>
+    <author>
+      <name>A. Malimon</name>
+    </author>
+    <author>
+      <name>N. Ashby</name>
+    </author>
+    <arxiv:doi>10.1088/1681-7575/ad17d2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1681-7575/ad17d2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01753v1</id>
+    <title>$^{229}\mathrm{ThF}_4$ thin films for solid-state nuclear clocks</title>
+    <updated>2024-10-02T17:03:06Z</updated>
+    <link href="https://arxiv.org/abs/2410.01753v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01753v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After nearly fifty years of searching, the vacuum ultraviolet $^{229}$Th nuclear isomeric transition has recently been directly laser excited [1,2] and measured with high spectroscopic precision [3]. Nuclear clocks based on this transition are expected to be more robust [4,5] than and may outperform [6,7] current optical atomic clocks. They also promise sensitive tests for new physics beyond the standard model [5,8,9]. In light of these important advances and applications, a dramatic increase in the need for $^{229}$Th spectroscopy targets in a variety of platforms is anticipated. However, the growth and handling of high-concentration $^{229}$Th-doped crystals [5] used in previous measurements [1-3,10] are challenging due to the scarcity and radioactivity of the $^{229}$Th material. Here, we demonstrate a potentially scalable solution to these problems by demonstrating laser excitation of the nuclear transition in $^{229}$ThF$_4$ thin films grown with a physical vapor deposition process, consuming only micrograms of $^{229}$Th material. The $^{229}$ThF$_4$ thin films are intrinsically compatible with photonics platforms and nanofabrication tools for integration with laser sources and detectors, paving the way for an integrated and field-deployable solid-state nuclear clock with radioactivity up to three orders of magnitude smaller than typical \thor-doped crystals [1-3,10]. The high nuclear emitter density in $^{229}$ThF$_4$ also potentially enables quantum optics studies in a new regime. Finally, we describe the operation and present the estimation of the performance of a nuclear clock based on a defect-free ThF$_4$ crystal.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-02T17:03:06Z</published>
+    <arxiv:comment>15 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature 636, 603-608 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Chuankun Zhang</name>
+    </author>
+    <author>
+      <name>Lars von der Wense</name>
+    </author>
+    <author>
+      <name>Jack F. Doyle</name>
+    </author>
+    <author>
+      <name>Jacob S. Higgins</name>
+    </author>
+    <author>
+      <name>Tian Ooi</name>
+    </author>
+    <author>
+      <name>Hans U. Friebel</name>
+    </author>
+    <author>
+      <name>Jun Ye</name>
+    </author>
+    <author>
+      <name>R. Elwell</name>
+    </author>
+    <author>
+      <name>J. E. S. Terhune</name>
+    </author>
+    <author>
+      <name>H. W. T. Morgan</name>
+    </author>
+    <author>
+      <name>A. N. Alexandrova</name>
+    </author>
+    <author>
+      <name>H. B. Tran Tan</name>
+    </author>
+    <author>
+      <name>Andrei Derevianko</name>
+    </author>
+    <author>
+      <name>Eric R. Hudson</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-024-08256-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-024-08256-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.18719v2</id>
+    <title>Frequency ratio of the $^{229\mathrm{m}}$Th nuclear isomeric transition and the $^{87}$Sr atomic clock</title>
+    <updated>2024-09-07T16:19:05Z</updated>
+    <link href="https://arxiv.org/abs/2406.18719v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.18719v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical atomic clocks$^{1,2}$ use electronic energy levels to precisely keep track of time. A clock based on nuclear energy levels promises a next-generation platform for precision metrology and fundamental physics studies. Thorium-229 nuclei exhibit a uniquely low energy nuclear transition within reach of state-of-the-art vacuum ultraviolet (VUV) laser light sources and have therefore been proposed for construction of the first nuclear clock$^{3,4}$. However, quantum state-resolved spectroscopy of the $^{229m}$Th isomer to determine the underlying nuclear structure and establish a direct frequency connection with existing atomic clocks has yet to be performed. Here, we use a VUV frequency comb to directly excite the narrow $^{229}$Th nuclear clock transition in a solid-state CaF$_2$ host material and determine the absolute transition frequency. We stabilize the fundamental frequency comb to the JILA $^{87}$Sr clock$^2$ and coherently upconvert the fundamental to its 7th harmonic in the VUV range using a femtosecond enhancement cavity. This VUV comb establishes a frequency link between nuclear and electronic energy levels and allows us to directly measure the frequency ratio of the $^{229}$Th nuclear clock transition and the $^{87}$Sr atomic clock. We also precisely measure the nuclear quadrupole splittings and extract intrinsic properties of the isomer. These results mark the start of nuclear-based solid-state optical clock and demonstrate the first comparison of nuclear and atomic clocks for fundamental physics studies. This work represents a confluence of precision metrology, ultrafast strong field physics, nuclear physics, and fundamental physics.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-26T19:38:45Z</published>
+    <arxiv:comment>22 pages, 5 figures, 1 extended data figure</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature 633, 63-70 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Chuankun Zhang</name>
+    </author>
+    <author>
+      <name>Tian Ooi</name>
+    </author>
+    <author>
+      <name>Jacob S. Higgins</name>
+    </author>
+    <author>
+      <name>Jack F. Doyle</name>
+    </author>
+    <author>
+      <name>Lars von der Wense</name>
+    </author>
+    <author>
+      <name>Kjeld Beeks</name>
+    </author>
+    <author>
+      <name>Adrian Leitner</name>
+    </author>
+    <author>
+      <name>Georgy Kazakov</name>
+    </author>
+    <author>
+      <name>Peng Li</name>
+    </author>
+    <author>
+      <name>Peter G. Thirolf</name>
+    </author>
+    <author>
+      <name>Thorsten Schumm</name>
+    </author>
+    <author>
+      <name>Jun Ye</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-024-07839-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-024-07839-6" title="doi"/>
+  </entry>
+</feed>

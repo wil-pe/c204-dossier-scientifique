@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 794" width="1240" height="794" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="1240" height="794" fill="#fcfcfb"/>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0b0b0b">Correspondance : élément de la C204 décrite → composant réel du palier R1</text>
+<text x="24" y="60" font-size="13" fill="#52514e">À gauche, la fonction revendiquée et son verdict physique (rouge : contredit ; rose : spéculatif ; vert : démontré). À droite, ce qui la remplace.</text>
+<text x="24" y="78" font-size="13" fill="#52514e">Détail chiffré : correspondance_composants.csv.</text>
+<rect x="40" y="100" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="100" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="120" font-size="13" font-weight="700" fill="#0b0b0b">Singularité principale (r.1)</text>
+<rect x="640" y="100" width="560" height="36" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="640" y="100" width="7" height="36" rx="3" fill="#e87ba4"/>
+<text x="656" y="120" font-size="13" font-weight="700" fill="#0b0b0b">Télescope à muons cosmiques</text>
+<path d="M460.0,118.0 L640.0,118.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="146" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="146" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="166" font-size="13" font-weight="700" fill="#0b0b0b">Singularité de direction (r.2)</text>
+<rect x="640" y="146" width="560" height="36" rx="7" fill="#ffffff" stroke="#008300" stroke-width="2.2"/>
+<rect x="640" y="146" width="7" height="36" rx="3" fill="#008300"/>
+<text x="656" y="166" font-size="13" font-weight="700" fill="#0b0b0b">Gyromètre Sagnac à fibre</text>
+<path d="M460.0,164.0 L640.0,164.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="192" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="192" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="212" font-size="13" font-weight="700" fill="#0b0b0b">Logements et bobines magnétiques</text>
+<rect x="640" y="192" width="560" height="36" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="640" y="192" width="7" height="36" rx="3" fill="#2a78d6"/>
+<text x="656" y="212" font-size="13" font-weight="700" fill="#0b0b0b">Carters, bobine de fibre, blindage des horloges</text>
+<path d="M460.0,210.0 L640.0,210.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="238" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="238" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="258" font-size="13" font-weight="700" fill="#0b0b0b">Injection d&#x27;électrons (r.4-5-6)</text>
+<rect x="640" y="238" width="560" height="36" rx="7" fill="#ffffff" stroke="#eb6834" stroke-width="2.2"/>
+<rect x="640" y="238" width="7" height="36" rx="3" fill="#eb6834"/>
+<text x="656" y="258" font-size="13" font-weight="700" fill="#0b0b0b">Distribution électrique ≤ 24 V</text>
+<path d="M460.0,256.0 L640.0,256.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="284" width="420" height="36" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="40" y="284" width="7" height="36" rx="3" fill="#e87ba4"/>
+<text x="56" y="304" font-size="13" font-weight="700" fill="#0b0b0b">Capteur de singularité (r.7)</text>
+<rect x="640" y="284" width="560" height="36" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="640" y="284" width="7" height="36" rx="3" fill="#e87ba4"/>
+<text x="656" y="304" font-size="13" font-weight="700" fill="#0b0b0b">Photodétecteurs des deux démonstrateurs</text>
+<path d="M460.0,302.0 L640.0,302.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="330" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="330" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="350" font-size="13" font-weight="700" fill="#0b0b0b">Refroidissement (r.8-9-10)</text>
+<rect x="640" y="330" width="560" height="36" rx="7" fill="#ffffff" stroke="#6250d6" stroke-width="2.2"/>
+<rect x="640" y="330" width="7" height="36" rx="3" fill="#6250d6"/>
+<text x="656" y="350" font-size="13" font-weight="700" fill="#0b0b0b">Boucle thermique : pompe, 2 réservoirs</text>
+<path d="M460.0,348.0 L640.0,348.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="376" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="376" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="396" font-size="13" font-weight="700" fill="#0b0b0b">« Évent à rayons X »</text>
+<rect x="640" y="376" width="560" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="640" y="376" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="656" y="396" font-size="13" font-weight="700" fill="#0b0b0b">Cône d&#x27;acceptance + dosimètre du fond naturel</text>
+<path d="M460.0,394.0 L640.0,394.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="422" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="422" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="442" font-size="13" font-weight="700" fill="#0b0b0b">Capteurs de gravité VGL (r.11)</text>
+<rect x="640" y="422" width="560" height="36" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2"/>
+<rect x="640" y="422" width="7" height="36" rx="3" fill="#eda100"/>
+<text x="656" y="442" font-size="13" font-weight="700" fill="#0b0b0b">Accéléromètres ; gravimètre amovible en option</text>
+<path d="M460.0,440.0 L640.0,440.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="468" width="420" height="36" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="40" y="468" width="7" height="36" rx="3" fill="#1baf7a"/>
+<text x="56" y="488" font-size="13" font-weight="700" fill="#0b0b0b">4 horloges au césium</text>
+<rect x="640" y="468" width="560" height="36" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="640" y="468" width="7" height="36" rx="3" fill="#2a78d6"/>
+<text x="656" y="488" font-size="13" font-weight="700" fill="#0b0b0b">4 horloges au césium miniatures (+ module externe)</text>
+<path d="M460.0,486.0 L640.0,486.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="514" width="420" height="36" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="40" y="514" width="7" height="36" rx="3" fill="#1baf7a"/>
+<text x="56" y="534" font-size="13" font-weight="700" fill="#0b0b0b">3 calculateurs à vote</text>
+<rect x="640" y="514" width="560" height="36" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="640" y="514" width="7" height="36" rx="3" fill="#1baf7a"/>
+<text x="656" y="534" font-size="13" font-weight="700" fill="#0b0b0b">3 calculateurs dissemblables + voteur médian</text>
+<path d="M460.0,532.0 L640.0,532.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="560" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="560" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="580" font-size="13" font-weight="700" fill="#0b0b0b">Batterie (r.12)</text>
+<rect x="640" y="560" width="560" height="36" rx="7" fill="#ffffff" stroke="#eb6834" stroke-width="2.2"/>
+<rect x="640" y="560" width="7" height="36" rx="3" fill="#eb6834"/>
+<text x="656" y="580" font-size="13" font-weight="700" fill="#0b0b0b">Batterie LiFePO4 1,34 kWh</text>
+<path d="M460.0,578.0 L640.0,578.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="606" width="420" height="36" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="40" y="606" width="7" height="36" rx="3" fill="#1baf7a"/>
+<text x="56" y="626" font-size="13" font-weight="700" fill="#0b0b0b">Télécommande (r.3)</text>
+<rect x="640" y="606" width="560" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="640" y="606" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="656" y="626" font-size="13" font-weight="700" fill="#0b0b0b">Télécommande filaire à bus CAN</text>
+<path d="M460.0,624.0 L640.0,624.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="652" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="652" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="672" font-size="13" font-weight="700" fill="#0b0b0b">Arrêt d&#x27;urgence (r.5)</text>
+<rect x="640" y="652" width="560" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="640" y="652" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="656" y="672" font-size="13" font-weight="700" fill="#0b0b0b">Relais de sécurité : état sûr réel</text>
+<path d="M460.0,670.0 L640.0,670.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<rect x="40" y="698" width="420" height="36" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="40" y="698" width="7" height="36" rx="3" fill="#e34948"/>
+<text x="56" y="718" font-size="13" font-weight="700" fill="#0b0b0b">Coffre de 227 kg</text>
+<rect x="640" y="698" width="560" height="36" rx="7" fill="#ffffff" stroke="#6b7280" stroke-width="2.2"/>
+<rect x="640" y="698" width="7" height="36" rx="3" fill="#6b7280"/>
+<text x="656" y="718" font-size="13" font-weight="700" fill="#0b0b0b">Coffre de 36 kg (206 kg avec module césium)</text>
+<path d="M460.0,716.0 L640.0,716.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+</svg>

@@ -1,0 +1,71 @@
+EXP-07 — PIÈGE DE PAUL, SELLE TOURNANTE, LÉVITATION DIAMAGNÉTIQUE
+========================================================================
+1. Équation de Mathieu  x'' + 2b·x' + (a - 2q·cos 2ξ)·x = 0, ξ = Ωt/2
+   limite de stabilité à a = 0, sans amortissement : q_max = 0.9080 (valeur tabulée : 0,908)
+   avec amortissement b = 0.2 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 0.985
+   avec amortissement b = 0.5 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 1.341
+   avec amortissement b = 1.0 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 2.367
+   avec amortissement b = 2.0 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 6.056
+   avec amortissement b = 2.3 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 8.007
+   → dans l'air, le frottement élargit fortement la zone stable : c'est ce qui rend la démonstration facile.
+
+2. Piège annulaire à 50 Hz pour grains chargés (ordres de grandeur pour un TP encadré)
+   anneau r0 = 5 mm, amplitude V = 2000 V, Ω = 2π·50 Hz
+   grain : rayon 15 µm, masse 7,07e-12 kg ; temps de relaxation de Stokes τ = 1.39 ms → b = 1/(Ωτ) = 2.29
+   Dans l'air, la force pondéromotrice moyenne est réduite du facteur 1/(1+b²) (micromouvement amorti et déphasé) :
+   ici 1/(1+b²) = 0.16 ; l'affaissement sous le poids vaut alors g·(1+b²)/ω_sec² (approximation q ≲ 0,4).
+     Q/m (C/kg) |  charges e |    q_z | stable (vide) | stable (air) | affaissement vide | affaissement air | E pour compenser g
+          2e-05 |        882 |  0.065 |           oui |          oui |          189.0 mm |        1182.0 mm |     4.90e+05 V/m
+          5e-05 |       2206 |  0.162 |           oui |          oui |           30.2 mm |         189.1 mm |     1.96e+05 V/m
+          1e-04 |       4412 |  0.324 |           oui |          oui |            7.6 mm |          47.3 mm |     9.81e+04 V/m
+          2e-04 |       8824 |  0.648 |           oui |          oui |            1.9 mm |          11.8 mm |     4.90e+04 V/m
+          5e-04 |      22059 |  1.621 |           non |          oui |                 — |   (hors approx.) |     1.96e+04 V/m
+          1e-03 |      44119 |  3.242 |           non |          oui |                 — |   (hors approx.) |     9.81e+03 V/m
+          3e-03 |     132356 |  9.727 |           non |          non |                 — |   (hors approx.) |     3.27e+03 V/m
+   L'affaissement dépasse vite r0 = 5 mm : en pratique on compense le poids par un champ continu vertical
+   E = g/(Q/m) (10⁴–10⁵ V/m, soit quelques centaines de volts sur 1 cm) ou l'on travaille à q plus élevé,
+   ce que l'amortissement de l'air autorise (zone stable élargie).
+
+3. Sécurité haute tension — dimensionnement À COURANT LIMITÉ (prescriptions, pas un plan de montage)
+   tension crête visée ≤ 3000 V ; courant de court-circuit admis ≤ 0.5 mA (seuil de perception en alternatif)
+   → résistance série totale ≥ V/I = 6 MΩ, répartie sur ≥ 2 résistances haute tension en série (tolérance à une panne)
+   capacité des électrodes ~10 pF : charge stockée 30 nC, énergie 45 µJ
+   repères de sécurité usuels (famille CEI 61010, à vérifier dans l'édition en vigueur) : parties accessibles
+   limitées à ~0,5 mA efficace en régime normal, charge < 45 µC, énergie stockée < 350 mJ.
+   → marges : charge ×1500, énergie ×7778 sous les repères.
+   INTERDIT hors laboratoire : transformateur d'enseigne au néon, four à micro-ondes, bobine d'allumage ou
+   toute source capable de débiter > 1 mA sous haute tension. Niveau N1 : PAS de haute tension — utiliser
+   la selle tournante et la lévitation diamagnétique ; le piège électrique relève d'un TP encadré (N2) avec
+   alimentation de TP certifiée à courant limité, capot isolant et interverrouillage.
+
+3bis. Selle tournante (analogue mécanique, sans haute tension) — point matériel sur z = (x² - y²)/(2R_c)
+   rayon de courbure R_c = 30 cm → ω0 = √(g/R_c) = 5.72 rad/s
+   repère tournant : λ² = -Ω² ± ω0² → l'origine est stable si Ω > ω0, soit > 55 tr/min
+   (paramètre équivalent q = ω0²/(2Ω²) < 1/2 ; pour une bille qui ROULE, le seuil est modifié par le moment
+    d'inertie et le frottement finit par l'éjecter lentement : Thompson, Harmon & Ball 2002 ; à mesurer.)
+
+4. Lévitation diamagnétique : condition  B·dB/dz = µ0·ρ·g/|χ|
+   graphite pyrolytique (χ⊥ ≈ -4,5e-4)      B·dB/dz ≥      60 T²/m
+   bismuth (χ ≈ -1,66e-4)                   B·dB/dz ≥     726 T²/m
+   eau / tissus vivants (χ ≈ -9,05e-6)      B·dB/dz ≥    1362 T²/m
+   aimants NdFeB en damier, près de la surface : B ≈ 0,4 T et dB/dz ≈ 150–300 T/m → 60–120 T²/m :
+   suffisant pour le graphite pyrolytique (N1, ~20 €), pas pour l'eau (≈ 1400 T²/m : aimant de Bitter de ~16 T,
+   expérience de la grenouille, Berry & Geim 1997).
+   Théorème d'Earnshaw : pas d'équilibre stable statique pour des charges ou des aimants permanents seuls ;
+   les trois échappatoires réelles sont le champ oscillant (Paul), le diamagnétisme et la rétroaction.
+
+5. Lien C204 : que demanderait le confinement d'un trou noir chargé ? (affirmation NON tenue pour vraie)
+   trou noir de 4.4e+12 kg (valeur retenue ; ancienne valeur 1e12 kg → 86 C), charge extrémale Q_max = M·√(4πε0G) = 379 C → Q/m = 8,62e-11 C/kg (indépendant de M)
+   (électron : 1.76e+11 C/kg ; grain de poussière piégé : ~1e-4 C/kg → 1e+06 fois plus « léger par charge »)
+   champ électrique pour porter son poids (Mg = 4.3e+13 N) : E = g/(Q/m) = 1,14e11 V/m
+   (rigidité diélectrique de l'air 3e6 V/m ; émission de champ des métaux ~1e9–1e10 V/m)
+   piège de Paul à 50 Hz, r0 = 10 cm, q = 0,4 : V = q·r0²·Ω²/(4·Q/m) = 1,15e12 V
+   force magnétique Q·v·B : nulle au repos ; même à v = 1 m/s il faudrait B = Mg/(Qv) = 1,14e11 T
+   Charge réellement tenable par un micro-trou noir (erratum E14 : ≈ 6 e en valeur quadratique moyenne ; borne ≈ 137 e) :
+         6 e, M = 3.9e+12 kg : Q/m = 2,46e-31 C/kg ; champ de sustentation 3,98e31 V/m
+         6 e, M = 5.1e+12 kg : Q/m = 1,88e-31 C/kg ; champ de sustentation 5,20e31 V/m
+       137 e, M = 3.9e+12 kg : Q/m = 5,63e-30 C/kg ; champ de sustentation 1,74e30 V/m
+       137 e, M = 5.1e+12 kg : Q/m = 4,30e-30 C/kg ; champ de sustentation 2,28e30 V/m
+   → le confinement électromagnétique est hors de portée de 5 à 12 ordres de grandeur dans le cas extrémal
+     (le plus favorable, lui-même intenable), et de plus de 20 ordres de grandeur avec la charge tenable ;
+     piéger une poussière de 1e-11 kg ne démontre rien sur le « logement magnétique d'une singularité ».

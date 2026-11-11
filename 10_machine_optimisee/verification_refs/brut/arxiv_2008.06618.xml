@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xx74gduNLWmoYTOLxUCX3SwvOYA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2008.06618&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T03:47:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2008.06618" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2008.06618v2</id>
+    <title>Humanly traversable wormholes</title>
+    <updated>2020-11-03T21:17:05Z</updated>
+    <link href="https://arxiv.org/abs/2008.06618v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.06618v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We point out that there can be humanly traversable wormhole solutions in some previously considered theories for physics beyond the Standard Model, namely the Randall-Sundrum model.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-15T01:13:38Z</published>
+    <arxiv:comment>15+3 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 103, 066007 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Juan Maldacena</name>
+    </author>
+    <author>
+      <name>Alexey Milekhin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.103.066007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.103.066007" title="doi"/>
+  </entry>
+</feed>

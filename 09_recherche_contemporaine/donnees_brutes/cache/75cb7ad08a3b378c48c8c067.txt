@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CxLl+gZ7jadbCXzIZbpnPfeqsl4</id>
+  <title>arXiv Query: search_query=&amp;id_list=gr-qc/0410078,gr-qc/0410035,gr-qc/0503077,gr-qc/0701024,0808.2669,0811.1209,0908.3023,1005.2219,1007.2615,1501.05014,1401.4933,1310.7985,1703.00779,1907.04178,2001.02511,2007.12677,2101.08592,2207.07666,gr-qc/0608043,0912.0195&amp;start=0&amp;max_results=40</title>
+  <updated>2026-11-11T02:49:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=40&amp;id_list=gr-qc/0410078,gr-qc/0410035,gr-qc/0503077,gr-qc/0701024,0808.2669,0811.1209,0908.3023,1005.2219,1007.2615,1501.05014,1401.4933,1310.7985,1703.00779,1907.04178,2001.02511,2007.12677,2101.08592,2207.07666,gr-qc/0608043,0912.0195" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>40</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1401.4933v3</id>
+    <title>Treating Time Travel Quantum Mechanically</title>
+    <updated>2014-10-10T14:12:24Z</updated>
+    <link href="https://arxiv.org/abs/1401.4933v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.4933v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fact that closed timelike curves (CTCs) are permitted by general relativity raises the question as to how quantum systems behave when time travel to the past occurs. Research into answering this question by utilising the quantum circuit formalism has given rise to two theories: Deutschian-CTCs (D-CTCs) and "postselected" CTCs (P-CTCs). In this paper the quantum circuit approach is thoroughly reviewed, and the strengths and shortcomings of D-CTCs and P-CTCs are presented in view of their non-linearity and time travel paradoxes. In particular, the "equivalent circuit model"---which aims to make equivalent predictions to D-CTCs, while avoiding some of the difficulties of the original theory---is shown to contain errors. The discussion of D-CTCs and P-CTCs is used to motivate an analysis of the features one might require of a theory of quantum time travel, following which two overlapping classes of new theories are identified. One such theory, the theory of "transition probability" CTCs (T-CTCs), is fully developed. The theory of T-CTCs is shown not to have certain undesirable features---such as time travel paradoxes, the ability to distinguish non-orthogonal states with certainty, and the ability to clone or delete arbitrary pure states---that are present with D-CTCs and P-CTCs. The problems with non-linear extensions to quantum mechanics are discussed in relation to the interpretation of these theories, and the physical motivations of all three theories are discussed and compared.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-20T15:17:52Z</published>
+    <arxiv:comment>20 pages, 4 figures. Edited in response to peer review</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 90(4) (2014) 042107</arxiv:journal_ref>
+    <author>
+      <name>John-Mark A. Allen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.90.042107</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.90.042107" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.08592v1</id>
+    <title>Closed Timelike Curves, Singularities and Causality: A Survey from Gödel to Chronological Protection</title>
+    <updated>2021-01-21T13:13:01Z</updated>
+    <link href="https://arxiv.org/abs/2101.08592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.08592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I give a historical survey of the discussions about the existence of closed timelike curves in general relativistic models of the universe, opening the physical possibility of time travel in the past, as first recognized by K. Gödel in his rotating universe model of 1949. I emphasize that journeying into the past is intimately linked to spacetime models devoid of timelike singularities. Since such singularities arise as an inevitable consequence of the equations of general relativity given physically reasonable assumptions, time travel in the past becomes possible only when one or another of these assumptions is violated. It is the case with wormhole-type solutions. S. Hawking and other authors have tried to "save" the paradoxical consequences of time travel in the past by advocating physical mechanisms of chronological protection; however, such mechanisms remain presently unknown, even when quantum fluctuations near horizons are taken into account. I close the survey by a brief and pedestrian discussion of Causal Dynamical Triangulations, an approach to quantum gravity in which causality plays a seminal role.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-21T13:13:01Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Universe (2021),7, 12</arxiv:journal_ref>
+    <author>
+      <name>Jean-Pierre Luminet</name>
+      <arxiv:affiliation>Laboratoire d'Astrophysique de Marseille</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3390/universe7010012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe7010012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.04178v3</id>
+    <title>Lectures on Faster-than-Light Travel and Time Travel</title>
+    <updated>2019-10-01T13:04:26Z</updated>
+    <link href="https://arxiv.org/abs/1907.04178v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.04178v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>These lecture notes were prepared for a 25-hour course for advanced undergraduate students participating in Perimeter Institute's Undergraduate Summer Program. The lectures cover some of what is currently known about the possibility of superluminal travel and time travel within the context of established science, that is, general relativity and quantum field theory. Previous knowledge of general relativity at the level of a standard undergraduate-level introductory course is recommended, but all the relevant material is included for completion and reference. No previous knowledge of quantum field theory, or anything else beyond the standard undergraduate curriculum, is required. Advanced topics in relativity, such as causal structures, the Raychaudhuri equation, and the energy conditions are presented in detail. Once the required background is covered, concepts related to faster-than-light travel and time travel are discussed. After introducing tachyons in special relativity as a warm-up, exotic spacetime geometries in general relativity such as warp drives and wormholes are discussed and analyzed, including their limitations. Time travel paradoxes are also discussed in detail, including some of their proposed resolutions.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-06T02:08:20Z</published>
+    <arxiv:comment>64 pages, 8 figures; updated figures; version published in SciPost Physics Lecture Notes</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>SciPost Phys. Lect. Notes 10 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Barak Shoshany</name>
+    </author>
+    <arxiv:doi>10.21468/SciPostPhysLectNotes.10</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21468/SciPostPhysLectNotes.10" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0811.1209v2</id>
+    <title>Localized closed timelike curves can perfectly distinguish quantum states</title>
+    <updated>2009-01-31T04:12:02Z</updated>
+    <link href="https://arxiv.org/abs/0811.1209v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.1209v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that qubits traveling along closed timelike curves are a resource that a party can exploit to distinguish perfectly any set of quantum states. As a result, an adversary with access to closed timelike curves can break any prepare-and-measure quantum key distribution protocol. Our result also implies that a party with access to closed timelike curves can violate the Holevo bound.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-07T19:51:34Z</published>
+    <arxiv:comment>4.1 pages, 2 figures; v2: revised title, abstract, introduction and conclusion, plus added references</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Physical Review Letters 102, 210402 (2009)</arxiv:journal_ref>
+    <author>
+      <name>Todd A. Brun</name>
+    </author>
+    <author>
+      <name>Jim Harrington</name>
+    </author>
+    <author>
+      <name>Mark M. Wilde</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.102.210402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.102.210402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0908.3023v2</id>
+    <title>Can closed timelike curves or nonlinear quantum mechanics improve quantum state discrimination or help solve hard problems?</title>
+    <updated>2009-10-15T17:30:13Z</updated>
+    <link href="https://arxiv.org/abs/0908.3023v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.3023v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the power of closed timelike curves (CTCs) and other nonlinear extensions of quantum mechanics for distinguishing nonorthogonal states and speeding up hard computations. If a CTC-assisted computer is presented with a labeled mixture of states to be distinguished--the most natural formulation--we show that the CTC is of no use. The apparent contradiction with recent claims that CTC-assisted computers can perfectly distinguish nonorthogonal states is resolved by noting that CTC-assisted evolution is nonlinear, so the output of such a computer on a mixture of inputs is not a convex combination of its output on the mixture's pure components. Similarly, it is not clear that CTC assistance or nonlinear evolution help solve hard problems if computation is defined as we recommend, as correctly evaluating a function on a labeled mixture of orthogonal inputs.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-20T21:33:06Z</published>
+    <arxiv:comment>4 pages, 3 figures. Final version. Added several references, updated discussion and introduction. Figure 1(b) very much enhanced</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.103:170502,2009</arxiv:journal_ref>
+    <author>
+      <name>Charles H. Bennett</name>
+    </author>
+    <author>
+      <name>Debbie Leung</name>
+    </author>
+    <author>
+      <name>Graeme Smith</name>
+    </author>
+    <author>
+      <name>John A. Smolin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.103.170502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.103.170502" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0410078v1</id>
+    <title>Can a circulating light beam produce a time machine?</title>
+    <updated>2004-10-17T21:55:12Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0410078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0410078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In a recent paper, Mallett found a solution of the Einstein equations in which closed timelike curves (CTC's) are present in the empty space outside an infinitely long cylinder of light moving in circular paths around an axis. Here we show that, for physically realistic energy densities, the CTC's occur at distances from the axis greater than the radius of the visible universe by an immense factor. We then show that Mallett's solution has a curvature singularity on the axis, even in the case where the intensity of the light vanishes. Thus it is not the solution one would get by starting with Minkowski space and establishing a cylinder of light.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-17T21:55:12Z</published>
+    <arxiv:comment>5 pages, RevTeX</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Found.Phys.Lett. 18 (2005) 379-385</arxiv:journal_ref>
+    <author>
+      <name>Ken D. Olum</name>
+    </author>
+    <author>
+      <name>Allen Everett</name>
+    </author>
+    <arxiv:doi>10.1007/s10702-005-7127-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10702-005-7127-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.7985v2</id>
+    <title>Traversable Achronal Retrograde Domains In Spacetime</title>
+    <updated>2013-11-04T21:29:35Z</updated>
+    <link href="https://arxiv.org/abs/1310.7985v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.7985v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There are many spacetime geometries in general relativity which contain closed timelike curves. A layperson might say that retrograde time travel is possible in such spacetimes. To date no one has discovered a spacetime geometry which emulates what a layperson would describe as a time machine.
+  The purpose of this paper is to propose such a space-time geometry. In our geometry, a bubble of curvature travels along a closed trajectory. The inside of the bubble is Rindler spacetime, and the exterior is Minkowski spacetime. Accelerating observers inside of the bubble travel along closed timelike curves. The walls of the bubble are generated with matter which violates the classical energy conditions. We refer to such a bubble as a Traversable Achronal Retrograde Domain In Spacetime.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-29T23:50:29Z</published>
+    <arxiv:comment>8 pages, If the contents of this are too technical for you visit arXiv:1310.7983</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Benjamin K. Tippett</name>
+    </author>
+    <author>
+      <name>David Tsang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0701024v3</id>
+    <title>Formation of closed timelike curves in a composite vacuum/dust asymptotically-flat spacetime</title>
+    <updated>2007-06-07T11:16:16Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0701024v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0701024v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a new asymptotically-flat time-machine model made solely of vacuum and dust. The spacetime evolves from a regular spacelike initial hypersurface S and subsequently develops closed timelike curves. The initial hypersurface S is asymptotically flat and topologically trivial. The chronology violation occurs in a compact manner; namely the first closed causal curves form at the boundary of the future domain of dependence of a compact region in S (the core). This central core is empty, and so is the external asymptotically flat region. The intermediate region surrounding the core (the envelope) is made of dust with positive energy density. This model trivially satisfies the weak, dominant, and strong energy conditions. Furthermore it is governed by a well-defined system of field equations which possesses a well-posed initial-value problem.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-01-03T11:26:24Z</published>
+    <arxiv:comment>15 pages; accepted to Phys. Rev. D (no modifications)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D76:044002,2007</arxiv:journal_ref>
+    <author>
+      <name>Amos Ori</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.76.044002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.76.044002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.07666v2</id>
+    <title>Nonclassical advantage in metrology established via quantum simulations of hypothetical closed timelike curves</title>
+    <updated>2023-11-03T20:20:20Z</updated>
+    <link href="https://arxiv.org/abs/2207.07666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.07666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a metrology experiment in which the metrologist can sometimes amend her input state by simulating a closed timelike curve, a worldline that travels backward in time. The existence of closed timelike curves is hypothetical. Nevertheless, they can be simulated probabilistically by quantum-teleportation circuits. We leverage such simulations to pinpoint a counterintuitive nonclassical advantage achievable with entanglement. Our experiment echoes a common information-processing task: A metrologist must prepare probes to input into an unknown quantum interaction. The goal is to infer as much information per probe as possible. If the input is optimal, the information gained per probe can exceed any value achievable classically. The problem is that, only after the interaction does the metrologist learn which input would have been optimal. The metrologist can attempt to change her input by effectively teleporting the optimal input back in time, via entanglement manipulation. The effective time travel sometimes fails but ensures that, summed over trials, the metrologist's winnings are positive. Our Gedankenexperiment demonstrates that entanglement can generate operational advantages forbidden in classical chronology-respecting theories.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-15T18:00:02Z</published>
+    <arxiv:comment>5+5 pages. 2+2 figures. As published in PRL</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett., 131, 150202, (2023)</arxiv:journal_ref>
+    <author>
+      <name>David R. M. Arvidsson-Shukur</name>
+    </author>
+    <author>
+      <name>Aidan G. McConnell</name>
+    </author>
+    <author>
+      <name>Nicole Yunger Halpern</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.131.150202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.131.150202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.05014v1</id>
+    <title>Experimental Simulation of Closed Timelike Curves</title>
+    <updated>2015-01-20T23:12:55Z</updated>
+    <link href="https://arxiv.org/abs/1501.05014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.05014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Closed timelike curves are among the most controversial features of modern physics. As legitimate solutions to Einstein's field equations, they allow for time travel, which instinctively seems paradoxical. However, in the quantum regime these paradoxes can be resolved leaving closed timelike curves consistent with relativity. The study of these systems therefore provides valuable insight into non-linearities and the emergence of causal structures in quantum mechanics-essential for any formulation of a quantum theory of gravity. Here we experimentally simulate the non-linear behaviour of a qubit interacting unitarily with an older version of itself, addressing some of the fascinating effects that arise in systems traversing a closed timelike curve. These include perfect discrimination of non-orthogonal states and, most intriguingly, the ability to distinguish nominally equivalent ways of preparing pure quantum states. Finally, we examine the dependence of these effects on the initial qubit state, the form of the unitary interaction, and the influence of decoherence.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-20T23:12:55Z</published>
+    <arxiv:comment>9 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature Communications 5, 4145 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Martin Ringbauer</name>
+    </author>
+    <author>
+      <name>Matthew A. Broome</name>
+    </author>
+    <author>
+      <name>Casey R. Myers</name>
+    </author>
+    <author>
+      <name>Andrew G. White</name>
+    </author>
+    <author>
+      <name>Timothy C. Ralph</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms5145</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms5145" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.0195v4</id>
+    <title>Quantum computations without definite causal structure</title>
+    <updated>2013-10-27T11:57:15Z</updated>
+    <link href="https://arxiv.org/abs/0912.0195v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.0195v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that quantum theory allows for transformations of black boxes that cannot be realized by inserting the input black boxes within a circuit in a pre-defined causal order. The simplest example of such a transformation is the classical switch of black boxes, where two input black boxes are arranged in two different orders conditionally on the value of a classical bit. The quantum version of this transformation-the quantum switch-produces an output circuit where the order of the connections is controlled by a quantum bit, which becomes entangled with the circuit structure. Simulating these transformations in a circuit with fixed causal structure requires either postselection, or an extra query to the input black boxes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-01T16:19:13Z</published>
+    <arxiv:comment>Updated version with expanded presentation</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 88, 022318 (2013)</arxiv:journal_ref>
+    <author>
+      <name>G. Chiribella</name>
+    </author>
+    <author>
+      <name>G. M. D'Ariano</name>
+    </author>
+    <author>
+      <name>P. Perinotti</name>
+    </author>
+    <author>
+      <name>B. Valiron</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.88.022318</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.88.022318" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0503077v1</id>
+    <title>A new time-machine model with compact vacuum core</title>
+    <updated>2005-03-17T19:17:57Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0503077v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0503077v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a class of curved-spacetime vacuum solutions which develope closed timelike curves at some particular moment. We then use these vacuum solutions to construct a time-machine model. The causality violation occurs inside an empty torus, which constitutes the time-machine core. The matter field surrounding this empty torus satisfies the weak, dominant, and strong energy conditions. The model is regular, asymptotically-flat, and topologically-trivial. Stability remains the main open question.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-03-17T19:17:57Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Amos Ori</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.95.021101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.95.021101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.2615v2</id>
+    <title>The quantum mechanics of time travel through post-selected teleportation</title>
+    <updated>2010-07-19T15:18:03Z</updated>
+    <link href="https://arxiv.org/abs/1007.2615v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.2615v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper discusses the quantum mechanics of closed timelike curves (CTC) and of other potential methods for time travel. We analyze a specific proposal for such quantum time travel, the quantum description of CTCs based on post-selected teleportation (P-CTCs). We compare the theory of P-CTCs to previously proposed quantum theories of time travel: the theory is physically inequivalent to Deutsch's theory of CTCs, but it is consistent with path-integral approaches (which are the best suited for analyzing quantum field theory in curved spacetime). We derive the dynamical equations that a chronology-respecting system interacting with a CTC will experience. We discuss the possibility of time travel in the absence of general relativistic closed timelike curves, and investigate the implications of P-CTCs for enhancing the power of computation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-15T16:49:01Z</published>
+    <arxiv:comment>Few typos corrected in the text and bibliography updated</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 84, 025007 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Seth Lloyd</name>
+    </author>
+    <author>
+      <name>Lorenzo Maccone</name>
+    </author>
+    <author>
+      <name>Raul Garcia-Patron</name>
+    </author>
+    <author>
+      <name>Vittorio Giovannetti</name>
+    </author>
+    <author>
+      <name>Yutaka Shikano</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.84.025007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.84.025007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.2219v1</id>
+    <title>Closed timelike curves via post-selection: theory and experimental demonstration</title>
+    <updated>2010-05-12T22:27:31Z</updated>
+    <link href="https://arxiv.org/abs/1005.2219v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.2219v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Closed timelike curves (CTCs) are trajectories in spacetime that effectively travel backwards in time: a test particle following a CTC can in principle interact with its former self in the past. CTCs appear in many solutions of Einstein's field equations and any future quantum version of general relativity will have to reconcile them with the requirements of quantum mechanics and of quantum field theory.  A widely accepted quantum theory of CTCs was proposed by Deutsch.  Here we explore an alternative quantum formulation of CTCs and show that it is physically inequivalent to Deutsch's.  Because it is based on combining quantum teleportation with post-selection, the predictions/retrodictions of our theory are experimentally testable: we report the results of an experiment demonstrating our theory's resolution of the well-known `grandfather paradox.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-12T22:27:31Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.106:040403,2011</arxiv:journal_ref>
+    <author>
+      <name>Seth Lloyd</name>
+    </author>
+    <author>
+      <name>Lorenzo Maccone</name>
+    </author>
+    <author>
+      <name>Raul Garcia-Patron</name>
+    </author>
+    <author>
+      <name>Vittorio Giovannetti</name>
+    </author>
+    <author>
+      <name>Yutaka Shikano</name>
+    </author>
+    <author>
+      <name>Stefano Pirandola</name>
+    </author>
+    <author>
+      <name>Lee A. Rozema</name>
+    </author>
+    <author>
+      <name>Ardavan Darabi</name>
+    </author>
+    <author>
+      <name>Yasaman Soudagar</name>
+    </author>
+    <author>
+      <name>Lynden K. Shalm</name>
+    </author>
+    <author>
+      <name>Aephraim M. Steinberg</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.106.040403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.106.040403" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0808.2669v1</id>
+    <title>Closed Timelike Curves Make Quantum and Classical Computing Equivalent</title>
+    <updated>2008-08-19T23:04:28Z</updated>
+    <link href="https://arxiv.org/abs/0808.2669v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0808.2669v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  While closed timelike curves (CTCs) are not known to exist, studying their consequences has led to nontrivial insights in general relativity, quantum information, and other areas. In this paper we show that if CTCs existed, then quantum computers would be no more powerful than classical computers: both would have the (extremely large) power of the complexity class PSPACE, consisting of all problems solvable by a conventional computer using a polynomial amount of memory. This solves an open problem proposed by one of us in 2005, and gives an essentially complete understanding of computational complexity in the presence of CTCs. Following the work of Deutsch, we treat a CTC as simply a region of spacetime where a "causal consistency" condition is imposed, meaning that Nature has to produce a (probabilistic or quantum) fixed-point of some evolution operator. Our conclusion is then a consequence of the following theorem: given any quantum circuit (not necessarily unitary), a fixed-point of the circuit can be (implicitly) computed in polynomial space. This theorem might have independent applications in quantum information.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-08-19T23:04:28Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Scott Aaronson</name>
+    </author>
+    <author>
+      <name>John Watrous</name>
+    </author>
+    <arxiv:doi>10.1098/rspa.2008.0350</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1098/rspa.2008.0350" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.12677v3</id>
+    <title>Time-travelling billiard-ball clocks: a quantum model</title>
+    <updated>2021-05-19T02:01:57Z</updated>
+    <link href="https://arxiv.org/abs/2007.12677v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.12677v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General relativity predicts the existence of closed timelike curves (CTCs), along which an object could travel to its own past. A consequence of CTCs is the failure of determinism, even for classical systems: one initial condition can result in multiple evolutions. Here we introduce a new quantum formulation of a classic example, where a billiard ball can travel along two possible trajectories: one unperturbed and one, along a CTC, where it collides with its past self. Our model includes a vacuum state, allowing the ball to be present or absent on each trajectory, and a clock, which provides an operational way to distinguish the trajectories. We apply the two foremost quantum theories of CTCs to our model: Deutsch's model (D-CTCs) and postselected teleportation (P-CTCs). We find that D-CTCs reproduce the classical solution multiplicity in the form of a mixed state, while P-CTCs predict an equal superposition of the two trajectories, supporting a conjecture by Friedman et al. [Phys. Rev. D 42, 1915 (1990)].</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-24T17:45:35Z</published>
+    <arxiv:comment>15 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 103, 042223 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Lachlan G. Bishop</name>
+    </author>
+    <author>
+      <name>Fabio Costa</name>
+    </author>
+    <author>
+      <name>Timothy C. Ralph</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.103.042223</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.103.042223" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.00779v2</id>
+    <title>Reversible time travel with freedom of choice</title>
+    <updated>2019-10-01T12:47:08Z</updated>
+    <link href="https://arxiv.org/abs/1703.00779v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.00779v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General relativity allows for the existence of closed time-like curves, along which a material object could travel back in time and interact with its past self. This possibility raises the question whether certain initial conditions, or more generally local operations, lead to inconsistencies and should thus be forbidden. Here we consider the most general deterministic dynamics connecting classical degrees of freedom defined on a set of bounded space-time regions, requiring that it is compatible with arbitrary operations performed in the local regions. We find that any such dynamics can be realised through reversible interactions. We further find that consistency with local operations is compatible with non-trivial time travel: Three parties can interact in such a way to be all both in the future and in the past of each other, while being free to perform arbitrary local operations.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-02T13:42:36Z</published>
+    <arxiv:comment>11 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Classical and Quantum Gravity 36, 224002 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Ämin Baumeler</name>
+    </author>
+    <author>
+      <name>Fabio Costa</name>
+    </author>
+    <author>
+      <name>Timothy C. Ralph</name>
+    </author>
+    <author>
+      <name>Stefan Wolf</name>
+    </author>
+    <author>
+      <name>Magdalena Zych</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ab4973</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ab4973" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0410035v1</id>
+    <title>Time travel paradoxes, path integrals, and the many worlds interpretation of quantum mechanics</title>
+    <updated>2004-10-07T19:53:37Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0410035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0410035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider two approaches to evading paradoxes in quantum mechanics with closed timelike curves (CTCs). In a model similar to Politzer's, assuming pure states and using path integrals, we show that the problems of paradoxes and of unitarity violation are related; preserving unitarity avoids paradoxes by modifying the time evolution so that improbable events bewcome certain. Deutsch has argued, using the density matrix, that paradoxes do not occur in the "many worlds interpretation". We find that in this approach account must be taken of the resolution time of the device that detects objects emerging from a wormhole or other time machine. When this is done one finds that this approach is viable only if macroscopic objects traversing a wormhole interact with it so strongly that they are broken into microscopic fragments.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-07T19:53:37Z</published>
+    <arxiv:comment>no figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev. D69 (2004) 124023</arxiv:journal_ref>
+    <author>
+      <name>Allen Everett</name>
+      <arxiv:affiliation>Tufts University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.69.124023</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.69.124023" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0608043v1</id>
+    <title>Towards Quantum Gravity: A Framework for Probabilistic Theories with Non-Fixed Causal Structure</title>
+    <updated>2006-08-09T17:39:15Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0608043v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0608043v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  General relativity is a deterministic theory with non-fixed causal structure. Quantum theory is a probabilistic theory with fixed causal structure. In this paper we build a framework for probabilistic theories with non-fixed causal structure. This combines the radical elements of general relativity and quantum theory. The key idea in the construction is physical compression. A physical theory relates quantities. Thus, if we specify a sufficiently large set of quantities (this is the compressed set), we can calculate all the others. We apply three levels of physical compression. First, we apply it locally to quantities (actually probabilities) that might be measured in a particular region of spacetime. Then we consider composite regions. We find that there is a second level of physical compression for the composite region over and above the first level physical compression for the component regions. Each application of first and second level physical compression is quantified by a matrix. We find that these matrices themselves are related by the physical theory and can therefore be subject to compression. This is the third level of physical compression. This third level of physical compression gives rise to a new mathematical object which we call the causaloid. From the causaloid for a particular physical theory we can calculate verything the physical theory can calculate. This approach allows us to set up a framework for calculating probabilistic correlations in data without imposing a fixed causal structure (such as a background time). We show how to put quantum theory in this framework (thus providing a new formulation of this theory). We indicate how general relativity might be put into this framework and how the framework might be used to construct a theory of quantum gravity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-08-09T17:39:15Z</published>
+    <arxiv:comment>23 pages. For special issue of Journal of Physics A entitled "The quantum universe" in honour of Giancarlo Ghirardi</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>J.Phys.A40:3081,2007</arxiv:journal_ref>
+    <author>
+      <name>Lucien Hardy</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/40/12/S12</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/40/12/S12" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.02511v3</id>
+    <title>Reversible dynamics with closed time-like curves and freedom of choice</title>
+    <updated>2026-05-23T08:49:42Z</updated>
+    <link href="https://arxiv.org/abs/2001.02511v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.02511v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The theory of general relativity predicts the existence of closed time-like curves (CTCs), which theoretically would allow an observer to travel back in time and interact with their past self. This raises the question of whether this could create a grandfather paradox, in which the observer interacts in such a way to prevent their own time travel. Previous research has proposed a framework for deterministic, reversible, dynamics compatible with non-trivial time travel, where observers in distinct regions of spacetime can perform arbitrary local operations with no contradiction arising. However, only scenarios with up to three regions have been fully characterised, revealing only one type of process where the observers can verify to both be in the past and future of each other. Here we extend this characterisation to an arbitrary number of regions and find that there exist several inequivalent processes that can only arise due to non-trivial time travel. This supports the view that complex dynamics is possible in the presence of CTCs, compatible with free choice of local operations and free of inconsistencies.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-07T08:24:29Z</published>
+    <arxiv:comment>Process function search code at github.com/gtobarSU/Classical-Process-Matrix-Search-Code.git. Counter-examples to the characterization theorem in arxiv.org/abs/1703.00779 (upon which ours is based) were reported in arXiv:2512.23599. These counter-examples affect the stated characterisation theorem (eventual errata) but not the validity of the process matrices found by the code</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Germain Tobar</name>
+    </author>
+    <author>
+      <name>Fabio Costa</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/aba4bc</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/aba4bc" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,808 @@
+=== calc01_dilatation_horloges.py ===
+EXP-01 — DILATATION DU TEMPS : SIGNAL ATTENDU ET BUDGET DE BRUIT
+========================================================================
+Décalage gravitationnel : Δf/f = g·Δh/c² = 1,0911e-16 par mètre (g = 9.80665 m/s²)
+
+        Δh |       Δf/f |  écart en 1 jour |  écart en 1 an
+   0.001 m |   1,09e-19 |     9.427e-06 ns |    0.003443 ns
+    0.01 m |   1,09e-18 |     9.427e-05 ns |     0.03443 ns
+    0.33 m |   3,60e-17 |      0.003111 ns |       1.136 ns
+       1 m |   1,09e-16 |      0.009427 ns |       3.443 ns
+      10 m |   1,09e-15 |       0.09427 ns |       34.43 ns
+     100 m |   1,09e-14 |        0.9427 ns |       344.3 ns
+     450 m |   4,91e-14 |         4.242 ns |        1550 ns
+    1000 m |   1,09e-13 |         9.427 ns |        3443 ns
+    1650 m |   1,80e-13 |         15.56 ns |        5682 ns
+    3000 m |   3,27e-13 |         28.28 ns |   1.033e+04 ns
+    4810 m |   5,25e-13 |         45.35 ns |   1.656e+04 ns
+  (0,33 m : Chou et al. 2010 ; 450 m : Tokyo Skytree, Takamoto et al. 2020 ;
+   1650 m : altitude de Boulder/NIST ; 4810 m : mont Blanc)
+
+Pound-Rebka (tour de 22,5 m) : gh/c² = 2,46e-15 (aller simple), 2gh/c² = 4,91e-15
+Séjour en altitude type « Project GREAT » : Δh = 1340 m pendant 42 h → avance = 22.1 ns
+
+Effet cinématique : Δf/f = -v²/(2c²)
+  marche (1,4 m/s)           : -1,09e-17  (-3.93e-05 ns par heure)
+  voiture (30 m/s)           : -5,01e-15  (-0.018 ns par heure)
+  TGV (83 m/s)               : -3,83e-14  (-0.138 ns par heure)
+  avion de ligne (250 m/s)   : -3,48e-13  (-1.25 ns par heure)
+  ISS (7660 m/s)             : -3,26e-10  (-1.18e+03 ns par heure)
+  Vitesse dont l'effet cinématique égale celui de 1000 m de dénivelé : v = √(2g·Δh) = 140 m/s
+
+Hafele-Keating (1971) — MODÈLE SIMPLIFIÉ (h = 9 km, |v| = 230 m/s, latitude moyenne 34°,
+durées de vol 41,2 h vers l'est et 48,6 h vers l'ouest) :
+  vers l'est   : gravitation +146 ns, cinématique -190 ns, total -44 ns
+  vers l'ouest : gravitation +172 ns, cinématique +121 ns, total +293 ns
+  Valeurs publiées (Hafele & Keating, Science 177, 1972) : prédit -40 ± 23 ns (est), +275 ± 21 ns (ouest) ;
+  observé -59 ± 10 ns (est), +273 ± 7 ns (ouest). Le modèle simplifié retrouve signes et ordres de grandeur.
+
+Durée d'intégration pour détecter le décalage à 3 sigma en comparant DEUX horloges identiques
+(critère : √2·σ_y(τ) ≤ signal/3 ; modèle σ_y² = (a/√τ)² + plancher² + (D·τ/√2)²) :
+horloge                                               1 mm        1 cm         1 m       100 m      1000 m      3000 m
+CSAC (césium miniature)                         impossible  impossible  impossible  impossible  impossible  impossible
+OCXO seul (GPSDO en maintien)                   impossible  impossible  impossible  impossible  impossible  impossible
+Rubidium d'occasion (FE-5680A, LPRO, PRS10)     impossible  impossible  impossible  impossible  impossible  impossible
+Césium à jet 5071A (tube standard)              impossible  impossible  impossible  impossible  impossible       2.5 j
+Césium à jet 5071A (haute performance)          impossible  impossible  impossible  impossible      35.8 h       3.5 h
+Maser à hydrogène actif                         impossible  impossible  impossible      30 min        15 s         2 s
+Horloge à réseau optique (labo)                 impossible  impossible        15 s         1 s         1 s         1 s
+  « impossible » = le plancher de scintillation ou la dérive dépasse le signal/3 quel que soit τ ≤ 10⁷ s.
+  NB : un GPSDO VERROUILLÉ est asservi au temps GPS (référence au géoïde) : il ne « voit » pas son propre
+  décalage ; il sert de RÉFÉRENCE, l'horloge libre (Rb/Cs) étant l'objet déplacé.
+
+Variante aller-retour (horloge transportée T secondes en altitude, comparée avant/après à une horloge
+identique restée en bas) : bruit ≈ √2·√[(a·√T)² + (plancher·T)²]  (environnement NON inclus)
+  Rubidium d'occasion (FE-5680A, LPRO, PRS10)    Δh = 1340 m, T = 42 h : signal  22.1 ns, bruit  65.1 ns, S/B = 0.3
+  Rubidium d'occasion (FE-5680A, LPRO, PRS10)    Δh = 3000 m, T = 48 h : signal  56.6 ns, bruit  74.2 ns, S/B = 0.8
+  Césium à jet 5071A (tube standard)             Δh = 1340 m, T = 42 h : signal  22.1 ns, bruit  18.3 ns, S/B = 1.2
+  Césium à jet 5071A (tube standard)             Δh = 3000 m, T = 48 h : signal  56.6 ns, bruit  20.0 ns, S/B = 2.8
+  Césium à jet 5071A (haute performance)         Δh = 1340 m, T = 42 h : signal  22.1 ns, bruit   5.1 ns, S/B = 4.3
+  Césium à jet 5071A (haute performance)         Δh = 3000 m, T = 48 h : signal  56.6 ns, bruit   5.6 ns, S/B = 10.2
+  Avec N horloges transportées et N restées en bas, le bruit se réduit en 1/√N (Van Baak 2005 : 3 césiums emportés).
+
+Budget d'environnement — rubidium d'occasion emmené 1500 m plus haut (ordres de grandeur) :
+  Signal relativiste (Δh = 1500 m)                       1,64e-13   (gΔh/c²) →        1 × signal
+  Pression (≈1e-13/hPa, indicatif) × ΔP                  1,65e-11   (ΔP = 165 hPa) →    1e+02 × signal
+  Température (≈1e-12/K, indicatif) × 10 K               1,00e-11   (habitacle non régulé) →       61 × signal
+  Champ magnétique (≈2e-10/G, indicatif) × 0,5 G         1,00e-10   (retournement dans le champ terrestre) →  6.1e+02 × signal
+  Dérive (5e-11/mois) sur 2 jours                        3,33e-12   (vieillissement) →       20 × signal
+  Cinématique voiture 30 m/s (pendant le trajet)         5,01e-15   (v²/2c²) →    0.031 × signal
+  Conclusion : sans enceinte étanche thermostatée et blindage magnétique, les effets d'environnement
+  d'un rubidium dépassent le signal de 1 à 3 ordres de grandeur ; il faut des césiums à jet (insensibles
+  au premier ordre) — c'est pourquoi l'expérience est classée N2/N3 et non N1.
+
+Lien avec la C204 (affirmations NON tenues pour vraies) :
+  Masse 2,27e2 kg à 1 m : GM/(rc²) = 1,69e-25  (équivaut à 1.54e-09 m de dénivelé terrestre ; 5.32e-09 ns/an)
+  Masse 1,00e11 kg à 1 m : GM/(rc²) = 7,43e-17  (équivaut à 0.681 m de dénivelé terrestre ; 2.34 ns/an)
+  Masse 1,00e12 kg à 1 m : GM/(rc²) = 7,43e-16  (équivaut à 6.81 m de dénivelé terrestre ; 23.4 ns/an)
+  Taux revendiqué « 10 ans par heure » : dt_ext/dτ = 87660, soit un écart relatif ~8.8e+04,
+  c'est-à-dire 1.2e+20 fois le décalage gravitationnel d'un trou noir de 1e12 kg à 1 m.
+  Rappel : la dilatation du temps ralentit une horloge par rapport à une autre ; elle ne renvoie
+  jamais dans le passé.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc01_allan_vs_signal.png
+--- code de retour calc01_dilatation_horloges.py : 0
+=== calc02_transfert_temps.py ===
+EXP-02 — TRANSFERT DE TEMPS : ORDRES DE GRANDEUR
+========================================================================
+1. Relativité dans le GPS (orbite circulaire, a = 26 561,75 km)
+   horloge au sol (géoïde)  : -W0/c² = -6,9693e-10
+   horloge satellite        : -3GM/(2ac²) = -2,5046e-10
+   écart net satellite-sol  : 4,4647e-10  → +38.58 µs/jour
+     dont potentiel         : 5,2996e-10  → +45.79 µs/jour
+     dont vitesse orbitale  : -8,3485e-11  → -7.21 µs/jour
+   fréquence embarquée réglée : 10,23 MHz × (1 - 4,4647e-10) = 10229999.99543 Hz
+   sans correction : dérive d'échelle de temps équivalente à 11.6 km/jour de pseudo-distance
+   terme d'excentricité : Δt = F·e·√a·sin E, F = -4,4428e-10 s/√m ; amplitude pour e = 0.02 : 45.8 ns
+   correction de Sagnac maximale (récepteur à l'équateur) : Ω·a·R/c² = 137 ns
+   Sagnac pour un tour complet de l'équateur : 2ΩA/c² = 207.4 ns
+
+2. Méthodes de transfert de temps (ordres de grandeur d'usage courant)
+   méthode                                     exactitude     bruit   σ_y(1 jour) ≈ √3·σ_x/τ   cadre
+   NTP via Internet                                5,0e-3    2,0e-3                 4,0e-8   gratuit — N1
+   NTP sur réseau local                            2,0e-4    5,0e-5                 1,0e-9   gratuit — N1
+   PTP (IEEE 1588) horodatage matériel             1,0e-7    3,0e-8                6,0e-13   cartes réseau PTP, 50–300 € — N1/N2
+   GPS sens unique, récepteur de temps             2,0e-8    8,0e-9                1,6e-13   module 30–250 € — N1
+   GPS vue commune (code)                          5,0e-9    3,0e-9                6,0e-14   récepteurs étalonnés — N2
+   GPS phase de porteuse / PPP                     1,0e-9   1,0e-10                2,0e-15   récepteur géodésique — N2/N3
+   Deux voies par satellite (TWSTFT)               1,0e-9   5,0e-10                1,0e-14   station dédiée — N3
+   White Rabbit (fibre, ≤ 10 km)                  5,0e-10   1,0e-11                2,0e-16   commutateur + nœuds, ≥ 5 k€ — N2/N3
+   Lien optique fibré stabilisé (fréquence)             —         —          1e-18 … 1e-20   métrologie nationale — N3 (1e-18 à 1e-20 en fréquence)
+   Repère : décalage gravitationnel pour 1000 m = 1,09e-13 ; pour 1 m = 1,09e-16.
+   → une comparaison par GPS vue commune (≈ 6e-14 à 1 jour) entre une station de plaine et une station
+     de montagne ne résout 1000 m de dénivelé qu'après plusieurs jours, ET seulement si les horloges
+     locales sont elles-mêmes au niveau 1e-14 (césium, maser).
+
+3. Simulation ILLUSTRATIVE d'un échange bidirectionnel à quatre horodatages
+   décalage estimé = [(t2 - t1) - (t4 - t3)]/2 ; l'asymétrie des délais N'EST PAS observable de l'intérieur
+   NTP Internet (asymétrie 4 ms, gigue 2 ms)            biais = 1,99e-3 s (attendu 2,00e-3), écart-type = 1,43e-3 s
+   NTP réseau local (asym. 50 µs, gigue 100 µs)         biais = 2,43e-5 s (attendu 2,50e-5), écart-type = 7,03e-5 s
+   PTP matériel (asym. 40 ns, gigue 20 ns)              biais = 1,98e-8 s (attendu 2,00e-8), écart-type = 1,42e-8 s
+   White Rabbit (asym. résiduelle 100 ps, gigue 10 ps)  biais = 5,01e-11 s (attendu 5,00e-11), écart-type = 7,03e-12 s
+   Leçon : le protocole mesure (décalage d'horloge + demi-asymétrie des trajets). Sans étalonnage
+   indépendant des retards, le biais reste invisible — 1 m de fibre mal comptée = 4,9 ns.
+
+4. Retards de propagation (expérience N1 : mesurer un câble avec deux récepteurs GPS)
+   coaxial RG-58 (facteur de vélocité 0,66)    : 5.05 ns/m ; 10 m → 50.5 ns
+   coaxial à diélectrique mousse (0,83)        : 4.02 ns/m ; 10 m → 40.2 ns
+   fibre optique (indice de groupe 1,468)      : 4.90 ns/m ; 10 m → 49.0 ns
+   vide / air                                  : 3.34 ns/m ; 10 m → 33.4 ns
+   Avec un bruit de 1PPS de 8 ns (un sigma) par récepteur et N = 600 secondes de moyenne :
+   incertitude sur la différence = √2·8 ns/√600 = 0.46 ns → 10 m de RG-58 (50,5 ns) mesurés à ~1 % (hors biais lents du récepteur).
+
+Ce que l'on mesure réellement : toujours une DIFFÉRENCE de dates d'événements locaux (fronts 1PPS),
+augmentée de retards de propagation qu'il faut modéliser (géométrie, ionosphère, troposphère, câbles,
+Sagnac, relativité). Aucune de ces techniques ne « mesure le temps à distance » sans hypothèse sur la
+propagation ; aucune ne permet d'envoyer une information vers le passé.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc02_transfert_temps.png
+--- code de retour calc02_transfert_temps.py : 0
+=== calc03_cavendish_champ_EM.py ===
+EXP-03 — BALANCE DE TORSION : G ET TEST NUL ÉLECTROMAGNÉTIQUE
+========================================================================
+1. Balance de torsion de TP (type Cavendish) — paramètres choisis pour l'exemple
+   m = 15 g (×2), M = 1.5 kg (×2), demi-fléau d = 5 cm, distance r = 4.5 cm
+   fil de tungstène Ø 25 µm, longueur 30 cm → κ = πG_cis·d⁴/(32L) = 2,06e-8 N·m/rad
+   force de Newton       F = GMm/r²   = 7,42e-10 N
+   couple                2Fd          = 7,42e-11 N·m
+   angle d'équilibre     θ = 2Fd/κ    = 3,60e-3 rad
+   période               2π√(I/κ)     = 379 s (6.3 min)
+   déplacement du spot à 2 m en basculant les grosses masses : 4θL = 28.8 mm
+   agitation thermique   θ_rms = √(k_BT/κ) = 4,43e-7 rad  (soit 9,12e-14 N équivalent)
+   bruit thermique de couple (Q = 10) : 4,48e-14 N·m/√Hz → force minimale en 1 h : 7,47e-15 N
+   En pratique un montage de TP est limité par les dérives du fil, les courants d'air et les
+   inclinaisons du sol : résolution réaliste ~1e-11 N (quelques % du signal de Newton).
+
+   Incertitude type attendue sur G en TP (G = 4π²·θ·r²·d/(T²·M)) :
+     r (±0,5 mm sur 45 mm, exposant 2)    2.2 %
+     période (±0,5 %, exposant 2)         1.0 %
+     angle θ (±3 %)                       3.0 %
+     d (±0,2 mm sur 50 mm)                0.4 %
+     M, m (±0,1 %)                        0.1 %
+     total quadratique ≈ 3.9 %   (CODATA 2018 : G = 6,674 30(15)e-11, incertitude relative 2,2e-5)
+
+2. « Gravité » d'un champ électromagnétique selon la relativité générale (champ faible) : M_éq = E/c²
+   source                                                         E (J)   E/c² (kg)  a à r (m/s²)  F sur 15 g (N)
+   Aimant NdFeB de 1 litre (u ≈ 4e5 J/m³)                         4,0e2     4,5e-15   1,2e-22 (0.05 m)     1,8e-24
+   Condensateur 1 nF chargé à 5 kV (12,5 mJ)                     1,3e-2     1,4e-19   3,7e-27 (0.05 m)     5,6e-29
+   Condensateur 100 µF à 400 V (8 J) — DANGEREUX, calcul seul     8,0e0     8,9e-17   2,4e-24 (0.05 m)     3,6e-26
+   Bobine supraconductrice d'IRM 3 T (≈ 10 MJ)                    1,0e7     1,1e-10   7,4e-21 (1 m)     1,1e-22
+   Aimant hybride 45 T (≈ 100 MJ)                                 1,0e8      1,1e-9   7,4e-20 (1 m)     1,1e-21
+   Dipôles du LHC, total (≈ 11 GJ)                               1,1e10      1,2e-7   8,2e-22 (100 m)     1,2e-23
+   Aimants d'ITER, total (≈ 51 GJ)                               5,1e10      5,7e-7   3,8e-19 (10 m)     5,7e-21
+   Densité d'énergie d'un champ de 1 T : B²/(2µ0) = 3,98e5 J/m³ → densité de masse équivalente 4,43e-12 kg/m³
+   Champ dont l'énergie « pèserait » autant que l'eau (1000 kg/m³) : B = 1,50e7 T ou E = 4,51e15 V/m
+   (record de champ continu en laboratoire : ~45 T ; champ de claquage de l'air : 3e6 V/m)
+
+3. Forces parasites sur une masse d'épreuve de 15 g placée à 5 cm de la source
+   (sphère de plomb : rayon 6.8 mm ; champ local 0.1 T, gradient 5.0 T/m ; E local 2e+05 V/m)
+   magnétique, tungstène (paramagnétique) (χ = +7.8e-05)               4,11e-5 N   (  2.3e+19 × signal RG)
+   électrostatique, sphère neutre polarisée (10 kV à 5 cm)             2,81e-5 N   (  1.6e+19 × signal RG)
+   magnétique, aluminium (χ = +2.1e-05)                                1,11e-5 N   (  6.2e+18 × signal RG)
+   magnétique, plomb (diamagnétique) (χ = -1.6e-05)                    8,42e-6 N   (  4.7e+18 × signal RG)
+   magnétique, cuivre (χ = -9.6e-06)                                   5,05e-6 N   (  2.8e+18 × signal RG)
+   électrostatique, charge résiduelle de 1 pC dans 2e5 V/m             2,00e-7 N   (  1.1e+17 × signal RG)
+   attraction newtonienne de la masse de l'aimant (7,5 kg)             3,00e-9 N   (  1.7e+15 × signal RG)
+   courant d'air de 1 mm/s (traînée de Stokes)                         2,31e-9 N   (  1.3e+15 × signal RG)
+   attraction newtonienne des grosses masses (signal de Cavendish)    7,42e-10 N   (  4.2e+14 × signal RG)
+   SIGNAL RG : énergie du champ de l'aimant (E/c²)                    1,78e-24 N   (  1.0e+00 × signal RG)
+
+4. Sensibilité atteignable contre signal prédit (en accélération)
+   Cavendish de TP (N2), ~1e-11 N sur 15 g                                      6,67e-10 m/s²
+   Limite thermique du même montage, 1 h                                        4,98e-13 m/s²
+   Meilleures balances de torsion (Schlamminger et al. 2008 : Δa ~ 1e-15 m/s²)  1,00e-15 m/s²
+   Signal RG, aimant NdFeB 1 L à 5 cm  : 1,19e-22 m/s² → manque 8e+06 (meilleure balance), 6e+12 (TP)
+   Signal RG, aimant hybride 45 T à 1 m : 7,43e-20 m/s² → manque 1e+04 (meilleure balance)
+
+Conclusion : la relativité générale prédit bien qu'un champ électromagnétique gravite (via E/c²),
+mais le signal est de 7 ordres de grandeur sous la meilleure balance de torsion du monde et ~14 ordres
+sous un montage de TP, tandis que les forces magnétiques/électrostatiques parasites sont 10^18 à 10^19
+fois plus grandes que lui. Tout « signal » observé près d'un aimant ou d'un condensateur est un artefact
+jusqu'à preuve du contraire. Champ électromagnétique ≠ champ gravitationnel.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc03_test_nul_EM.png
+--- code de retour calc03_cavendish_champ_EM.py : 0
+=== calc04_gravimetrie_VGL.py ===
+EXP-04 — GRAVIMÉTRIE LOCALE ET « INSTANTANÉ DE GRAVITÉ »
+========================================================================
+1. Variations naturelles de g
+   g(équateur) = 9.78033 ; g(45°) = 9.80620 ; g(pôle) = 9.83219 m/s² (écart pôle-équateur 5.19 Gal)
+   gradient à l'air libre       : 2GM/R³ = 3.083e-06 s⁻² = 308 µGal/m (≈ 3 µGal/cm)
+   gradient nord-sud à 45°      : 0.81 µGal/m (0.81 mGal/km)
+   plateau de Bouguer (2670 kg/m³) : 112 µGal par mètre de roche
+   marée lunaire (max vertical) : 110 µGal ; solaire : 51 µGal ; crête à crête avec facteur élastique 1,16 : ≈ 279 µGal
+   pression atmosphérique       : ≈ -0,3 µGal/hPa (admittance usuelle) → ±10 µGal selon la météo
+
+   Masses proches (attraction verticale maximale G·M/r²) :
+     personne de 80 kg à 1 m                       0.534 µGal
+     voiture de 1500 kg à 2 m                      2.503 µGal
+     bloc de béton de 1 m³ (2400 kg) à 1 m        16.018 µGal
+     camion de 20 t à 5 m                          5.339 µGal
+     immeuble de 10 000 t à 30 m                  74.159 µGal
+     unité C204 revendiquée (227 kg) à 1 m         1.515 µGal
+     galerie vide (Ø 2 m, axe à 3 m de profondeur, Δρ = -2000 kg/m³) : -28.0 µGal à l'aplomb
+
+2. Résolution réaliste des capteurs (σ après ~100 s de moyenne ; ordres de grandeur indicatifs)
+   capteur                                                                 σ (m/s²)    σ (µGal)   Δh équivalent  niveau
+   Accéléromètre de smartphone                                               2,0e-3       2e+05           649 m  N1
+   Accéléromètre MEMS bas bruit (type ADXL355)                               2,0e-4       2e+04          64.9 m  N1
+   Pendule simple soigné (L ≈ 1 m, chrono optique)                           1,0e-3       1e+05           324 m  N1
+   Pendule réversible de Kater (TP)                                          1,0e-4       1e+04          32.4 m  N2
+   Gravimètre MEMS de recherche (Middlemiss et al. 2016 : 40 µGal/√Hz)       4,0e-7          40          0.13 m  N3
+   Gravimètre relatif à ressort (type CG-5/CG-6)                             5,0e-8           5        0.0162 m  N2/N3
+   Gravimètre absolu à chute de coin de cube (type FG5)                      2,0e-8           2       0.00649 m  N3
+   Gravimètre à atomes froids (Ménoret et al. 2018 : < 1 µGal)               5,0e-8           5        0.0162 m  N3
+   Gravimètre supraconducteur (observatoire)                                1,0e-10        0.01      3.24e-05 m  N3
+   (Δh équivalent = dénivelé donnant la même variation par le gradient à l'air libre)
+   Smartphone : le bruit blanc (≈150 µg/√Hz) se moyenne, mais la dérive thermique du biais (0,1–1 mg/K),
+   l'erreur de facteur d'échelle (~0,5 %) et l'inclinaison (1° → 1,5e-4 g) fixent le plancher ≈ 2e-3 m/s².
+
+   Pendule simple (L = 1,000 m ± 0,1 mm ; 100 périodes chronométrées à ±0,1 ms) :
+     période T = 2.0064 s ; δT/T = 5.0e-07 ; δg/g absolu = √[(2δT/T)² + (δL/L)²] = 1.0e-04 → δg ≈ 9.8e-04 m/s² (dominé par L)
+     correction d'amplitude (3°) : θ0²/16 = 1.7e-04 sur T ; dilatation acier pour 5 K : 6.0e-05 sur L
+     en relatif (même pendule déplacé), plancher ≈ 1e-4·g = 1e-3 m/s² = 100 mGal.
+
+3. Que faudrait-il pour « reconnaître un lieu » par la gravité ?
+   résolution 1,0e-3 m/s² (1e+05 µGal) → équivaut à 324 m d'altitude ou 1.23e+05 m nord-sud
+   résolution 1,0e-5 m/s² (1e+03 µGal) → équivaut à 3.24 m d'altitude ou 1.23e+03 m nord-sud
+   résolution 5,0e-8 m/s² (5 µGal) → équivaut à 0.0162 m d'altitude ou 6.14 m nord-sud
+   résolution 1,0e-8 m/s² (1 µGal) → équivaut à 0.00324 m d'altitude ou 1.23 m nord-sud
+   Un scalaire g résolu à 1 µGal prend ≈ 5.2e+06 valeurs distinctes sur Terre, pour 5.1e+14 m² de surface :
+   chaque valeur correspond en moyenne à ≈ 9.8e+07 m² (≈ 98 km²) : g seul n'identifie pas un lieu.
+   De plus g varie dans le temps : marées ≈ 279 µGal crête à crête (= 0.91 m d'altitude équivalente),
+   nappes phréatiques ~10 µGal, pression ±10 µGal, constructions voisines ~0,1–1 µGal.
+   Un « verrouillage » à 1 m près exigerait : ~1 µGal de résolution, un modèle de marée, une CARTE de
+   référence préexistante à la même résolution et à la même époque, et des mesures vectorielles/gradient.
+   État de l'art réel : la navigation par corrélation de cartes de gravité/gradient (sous-marins) atteint
+   des précisions de l'ordre de la centaine de mètres au kilomètre, le long d'une trajectoire, pas en un point
+   (ordre de grandeur donné sans référence vérifiée — à traiter comme [HYP]).
+
+4. Si l'unité contenait réellement 1e11–1e12 kg (valeur DÉDUITE du dossier §6, non revendiquée telle quelle) :
+   Masse 2,3e2 kg : g supplémentaire à 1 m = 1.52e-08 m/s² (1.54e-09 g) ; à 3 m = 1.68e-09 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 0.00123 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 0.00389 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 0.246 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 0.246 m
+   Masse 1,0e11 kg : g supplémentaire à 1 m = 6.67 m/s² (0.681 g) ; à 3 m = 0.742 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 25.8 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 81.7 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 5.17e+03 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 5.17e+03 m
+   Masse 1,0e12 kg : g supplémentaire à 1 m = 66.7 m/s² (6.81 g) ; à 3 m = 7.42 m/s²
+       détectable à 5σ par « Accéléromètre de smartphone » jusqu'à r = 81.7 m
+       détectable à 5σ par « Accéléromètre MEMS bas bruit (type ADXL355) » jusqu'à r = 258 m
+       détectable à 5σ par « Gravimètre relatif à ressort (type CG-5/CG-6 » jusqu'à r = 1.63e+04 m
+       détectable à 5σ par « Gravimètre à atomes froids (Ménoret et al. 2 » jusqu'à r = 1.63e+04 m
+   → une masse de 1e12 kg serait vue par un smartphone à ~80 m et par un gravimètre de terrain
+     à ~16 km ; elle dévierait les fils à plomb du voisinage et pèserait 1e12 kg sur le châssis.
+   → à l'inverse, les 227 kg revendiqués donnent 1,5 µGal à 1 m : indiscernables d'un moteur de voiture.
+
+Problème de dynamique pour un « capteur VGL » : il devrait résoudre ~1 µGal (1e-9 g) tout en supportant
+1,5–2 g de champ propre revendiqué, soit une dynamique > 1e9, au voisinage immédiat de masses mobiles
+et d'un véhicule sur suspension. Aucun gravimètre existant ne fait cela.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc04_gravimetrie.png
+--- code de retour calc04_gravimetrie_VGL.py : 0
+=== calc05_casimir.py ===
+EXP-05 — EFFET CASIMIR : ORDRES DE GRANDEUR
+========================================================================
+1. Plaques parallèles parfaitement conductrices, T = 0
+          d |     P (Pa) |  E/A (J/m²) |  u = E/(A·d) (J/m³) |  u/c² (kg/m³)
+      10 nm |     1,30e5 |    -4,33e-4 |             -4,33e4 |     -4,82e-13
+     100 nm |     1,30e1 |    -4,33e-7 |             -4,33e0 |     -4,82e-17
+     500 nm |    2,08e-2 |    -3,47e-9 |            -6,93e-3 |     -7,72e-20
+    1000 nm |    1,30e-3 |   -4,33e-10 |            -4,33e-4 |     -4,82e-21
+   10000 nm |    1,30e-7 |   -4,33e-13 |            -4,33e-8 |     -4,82e-25
+   Repère : pression atmosphérique 1,013e5 Pa, atteinte pour d ≈ 10.6 nm.
+
+2. Géométrie sphère-plan (approximation de proximité, valable pour d << R)
+   microsphère AFM R = 100 µm, d = 100 nm                             F = 2,72e-10 N
+   microsphère AFM R = 100 µm, d = 200 nm                             F = 3,40e-11 N
+   microsphère AFM R = 100 µm, d = 500 nm                             F = 2,18e-12 N
+   lentille R = 11 cm, d = 1 µm (géométrie de type balance de torsion) F = 3,00e-10 N
+   lentille R = 11 cm, d = 6 µm                                       F = 1,39e-12 N
+
+3. Corrections à la formule idéale
+   profondeur de pénétration de l'or : δ = λ_p/2π = 21.6 nm (λ_p ≈ 136 nm)
+   d =   500 nm : facteur plaques 0.814 ; facteur sphère-plan 0.854 (développement au 2e ordre en δ/d ; non valable à 100 nm)
+   d =  1000 nm : facteur plaques 0.896 ; facteur sphère-plan 0.920 (développement au 2e ordre en δ/d ; non valable à 100 nm)
+   d =  3000 nm : facteur plaques 0.963 ; facteur sphère-plan 0.972 (développement au 2e ordre en δ/d ; non valable à 100 nm)
+   longueur thermique λ_T = ħc/(k_BT) = 7.63 µm à 300 K : les corrections thermiques dominent pour d ≳ 3 µm.
+   rugosité : correction relative ~6(σ_rms/d)² → 1 % pour σ_rms = 4 nm à d = 100 nm.
+
+4. Systématiques et bruit (sphère R = 100 µm sur levier AFM)
+   d = 100 nm, potentiel résiduel  10 mV : F_él = πε0RV²/d = 2,78e-12 N =    1.0 % de Casimir
+   d = 100 nm, potentiel résiduel  50 mV : F_él = πε0RV²/d = 6,95e-11 N =   25.5 % de Casimir
+   d = 100 nm, potentiel résiduel 100 mV : F_él = πε0RV²/d = 2,78e-10 N =  102.2 % de Casimir
+   d = 200 nm, potentiel résiduel  10 mV : F_él = πε0RV²/d = 1,39e-12 N =    4.1 % de Casimir
+   d = 200 nm, potentiel résiduel  50 mV : F_él = πε0RV²/d = 3,48e-11 N =  102.2 % de Casimir
+   d = 200 nm, potentiel résiduel 100 mV : F_él = πε0RV²/d = 1,39e-10 N =  408.6 % de Casimir
+   d = 500 nm, potentiel résiduel  10 mV : F_él = πε0RV²/d = 5,56e-13 N =   25.5 % de Casimir
+   d = 500 nm, potentiel résiduel  50 mV : F_él = πε0RV²/d = 1,39e-11 N =  638.5 % de Casimir
+   d = 500 nm, potentiel résiduel 100 mV : F_él = πε0RV²/d = 5,56e-11 N = 2553.8 % de Casimir
+   levier k = 0.02 N/m, f0 = 10 kHz, Q = 100 (air) : bruit thermique de force 7,26e-15 N/√Hz
+   déflexion statique due à Casimir à 100 nm : F/k = 13.6 nm (largement mesurable)
+   rapport signal/bruit thermique en 1 s à 100 nm : 37496
+   La difficulté n'est donc pas le bruit mais la métrologie : distance absolue (±1 nm), potentiels de
+   contact et « patchs », rugosité, parallélisme (pour deux plaques), dérive thermique.
+
+5. Pourquoi ce n'est pas une source d'« énergie négative » exploitable
+   Plaques de 1 m² séparées de 10 nm : E = -4,33e-4 J, soit une « masse » de -4,82e-21 kg
+   Masse (positive) de deux films d'or de 100 nm seulement : 3,86e-3 kg → rapport 8.0e+17
+   L'énergie TOTALE du système (plaques + champ) reste donc positive à ~18 ordres de grandeur près.
+   Ordre de grandeur de l'énergie négative pour une gorge de trou de ver de rayon 1 m : -r·c²/G = -1,35e27 kg
+   (≈ 0.71 masse de Jupiter) → il manque un facteur 3e+47 par rapport à 1 m² de Casimir à 10 nm.
+   Les inégalités quantiques (Ford & Roman 1995, 1996) bornent en outre durée et amplitude des densités
+   d'énergie négatives. L'effet Casimir est une FORCE mesurée ; ce n'est ni un réservoir d'énergie,
+   ni une preuve qu'on puisse accumuler de l'énergie négative macroscopique.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc05_casimir.png
+--- code de retour calc05_casimir.py : 0
+=== calc06_gravite_analogue.py ===
+EXP-06 — GRAVITÉ ANALOGUE DANS L'EAU
+========================================================================
+1. Ondes de surface de l'eau
+   eau profonde : vitesse de phase minimale c_min = (4gγ/ρ)^(1/4) = 23.1 cm/s à λ = 17.0 mm (frontière gravité/capillarité)
+   ondes longues, profondeur h =   0.30 mm : c = √(gh) =    5.4 cm/s
+   ondes longues, profondeur h =   1.00 mm : c = √(gh) =    9.9 cm/s
+   ondes longues, profondeur h =   3.00 mm : c = √(gh) =   17.2 cm/s
+   ondes longues, profondeur h =  10.00 mm : c = √(gh) =   31.3 cm/s
+   ondes longues, profondeur h =  62.50 mm : c = √(gh) =   78.3 cm/s
+
+2. Ressaut hydraulique circulaire (jet vertical sur plaque horizontale)
+      débit Q |  R (Bohr 1993) |  R (Bhagat 2018) | commentaire
+       10 mL/s |         7.3 cm |           1.7 cm | à mesurer
+       20 mL/s |        11.3 cm |           2.8 cm | à mesurer
+       30 mL/s |        14.5 cm |           3.8 cm | à mesurer
+       60 mL/s |        22.4 cm |           6.3 cm | à mesurer
+      100 mL/s |        30.9 cm |           9.3 cm | à mesurer
+   (Bohr, Dimon & Putkaradze 1993 : loi d'échelle gravité-viscosité, R ∝ Q^(5/8) ν^(-3/8) g^(-1/8), préfacteur 0,73 ;
+    Bhagat et al. 2018 : loi capillaire-visqueuse pour films minces, contestée par Duchesne et al. 2019.
+    Les deux encadrent grossièrement les rayons de quelques cm observés dans un évier ; l'expérience tranche.)
+
+   Exemple : Q = 30 mL/s, jet de rayon 3 mm → vitesse du jet U0 = 1.06 m/s
+         r | h film (mm) |  c=√(gh) (cm/s) | Froude U0/c   (film non visqueux h = a²/2r : borne haute de U)
+      1 cm |       0.450 |             6.6 |        16.0
+      2 cm |       0.225 |             4.7 |        22.6
+      3 cm |       0.150 |             3.8 |        27.7
+   La viscosité freine le film (Watson 1964) : U décroît avec r. Angle de Mach attendu, sin θ = c/U,
+   pour les ondes capillaires-gravité les plus lentes (c_min = 23 cm/s) :
+     U = 1.00 m/s → demi-angle θ = 13.3°
+     U = 0.60 m/s → demi-angle θ = 22.6°
+     U = 0.40 m/s → demi-angle θ = 35.2°
+     U = 0.30 m/s → demi-angle θ = 50.2°
+     U = 0.25 m/s → demi-angle θ = 67.3°
+     (θ → 90° quand U → c : le sillage en V s'ouvre puis disparaît — c'est le passage de l'horizon)
+   extérieur du ressaut (h ≈ 3 mm à r = 5 cm) : U = 3.2 cm/s, c = 17.2 cm/s, Froude = 0.19 < 1
+   → intérieur supercritique (Fr >> 1) : aucune onde de surface ne peut remonter vers le centre ;
+     extérieur sous-critique. Le ressaut est la frontière : c'est un horizon de TROU BLANC pour les ondes.
+   Mesure N1 (Jannes et al. 2011) : une aiguille plantée dans le film crée un sillage en V (cône de Mach),
+     de demi-angle θ avec sin θ = c/U ; le V s'ouvre en s'approchant du ressaut et disparaît à l'extérieur.
+     (L'angle ci-dessus utilise c_min = 23 cm/s, ondes capillaires ; il est indicatif.)
+
+3. Tourbillon de vidange (« draining bathtub ») : v_r = -D/r, v_θ = C/r, ondes longues c = √(gh)
+   évier (h = 5 cm, C = 1,5e-2 m²/s, D = 1e-3 m²/s, vidange Ø 4 cm)
+      c = 0.70 m/s ; horizon r_H = D/c = 1.4 mm ; ergorégion r_E = √(C²+D²)/c = 21.5 mm
+      r_H < rayon de vidange (20 mm) : l'horizon du modèle idéal tombe DANS le trou ; seule l'ergorégion est accessible
+      vitesse angulaire au bord utile Ω = C/r² = 38 rad/s → amplification possible du mode m si f < m·Ω/2π = 6.0 Hz (m = 1), 11.9 Hz (m = 2) — critère indicatif
+   bassin de laboratoire (h = 6,25 cm, mêmes C et D, vidange Ø 4 cm) — ordres de grandeur
+      c = 0.78 m/s ; horizon r_H = D/c = 1.3 mm ; ergorégion r_E = √(C²+D²)/c = 19.2 mm
+      r_H < rayon de vidange (20 mm) : l'horizon du modèle idéal tombe DANS le trou ; seule l'ergorégion est accessible
+      vitesse angulaire au bord utile Ω = C/r² = 38 rad/s → amplification possible du mode m si f < m·Ω/2π = 6.0 Hz (m = 1), 11.9 Hz (m = 2) — critère indicatif
+   bac de TP peu profond (h = 2 cm, C = 5e-3, D = 2e-3, vidange Ø 1 cm)
+      c = 0.44 m/s ; horizon r_H = D/c = 4.5 mm ; ergorégion r_E = √(C²+D²)/c = 12.2 mm
+      r_H < rayon de vidange (5 mm) : l'horizon du modèle idéal tombe DANS le trou ; seule l'ergorégion est accessible
+      vitesse angulaire au bord utile Ω = C/r² = 200 rad/s → amplification possible du mode m si f < m·Ω/2π = 31.8 Hz (m = 1), 63.7 Hz (m = 2) — critère indicatif
+   Mise en garde : à 3.7 Hz dans 6.25 cm d'eau (conditions de Torres et al. 2017), λ = 11.6 cm et k·h = 3.4 :
+   ce N'EST PAS le régime d'eau peu profonde (k·h << 1) ; les ondes sont dispersives et l'analogie avec une
+   métrique effective n'est qu'approchée. Dans un évier, l'horizon (mm) tombe dans le trou de vidange.
+
+4. Température de Hawking analogue  T = ħ·κ/(2π·k_B), κ = |d(v-c)/dx| à l'horizon
+   canal ou ressaut dans l'eau (κ ≈ 10 s⁻¹)     T_H = 1,22e-11 K   (milieu à 293 K → rapport 4.1e-14)
+   ressaut très raide (κ ≈ 1000 s⁻¹)            T_H = 1,22e-9 K   (milieu à 293 K → rapport 4.1e-12)
+   condensat de Bose-Einstein (κ ≈ 290 s⁻¹)     T_H = 3,53e-10 K   (milieu à 1e-09 K → rapport 3.5e-01)
+   trou noir de 1e12 kg (cf. dossier §6)        T_H = 1,23e11 K
+   trou noir d'une masse solaire                T_H = 6,17e-8 K
+   → dans l'eau, l'émission spontanée analogue (1e-11 K) est noyée de 13 ordres de grandeur sous l'agitation
+     thermique : seuls les effets STIMULÉS (classiques) sont mesurables (Weinfurtner et al. 2011).
+     L'émission spontanée n'a été rapportée que dans des condensats (Steinhauer 2016 ; Muñoz de Nova et al. 2019).
+
+Ce que les analogues enseignent : la cinématique des ondes sur un fond en mouvement (horizon, ergorégion,
+conversion de modes, superradiance) est robuste et indépendante de la gravitation. Ce qu'ils n'enseignent
+pas : la dynamique d'Einstein (l'écoulement n'obéit pas aux équations du champ), l'entropie des trous noirs,
+ni quoi que ce soit sur le voyage temporel. Un évier n'est pas un trou noir de Kerr.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc06_gravite_analogue.png
+--- code de retour calc06_gravite_analogue.py : 0
+=== calc07_piege_paul_levitation.py ===
+EXP-07 — PIÈGE DE PAUL, SELLE TOURNANTE, LÉVITATION DIAMAGNÉTIQUE
+========================================================================
+1. Équation de Mathieu  x'' + 2b·x' + (a - 2q·cos 2ξ)·x = 0, ξ = Ωt/2
+   limite de stabilité à a = 0, sans amortissement : q_max = 0.9080 (valeur tabulée : 0,908)
+   avec amortissement b = 0.2 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 0.985
+   avec amortissement b = 0.5 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 1.341
+   avec amortissement b = 1.0 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 2.367
+   avec amortissement b = 2.0 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 6.056
+   avec amortissement b = 2.3 (b = 1/(Ω·τ), frottement de Stokes dans l'air) : q_max = 8.007
+   → dans l'air, le frottement élargit fortement la zone stable : c'est ce qui rend la démonstration facile.
+
+2. Piège annulaire à 50 Hz pour grains chargés (ordres de grandeur pour un TP encadré)
+   anneau r0 = 5 mm, amplitude V = 2000 V, Ω = 2π·50 Hz
+   grain : rayon 15 µm, masse 7,07e-12 kg ; temps de relaxation de Stokes τ = 1.39 ms → b = 1/(Ωτ) = 2.29
+   Dans l'air, la force pondéromotrice moyenne est réduite du facteur 1/(1+b²) (micromouvement amorti et déphasé) :
+   ici 1/(1+b²) = 0.16 ; l'affaissement sous le poids vaut alors g·(1+b²)/ω_sec² (approximation q ≲ 0,4).
+     Q/m (C/kg) |  charges e |    q_z | stable (vide) | stable (air) | affaissement vide | affaissement air | E pour compenser g
+          2e-05 |        882 |  0.065 |           oui |          oui |          189.0 mm |        1182.0 mm |     4.90e+05 V/m
+          5e-05 |       2206 |  0.162 |           oui |          oui |           30.2 mm |         189.1 mm |     1.96e+05 V/m
+          1e-04 |       4412 |  0.324 |           oui |          oui |            7.6 mm |          47.3 mm |     9.81e+04 V/m
+          2e-04 |       8824 |  0.648 |           oui |          oui |            1.9 mm |          11.8 mm |     4.90e+04 V/m
+          5e-04 |      22059 |  1.621 |           non |          oui |                 — |   (hors approx.) |     1.96e+04 V/m
+          1e-03 |      44119 |  3.242 |           non |          oui |                 — |   (hors approx.) |     9.81e+03 V/m
+          3e-03 |     132356 |  9.727 |           non |          non |                 — |   (hors approx.) |     3.27e+03 V/m
+   L'affaissement dépasse vite r0 = 5 mm : en pratique on compense le poids par un champ continu vertical
+   E = g/(Q/m) (10⁴–10⁵ V/m, soit quelques centaines de volts sur 1 cm) ou l'on travaille à q plus élevé,
+   ce que l'amortissement de l'air autorise (zone stable élargie).
+
+3. Sécurité haute tension — dimensionnement À COURANT LIMITÉ (prescriptions, pas un plan de montage)
+   tension crête visée ≤ 3000 V ; courant de court-circuit admis ≤ 0.5 mA (seuil de perception en alternatif)
+   → résistance série totale ≥ V/I = 6 MΩ, répartie sur ≥ 2 résistances haute tension en série (tolérance à une panne)
+   capacité des électrodes ~10 pF : charge stockée 30 nC, énergie 45 µJ
+   repères de sécurité usuels (famille CEI 61010, à vérifier dans l'édition en vigueur) : parties accessibles
+   limitées à ~0,5 mA efficace en régime normal, charge < 45 µC, énergie stockée < 350 mJ.
+   → marges : charge ×1500, énergie ×7778 sous les repères.
+   INTERDIT hors laboratoire : transformateur d'enseigne au néon, four à micro-ondes, bobine d'allumage ou
+   toute source capable de débiter > 1 mA sous haute tension. Niveau N1 : PAS de haute tension — utiliser
+   la selle tournante et la lévitation diamagnétique ; le piège électrique relève d'un TP encadré (N2) avec
+   alimentation de TP certifiée à courant limité, capot isolant et interverrouillage.
+
+3bis. Selle tournante (analogue mécanique, sans haute tension) — point matériel sur z = (x² - y²)/(2R_c)
+   rayon de courbure R_c = 30 cm → ω0 = √(g/R_c) = 5.72 rad/s
+   repère tournant : λ² = -Ω² ± ω0² → l'origine est stable si Ω > ω0, soit > 55 tr/min
+   (paramètre équivalent q = ω0²/(2Ω²) < 1/2 ; pour une bille qui ROULE, le seuil est modifié par le moment
+    d'inertie et le frottement finit par l'éjecter lentement : Thompson, Harmon & Ball 2002 ; à mesurer.)
+
+4. Lévitation diamagnétique : condition  B·dB/dz = µ0·ρ·g/|χ|
+   graphite pyrolytique (χ⊥ ≈ -4,5e-4)      B·dB/dz ≥      60 T²/m
+   bismuth (χ ≈ -1,66e-4)                   B·dB/dz ≥     726 T²/m
+   eau / tissus vivants (χ ≈ -9,05e-6)      B·dB/dz ≥    1362 T²/m
+   aimants NdFeB en damier, près de la surface : B ≈ 0,4 T et dB/dz ≈ 150–300 T/m → 60–120 T²/m :
+   suffisant pour le graphite pyrolytique (N1, ~20 €), pas pour l'eau (≈ 1400 T²/m : aimant de Bitter de ~16 T,
+   expérience de la grenouille, Berry & Geim 1997).
+   Théorème d'Earnshaw : pas d'équilibre stable statique pour des charges ou des aimants permanents seuls ;
+   les trois échappatoires réelles sont le champ oscillant (Paul), le diamagnétisme et la rétroaction.
+
+5. Lien C204 : que demanderait le confinement d'un trou noir chargé ? (affirmation NON tenue pour vraie)
+   trou noir de 1e12 kg, charge extrémale Q_max = M·√(4πε0G) = 86 C → Q/m = 8,62e-11 C/kg
+   (électron : 1.76e+11 C/kg ; grain de poussière piégé : ~1e-4 C/kg → 1e+06 fois plus « léger par charge »)
+   champ électrique pour porter son poids (Mg = 9.8e+12 N) : E = g/(Q/m) = 1,14e11 V/m
+   (rigidité diélectrique de l'air 3e6 V/m ; émission de champ des métaux ~1e9–1e10 V/m)
+   piège de Paul à 50 Hz, r0 = 10 cm, q = 0,4 : V = q·r0²·Ω²/(4·Q/m) = 1,15e12 V
+   force magnétique Q·v·B : nulle au repos ; même à v = 1 m/s il faudrait B = Mg/(Qv) = 1,14e11 T
+   → le confinement électromagnétique d'une telle masse est hors de portée de 5 à 12 ordres de grandeur ;
+     piéger une poussière de 1e-11 kg ne démontre rien sur le « logement magnétique d'une singularité ».
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc07_mathieu.png
+--- code de retour calc07_piege_paul_levitation.py : 0
+=== calc08_deviation_lumiere.py ===
+EXP-08 — DÉVIATION DE LA LUMIÈRE : GRAVITATION CONTRE GRADIENT D'INDICE
+========================================================================
+1. Déviation gravitationnelle (champ faible) : α = 4GM/(c²b)
+   Soleil, rayon rasant                             α = 8,49e-6 rad = 1,75e0″ ; déplacement à 10 m : 8,49e-5 m
+   Terre, rayon rasant                              α = 2,78e-9 rad = 5,74e-4″ ; déplacement à 10 m : 2,78e-8 m
+   unité de 227 kg, b = 0,1 m                       α = 6,74e-24 rad = 1,39e-18″ ; déplacement à 10 m : 6,74e-23 m
+   masse de 1e11 kg, b = 1 m                        α = 2,97e-16 rad = 6,13e-11″ ; déplacement à 10 m : 2,97e-15 m
+   masse de 1e12 kg, b = 1 m                        α = 2,97e-15 rad = 6,13e-10″ ; déplacement à 10 m : 2,97e-14 m
+   masse de 1e12 kg, b = 1 cm                       α = 2,97e-13 rad = 6,13e-8″ ; déplacement à 10 m : 2,97e-12 m
+   masse donnant « 2 g à 1 m » (2,9e11 kg), b = 1 m α = 8,73e-16 rad = 1,80e-10″ ; déplacement à 10 m : 8,73e-15 m
+   (Soleil : 1,75″, valeur d'Einstein vérifiée en 1919 puis à ~1e-4 près par VLBI ; Shapiro et al. 2004)
+   pour dévier de  0.1° à b = 1 m il faudrait M = 5,88e23 kg = 0.098 masse terrestre (rayon de Schwarzschild 0.87 mm)
+   pour dévier de  1.0° à b = 1 m il faudrait M = 5,88e24 kg = 0.98 masse terrestre (rayon de Schwarzschild 8.7 mm)
+   pour dévier de 10.0° à b = 1 m il faudrait M = 5,88e25 kg = 9.8 masse terrestre (rayon de Schwarzschild 87 mm)
+
+2. Comparaison en termes d'indice de réfraction effectif
+   gravitation : n - 1 = 2GM/(rc²) = 1,49e-15 à 1 m d'une masse de 1e12 kg
+   air ambiant : n - 1 ≈ 2.7e-04 ; dn/dT ≈ -(n-1)/T = -9,22e-7 K⁻¹
+   gradient thermique transverse de      1 K/m : courbure 9,22e-7 rad/m = 3.1e+08 × la déviation TOTALE par 1e12 kg à 1 m
+   gradient thermique transverse de     20 K/m : courbure 1,84e-5 rad/m = 6.2e+09 × la déviation TOTALE par 1e12 kg à 1 m
+   gradient thermique transverse de    100 K/m : courbure 9,22e-5 rad/m = 3.1e+10 × la déviation TOTALE par 1e12 kg à 1 m
+   gradient thermique transverse de   1000 K/m : courbure 9,22e-4 rad/m = 3.1e+11 × la déviation TOTALE par 1e12 kg à 1 m
+   Une unité revendiquée « à 38–49 °C » dans un habitacle à ~20 °C crée des gradients de 10²–10³ K/m près
+   de ses parois : l'effet thermique dépasse l'effet gravitationnel supposé de 10 à 11 ordres de grandeur.
+
+3. Limite de détection angulaire d'un laser de classe 2 (1 mW, 633 nm, col w0 = 1 mm)
+   flux de photons 3,19e15 /s ; divergence λ/(πw0) = 2,01e-4 rad
+   bruit de photons sur la direction : ≈ divergence/√N = 3,57e-12 rad/√Hz (borne idéale)
+   temps d'intégration pour voir α(1e+11 kg, 1 m) à 3σ : 1,30e9 s = 41 ans (avec modulation parfaite de la masse et zéro dérive — irréaliste)
+   temps d'intégration pour voir α(1e+12 kg, 1 m) à 3σ : 1,30e7 s = 0.41 ans (avec modulation parfaite de la masse et zéro dérive — irréaliste)
+   En pratique la stabilité de pointé (µrad), la turbulence de l'air (~µrad sur 1 m) et les dérives
+   mécaniques fixent le plancher 8 à 10 ordres de grandeur au-dessus : INDÉTECTABLE.
+
+4. Cuve d'eau sucrée stratifiée (sirop n ≈ 1,45 sous eau n = 1,333 ; diffusion D ≈ 5e-10 m²/s)
+   déviation maximale d'un rayon entré horizontalement dans l'eau : arccos(n_eau/n_sirop) = 23.2°
+   après 0.25 j : épaisseur 2√(Dt) =   6.6 mm ; dn/dy max =  10.0 m⁻¹ ; rayon de courbure minimal  13.9 cm ; après 10 cm de trajet : descente  24.8 mm, inclinaison 18.1°
+   après  1.0 j : épaisseur 2√(Dt) =  13.1 mm ; dn/dy max =   5.0 m⁻¹ ; rayon de courbure minimal  27.7 cm ; après 10 cm de trajet : descente  17.3 mm, inclinaison 17.2°
+   après  3.0 j : épaisseur 2√(Dt) =  22.8 mm ; dn/dy max =   2.9 m⁻¹ ; rayon de courbure minimal  48.0 cm ; après 10 cm de trajet : descente  10.3 mm, inclinaison 11.7°
+   après  7.0 j : épaisseur 2√(Dt) =  34.8 mm ; dn/dy max =   1.9 m⁻¹ ; rayon de courbure minimal  73.3 cm ; après 10 cm de trajet : descente   6.7 mm, inclinaison  7.7°
+   Courbure du rayon dans la couche (1 jour) : ~3.6 rad/m, à comparer aux 2,97e-15 rad AU TOTAL
+   produits par 1e12 kg à 1 m : rapport ~1e+14 sur 10 cm de trajet.
+   Un rayon injecté légèrement vers le haut depuis le sirop décrit une arche et retombe (« mirage en cuve »).
+
+5. Mirage thermique (air chaud sous air froid) : angle rasant critique θ_c ≈ √(2·Δn/n), Δn = |dn/dT|·ΔT
+   ΔT =    5 K : θ_c = 3.0 mrad = 0.17°
+   ΔT =   20 K : θ_c = 6.1 mrad = 0.35°
+   ΔT =   40 K : θ_c = 8.6 mrad = 0.49°
+
+Conclusion : une photographie de « faisceau laser courbé » près d'un appareil s'explique sans gravité par
+(a) un gradient d'indice (air chaud, liquide stratifié, verre) ; (b) une fibre ou un guide de lumière ;
+(c) la distorsion de l'objectif ou une pose longue avec déplacement de la source. La déviation
+gravitationnelle par 1e11–1e12 kg à 1 m vaut 3e-16 à 3e-15 rad : ni l'œil ni un appareil photo ne peuvent la voir.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc08_deviation_lumiere.png
+--- code de retour calc08_deviation_lumiere.py : 0
+=== calc09_sagnac_lense_thirring.py ===
+EXP-09 — EFFET SAGNAC ET ENTRAÎNEMENT DES RÉFÉRENTIELS
+========================================================================
+Rotation de la Terre : Ω_T = 7.2921e-05 rad/s = 15.04 °/h
+
+1. Déphasage Sagnac
+   Interféromètre de table 1 m × 1 m, He-Ne 633 nm, plateau tournant à 1 rad/s    Δφ = 1,32e-1 rad (2,11e-2 frange)
+   Même interféromètre, rotation terrestre (latitude 48,85°)                      Δφ = 7,27e-6 rad (1,16e-6 frange)
+   Bobine de fibre 200 m, Ø 10 cm, 1550 nm, plateau à 0,1 rad/s (≈ 5,7 °/s)       Δφ = 2,70e-2 rad (4,30e-3 frange)
+   Bobine de fibre 1 km, Ø 10 cm, 1550 nm, rotation terrestre complète            Δφ = 9,86e-5 rad (1,57e-5 frange)
+   Bobine de fibre 1 km, Ø 10 cm, 1550 nm, 0,01 °/h (classe navigation)           Δφ = 6,56e-8 rad (1,04e-8 frange)
+
+2. Vérifications sur des expériences publiées
+   Michelson-Gale-Pearson (1925) : rectangle 2010 ft × 1113 ft (A = 2.078e+05 m²), latitude 41°46′, λ ≈ 570 nm
+   décalage calculé 4AΩ·sinφ/(λc) = 0.236 frange (publié : 0,236 ± 0,002 calculé ; 0,230 ± 0,005 observé)
+   Gyrolaser « G » (carré 4 m × 4 m, 633 nm, latitude 49,14°) : battement 4AΩ·sinφ/(λP) = 348.6 Hz (valeur connue ≈ 348,5 Hz)
+
+3. Entraînement des référentiels (Lense-Thirring) — ordre de grandeur Ω_LT ~ G·J/(c²r³)
+   Terre, à la surface : G·J/(c²R³) = 1,68e-14 rad/s = 2.3e-10 × Ω_T
+   Gravity Probe B (orbite polaire à 642 km) : entraînement prédit 39,2 mas/an = 6,02e-15 rad/s (mesuré 37,2 ± 7,2) ; précession géodétique 6606,1 mas/an = 1,01e-12 rad/s (mesuré 6601,8 ± 18,3)
+   Trou noir de Kerr EXTRÉMAL (moment cinétique maximal J = G·M²/c), à r = 1 m, formule de champ lointain 2GJ/(c²r³) :
+     M = 1e+11 kg : J_max = 2,23e3 kg·m²/s ; Ω_LT(1 m) = 3,31e-24 rad/s = 2.0e-10 × celui de la Terre au sol
+     M = 1e+12 kg : J_max = 2,23e5 kg·m²/s ; Ω_LT(1 m) = 3,31e-22 rad/s = 2.0e-08 × celui de la Terre au sol
+     (comparaison : un volant de 10 kg, R = 15 cm, à 6000 tr/min porte J = 71 kg·m²/s ; le moment cinétique
+      maximal d'un trou noir de 1e11–1e12 kg est donc celui d'un volant d'inertie industriel, pas davantage)
+   → comme J_max ∝ M², un micro-trou noir ne peut porter qu'un moment cinétique dérisoire : son « champ de Kerr »
+     est indiscernable d'un champ de Schwarzschild au-delà de quelques rayons gravitationnels (~1e-15 m).
+
+4. Sensibilité des gyromètres contre signaux (ordres de grandeur indicatifs)
+   Gyromètre MEMS de smartphone (instabilité de biais ~10 °/h)        4,85e-5 rad/s  [N1]  → Ω_T/résolution = 1.5e+00
+   Gyromètre à fibre de TP / tactique (~1 °/h)                        4,85e-6 rad/s  [N2]  → Ω_T/résolution = 1.5e+01
+   Gyromètre à fibre de navigation (~0,01 °/h)                        4,85e-8 rad/s  [N3 (industrie)]  → Ω_T/résolution = 1.5e+03
+   Gyromètre à fibre stratégique (~1e-4 °/h)                          4,85e-10 rad/s  [N3 (industrie)]  → Ω_T/résolution = 1.5e+05
+   Gyrolaser géant type G (résolution ~1e-8 Ω_T après intégration)    7,29e-13 rad/s  [N3]  → Ω_T/résolution = 1.0e+08
+   Objectif des réseaux de gyrolasers (GINGER : ~1e-9 à 1e-10 Ω_T)    7,29e-15 rad/s  [N3 (projet)]  → Ω_T/résolution = 1.0e+10
+   Lense-Thirring terrestre au sol (1,68e-14 rad/s) : hors de portée de tout gyromètre de laboratoire actuel ;
+   mesuré seulement dans l'espace (LAGEOS/LARES, Gravity Probe B) et dans un pulsar binaire.
+   Lense-Thirring d'un Kerr extrémal de 1e12 kg à 1 m (3,31e-22 rad/s) : 2e+07 fois sous l'objectif des meilleurs projets.
+
+Sagnac ≠ Lense-Thirring : l'effet Sagnac mesure la rotation de l'INSTRUMENT par rapport aux référentiels
+inertiels locaux (cinématique, relativité restreinte suffit) ; l'effet Lense-Thirring est la rotation de ces
+référentiels eux-mêmes, causée par une masse en rotation (relativité générale). Un gyromètre à fibre ne
+« détecte » donc pas un champ de Kerr ; il mesurerait au mieux la rotation mécanique d'un châssis.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc09_rotations.png
+--- code de retour calc09_sagnac_lense_thirring.py : 0
+=== calc10_optique_quantique_causalite.py ===
+EXP-10 — OPTIQUE QUANTIQUE ET CAUSALITÉ : CE QUE LES EXPÉRIENCES MONTRENT VRAIMENT
+========================================================================
+1. Gomme quantique à paires de photons (schéma de type Walborn et al. 2002 / Kim et al. 2000)
+   état : (|chemin 1>|H> + |chemin 2>|V>)/√2 ; le témoin est mesuré en base H/V (chemin connu) ou D/A (chemin effacé)
+   écart maximal entre les distributions marginales du signal selon la base du témoin : 6.5e-19
+   → identiques à la précision machine : le choix (même retardé) fait sur le témoin NE CHANGE RIEN à ce que
+     l'on voit sur le détecteur signal seul. Aucune information ne remonte le temps.
+   visibilité des franges : signal seul 0.000 ; coïncidences |H> 0.000 ; coïncidences |D> 1.000 ; coïncidences |A> 1.000
+   les sous-ensembles D et A portent des franges et des anti-franges complémentaires dont la somme est plate ;
+   on ne peut les séparer qu'en recevant, par un canal classique ordinaire, le résultat obtenu sur le témoin.
+   Monte-Carlo ILLUSTRATIF (200000 paires par configuration) : χ² entre les deux histogrammes du signal seul = 51.3 pour 59 degrés de liberté (compatibles, comme attendu)
+
+2. Gomme « de table » N1 (pointeur laser, fil fin, films polarisants) — explicable par l'optique ondulatoire
+   marqueurs de chemin : polariseurs d'axes θ1, θ2 de part et d'autre du fil → visibilité V = |cos(θ1 - θ2)|
+     θ1 - θ2 =  0° : V = 1.00
+     θ1 - θ2 = 30° : V = 0.87
+     θ1 - θ2 = 45° : V = 0.71
+     θ1 - θ2 = 60° : V = 0.50
+     θ1 - θ2 = 90° : V = 0.00
+   analyseur (« gomme ») à l'angle β derrière des marqueurs croisés : I(x) ∝ ½·[1 + sin(2β)·cos φ(x)]
+     β =     0° : V = 0.00
+     β =  22.5° : V = 0.71
+     β =    45° : V = 1.00
+     β =   -45° : V = 1.00  (anti-franges)
+     β =    90° : V = 0.00
+   polariseurs imparfaits (fuite d'intensité ε = 0.01) : visibilité résiduelle « marqueurs croisés » ≈ 2√ε/(1+ε) = 0.20
+   Avec un laser (état cohérent), il n'y a rien de spécifiquement quantique : c'est une analogie classique.
+
+3. « Courbe temporelle fermée » simulée par téléportation post-sélectionnée (modèle P-CTC, Lloyd et al. 2011)
+   un qubit sort de la boucle, subit U(θ) = exp(-iθ·σx/2) (θ = π : il « s'inverse lui-même », circuit paradoxal), y rentre
+   probabilité que la post-sélection réussisse : P = |Tr U|²/4 = cos²(θ/2)
+     θ =   0.0° : P = 1.000
+     θ =  30.0° : P = 0.933
+     θ =  60.0° : P = 0.750
+     θ =  90.0° : P = 0.500
+     θ = 120.0° : P = 0.250
+     θ = 150.0° : P = 0.067
+     θ = 180.0° : P = 0.000
+   → le cas paradoxal (θ = 180°) a une probabilité exactement nulle : on ne « résout » pas le paradoxe, on
+     JETTE les essais incohérents. Tous les photons vont vers le futur ; la « boucle » est une probabilité
+     conditionnelle. Une téléportation ordinaire sans post-sélection exige un message classique (≤ c).
+     (Calcul de principe ; ce n'est pas une reproduction des données de l'expérience.)
+
+4. Interrupteur quantique (ordre causal « indéfini » : superposition de A∘B et B∘A pilotée par un qubit)
+     A = X, B = X (commutent)       P(contrôle = +) = 1.00 ; P(contrôle = -) = 0.00
+     A = X, B = Z (anticommutent)   P(contrôle = +) = 0.00 ; P(contrôle = -) = 1.00
+     A = Z, B = Z (commutent)       P(contrôle = +) = 1.00 ; P(contrôle = -) = 0.00
+     A = Z, B = X (anticommutent)   P(contrôle = +) = 0.00 ; P(contrôle = -) = 1.00
+   → un seul usage de chaque porte suffit à décider « commutent ou anticommutent », ce qu'aucun circuit à ordre
+     fixe ne fait avec un seul usage de chacune (Chiribella et al. 2013 ; réalisé par Procopio et al. 2015).
+   Mise en garde : dans ces montages, le photon traverse des composants fixes d'un interféromètre, dans un
+   espace-temps ordinaire à structure causale parfaitement définie. « Ordre indéfini » qualifie l'ordre des
+   OPÉRATIONS sur le système, pas l'ordre temporel d'événements ; aucun signal ne précède sa cause.
+
+5. Budget de comptage indicatif pour une gomme à paires de photons (N3)
+   simples 2e+05 /s par voie, efficacité d'annonce 15% → coïncidences vraies 30000 /s ; accidentelles R1·R2·τ = 40 /s (fenêtre 1 ns) → 0.1%
+   fente de balayage (2% du profil) : 600 coïncidences/s par position ; en 10 s : 6000 coups → incertitude statistique 1.3% par point
+   60 positions × 2 bases × 10 s ≈ 20 min d'acquisition (hors alignement : plusieurs jours).
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc10_gomme_quantique.png
+--- code de retour calc10_optique_quantique_causalite.py : 0
+=== calc11_rayonnement.py ===
+EXP-11 — RAYONNEMENT : BRUIT DE FOND RÉEL CONTRE « ÉVENT À RAYONS X » REVENDIQUÉ
+========================================================================
+1. Compteur Geiger du commerce — statistique de Poisson
+   bruit de fond typique ≈ 0.10 µSv/h (0,05–0,2 selon le lieu) → ≈ 20 coups/min ; sensibilité indicative 175 cpm par µSv/h
+   temps de mesure (durée égale AVEC et SANS appareil) pour voir un excès Δ à 3σ : s·Δ·t = 3·√(2bt + s·Δ·t)
+     Δ = 0.01 µSv/h (  10 % du fond) : t =    122.7 min par phase
+     Δ = 0.02 µSv/h (  20 % du fond) : t =     32.0 min par phase
+     Δ = 0.05 µSv/h (  50 % du fond) : t =      5.7 min par phase
+     Δ =  0.1 µSv/h ( 100 % du fond) : t =      1.7 min par phase
+     Δ =  0.5 µSv/h ( 500 % du fond) : t =      0.1 min par phase
+     Δ =  1.0 µSv/h (1000 % du fond) : t =      0.1 min par phase
+   temps mort ~190 µs → saturation vers 5263 coups/s, soit ≈ 1.8 mSv/h : au-delà, un Geiger simple sous-estime (voire affiche zéro).
+   Repères : exposition naturelle moyenne mondiale ≈ 2,4 mSv/an (UNSCEAR) ; limite public 1 mSv/an hors naturel
+   et médical, travailleurs 20 mSv/an (CIPR 103) ; dose létale 50 % (corps entier, aiguë) ≈ 4 Gy.
+
+2. Si 400 MW sortaient réellement sous forme de photons (calcul d'IMPLICATION, pas un fait)
+   cône de demi-angle 30° : concentration ×14.9 par rapport à l'émission isotrope
+   Photons de 100 keV (libre parcours moyen dans l'air ≈ 54 m) — débit de dose en Gy/s :
+      distance | isotrope, sans air | isotrope, air (faisceau étroit) | dans le cône, sans air
+           1 m |             8,10e4 |                          7,96e4 |                 1,21e6
+           3 m |             9,00e3 |                          8,52e3 |                 1,34e5
+          10 m |             8,10e2 |                          6,73e2 |                 1,21e4
+         100 m |             8,10e0 |                          1,27e0 |                 1,21e2
+        1000 m |            8,10e-2 |                        6,99e-10 |                 1,21e0
+       10000 m |            8,10e-4 |                        1,84e-84 |                1,21e-2
+   Photons de 1 MeV (libre parcours moyen dans l'air ≈ 131 m) — débit de dose en Gy/s :
+      distance | isotrope, sans air | isotrope, air (faisceau étroit) | dans le cône, sans air
+           1 m |             9,88e4 |                          9,80e4 |                 1,47e6
+           3 m |             1,10e4 |                          1,07e4 |                 1,64e5
+          10 m |             9,88e2 |                          9,15e2 |                 1,47e4
+         100 m |             9,88e0 |                          4,59e0 |                 1,47e2
+        1000 m |            9,88e-2 |                         4,65e-5 |                 1,47e0
+       10000 m |            9,88e-4 |                        5,27e-37 |                1,47e-2
+   Photons de 10 MeV (libre parcours moyen dans l'air ≈ 406 m) — débit de dose en Gy/s :
+      distance | isotrope, sans air | isotrope, air (faisceau étroit) | dans le cône, sans air
+           1 m |             4,98e4 |                          4,97e4 |                 7,44e5
+           3 m |             5,54e3 |                          5,50e3 |                 8,27e4
+          10 m |             4,98e2 |                          4,86e2 |                 7,44e3
+         100 m |             4,98e0 |                          3,90e0 |                 7,44e1
+        1000 m |            4,98e-2 |                         4,24e-3 |                7,44e-1
+       10000 m |            4,98e-4 |                        9,90e-15 |                7,44e-3
+   (réalité : la diffusion dans l'air — effet de ciel — place la dose entre les deux colonnes « isotrope ».)
+   À 3 m (limite du « champ » revendiqué), 100 keV : 9,00e3 Gy/s → dose létale 50 % (4 Gy) en 0.44 ms ;
+   même fourchette basse 300 MW : 6,75e3 Gy/s. Rapport au bruit de fond naturel (0.1 µSv/h) : 3.2e+14.
+   Distance à laquelle le débit retombe à 1 µSv/h (dix fois le fond) :
+      100 keV : 17 081 km sans atténuation ; 1.04 km avec atténuation en faisceau étroit
+        1 MeV : 18 857 km sans atténuation ; 2.35 km avec atténuation en faisceau étroit
+       10 MeV : 13 396 km sans atténuation ; 6.23 km avec atténuation en faisceau étroit
+
+3. Blindage et évacuation thermique nécessaires
+    100 keV : atténuation requise ×2.9e+14 pour 1 µSv/h à 1 m →   0.5 cm de plomb (coquille sphérique de rayon intérieur 10 cm : 8 kg)
+      1 MeV : atténuation requise ×3.6e+14 pour 1 µSv/h à 1 m →  41.6 cm de plomb (coquille sphérique de rayon intérieur 10 cm : 6 479 kg)
+     10 MeV : atténuation requise ×1.8e+14 pour 1 µSv/h à 1 m →  58.2 cm de plomb (coquille sphérique de rayon intérieur 10 cm : 15 028 kg)
+   Masse revendiquée de l'unité entière : 227 kg.
+   Les 400 MW absorbés par le blindage doivent être évacués : surface de 1.8 m² rayonnant en corps noir → T = 7912 K
+   Les 400 MW absorbés par le blindage doivent être évacués : surface de 10.0 m² rayonnant en corps noir → T = 5154 K
+   ou vaporisation d'eau prise à 20 °C : 154 kg/s (556 tonnes par heure).
+   À l'inverse, un coffre de 1.8 m² à 38 °C dans de l'air à 20 °C dissipe ≈ h·S·ΔT = 324 W (h ≈ 10 W/m²K) : rapport 1e+06 avec 400 MW.
+   À l'inverse, un coffre de 1.8 m² à 49 °C dans de l'air à 20 °C dissipe ≈ h·S·ΔT = 522 W (h ≈ 10 W/m²K) : rapport 8e+05 avec 400 MW.
+
+4. Sensibilité d'un compteur Geiger à une fuite de rayons X (100 keV, à 1 m, isotrope)
+   excès de 0.05 µSv/h ↔ puissance X rayonnée de 6,86e-8 W, soit 1.7e-16 des 400 MW
+   excès de 1.0 µSv/h ↔ puissance X rayonnée de 1,37e-6 W, soit 3.4e-15 des 400 MW
+   → un compteur à ~100 € exclut en moins d'une heure toute fuite supérieure à ~1e-7 W de rayons X :
+     c'est le test le plus discriminant et le moins cher de tout le programme.
+
+Sécurité : aucune source radioactive n'est utilisée. On mesure le bruit de fond naturel (variations avec
+l'altitude, la pluie — descendants du radon lessivés —, les matériaux de construction comme le granite).
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc11_dose_vs_distance.png
+--- code de retour calc11_rayonnement.py : 0
+=== calc12_banc_essai.py ===
+EXP-12 — BANC D'ESSAI « C204 DE SUBSTITUTION » : SENSIBILITÉS, VOTE, PROTOCOLE AVEUGLE
+========================================================================
+1. Voies de mesure : signal impliqué par l'affirmation contre résolution du banc (σ par cycle de 100 s)
+   voie                                               σ unité    signal impliqué   signal/5σ   verdict possible
+   Pesanteur locale (accélération verticale)     2,0e-4 m/s²               4,9e0     4.9e+03   réfutable en 1 cycle
+   Masse de l'appareil                           1,0e-1 kg                1,0e11     2.0e+11   réfutable en 1 cycle
+   Marche d'une horloge embarquée               1,0e-11 (Δf/f)             8,8e4     1.8e+15   réfutable en 1 cycle
+   Décalage gravitationnel d'horloge            1,0e-11 (Δf/f)           7,4e-16     1.5e-05   NON testable par ce banc
+   Champ magnétique                              2,0e-8 T                 3,7e-5     3.7e+02   réfutable en 1 cycle
+   Rayonnement X/gamma                          1,4e-11 Sv/s               9,0e3     1.3e+14   réfutable en 1 cycle
+   Température de surface                        1,0e-1 K                  1,8e1     3.6e+01   réfutable en 1 cycle
+   Puissance thermique dissipée                   5,0e0 W                  3,0e8     1.2e+07   réfutable en 1 cycle
+   Déviation d'un faisceau laser                 5,0e-6 rad               1,7e-2     7.0e+02   réfutable en 1 cycle
+   Déviation gravitationnelle réelle             5,0e-6 rad              3,0e-15     1.2e-10   NON testable par ce banc
+   Rotation / entraînement                       5,0e-6 rad/s            3,3e-22     1.3e-17   NON testable par ce banc
+   Lecture : les affirmations FORTES (2 g, 10 ans/heure, rayons X, 300–500 MW, lumière courbée) dépassent la
+   résolution du banc de 3 à 15 ordres de grandeur → un résultat nul les réfute sans ambiguïté. Les effets
+   relativistes RÉELS qu'aurait une masse de 1e12 kg (décalage d'horloge 7e-16, déviation 3e-15 rad,
+   entraînement 3e-22 rad/s) sont en revanche hors de portée : le banc ne teste pas la relativité générale,
+   il teste des affirmations d'ingénierie.
+
+   Plus petit effet détectable à 5σ après N cycles marche/arrêt appariés (bruit blanc entre cycles) :
+     Pesanteur locale (accélération verticale)  N=1  : 1,4e-3 m/s² ; N=16 : 3,5e-4 m/s² ; N=100: 1,4e-4 m/s² ;
+     Champ magnétique                           N=1  : 1,4e-7 T ; N=16 : 3,5e-8 T ; N=100: 1,4e-8 T ;
+     Rayonnement X/gamma                        N=1  : 9,8e-11 Sv/s ; N=16 : 2,5e-11 Sv/s ; N=100: 9,8e-12 Sv/s ;
+     Température de surface                     N=1  : 7,1e-1 K ; N=16 : 1,8e-1 K ; N=100: 7,1e-2 K ;
+     Puissance thermique dissipée               N=1  : 3,5e1 W ; N=16 : 8,8e0 W ; N=100: 3,5e0 W ;
+   → en pesanteur, 100 cycles : toute masse cachée > 2,12e6 kg à 1 m serait vue (accéléromètres MEMS) ;
+     avec un gravimètre relatif de terrain (5 µGal), ce seuil descend à ~530 kg à 1 m.
+
+2. Enregistrement à trois voies redondantes, vote majoritaire (2 parmi 3)
+   probabilité qu'une donnée votée soit fausse, pour des pannes INDÉPENDANTES de probabilité p par voie :
+   P = 3p²(1-p) + p³
+     p = 1e-01 → P = 2.80e-02  (gain ×4)
+     p = 1e-02 → P = 2.98e-04  (gain ×34)
+     p = 1e-03 → P = 3.00e-06  (gain ×334)
+     p = 1e-04 → P = 3.00e-08  (gain ×3334)
+   Si une fraction β = 2% des pannes est de MODE COMMUN (alimentation, parasite électromagnétique de l'appareil
+   testé, erreur logicielle partagée), P ≈ β·p + 3[(1-β)p]² : le mode commun domine dès que p < β/3.
+     p = 1e-02 → P ≈ 4.88e-04
+     p = 1e-03 → P ≈ 2.29e-05
+   → d'où : trois enregistreurs de conception DIFFÉRENTE, alimentations séparées, isolation optique, horodatage
+     par 1PPS GPS, et pour les grandeurs continues la MÉDIANE des trois voies plutôt qu'un vote binaire.
+   Remarque : la méthode de Borda est une règle de vote par classement (théorie du choix social), non un
+   protocole de tolérance aux pannes ; avec 3 votants et 2 options elle se réduit au vote majoritaire. Le
+   « protocole de Borda » des calculateurs revendiqués n'a pas d'équivalent identifié en sûreté de fonctionnement.
+
+3. Protocole en aveugle : N cycles, état marche/arrêt tiré au sort par un tiers, clé scellée
+   seuil global 5σ (p = 2.9e-07) réparti sur 11 voies (Bonferroni) → seuil par voie z = 5.44
+   puissance statistique (probabilité de détecter) — Monte-Carlo ILLUSTRATIF, bruit gaussien unité par cycle :
+     effet (en σ par cycle) | N =  16 | N =  32 | N =  64 | N = 128
+                        0.0 |   0.000 |   0.000 |   0.000 |   0.000 | 
+                        0.5 |   0.000 |   0.000 |   0.000 |   0.004 | 
+                        1.0 |   0.000 |   0.004 |   0.072 |   0.589 | 
+                        2.0 |   0.063 |   0.557 |   0.995 |   1.000 | 
+                        5.0 |   1.000 |   1.000 |   1.000 |   1.000 | 
+   (ligne « effet 0 » = taux de fausses alarmes : nul à la précision de la simulation)
+   Avec 64 cycles de 100 s (≈ 1,8 h ; 3,6 h avec les temps morts), tout effet ≥ 2σ par cycle est détecté à > 99 % ;
+   seuil de détection = 5.44 × 0.25σ = 1.36σ par cycle ; un résultat nul donne une borne
+   supérieure à 95 % de ≈ 1,64 × 0.25σ = 0.41σ par cycle sur chaque voie.
+
+4. Budget matériel indicatif (ordres de grandeur 2026, hors main-d'œuvre ; prix à confirmer)
+   N1 — mini-banc (≤ 500 €) : total ≈ 490 €
+             0 €  smartphone avec phyphox (accéléromètre, magnétomètre, gyromètre) — déjà possédé
+           110 €  compteur Geiger du commerce avec sortie de données
+           120 €  2 accéléromètres MEMS bas bruit + microcontrôleurs enregistreurs
+            45 €  6 sondes de température numériques + enregistreur
+            35 €  module GPS avec sortie 1PPS (horodatage commun)
+            40 €  pointeur laser classe 2 + webcam (position du faisceau)
+            80 €  pèse-personne ×4 ou plateau de pesée d'occasion
+            60 €  batteries, câbles, boîtier
+   N2 — banc complet de salle de TP : total ≈ 12 000 €
+           600 €  3 chaînes d'acquisition indépendantes (3 conceptions différentes) + stockage
+           700 €  3 accéléromètres triaxiaux bas bruit + 1 sismomètre/géophone
+           900 €  GPSDO + rubidium d'occasion + compteur d'intervalles de temps
+         4 000 €  horloge atomique miniature (CSAC), optionnelle
+           900 €  3 magnétomètres (dont 1 fluxgate triaxial)
+           900 €  2 Geiger de tubes différents + spectromètre à scintillation
+           700 €  12 sondes Pt100/thermistances + caméra thermique d'entrée de gamme
+           350 €  plateau de pesée 600 kg / 0,1 kg étalonné
+           250 €  laser classe 2 + détecteur de position
+         1 500 €  gyromètre à fibre de TP ou MEMS tactique
+         1 200 €  coffre, blindage CEM, isolations optiques, alimentations séparées
+   N3 — version laboratoire (compléments) : total ≈ 230 000 €
+       100 000 €  gravimètre relatif de terrain (achat ; ou prêt d'un laboratoire de géophysique)
+        60 000 €  étalon à césium ou accès à un maser + lien de temps étalonné
+        50 000 €  spectromètre gamma HPGe et chambre d'ionisation
+        20 000 €  magnétomètre à pompage optique
+
+Critères de réfutation (fixés AVANT les essais) : une affirmation est réfutée si, clé d'aveugle ouverte, la
+différence marche-arrêt de la voie correspondante est compatible avec zéro ET que la borne supérieure à 95 %
+est inférieure d'au moins un facteur 100 au signal impliqué. Une « détection » n'est retenue que si elle
+dépasse le seuil corrigé sur ≥ 2 capteurs de conception différente, suit la clé aléatoire, disparaît avec le
+leurre, et survit à l'échange des capteurs. Même alors, elle établirait une anomalie instrumentale à expliquer,
+PAS un voyage dans le temps.
+figure : <copie_jetable>/C204_repro/07_experiences/calculs/figures/calc12_banc_essai.png
+--- code de retour calc12_banc_essai.py : 0

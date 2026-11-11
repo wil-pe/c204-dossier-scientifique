@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SyF5mrcEvyfMUsfbNOlLyoncsJo</id>
+  <title>arXiv Query: search_query=&amp;id_list=1612.06180&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-11T02:52:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1612.06180" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06180v1</id>
+    <title>Observation of superradiance in a vortex flow</title>
+    <updated>2016-12-19T13:52:42Z</updated>
+    <link href="https://arxiv.org/abs/1612.06180v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.06180v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wave scattering phenomena are ubiquitous to almost all Sciences, from Biology to Physics. When an incident wave scatters off of an obstacle, it is partially reflected and partially transmitted. Since the scatterer absorbs part of the incident energy, the reflected wave carries less energy than the incident one. However, if the obstacle is rotating, this process can be reversed and waves can be amplified, extracting energy from the scatterer. Even though this phenomenon, known as superradiance, has been thoroughly analysed in several theoretical scenarios (from eletromagnetic radiation scattering on a rotating cylinder to gravitational waves incident upon a rotating black hole), it has never been observed. Here we describe in detail the first laboratory detection of superradiance. We observed that plane waves propagating on the surface of water are amplified after being scattered by a draining vortex. The maximum amplification measured in the experiment was 20%, obtained for 3.70 Hz waves, in a 6.25 cm deep fluid. Our results are consistent with superradiant scattering caused by rapid rotation. In particular, a draining fluid can transfer part of its rotational energy to incident low-frequency waves. Our experimental findings will shed new light on Black Hole Physics, since shallow water waves scattering on a draining fluid constitute an analogue of a black hole. We believe, especially in view of the recent observations of gravitational waves, that our results will motivate further research (both theoretical and experimental) on the observation of superradiance of gravitational waves.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-19T13:52:42Z</published>
+    <arxiv:comment>22 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Nature Physics 13, 833-836 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Theo Torres</name>
+    </author>
+    <author>
+      <name>Sam Patrick</name>
+    </author>
+    <author>
+      <name>Antonin Coutant</name>
+    </author>
+    <author>
+      <name>Mauricio Richartz</name>
+    </author>
+    <author>
+      <name>Edmund W. Tedford</name>
+    </author>
+    <author>
+      <name>Silke Weinfurtner</name>
+    </author>
+    <arxiv:doi>10.1038/nphys4151</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nphys4151" title="doi"/>
+  </entry>
+</feed>

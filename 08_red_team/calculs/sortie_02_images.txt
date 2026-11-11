@@ -1,0 +1,76 @@
+
+================================================================================================
+1. Structure des fichiers
+================================================================================================
+MT7010__JT1.jpg                              (250, 183) RGB   14039 o | Q≈76.8 | 4:2:2 | 2.45 bit/px | EXIF=False | APP0[JFIF] DQT SOF2(progressif) DHT SOS
+MT7011__JT2.jpeg                             (239, 171) RGB    6368 o | Q≈50.9 | 4:2:0 | 1.25 bit/px | EXIF=False | DQT DQT SOF0(baseline) DHT DHT DHT
+MT7012__JT3.jpg                              (472, 338) RGB   19694 o | Q≈74.7 | 4:2:0 | 0.99 bit/px | EXIF=False | DQT SOF0(baseline) DHT SOS
+MT7013__c204unit_johntitor.jpg               (477, 440) RGB   18399 o | Q≈50.9 | 4:2:0 | 0.7 bit/px | EXIF=False | DQT DQT SOF2(progressif) DHT DHT SOS
+MT7014__johntitor_schematic.jpg              (1023, 782) L     88734 o | Q≈76.8 | 4:2:2 | 0.89 bit/px | EXIF=False | APP0[JFIF] DQT SOF2(progressif) DHT SOS
+MT7015__johtitor_timemachinemanual.jpeg      (477, 619) L      7432 o | Q≈50.9 | 4:4:4 | 0.2 bit/px | EXIF=False | DQT SOF0(baseline) DHT DHT SOS
+MT7016__timetravel_0_1.jpg                   (463, 499) RGB   41031 o | Q≈76.8 | 4:2:2 | 1.42 bit/px | EXIF=False | APP0[JFIF] DQT SOF2(progressif) DHT SOS
+MT7017__c204_unit_instructions.jpeg          (415, 580) L     23146 o | Q≈50.9 | 4:4:4 | 0.77 bit/px | EXIF=False | DQT SOF0(baseline) DHT DHT SOS
+MT7018__singularities1.jpg                   (318, 369) RGB   21968 o | Q≈76.8 | 4:2:2 | 1.5 bit/px | EXIF=False | APP0[JFIF] DQT SOF2(progressif) DHT SOS
+MT7019__johntitor_schematic.jpg              (1023, 782) L     88734 o | Q≈76.8 | 4:2:2 | 0.89 bit/px | EXIF=False | APP0[JFIF] DQT SOF2(progressif) DHT SOS
+MT7020__worldline_divergence.png             (731, 825) P     26321 o | PNG palette=True {'transparency': "b'\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x0c\\r\\x0e\\x0f"}
+MT7021__Titor_insignia.jpg                   (283, 262) L     25520 o | Q≈79.4 | 4:4:4 | 2.75 bit/px | EXIF=False | APP0[JFIF] COM[Created by A] SOF0(baseline) DQT DHT DHT
+
+================================================================================================
+2. Analyse des niveaux d'erreur (ELA, recompression Q=90)
+================================================================================================
+MT7010__JT1.jpg                              ELA moy= 3.07 max=  34 | corrélation ELA/contraste local = +0.80 | blocs 16 px à résidu > 6 sigma : 0/165
+MT7011__JT2.jpeg                             ELA moy= 0.70 max=  10 | corrélation ELA/contraste local = +0.61 | blocs 16 px à résidu > 6 sigma : 1/140
+MT7012__JT3.jpg                              ELA moy= 0.45 max=   7 | corrélation ELA/contraste local = +0.61 | blocs 16 px à résidu > 6 sigma : 22/609
+MT7013__c204unit_johntitor.jpg               ELA moy= 0.23 max=   7 | corrélation ELA/contraste local = +0.91 | blocs 16 px à résidu > 6 sigma : 2/783
+MT7014__johntitor_schematic.jpg              ELA moy= 0.34 max=  10 | corrélation ELA/contraste local = +0.93 | blocs 16 px à résidu > 6 sigma : 609/3024
+MT7015__johtitor_timemachinemanual.jpeg      ELA moy= 0.08 max=  13 | corrélation ELA/contraste local = +0.91 | blocs 16 px à résidu > 6 sigma : 63/1102
+MT7016__timetravel_0_1.jpg                   ELA moy= 0.71 max=  18 | corrélation ELA/contraste local = +0.66 | blocs 16 px à résidu > 6 sigma : 0/868
+MT7017__c204_unit_instructions.jpeg          ELA moy= 0.29 max=  10 | corrélation ELA/contraste local = +0.75 | blocs 16 px à résidu > 6 sigma : 15/900
+MT7018__singularities1.jpg                   ELA moy= 0.57 max=  12 | corrélation ELA/contraste local = +0.77 | blocs 16 px à résidu > 6 sigma : 0/437
+MT7019__johntitor_schematic.jpg              ELA moy= 0.34 max=  10 | corrélation ELA/contraste local = +0.93 | blocs 16 px à résidu > 6 sigma : 609/3024
+MT7021__Titor_insignia.jpg                   ELA moy= 0.54 max=   7 | corrélation ELA/contraste local = +0.94 | blocs 16 px à résidu > 6 sigma : 0/272
+
+================================================================================================
+3. Bruit local (résidu médian 3x3) sur les photos : zones « étiquettes/bandes » vs reste
+================================================================================================
+MT7010__JT1.jpg              pixels jaunes  0.2 % | sigma résidu : jaune 10.57 / reste 12.25 | gradient p99 : bandes 717 / reste 837
+      segments de bandes jaunes (x0, x1, centre) en px : [(69, 74, 70.9)]
+MT7011__JT2.jpeg             pixels jaunes  2.1 % | sigma résidu : jaune 9.52 / reste 9.14 | gradient p99 : bandes 725 / reste 595
+      segments de bandes jaunes (x0, x1, centre) en px : [(51, 61, 55.5), (120, 133, 126.0)]
+MT7012__JT3.jpg              pixels jaunes  0.7 % | sigma résidu : jaune 4.01 / reste 2.79 | gradient p99 : bandes 471 / reste 357
+      segments de bandes jaunes (x0, x1, centre) en px : [(217, 232, 224.3), (306, 322, 313.5), (406, 410, 407.5)]
+
+================================================================================================
+4. DOC-005 (écorché) : inclinaison du titre, de l'en-tête et du bord de page
+================================================================================================
+   titre (Arial gras, 2 lignes)      : pente = +0.55°  (19 lettres, résidu 0.68 px)
+   titre (Arial gras, 2 lignes)      : pente = +0.45°  (15 lettres, résidu 0.62 px)
+   en-tête RESTRICTED / FILE (Courier): pente = +7.32°  (10 lettres, résidu 2.18 px)
+   en-tête RESTRICTED / FILE (Courier): pente = -0.00°  (5 lettres, résidu 0.00 px)
+   bord supérieur : non mesurable
+   rangée de repères du bas (y≈700)  : pente = -0.08°  (9 pastilles)
+   rangée de repères du bas (y≈655)  : pente = +0.01°  (9 pastilles)
+   rangée de repères du haut (y≈180) : pente = +0.01°  (9 pastilles)
+   rangée de repères du haut (y≈225) : pente = +0.16°  (8 pastilles)
+
+================================================================================================
+5. Proportions : DOC-007 (vue de dessus) et photos
+================================================================================================
+   rectangles candidats (x, y, l, h) : [(50, 174, 355, 109)]
+      L/P = 3.26
+   disques noirs (cx, cy, l, h, aire) : []
+   zones à forte alternance (bandes hachurées / panneau de texte) dans le premier rectangle, en fraction de L : [(0.006, 0.115), (0.231, 0.265), (0.304, 0.327), (0.408, 0.515), (0.617, 0.685)]
+
+================================================================================================
+6. Agrandissements de contrôle écrits dans figures/
+================================================================================================
+    zoom_DOC009_texte_interne.png (1080, 280)
+    zoom_DOC009_gauche_reperes.png (660, 1260)
+    zoom_DOC009_repere_droit.png (560, 560)
+    zoom_DOC009_legende.png (1668, 414)
+    zoom_DOC006_dates.png (1542, 420)
+    zoom_DOC005_entete_titre.png (1980, 195)
+    zoom_JT3_couvercle.png (1510, 650)
+    zoom_JT3_telecommande.png (852, 900)
+
+-> resultats_images.json écrit.

@@ -1,0 +1,149 @@
+{
+ "grille": {
+  "scores": {
+   "A. Piège de Paul à grain chargé (air)": 44.285714285714285,
+   "B. Gyromètre Sagnac à fibre (ondes contrarotatives)": 92.85714285714286,
+   "C. Cellule à vortex de vidange (analogue de Kerr)": 52.85714285714286,
+   "D. Rotor en lévitation magnétique asservie": 52.85714285714286,
+   "E. Lévitation diamagnétique passive (graphite)": 48.57142857142857,
+   "F. Télescope à muons cosmiques (2 scintillateurs)": 88.57142857142857
+  },
+  "ordre": [
+   "B. Gyromètre Sagnac à fibre (ondes contrarotatives)",
+   "F. Télescope à muons cosmiques (2 scintillateurs)",
+   "C. Cellule à vortex de vidange (analogue de Kerr)",
+   "D. Rotor en lévitation magnétique asservie",
+   "E. Lévitation diamagnétique passive (graphite)",
+   "A. Piège de Paul à grain chargé (air)"
+  ],
+  "stable_pm1": true
+ },
+ "muons": {
+  "intensite_verticale_m2_s_sr": 70.0,
+  "statut_intensite": "valeur usuelle citée de mémoire (PDG), à relire",
+  "geometries": {
+   "d=5cm": {
+    "G_cm2_sr": 13.017991194554691,
+    "demi_angle_max_deg": 54.735610317245346,
+    "taux_Hz": 0.09112593836188283,
+    "par_heure": 328.0533781027782,
+    "par_48h": 15746.562148933353,
+    "incertitude_stat_1h_pct": 5.521127073103139
+   },
+   "d=10cm": {
+    "G_cm2_sr": 5.029228001775326,
+    "demi_angle_max_deg": 35.264389682754654,
+    "taux_Hz": 0.035204596012427286,
+    "par_heure": 126.73654564473823,
+    "par_48h": 6083.354190947435,
+    "incertitude_stat_1h_pct": 8.882783294411759
+   },
+   "d=15cm": {
+    "G_cm2_sr": 2.5036624700480523,
+    "demi_angle_max_deg": 25.239401820678914,
+    "taux_Hz": 0.017525637290336366,
+    "par_heure": 63.092294245210915,
+    "par_48h": 3028.4301237701243,
+    "incertitude_stat_1h_pct": 12.589597337327861
+   }
+  },
+  "c_tau_m": 658.6383641485438,
+  "table_energie": [
+   {
+    "E_GeV": 1.0,
+    "gamma": 9.46446502956124,
+    "longueur_km": 6.1987667778523265,
+    "survie_15km": 0.0889361875198623,
+    "survie_15km_sans_dilatation": 1.2860724751748675e-10
+   },
+   {
+    "E_GeV": 2.0,
+    "gamma": 18.92893005912248,
+    "longueur_km": 12.449909708468079,
+    "survie_15km": 0.29974354649797,
+    "survie_15km_sans_dilatation": 1.2860724751748675e-10
+   },
+   {
+    "E_GeV": 4.0,
+    "gamma": 37.85786011824496,
+    "longueur_km": 24.925938708105164,
+    "survie_15km": 0.5478341124749937,
+    "survie_15km_sans_dilatation": 1.2860724751748675e-10
+   },
+   {
+    "E_GeV": 10.0,
+    "gamma": 94.64465029561238,
+    "longueur_km": 62.333118016016726,
+    "survie_15km": 0.7861225816000228,
+    "survie_15km_sans_dilatation": 1.2860724751748675e-10
+   }
+  ],
+  "rapport_sans_dilatation_dh=1000": 4.564385360465292,
+  "rapport_sans_dilatation_dh=2000": 20.833613718829874,
+  "rapport_sans_dilatation_dh=3000": 95.09264146381595,
+  "borne_gamma_selon_R_2000m": {
+   "1.3": 11.573861755337376,
+   "1.5": 7.489097497576689,
+   "2.0": 4.380841200327013,
+   "3.0": 2.76400305895801
+  },
+  "signif_R1.5_vs_R1_1h": 3.5600076635414464,
+  "signif_R1.5_vs_R1_6h": 8.720202256074275,
+  "signif_R1.5_vs_R1_24h": 17.44040451214855
+ },
+ "sagnac": {
+  "rotation terrestre, composante verticale à 45°": {
+   "Omega_rad_s": 5.1563039656921404e-05,
+   "dephasage_rad": 2.440248322166423e-05,
+   "decalage_temporel_s": 2.0080066637598993e-20
+  },
+  "rotation terrestre complète (axe de la bobine parallèle à l'axe du monde)": {
+   "Omega_rad_s": 7.292115e-05,
+   "dephasage_rad": 3.4510322727659456e-05,
+   "decalage_temporel_s": 2.839750257224801e-20
+  },
+  "virage du véhicule à 10 °/s": {
+   "Omega_rad_s": 0.17453292519943295,
+   "dephasage_rad": 0.08259863668133152,
+   "decalage_temporel_s": 6.796792415222286e-17
+  },
+  "facteur_d_echelle_s": 0.4732553275374765,
+  "limite_grenaille": {
+   "P_detectee_W": 1e-05,
+   "dphi_rad_rtHz": 1.1320620143471567e-07,
+   "marche_aleatoire_deg_rth": 0.0008223346484867726,
+   "temps_pour_voir_rotation_terrestre_3sigma_s": 0.00019369343454203055
+  },
+  "role_direction": {
+   "y_est": -1.3924592475597352e-13,
+   "y_ouest": 1.2473683066082988e-13,
+   "D_est_ns_h": 0.5012853291215047,
+   "D_ouest_ns_h": -0.44905259037898754
+  }
+ },
+ "piege_de_Paul": {
+  "q_sur_m_C_kg": 0.0011331831948142948,
+  "tension_crete_V_r0_5mm": 217.7407070245774,
+  "tension_crete_V_r0_10mm": 870.9628280983096,
+  "champ_sustentation_V_m": 8654.072920316388,
+  "limite_TBTS_V_alternatif": 50,
+  "hypotheses": "grain 30 µm, 1e5 e [HYP, charge élevée], anneau r0 = 5 ou 10 mm, 50 Hz, q_z = 0,4 ; ordre de grandeur ; limite de très basse tension de sécurité (50 V alternatif) citée de mémoire, à relire dans la norme"
+ },
+ "rotor": {
+  "masse_kg": 0.5137812985558309,
+  "J_kg_m2_s": 0.8070457765474115,
+  "Omega_LT_a_10cm_rad_s": 1.1986502562312812e-24,
+  "vitesse_peripherique_m_s": 157.07963267948966,
+  "energie_cinetique_J": 2535.4090827120176
+ },
+ "cellule_vortex": {
+  "profondeur_m": 0.008,
+  "celerite_m_s": 0.2800949838893942,
+  "debit_L_min": 1.0,
+  "r_horizon_mm": 1.183786990769706,
+  "r_ergo_mm": 15.0,
+  "circulation_m2_s": 0.004188320603721109,
+  "rotation_a_r_ergo_tr_s": 2.962630788159315,
+  "temperature_Hawking_analogue_K": 2.876447052480391e-10
+ }
+}

@@ -1,0 +1,375 @@
+{
+  "pente_par_metre": 1.0911369672198217e-16,
+  "table_signal": [
+    {
+      "dh_m": 0.001,
+      "y": 1.0911369672198218e-19,
+      "ns_par_jour": 9.42742339677926e-06,
+      "ns_par_an": 0.0034433663956736247
+    },
+    {
+      "dh_m": 0.01,
+      "y": 1.0911369672198218e-18,
+      "ns_par_jour": 9.427423396779261e-05,
+      "ns_par_an": 0.03443366395673625
+    },
+    {
+      "dh_m": 0.33,
+      "y": 3.600751991825412e-17,
+      "ns_par_jour": 0.0031110497209371557,
+      "ns_par_an": 1.1363109105722962
+    },
+    {
+      "dh_m": 1.0,
+      "y": 1.0911369672198217e-16,
+      "ns_par_jour": 0.00942742339677926,
+      "ns_par_an": 3.4433663956736247
+    },
+    {
+      "dh_m": 10.0,
+      "y": 1.0911369672198218e-15,
+      "ns_par_jour": 0.09427423396779261,
+      "ns_par_an": 34.433663956736254
+    },
+    {
+      "dh_m": 100.0,
+      "y": 1.0911369672198217e-14,
+      "ns_par_jour": 0.9427423396779259,
+      "ns_par_an": 344.3366395673624
+    },
+    {
+      "dh_m": 450.0,
+      "y": 4.910116352489198e-14,
+      "ns_par_jour": 4.242340528550667,
+      "ns_par_an": 1549.514878053131
+    },
+    {
+      "dh_m": 1000.0,
+      "y": 1.0911369672198217e-13,
+      "ns_par_jour": 9.42742339677926,
+      "ns_par_an": 3443.366395673624
+    },
+    {
+      "dh_m": 1650.0,
+      "y": 1.8003759959127058e-13,
+      "ns_par_jour": 15.555248604685778,
+      "ns_par_an": 5681.55455286148
+    },
+    {
+      "dh_m": 3000.0,
+      "y": 3.2734109016594654e-13,
+      "ns_par_jour": 28.28227019033778,
+      "ns_par_an": 10330.099187020875
+    },
+    {
+      "dh_m": 4810.0,
+      "y": 5.248368812327343e-13,
+      "ns_par_jour": 45.34590653850824,
+      "ns_par_an": 16562.592363190135
+    }
+  ],
+  "pound_rebka": {
+    "aller": 2.455058176244599e-15,
+    "aller_retour": 4.910116352489198e-15
+  },
+  "sejour_altitude": {
+    "dh_m": 1340.0,
+    "T_s": 151200.0,
+    "avance_ns": 22.107307865447364
+  },
+  "cinematique": [
+    {
+      "cas": "marche (1,4 m/s)",
+      "v": 1.4,
+      "y": -1.090397054932546e-17
+    },
+    {
+      "cas": "voiture (30 m/s)",
+      "v": 30.0,
+      "y": -5.0069252522412836e-15
+    },
+    {
+      "cas": "TGV (83 m/s)",
+      "v": 83.0,
+      "y": -3.832523118076689e-14
+    },
+    {
+      "cas": "avion de ligne (250 m/s)",
+      "v": 250.0,
+      "y": -3.4770314251675577e-13
+    },
+    {
+      "cas": "ISS (7660 m/s)",
+      "v": 7660.0,
+      "y": -3.264270481448985e-10
+    }
+  ],
+  "hafele_keating_modele": {
+    "est_ns": [
+      145.65369148023956,
+      -189.84125580711685,
+      -44.1875643268773
+    ],
+    "ouest_ns": [
+      171.814791406302,
+      120.95892182888349,
+      292.7737132351855
+    ],
+    "publie_predit_ns": {
+      "est": [
+        -40,
+        23
+      ],
+      "ouest": [
+        275,
+        21
+      ]
+    },
+    "publie_observe_ns": {
+      "est": [
+        -59,
+        10
+      ],
+      "ouest": [
+        273,
+        7
+      ]
+    }
+  },
+  "integration": {
+    "CSAC (césium miniature)": {
+      "a": 3e-10,
+      "plancher": 5e-12,
+      "derive_par_s": 3.472222222222222e-16,
+      "cout": "≈ 2–6 k€ neuf",
+      "durees_s": {
+        "1 mm": null,
+        "1 cm": null,
+        "1 m": null,
+        "100 m": null,
+        "1000 m": null,
+        "3000 m": null
+      }
+    },
+    "OCXO seul (GPSDO en maintien)": {
+      "a": 0.0,
+      "plancher": 1e-12,
+      "derive_par_s": 5.787037037037038e-15,
+      "cout": "150–400 € (GPSDO d'occasion)",
+      "durees_s": {
+        "1 mm": null,
+        "1 cm": null,
+        "1 m": null,
+        "100 m": null,
+        "1000 m": null,
+        "3000 m": null
+      }
+    },
+    "Rubidium d'occasion (FE-5680A, LPRO, PRS10)": {
+      "a": 2e-11,
+      "plancher": 3e-13,
+      "derive_par_s": 1.9290123456790124e-17,
+      "cout": "100–1500 €",
+      "durees_s": {
+        "1 mm": null,
+        "1 cm": null,
+        "1 m": null,
+        "100 m": null,
+        "1000 m": null,
+        "3000 m": null
+      }
+    },
+    "Césium à jet 5071A (tube standard)": {
+      "a": 2.7e-11,
+      "plancher": 5e-14,
+      "derive_par_s": 0.0,
+      "cout": "plusieurs dizaines de k€ ; occasion variable",
+      "durees_s": {
+        "1 mm": null,
+        "1 cm": null,
+        "1 m": null,
+        "100 m": null,
+        "1000 m": null,
+        "3000 m": 213796.20895022326
+      }
+    },
+    "Césium à jet 5071A (haute performance)": {
+      "a": 8.5e-12,
+      "plancher": 1e-14,
+      "derive_par_s": 0.0,
+      "cout": "plusieurs dizaines de k€",
+      "durees_s": {
+        "1 mm": null,
+        "1 cm": null,
+        "1 m": null,
+        "100 m": null,
+        "1000 m": 128824.95516931349,
+        "3000 m": 12589.254117941662
+      }
+    },
+    "Maser à hydrogène actif": {
+      "a": 1e-13,
+      "plancher": 1e-15,
+      "derive_par_s": 1.1574074074074074e-21,
+      "cout": "> 200 k€",
+      "durees_s": {
+        "1 mm": null,
+        "1 cm": null,
+        "1 m": null,
+        "100 m": 1819.7008586099844,
+        "1000 m": 15.488166189124811,
+        "3000 m": 1.6982436524617444
+      }
+    },
+    "Horloge à réseau optique (labo)": {
+      "a": 1e-16,
+      "plancher": 1e-18,
+      "derive_par_s": 0.0,
+      "cout": "laboratoire de métrologie",
+      "durees_s": {
+        "1 mm": null,
+        "1 cm": null,
+        "1 m": 15.488166189124811,
+        "100 m": 1.0,
+        "1000 m": 1.0,
+        "3000 m": 1.0
+      }
+    }
+  },
+  "aller_retour": [
+    {
+      "horloge": "Rubidium d'occasion (FE-5680A, LPRO, PRS10)",
+      "dh_m": 1340.0,
+      "T_h": 42.0,
+      "signal_ns": 22.107307865447364,
+      "bruit_ns": 65.08470788134491,
+      "S_B": 0.33966977167280077
+    },
+    {
+      "horloge": "Rubidium d'occasion (FE-5680A, LPRO, PRS10)",
+      "dh_m": 3000.0,
+      "T_h": 48.0,
+      "signal_ns": 56.56454038067556,
+      "bruit_ns": 74.24965454465091,
+      "S_B": 0.7618155360798319
+    },
+    {
+      "horloge": "Césium à jet 5071A (tube standard)",
+      "dh_m": 1340.0,
+      "T_h": 42.0,
+      "signal_ns": 22.107307865447364,
+      "bruit_ns": 18.296360293785213,
+      "S_B": 1.2082899281862431
+    },
+    {
+      "horloge": "Césium à jet 5071A (tube standard)",
+      "dh_m": 3000.0,
+      "T_h": 48.0,
+      "signal_ns": 56.56454038067556,
+      "bruit_ns": 20.031015950270724,
+      "S_B": 2.8238478028824634
+    },
+    {
+      "horloge": "Césium à jet 5071A (haute performance)",
+      "dh_m": 1340.0,
+      "T_h": 42.0,
+      "signal_ns": 22.107307865447364,
+      "bruit_ns": 5.14010583548627,
+      "S_B": 4.3009440997932185
+    },
+    {
+      "horloge": "Césium à jet 5071A (haute performance)",
+      "dh_m": 3000.0,
+      "T_h": 48.0,
+      "signal_ns": 56.56454038067556,
+      "bruit_ns": 5.562514539306843,
+      "S_B": 10.168879556353339
+    }
+  ],
+  "environnement_rubidium": [
+    {
+      "effet": "Signal relativiste (Δh = 1500 m)",
+      "valeur": 1.6367054508297327e-13,
+      "rapport_au_signal": 1.0
+    },
+    {
+      "effet": "Pression (≈1e-13/hPa, indicatif) × ΔP",
+      "valeur": 1.6509219246360505e-11,
+      "rapport_au_signal": 100.86860307082809
+    },
+    {
+      "effet": "Température (≈1e-12/K, indicatif) × 10 K",
+      "valeur": 1e-11,
+      "rapport_au_signal": 61.09834848372057
+    },
+    {
+      "effet": "Champ magnétique (≈2e-10/G, indicatif) × 0,5 G",
+      "valeur": 1e-10,
+      "rapport_au_signal": 610.9834848372058
+    },
+    {
+      "effet": "Dérive (5e-11/mois) sur 2 jours",
+      "valeur": 3.3333333333333335e-12,
+      "rapport_au_signal": 20.366116161240193
+    },
+    {
+      "effet": "Cinématique voiture 30 m/s (pendant le trajet)",
+      "valeur": 5.0069252522412836e-15,
+      "rapport_au_signal": 0.030591486389337848
+    }
+  ],
+  "c204": {
+    "taux_revendique": 87660.0,
+    "cas": [
+      {
+        "cas": "unité revendiquée, 227 kg",
+        "M_kg": 227.0,
+        "redshift_1m": 1.685738381089937e-25,
+        "equiv_denivele_m": 1.544937465903239e-09,
+        "rapport_taux": 5.200095162057249e+29
+      },
+      {
+        "cas": "une singularité, 3,9e12 kg (valeur retenue, basse)",
+        "M_kg": 3900000000000.0,
+        "redshift_1m": 2.8962025049562793e-15,
+        "equiv_denivele_m": 26.542978489086487,
+        "rapport_taux": 3.026722055864091e+19
+      },
+      {
+        "cas": "une singularité, 5,1e12 kg (valeur retenue, haute)",
+        "M_kg": 5100000000000.0,
+        "redshift_1m": 3.7873417372505194e-15,
+        "equiv_denivele_m": 34.71004879342079,
+        "rapport_taux": 2.3145521603666575e+19
+      },
+      {
+        "cas": "la paire, 7,8e12 kg",
+        "M_kg": 7800000000000.0,
+        "redshift_1m": 5.792405009912559e-15,
+        "equiv_denivele_m": 53.08595697817297,
+        "rapport_taux": 1.5133610279320455e+19
+      },
+      {
+        "cas": "la paire, 1,02e13 kg",
+        "M_kg": 10200000000000.0,
+        "redshift_1m": 7.574683474501039e-15,
+        "equiv_denivele_m": 69.42009758684158,
+        "rapport_taux": 1.1572760801833288e+19
+      },
+      {
+        "cas": "ancienne fourchette v1 : 1e11 kg",
+        "M_kg": 100000000000.0,
+        "redshift_1m": 7.426160269118666e-17,
+        "equiv_denivele_m": 0.6805891920278587,
+        "rapport_taux": 1.1804216017869954e+21
+      },
+      {
+        "cas": "ancienne fourchette v1 : 1e12 kg",
+        "M_kg": 1000000000000.0,
+        "redshift_1m": 7.426160269118665e-16,
+        "equiv_denivele_m": 6.805891920278586,
+        "rapport_taux": 1.1804216017869955e+20
+      }
+    ]
+  }
+}

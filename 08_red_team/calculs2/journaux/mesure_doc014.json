@@ -1,0 +1,96 @@
+{
+ "timetravel16_07 (550x594)": {
+  "barre_epaisse": [
+   262,
+   131.0,
+   377.0
+  ],
+  "cote7": [
+   272,
+   226,
+   288
+  ],
+  "cote89": [
+   289,
+   134,
+   375
+  ],
+  "cote6": [
+   376,
+   136,
+   203
+  ],
+  "longueurs_px": {
+   "cote 8 (REAR, 8 m)": 95.0,
+   "cote 9 (FORWARD, 11 m)": 151.0,
+   "cote 7 (OFFSET, 5 m)": 62,
+   "cote 6 (VERTICAL, 6 m)": 67
+  },
+  "echelle_px_par_m": {
+   "cote 8 (REAR, 8 m)": 11.875,
+   "cote 9 (FORWARD, 11 m)": 13.727272727272727,
+   "cote 7 (OFFSET, 5 m)": 12.4,
+   "cote 6 (VERTICAL, 6 m)": 11.166666666666666
+  },
+  "echelle_moyenne_px_par_m": 12.292234848484847,
+  "ecart_type": 1.0819635995338537,
+  "dispersion_relative": 0.08802008852501036,
+  "rapport_dessine_8_sur_9": 0.6291390728476821,
+  "rapport_inscrit_8_sur_9": 0.7272727272727273,
+  "envergures_px": [
+   315,
+   359,
+   444,
+   309
+  ],
+  "envergures_m_a_l_echelle_moyenne": [
+   25.625934086251792,
+   29.205429641156805,
+   36.12036423585967,
+   25.137821056037474
+  ]
+ },
+ "OP4 (460x600)": {
+  "barre_epaisse": [
+   238,
+   119.5,
+   310.0
+  ],
+  "cote7": [
+   245,
+   193,
+   239
+  ],
+  "cote89": null,
+  "cote6": [
+   309,
+   140,
+   192
+  ],
+  "longueurs_px": {
+   "cote 8 (REAR, 8 m)": 73.5,
+   "cote 9 (FORWARD, 11 m)": 117.0,
+   "cote 7 (OFFSET, 5 m)": 46,
+   "cote 6 (VERTICAL, 6 m)": 52
+  },
+  "echelle_px_par_m": {
+   "cote 8 (REAR, 8 m)": 9.1875,
+   "cote 9 (FORWARD, 11 m)": 10.636363636363637,
+   "cote 7 (OFFSET, 5 m)": 9.2,
+   "cote 6 (VERTICAL, 6 m)": 8.666666666666666
+  },
+  "echelle_moyenne_px_par_m": 9.422632575757575,
+  "ecart_type": 0.8464593188016389,
+  "dispersion_relative": 0.08983257194803482,
+  "rapport_dessine_8_sur_9": 0.6282051282051282,
+  "rapport_inscrit_8_sur_9": 0.7272727272727273,
+  "envergures_px": [
+   292,
+   411
+  ],
+  "envergures_m_a_l_echelle_moyenne": [
+   30.989216405535515,
+   43.61838336532567
+  ]
+ }
+}

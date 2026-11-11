@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9db4gDwD08hJo+0wqpOByEI4XeM</id>
+  <title>arXiv Query: search_query=ti:"interacting Kerr black holes"&amp;id_list=&amp;start=0&amp;max_results=8</title>
+  <updated>2026-11-11T03:00:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22interacting+Kerr+black+holes%22&amp;start=0&amp;max_results=8&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05442v1</id>
+    <title>Unequal binary configurations of interacting Kerr black holes</title>
+    <updated>2018-06-14T10:02:30Z</updated>
+    <link href="https://arxiv.org/abs/1806.05442v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.05442v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stationary axisymmetric binary configurations of unequal Kerr sources with a massless strut among them are developed in a physical representation. In order to describe interacting black holes, the axis conditions in the most general case are solved analytically deriving the corresponding $5$-parametric asymptotically flat exact solution. In addition, we obtain concise formulas for the black hole horizons, the interaction force, as well as the thermodynamical characteristics of each source in terms of physical Komar parameters: mass $M_{i}$, angular momentum $J_{i}$, and coordinate distance $R$, where such parameters are contained inside of the coefficients of a cubic equation which can be interpreted as a dynamical law for interacting black holes with struts. Some limits are obtained and discussed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-14T10:02:30Z</published>
+    <arxiv:comment>9 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Lett. B 786: 466-471 (2018)</arxiv:journal_ref>
+    <author>
+      <name>I. Cabrera-Munguia</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2018.10.037</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2018.10.037" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.0264v1</id>
+    <title>Dynamical and Thermodynamical Aspects of Interacting Kerr Black Holes</title>
+    <updated>2009-03-02T11:27:56Z</updated>
+    <link href="https://arxiv.org/abs/0903.0264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.0264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the asymptotically flat double-Kerr solution for two equal mass black holes with either the same or opposite angular momentum and with a massless strut between them. For fixed angular momentum and mass, the angular velocity of two co-rotating Kerr black holes decreases as they approach one another, from the Kerr value at infinite separation to the value of a single Kerr black hole with twice the mass and the angular momentum at the horizons merging limit. We show that the ratio J/M^2 for extremal co-rotating Kerr black holes varies from unity at infinite separation to two at the merging limit. These results are interpreted in terms of rotational dragging and compared with the case of counter-rotating Kerr black holes. We then analyse the merging of ergo-regions. In the co-rotating case the merger point occurs at an angle of π/2, in agreement with recent general arguments. In the counter-rotating case the ergo-regions never merge. We study the horizon geometry for both cases as a function of the distance and provide embedding diagrams. Finally, we study the thermodynamical evolution of the co-rotating double Kerr system, showing that, in the canonical ensemble, it is thermodynamically stable for fast spinning black holes. As for single Kerr black holes the stable and unstable phases are separated by a second order phase transition. We show that for large fixed angular momentum two Kerr black holes reach a minimum distance, before horizon merging has occurred, where the thermodynamical approximation breaks down. We also consider the micro-canonical ensemble to study the maximal energy that can be extracted from the double Kerr system as a function of the separation between the black holes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-02T11:27:56Z</published>
+    <arxiv:comment>15 pages, 24 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D79:123508,2009</arxiv:journal_ref>
+    <author>
+      <name>Miguel S. Costa</name>
+    </author>
+    <author>
+      <name>Carlos A. R. Herdeiro</name>
+    </author>
+    <author>
+      <name>Carmen Rebelo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.79.123508</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.79.123508" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0810.0928v1</id>
+    <title>Thermodynamical Characteristics of "Crystal Lattice" of Many Interacting Kerr Black Holes in Touching Limit</title>
+    <updated>2008-10-06T10:57:28Z</updated>
+    <link href="https://arxiv.org/abs/0810.0928v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0810.0928v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this work, starting by simple, approximate (quasi-classical) methods presented in our previous works, we reproduce effectively and generalize final results of Herdeiro and Rebelo on the basic thermodynamical characteristics (entropy and temperature) of two interacting Kerr black holes (in touching limit) obtained recently by accurate analysis. Like as it has been done in our previous works, we simply suppose that circumference of the horizon of total black hole (that includes two or, generally, a "crystal lattice" of many interacting Kerr black holes in touching limit, without angular momentum) holds integer number of reduced Compton wave lengths corresponding to mass spectrum of a small quantum system captured at horizon. (Obviously it is conceptually analogous to Bohr quantization postulate interpreted by de Broglie relation in Old, Bohr-Sommerfeld, quantum theory.) It, by simple mathematical methods, first neighbour approximation of the black holes interaction and first thermodynamical law, implies mentioned basic thermodinamical characteristic of the total black hole as well as any its part, i.e. single black hole. Especially, it is shown that, in limit of increasing number of the black holes, entropy and horizon surface of the total black hole stand observables of the discrete spectrum while entropy and horizon surface of the single black hole tends toward observables of the continuous spectrum.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-10-06T10:57:28Z</published>
+    <arxiv:comment>5 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Vladan Pankovic</name>
+    </author>
+    <author>
+      <name>Simo Ciganovic</name>
+    </author>
+    <author>
+      <name>Jovan Ivanovic</name>
+    </author>
+  </entry>
+</feed>

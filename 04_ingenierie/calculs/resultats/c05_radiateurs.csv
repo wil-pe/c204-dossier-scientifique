@@ -1,0 +1,26 @@
+charge,Q_W,T_radiateur_K,flux_net_W_m2,surface_m2,surface_sur_coffre
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,322,145.4,9.117e+05,8.483e+05
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,600,6211,2.134e+04,1.986e+04
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,1000,5.063e+04,2618,2436
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,1500,2.58e+05,513.8,478
+"min : 1 singularité, 300 MW au total (dépôt γ + e± seulement)",1.325e+08,3000,4.133e+06,32.06,29.83
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,322,145.4,1.216e+06,1.131e+06
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,600,6211,2.845e+04,2.647e+04
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,1000,5.063e+04,3490,3247
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,1500,2.58e+05,685,637.4
+"réf. : 1 singularité, 400 MW au total (dépôt γ + e±)",1.767e+08,3000,4.133e+06,42.75,39.78
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,322,145.4,2.431e+06,2.262e+06
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,600,6211,5.69e+04,5.295e+04
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,1000,5.063e+04,6980,6495
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,1500,2.58e+05,1370,1275
+"réf. x2 : 2 singularités, 400 MW chacune (dépôt γ + e±)",3.534e+08,3000,4.133e+06,85.5,79.56
+énoncé bas : 300 MW entièrement déposés,3e+08,322,145.4,2.064e+06,1.92e+06
+énoncé bas : 300 MW entièrement déposés,3e+08,600,6211,4.83e+04,4.495e+04
+énoncé bas : 300 MW entièrement déposés,3e+08,1000,5.063e+04,5925,5513
+énoncé bas : 300 MW entièrement déposés,3e+08,1500,2.58e+05,1163,1082
+énoncé bas : 300 MW entièrement déposés,3e+08,3000,4.133e+06,72.58,67.54
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,322,145.4,6.879e+06,6.401e+06
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,600,6211,1.61e+05,1.498e+05
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,1000,5.063e+04,1.975e+04,1.838e+04
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,1500,2.58e+05,3877,3607
+énoncé haut : 2 x 500 MW entièrement déposés,1e+09,3000,4.133e+06,241.9,225.1

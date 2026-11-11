@@ -1,0 +1,46 @@
+== en
+err Expecting value: line 1 column 1 (char 0) You are making too many requests to the API.
+Please follow the best practices at https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits.
+If you are unsure how to get the access you need, contact bo
+== fr
+err Expecting value: line 1 column 1 (char 0) You are making too many requests to the API.
+Please follow the best practices at https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits.
+If you are unsure how to get the access you need, contact bo
+== it
+err Expecting value: line 1 column 1 (char 0) You are making too many requests to the API.
+Please follow the best practices at https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits.
+If you are unsure how to get the access you need, contact bo
+== es
+err Expecting value: line 1 column 1 (char 0) You are making too many requests to the API.
+Please follow the best practices at https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits.
+If you are unsure how to get the access you need, contact bo
+== de
+err Expecting value: line 1 column 1 (char 0) You are making too many requests to the API.
+Please follow the best practices at https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits.
+If you are unsure how to get the access you need, contact bo
+== ja
+err Expecting value: line 1 column 1 (char 0) You are making too many requests to the API.
+Please follow the best practices at https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits.
+If you are unsure how to get the access you need, contact bo
+== ru
+err Expecting value: line 1 column 1 (char 0) You are making too many requests to the API.
+Please follow the best practices at https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits.
+If you are unsure how to get the access you need, contact bo
+== pt
+err Expecting value: line 1 column 1 (char 0) You are making too many requests to the API.
+Please follow the best practices at https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits.
+If you are unsure how to get the access you need, contact bo
+== nl
+== pl
+Plik:IBM 5100 - MfK Bern.jpg | 3306 x 2421 | 1516623 | 2011-09-04T15:09:11Z | https://upload.wikimedia.org/wikipedia/commons/2/2d/IBM_5100_-_MfK_Bern.jpg?utm_source=pl.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+== zh
+File:OOjs UI icon edit-ltr-progressive.svg | 20 x 20 | 349 | 2018-05-23T12:09:06Z | https://upload.wikimedia.org/wikipedia/commons/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+File:Tango-nosources.svg | 48 x 48 | 10848 | 2008-05-24T16:30:01Z | https://upload.wikimedia.org/wikipedia/commons/4/4e/Tango-nosources.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+File:Zh conversion icon m.svg | 32 x 20 | 13382 | 2012-09-18T08:51:41Z | https://upload.wikimedia.org/wikipedia/commons/c/cd/Zh_conversion_icon_m.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+== ko
+== tr
+Dosya:Ambox important.svg | 40 x 40 | 6821 | 2009-10-21T22:30:51Z | https://upload.wikimedia.org/wikipedia/commons/b/b4/Ambox_important.svg?utm_source=tr.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+Dosya:Broom icon.svg | 400 x 400 | 6575 | 2012-10-17T12:30:03Z | https://upload.wikimedia.org/wikipedia/commons/2/2c/Broom_icon.svg?utm_source=tr.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+Dosya:Edit-clear.svg | 48 x 48 | 5993 | 2025-08-30T23:49:12Z | https://upload.wikimedia.org/wikipedia/commons/f/f2/Edit-clear.svg?utm_source=tr.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+Dosya:Titor insignia.jpg | 283 x 262 | 25520 | 2006-02-11T00:29:32Z | https://upload.wikimedia.org/wikipedia/tr/7/74/Titor_insignia.jpg?utm_source=tr.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+== sv

@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 980" width="1500" height="980" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="1500" height="980" fill="#fcfcfb"/>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fle34948" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e34948"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<defs><marker id="fl52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0b0b0b">C204-R1 — schéma fonctionnel du « chronomètre-gravimètre relativiste embarqué »</text>
+<text x="24" y="60" font-size="13" fill="#52514e">Palier 1 : dans le coffre de 0,85 m, sur batterie. L&#x27;unité CALCULE le décalage relativiste de son trajet (≈ ns/h) ; elle ne le MESURE qu&#x27;avec le module externe et une référence au sol (tirets).</text>
+<text x="24" y="78" font-size="13" fill="#52514e">Ce décalage est celui de tout objet transporté : l&#x27;unité n&#x27;en est pas la cause. Jamais vers le passé. Valeurs : scripts i01 à i03.</text>
+<rect x="30" y="110" width="300" height="92" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="30" y="110" width="7" height="92" rx="3" fill="#2a78d6"/>
+<text x="46" y="130" font-size="13" font-weight="700" fill="#0b0b0b">4 horloges au césium miniatures (R1-06)</text>
+<text x="46" y="148.0" font-size="11.5" fill="#52514e">3×10⁻¹⁰ à 1 s ; 0,48 W ; 140 g</text>
+<text x="46" y="163.5" font-size="11.5" fill="#52514e">sous blindage magnétique et régulation</text>
+<text x="46" y="179.0" font-size="11.5" fill="#52514e">thermique (R1-09)</text>
+<rect x="30" y="216" width="300" height="62" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="30" y="216" width="7" height="62" rx="3" fill="#2a78d6"/>
+<text x="46" y="236" font-size="13" font-weight="700" fill="#0b0b0b">Récepteur GNSS à sortie de temps (R1-08)</text>
+<text x="46" y="254.0" font-size="11.5" fill="#52514e">position, altitude, vitesse, cap ; 1 PPS</text>
+<rect x="30" y="292" width="300" height="92" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2" stroke-dasharray="7 4"/>
+<rect x="30" y="292" width="7" height="92" rx="3" fill="#2a78d6"/>
+<text x="46" y="312" font-size="13" font-weight="700" fill="#0b0b0b">HORS COFFRE : césiums à jet (R1-B1)</text>
+<text x="46" y="330.0" font-size="11.5" fill="#52514e">30 kg et 425 × 524 × 133 mm chacun : hors coffre</text>
+<text x="46" y="345.5" font-size="11.5" fill="#52514e">S/B ≈ 3,4 pour 48 h à +1 000 m (1 horloge)</text>
+<text x="46" y="361.0" font-size="11.5" fill="#52514e">+ référence au sol : 3 étalons ou lien de temps</text>
+<rect x="30" y="420" width="300" height="62" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2"/>
+<rect x="30" y="420" width="7" height="62" rx="3" fill="#eda100"/>
+<text x="46" y="440" font-size="13" font-weight="700" fill="#0b0b0b">Accéléromètres à quartz « VGL » (R1-12)</text>
+<text x="46" y="458.0" font-size="11.5" fill="#52514e">pesanteur à ~1 mGal ; inclinaison</text>
+<rect x="30" y="496" width="300" height="62" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2"/>
+<rect x="30" y="496" width="7" height="62" rx="3" fill="#eda100"/>
+<text x="46" y="516" font-size="13" font-weight="700" fill="#0b0b0b">Baromètre, magnétomètre (R1-13)</text>
+<text x="46" y="534.0" font-size="11.5" fill="#52514e">altitude, grandeurs d&#x27;influence</text>
+<rect x="30" y="572" width="300" height="76" rx="7" fill="#ffffff" stroke="#eda100" stroke-width="2.2" stroke-dasharray="7 4"/>
+<rect x="30" y="572" width="7" height="76" rx="3" fill="#eda100"/>
+<text x="46" y="592" font-size="13" font-weight="700" fill="#0b0b0b">OPTION : gravimètre µGal (R1-22)</text>
+<text x="46" y="610.0" font-size="11.5" fill="#52514e">5 µGal, à l&#x27;arrêt, posé au sol</text>
+<text x="46" y="625.5" font-size="11.5" fill="#52514e">tient dans le coffre seulement si L ≥ 0,9 m</text>
+<rect x="30" y="684" width="300" height="92" rx="7" fill="#ffffff" stroke="#008300" stroke-width="2.2"/>
+<rect x="30" y="684" width="7" height="92" rx="3" fill="#008300"/>
+<text x="46" y="704" font-size="13" font-weight="700" fill="#0b0b0b">LOGEMENT DE DIRECTION</text>
+<text x="46" y="722.0" font-size="11.5" fill="#52514e">gyromètre Sagnac à fibre (R1-15)</text>
+<text x="46" y="737.5" font-size="11.5" fill="#52514e">Δt = 2,0×10⁻²⁰ s (rotation terrestre)</text>
+<text x="46" y="753.0" font-size="11.5" fill="#52514e">→ vitesse de rotation, cap</text>
+<rect x="30" y="790" width="300" height="92" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="30" y="790" width="7" height="92" rx="3" fill="#e87ba4"/>
+<text x="46" y="810" font-size="13" font-weight="700" fill="#0b0b0b">LOGEMENT PRINCIPAL</text>
+<text x="46" y="828.0" font-size="11.5" fill="#52514e">télescope à muons cosmiques (R1-14)</text>
+<text x="46" y="843.5" font-size="11.5" fill="#52514e">127 coïncidences/h ; cône de ±35°</text>
+<text x="46" y="859.0" font-size="11.5" fill="#52514e">→ dilatation du temps de particules naturelles</text>
+<rect x="30" y="896" width="300" height="56" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="30" y="896" width="7" height="56" rx="3" fill="#e34948"/>
+<text x="46" y="916" font-size="13" font-weight="700" fill="#0b0b0b">Dosimètre à semi-conducteur (R1-18)</text>
+<text x="46" y="934.0" font-size="11.5" fill="#52514e">fond naturel ; aucune source ; ≤ 30 V</text>
+<rect x="420" y="150" width="290" height="92" rx="7" fill="#ffffff" stroke="#2a78d6" stroke-width="2.2"/>
+<rect x="420" y="150" width="7" height="92" rx="3" fill="#2a78d6"/>
+<text x="436" y="170" font-size="13" font-weight="700" fill="#0b0b0b">Comparateur de phase à 6 voies (R1-07)</text>
+<text x="436" y="188.0" font-size="11.5" fill="#52514e">écarts d&#x27;horloges deux à deux</text>
+<text x="436" y="203.5" font-size="11.5" fill="#52514e">résolution &lt; 0,1 ns ; détection d&#x27;une</text>
+<text x="436" y="219.0" font-size="11.5" fill="#52514e">horloge fautive (vote sur 4)</text>
+<rect x="420" y="420" width="290" height="150" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="420" y="420" width="7" height="150" rx="3" fill="#1baf7a"/>
+<text x="436" y="440" font-size="13" font-weight="700" fill="#0b0b0b">3 calculateurs dissemblables (R1-10)</text>
+<text x="436" y="458.0" font-size="11.5" fill="#52514e">+ voteur médian matériel (R1-11)</text>
+<text x="436" y="473.5" font-size="11.5" fill="#52514e">y = ΔW/c² − v²/2c² − Ω·R·cosφ·v_est/c²</text>
+<text x="436" y="489.0" font-size="11.5" fill="#52514e">intégration le long du trajet ;</text>
+<text x="436" y="504.5" font-size="11.5" fill="#52514e">enregistrement chaîné par empreinte ;</text>
+<text x="436" y="520.0" font-size="11.5" fill="#52514e">tolère une panne franche (pas byzantine)</text>
+<rect x="420" y="760" width="290" height="92" rx="7" fill="#ffffff" stroke="#e87ba4" stroke-width="2.2"/>
+<rect x="420" y="760" width="7" height="92" rx="3" fill="#e87ba4"/>
+<text x="436" y="780" font-size="13" font-weight="700" fill="#0b0b0b">Comptage et datation des muons (R1-16)</text>
+<text x="436" y="798.0" font-size="11.5" fill="#52514e">taux selon l&#x27;altitude ;</text>
+<text x="436" y="813.5" font-size="11.5" fill="#52514e">sans dilatation : ×21 entre 2 000 m</text>
+<text x="436" y="829.0" font-size="11.5" fill="#52514e">et la plaine (attendu : ×1,3 à 2)</text>
+<rect x="800" y="330" width="330" height="110" rx="7" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.2"/>
+<rect x="800" y="330" width="7" height="110" rx="3" fill="#0b0b0b"/>
+<text x="816" y="350" font-size="13" font-weight="700" fill="#0b0b0b">DÉCALAGE RELATIVISTE DU TRAJET (calculé)</text>
+<text x="816" y="368.0" font-size="11.5" fill="#52514e">+1 000 m : l&#x27;objet vieillit 0,39 ns/h de plus</text>
+<text x="816" y="383.5" font-size="11.5" fill="#52514e">130 km/h vers l&#x27;est : 0,50 ns/h de moins</text>
+<text x="816" y="399.0" font-size="11.5" fill="#52514e">130 km/h vers l&#x27;ouest : 0,45 ns/h de plus</text>
+<text x="816" y="414.5" font-size="11.5" fill="#52514e">même valeur pour un lest : l&#x27;unité n&#x27;y est pour rien</text>
+<rect x="800" y="150" width="330" height="110" rx="7" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.2"/>
+<rect x="800" y="150" width="7" height="110" rx="3" fill="#0b0b0b"/>
+<text x="816" y="170" font-size="13" font-weight="700" fill="#0b0b0b">DÉCALAGE MESURÉ (écart d&#x27;horloges)</text>
+<text x="816" y="188.0" font-size="11.5" fill="#52514e">coffre seul : NON (CSAC : S/B ≈ 0,002)</text>
+<text x="816" y="203.5" font-size="11.5" fill="#52514e">module césium + référence au sol :</text>
+<text x="816" y="219.0" font-size="11.5" fill="#52514e">19 ns en 48 h à +1 000 m</text>
+<text x="816" y="234.5" font-size="11.5" fill="#52514e">jamais d&#x27;inversion de l&#x27;ordre des événements</text>
+<rect x="800" y="760" width="330" height="92" rx="7" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.2"/>
+<rect x="800" y="760" width="7" height="92" rx="3" fill="#0b0b0b"/>
+<text x="816" y="780" font-size="13" font-weight="700" fill="#0b0b0b">DILATATION OBSERVÉE (muons naturels)</text>
+<text x="816" y="798.0" font-size="11.5" fill="#52514e">facteur effectif ≳ 7 d&#x27;après le rapport de taux</text>
+<text x="816" y="813.5" font-size="11.5" fill="#52514e">(Frisch &amp; Smith 1963 : 8,8 ± 0,8)</text>
+<text x="816" y="829.0" font-size="11.5" fill="#52514e">l&#x27;unité observe, elle ne produit rien</text>
+<rect x="1210" y="250" width="260" height="110" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="1210" y="250" width="7" height="110" rx="3" fill="#e34948"/>
+<text x="1226" y="270" font-size="13" font-weight="700" fill="#0b0b0b">Pupitre, télécommande (R1-19, 20)</text>
+<text x="1226" y="288.0" font-size="11.5" fill="#52514e">écran de secours, clavier, voyants,</text>
+<text x="1226" y="303.5" font-size="11.5" fill="#52514e">avertisseur ; saisie du scénario ;</text>
+<text x="1226" y="319.0" font-size="11.5" fill="#52514e">affichage prédit / mesuré</text>
+<rect x="1210" y="420" width="260" height="92" rx="7" fill="#ffffff" stroke="#1baf7a" stroke-width="2.2"/>
+<rect x="1210" y="420" width="7" height="92" rx="3" fill="#1baf7a"/>
+<text x="1226" y="440" font-size="13" font-weight="700" fill="#0b0b0b">Test : mesuré − prédit</text>
+<text x="1226" y="458.0" font-size="11.5" fill="#52514e">écart nul attendu (relativité générale) ;</text>
+<text x="1226" y="473.5" font-size="11.5" fill="#52514e">protocole en aveugle de l&#x27;expérience</text>
+<text x="1226" y="489.0" font-size="11.5" fill="#52514e">EXP-12 (Équipe F)</text>
+<rect x="800" y="560" width="200" height="76" rx="7" fill="#ffffff" stroke="#eb6834" stroke-width="2.2"/>
+<rect x="800" y="560" width="7" height="76" rx="3" fill="#eb6834"/>
+<text x="816" y="580" font-size="13" font-weight="700" fill="#0b0b0b">Batterie 1,34 kWh (R1-03)</text>
+<text x="816" y="598.0" font-size="11.5" fill="#52514e">21 h en mesure (57 W)</text>
+<text x="816" y="613.5" font-size="11.5" fill="#52514e">40 h en transport (30 W)</text>
+<rect x="1030" y="560" width="210" height="76" rx="7" fill="#ffffff" stroke="#eb6834" stroke-width="2.2"/>
+<rect x="1030" y="560" width="7" height="76" rx="3" fill="#eb6834"/>
+<text x="1046" y="580" font-size="13" font-weight="700" fill="#0b0b0b">Distribution ≤ 24 V (R1-04)</text>
+<text x="1046" y="598.0" font-size="11.5" fill="#52514e">vers tous les sous-ensembles ;</text>
+<text x="1046" y="613.5" font-size="11.5" fill="#52514e">≈ 30 V au plus (photodétecteurs)</text>
+<rect x="1270" y="560" width="200" height="76" rx="7" fill="#ffffff" stroke="#e34948" stroke-width="2.2"/>
+<rect x="1270" y="560" width="7" height="76" rx="3" fill="#e34948"/>
+<text x="1286" y="580" font-size="13" font-weight="700" fill="#0b0b0b">Arrêt d&#x27;urgence (R1-05)</text>
+<text x="1286" y="598.0" font-size="11.5" fill="#52514e">coupe la batterie :</text>
+<text x="1286" y="613.5" font-size="11.5" fill="#52514e">état sûr réel</text>
+<rect x="800" y="656" width="385" height="62" rx="7" fill="#ffffff" stroke="#6250d6" stroke-width="2.2"/>
+<rect x="800" y="656" width="7" height="62" rx="3" fill="#6250d6"/>
+<text x="816" y="676" font-size="13" font-weight="700" fill="#0b0b0b">Boucle thermique : pompe, 2 réservoirs (R1-17)</text>
+<text x="816" y="694.0" font-size="11.5" fill="#52514e">évacue 57 W ; coffre à ~29 °C pour 20 °C d&#x27;ambiance</text>
+<path d="M330.0,156.0 L375.0,156.0 L375.0,182.2 L420.0,182.2" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="375.0" y="164.1" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">10 MHz, 1 PPS</text>
+<path d="M330.0,247.0 L375.0,247.0 L375.0,214.4 L420.0,214.4" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M330.0,338.0 L375.0,338.0 L375.0,232.8 L420.0,232.8" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#fl52514e)"/>
+<text x="375.0" y="280.4" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">hors coffre</text>
+<path d="M330.0,265.6 L375.0,265.6 L375.0,438.0 L420.0,438.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="375.0" y="346.8" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">h, v, cap</text>
+<path d="M330.0,451.0 L375.0,451.0 L375.0,465.0 L420.0,465.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="375.0" y="453.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">g</text>
+<path d="M330.0,527.0 L375.0,527.0 L375.0,502.5 L420.0,502.5" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M330.0,610.0 L385.0,610.0 L385.0,532.5 L420.0,532.5" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#fl52514e)"/>
+<text x="385.0" y="566.2" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">g (µGal)</text>
+<path d="M330.0,730.0 L395.0,730.0 L395.0,558.0 L420.0,558.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="395.0" y="639.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">Ω, cap</text>
+<path d="M330.0,836.0 L375.0,836.0 L375.0,806.0 L420.0,806.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="375.0" y="816.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">impulsions</text>
+<path d="M710.0,196.0 L755.0,196.0 L755.0,194.0 L800.0,194.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="755.0" y="190.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">écarts (ns)</text>
+<path d="M565.0,242.0 L565.0,420.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="565.0" y="326.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">temps de l&#x27;unité</text>
+<path d="M710.0,495.0 L755.0,495.0 L755.0,407.0 L800.0,407.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M710.0,806.0 L800.0,806.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M1130.0,205.0 L1170.0,205.0 L1170.0,283.0 L1210.0,283.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M1130.0,385.0 L1170.0,385.0 L1170.0,332.5 L1210.0,332.5" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M1130.0,429.0 L1185.0,429.0 L1185.0,466.0 L1210.0,466.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M1000.0,598.0 L1030.0,598.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<path d="M1270.0,598.0 L1240.0,598.0" fill="none" stroke="#e34948" stroke-width="1.6" stroke-dasharray="2 4" marker-end="url(#fle34948)"/>
+<text x="1255.0" y="593.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">coupure</text>
+<path d="M800.0,687.0 L565.0,687.0 L565.0,570.0" fill="none" stroke="#52514e" stroke-width="1.6" marker-end="url(#fl52514e)"/>
+<text x="682.5" y="682.0" font-size="10.5" fill="#52514e" text-anchor="middle" stroke="#fcfcfb" stroke-width="4" paint-order="stroke">refroidit horloges et calculateurs</text>
+<rect x="1210" y="710" width="14" height="12" rx="2" fill="#2a78d6"/>
+<text x="1232" y="720" font-size="11.5" fill="#0b0b0b" text-anchor="start">temps</text>
+<rect x="1210" y="730" width="14" height="12" rx="2" fill="#1baf7a"/>
+<text x="1232" y="740" font-size="11.5" fill="#0b0b0b" text-anchor="start">calcul et vote</text>
+<rect x="1210" y="750" width="14" height="12" rx="2" fill="#eda100"/>
+<text x="1232" y="760" font-size="11.5" fill="#0b0b0b" text-anchor="start">gravité, inertie</text>
+<rect x="1210" y="770" width="14" height="12" rx="2" fill="#008300"/>
+<text x="1232" y="780" font-size="11.5" fill="#0b0b0b" text-anchor="start">logement de direction</text>
+<rect x="1210" y="790" width="14" height="12" rx="2" fill="#e87ba4"/>
+<text x="1232" y="800" font-size="11.5" fill="#0b0b0b" text-anchor="start">logement principal</text>
+<rect x="1210" y="810" width="14" height="12" rx="2" fill="#eb6834"/>
+<text x="1232" y="820" font-size="11.5" fill="#0b0b0b" text-anchor="start">énergie</text>
+<rect x="1210" y="830" width="14" height="12" rx="2" fill="#6250d6"/>
+<text x="1232" y="840" font-size="11.5" fill="#0b0b0b" text-anchor="start">thermique</text>
+<rect x="1210" y="850" width="14" height="12" rx="2" fill="#e34948"/>
+<text x="1232" y="860" font-size="11.5" fill="#0b0b0b" text-anchor="start">sécurité, pupitre</text>
+<text x="1210" y="890" font-size="11" fill="#52514e" text-anchor="start">Tirets : option hors coffre.</text>
+<text x="1210" y="906" font-size="11" fill="#52514e" text-anchor="start">Cadre noir : grandeur de sortie.</text>
+<text x="1210" y="922" font-size="11" fill="#52514e" text-anchor="start">Masse R1-A : 36 kg ; coût ≈ 49 k€ (estimation).</text>
+</svg>

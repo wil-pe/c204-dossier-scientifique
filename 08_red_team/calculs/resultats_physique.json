@@ -1,0 +1,114 @@
+{
+ "A": {
+  "rs_coef": 1.4852320538237331e-27,
+  "T_coef": 1.2269006698422716e+23,
+  "P_coef_bb": 3.561622142596221e+32,
+  "t_coef_bb": 8.411477904855981e-17,
+  "Q_coef": 8.617517197589872e-11
+ },
+ "B_masse_pour_puissance": [
+  {
+   "P_MW": 300.0,
+   "modele": "corps noir photons seuls (dossier)",
+   "M_kg": 1089590464746.0012,
+   "rs_fm": 1.6182946837814591,
+   "kT_MeV": 9.703289716328996
+  },
+  {
+   "P_MW": 300.0,
+   "modele": "Page complet : gamma+3nu+grav+e± = puissance totale",
+   "M_kg": 5048801791385.917,
+   "rs_fm": 7.498642253969049,
+   "kT_MeV": 2.0940833862043493
+  },
+  {
+   "P_MW": 300.0,
+   "modele": "Page, part gamma+e± seulement = 300-500 MW",
+   "M_kg": 3347342618749.845,
+   "rs_fm": 4.971580552497546,
+   "kT_MeV": 3.158509049046384
+  },
+  {
+   "P_MW": 400.0,
+   "modele": "corps noir photons seuls (dossier)",
+   "M_kg": 943613022191.33,
+   "rs_fm": 1.4014843069640488,
+   "kT_MeV": 11.204393859494946
+  },
+  {
+   "P_MW": 400.0,
+   "modele": "Page complet : gamma+3nu+grav+e± = puissance totale",
+   "M_kg": 4372390610012.5864,
+   "rs_fm": 6.494014685828599,
+   "kT_MeV": 2.4180392134612076
+  },
+  {
+   "P_MW": 400.0,
+   "modele": "Page, part gamma+e± seulement = 300-500 MW",
+   "M_kg": 2898883743007.695,
+   "rs_fm": 4.30551505542355,
+   "kT_MeV": 3.6471320994095975
+  },
+  {
+   "P_MW": 500.0,
+   "modele": "corps noir photons seuls (dossier)",
+   "M_kg": 843993144829.5325,
+   "rs_fm": 1.2535256719083179,
+   "kT_MeV": 12.526893158255966
+  },
+  {
+   "P_MW": 500.0,
+   "modele": "Page complet : gamma+3nu+grav+e± = puissance totale",
+   "M_kg": 3910785051267.9663,
+   "rs_fm": 5.808423313757874,
+   "kT_MeV": 2.703450026779693
+  },
+  {
+   "P_MW": 500.0,
+   "modele": "Page, part gamma+e± seulement = 300-500 MW",
+   "M_kg": 2592840443293.6943,
+   "rs_fm": 3.850969736830332,
+   "kT_MeV": 4.0776176486006905
+  }
+ ],
+ "B_M_rayon_electron": 1897306430298.306,
+ "B_duree_vie_1e12_kg_ans": {
+  "corps_noir_photons": 2665436504948.406,
+  "page_complet": 124141871073.45119
+ },
+ "C": {
+  "M_2g_1m": 293863026834.2748,
+  "grad_g_par_m_a_1m_pour_2g": 4.0,
+  "gamma_requis": 87660.0,
+  "potentiel_1m_2e12": 1.485232053823733e-15
+ },
+ "D": {
+  "M_ergosphere_3p35m_kg": 2.2555397935126827e+27,
+  "M_anneau_1m_kg": 1.346590921500109e+27
+ },
+ "E": {
+  "poids_1e12_N": 9806650000000.0,
+  "M_schwinger_kg": 1.0613078677602417e+36,
+  "dBdz_T_par_m": 1.6172469461494135e+36,
+  "E_levitation_V_par_m": 3.600487939121214e+29
+ },
+ "F": {
+  "debit_dose_Gy_s": 3844.055820360216,
+  "dose_trajet_Gy": 84415465.81511034,
+  "epaisseur_plomb_cm_min": 35.752474727889734
+ },
+ "G": {
+  "T_equilibre_K_300MW": 5995.358758718285
+ },
+ "H": {
+  "E_2e12kg_J": 1.7975103574736353e+29,
+  "annees_energie_mondiale": 299585059.5789392,
+  "s_luminosite_solaire": 469.56905890115866
+ },
+ "L_steelman": {
+  "dist_1microGal_km": 43.99485197156594,
+  "poids_par_trou_N": 1421964250000.0,
+  "Q_ext_C": 12.495399936505315,
+  "masse_negative_kg": 4.0397727645003267e+27
+ }
+}

@@ -1,0 +1,379 @@
+{
+  "simulation": "S04_cylindre_tipler",
+  "avertissement": "Simulation illustrative — ce n'est PAS une preuve expérimentale (Équipe D, programme C204 ; aucune affirmation « Titor » n'est tenue pour vraie)",
+  "rayon_ctc_sur_R": {
+    "aR=0.5": "inf",
+    "aR=0.51": 317888.42586832395,
+    "aR=0.55": 56.96702382251968,
+    "aR=0.6": 8.062845951258446,
+    "aR=0.7": 2.2998394235686193,
+    "aR=0.8": 1.4390309132170522,
+    "aR=0.9": 1.1401458262170878,
+    "aR=1.0": 1.0,
+    "aR=1.2": 0.8333333333333334,
+    "aR=1.5": 0.6666666666666666,
+    "aR=2.0": 0.5
+  },
+  "seuil_ctc": {
+    "aR_min_exterieur": 0.5,
+    "aR_min_interieur": 1.0,
+    "masse_lineique_seuil_kg_m": 1.6832386518751362e+26,
+    "masse_lineique_seuil_masses_terrestres_par_m": 28.184566020480496
+  },
+  "exemples_SI": {
+    "Tipler 1974 (R = 10 km, L = 100 km, aR = 1/2 : seuil)": {
+      "R_m": 10000.0,
+      "aR": 0.5,
+      "longueur_m": 100000.0,
+      "omega_rad_s": 14989.6229,
+      "frequence_Hz": 2385.6725796184714,
+      "densite_axe_kg_m3": 5.357915036985319e+17,
+      "densite_surface_kg_m3": 6.87969908794259e+17,
+      "densite_axe_sur_nucleaire": 2.3295282769501386,
+      "masse_lineique_kg_m": 1.6832386518751362e+26,
+      "masse_totale_kg": 1.6832386518751363e+31,
+      "masse_totale_masses_solaires": 8.464993949494518,
+      "masse_totale_masses_terrestres": 2818456.6020480497,
+      "r_ctc_m": "inf"
+    },
+    "R = 10 km, L = 100 km, aR = 0,6 (CTC à ~8 R)": {
+      "R_m": 10000.0,
+      "aR": 0.6,
+      "longueur_m": 100000.0,
+      "omega_rad_s": 17987.547479999997,
+      "frequence_Hz": 2862.807095542165,
+      "densite_axe_kg_m3": 7.715397653258856e+17,
+      "densite_surface_kg_m3": 1.1058706401445738e+18,
+      "densite_axe_sur_nucleaire": 3.3545207188081982,
+      "masse_lineique_kg_m": 2.423863658700196e+26,
+      "masse_totale_kg": 2.423863658700196e+31,
+      "masse_totale_masses_solaires": 12.189591287272103,
+      "masse_totale_masses_terrestres": 4058577.506949191,
+      "r_ctc_m": 80628.45951258445
+    },
+    "échelle C204 (R = 0,1 m, L = 1 m, aR = 0,6)": {
+      "R_m": 0.1,
+      "aR": 0.6,
+      "longueur_m": 1.0,
+      "omega_rad_s": 1798754747.9999998,
+      "frequence_Hz": 286280709.5542165,
+      "densite_axe_kg_m3": 7.715397653258856e+27,
+      "densite_surface_kg_m3": 1.1058706401445738e+28,
+      "densite_axe_sur_nucleaire": 33545207188.081985,
+      "masse_lineique_kg_m": 2.423863658700196e+26,
+      "masse_totale_kg": 2.423863658700196e+26,
+      "masse_totale_masses_solaires": 0.00012189591287272103,
+      "masse_totale_masses_terrestres": 40.58577506949191,
+      "r_ctc_m": 0.8062845951258446
+    },
+    "échelle C204 (R = 0,1 m, L = 1 m, aR = 1)": {
+      "R_m": 0.1,
+      "aR": 1.0,
+      "longueur_m": 1.0,
+      "omega_rad_s": 2997924580.0,
+      "frequence_Hz": 477134515.92369425,
+      "densite_axe_kg_m3": 2.1431660147941274e+28,
+      "densite_surface_kg_m3": 5.825729233385865e+28,
+      "densite_axe_sur_nucleaire": 93181131078.00554,
+      "masse_lineique_kg_m": 6.732954607500545e+26,
+      "masse_totale_kg": 6.732954607500545e+26,
+      "masse_totale_masses_solaires": 0.0003385997579797807,
+      "masse_totale_masses_terrestres": 112.73826408192198,
+      "r_ctc_m": 0.1
+    }
+  },
+  "cylindre_227_kg_par_metre": {
+    "masse_lineique_kg_m": 226.796185,
+    "aR_obtenu": 5.803834625891208e-13,
+    "aR_requis": 0.5,
+    "rapport_aR": 861499391746.0604,
+    "rapport_de_masse_requis": 7.421812019788324e+23
+  },
+  "verification_symbolique": {
+    "interieur_poussiere": true,
+    "exterieur_vide_aR = 3/10 (< 1/2)": 8.08634922390439e-174,
+    "exterieur_vide_aR = 1/2": 6.469079379123512e-173,
+    "exterieur_vide_aR = 4/5 (> 1/2)": 5.17526350329881e-172
+  },
+  "validation": {
+    "simulation": "S04_cylindre_tipler",
+    "n_tests": 25,
+    "n_passes": 25,
+    "n_echecs": 0,
+    "tests": [
+      {
+        "test": "Raccord C0 en r = R (aR = 0.3)",
+        "valeur": 1.6401324742787438e-12,
+        "attendu": 0.0,
+        "ecart_abs": 1.6401324742787438e-12,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-09,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Raccord C1 en r = R (aR = 0.3)",
+        "valeur": 2.4607538229304282e-06,
+        "attendu": 0.0,
+        "ecart_abs": 2.4607538229304282e-06,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0001,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Raccord C0 en r = R (aR = 0.5)",
+        "valeur": 1.000088900582341e-12,
+        "attendu": 0.0,
+        "ecart_abs": 1.000088900582341e-12,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-09,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Raccord C1 en r = R (aR = 0.5)",
+        "valeur": 1.5003831510540522e-06,
+        "attendu": 0.0,
+        "ecart_abs": 1.5003831510540522e-06,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0001,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Raccord C0 en r = R (aR = 0.8)",
+        "valeur": 1.6001644453922381e-12,
+        "attendu": 0.0,
+        "ecart_abs": 1.6001644453922381e-12,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-09,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Raccord C1 en r = R (aR = 0.8)",
+        "valeur": 2.4009128019031323e-06,
+        "attendu": 0.0,
+        "ecart_abs": 2.4009128019031323e-06,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0001,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Raccord C0 en r = R (aR = 1.2)",
+        "valeur": 3.75965925059063e-12,
+        "attendu": 0.0,
+        "ecart_abs": 3.75965925059063e-12,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-09,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Raccord C1 en r = R (aR = 1.2)",
+        "valeur": 5.640904410242342e-06,
+        "attendu": 0.0,
+        "ecart_abs": 5.640904410242342e-06,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0001,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Identité M² + F·L = r² (aR = 0.3)",
+        "valeur": 3.431803905673528e-14,
+        "attendu": 0.0,
+        "ecart_abs": 3.431803905673528e-14,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-10,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Identité M² + F·L = r² (aR = 0.5)",
+        "valeur": 1.9566232976278503e-15,
+        "attendu": 0.0,
+        "ecart_abs": 1.9566232976278503e-15,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-10,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Identité M² + F·L = r² (aR = 0.8)",
+        "valeur": 8.278857904514273e-16,
+        "attendu": 0.0,
+        "ecart_abs": 8.278857904514273e-16,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-10,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Identité M² + F·L = r² (aR = 1.2)",
+        "valeur": 2.848279927021365e-15,
+        "attendu": 0.0,
+        "ecart_abs": 2.848279927021365e-15,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-10,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Branche aR = 1/2 − 1e-6 → cas critique (écart relatif)",
+        "valeur": 1.8633072970984455e-05,
+        "attendu": 0.0,
+        "ecart_abs": 1.8633072970984455e-05,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0001,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Convergence linéaire en δ (aR = 1/2 − δ) : écart(1e-4)/écart(1e-6)",
+        "valeur": 100.03264519652811,
+        "attendu": 100.0,
+        "ecart_abs": 0.032645196528108045,
+        "ecart_rel": 0.00032645196528108045,
+        "tol_rel": 0.2,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Branche aR = 1/2 + 1e-6 → cas critique (écart relatif)",
+        "valeur": 1.8632950081895017e-05,
+        "attendu": 0.0,
+        "ecart_abs": 1.8632950081895017e-05,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.0001,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Convergence linéaire en δ (aR = 1/2 + δ) : écart(1e-4)/écart(1e-6)",
+        "valeur": 99.96735209994999,
+        "attendu": 100.0,
+        "ecart_abs": 0.032647900050008616,
+        "ecart_rel": 0.00032647900050008615,
+        "tol_rel": 0.2,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "r_CTC(aR = 1) = R (raccord intérieur/extérieur)",
+        "valeur": 1.0000000000009996,
+        "attendu": 1.0,
+        "ecart_abs": 9.99644811372491e-13,
+        "ecart_rel": 9.99644811372491e-13,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-06,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "r_CTC(aR = 2) = R/2 (intérieur : r = 1/a)",
+        "valeur": 0.5,
+        "attendu": 0.5,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-14,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "r_CTC(aR = 0,6) : formule ↔ premier zéro numérique de L(r)",
+        "valeur": 8.06287,
+        "attendu": 8.062845951258446,
+        "ecart_abs": 2.4048741554594244e-05,
+        "ecart_rel": 2.9826616680975686e-06,
+        "tol_rel": 0.0001,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Intérieur : G_μν ≡ 8πρ u_μ u_ν, 8πρ = 4a²exp(a²r²) (calcul formel exact, a = 3/4)",
+        "valeur": true,
+        "attendu": true,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Extérieur : R_μν = 0 (aR = 3/10 (< 1/2)), résidu max. à 40 chiffres",
+        "valeur": 8.08634922390439e-174,
+        "attendu": 0.0,
+        "ecart_abs": 8.08634922390439e-174,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-25,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Extérieur : R_μν = 0 (aR = 1/2), résidu max. à 40 chiffres",
+        "valeur": 6.469079379123512e-173,
+        "attendu": 0.0,
+        "ecart_abs": 6.469079379123512e-173,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-25,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Extérieur : R_μν = 0 (aR = 4/5 (> 1/2)), résidu max. à 40 chiffres",
+        "valeur": 5.17526350329881e-172,
+        "attendu": 0.0,
+        "ecart_abs": 5.17526350329881e-172,
+        "ecart_rel": null,
+        "tol_rel": 1e-06,
+        "tol_abs": 1e-25,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Tipler 1974 : densité sur l'axe pour R = 10 km, aR = 1/2 ≈ 5e17 kg/m³ (~1e14 g/cm³ cité : ordre de grandeur)",
+        "valeur": 17.72899582251202,
+        "attendu": 17.5,
+        "ecart_abs": 0.22899582251201878,
+        "ecart_rel": 0.01308547557211536,
+        "tol_rel": 1e-06,
+        "tol_abs": 0.6,
+        "passe": true,
+        "commentaire": ""
+      },
+      {
+        "test": "Masse propre par unité de longueur : intégrale numérique ↔ a²R²/2 (G = c = 1)",
+        "valeur": 0.32000000000000006,
+        "attendu": 0.32000000000000006,
+        "ecart_abs": 0.0,
+        "ecart_rel": 0.0,
+        "tol_rel": 1e-08,
+        "tol_abs": 0.0,
+        "passe": true,
+        "commentaire": ""
+      }
+    ],
+    "n_hors_decompte": 0,
+    "hors_decompte": []
+  }
+}

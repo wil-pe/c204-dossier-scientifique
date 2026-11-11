@@ -1,0 +1,198 @@
+
+====================================================================================================
+A. Vérification indépendante des coefficients du §6 du DOSSIER DE BASE
+====================================================================================================
+r_s/M            = 1.4852e-27 m/kg        (dossier : 1,485e-27)
+T_H * M          = 1.2269e+23 K kg        (dossier : 1,227e23)
+P * M^2 (photons, corps noir) = 3.5616e+32 W kg^2 (dossier : 3,56e32)
+t_evap / M^3 (photons, corps noir) = 8.4115e-17 s/kg^3 (dossier : 8,41e-17)
+Q_max / M        = 8.6175e-11 C/kg        (dossier : 8,62e-11)
+E(227 kg) = 2.040e+19 J = 4.88 Gt TNT (dossier : 2,0e19 J ; 4,9 Gt)
+500 lb = 226.8 kg ; 10 ans/h -> dt/dtau = 87660 (dossier : 87 660)
+100-120 °F = 37.8-48.9 °C ; 10-12 ft = 3.05-3.66 m ; 4 ft = 1.22 m
+M pour 2 g à r = 1 m : 2.94e+11 kg (dossier : 2,9e11 / 2,6e12)
+M pour 2 g à r = 3 m : 2.64e+12 kg (dossier : 2,9e11 / 2,6e12)
+
+====================================================================================================
+B. Masse compatible avec « 300-500 MW » selon trois modèles d'émission
+====================================================================================================
+alpha corps noir photons seuls : 2.072e-05
+alpha photons (Page, corps gris) : 3.358e-05  -> x1.62 par rapport au corps noir naïf
+alpha sans masse (gamma + 3 nu + graviton) : 2.829e-04
+   recoupement MacGibbon-Webber : 5.411e+25 g^3/s (valeur publiée 5,34e25)
+alpha total avec e+- : 4.449e-04   (f(M) = 1.573 ; MacGibbon : ~1,57)
+   fractions de puissance : gamma 7.5 %, nu 55.2 %, grav 0.9 %, epm 36.4 %
+P = 300 MW | corps noir photons seuls (dossier)                      | M = 1.09e+12 kg | r_s = 1.62 fm | kT = 9.7 MeV
+P = 300 MW | Page complet : gamma+3nu+grav+e± = puissance totale     | M = 5.05e+12 kg | r_s = 7.50 fm | kT = 2.1 MeV
+P = 300 MW | Page, part gamma+e± seulement = 300-500 MW              | M = 3.35e+12 kg | r_s = 4.97 fm | kT = 3.2 MeV
+P = 400 MW | corps noir photons seuls (dossier)                      | M = 9.44e+11 kg | r_s = 1.40 fm | kT = 11.2 MeV
+P = 400 MW | Page complet : gamma+3nu+grav+e± = puissance totale     | M = 4.37e+12 kg | r_s = 6.49 fm | kT = 2.4 MeV
+P = 400 MW | Page, part gamma+e± seulement = 300-500 MW              | M = 2.90e+12 kg | r_s = 4.31 fm | kT = 3.6 MeV
+P = 500 MW | corps noir photons seuls (dossier)                      | M = 8.44e+11 kg | r_s = 1.25 fm | kT = 12.5 MeV
+P = 500 MW | Page complet : gamma+3nu+grav+e± = puissance totale     | M = 3.91e+12 kg | r_s = 5.81 fm | kT = 2.7 MeV
+P = 500 MW | Page, part gamma+e± seulement = 300-500 MW              | M = 2.59e+12 kg | r_s = 3.85 fm | kT = 4.1 MeV
+
+rayon classique de l'électron = 2.818 fm ; rayon de charge du proton = 0.841 fm
+   (l'électron n'a pas de taille mesurée : ponctuel jusqu'à < 1e-18 m ; le « rayon classique » est une convention)
+Trou noir de rayon r_s = r_e classique : M = 1.90e+12 kg -> P(corps noir photons) = 99 MW ; P(Page total) = 2124 MW
+   -> « taille d'un électron ↔ masse d'une grosse montagne » n'est cohérent qu'avec le rayon CLASSIQUE (2,8 fm).
+   « bien plus petites » (masse x0.1) : M = 1.9e+11 kg -> P(photons corps noir) = 9.89e+09 W, P(Page total, sous-estimé car autres espèces) >= 2.12e+11 W
+   « bien plus petites » (masse x0.01) : M = 1.9e+10 kg -> P(photons corps noir) = 9.89e+11 W, P(Page total, sous-estimé car autres espèces) >= 2.12e+13 W
+
+Durées de vie (t = M^3 / (3 alpha hbar c^4 / G^2)) :
+M =       100 kg : t(corps noir photons) = 8.41e-11 s = 2.67e-18 a ; t(gamma+nu+e±) = 3.92e-12 s = 1.24e-19 a ; P_bb = 3.56e+28 W
+M =       227 kg : t(corps noir photons) = 9.84e-10 s = 3.12e-17 a ; t(gamma+nu+e±) = 4.58e-11 s = 1.45e-18 a ; P_bb = 6.91e+27 W
+M =     1e+09 kg : t(corps noir photons) = 8.41e+10 s = 2.67e+03 a ; t(gamma+nu+e±) = 3.92e+09 s = 1.24e+02 a ; P_bb = 3.56e+14 W
+M =     1e+11 kg : t(corps noir photons) = 8.41e+16 s = 2.67e+09 a ; t(gamma+nu+e±) = 3.92e+15 s = 1.24e+08 a ; P_bb = 3.56e+10 W
+M =   2.9e+11 kg : t(corps noir photons) = 2.05e+18 s = 6.50e+10 a ; t(gamma+nu+e±) = 9.55e+16 s = 3.03e+09 a ; P_bb = 4.23e+09 W
+M =     1e+12 kg : t(corps noir photons) = 8.41e+19 s = 2.67e+12 a ; t(gamma+nu+e±) = 3.92e+18 s = 1.24e+11 a ; P_bb = 3.56e+08 W
+M =     4e+12 kg : t(corps noir photons) = 5.38e+21 s = 1.71e+14 a ; t(gamma+nu+e±) = 2.51e+20 s = 7.95e+12 a ; P_bb = 2.23e+07 W
+Repère : masse initiale s'évaporant en 13,8 Ga (f = 1,9) = 5.12e+11 kg (valeur publiée ~5e11 kg)
+
+Si le rayonnement est réellement dans le domaine X (kT = 1-100 keV) :
+  kT =   1 keV -> M = 1.06e+16 kg, r_s = 1.57e-11 m, P(gamma+nu+grav) = 4.35e+01 W
+  kT =  10 keV -> M = 1.06e+15 kg, r_s = 1.57e-12 m, P(gamma+nu+grav) = 4.35e+03 W
+  kT = 100 keV -> M = 1.06e+14 kg, r_s = 1.57e-13 m, P(gamma+nu+grav) = 4.35e+05 W
+  -> un trou noir qui émet des rayons X rayonne des watts à des dizaines de MW seulement si M ~1e14-1e16 kg ;
+     « 300-500 MW » ET « rayons X » sont incompatibles (300-500 MW => kT ~ 2-13 MeV, pic photon ~ 5 kT).
+
+====================================================================================================
+C. « 1,5 à 2 g ressentis » : masse requise, gradient de marée, dilatation gravitationnelle
+====================================================================================================
+1.5 g à r = 0.5 m : M_total = 5.51e+10 kg ; gradient = 6.0 g/m ; g à r-0,3 m = 9.4 g, à r+0,3 m = 0.59 g
+1.5 g à r = 1.0 m : M_total = 2.20e+11 kg ; gradient = 3.0 g/m ; g à r-0,3 m = 3.1 g, à r+0,3 m = 0.89 g
+1.5 g à r = 1.5 m : M_total = 4.96e+11 kg ; gradient = 2.0 g/m ; g à r-0,3 m = 2.3 g, à r+0,3 m = 1.04 g
+1.5 g à r = 2.0 m : M_total = 8.82e+11 kg ; gradient = 1.5 g/m ; g à r-0,3 m = 2.1 g, à r+0,3 m = 1.13 g
+1.5 g à r = 3.0 m : M_total = 1.98e+12 kg ; gradient = 1.0 g/m ; g à r-0,3 m = 1.9 g, à r+0,3 m = 1.24 g
+2.0 g à r = 0.5 m : M_total = 7.35e+10 kg ; gradient = 8.0 g/m ; g à r-0,3 m = 12.5 g, à r+0,3 m = 0.78 g
+2.0 g à r = 1.0 m : M_total = 2.94e+11 kg ; gradient = 4.0 g/m ; g à r-0,3 m = 4.1 g, à r+0,3 m = 1.18 g
+2.0 g à r = 1.5 m : M_total = 6.61e+11 kg ; gradient = 2.7 g/m ; g à r-0,3 m = 3.1 g, à r+0,3 m = 1.39 g
+2.0 g à r = 2.0 m : M_total = 1.18e+12 kg ; gradient = 2.0 g/m ; g à r-0,3 m = 2.8 g, à r+0,3 m = 1.51 g
+2.0 g à r = 3.0 m : M_total = 2.64e+12 kg ; gradient = 1.3 g/m ; g à r-0,3 m = 2.5 g, à r+0,3 m = 1.65 g
+
+Avec 2 x 1e12 kg (valeur dossier) : g(1 m) = 13.6 g ; g(1,5 m) = 6.0 g ; rayon où g = 2 g : 2.61 m ; où g = 1,5 g : 3.01 m
+Avec 2 x 4,4e12 kg (Page complet, 400 MW) : g(1 m) = 60 g ; rayon où g = 2 g : 5.47 m
+Avec 227 kg (masse revendiquée de l'unité) : g(1 m) = 1.54e-09 g
+Potentiel GM/(r c^2) à 1 m pour M = 2.9e+11 kg : 2.15e-16 -> décalage accumulé en 6,1 h : 4.73e-12 s
+Potentiel GM/(r c^2) à 1 m pour M = 2.0e+12 kg : 1.49e-15 -> décalage accumulé en 6,1 h : 3.26e-11 s
+Potentiel GM/(r c^2) à 1 m pour M = 8.8e+12 kg : 6.54e-15 -> décalage accumulé en 6,1 h : 1.44e-10 s
+Facteur requis par « 10 ans/heure » : 87660 -> en Schwarzschild il faut r/r_s - 1 = 1.30e-10 (observateur statique collé à l'horizon), et la dilatation ne donne JAMAIS un déplacement vers le passé.
+Écart entre effet disponible à 1 m (≈1.5e-15) et effet requis (≈8.8e+04) : 5.9e+19 (≈ 10^20)
+
+====================================================================================================
+D. Échelle réelle des structures de Kerr (ergosphère, anneau, CTC) vs « 3-4 m » revendiqués
+====================================================================================================
+M =      227 kg : GM/c^2 = 1.69e-25 m ; ergosphère équatoriale (a=M) r = 2GM/c^2 = 3.37e-25 m ; rayon max de l'anneau a_max = GM/c^2 = 1.69e-25 m ; rapport à 3,35 m : 9.9e+24
+M =  2.9e+11 kg : GM/c^2 = 2.15e-16 m ; ergosphère équatoriale (a=M) r = 2GM/c^2 = 4.31e-16 m ; rayon max de l'anneau a_max = GM/c^2 = 2.15e-16 m ; rapport à 3,35 m : 7.8e+15
+M =    1e+12 kg : GM/c^2 = 7.43e-16 m ; ergosphère équatoriale (a=M) r = 2GM/c^2 = 1.49e-15 m ; rayon max de l'anneau a_max = GM/c^2 = 7.43e-16 m ; rapport à 3,35 m : 2.3e+15
+M =  4.4e+12 kg : GM/c^2 = 3.27e-15 m ; ergosphère équatoriale (a=M) r = 2GM/c^2 = 6.54e-15 m ; rayon max de l'anneau a_max = GM/c^2 = 3.27e-15 m ; rapport à 3,35 m : 5.1e+14
+Pour une ergosphère de 3,35 m (11 ft) : M = 2.26e+27 kg = 1.19 M_Jupiter = 378 M_Terre
+Pour une anneau de 1 m de rayon (a = GM/c^2, Kerr extrême) : M = 1.35e+27 kg = 0.71 M_Jupiter = 225 M_Terre
+J_max(1e12 kg) = 2.23e+05 J s = 2.11e+39 hbar ; fréquence de rotation de l'horizon (extrême) Omega = c^3/(2GM) = 2.02e+23 rad/s
+
+====================================================================================================
+E. Poids, confinement magnétique/électrique, charge maximale réellement soutenable
+====================================================================================================
+M = 1.45e+11 kg : poids = 1.42e+12 N (= 1.45e+08 tonnes-force) ; Q_extrême = 12.5 C ; E à l'horizon (extrême) = 9.69e+42 V/m = 7.3e+24 x champ de Schwinger ; potentiel = 1.04e+27 V
+     champ électrique externe pour léviter avec Q_extrême : E = Mg/Q = 1.14e+11 V/m
+M = 1.00e+12 kg : poids = 9.81e+12 N (= 1.00e+09 tonnes-force) ; Q_extrême = 86.2 C ; E à l'horizon (extrême) = 1.40e+42 V/m = 1.1e+24 x champ de Schwinger ; potentiel = 1.04e+27 V
+     champ électrique externe pour léviter avec Q_extrême : E = Mg/Q = 1.14e+11 V/m
+M = 4.40e+12 kg : poids = 4.31e+13 N (= 4.40e+09 tonnes-force) ; Q_extrême = 379.2 C ; E à l'horizon (extrême) = 3.19e+41 V/m = 2.4e+23 x champ de Schwinger ; potentiel = 1.04e+27 V
+     champ électrique externe pour léviter avec Q_extrême : E = Mg/Q = 1.14e+11 V/m
+Champ critique de Schwinger = 1.323e+18 V/m
+Masse au-dessus de laquelle un trou noir extrême a E_horizon < E_Schwinger : 1.06e+36 kg = 5.3e+05 M_soleil
+Charge soutenable réaliste d'un trou noir de rayon ~fm (comme un noyau supercritique) : |Z| <~ 170 -> Q = 2.72e-17 C
+  champ électrique requis pour porter 1e12 kg avec cette charge : 3.60e+29 V/m (2.7e+11 x Schwinger)
+  moment magnétique max (Kerr-Newman, g=2) : mu = Q G M / c = 6.06e-24 A m^2 -> gradient requis dB/dz = Mg/mu = 1.62e+36 T/m
+  même avec Q extrême (86 C, impossible) : mu = 1.92e-05 A m^2 -> dB/dz = 5.11e+17 T/m (aimants actuels : ~1e2-1e3 T/m ; record de champ continu ~45 T)
+« Injecter des électrons pour modifier la masse » : +1e+00 kg = 1.10e+30 électrons = 1.76e+11 C (charge extrême de 1e12 kg : 86 C)
+« Injecter des électrons pour modifier la masse » : +1e+09 kg = 1.10e+39 électrons = 1.76e+20 C (charge extrême de 1e12 kg : 86 C)
+  énergie pour amener UN électron sur un trou noir de 1e12 kg déjà chargé à 1 C : 6.05e+18 MeV
+Charge utile typique d'un pick-up 4x4 des années 1980 : ~800 kg ; rapport poids des singularités / charge utile : 2.5e+09
+
+Attraction exercée sur l'environnement par 2e12 kg (permanente : un trou noir ne s'éteint pas) :
+  r =         3 m : a = 1.48e+01 m/s^2 = 1.51e+00 g = 1.48e+06 mGal
+  r =        10 m : a = 1.33e+00 m/s^2 = 1.36e-01 g = 1.33e+05 mGal
+  r =        30 m : a = 1.48e-01 m/s^2 = 1.51e-02 g = 1.48e+04 mGal
+  r =       100 m : a = 1.33e-02 m/s^2 = 1.36e-03 g = 1.33e+03 mGal
+  r =      1000 m : a = 1.33e-04 m/s^2 = 1.36e-05 g = 1.33e+01 mGal
+  r =    100000 m : a = 1.33e-08 m/s^2 = 1.36e-09 g = 1.33e-03 mGal
+  r =   1000000 m : a = 1.33e-10 m/s^2 = 1.36e-11 g = 1.33e-05 mGal
+  (gravimètre de terrain : ~0,01 mGal ; gravimètre supraconducteur : ~1e-3 µGal = 1e-11 m/s^2)
+  distance où le signal vaut 1 µGal (1e-8 m/s^2) : 116 km
+
+====================================================================================================
+F. Dose pour l'opérateur à 1 m pendant 6,1 h (61 ans à 10 ans/h)
+====================================================================================================
+400 MW = puissance totale (Page) : P_gamma = 30 MW, P_e± = 146 MW, P_nu = 221 MW
+   flux gamma à 1 m = 2.40e+06 W/m^2 ; débit de dose (sans blindage, gamma primaires seuls) = 3.84e+03 Gy/s ; dose létale (5 Gy) en 1.30 ms ; dose en 6,1 h = 8.4e+07 Gy
+   atténuation requise pour ramener à 1 mSv par trajet : 8.4e+10 = 25 longueurs d'atténuation
+cas où 400 MW = photons seuls : P_gamma = 400 MW, P_e± = 1930 MW, P_nu = 2925 MW
+   flux gamma à 1 m = 3.18e+07 W/m^2 ; débit de dose (sans blindage, gamma primaires seuls) = 5.09e+04 Gy/s ; dose létale (5 Gy) en 0.10 ms ; dose en 6,1 h = 1.1e+09 Gy
+   atténuation requise pour ramener à 1 mSv par trajet : 1.1e+12 = 28 longueurs d'atténuation
+Blindage plomb : libre parcours ~1.4 cm à ~20 MeV -> >= 36 cm (hors facteur d'accumulation des gerbes, qui impose plutôt 45-60 cm) ; sphère de plomb de rayon 36 cm : 2.2 t ; de rayon 50 cm : 5.9 t
+Faisceau « évacué vers l'arrière » (direction non blindée), atténuation dans l'air ~ 460 m à 20 MeV :
+   à    10 m : 3.76e+01 Gy/s = 1.35e+05 Gy/h
+   à   100 m : 3.09e-01 Gy/s = 1.11e+03 Gy/h
+   à  1000 m : 4.37e-04 Gy/s = 1.57e+00 Gy/h
+Hors trajet aussi : la source ne peut pas être éteinte ; sans blindage intégral elle irradie en permanence.
+
+====================================================================================================
+G. Bilan thermique : puissance déposée dans un coffre de ~0,13 m^3 vs « 38-49 °C »
+====================================================================================================
+P_tot = 300 MW : P déposée (gamma+e±, neutrinos exclus) = 132 MW ; surface coffre = 1.80 m^2 ; T d'équilibre radiatif = 5995 K ; eau à vaporiser = 51 kg/s = 1117 t en 6,1 h
+     temps pour porter 227 kg d'acier à la fusion (ΔT = 1500 K, c = 500 J/kg/K) : 1.29 s
+P_tot = 500 MW : P déposée (gamma+e±, neutrinos exclus) = 220 MW ; surface coffre = 1.80 m^2 ; T d'équilibre radiatif = 6812 K ; eau à vaporiser = 85 kg/s = 1862 t en 6,1 h
+     temps pour porter 227 kg d'acier à la fusion (ΔT = 1500 K, c = 500 J/kg/K) : 0.77 s
+À titre de comparaison, maintenir un habitacle à ~45 °C par 25 °C extérieur correspond à quelques kW (~5 kW) : rapport 4e+04
+Même si « 300-500 MW » désignait la seule part photonique à blindage parfait et refroidissement idéal, le coffre devrait évacuer ~400 MW : densité ~3.1e+09 W/m^3 (cœur de réacteur REP : ~1e8 W/m^3).
+
+====================================================================================================
+H. Énergie de création (« E = mc² peut se résoudre pour la masse »)
+====================================================================================================
+227 kg (toute l'unité)    : E = 2.04e+19 J = 3.40e-02 années d'énergie primaire mondiale = 5.33e-08 s de luminosité solaire = 5.6e+10 faisceaux LHC = 1.0e+13 tirs de Z
+2,9e11 kg (2 g à 1 m)     : E = 2.61e+28 J = 4.34e+07 années d'énergie primaire mondiale = 6.81e+01 s de luminosité solaire = 7.2e+19 faisceaux LHC = 1.3e+22 tirs de Z
+2 x 1e12 kg               : E = 1.80e+29 J = 3.00e+08 années d'énergie primaire mondiale = 4.70e+02 s de luminosité solaire = 5.0e+20 faisceaux LHC = 9.0e+22 tirs de Z
+2 x 4,4e12 kg             : E = 7.91e+29 J = 1.32e+09 années d'énergie primaire mondiale = 2.07e+03 s de luminosité solaire = 2.2e+21 faisceaux LHC = 4.0e+23 tirs de Z
+Masse de Planck = 2.176e-08 kg = 1.22e+19 GeV ; énergie d'une collision LHC = 1,4e4 GeV -> rapport 8.7e+14
+Trou noir « TeV » hypothétique (dimensions supplémentaires) : M ~ 5 TeV = 8.9e-24 kg ; rapport à 1e12 kg : 1.1e+35 ; durée de vie ~1e-26 s (ordre de grandeur publié), aucune pesanteur mesurable.
+
+====================================================================================================
+I. Deux trous noirs voisins : force mutuelle, orbite, coalescence gravitationnelle
+====================================================================================================
+M = 1.45e+11 kg, d = 0.15 m : F = 6.24e+13 N ; si orbite mutuelle : f = 12.1 Hz, v = 5.7 m/s ; coalescence par ondes gravitationnelles : 1.3e+34 s (4.2e+26 a)
+M = 1.45e+11 kg, d = 0.30 m : F = 1.56e+13 N ; si orbite mutuelle : f = 4.3 Hz, v = 4.0 m/s ; coalescence par ondes gravitationnelles : 2.1e+35 s (6.7e+27 a)
+M = 1.00e+12 kg, d = 0.15 m : F = 2.97e+15 N ; si orbite mutuelle : f = 31.7 Hz, v = 14.9 m/s ; coalescence par ondes gravitationnelles : 4.0e+31 s (1.3e+24 a)
+M = 1.00e+12 kg, d = 0.30 m : F = 7.42e+14 N ; si orbite mutuelle : f = 11.2 Hz, v = 10.5 m/s ; coalescence par ondes gravitationnelles : 6.4e+32 s (2.0e+25 a)
+-> la coalescence par rayonnement gravitationnel n'est PAS un problème (objection faible) ;
+   le problème est la tenue statique (logements fixes des dessins) : ~1e14-1e15 N entre deux objets de taille fm,
+   ou bien une orbite mutuelle à ~10 Hz que les dessins ne montrent pas, et de toute façon le poids (section E).
+   Remarque honnête : deux trous noirs chargés extrêmes de même signe sont en équilibre statique (Majumdar-Papapetrou),
+   mais alors T_Hawking = 0 (pas de 300-500 MW) et la charge extrême est instantanément neutralisée (section E).
+
+====================================================================================================
+J. « Verrou de gravité » : chemin parcouru par la Terre pendant le saut
+====================================================================================================
+orbite terrestre (réf. Soleil)  : v = 30 km/s -> 5.73e+13 m en 61 ans ; rapporté aux 6,1 h propres : 2.61e+09 m/s = 8.7 c
+Soleil autour de la Galaxie     : v = 230 km/s -> 4.43e+14 m en 61 ans ; rapporté aux 6,1 h propres : 2.02e+10 m/s = 67.3 c
+Soleil / fond cosmologique      : v = 370 km/s -> 7.12e+14 m en 61 ans ; rapporté aux 6,1 h propres : 3.24e+10 m/s = 108.2 c
+-> « rester collé à la Terre » sur 61 ans en 6,1 h de temps propre n'a de sens que si l'on suit la ligne d'univers
+   de la Terre à rebours ; aucune géométrie connue (Kerr, Tipler) ne fournit de courbe fermée de genre temps de ce type.
+
+====================================================================================================
+K. Divers : divergence, suspension, air, creusement du sol
+====================================================================================================
+Divergence : unité « sûre à ~1 % par 60 ans » vs 2,5 % annoncés pour 61 ans (2036->1975) : rapport 2.46
+Masse de l'unité 227 kg vs trois adultes de 80 kg = 240 kg : aucune suspension renforcée nécessaire.
+Air : 1 personne, 3 m^3, 6,1 h : CO2 ~ 4.1 % (seuil dangereux ~4 %) ; O2 consommé ~0.15 m^3 -> oxygène d'appoint plausible.
+Sol : « 1 pied cube sur 6 pieds carrés » = 2 pouces d'épaisseur moyenne, mais le texte dit « un pouce ou à peu près » (facteur 2).
+
+====================================================================================================
+L. Version la plus défendable (steelman) : deux trous de Kerr-Newman quasi extrêmes de 1,45e11 kg
+====================================================================================================
+g à 1 m = 1.97 g ; g à 3,7 m = 0.14 g ; distance où le signal vaut 1 µGal : 44 km
+poids par trou = 1.42e+12 N ; charge extrême = 12.5 C ; horizon extrême GM/c^2 = 0.11 fm ; r_s = 0.22 fm
+énergie de fabrication = 2.61e+28 J = 4.3e+07 années d'énergie primaire mondiale
+énergie négative d'ordre -R c^2/G pour une région de R = 3 m : -4.0e+27 kg (= 2.1 M_Jupiter)
+
+-> resultats_physique.json écrit.

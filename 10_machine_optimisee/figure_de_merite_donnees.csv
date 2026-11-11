@@ -1,0 +1,18 @@
+cas,decalage_relativiste_absolu_s_par_h,sens,palier,cause_du_decalage
+C204 revendiquée : « 10 ans par heure » (attribué à la machine),3.1558e+08,"revendiqué, non démontré",revendique,attribué à la machine par le corpus (non démontré)
+"C204 telle que décrite : effet PROPRE de ses 227 kg, à 1 m",6.0687e-22,l'objet vieillit moins que la référence,original,effet propre de l'appareil (sa masse)
+"Variante « deux trous noirs de 4,4×10¹² kg » : effet propre à 1 m",2.3526e-11,l'objet vieillit moins que la référence,original,effet propre de l'appareil (sa masse)
+Trajet (R1) — séjour à +1 000 m d'altitude,3.9261e-10,l'objet vieillit plus que la référence,R1,"le trajet : tout objet le subit, la machine n'en est pas la cause"
+Trajet (R1) — mine à −1 000 m,3.9274e-10,l'objet vieillit moins que la référence,R1,"le trajet : tout objet le subit, la machine n'en est pas la cause"
+"Trajet (R1) — route, 130 km/h vers l'est",5.0129e-10,l'objet vieillit moins que la référence,R1,"le trajet : tout objet le subit, la machine n'en est pas la cause"
+"Trajet (R1) — train, 320 km/h vers l'est",1.3279e-09,l'objet vieillit moins que la référence,R1,"le trajet : tout objet le subit, la machine n'en est pas la cause"
+Trajet (R1) — avion de ligne vers l'ouest,6.2380e-09,l'objet vieillit plus que la référence,R1,"le trajet : tout objet le subit, la machine n'en est pas la cause"
+Trajet — orbite basse (hors gabarit du véhicule),1.0184e-06,l'objet vieillit moins que la référence,R1,"le trajet : tout objet le subit, la machine n'en est pas la cause"
+"Trajet (R2) — remorque, 130 km/h vers l'est : même valeur",5.0129e-10,l'objet vieillit moins que la référence,R2,"le trajet : tout objet le subit, la machine n'en est pas la cause"
+R2 — plus petit décalage MESURABLE (horloges à 10⁻¹⁸),3.6000e-15,"résolution de mesure, pas un décalage subi",R2,sans objet (résolution d'instrument)
+R3 — surface d'une étoile à neutrons (aucun équipage),8.4667e+02,l'objet vieillit moins que la référence,R3,la trajectoire ou l'accélérateur (palier théorique)
+"R3 — vaisseau à trou noir de 10⁹ kg (γ = 10,5)",3.4110e+04,l'objet vieillit moins que la référence,R3,la trajectoire ou l'accélérateur (palier théorique)
+"R3 — orbite autour d'un trou noir de Kerr a/M = 0,998",3.5247e+04,l'objet vieillit moins que la référence,R3,la trajectoire ou l'accélérateur (palier théorique)
+"R3 — muons en anneau de stockage (particules, γ = 29,3) : réalisé",1.0188e+05,l'objet vieillit moins que la référence,R3,la trajectoire ou l'accélérateur (palier théorique)
+"R3 — protons du LHC (particules, γ = 7 247) : réalisé",2.6087e+07,l'objet vieillit moins que la référence,R3,la trajectoire ou l'accélérateur (palier théorique)
+"R3 — électrons du LEP à 45,6 GeV (particules) : réalisé",3.2125e+08,l'objet vieillit moins que la référence,R3,la trajectoire ou l'accélérateur (palier théorique)

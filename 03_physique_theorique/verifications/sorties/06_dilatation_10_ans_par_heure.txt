@@ -1,0 +1,49 @@
+==============================================================================
+SCRIPT 06 — « 10 ans par heure » : Γ = dt/dτ
+==============================================================================
+
+Γ = 10 ans / 1 h = 87660   ;   ln Γ = 11.3812
+
+[D1] Voie cinématique : Γ = γ = (1 - v²/c²)^(-1/2)
+  1 - v/c = 6.507e-11  (v = c - 1.95 cm/s)
+  énergie cinétique par kilogramme : (γ - 1) c² = 7.878e+21 J/kg
+  m = 227 kg : E_c = 1.788e+24 J = 4.27e+05 Gt TNT = 2.98e+03 années de consommation mondiale (~6e20 J/an) = 0.005 s de luminosité solaire
+  m = 2500 kg : E_c = 1.970e+25 J = 4.71e+06 Gt TNT = 3.28e+04 années de consommation mondiale (~6e20 J/an) = 0.051 s de luminosité solaire
+  à accélération propre constante de 2 g, atteindre γ = Γ demande τ = (c/a) acosh Γ = 1.846e+08 s = 5.85 ans de temps propre
+  inversement, 1 h de temps propre à 2 g constants : t_ext - τ = 3.328e-05 s (≈ τ (aτ/c)²/6 = 3.328e-05 s), pas 10 ans
+
+[D2] Voie gravitationnelle : observateur statique de Schwarzschild, Γ = (1 - r_s/r)^(-1/2)
+  r/r_s - 1 = 1/(Γ² - 1) = 1.301e-10
+  M =  1e12 kg : r_s = 1.485e-15 m ; station à 1.933e-25 m au-dessus de l'horizon ; accélération propre requise = 2.652e+36 m/s² = 2.70e+35 g
+  M =    Terre : r_s = 8.870e-03 m ; station à 1.154e-12 m au-dessus de l'horizon ; accélération propre requise = 4.441e+23 m/s² = 4.53e+22 g
+  M =   Soleil : r_s = 2.953e+03 m ; station à 3.843e-07 m au-dessus de l'horizon ; accélération propre requise = 1.334e+18 m/s² = 1.36e+17 g
+  M =   Sgr A* : r_s = 1.270e+10 m ; station à 1.653e+00 m au-dessus de l'horizon ; accélération propre requise = 3.102e+11 m/s² = 3.16e+10 g
+  (la surface d'une étoile à neutrons donne Γ ≈ 1,2-1,3 ; aucune station statique ne s'approche de Γ ~ 1e5)
+
+[D3] Identité a = c² ∇ ln N pour un observateur statique (métrique statique quelconque, partie spatiale diagonale)
+  a_i - ∂_i ln N = [0, 0, 0]  -> identité vérifiée (c = 1)
+  Conséquence : entre deux horloges statiques A et B, ln(N_B/N_A) = ∫_A^B ∇ln N · dl  ≤  ∫ |a| dl / c²
+   |a| ≤ 1.5 g sur L = 3.0 m  =>  Γ - 1 ≤ 4.91e-16   (revendiqué : 8,8e4)
+   |a| ≤ 2.0 g sur L = 3.0 m  =>  Γ - 1 ≤ 6.55e-16   (revendiqué : 8,8e4)
+   |a| ≤ 1.5 g sur L = 3.7 m  =>  Γ - 1 ≤ 6.06e-16   (revendiqué : 8,8e4)
+   |a| ≤ 2.0 g sur L = 3.7 m  =>  Γ - 1 ≤ 8.07e-16   (revendiqué : 8,8e4)
+   pour ln Γ = 11.38 sur L = 3.0 m : accélération moyenne requise = 3.41e+17 m/s² = 3.5e+16 g
+   pour ln Γ = 11.38 sur L = 3.7 m : accélération moyenne requise = 2.76e+17 m/s² = 2.8e+16 g
+   à 2 g uniformes, la profondeur de champ nécessaire serait c² ln Γ / a = 5.22e+16 m = 5.51 années-lumière
+
+[D4] Bornes par les conditions d'énergie (G = c = 1)
+  coquille mince : σ = (1 - k)/(4πR) ; p = [(1 - M/R)/k - 1]/(8πR) = (k**2 - 2*k + 1)/(16*pi*R*k)  avec k = sqrt(1 - 2M/R)
+   p/σ = (1 - k)/(4*k)
+   condition d'énergie dominante p ≤ σ  <=>  k ≥ [1/5]  =>  Γ_intérieur = 1/k ≤ 5  (R ≥ 25/24 r_s)
+  étoile homogène : lapse central N_c = (3k - 1)/2 ; p_c/ρ = (1 - k)/(3k - 1) ; p_c ≤ ρ  <=>  k ≥ [1/2]  => Γ_centre = 1/N_c ≤ 4
+   (borne de Buchdahl : p_c -> ∞ quand k -> 1/3, soit R -> 9/8 r_s ; Γ de surface ≤ 3)
+  coquille limite (Γ = 5) de rayon 3.7 m : M = 2.39e+27 kg = 1.26 M_Jupiter ; densité surfacique d'énergie σ c² = pression de surface = 2.08e+42 J/m² (N/m)
+
+[D5] Repères expérimentaux (dilatation du temps réellement mesurée)
+  électron de 45,6 GeV (LEP, pôle du Z) : γ = 89237  <- du même ordre que Γ = 87 660
+  proton de 6,8 TeV (LHC)               : γ = 7247
+  muons de l'anneau du CERN (Bailey et al. 1977) : γ ≈ 29,3
+  rayon cosmique de 3e20 eV (proton)    : γ ≈ 3.2e+11
+  surface de la Terre : GM/(Rc²) = 6.96e-10 ; gradient g/c² = 1.091e-16 par mètre (mesuré jusqu'à l'échelle du mm : Bothwell et al. 2022)
+  GPS (h = 20 200 km) : +45.7 µs/j (gravitation) - 7.2 µs/j (vitesse) = +38.5 µs/j
+  Dans tous les cas dτ > 0 et dt > 0 : la dilatation change le RYTHME, jamais le SENS.

@@ -1,0 +1,77 @@
+{
+  "fiabilite_6h": {
+    "lambda = 0.001 /h": {
+      "R_simplex": 0.9940179640539353,
+      "defaillance_simplex": 0.005982035946064723,
+      "R_TMR": 0.99989307386919,
+      "defaillance_TMR": 0.00010692613080998115,
+      "gain": 55.945500886919994,
+      "MTTF_simplex_h": 1000.0,
+      "MTTF_TMR_h": 833.3333333333334
+    },
+    "lambda = 0.0001 /h": {
+      "R_simplex": 0.9994001799640054,
+      "defaillance_simplex": 0.0005998200359945693,
+      "R_TMR": 0.9999989210793845,
+      "defaillance_TMR": 1.0789206155159548e-06,
+      "gain": 555.9445499219858,
+      "MTTF_simplex_h": 10000.0,
+      "MTTF_TMR_h": 8333.333333333332
+    },
+    "lambda = 1e-05 /h": {
+      "R_simplex": 0.999940001799964,
+      "defaillance_simplex": 5.999820003599332e-05,
+      "R_TMR": 0.99999998920108,
+      "defaillance_TMR": 1.0798919980459232e-08,
+      "gain": 5555.944496723815,
+      "MTTF_simplex_h": 99999.99999999999,
+      "MTTF_TMR_h": 83333.33333333333
+    }
+  },
+  "TMR_utile_si_R_superieur_a": 0.5,
+  "chaine_complete_lambda_1e-4": {
+    "defaillance_elements_non_redondes": 0.003593527769006566,
+    "defaillance_calculateurs_TMR": 1.0789206155159548e-06,
+    "defaillance_horloges_2sur4": 8.628344705385871e-10,
+    "defaillance_systeme": 0.0035946036722238617,
+    "part_des_calculateurs_dans_le_risque": 0.0003001500899398076
+  },
+  "borda_exemple": {
+    "classement_des_2_sains": "A>B>C>D",
+    "classement_du_fautif": "B>C>D>A",
+    "scores": {
+      "A": 6,
+      "B": 7,
+      "C": 4,
+      "D": 1
+    },
+    "gagnant_borda": "B",
+    "gagnant_majorite": "A"
+  },
+  "borda_statistiques": {
+    "3 options": {
+      "classements_fautifs_possibles": 6,
+      "choix_sain_renverse": 0,
+      "ex_aequo": 1
+    },
+    "4 options": {
+      "classements_fautifs_possibles": 24,
+      "choix_sain_renverse": 2,
+      "ex_aequo": 4
+    },
+    "5 options": {
+      "classements_fautifs_possibles": 120,
+      "choix_sain_renverse": 18,
+      "ex_aequo": 20
+    }
+  },
+  "voteur_median_exemple": {
+    "entrees": [
+      9.80665,
+      9.80664,
+      1000000.0
+    ],
+    "sortie": 9.80665
+  },
+  "byzantin": "Sans messages signés, tolérer f fautes arbitraires exige n >= 3f + 1 calculateurs (Lamport, Shostak, Pease 1982) : 3 ne suffisent pas pour f = 1."
+}
