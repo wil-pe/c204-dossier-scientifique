@@ -2,7 +2,7 @@
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>C204 — la « machine temporelle » de John Titor, démontée par la physique</title>
 <meta name="description" content="Simulateur 3D jouable, reconstitution des documents de 2000-2001, calculs, simulations et guide de construction : une étude critique de la machine C204 attribuée à John Titor.">
-<meta property="og:type" content="website"><meta property="og:url" content="https://wil-pe.github.io/c204-dossier-scientifique/"><meta property="og:title" content="C204 — la « machine temporelle » de John Titor, démontée par la physique"><meta property="og:description" content="Simulateur 3D jouable, reconstitution des documents de 2000-2001, calculs, simulations et guide de construction : une étude critique de la machine C204 attribuée à John Titor."><meta property="og:image" content="https://wil-pe.github.io/c204-dossier-scientifique/figures/banniere.png"><meta property="og:image:width" content="1280"><meta property="og:image:height" content="640"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://wil-pe.github.io/c204-dossier-scientifique/figures/banniere.png"><link rel="canonical" href="https://wil-pe.github.io/c204-dossier-scientifique/">
+<meta property="og:type" content="website"><meta property="og:url" content="https://wil-pe.github.io/c204-dossier-scientifique/"><meta property="og:title" content="C204 — la « machine temporelle » de John Titor, démontée par la physique"><meta property="og:description" content="Simulateur 3D jouable, reconstitution des documents de 2000-2001, calculs, simulations et guide de construction : une étude critique de la machine C204 attribuée à John Titor."><meta property="og:locale" content="fr_FR"><meta property="og:image" content="https://wil-pe.github.io/c204-dossier-scientifique/figures/banniere.png"><meta property="og:image:width" content="1280"><meta property="og:image:height" content="640"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://wil-pe.github.io/c204-dossier-scientifique/figures/banniere.png"><link rel="canonical" href="https://wil-pe.github.io/c204-dossier-scientifique/"><link rel="alternate" hreflang="fr" href="https://wil-pe.github.io/c204-dossier-scientifique/"><link rel="alternate" hreflang="en" href="https://wil-pe.github.io/c204-dossier-scientifique/en/"><link rel="alternate" hreflang="x-default" href="https://wil-pe.github.io/c204-dossier-scientifique/en/">
 <style>
 :root{--fond:#fbfaf7;--carte:#ffffff;--texte:#1d1c1a;--discret:#5f5b55;--trait:#dedad2;--accent:#0b5c8a;--chaud:#b3541e;--nuit:#0e1116;--nuit-texte:#f0eee9;--nuit-discret:#a0a6b0;--nuit-accent:#6fb6e0;--nuit-chaud:#e59a66}
 @media (prefers-color-scheme:dark){:root{--fond:#15171a;--carte:#1d2024;--texte:#eceae6;--discret:#a39f98;--trait:#32363c;--accent:#6fb6e0;--chaud:#e59a66}}
@@ -13,8 +13,12 @@ body{margin:0;overflow-x:hidden;background:var(--fond);color:var(--texte);font:1
 a{color:var(--accent)}
 img{max-width:100%;height:auto;display:block}
 .hero{background:var(--nuit);color:var(--nuit-texte);overflow:hidden}
-.hero-in{max-width:1180px;margin:0 auto;padding:56px 16px 0;display:grid;gap:8px 40px;grid-template-columns:minmax(0,1fr);align-items:center}
-@media (min-width:920px){.hero-in{grid-template-columns:minmax(0,5fr) minmax(0,6fr);padding-top:72px}}
+.langues{max-width:1180px;margin:0 auto;padding:14px 16px 0;display:flex;justify-content:flex-end;gap:6px}
+.langues a{padding:6px 12px;border-radius:999px;border:1px solid #3a4250;color:var(--nuit-discret);text-decoration:none;font-size:.86rem;font-weight:600}
+.langues a:hover,.langues a:focus-visible{border-color:var(--nuit-accent);color:var(--nuit-texte);outline:none}
+.langues a[aria-current="page"]{background:var(--nuit-texte);border-color:var(--nuit-texte);color:var(--nuit)}
+.hero-in{max-width:1180px;margin:0 auto;padding:32px 16px 0;display:grid;gap:8px 40px;grid-template-columns:minmax(0,1fr);align-items:center}
+@media (min-width:920px){.hero-in{grid-template-columns:minmax(0,5fr) minmax(0,6fr);padding-top:44px}}
 .surtitre{overflow-wrap:anywhere;margin:0 0 14px;color:var(--nuit-accent);font-weight:700;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase}
 .hero h1{font-size:clamp(2rem,5.2vw,3.3rem);line-height:1.08;margin:0 0 18px;letter-spacing:-.015em;text-wrap:balance}
 .hero h1 em{font-style:normal;color:var(--nuit-chaud)}
@@ -57,16 +61,19 @@ a.carte:hover,a.carte:focus-visible{border-color:var(--accent);outline:none}
 figure.pleine{margin:0}
 figure.pleine img{border:1px solid var(--trait);border-radius:12px;background:#fff}
 figcaption{color:var(--discret);font-size:.9rem;margin-top:6px}
+.etiquette-langue{font-size:.78rem;color:var(--discret);border:1px solid var(--trait);border-radius:999px;padding:1px 8px;margin-left:6px;white-space:nowrap}
 footer{margin-top:64px;color:var(--discret);font-size:.9rem;border-top:1px solid var(--trait);padding-top:16px}
 </style></head><body>
-<header class="hero"><div class="hero-in">
+<header class="hero">
+<nav class="langues" aria-label="Langue"><a href="./" lang="fr" hreflang="fr" aria-current="page">Français</a><a href="en/" lang="en" hreflang="en">English</a></nav>
+<div class="hero-in">
 <div>
 <p class="surtitre">Étude critique · simulateur 3D · dossier ouvert</p>
 <h1>La «&nbsp;machine temporelle&nbsp;» de John Titor, <em>démontée par la physique</em></h1>
 <p class="chapeau">En novembre 2000, un inconnu se disant venu de 2036 publie sur des forums les photos et le manuel de sa machine, la C204. Nous avons pris ces documents au sérieux, juste le temps de les démonter&nbsp;: reconstitution en 3D, calculs, simulations, et ce que l'on pourrait vraiment construire.</p>
 <p class="actions"><a class="bouton plein" href="simulateur.html#mode=recit">Lancer le simulateur 3D</a><a class="bouton" href="https://github.com/wil-pe/c204-dossier-scientifique">Voir le dépôt GitHub</a></p>
 </div>
-<img class="hero-img" src="figures/hero_scene.jpg" width="1400" height="1022" alt="Vue 3D : un pick-up schématique portant l'unité, entouré des anneaux et du cône dessinés dans le manuel d'origine">
+<img class="hero-img" src="figures/hero_scene.jpg" width="1400" height="1022" alt="Vue 3D : un pick-up schématique portant l&#x27;unité, entouré des anneaux et du cône dessinés dans le manuel d&#x27;origine">
 </div></header>
 <main>
 <p class="avert">Rien de ce qu'affirment les documents d'origine n'est tenu pour vrai. Les vues «&nbsp;si elle fonctionnait&nbsp;» mettent un récit en images&nbsp;; elles ne correspondent à aucun phénomène observé. Aucune expérience n'a été réalisée&nbsp;: tout ici est reconstitution, calcul et simulation.</p>
@@ -75,7 +82,7 @@ footer{margin-top:64px;color:var(--discret);font-size:.9rem;border-top:1px solid
 <h2 id="t-modes">Quatre façons d'explorer</h2>
 <p class="sous-titre">Le simulateur tourne dans le navigateur, sans rien installer. Chaque carte ouvre directement le mode correspondant.</p>
 <div class="grille deux">
-<a class="carte" href="simulateur.html#mode=explorer"><img class="capture" src="figures/mode_explorer_vue.png" alt="La C204 en vue éclatée, chaque sous-ensemble étiqueté" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 1</span><strong>Explorer la machine</strong><span>Ouvrez le coffre, faites glisser le curseur de vue éclatée, cliquez une pièce pour savoir d&#x27;où elle vient.</span></div></a>
+<a class="carte" href="simulateur.html#mode=explorer"><img class="capture" src="figures/mode_explorer_vue.png" alt="La C204 en vue éclatée, chaque sous-ensemble étiqueté" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 1</span><strong>Explorer la machine</strong><span>Ouvrez le coffre, faites glisser le curseur de vue éclatée, cliquez une pièce pour savoir d'où elle vient.</span></div></a>
 <a class="carte" href="simulateur.html#mode=recit"><img class="capture" src="figures/mode_recit_vue.png" alt="Un pick-up schématique entouré des anneaux du schéma d&#x27;origine" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 2</span><strong>Si elle fonctionnait</strong><span>Le récit mis en images, étape par étape&nbsp;: montée en puissance, «&nbsp;champ&nbsp;», lumière courbée, noir complet.</span></div></a>
 <a class="carte" href="simulateur.html#mode=physique"><img class="capture" src="figures/mode_physique_vue.png" alt="La même scène avec les zones de dose létale et les résultats chiffrés" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 3</span><strong>Ce que dit la physique</strong><span>Bougez deux curseurs et lisez la masse, la pesanteur, la dose et la température réellement impliquées.</span></div></a>
 <a class="carte" href="simulateur.html#mode=r1"><img class="capture" src="figures/mode_r1_vue.png" alt="Le coffre du palier R1 avec ses composants réels" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 4</span><strong>La version constructible</strong><span>Quatre horloges, trois calculateurs qui votent, un compteur de muons. Injectez une panne pour voir.</span></div></a>
@@ -86,11 +93,11 @@ footer{margin-top:64px;color:var(--discret);font-size:.9rem;border-top:1px solid
 <h2 id="t-chiffres">Les chiffres qui fâchent</h2>
 <p class="sous-titre">Les nombres du récit, pris au pied de la lettre et passés au calcul. Chaque valeur est recalculée par un script du dépôt.</p>
 <div class="chiffres">
-<div class="chiffre"><b>227 kg</b><span>la masse annoncée de l&#x27;unité</span></div>
-<div class="chiffre"><b>4 à 5 Gt</b><span>la masse de chaque «&nbsp;singularité&nbsp;» qu&#x27;exigent les 300 à 500 MW annoncés&nbsp;: des milliards de tonnes</span></div>
-<div class="chiffre"><b>≈ 1 ms</b><span>le temps pour recevoir une dose létale à un mètre, d&#x27;après ces mêmes chiffres</span></div>
-<div class="chiffre"><b>87 660</b><span>le facteur de «&nbsp;dix ans par heure&nbsp;». Les électrons du LEP, au CERN, l&#x27;atteignaient presque&nbsp;: 89 000</span></div>
-<div class="chiffre"><b>0,5 ns/h</b><span>ce que gagne réellement la version constructible à 130 km/h vers l&#x27;est. Un sac de sable ferait pareil</span></div>
+<div class="chiffre"><b>227 kg</b><span>la masse annoncée de l'unité</span></div>
+<div class="chiffre"><b>4 à 5 Gt</b><span>la masse de chaque «&nbsp;singularité&nbsp;» qu'exigent les 300 à 500 MW annoncés&nbsp;: des milliards de tonnes</span></div>
+<div class="chiffre"><b>≈ 1 ms</b><span>le temps pour recevoir une dose létale à un mètre, d'après ces mêmes chiffres</span></div>
+<div class="chiffre"><b>87 660</b><span>le facteur de «&nbsp;dix ans par heure&nbsp;». Les électrons du LEP, au CERN, l'atteignaient presque&nbsp;: 89 000</span></div>
+<div class="chiffre"><b>0,5 ns/h</b><span>ce que gagne réellement la version constructible à 130 km/h vers l'est. Un sac de sable ferait pareil</span></div>
 <div class="chiffre"><b>58</b><span>erreurs trouvées par notre Red Team dans notre propre travail, corrigées et journalisées</span></div>
 </div>
 </section>
@@ -99,27 +106,27 @@ footer{margin-top:64px;color:var(--discret);font-size:.9rem;border-top:1px solid
 <h2 id="t-docs">Les pièces du dossier</h2>
 <p class="sous-titre">Six des vingt-deux documents inventoriés. Ce sont des images anonymes diffusées sur des forums en 2000-2001, reproduites ici pour les analyser. Leur provenance et leurs empreintes sont dans <a href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/01_archive/INVENTAIRE.md">l'inventaire</a>.</p>
 <div class="galerie">
-<figure><img src="figures/documents/doc003_photo_vehicule.jpg" alt="L&#x27;unité photographiée dans un véhicule" loading="lazy"><figcaption>L&#x27;unité photographiée dans un véhicule<small>Photo de 2001</small></figcaption></figure>
-<figure><img src="figures/documents/doc004_unite_ouverte.jpg" alt="L&#x27;unité ouverte et sa télécommande" loading="lazy"><figcaption>L&#x27;unité ouverte et sa télécommande<small>Page de manuel</small></figcaption></figure>
-<figure><img src="figures/documents/doc007_vue_de_dessus.jpg" alt="Vue de dessus&nbsp;: «&nbsp;main&nbsp;» et «&nbsp;steering singularity&nbsp;»" loading="lazy"><figcaption>Vue de dessus&nbsp;: «&nbsp;main&nbsp;» et «&nbsp;steering singularity&nbsp;»<small>Page de manuel</small></figcaption></figure>
-<figure><img src="figures/documents/doc008_composants.jpg" alt="Les douze «&nbsp;composants de base&nbsp;»" loading="lazy"><figcaption>Les douze «&nbsp;composants de base&nbsp;»<small>Page de manuel</small></figcaption></figure>
-<figure><img src="figures/documents/doc009_champ.jpg" alt="Le «&nbsp;champ sinusoïde de Tipler&nbsp;»" loading="lazy"><figcaption>Le «&nbsp;champ sinusoïde de Tipler&nbsp;»<small>Page de manuel</small></figcaption></figure>
-<figure><img src="figures/documents/doc005_ecorche.jpg" alt="L&#x27;écorché à 35 repères, sans légende" loading="lazy"><figcaption>L&#x27;écorché à 35 repères, sans légende<small>Origine inconnue</small></figcaption></figure>
+<figure><img src="figures/documents/doc003_photo_vehicule.jpg" alt="L&#x27;unité photographiée dans un véhicule" loading="lazy"><figcaption>L'unité photographiée dans un véhicule<small>Photo de 2001</small></figcaption></figure>
+<figure><img src="figures/documents/doc004_unite_ouverte.jpg" alt="L&#x27;unité ouverte et sa télécommande" loading="lazy"><figcaption>L'unité ouverte et sa télécommande<small>Page de manuel</small></figcaption></figure>
+<figure><img src="figures/documents/doc007_vue_de_dessus.jpg" alt="Vue de dessus : « main » et « steering singularity »" loading="lazy"><figcaption>Vue de dessus&nbsp;: «&nbsp;main&nbsp;» et «&nbsp;steering singularity&nbsp;»<small>Page de manuel</small></figcaption></figure>
+<figure><img src="figures/documents/doc008_composants.jpg" alt="Les douze « composants de base »" loading="lazy"><figcaption>Les douze «&nbsp;composants de base&nbsp;»<small>Page de manuel</small></figcaption></figure>
+<figure><img src="figures/documents/doc009_champ.jpg" alt="Le « champ sinusoïde de Tipler »" loading="lazy"><figcaption>Le «&nbsp;champ sinusoïde de Tipler&nbsp;»<small>Page de manuel</small></figcaption></figure>
+<figure><img src="figures/documents/doc005_ecorche.jpg" alt="L&#x27;écorché à 35 repères, sans légende" loading="lazy"><figcaption>L'écorché à 35 repères, sans légende<small>Origine inconnue</small></figcaption></figure>
 </div>
 </section>
 
 <section aria-labelledby="t-modele">
 <h2 id="t-modele">Du document au modèle</h2>
 <p class="sous-titre">Chaque pièce du modèle 3D porte son niveau de preuve&nbsp;: lue sur un document, déduite, ou supposée. Rien n'est documenté sous la platine supérieure&nbsp;; l'intérieur est donc une hypothèse, et le modèle le dit.</p>
-<figure class="pleine"><img src="figures/comparaison_document_modele.png" alt="À gauche la page de manuel d'origine, à droite le modèle 3D vu du même point" loading="lazy"><figcaption>La page de manuel et le modèle reconstitué, vus du même point. <a href="visionneuse.html">Ouvrir la visionneuse pièce par pièce</a></figcaption></figure>
+<figure class="pleine"><img src="figures/comparaison_document_modele.png" alt="À gauche la page de manuel d&#x27;origine, à droite le modèle 3D vu du même point" loading="lazy"><figcaption>La page de manuel et le modèle reconstitué, vus du même point. <a href="visionneuse.html">Ouvrir la visionneuse pièce par pièce</a></figcaption></figure>
 </section>
 
 <section aria-labelledby="t-construire">
 <h2 id="t-construire">Ce qu'on peut vraiment construire</h2>
-<p class="sous-titre">Pas une machine à voyager dans le temps&nbsp;: un instrument de mesure dans le même coffre. Coûts et durées sont des estimations sans devis, et rien n'a été construit par nous. <a href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/10_machine_optimisee/GUIDE_CONSTRUCTION.md">Lire le guide de construction</a></p>
+<p class="sous-titre">Pas une machine à voyager dans le temps : un instrument de mesure dans le même coffre. Coûts et durées sont des estimations sans devis, et rien n'a été construit par nous. <a href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/10_machine_optimisee/GUIDE_CONSTRUCTION.md">Lire le guide de construction</a></p>
 <div class="grille">
 <div class="carte"><div class="corps"><span class="numero">CONSTRUCTION A</span><strong>Réplique inerte</strong><span>Le coffre tel que documenté, en maquette de présentation.</span><div class="prix"><span><b>140 à 240 €</b></span><span>15 à 25 h</span></div></div></div>
-<div class="carte"><div class="corps"><span class="numero">CONSTRUCTION B</span><strong>C204-R1 Lite</strong><span>Version d&#x27;initiation&nbsp;: références de temps comparées, trois calculateurs à vote, compteur de muons.</span><div class="prix"><span><b>350 à 730 €</b></span><span>40 à 80 h</span></div></div></div>
+<div class="carte"><div class="corps"><span class="numero">CONSTRUCTION B</span><strong>C204-R1 Lite</strong><span>Version d'initiation&nbsp;: références de temps comparées, trois calculateurs à vote, compteur de muons.</span><div class="prix"><span><b>350 à 730 €</b></span><span>40 à 80 h</span></div></div></div>
 <div class="carte"><div class="corps"><span class="numero">CONSTRUCTION C</span><strong>C204-R1 complet</strong><span>Quatre horloges atomiques miniatures, gyromètre à fibre optique, dans le même coffre.</span><div class="prix"><span><b>≈ 49 k€</b></span><span>300 à 600 h</span></div></div></div>
 </div>
 </section>
@@ -129,10 +136,10 @@ footer{margin-top:64px;color:var(--discret);font-size:.9rem;border-top:1px solid
 <p class="sous-titre">Douze rapports, leurs scripts et leurs données. Tout se relance depuis le dépôt.</p>
 <div class="grille">
 <a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/11_dossier_final/DOSSIER_SCIENTIFIQUE_C204.md"><div class="corps"><strong>Synthèse du programme</strong><span>Les treize livrables, les dix questions, les limites</span></div></a>
-<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/10_machine_optimisee/GUIDE_CONSTRUCTION.md"><div class="corps"><strong>Guide de construction</strong><span>Réplique inerte, version d&#x27;initiation, palier R1 complet</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/10_machine_optimisee/GUIDE_CONSTRUCTION.md"><div class="corps"><strong>Guide de construction</strong><span>Réplique inerte, version d'initiation, palier R1 complet</span></div></a>
 <a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/01_archive/INVENTAIRE.md"><div class="corps"><strong>Inventaire des documents</strong><span>Les 22 pièces, leur provenance, leur attribution</span></div></a>
 <a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/01_archive/HISTORIQUE.md"><div class="corps"><strong>Historique</strong><span>Chronologie 2000-2001 et diffusion ultérieure</span></div></a>
-<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/02_reconstruction/DOSSIER_TECHNIQUE.md"><div class="corps"><strong>Dossier technique</strong><span>L&#x27;objet tel que décrit, plans, dimensions</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/02_reconstruction/DOSSIER_TECHNIQUE.md"><div class="corps"><strong>Dossier technique</strong><span>L'objet tel que décrit, plans, dimensions</span></div></a>
 <a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/03_physique_theorique/RAPPORT_B.md"><div class="corps"><strong>Physique théorique</strong><span>Kerr, Tipler, micro-trous noirs, causalité</span></div></a>
 <a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/04_ingenierie/RAPPORT_C.md"><div class="corps"><strong>Ingénierie</strong><span>Sous-système par sous-système&nbsp;: constructible ou non</span></div></a>
 <a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/05_simulations/RAPPORT_D.md"><div class="corps"><strong>Simulations</strong><span>Neuf simulations reproductibles</span></div></a>

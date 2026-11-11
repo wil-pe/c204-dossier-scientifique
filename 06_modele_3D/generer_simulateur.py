@@ -5,7 +5,13 @@
 
     modele_c204.json (Équipe E)                          ┐
     ../10_machine_optimisee/modele_c204_R1.json (Équipe I, lecture seule)  ├─►  simulateur.html
-    simulateur_gabarit.html (HTML + CSS + JavaScript)    ┘
+    simulateur_gabarit.html (HTML + CSS + JavaScript)    │
+    traductions_en.json (chaînes du modèle en anglais)   ┘
+
+La page est BILINGUE (français / anglais) : les textes d'interface sont dans le gabarit (français dans le HTML,
+anglais dans les attributs data-en et dans les couples tx('…', '…') du script) ; les chaînes du modèle (noms de
+pièces, fonctions, notes…) restent en français dans les données et leur traduction, lue dans traductions_en.json,
+est embarquée à part. Toute chaîne sans traduction est signalée ci-dessous à la génération.
 
 La page produite est un fichier UNIQUE et autonome (données embarquées en JSON ; seule ressource
 externe : three.js r128 sur cdnjs, version figée). Quatre modes :
@@ -44,7 +50,8 @@ LEGENDES = {
         "3": ["Magnetic field generator / regulator", "Générateur / régulateur de champ magnétique"],
         "4": ["Electron mass injector manifold", "Collecteur d'injection de masse d'électrons"], "5": ["Electron regulator", "Régulateur d'électrons"],
         "6": ["Electron generator", "Générateur d'électrons"],
-        "7": ["Singularity sensor booster (ou « status sensor » : lecture de l'Équipe A, confiance faible)", "Amplificateur (ou capteur d'état) de singularité"],
+        "7": ["Singularity sensor booster (ou « status sensor » : lecture de l'Équipe A, confiance faible)", "Amplificateur (ou capteur d'état) de singularité",
+              "Singularity sensor booster (or “status sensor”: Team A's reading, low confidence)"],
         "8": ["Singularity cooling housing", "Enveloppe de refroidissement"], "9": ["Singularity cooling pump", "Pompe de refroidissement"],
         "10": ["Singularity cooling supply", "Réserve de fluide de refroidissement"], "11": ["Gravity sensor unit", "Unité de capteurs de gravité"],
         "12": ["Battery supply", "Alimentation par batterie"]},
@@ -74,16 +81,20 @@ def coefficients_physiques():
         ph["alpha_M12"] = s["alpha_M_1e12kg"]
         fr = s["fractions_M_1e12kg"]
         ph.update(f_gamma=fr["photons"], f_e=fr["electrons_positrons"], f_nu=fr["neutrinos"], f_grav=fr["gravitons"])
-        src["alpha_M12"] = "relu dans 04_ingenierie/calculs/resultats/c01_hawking.json (intégration des facteurs de corps gris, comparée à Page 1976)"
+        src["alpha_M12"] = ["relu dans 04_ingenierie/calculs/resultats/c01_hawking.json (intégration des facteurs de corps gris, comparée à Page 1976)",
+                            "read from 04_ingenierie/calculs/resultats/c01_hawking.json (integration of the grey-body factors, compared with Page 1976)"]
     else:
-        src["alpha_M12"] = "valeur publiée par l'Équipe C (fichier c01_hawking.json introuvable à la génération)"
+        src["alpha_M12"] = ["valeur publiée par l'Équipe C (fichier c01_hawking.json introuvable à la génération)",
+                            "value published by Team C (file c01_hawking.json not found when the page was generated)"]
     t = lire(RACINE / "03_physique_theorique/verifications/sorties/02_hawking_corps_gris.txt")
     m = re.search(r"tout le Modèle standard\)\s*:\s*([0-9.eE+-]+)", t) if t else None
     if m:
         ph["alpha_UV"] = float(m.group(1))
-        src["alpha_UV"] = "relu dans 03_physique_theorique/verifications/sorties/02_hawking_corps_gris.txt"
+        src["alpha_UV"] = ["relu dans 03_physique_theorique/verifications/sorties/02_hawking_corps_gris.txt",
+                           "read from 03_physique_theorique/verifications/sorties/02_hawking_corps_gris.txt"]
     else:
-        src["alpha_UV"] = "valeur publiée par l'Équipe B (sortie introuvable à la génération)"
+        src["alpha_UV"] = ["valeur publiée par l'Équipe B (sortie introuvable à la génération)",
+                           "value published by Team B (output file not found when the page was generated)"]
     t = lire(RACINE / "04_ingenierie/calculs/c05_refroidissement_rayonnement.py")
     if t:
         m = re.search(r"MUEN_EAU\s*=\s*\{([^}]*)\}", t)
@@ -98,17 +109,20 @@ def coefficients_physiques():
         m = re.search(r"^DL50\s*=\s*\(([0-9.]+),\s*([0-9.]+)\)", t, re.M)
         if m:
             ph["DL50_Gy"] = [float(m.group(1)), float(m.group(2))]
-        src["dose"] = "μ_en/ρ de l'eau à 15 MeV (NIST), ε, T₀ et DL50 relus dans 04_ingenierie/calculs/c05_refroidissement_rayonnement.py"
+        src["dose"] = ["μ_en/ρ de l'eau à 15 MeV (NIST), ε, T₀ et DL50 relus dans 04_ingenierie/calculs/c05_refroidissement_rayonnement.py",
+                       "μ_en/ρ of water at 15 MeV (NIST), ε, T₀ and LD50 read from 04_ingenierie/calculs/c05_refroidissement_rayonnement.py"]
     t = lire(RACINE / "04_ingenierie/calculs/c00_constantes.py")
     m = re.search(r"_GEOM\s*=\s*dict\(L=([0-9.]+),\s*P=([0-9.]+),\s*H_ferme=([0-9.]+)", t) if t else None
     if m:
         ph["coffre_C"] = [float(m.group(i)) for i in (1, 2, 3)]
-        src["coffre_C"] = "géométrie figée de l'Équipe C (c00_constantes.py), d'après l'Équipe A"
+        src["coffre_C"] = ["géométrie figée de l'Équipe C (c00_constantes.py), d'après l'Équipe A",
+                           "geometry frozen by Team C (c00_constantes.py), after Team A"]
     t = lire(RACINE / "04_ingenierie/calculs/c09_structure_vehicule.py")
     m = re.search(r"^CHARGE_UTILE\s*=\s*\(([0-9.]+),\s*([0-9.]+)\)", t, re.M) if t else None
     if m:
         ph["charge_utile_kg"] = [float(m.group(1)), float(m.group(2))]
-        src["charge_utile_kg"] = "04_ingenierie/calculs/c09_structure_vehicule.py ([HYP] : pick-up 4×4 des années 1980)"
+        src["charge_utile_kg"] = ["04_ingenierie/calculs/c09_structure_vehicule.py ([HYP] : pick-up 4×4 des années 1980)",
+                                  "04_ingenierie/calculs/c09_structure_vehicule.py ([HYP]: 1980s 4×4 pickup truck)"]
     return ph
 
 
@@ -133,11 +147,11 @@ def parametres_R1():
                 r1[cle] = float(m.group(1))
         r1["sources"]["i00"] = "relu dans 10_machine_optimisee/calculs/i00_commun.py"
     r1["trajets"] = [   # id, libellé, altitude (m), vitesse vers l'est (m/s), cap affiché (degrés), scénario de i01
-        {"id": "route", "nom": "Route vers l'est à 130 km/h", "h": 0, "vE": 130 / 3.6, "cap": 90, "ref": "S05"},
-        {"id": "train", "nom": "Train à 320 km/h vers l'est", "h": 0, "vE": 320 / 3.6, "cap": 90, "ref": "S08"},
-        {"id": "mine", "nom": "Mine à −1 000 m (immobile)", "h": -1000, "vE": 0, "cap": 0, "ref": "S04"},
-        {"id": "altitude", "nom": "Altitude +1 000 m (immobile)", "h": 1000, "vE": 0, "cap": 0, "ref": "S01"},
-        {"id": "avion", "nom": "Avion vers l'ouest (10,7 km, 250 m/s)", "h": 10700, "vE": -250, "cap": 270, "ref": "S11"},
+        {"id": "route", "nom": "Route vers l'est à 130 km/h", "nom_en": "Road, eastbound at 130 km/h", "h": 0, "vE": 130 / 3.6, "cap": 90, "ref": "S05"},
+        {"id": "train", "nom": "Train à 320 km/h vers l'est", "nom_en": "Train, eastbound at 320 km/h", "h": 0, "vE": 320 / 3.6, "cap": 90, "ref": "S08"},
+        {"id": "mine", "nom": "Mine à −1 000 m (immobile)", "nom_en": "Mine at −1,000 m (stationary)", "h": -1000, "vE": 0, "cap": 0, "ref": "S04"},
+        {"id": "altitude", "nom": "Altitude +1 000 m (immobile)", "nom_en": "Altitude +1,000 m (stationary)", "h": 1000, "vE": 0, "cap": 0, "ref": "S01"},
+        {"id": "avion", "nom": "Avion vers l'ouest (10,7 km, 250 m/s)", "nom_en": "Aircraft, westbound (10.7 km, 250 m/s)", "h": 10700, "vE": -250, "cap": 270, "ref": "S11"},
     ]
     return r1
 
@@ -190,6 +204,42 @@ def controles(ph, r1):
     return out
 
 
+# ------------------------------------------------------------------------------------------------
+# Traduction anglaise des chaînes du modèle
+# ------------------------------------------------------------------------------------------------
+CHAMPS_TRADUITS = ("nom", "repere", "source", "existence", "appui", "fonction_revendiquee", "fonction_reelle", "notes")
+
+
+def _norm(s):
+    return s.replace(" ", " ").replace(" ", " ")
+
+
+def table_anglaise(donnees):
+    """Renvoie ({chaîne française: chaîne anglaise}, [chaînes sans traduction]) pour tout ce que la page affiche du modèle."""
+    t = json.loads((ICI / "traductions_en.json").read_text(encoding="utf-8"))
+    exact = {_norm(k): v for k, v in t["exact"].items()}
+    regles = [(re.compile(m), r) for m, r in t["regles"]]
+    chaines = []
+    pieces = list(donnees["A"]["pieces"]) + list((donnees.get("R1") or {}).get("internes") or []) + list((donnees.get("R1") or {}).get("enveloppe") or [])
+    for p in pieces:
+        chaines += [p[c] for c in CHAMPS_TRADUITS if p.get(c)]
+    for c in donnees["classements"].values():
+        chaines += [c[k] for k in ("libelle", "definition") if c.get(k)]
+    en, manquantes = {}, []
+    for s in dict.fromkeys(chaines):
+        n = _norm(s)
+        if n in exact:
+            en[s] = exact[n]
+            continue
+        for motif, rempl in regles:
+            if motif.fullmatch(n):
+                en[s] = motif.sub(rempl, n)
+                break
+        else:
+            manquantes.append(s)
+    return {k: v for k, v in en.items() if v != k}, manquantes
+
+
 def reduire(p):
     return {k: p[k] for k in CHAMPS if k in p}
 
@@ -231,6 +281,11 @@ def main():
     else:
         donnees["R1"] = None
         print("ATTENTION : 10_machine_optimisee/modele_c204_R1.json introuvable — le mode 4 affichera un message")
+
+    donnees["en"], manquantes = table_anglaise(donnees)
+    print(f"traduction anglaise : {len(donnees['en'])} chaînes du modèle traduites" + ("" if not manquantes else f" ; ATTENTION, {len(manquantes)} SANS TRADUCTION (elles resteront en français dans la page) :"))
+    for s in manquantes:
+        print("   - " + s)
 
     ctl = controles(donnees["phys"], donnees["r1p"])
     print("valeurs de contrôle (Python, mêmes formules que la page) :")

@@ -495,7 +495,20 @@ repère de l'occupant sont des volumes schématiques [HYP]. Le rayon des anneaux
 proportions relevées en pixels sur DOC-009 ; les bruits, la panne injectée (+1,7 ns/h) et le seuil du voteur
 (0,01 ns/h) du mode 4 sont des valeurs de démonstration affichées dans la page.
 
-**Essais** : `node --check` ; 143 contrôles automatisés (`node essais_simulateur.mjs`, tous réussis) dans Chrome
+**Version bilingue (français / anglais).** Un sélecteur « FR | EN » en haut à droite change la langue sans
+recharger ni perdre l'état. Langue initiale : `lang=en` ou `lang=fr` dans le fragment d'adresse (par exemple
+`simulateur.html#mode=physique&lang=en`), sinon le choix mémorisé, sinon la langue du navigateur. Les textes
+d'interface sont dans `simulateur_gabarit.html` (français dans le HTML, anglais dans les attributs `data-en` et
+les couples `tx('…', '…')`) ; les 414 chaînes du modèle (noms, fonctions, notes, niveaux de preuve) sont
+traduites dans `traductions_en.json`, et le générateur signale toute chaîne sans traduction. En anglais, le nom
+d'une pièce reprend entre guillemets la légende d'origine quand elle existe, le point décimal remplace la
+virgule, et [DÉD] s'affiche [DED]. Les citations du récit, connues ici par leur traduction française, sont
+rendues en anglais sans guillemets, faute d'avoir revérifié le mot à mot d'origine. `visionneuse.html` reste en
+français, avec un bandeau bilingue qui renvoie au simulateur en anglais.
+
+**Essais** : `node --check` ; 241 contrôles automatisés (`node essais_simulateur.mjs`, tous réussis), dont 94 sur
+la langue (bascule dans chaque mode, ouverture par `#lang=en`, persistance, recherche de texte français en mode
+anglais et inversement) et 4 sur le bandeau de la visionneuse, dans Chrome
 sans tête piloté par le protocole DevTools
 (clics, glissements, molette, pincement et clavier réels) à 1280×800 et à 375×812, plus thème sombre, mouvement
 réduit et CDN bloqué ; captures dans `rendus/simulateur_*.png`. Non essayé : Safari, Firefox, un vrai

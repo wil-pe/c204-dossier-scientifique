@@ -12,14 +12,14 @@ dossier de travail local ; les sous-dossiers marqués « hors dépôt en ligne �
 | `03_physique_theorique/` | Équipe B — physique théorique et relativité générale | 252 | 871,2 ko |
 | `04_ingenierie/` | Équipe C — électromagnétisme et ingénierie | 52 | 544,2 ko |
 | `05_simulations/` | Équipe D — simulations numériques | 86 | 16,4 Mo |
-| `06_modele_3D/` | Équipe E — modèle 3D paramétrique et visionneuse | 96 | 31,0 Mo |
+| `06_modele_3D/` | Équipe E — modèle 3D paramétrique et visionneuse | 110 | 34,4 Mo |
 | `07_experiences/` | Équipe F — expériences réalisables | 69 | 2,4 Mo |
 | `08_red_team/` | Équipe G — Red Team, deux passages | 222 | 11,5 Mo |
 | `09_recherche_contemporaine/` | Équipe H — littérature 2001-2026 | 531 | 19,9 Mo |
 | `10_machine_optimisee/` | Équipe I — machine optimisée, trois paliers | 140 | 3,2 Mo |
-| `11_dossier_final/` | Direction — synthèse finale | 6 | 659,1 ko |
-| `docs/` | Site statique : page d'accueil, simulateur, visionneuse | 25 | 4,1 Mo |
-| **Total** | | **1898** | **162,7 Mo** |
+| `11_dossier_final/` | Direction — synthèse finale | 7 | 682,6 ko |
+| `docs/` | Site statique : page d'accueil, simulateur, visionneuse | 34 | 5,8 Mo |
+| **Total** | | **1922** | **167,8 Mo** |
 
 ## `01_archive/`
 
@@ -120,22 +120,23 @@ dossier de travail local ; les sous-dossiers marqués « hors dépôt en ligne �
 | Fichier | Taille | Titre ou nature |
 |---|---|---|
 | `06_modele_3D/NOMENCLATURE.md` | 21,5 ko | Nomenclature du modèle 3D « C204 » — Équipe E |
-| `06_modele_3D/RAPPORT_E.md` | 42,4 ko | Rapport de l'Équipe E — ingénierie inverse et reconstruction 3D de l'unité « C204 » |
+| `06_modele_3D/RAPPORT_E.md` | 43,7 ko | Rapport de l'Équipe E — ingénierie inverse et reconstruction 3D de l'unité « C204 » |
 | `06_modele_3D/architecture_fonctionnelle.svg` | 25,6 ko | schéma vectoriel |
 | `06_modele_3D/modele_c204.json` | 490,3 ko | données |
 | `06_modele_3D/nomenclature.csv` | 88,2 ko | tableau |
 | `06_modele_3D/parametres.json` | 45,8 ko | données |
 | `06_modele_3D/reconstruire.sh` | 1,3 ko | script de relance |
 | `06_modele_3D/schema_electrique_hypothetique.svg` | 20,8 ko | schéma vectoriel |
-| `06_modele_3D/simulateur.html` | 263,5 ko | page interactive |
-| `06_modele_3D/simulateur_gabarit.html` | 101,5 ko | page interactive |
-| `06_modele_3D/visionneuse.html` | 327,9 ko | page interactive |
+| `06_modele_3D/simulateur.html` | 328,1 ko | page interactive |
+| `06_modele_3D/simulateur_gabarit.html` | 124,3 ko | page interactive |
+| `06_modele_3D/traductions_en.json` | 36,6 ko | données |
+| `06_modele_3D/visionneuse.html` | 328,4 ko | page interactive |
 
 | Sous-dossier | Fichiers | Types principaux |
 |---|---|---|
 | `06_modele_3D/exports/` | 21 | .glb ×5, .stl ×5, .mtl ×5, .obj ×5 |
 | `06_modele_3D/mesures/` | 7 | .png ×3, .py ×3, .json ×1 |
-| `06_modele_3D/rendus/` | 48 | .png ×48 |
+| `06_modele_3D/rendus/` | 61 | .png ×61 |
 
 ## `07_experiences/`
 
@@ -235,7 +236,8 @@ Direction — synthèse finale.
 | Fichier | Taille | Titre ou nature |
 |---|---|---|
 | `11_dossier_final/DOSSIER_SCIENTIFIQUE_C204.md` | 40,4 ko | Dossier scientifique — La « machine temporelle C204 » attribuée à John Titor |
-| `11_dossier_final/INDEX_DES_FICHIERS.md` | 12,7 ko | Index des livrables du programme C204 |
+| `11_dossier_final/INDEX_DES_FICHIERS.md` | 12,8 ko | Index des livrables du programme C204 |
+| `11_dossier_final/SUMMARY_EN.md` | 10,5 ko | The C204 "time machine" attributed to John Titor — summary in English |
 
 | Sous-dossier | Fichiers | Types principaux |
 |---|---|---|
@@ -247,11 +249,12 @@ Site statique : page d'accueil, simulateur, visionneuse.
 
 | Fichier | Taille | Titre ou nature |
 |---|---|---|
-| `docs/index.html` | 19,0 ko | page interactive |
-| `docs/simulateur.html` | 263,5 ko | page interactive |
-| `docs/visionneuse.html` | 327,9 ko | page interactive |
+| `docs/index.html` | 20,0 ko | page interactive |
+| `docs/simulateur.html` | 328,1 ko | page interactive |
+| `docs/visionneuse.html` | 328,4 ko | page interactive |
 
 | Sous-dossier | Fichiers | Types principaux |
 |---|---|---|
-| `docs/figures/` | 21 | .png ×14, .jpg ×7 |
+| `docs/en/` | 1 | .html ×1 |
+| `docs/figures/` | 29 | .png ×22, .jpg ×7 |
 

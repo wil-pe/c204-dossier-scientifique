@@ -33,6 +33,12 @@ MODES = {
     "mode_physique.png": "simulateur_1280_3_physique_A.png",
     "mode_r1.png": "simulateur_1280_4_r1_panne.png",
 }
+MODES_EN = {
+    "mode_explorer_en.png": "simulateur_en_1_explorer.png",
+    "mode_recit_en.png": "simulateur_en_2_recit.png",
+    "mode_physique_en.png": "simulateur_en_3_physique.png",
+    "mode_r1_en.png": "simulateur_en_4_r1.png",
+}
 DOCUMENTS = {
     "doc004_unite_ouverte.jpg": "MT7013__c204unit_johntitor.jpg",
     "doc007_vue_de_dessus.jpg": "MT7016__timetravel_0_1.jpg",
@@ -123,6 +129,12 @@ def main() -> None:
         shutil.copyfile(RENDUS / src, FIG / dst)
         # version recadrée sur la vue 3D seule, pour les cartes de la page d'exploration
         Image.open(RENDUS / src).convert("RGB").crop((0, 108, 860, 740)).save(FIG / dst.replace(".png", "_vue.png"), optimize=True)
+    for dst, src in MODES_EN.items():                      # captures de l'interface en anglais
+        if (RENDUS / src).exists():
+            shutil.copyfile(RENDUS / src, FIG / dst)
+            Image.open(RENDUS / src).convert("RGB").crop((0, 108, 860, 740)).save(FIG / dst.replace("_en.png", "_vue_en.png"), optimize=True)
+        else:
+            print("capture anglaise absente :", src)
     for dst, src in DOCUMENTS.items():
         shutil.copyfile(ORIG / src, FIG / "documents" / dst)
     print(len(MODES), "captures et", len(DOCUMENTS), "documents copiés dans docs/figures/")

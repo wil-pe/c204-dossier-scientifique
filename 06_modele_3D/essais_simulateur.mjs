@@ -1,10 +1,13 @@
 // Équipe E — Programme C204 — essais de simulateur.html dans Chrome sans tête, piloté par le protocole DevTools
 // (clics, glissements, molette, pincement à deux doigts et touches réels ; aucune dépendance : Node 22 ou plus récent).
 //
-//   node essais_simulateur.mjs [dossier des captures] [bureau|mobile|special|tout]
+//   node essais_simulateur.mjs [dossier des captures] [bureau|mobile|special|langue|visionneuse|tout]
 //
 // Profils : « bureau » 1280×800 à la souris, « mobile » 375×812 tactile (densité 2), « special » : thème sombre du
-// système, mouvement réduit, CDN de three.js bloqué. Sans dossier indiqué, les captures vont dans un dossier temporaire.
+// système, mouvement réduit, CDN de three.js bloqué ; « langue » : bascule français / anglais dans les quatre modes aux
+// deux tailles, ouverture par #lang=en, persistance, et contrôle qu'aucun texte français ne subsiste en anglais (ni
+// l'inverse) ; « visionneuse » : bandeau bilingue de visionneuse.html. Sans dossier indiqué, les captures vont dans un
+// dossier temporaire.
 // Chrome est cherché à l'emplacement habituel de macOS ; sinon, donner son chemin dans la variable CHROME.
 // Chaque séance relance un Chrome neuf et dure moins de 25 s (le Chrome sans tête utilisé s'arrêtait seul après ~31 s).
 import { spawn } from 'node:child_process';
@@ -67,7 +70,9 @@ async function js(expr) {
   return r.result.value;
 }
 async function capture(nom) { const r = await send('Page.captureScreenshot', { format: 'png' }); writeFileSync(`${OUT}/${nom}.png`, Buffer.from(r.data, 'base64')); return `${OUT}/${nom}.png`; }
+// « - » : adresse nue (sans fragment) ; sinon, la langue française est imposée quand le fragment n'en donne pas (les essais historiques lisent du français)
 async function charger(hash = '') {
+  if (hash === '-') hash = ''; else if (!/(^|&)lang=/.test(hash)) hash = (hash ? hash + '&' : '') + 'lang=fr';
   await send('Page.navigate', { url: 'about:blank' }); await sleep(150);
   await send('Page.navigate', { url: PAGE + (hash ? '#' + hash : '') });
   for (let i = 0; i < 80; i++) { await sleep(150); if (await js('document.readyState === "complete" && (typeof window.C204SIM === "object")').catch(() => false)) break; }
@@ -116,7 +121,8 @@ async function curseur(sel, fraction) {
   return js(`+document.querySelector(${JSON.stringify(sel)}).value`);
 }
 async function touche(key, code, n = 1, keyCode = 0) {
-  for (let i = 0; i < n; i++) { await send('Input.dispatchKeyEvent', { type: 'keyDown', key, code, windowsVirtualKeyCode: keyCode, nativeVirtualKeyCode: keyCode }); await send('Input.dispatchKeyEvent', { type: 'keyUp', key, code, windowsVirtualKeyCode: keyCode, nativeVirtualKeyCode: keyCode }); await sleep(25); }
+  const text = key === 'Enter' ? '\r' : (key === ' ' ? ' ' : undefined);      // Entrée et Espace doivent produire un caractère pour activer un bouton
+  for (let i = 0; i < n; i++) { await send('Input.dispatchKeyEvent', { type: 'keyDown', key, code, text, windowsVirtualKeyCode: keyCode, nativeVirtualKeyCode: keyCode }); await send('Input.dispatchKeyEvent', { type: 'keyUp', key, code, windowsVirtualKeyCode: keyCode, nativeVirtualKeyCode: keyCode }); await sleep(25); }
   await sleep(80);
 }
 const S = (chemin) => js(`(function(){var s=window.C204SIM.etat; return ${chemin};})()`);
@@ -143,6 +149,154 @@ const DEBORDEMENTS = `(function(){
   var on=document.getElementById('onglets'); return {pb:pb, ongletsDefilent:on.scrollWidth>on.clientWidth+1};})()`;
 
 const proche = (a, b, tol) => Math.abs(a - b) <= tol * Math.abs(b);
+
+// ------------------------------------------------------------------ contrôle de langue
+// Rassemble tout le texte que voit ou entend le lecteur : texte affiché, titre de la page, options des listes, étiquettes 3D,
+// attributs aria-label / title / alt / placeholder. Les éléments marqués lang="fr" ou lang="en" (boutons de langue) sont exclus.
+const TEXTES = `(function(autre){
+  var T=[document.title, (document.querySelector('meta[name=description]')||{content:''}).content];
+  var clone=function(){ var out=[]; (function va(n){ if(n.nodeType===3){ out.push(n.nodeValue); return; } if(n.nodeType!==1) return; if(n.getAttribute('lang')===autre||n.tagName==='SCRIPT'||n.tagName==='STYLE'||n.tagName==='NOSCRIPT') return;
+      var cs=getComputedStyle(n); if(cs.display==='none') return; for(var c=n.firstChild;c;c=c.nextSibling) va(c); })(document.body); return out.join(' '); };
+  T.push(clone());
+  [].forEach.call(document.querySelectorAll('option'),function(o){T.push(o.textContent);});
+  [].forEach.call(document.querySelectorAll('[aria-label],[title],[alt],[placeholder]'),function(e){ if(e.closest('[lang="'+autre+'"]')) return; ['aria-label','title','alt','placeholder'].forEach(function(a){ if(e.hasAttribute(a)) T.push(e.getAttribute(a)); }); });
+  return T.join(' \\n ');})`;
+// en mode anglais : aucun caractère accentué français, aucun mot français courant
+const MOTS_FR = 'le|la|les|des|du|de|un|une|et|est|sont|dans|pour|avec|sur|au|aux|ce|cette|ces|qui|que|ne|pas|par|ou|selon|vers|sans|sous|entre|chaque|deux|trois|quatre|heure|heures|ans|fois|vue|lecture|puissance|masse|trajet|horloge|horloges|calculateur|calculateurs|panne|couvercle|platine|coffre|soit|aucun|aucune|moins|texte|voir|dessus|taux|bruit|champ|temps|corps|logement|logements|bobine|carter|bande|raie|paroi|fond|rayon|sol|poche|anneau|seul|seule';
+const SCAN_FR = `(function(){ var t=${TEXTES}('fr'), pb=[], m;
+  var acc=/[àâäçéèêëîïôöùûüÿœæÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸŒÆ«»]/g; while((m=acc.exec(t))&&pb.length<10) pb.push('accent ou guillemet français « '+t.slice(Math.max(0,m.index-22),m.index+22).replace(/\\s+/g,' ')+' »');
+  var mots=new RegExp('(^|[^A-Za-z0-9_/.\\\\-])(${MOTS_FR})(?![A-Za-z0-9_\\\\-])','gi'); while((m=mots.exec(t))&&pb.length<20) pb.push('mot français « '+t.slice(Math.max(0,m.index-22),m.index+26).replace(/\\s+/g,' ')+' »');
+  return {longueur:t.length, pb:pb};})()`;
+// en mode français : aucun mot-outil anglais (les légendes d'origine citées, en anglais, n'en contiennent pas)
+const SCAN_EN = `(function(){ var t=${TEXTES}('en'), pb=[], m;
+  var mots=/(^|[^A-Za-z0-9_\\/.\\-])(the|and|of|is|are|with|from|this|that|by|for|to|story|according|click|drag|wheel|stated|shown)(?![A-Za-z0-9_\\-])/gi; while((m=mots.exec(t))&&pb.length<12) pb.push('mot anglais « '+t.slice(Math.max(0,m.index-22),m.index+26).replace(/\\s+/g,' ')+' »');
+  return {longueur:t.length, pb:pb};})()`;
+const regler = (sel, v) => js(`(function(){var e=document.querySelector(${JSON.stringify(sel)}); e.value=${JSON.stringify(String(v))}; e.dispatchEvent(new Event('input',{bubbles:true})); e.dispatchEvent(new Event('change',{bubbles:true}));})()`);
+
+// visionneuse.html reste en français : bandeau bilingue renvoyant au simulateur en anglais
+async function essaisVisionneuse() {
+  const profil = 'visionneuse', PAGE_V = PAGE.replace('simulateur.html', 'visionneuse.html');
+  for (const prof of [{ w: 1280, h: 800, dsf: 1, mobile: false }, { w: 375, h: 812, dsf: 2, mobile: true }]) {
+    journal.console.length = 0; journal.exceptions.length = 0; journal.echecs.length = 0;
+    await demarrer();
+    await send('Emulation.setDeviceMetricsOverride', { width: prof.w, height: prof.h, deviceScaleFactor: prof.dsf, mobile: prof.mobile });
+    await send('Emulation.setTouchEmulationEnabled', { enabled: prof.mobile, maxTouchPoints: prof.mobile ? 5 : 1 });
+    TACTILE = prof.mobile;
+    await send('Page.navigate', { url: PAGE_V }); await sleep(2500);
+    const v = await js(`(function(){var n=document.getElementById('note-langue'), r=n.getBoundingClientRect(), c=document.getElementById('toile'), a=n.querySelector('[lang=en] a'); return {texte:n.innerText, haut:Math.round(r.height), visible:r.height>0&&r.top>=0&&r.bottom<=innerHeight&&r.right<=innerWidth+1, lien:a.getAttribute('href'), toile:[c.clientWidth,c.clientHeight], modele: typeof window.C204, large:document.documentElement.scrollWidth<=innerWidth+1, deborde:n.scrollWidth>n.clientWidth+1};})()`);
+    noter(profil, `${prof.w} px : bandeau bilingue visible, vue 3D intacte`, v.visible && v.lien === 'simulateur.html#lang=en' && v.toile[0] > 200 && v.toile[1] > 200 && v.modele === 'object' && v.large && !v.deborde && /This page is in French/.test(v.texte) && journal.exceptions.length === 0,
+      `${v.texte.replace(/\s+/g, ' ')} | hauteur ${v.haut} px | toile ${v.toile.join('×')} | exceptions ${journal.exceptions.length}`);
+    await capture(`visionneuse_bandeau_${prof.w}`);
+    await cliquer('#note-langue [lang=en] a'); await sleep(2500);
+    const s = await js('({sim: typeof window.C204SIM, lang: window.C204SIM ? C204SIM.langue() : null, titre: document.title})');
+    noter(profil, `${prof.w} px : le lien ouvre le simulateur en anglais`, s.sim === 'object' && s.lang === 'en' && s.titre === 'C204 — 3D simulator', s.titre);
+    await js('try{localStorage.removeItem("c204-lang")}catch(e){}');
+  }
+}
+
+async function essaisLangue(profil, w, h, dsf, mobile) {
+  const prof = { w, h, dsf, mobile }, P = (n, ok, d) => noter(profil, n, ok, d), suf = mobile ? '375_' : '';
+  journal.console.length = 0; journal.exceptions.length = 0; journal.echecs.length = 0;
+  const etatLangue = () => js(`({lang:C204SIM.langue(), html:document.documentElement.lang, titre:document.title, bandeau:document.getElementById('bandeau').textContent, hash:location.hash, fr:document.querySelector('#langue [data-lang=fr]').getAttribute('aria-pressed'), en:document.querySelector('#langue [data-lang=en]').getAttribute('aria-pressed')})`);
+  const controleAnglais = async (nom) => { const s = await js(SCAN_FR), db = await js(DEBORDEMENTS), ch = await js(CHEVAUCHEMENTS);
+    P(`anglais, ${nom} : aucun texte français`, s.pb.length === 0 && s.longueur > 500, `${s.longueur} caractères examinés ${s.pb.join(' | ')}`);
+    P(`anglais, ${nom} : ni débordement de texte ni chevauchement d'étiquettes`, db.pb.length === 0 && ch.pb.length === 0 && !db.ongletsDefilent, db.pb.concat(ch.pb).join(' | ') + (db.ongletsDefilent ? ' onglets défilants' : '')); };
+  const controleFrancais = async (nom) => { const s = await js(SCAN_EN); P(`français, ${nom} : aucun texte anglais hors légendes d'origine`, s.pb.length === 0 && s.longueur > 500, `${s.longueur} caractères examinés ${s.pb.join(' | ')}`); };
+
+  // ----- ouverture directe en anglais dans un mode donné
+  await seance(prof, 'mode=physique&lang=en');
+  let e = await etatLangue();
+  P('ouverture directe avec #mode=physique&lang=en', e.lang === 'en' && e.html === 'en' && e.titre === 'C204 — 3D simulator' && (await S('s.mode')) === 'physique' && /lang=en/.test(e.hash) && e.en === 'true' && e.fr === 'false', `${e.titre} | ${e.bandeau} | ${e.hash}`);
+  P('anglais : avertissement du mode 3', e.bandeau === 'Calculation of the real consequences of the figures in the story — no object of this kind has ever been observed.', e.bandeau);
+  const v3 = await js(`[].slice.call(document.querySelectorAll('#ph-res .mesure')).map(function(m){return m.querySelector('.nom').textContent+' = '+m.querySelector('.val').textContent;})`);
+  P('anglais : point décimal et unités (mode 3)', v3.some((l) => /= 4\.38×10¹² kg/.test(l)) && v3.some((l) => /= 59\.6 g/.test(l)) && v3.some((l) => /6\.91×10³ Gy\/s/.test(l)) && (await texte('#ph-r-v')) === '1.0 m' && (await texte('#ph-res')).indexOf('500 lb (227 kg)') > 0 && (await texte('#ph-res')).indexOf('1,500 kg') > 0, v3.join(' ; '));
+  await js('document.querySelector("#ph-ctl-d").open = true; document.querySelectorAll("#p-physique details")[1].open = true'); await controleAnglais('mode 3, hypothèse A, tableaux ouverts');
+  await capture(`simulateur_en_${suf}3_physique`);
+  await cliquer('#ph-opt input[value="B"]'); await controleAnglais('mode 3, hypothèse B');
+  // bascule vers le français sans perdre l'état
+  await cliquer('#ph-opt input[value="A"]'); await curseur('#ph-P', 0); await regler('#ph-r', 2.5);
+  await cliquer('#langue button[data-lang="fr"]'); await sleep(250); e = await etatLangue();
+  P('bascule EN → FR en mode 3 : état conservé, textes français', e.lang === 'fr' && e.html === 'fr' && e.titre === 'C204 — simulateur 3D' && /lang=fr/.test(e.hash) && (await S('s.ph.P')) === 300 && (await S('s.ph.r')) === 2.5 && (await S('s.mode')) === 'physique' && (await texte('#ph-r-v')) === '2,5 m' && /5,06×10¹² kg/.test(await texte('#ph-res')), `${e.bandeau} | ${e.hash}`);
+  await controleFrancais('mode 3');
+
+  // ----- mode 1 : éclaté, fiche ouverte
+  await seance(prof, 'mode=explorer&ecl=60');
+  const c1 = await js(`(function(){var o=C204SIM.ensembles().C.objets.filter(function(o){return /Carter d'entraînement de singularité \\(1\\) — principale/.test(o.p.nom);})[0]; var v=new THREE.Vector3(); o.mesh.getWorldPosition(v); v.project(C204SIM.camera()); var r=document.getElementById('toile').getBoundingClientRect(); return {x:r.left+(v.x+1)/2*r.width, y:r.top+(1-v.y)/2*r.height};})()`);
+  await pointer(c1.x, c1.y); await sleep(500); await js('document.querySelector("#panneaux").scrollTop = 0');
+  await controleFrancais('mode 1 avec fiche');
+  const temoinFr = await js(SCAN_FR);
+  P('témoin : le détecteur de français réagit bien sur la page française', temoinFr.pb.length >= 10, temoinFr.pb.slice(0, 2).join(' | '));
+  const selAvant = await S('s.ex.sel && s.ex.sel.p.id');
+  await cliquer('#langue button[data-lang="en"]'); await sleep(300); e = await etatLangue();
+  const fiche = await texte('#ex-fiche');
+  P('bascule FR → EN en mode 1 : état conservé (éclatement, pièce sélectionnée)', e.lang === 'en' && (await S('s.ex.ecl')) === 0.6 && (await S('s.ex.sel && s.ex.sel.p.id')) === selAvant && !!selAvant && (await texte('#ex-ecl-v')) === '60%', `pièce ${selAvant} | ${e.bandeau}`);
+  P('anglais : fiche de pièce — nom repris de la légende d\'origine, présentée comme telle', /“Singularity (drive|cooling) housing”|“Singularity magnetic field coil”/.test(fiche) && fiche.indexOf('Original caption (as written in the document)') > 0 && fiche.indexOf('Function claimed by the documents') > 0 && fiche.indexOf('Level of evidence') > 0 && fiche.indexOf('Source document') > 0, fiche.slice(0, 230));
+  P('anglais : étiquettes de preuve [DOC] documented, [DED] deduced, [HYP] assumed', /\[DOC\] Documented/.test(await texte('#ex-legende')) && /\[DED\] Deduced/.test(await texte('#ex-legende')) && /\[HYP\] Assumed/.test(await texte('#ex-legende')), (await texte('#ex-legende')).slice(0, 90));
+  await controleAnglais('mode 1, vue éclatée');
+  const temoinEn = await js(SCAN_EN);
+  P('témoin : le détecteur d\'anglais réagit bien sur la page anglaise', temoinEn.pb.length >= 10, temoinEn.pb.slice(0, 2).join(' | '));
+  await capture(`simulateur_en_${suf}1_explorer`);
+  await js('document.querySelector("#ex-fiche").scrollIntoView({block:"start"})'); await sleep(250); await controleAnglais('mode 1, fiche de pièce'); await capture(`simulateur_en_${suf}1_fiche`);
+  // sélecteur au clavier
+  await js('document.querySelector("#langue button[data-lang=fr]").focus()'); await touche('Enter', 'Enter', 1, 13); await sleep(200);
+  const lf = await js('C204SIM.langue()'); await touche('Tab', 'Tab', 1, 9); const foc = await js('document.activeElement.getAttribute("data-lang")'); await touche(' ', 'Space', 1, 32); await sleep(200);
+  P('sélecteur de langue au clavier (Entrée sur FR, Tab, Espace sur EN)', lf === 'fr' && foc === 'en' && (await js('C204SIM.langue()')) === 'en' && (await js('document.querySelector("#langue").getAttribute("aria-label")')) === 'Language', `${lf} → ${await js('C204SIM.langue()')}`);
+
+  // ----- mode 2 : frise en cours, bascule sans perte, chaque étape en anglais
+  await seance(prof, 'mode=recit&ech=doc014&cible=2000');
+  await regler('#re-t', 430); await sleep(300);
+  await cliquer('#langue button[data-lang="en"]'); await sleep(300); e = await etatLangue();
+  P('bascule FR → EN en mode 2 : position de la frise, échelle et date cible conservées', e.lang === 'en' && Math.abs((await S('s.re.t')) - 0.43) < 1e-9 && (await S('s.re.ech')) === 'doc014' && (await S('s.re.cible')) === 2000, e.hash);
+  P('anglais : avertissement du mode 2 intact', e.bandeau === 'Reconstruction of a story — none of these images corresponds to an observed phenomenon.', e.bandeau);
+  P('anglais : étape de la frise légendée « According to the story »', /^4\. The “field” appears\. According to the story: /.test(await texte('#sous-titre')) && (await texte('#etapes button[aria-current="step"]')) === 'The “field” appears', (await texte('#sous-titre')).slice(0, 110));
+  await controleAnglais('mode 2, étape 4, échelle DOC-014'); await capture(`simulateur_en_${suf}2_recit`);
+  for (const t of [50, 200, 300, 485, 700, 960]) { await regler('#re-t', t); await sleep(200); const s = await js(SCAN_FR), ch = await js(CHEVAUCHEMENTS); if (s.pb.length || ch.pb.length) P(`anglais, mode 2 à t = ${t / 1000}`, false, s.pb.concat(ch.pb).join(' | ')); }
+  P('anglais : les sept étapes de la frise sans texte français', true, await js(`[].slice.call(document.querySelectorAll('#etapes button')).map(function(b){return b.textContent;}).join(' · ')`));
+  P('anglais : durée du trajet et divergence (mode 2)', /^Gap: 36 years → a 3\.6 h trip on board; elapsed: /.test(await texte('#re-duree')) && /%$/.test(await texte('#re-div')) && !/ %$/.test(await texte('#re-div')), `${await texte('#re-duree')} | ${await texte('#re-div')} | ${await texte('#re-date')}`);
+  await cliquer('#re-ech button[data-ech="texte"]'); await regler('#re-t', 430); await controleAnglais('mode 2, échelle du texte');
+  await cliquer('#re-jouer'); await sleep(600); await cliquer('#langue button[data-lang="fr"]'); await sleep(500);
+  P('bascule de langue pendant la lecture : la frise continue', (await S('s.re.lecture')) === true && (await S('s.re.t')) > 0.43 && (await texte('#re-jouer')) === '⏸ Pause', 't = ' + (await S('s.re.t')).toFixed(3));
+  await cliquer('#re-jouer'); await controleFrancais('mode 2');
+
+  // ----- mode 4 : simulation en cours et panne injectée
+  await seance(prof, 'mode=r1&trajet=avion&vit=3600');
+  await cliquer('#r1-jouer'); await sleep(1200); await cliquer('#r1-panne'); await sleep(200);
+  const avant4 = await js('({t:C204SIM.etat.r1.t, panne:C204SIM.etat.r1.panne, mu:C204SIM.etat.r1.mu})');
+  await cliquer('#langue button[data-lang="en"]'); await sleep(400); e = await etatLangue();
+  const apres4 = await js('({t:C204SIM.etat.r1.t, panne:C204SIM.etat.r1.panne, mu:C204SIM.etat.r1.mu, lecture:C204SIM.etat.r1.lecture, trajet:C204SIM.etat.r1.trajet})');
+  P('bascule FR → EN en mode 4 : simulation non remise à zéro, panne et trajet conservés', e.lang === 'en' && apres4.t > avant4.t && apres4.panne === avant4.panne && apres4.panne > 0 && apres4.mu >= avant4.mu && apres4.lecture && apres4.trajet === 'avion', `t ${Math.round(avant4.t)} → ${Math.round(apres4.t)} s ; panne n° ${apres4.panne}`);
+  await cliquer('#r1-jouer');
+  const p4 = await texte('#p-r1');
+  P('anglais : avertissements du mode 4 (signaux simulés, « R1 computes it »)', /simulated signals/.test(e.bandeau) && p4.indexOf('Undergone by any object on this route; R1 computes it, it does not produce it.') > 0 && p4.indexOf('simulated') > 0, e.bandeau);
+  P('anglais : panne injectée', /rejected by the voter/.test(await texte('#r1-calc')) && /fault of computer \d masked/.test(await texte('#r1-vote')) && /^\+6\.2380 ns per hour$/.test(await texte('#r1-y')) && (await js('document.querySelector("#r1-trajet").selectedOptions[0].textContent')) === 'Aircraft, westbound (10.7 km, 250 m/s)', `${await texte('#r1-vote')} | ${await texte('#r1-y')}`);
+  await js('document.querySelector("#r1-legende-d").open = true'); await controleAnglais('mode 4, panne injectée');
+  const c4 = await js(`(function(){var o=C204SIM.ensembles().R.objets.filter(function(o){return /Batterie LiFePO4/.test(o.p.nom);})[0]; var v=new THREE.Vector3(); o.mesh.getWorldPosition(v); v.project(C204SIM.camera()); var r=document.getElementById('toile').getBoundingClientRect(); return {x:r.left+(v.x+1)/2*r.width, y:r.top+(1-v.y)/2*r.height};})()`);
+  await pointer(c4.x, c4.y); await sleep(700);
+  P('anglais : fiche d\'un composant R1 (fonction réelle traduite)', /Real function \(stage R1\)/.test(await texte('#r1-fiche')) && /battery/i.test(await texte('#r1-fiche h3')), await texte('#r1-fiche h3'));
+  await controleAnglais('mode 4, fiche de composant');
+  await js('document.querySelector("#r1-calc").scrollIntoView({block:"center"})'); await sleep(250); await capture(`simulateur_en_${suf}4_r1`);
+
+  // ----- persistance après rechargement, puis langue du navigateur
+  await seance(prof, 'mode=explorer&lang=en');
+  await cliquer('#langue button[data-lang="fr"]'); await cliquer('#langue button[data-lang="en"]');
+  await charger('-'); e = await etatLangue();
+  P('persistance : après rechargement sans fragment, l\'anglais choisi est conservé', e.lang === 'en' && e.html === 'en' && /lang=en/.test(e.hash), e.hash);
+  await controleAnglais('mode 1 au chargement'); if (!mobile) await capture('simulateur_en_0_accueil');
+  await cliquer('#langue button[data-lang="fr"]'); await charger('-'); e = await etatLangue();
+  P('persistance : après rechargement sans fragment, le français choisi est conservé', e.lang === 'fr' && e.html === 'fr', e.hash);
+  await js('try{localStorage.removeItem("c204-lang")}catch(e){}'); await charger('-');
+  const nav = await js('navigator.language'); e = await etatLangue();
+  P('sans choix mémorisé : langue du navigateur (français si elle commence par « fr », anglais sinon)', e.lang === (nav.toLowerCase().startsWith('fr') ? 'fr' : 'en'), `navigator.language = ${nav} → ${e.lang}`);
+  await js('try{localStorage.removeItem("c204-lang")}catch(e){}');
+  for (const loc of ['fr-FR', 'de-DE']) {
+    try { await send('Emulation.setLocaleOverride', { locale: loc }); await send('Emulation.setUserAgentOverride', { userAgent: await js('navigator.userAgent'), acceptLanguage: loc }); await charger('-');
+      const n2 = await js('navigator.language'), l2 = await js('C204SIM.langue()');
+      P(`langue du navigateur simulée : ${loc}`, n2 === loc && l2 === (loc.startsWith('fr') ? 'fr' : 'en'), `navigator.language = ${n2} → ${l2}`);
+    } catch (err) { P(`langue du navigateur simulée : ${loc} (émulation indisponible)`, true, err.message); }
+    await js('try{localStorage.removeItem("c204-lang")}catch(e){}');
+  }
+  P('langue : aucune erreur ni exception dans la console', journal.exceptions.length === 0 && journal.console.filter((c) => /^(error|log\.error|assert)/.test(c)).length === 0, journal.console.concat(journal.exceptions).slice(0, 5).join(' | '));
+}
 
 // ------------------------------------------------------------------ le plan d'essais, pour un profil
 async function essais(profil, w, h, dsf, mobile) {
@@ -359,7 +513,7 @@ async function essaisSpeciaux() {
   await demarrer();
   await send('Emulation.setDeviceMetricsOverride', { width: 1280, height: 800, deviceScaleFactor: 1, mobile: false });
   await send('Network.setCacheDisabled', { cacheDisabled: true }); await send('Network.setBlockedURLs', { urls: ['*cdnjs.cloudflare.com*'] });
-  TACTILE = false; await send('Page.navigate', { url: PAGE + '#mode=physique' }); await sleep(2500);
+  TACTILE = false; await send('Page.navigate', { url: PAGE + '#mode=physique&lang=fr' }); await sleep(2500);
   const sans = await js(`(function(){return {three: typeof THREE, sim: typeof window.C204SIM, erreur: !document.getElementById('erreur').hidden, n: document.querySelectorAll('#ph-res .mesure').length, v: (document.querySelector('#ph-res .val')||{}).textContent};})()`);
   await js(`document.querySelector('#tab-r1').click()`); await js(`document.querySelector('#r1-jouer').click()`); await sleep(1200); await js(`document.querySelector('#r1-panne').click()`);
   const sans4 = await js(`(function(){return {t: C204SIM.etat.r1.t, ecarte: document.querySelectorAll('#r1-calc .calc.ecarte').length};})()`);
@@ -372,6 +526,9 @@ try {
   if (QUOI === 'tout' || QUOI === 'bureau') await essais('1280', 1280, 800, 1, false);
   if (QUOI === 'tout' || QUOI === 'mobile') await essais('375', 375, 812, 2, true);
   if (QUOI === 'tout' || QUOI === 'special') await essaisSpeciaux();
+  if (QUOI === 'tout' || QUOI === 'langue' || QUOI === 'langue-bureau') await essaisLangue('EN 1280', 1280, 800, 1, false);
+  if (QUOI === 'tout' || QUOI === 'langue' || QUOI === 'langue-mobile') await essaisLangue('EN 375', 375, 812, 2, true);
+  if (QUOI === 'tout' || QUOI === 'visionneuse') await essaisVisionneuse();
 } catch (e) { console.log('INTERRUPTION : ' + e.message); resultats.push({ profil: '-', nom: 'interruption', ok: false, detail: e.message }); }
 const ko = resultats.filter((r) => !r.ok);
 console.log(`\n${resultats.length - ko.length} essais réussis sur ${resultats.length}` + (ko.length ? ' ; échecs : ' + ko.map((r) => `[${r.profil}] ${r.nom}`).join(' ; ') : ''));

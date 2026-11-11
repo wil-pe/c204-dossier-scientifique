@@ -32,6 +32,10 @@ header{display:flex;align-items:center;gap:10px;padding:7px 14px;background:var(
 header h1{font-size:15px;margin:0;font-weight:650;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1 1 auto}
 header small{color:var(--texte2);font-weight:400}
 #theme{white-space:nowrap;flex:0 0 auto}
+#langue{display:flex;flex:0 0 auto}
+#langue button{padding:6px 9px;font-weight:650;border-radius:0}
+#langue button:first-child{border-radius:7px 0 0 7px}
+#langue button:last-child{border-radius:0 7px 7px 0;border-left:0}
 #onglets{display:flex;gap:4px;padding:0 12px;background:var(--carte);border-bottom:1px solid var(--trait);overflow-x:auto;scrollbar-width:thin}
 #onglets button{border-radius:8px 8px 0 0;border-bottom:0;white-space:nowrap;padding:8px 12px;flex:0 0 auto}
 #onglets .ct{display:none}
@@ -117,9 +121,12 @@ table.ctl{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-nume
 table.ctl td{padding:3px 4px;border-top:1px solid var(--trait);vertical-align:top}
 table.ctl td:last-child{text-align:right;white-space:nowrap;font-weight:650}
 details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:650;margin:14px 0 6px}
+#ph-src,.note,.sous{overflow-wrap:anywhere}
 @media (max-width: 820px){
   header{padding:6px 12px}
+  header{gap:6px}
   header h1{font-size:14px}
+  #langue button{padding:8px 9px}
   main{grid-template-columns:1fr;grid-template-rows:42vh minmax(0,1fr)}
   #panneaux{border-left:0;border-top:1px solid var(--trait);padding:4px 16px 28px}
   #bandeau{font-size:12px;padding:4px 12px}
@@ -132,157 +139,161 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
   .etq{font-size:10.5px;max-width:40%}
   #sous-titre{font-size:12px;padding:5px 8px}
 }
+@media (max-width: 480px){ header small{display:none} }
 @media (prefers-reduced-motion: reduce){ *{transition:none !important;animation:none !important} }
 </style>
 </head>
 <body>
 <div id="app">
   <header>
-    <h1>C204 — simulateur 3D <small>· échelle hypothétique L = __ECHELLE__</small></h1>
-    <button id="theme" type="button" title="Thème : automatique, clair, sombre">Thème : auto</button>
+    <h1><span data-en="C204 — 3D simulator">C204 — simulateur 3D</span> <small>· <span data-en="assumed scale L =">échelle hypothétique L =</span> <span id="echelle"></span></small></h1>
+    <div id="langue" role="group" aria-label="Langue" data-en-aria-label="Language">
+      <button type="button" data-lang="fr" lang="fr" aria-label="Français" aria-pressed="true">FR</button><button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+    </div>
+    <button id="theme" type="button" title="Thème : automatique, clair, sombre" data-en-title="Theme: automatic, light, dark">Thème : auto</button>
   </header>
-  <nav id="onglets" role="tablist" aria-label="Modes du simulateur">
-    <button type="button" role="tab" id="tab-explorer" aria-controls="p-explorer" aria-selected="true" data-mode="explorer">1 · Explorer</button>
-    <button type="button" role="tab" id="tab-recit" aria-controls="p-recit" aria-selected="false" tabindex="-1" data-mode="recit" title="Si elle fonctionnait (selon le récit)"><span class="lg">2 · Si elle fonctionnait (selon le récit)</span><span class="ct" aria-hidden="true">2 · Le récit</span></button>
-    <button type="button" role="tab" id="tab-physique" aria-controls="p-physique" aria-selected="false" tabindex="-1" data-mode="physique" title="Ce que dit la physique"><span class="lg">3 · Ce que dit la physique</span><span class="ct" aria-hidden="true">3 · Physique</span></button>
-    <button type="button" role="tab" id="tab-r1" aria-controls="p-r1" aria-selected="false" tabindex="-1" data-mode="r1" title="C204-R1 (constructible)"><span class="lg">4 · C204-R1 (constructible)</span><span class="ct" aria-hidden="true">4 · R1</span></button>
+  <nav id="onglets" role="tablist" aria-label="Modes du simulateur" data-en-aria-label="Simulator modes">
+    <button type="button" role="tab" id="tab-explorer" aria-controls="p-explorer" aria-selected="true" data-mode="explorer"><span data-en="1 · Explore">1 · Explorer</span></button>
+    <button type="button" role="tab" id="tab-recit" aria-controls="p-recit" aria-selected="false" tabindex="-1" data-mode="recit" title="Si elle fonctionnait (selon le récit)" data-en-title="If it worked (according to the story)"><span class="lg" data-en="2 · If it worked (according to the story)">2 · Si elle fonctionnait (selon le récit)</span><span class="ct" aria-hidden="true" data-en="2 · The story">2 · Le récit</span></button>
+    <button type="button" role="tab" id="tab-physique" aria-controls="p-physique" aria-selected="false" tabindex="-1" data-mode="physique" title="Ce que dit la physique" data-en-title="What physics says"><span class="lg" data-en="3 · What physics says">3 · Ce que dit la physique</span><span class="ct" aria-hidden="true" data-en="3 · Physics">3 · Physique</span></button>
+    <button type="button" role="tab" id="tab-r1" aria-controls="p-r1" aria-selected="false" tabindex="-1" data-mode="r1" title="C204-R1 (constructible)" data-en-title="C204-R1 (buildable)"><span class="lg" data-en="4 · C204-R1 (buildable)">4 · C204-R1 (constructible)</span><span class="ct" aria-hidden="true" data-en="4 · R1">4 · R1</span></button>
   </nav>
   <p id="bandeau" role="note"></p>
   <main>
-    <section id="vue" aria-label="Vue 3D">
-      <canvas id="toile" tabindex="0" aria-label="Vue 3D ; glisser pour tourner, molette ou pincement pour zoomer, flèches du clavier pour tourner, plus et moins pour zoomer"></canvas>
+    <section id="vue" aria-label="Vue 3D" data-en-aria-label="3D view">
+      <canvas id="toile" tabindex="0" aria-label="Vue 3D ; glisser pour tourner, molette ou pincement pour zoomer, flèches du clavier pour tourner, plus et moins pour zoomer" data-en-aria-label="3D view; drag to rotate, wheel or pinch to zoom, arrow keys to rotate, plus and minus to zoom"></canvas>
       <svg id="traits" aria-hidden="true"></svg>
       <div id="etiquettes" aria-hidden="true"></div>
       <div id="hud" hidden></div>
       <div id="sous-titre" hidden role="status" aria-live="polite"></div>
-      <div id="erreur" hidden><div><strong>Affichage 3D indisponible.</strong><p id="erreur-texte">La bibliothèque three.js (r128) n'a pas pu être chargée depuis cdnjs.cloudflare.com : une connexion Internet est nécessaire à l'ouverture de cette page. Les tableaux chiffrés des modes 3 et 4 restent utilisables.</p></div></div>
+      <div id="erreur" hidden><div><strong data-en="3D display unavailable.">Affichage 3D indisponible.</strong><p id="erreur-texte" data-en="The three.js library (r128) could not be loaded from cdnjs.cloudflare.com: an Internet connection is needed to open this page. The numerical tables of modes 3 and 4 remain usable.">La bibliothèque three.js (r128) n'a pas pu être chargée depuis cdnjs.cloudflare.com : une connexion Internet est nécessaire à l'ouverture de cette page. Les tableaux chiffrés des modes 3 et 4 restent utilisables.</p></div></div>
     </section>
 
     <section id="panneaux">
       <!-- ================= 1. EXPLORER ================= -->
       <div role="tabpanel" id="p-explorer" aria-labelledby="tab-explorer">
-        <p class="note">La C204 telle que la décrivent les documents attribués à « John Titor » (2000-2001). Les couleurs disent d'où vient chaque pièce : lue sur un document, déduite, ou supposée.</p>
-        <h2>État</h2>
+        <p class="note" data-en="The C204 as described by the documents attributed to “John Titor” (2000–2001). Colours tell where each part comes from: read from a document, deduced, or assumed.">La C204 telle que la décrivent les documents attribués à « John Titor » (2000-2001). Les couleurs disent d'où vient chaque pièce : lue sur un document, déduite, ou supposée.</p>
+        <h2 data-en="State">État</h2>
         <div class="seg" id="ex-etat">
-          <button type="button" data-e="ferme">Fermé</button>
-          <button type="button" data-e="ouvert">Ouvert</button>
+          <button type="button" data-e="ferme" data-en="Closed">Fermé</button>
+          <button type="button" data-e="ouvert" data-en="Open">Ouvert</button>
         </div>
-        <h2>Vue éclatée</h2>
-        <div class="curseur"><label for="ex-ecl">Éclatement des sous-ensembles</label><output id="ex-ecl-v" for="ex-ecl">0 %</output>
+        <h2 data-en="Exploded view">Vue éclatée</h2>
+        <div class="curseur"><label for="ex-ecl" data-en="Separation of the sub-assemblies">Éclatement des sous-ensembles</label><output id="ex-ecl-v" for="ex-ecl">0 %</output>
           <input id="ex-ecl" type="range" min="0" max="100" step="1" value="0"></div>
-        <label class="coche"><input type="checkbox" id="ex-etq" checked> Étiquettes reliées aux sous-ensembles</label>
-        <label class="coche"><input type="checkbox" id="ex-fant"> Enveloppes translucides (voir l'intérieur)</label>
-        <h2>Couleurs</h2>
+        <label class="coche"><input type="checkbox" id="ex-etq" checked> <span data-en="Labels linked to the sub-assemblies">Étiquettes reliées aux sous-ensembles</span></label>
+        <label class="coche"><input type="checkbox" id="ex-fant"> <span data-en="Translucent shells (see inside)">Enveloppes translucides (voir l'intérieur)</span></label>
+        <h2 data-en="Colours">Couleurs</h2>
         <div class="seg" id="ex-coul">
-          <button type="button" data-c="classement">Niveau de preuve</button>
-          <button type="button" data-c="aspect">Aspect (photos)</button>
+          <button type="button" data-c="classement" data-en="Level of evidence">Niveau de preuve</button>
+          <button type="button" data-c="aspect" data-en="Appearance (photos)">Aspect (photos)</button>
         </div>
         <div id="ex-legende"></div>
-        <h2>Vue</h2>
+        <h2 data-en="View">Vue</h2>
         <div class="seg" id="ex-vue">
-          <button type="button" data-vue="iso">3/4</button><button type="button" data-vue="dessus">Dessus</button>
-          <button type="button" data-vue="face">Face</button><button type="button" data-vue="cote">Côté</button>
-          <button type="button" data-vue="cadrer">Recadrer</button>
+          <button type="button" data-vue="iso">3/4</button><button type="button" data-vue="dessus" data-en="Top">Dessus</button>
+          <button type="button" data-vue="face" data-en="Front">Face</button><button type="button" data-vue="cote" data-en="Side">Côté</button>
+          <button type="button" data-vue="cadrer" data-en="Reframe">Recadrer</button>
         </div>
-        <h2>Fiche de la pièce</h2>
-        <div id="ex-fiche" class="fiche" aria-live="polite"><span class="note">Cliquez ou touchez une pièce pour afficher sa fiche : nom d'origine, traduction, repère, document, fonction revendiquée, niveau de preuve.</span></div>
-        <p class="note">Glisser : tourner · molette ou pincement : zoom · clic droit, Maj+glisser ou deux doigts : déplacer · clavier : flèches, + et −.</p>
+        <h2 data-en="Part data sheet">Fiche de la pièce</h2>
+        <div id="ex-fiche" class="fiche" aria-live="polite"></div>
+        <p class="note" data-en="Drag: rotate · wheel or pinch: zoom · right-click, Shift+drag or two fingers: pan · keyboard: arrows, + and −.">Glisser : tourner · molette ou pincement : zoom · clic droit, Maj+glisser ou deux doigts : déplacer · clavier : flèches, + et −.</p>
       </div>
 
       <!-- ================= 2. RÉCIT ================= -->
       <div role="tabpanel" id="p-recit" aria-labelledby="tab-recit" hidden>
-        <p class="note">Mise en images de ce que <strong>raconte</strong> le texte (novembre 2000 – mars 2001) et de ce que dessine le schéma DOC-009. Rien de ce qui suit n'a été observé ; le mode 3 montre ce que ces mêmes chiffres impliqueraient réellement.</p>
-        <h2>Frise chronologique</h2>
-        <div class="seg" role="group" aria-label="Commandes de lecture">
-          <button type="button" id="re-prec" aria-label="Étape précédente">◀ Étape</button>
+        <p class="note" data-en="A visualisation of what the text <strong>tells</strong> (November 2000 – March 2001) and of what the DOC-009 diagram draws. Nothing below has ever been observed; mode 3 shows what the same figures would really imply.">Mise en images de ce que <strong>raconte</strong> le texte (novembre 2000 – mars 2001) et de ce que dessine le schéma DOC-009. Rien de ce qui suit n'a été observé ; le mode 3 montre ce que ces mêmes chiffres impliqueraient réellement.</p>
+        <h2 data-en="Timeline">Frise chronologique</h2>
+        <div class="seg" role="group" aria-label="Commandes de lecture" data-en-aria-label="Playback controls">
+          <button type="button" id="re-prec" aria-label="Étape précédente" data-en-aria-label="Previous step" data-en="◀ Step">◀ Étape</button>
           <button type="button" id="re-jouer" aria-pressed="false">▶ Lecture</button>
-          <button type="button" id="re-suiv" aria-label="Étape suivante">Étape ▶</button>
+          <button type="button" id="re-suiv" aria-label="Étape suivante" data-en-aria-label="Next step" data-en="Step ▶">Étape ▶</button>
         </div>
-        <div class="curseur" style="margin-top:6px"><label for="re-t">Position dans le récit</label><output id="re-t-v" for="re-t">0 %</output>
+        <div class="curseur" style="margin-top:6px"><label for="re-t" data-en="Position in the story">Position dans le récit</label><output id="re-t-v" for="re-t">0 %</output>
           <input id="re-t" type="range" min="0" max="1000" step="1" value="0"></div>
         <ol id="etapes"></ol>
-        <h2>Réglages</h2>
-        <div class="curseur"><label for="re-cible">Date cible saisie sur la télécommande (départ : 2036, selon le récit)</label><output id="re-cible-v" for="re-cible">1976</output>
+        <h2 data-en="Settings">Réglages</h2>
+        <div class="curseur"><label for="re-cible" data-en="Target date entered on the remote control (departure: 2036, according to the story)">Date cible saisie sur la télécommande (départ : 2036, selon le récit)</label><output id="re-cible-v" for="re-cible">1976</output>
           <input id="re-cible" type="range" min="1976" max="2026" step="1" value="1976"></div>
-        <p class="note" style="margin-top:8px">Échelle du « champ » :</p>
+        <p class="note" style="margin-top:8px" data-en="Scale of the “field”:">Échelle du « champ » :</p>
         <div class="seg" id="re-ech">
-          <button type="button" data-ech="texte">Texte : 3,0–3,7 m</button>
-          <button type="button" data-ech="doc014">DOC-014 : 5, 6, 8, 11 m (attribution non établie)</button>
+          <button type="button" data-ech="texte" data-en="Text: 3.0–3.7 m">Texte : 3,0–3,7 m</button>
+          <button type="button" data-ech="doc014" data-en="DOC-014: 5, 6, 8, 11 m (attribution not established)">DOC-014 : 5, 6, 8, 11 m (attribution non établie)</button>
         </div>
         <p class="note" id="re-ech-note"></p>
-        <h2>Ce qu'annonce le récit à cet instant</h2>
-        <div class="mesure"><div class="nom">Puissance de l'unité</div><div class="val" id="re-puiss">0 %</div><div class="jauge"><i id="re-puiss-j" style="width:0"></i></div></div>
-        <div class="mesure"><div class="nom">Traction vers l'unité (selon le récit : 1,5 à 2 g à pleine puissance, « ou plus » tout près)</div><div class="val" id="re-g">0 g</div>
-          <div class="jauge"><b style="left:60%;width:20%"></b><i id="re-g-j" style="width:0"></i></div><div class="grad"><span>0</span><span>1 g</span><span>2 g</span><span>2,5 g</span></div>
-          <div class="formule">traction affichée = puissance × 2 g (valeur haute du récit) ; bande ambre : 1,5–2 g</div></div>
-        <div class="mesure"><div class="nom">Date affichée à bord · durée du trajet</div><div class="val" id="re-date">2036</div><div class="sous" id="re-duree"></div>
-          <div class="formule">date = départ ∓ 10 ans/h × temps à bord (vitesse annoncée à 100 %) ; durée = |écart| / 10 ans/h</div></div>
-        <div class="mesure"><div class="nom">« Divergence » de ligne d'univers annoncée</div><div class="val" id="re-div">0 %</div>
-          <div class="formule">divergence = 1 % × écart parcouru / 60 ans (grandeur sans définition physique)</div></div>
-        <div class="mesure"><div class="nom">Température annoncée autour de l'unité</div><div class="val" id="re-temp">—</div>
-          <div class="formule">« 100 à 120 degrés » lus en °F : °C = (°F − 32) / 1,8</div></div>
-        <p class="note">Sources : texte attribué à l'auteur (réponses de novembre 2000 à mars 2001) ; schéma DOC-009 « C204 Tipler sinusoid field » ; variante cotée DOC-014 (première trace en 2003 sur un site tiers : attribution non établie). Le véhicule est un volume schématique <strong>[HYP]</strong>.</p>
+        <h2 data-en="What the story states at this moment">Ce qu'annonce le récit à cet instant</h2>
+        <div class="mesure"><div class="nom" data-en="Power of the unit">Puissance de l'unité</div><div class="val" id="re-puiss">0 %</div><div class="jauge"><i id="re-puiss-j" style="width:0"></i></div></div>
+        <div class="mesure"><div class="nom" data-en="Pull towards the unit (according to the story: 1.5 to 2 g at full power, or more very close to it)">Traction vers l'unité (selon le récit : 1,5 à 2 g à pleine puissance, « ou plus » tout près)</div><div class="val" id="re-g">0 g</div>
+          <div class="jauge"><b style="left:60%;width:20%"></b><i id="re-g-j" style="width:0"></i></div><div class="grad"><span>0</span><span>1 g</span><span>2 g</span><span data-en="2.5 g">2,5 g</span></div>
+          <div class="formule" data-en="pull shown = power × 2 g (upper value in the story); amber band: 1.5–2 g">traction affichée = puissance × 2 g (valeur haute du récit) ; bande ambre : 1,5–2 g</div></div>
+        <div class="mesure"><div class="nom" data-en="Date shown on board · trip duration">Date affichée à bord · durée du trajet</div><div class="val" id="re-date">2036</div><div class="sous" id="re-duree"></div>
+          <div class="formule" data-en="date = departure ∓ 10 years/h × time on board (rate stated at 100%); duration = |gap| / 10 years/h">date = départ ∓ 10 ans/h × temps à bord (vitesse annoncée à 100 %) ; durée = |écart| / 10 ans/h</div></div>
+        <div class="mesure"><div class="nom" data-en="Stated worldline “divergence”">« Divergence » de ligne d'univers annoncée</div><div class="val" id="re-div">0 %</div>
+          <div class="formule" data-en="divergence = 1% × gap travelled / 60 years (a quantity with no physical definition)">divergence = 1 % × écart parcouru / 60 ans (grandeur sans définition physique)</div></div>
+        <div class="mesure"><div class="nom" data-en="Stated temperature around the unit">Température annoncée autour de l'unité</div><div class="val" id="re-temp">—</div>
+          <div class="formule" data-en="100 to 120 degrees, read as °F: °C = (°F − 32) / 1.8">« 100 à 120 degrés » lus en °F : °C = (°F − 32) / 1,8</div></div>
+        <p class="note" data-en="Sources: text attributed to the author (replies from November 2000 to March 2001); DOC-009 diagram “C204 Tipler sinusoid field”; dimensioned variant DOC-014 (first trace in 2003 on a third-party site: attribution not established). The vehicle is a schematic volume <strong>[HYP]</strong>.">Sources : texte attribué à l'auteur (réponses de novembre 2000 à mars 2001) ; schéma DOC-009 « C204 Tipler sinusoid field » ; variante cotée DOC-014 (première trace en 2003 sur un site tiers : attribution non établie). Le véhicule est un volume schématique <strong>[HYP]</strong>.</p>
       </div>
 
       <!-- ================= 3. PHYSIQUE ================= -->
       <div role="tabpanel" id="p-physique" aria-labelledby="tab-physique" hidden>
-        <p class="note">Même scène, mais avec les conséquences <strong>réelles</strong> des chiffres du récit (physique connue : rayonnement de Hawking, gravitation newtonienne, relativité générale en champ faible). Chaque nombre est calculé dans cette page ; sa formule est écrite dessous.</p>
-        <h2>Hypothèse sur les « singularités »</h2>
-        <div id="ph-opt" role="radiogroup" aria-label="Hypothèse sur la masse des singularités">
-          <label class="coche"><input type="radio" name="ph-opt" value="A" checked> Deux singularités de la masse qu'exige la puissance annoncée</label>
-          <label class="coche"><input type="radio" name="ph-opt" value="B"> Deux singularités de 113 kg chacune (masse de l'unité : 227 kg)</label>
+        <p class="note" data-en="The same scene, but with the <strong>real</strong> consequences of the figures in the story (known physics: Hawking radiation, Newtonian gravity, general relativity in the weak-field limit). Every number is computed in this page; its formula is written beneath it.">Même scène, mais avec les conséquences <strong>réelles</strong> des chiffres du récit (physique connue : rayonnement de Hawking, gravitation newtonienne, relativité générale en champ faible). Chaque nombre est calculé dans cette page ; sa formule est écrite dessous.</p>
+        <h2 data-en="Assumption about the “singularities”">Hypothèse sur les « singularités »</h2>
+        <div id="ph-opt" role="radiogroup" aria-label="Hypothèse sur la masse des singularités" data-en-aria-label="Assumption about the mass of the singularities">
+          <label class="coche"><input type="radio" name="ph-opt" value="A" checked> <span data-en="Two singularities of the mass required by the stated power">Deux singularités de la masse qu'exige la puissance annoncée</span></label>
+          <label class="coche"><input type="radio" name="ph-opt" value="B"> <span data-en="Two singularities of 113 kg each (mass of the unit: 500 lb, 227 kg)">Deux singularités de 113 kg chacune (masse de l'unité : 227 kg)</span></label>
         </div>
-        <div class="curseur" style="margin-top:8px"><label for="ph-P">Puissance annoncée par singularité</label><output id="ph-P-v" for="ph-P">400 MW</output>
+        <div class="curseur" style="margin-top:8px"><label for="ph-P" data-en="Stated power per singularity">Puissance annoncée par singularité</label><output id="ph-P-v" for="ph-P">400 MW</output>
           <input id="ph-P" type="range" min="300" max="500" step="10" value="400"></div>
-        <div class="curseur"><label for="ph-r">Distance de l'occupant à l'unité</label><output id="ph-r-v" for="ph-r">1,0 m</output>
+        <div class="curseur"><label for="ph-r" data-en="Distance from the occupant to the unit">Distance de l'occupant à l'unité</label><output id="ph-r-v" for="ph-r">1,0 m</output>
           <input id="ph-r" type="range" min="0.5" max="4" step="0.1" value="1"></div>
-        <h2>Résultats</h2>
+        <h2 data-en="Results">Résultats</h2>
         <div id="ph-res"></div>
-        <details id="ph-ctl-d"><summary>Valeurs de contrôle (indépendantes des curseurs)</summary><table class="ctl" id="ph-ctl"></table></details>
-        <details><summary>Constantes et sources</summary><div class="note" id="ph-src"></div></details>
+        <details id="ph-ctl-d"><summary data-en="Check values (independent of the sliders)">Valeurs de contrôle (indépendantes des curseurs)</summary><table class="ctl" id="ph-ctl"></table></details>
+        <details><summary data-en="Constants and sources">Constantes et sources</summary><div class="note" id="ph-src"></div></details>
       </div>
 
       <!-- ================= 4. R1 ================= -->
       <div role="tabpanel" id="p-r1" aria-labelledby="tab-r1" hidden>
-        <p class="note" id="r1-intro">Le palier R1 de l'Équipe I : un chronomètre-gravimètre réel logé dans l'enveloppe du coffre. Il ne déplace rien dans le temps. Tous les signaux ci-dessous sont <strong>simulés</strong> dans cette page (bruits tirés au hasard).</p>
-        <details id="r1-legende-d"><summary>Couleurs des pièces</summary><div id="r1-legende"></div></details>
+        <p class="note" id="r1-intro" data-en="Stage R1, by Team I: a real chronometer-gravimeter housed in the shell of the case. It moves nothing through time. All the signals below are <strong>simulated</strong> in this page (noise drawn at random).">Le palier R1 de l'Équipe I : un chronomètre-gravimètre réel logé dans l'enveloppe du coffre. Il ne déplace rien dans le temps. Tous les signaux ci-dessous sont <strong>simulés</strong> dans cette page (bruits tirés au hasard).</p>
+        <details id="r1-legende-d"><summary data-en="Part colours">Couleurs des pièces</summary><div id="r1-legende"></div></details>
         <h2>Simulation</h2>
         <div class="seg">
           <button type="button" id="r1-jouer" aria-pressed="false">▶ Lancer</button>
-          <button type="button" id="r1-raz">Remettre à zéro</button>
+          <button type="button" id="r1-raz" data-en="Reset">Remettre à zéro</button>
         </div>
-        <div class="seg" id="r1-vit" style="margin-top:4px" role="group" aria-label="Accélération du temps">
-          <button type="button" data-v="60">× 60</button><button type="button" data-v="600">× 600</button><button type="button" data-v="3600">× 3 600</button>
+        <div class="seg" id="r1-vit" style="margin-top:4px" role="group" aria-label="Accélération du temps" data-en-aria-label="Time acceleration">
+          <button type="button" data-v="60">× 60</button><button type="button" data-v="600">× 600</button><button type="button" data-v="3600" data-en="× 3,600">× 3 600</button>
         </div>
-        <div class="mesure"><div class="nom">Temps simulé écoulé (accéléré)</div><div class="val" id="r1-t">0 h 00 min 00 s</div></div>
-        <h2>Trajet</h2>
-        <select id="r1-trajet" aria-label="Trajet"></select>
-        <div class="mesure"><div class="nom">Décalage relativiste du trajet (horloge embarquée − horloge restée au sol)</div><div class="val" id="r1-y">—</div>
+        <div class="mesure"><div class="nom" data-en="Simulated time elapsed (accelerated)">Temps simulé écoulé (accéléré)</div><div class="val" id="r1-t">0 h 00 min 00 s</div></div>
+        <h2 data-en="Route">Trajet</h2>
+        <select id="r1-trajet" aria-label="Trajet" data-en-aria-label="Route"></select>
+        <div class="mesure"><div class="nom" data-en="Relativistic shift along the route (on-board clock − clock left on the ground)">Décalage relativiste du trajet (horloge embarquée − horloge restée au sol)</div><div class="val" id="r1-y">—</div>
           <div class="sous" id="r1-y2"></div>
-          <div class="formule">y = [GM/r₀ − GM/r]/c² − [(Ω r cosφ + v_E)² − (Ω r₀ cosφ)²]/(2c²) ; décalage = y × 3 600 s (φ = 45°)</div>
-          <div class="sous"><strong>Subi par tout objet sur ce trajet ; R1 le calcule, il ne le produit pas.</strong></div></div>
-        <div class="mesure"><div class="nom">Cumul depuis le départ</div><div class="val" id="r1-cumul">0 ns</div><div class="formule">cumul = y × temps écoulé</div></div>
-        <h2>Quatre horloges au césium (bruit simulé)</h2>
+          <div class="formule" data-en="y = [GM/r₀ − GM/r]/c² − [(Ω r cosφ + v_E)² − (Ω r₀ cosφ)²]/(2c²); shift = y × 3,600 s (φ = 45°)">y = [GM/r₀ − GM/r]/c² − [(Ω r cosφ + v_E)² − (Ω r₀ cosφ)²]/(2c²) ; décalage = y × 3 600 s (φ = 45°)</div>
+          <div class="sous"><strong data-en="Undergone by any object on this route; R1 computes it, it does not produce it.">Subi par tout objet sur ce trajet ; R1 le calcule, il ne le produit pas.</strong></div></div>
+        <div class="mesure"><div class="nom" data-en="Total since departure">Cumul depuis le départ</div><div class="val" id="r1-cumul">0 ns</div><div class="formule" data-en="total = y × elapsed time">cumul = y × temps écoulé</div></div>
+        <h2 data-en="Four caesium clocks (simulated noise)">Quatre horloges au césium (bruit simulé)</h2>
         <div id="r1-horloges"></div>
         <div class="formule" id="r1-h-form"></div>
         <p class="note" id="r1-h-note"></p>
-        <h2>Trois calculateurs et voteur</h2>
+        <h2 data-en="Three computers and voter">Trois calculateurs et voteur</h2>
         <div id="r1-calc"></div>
-        <div class="mesure"><div class="nom">Valeur retenue par le voteur (médiane)</div><div class="val" id="r1-vote">—</div>
+        <div class="mesure"><div class="nom" data-en="Value kept by the voter (median)">Valeur retenue par le voteur (médiane)</div><div class="val" id="r1-vote">—</div>
           <div class="formule" id="r1-vote-form"></div></div>
-        <div class="seg"><button type="button" id="r1-panne">Injecter une panne</button><button type="button" id="r1-repare" disabled>Réparer</button></div>
-        <h2>Télescope à muons (logement principal)</h2>
-        <div class="mesure"><div class="nom">Coïncidences comptées · taux mesuré</div><div class="val" id="r1-mu">0</div><div class="sous" id="r1-mu2"></div>
+        <div class="seg"><button type="button" id="r1-panne" data-en="Inject a fault">Injecter une panne</button><button type="button" id="r1-repare" disabled data-en="Repair">Réparer</button></div>
+        <h2 data-en="Muon telescope (main well)">Télescope à muons (logement principal)</h2>
+        <div class="mesure"><div class="nom" data-en="Coincidences counted · measured rate">Coïncidences comptées · taux mesuré</div><div class="val" id="r1-mu">0</div><div class="sous" id="r1-mu2"></div>
           <div class="formule" id="r1-mu-form"></div></div>
-        <h2>Gyromètre à fibre (logement de direction)</h2>
+        <h2 data-en="Fibre-optic gyroscope (steering well)">Gyromètre à fibre (logement de direction)</h2>
         <div class="cote-a-cote">
-          <div id="boussole" aria-hidden="true"><span style="left:50%;top:2px;transform:translateX(-50%)">N</span><span style="right:5px;top:50%;transform:translateY(-50%)">E</span><span style="left:50%;bottom:2px;transform:translateX(-50%)">S</span><span style="left:5px;top:50%;transform:translateY(-50%)">O</span><div id="aiguille"></div></div>
-          <div class="mesure" style="flex:1"><div class="nom">Cap mesuré (bruit simulé)</div><div class="val" id="r1-cap">—</div>
+          <div id="boussole" aria-hidden="true"><span style="left:50%;top:2px;transform:translateX(-50%)">N</span><span style="right:5px;top:50%;transform:translateY(-50%)">E</span><span style="left:50%;bottom:2px;transform:translateX(-50%)">S</span><span style="left:5px;top:50%;transform:translateY(-50%)" data-en="W">O</span><div id="aiguille"></div></div>
+          <div class="mesure" style="flex:1"><div class="nom" data-en="Measured heading (simulated noise)">Cap mesuré (bruit simulé)</div><div class="val" id="r1-cap">—</div>
             <div class="sous" id="r1-sagnac"></div><div class="formule" id="r1-cap-form"></div></div>
         </div>
-        <h2>Fiche de la pièce</h2>
-        <div id="r1-fiche" class="fiche" aria-live="polite"><span class="note">Cliquez ou touchez un composant.</span></div>
-        <p class="note">Modèle et formules : Équipe I (<code>10_machine_optimisee/</code>, script <code>i01_deplacement_temporel.py</code>). Enveloppe : modèle de l'Équipe E.</p>
+        <h2 data-en="Part data sheet">Fiche de la pièce</h2>
+        <div id="r1-fiche" class="fiche" aria-live="polite"></div>
+        <p class="note" data-en="Model and formulas: Team I (<code>10_machine_optimisee/</code>, script <code>i01_deplacement_temporel.py</code>). Shell: Team E's model.">Modèle et formules : Équipe I (<code>10_machine_optimisee/</code>, script <code>i01_deplacement_temporel.py</code>). Enveloppe : modèle de l'Équipe E.</p>
       </div>
     </section>
   </main>
@@ -303,19 +314,33 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
   var RM = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   var CL = D.classements, PH = D.phys, R1P = D.r1p;
 
-  /* ---------- nombres à la française ---------- */
+  /* ---------- langue : #lang=fr|en dans l'adresse, sinon choix mémorisé, sinon langue du navigateur ---------- */
+  var LANG = (function () {
+    var m = /(?:^#|&)lang=(fr|en)(?:&|$)/.exec(location.hash); if (m) return m[1];
+    try { var s = localStorage.getItem('c204-lang'); if (s === 'fr' || s === 'en') return s; } catch (e) {}
+    return String(navigator.language || navigator.userLanguage || 'en').toLowerCase().indexOf('fr') === 0 ? 'fr' : 'en';
+  })();
+  function tx(fr, en) { return LANG === 'en' ? en : fr; }                 /* texte d'interface dans la langue courante */
+  function tr(paire) { return paire[LANG === 'en' ? 1 : 0]; }              /* couple [français, anglais] */
+  function trD(s) { return (LANG === 'en' && s != null && D.en && D.en[s] != null) ? D.en[s] : s; }      /* chaîne du modèle (traduction embarquée) */
+  function codeCL(k) { return LANG === 'en' && k === 'DÉD' ? 'DED' : k; }   /* étiquette de preuve affichée : [DÉD] devient [DED] en anglais */
+
+  /* ---------- nombres : virgule décimale en français ; point décimal et virgule des milliers en anglais ---------- */
   var SUP = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' };
-  function fx(x, n) { return x.toFixed(n).replace('.', ',').replace('-', '−'); }
-  function ent(x) { return String(Math.round(x)).replace(/\B(?=(\d{3})+(?!\d))/g, '\u202f').replace('-', '−'); }
+  function dec(s) { return (LANG === 'en' ? s : s.replace('.', ',')).replace('-', '−'); }
+  function fx(x, n) { return dec(x.toFixed(n)); }
+  function num(x) { return dec(String(x)); }
+  function ent(x) { return String(Math.round(x)).replace(/\B(?=(\d{3})+(?!\d))/g, LANG === 'en' ? ',' : ' ').replace('-', '−'); }
+  function pct(s) { return s + (LANG === 'en' ? '%' : ' %'); }
   function sci(x, n) {
     n = n || 3;
     if (x === 0) return '0';
     if (!isFinite(x)) return x > 0 ? '∞' : '−∞';
     var a = Math.abs(x);
-    if (a >= 0.01 && a < 1000) return String(Number(x.toPrecision(n))).replace('.', ',').replace('-', '−');
+    if (a >= 0.01 && a < 1000) return dec(String(Number(x.toPrecision(n))));
     var e = Math.floor(Math.log10(a)), m = x / Math.pow(10, e);
     if (Math.abs(Number(m.toFixed(n - 1))) >= 10) { e += 1; m /= 10; }
-    return m.toFixed(n - 1).replace('.', ',').replace('-', '−') + '×10' + String(e).split('').map(function (ch) { return SUP[ch]; }).join('');
+    return dec(m.toFixed(n - 1)) + '×10' + String(e).split('').map(function (ch) { return SUP[ch]; }).join('');
   }
   function duree(s) {
     if (s < 1e-9) return sci(s) + ' s';
@@ -325,7 +350,7 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     if (s < 120) return sci(s) + ' s';
     if (s < 7200) return sci(s / 60) + ' min';
     if (s < 172800) return sci(s / 3600) + ' h';
-    return sci(s / K.an) + ' ans';
+    return sci(s / K.an) + tx(' ans', ' years');
   }
 
   /* ---------- constantes physiques (CODATA 2018) et formules ---------- */
@@ -365,23 +390,64 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
             ph: { P: 400, r: 1.0, opt: 'A' },
             r1: { lecture: false, vit: 600, t: 0, trajet: 'route', panne: 0, x: [0, 0, 0, 0], mu: 0, muProchain: 0, cap: 90, sel: null, bruit: [0, 0, 0] } };
   var BANDEAUX = {
-    explorer: 'Objet reconstitué d\'après des documents non authentifiés — rien n\'atteste qu\'il ait existé ni fonctionné.',
-    recit: 'Reconstitution d\'un récit — aucune de ces images ne correspond à un phénomène observé.',
-    physique: 'Calcul des conséquences réelles des chiffres du récit — aucun objet de ce genre n\'a jamais été observé.',
-    r1: 'C204-R1 : instrument de mesure constructible. Il ne déplace rien dans le temps ; signaux simulés dans cette page.'
+    explorer: ['Objet reconstitué d\'après des documents non authentifiés — rien n\'atteste qu\'il ait existé ni fonctionné.',
+               'Object reconstructed from unauthenticated documents — nothing shows that it ever existed or worked.'],
+    recit: ['Reconstitution d\'un récit — aucune de ces images ne correspond à un phénomène observé.',
+            'Reconstruction of a story — none of these images corresponds to an observed phenomenon.'],
+    physique: ['Calcul des conséquences réelles des chiffres du récit — aucun objet de ce genre n\'a jamais été observé.',
+               'Calculation of the real consequences of the figures in the story — no object of this kind has ever been observed.'],
+    r1: ['C204-R1 : instrument de mesure constructible. Il ne déplace rien dans le temps ; signaux simulés dans cette page.',
+         'C204-R1: a measuring instrument that can be built. It moves nothing through time; simulated signals, generated in this page.']
   };
 
   /* ---------- thème ---------- */
   var themes = ['auto', 'light', 'dark'], iTheme = 0;
   try { var th0 = localStorage.getItem('c204-theme'); if (themes.indexOf(th0) > 0) iTheme = themes.indexOf(th0); } catch (e) {}
+  function libelleTheme() { $('#theme').textContent = tx('Thème : ', 'Theme: ') + tr({ auto: ['auto', 'auto'], light: ['clair', 'light'], dark: ['sombre', 'dark'] }[themes[iTheme]]); }
   function appliquerTheme() {
     var t = themes[iTheme];
     if (t === 'auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', t);
-    $('#theme').textContent = 'Thème : ' + { auto: 'auto', light: 'clair', dark: 'sombre' }[t];
+    libelleTheme();
     try { localStorage.setItem('c204-theme', t); } catch (e) {}
     if (rendu) { majFond(); demander(); }
   }
   $('#theme').addEventListener('click', function () { iTheme = (iTheme + 1) % 3; appliquerTheme(); });
+
+  /* ---------- textes statiques : le français est dans le HTML, l'anglais dans les attributs data-en ---------- */
+  var STAT = $$('[data-en]').map(function (el) { return { el: el, fr: el.innerHTML, en: el.getAttribute('data-en') }; });
+  var STATA = [], sansWebGL = false;
+  ['aria-label', 'title'].forEach(function (a) { $$('[data-en-' + a + ']').forEach(function (el) { STATA.push({ el: el, a: a, fr: el.getAttribute(a), en: el.getAttribute('data-en-' + a) }); }); });
+  function textesStatiques() {
+    document.documentElement.lang = LANG;
+    document.title = tx('C204 — simulateur 3D', 'C204 — 3D simulator');
+    var md = document.querySelector('meta[name="description"]');
+    if (md) md.setAttribute('content', tx('Simulateur 3D interactif de l\'unité « C204 » : l\'objet tel que décrit, le récit, ce que dit la physique, et l\'instrument constructible C204-R1. Reconstitution documentaire : rien n\'atteste que l\'objet ait existé.',
+      'Interactive 3D simulator of the “C204” unit: the object as described, the story, what physics says, and the buildable C204-R1 instrument. A documentary reconstruction: nothing shows that the object ever existed.'));
+    STAT.forEach(function (s) { s.el.innerHTML = LANG === 'en' ? s.en : s.fr; });
+    STATA.forEach(function (s) { s.el.setAttribute(s.a, LANG === 'en' ? s.en : s.fr); });
+    $('#echelle').textContent = fx(D.echelle.L, 2) + ' m ± ' + fx(D.echelle.incertitude, 2) + ' m';
+    if (sansWebGL) $('#erreur-texte').textContent = tx('WebGL n\'est pas disponible dans ce navigateur. Les tableaux chiffrés des modes 3 et 4 restent utilisables.', 'WebGL is not available in this browser. The numerical tables of modes 3 and 4 remain usable.');
+    if (!D.R1) $('#r1-intro').textContent = tx('Le modèle R1 de l\'Équipe I n\'était pas disponible à la génération de cette page : seuls les calculs sont affichés.', 'Team I\'s R1 model was not available when this page was generated: only the calculations are shown.');
+    $$('#langue button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.lang === LANG); });
+    libelleTheme();
+  }
+  /* changement de langue : aucun rechargement, l'état (mode, curseurs, position de la frise, lecture en cours) est conservé */
+  function rafraichirTextes() {
+    textesStatiques();
+    $('#bandeau').textContent = tr(BANDEAUX[S.mode]);
+    listeEtapes(); listeTrajets(); legendeR1(); tableControles(); majFiches();
+    if (S.mode === 'explorer') majExplorer(false);
+    else if (S.mode === 'recit') { majChamp(); etiquettesRecit(); majRecit(); }
+    else if (S.mode === 'physique') majPhysique();
+    else if (S.mode === 'r1') { if (TROIS && R) poserEtiquettes(etiquettesR1()); majR1(); }
+  }
+  function changerLangue(l) {
+    if ((l !== 'fr' && l !== 'en') || l === LANG) return;
+    LANG = l;
+    try { localStorage.setItem('c204-lang', l); } catch (e) {}
+    rafraichirTextes(); majHash();
+  }
+  $('#langue').addEventListener('click', function (e) { var b = e.target.closest('button[data-lang]'); if (b) changerLangue(b.dataset.lang); });
 
   /* ====================================================================================================
      SCÈNE THREE.JS
@@ -390,7 +456,7 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
   var C = null, R = null, ancre, decor, champ, physG, grille, solLarge, matAretes, matAretesSel;
   if (TROIS) {
     try { rendu = new THREE.WebGLRenderer({ canvas: toile, antialias: true, logarithmicDepthBuffer: true }); }
-    catch (e) { TROIS = false; $('#erreur-texte').textContent = 'WebGL n\'est pas disponible dans ce navigateur. Les tableaux chiffrés des modes 3 et 4 restent utilisables.'; }
+    catch (e) { TROIS = false; sansWebGL = true; }
   }
   if (!TROIS) $('#erreur').hidden = false;
 
@@ -660,36 +726,37 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
      MODE 1 — EXPLORER
      ==================================================================================================== */
   var GROUPES = [
-    { t: 'Couvercle : bandes, plaque 7, étiquettes', c: 'Couvercle', f: function (p) { return p.couche === 'couvercle'; } },
-    { t: 'Platine supérieure (zones de DOC-007)', c: 'Platine', f: function (p) { return p.couche === 'platine' && (p.systeme === 'structure' || p.systeme === 'signalisation'); } },
-    { t: 'Pupitre de commande (4, 5, 6, 8)', c: 'Pupitre', f: function (p) { return p.couche === 'platine' && p.systeme === 'commande' && p.ensemble.indexOf('rangement') < 0; } },
-    { t: 'Rangement de la télécommande (9)', c: 'Rangement 9', f: function (p) { return p.ensemble.indexOf('rangement') >= 0; } },
-    { t: 'Logements « MAIN » et « STEERING SINGULARITY »', c: 'Logements', f: function (p) { return p.ensemble === 'Logements des singularités (platine)'; } },
-    { t: 'Ensemble « singularité principale »', c: 'Sing. principale', f: function (p) { return p.ensemble === 'Ensemble singularité principale'; } },
-    { t: 'Ensemble « singularité de direction »', c: 'Sing. direction', f: function (p) { return p.ensemble === 'Ensemble singularité de direction'; } },
-    { t: 'Injection d\'électrons (4, 5, 6)', c: 'Électrons', f: function (p) { return p.ensemble.indexOf('Injection') === 0; } },
-    { t: 'Générateurs / régulateurs de champ (3)', c: 'Régul. champ', f: function (p) { return p.ensemble.indexOf('Générateurs') === 0; } },
-    { t: 'Réservoirs (10) et pompe (9)', c: 'Refroidissement', f: function (p) { return p.systeme === 'refroidissement' && p.ensemble.indexOf('Ensemble') < 0; } },
-    { t: 'Batterie (12)', c: 'Batterie', f: function (p) { return p.ensemble === 'Batterie (12)'; } },
-    { t: 'Capteurs de gravité (11)', c: 'Capteurs', f: function (p) { return p.ensemble.indexOf('capteurs de gravité') >= 0; } },
-    { t: 'Horloges ×4 (texte seul)', c: 'Horloges', f: function (p) { return p.systeme === 'horloges'; } },
-    { t: 'Calculateurs ×3 (texte seul)', c: 'Calculateurs', f: function (p) { return p.systeme === 'calcul'; } },
-    { t: 'Corps du coffre', c: 'Corps', f: function (p) { return p.ensemble === 'Coffre — corps'; } },
-    { t: 'Télécommande (3) et cordon', c: 'Télécommande', f: function (p) { return p.couche === 'mobile'; } }
+    { t: ['Couvercle : bandes, plaque 7, étiquettes', 'Lid: stripes, plate 7, labels'], c: ['Couvercle', 'Lid'], f: function (p) { return p.couche === 'couvercle'; } },
+    { t: ['Platine supérieure (zones de DOC-007)', 'Top deck (areas of DOC-007)'], c: ['Platine', 'Top deck'], f: function (p) { return p.couche === 'platine' && (p.systeme === 'structure' || p.systeme === 'signalisation'); } },
+    { t: ['Pupitre de commande (4, 5, 6, 8)', 'Control panel (4, 5, 6, 8)'], c: ['Pupitre', 'Controls'], f: function (p) { return p.couche === 'platine' && p.systeme === 'commande' && p.ensemble.indexOf('rangement') < 0; } },
+    { t: ['Rangement de la télécommande (9)', '“Remote storage unit” (9)'], c: ['Rangement 9', 'Storage 9'], f: function (p) { return p.ensemble.indexOf('rangement') >= 0; } },
+    { t: ['Logements « MAIN » et « STEERING SINGULARITY »', '“MAIN” and “STEERING SINGULARITY” wells'], c: ['Logements', 'Wells'], f: function (p) { return p.ensemble === 'Logements des singularités (platine)'; } },
+    { t: ['Ensemble « singularité principale »', '“Main singularity” assembly'], c: ['Sing. principale', 'Main sing.'], f: function (p) { return p.ensemble === 'Ensemble singularité principale'; } },
+    { t: ['Ensemble « singularité de direction »', '“Steering singularity” assembly'], c: ['Sing. direction', 'Steering sing.'], f: function (p) { return p.ensemble === 'Ensemble singularité de direction'; } },
+    { t: ['Injection d\'électrons (4, 5, 6)', 'Electron injection (4, 5, 6)'], c: ['Électrons', 'Electrons'], f: function (p) { return p.ensemble.indexOf('Injection') === 0; } },
+    { t: ['Générateurs / régulateurs de champ (3)', 'Field generators / regulators (3)'], c: ['Régul. champ', 'Field reg.'], f: function (p) { return p.ensemble.indexOf('Générateurs') === 0; } },
+    { t: ['Réservoirs (10) et pompe (9)', 'Cooling tanks (10) and pump (9)'], c: ['Refroidissement', 'Cooling'], f: function (p) { return p.systeme === 'refroidissement' && p.ensemble.indexOf('Ensemble') < 0; } },
+    { t: ['Batterie (12)', 'Battery (12)'], c: ['Batterie', 'Battery'], f: function (p) { return p.ensemble === 'Batterie (12)'; } },
+    { t: ['Capteurs de gravité (11)', 'Gravity sensors (11)'], c: ['Capteurs', 'Sensors'], f: function (p) { return p.ensemble.indexOf('capteurs de gravité') >= 0; } },
+    { t: ['Horloges ×4 (texte seul)', 'Clocks ×4 (text only)'], c: ['Horloges', 'Clocks'], f: function (p) { return p.systeme === 'horloges'; } },
+    { t: ['Calculateurs ×3 (texte seul)', 'Computer units ×3 (text only)'], c: ['Calculateurs', 'Computers'], f: function (p) { return p.systeme === 'calcul'; } },
+    { t: ['Corps du coffre', 'Case body'], c: ['Corps', 'Body'], f: function (p) { return p.ensemble === 'Coffre — corps'; } },
+    { t: ['Télécommande (3) et cordon', 'Remote control (3) and cord'], c: ['Télécommande', 'Remote'], f: function (p) { return p.couche === 'mobile'; } }
   ];
   function classeMajoritaire(f) { var n = {}, best = null; D.A.pieces.forEach(function (p) { if (f(p)) { n[p.classement] = (n[p.classement] || 0) + 1; if (!best || n[p.classement] > n[best]) best = p.classement; } }); return best; }
   function majExplorer(recadrer) {
     var ex = S.ex;
     $$('#ex-etat button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.e === ex.etat); });
     $$('#ex-coul button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.c === ex.coul); });
-    $('#ex-ecl').value = Math.round(ex.ecl * 100); $('#ex-ecl-v').textContent = Math.round(ex.ecl * 100) + ' %';
+    $('#ex-ecl').value = Math.round(ex.ecl * 100); $('#ex-ecl-v').textContent = pct(Math.round(ex.ecl * 100));
     $('#ex-etq').checked = ex.etq; $('#ex-fant').checked = ex.fant;
     var h = '';
     if (ex.coul === 'classement') {
-      ['DOC', 'DÉD', 'HYP'].forEach(function (k) { h += '<div class="ligne"><i class="pastille" style="background:' + CL[k].couleur + '"></i>[' + k + '] ' + esc(CL[k].libelle) + '<span class="compte">' + D.A.bilan_classement[k] + '</span></div>'; });
-      var bc = D.A.bilan_couches;
-      h += '<p class="note">Extérieur (coque, couvercle, platine, télécommande) : ' + bc.exterieur.DOC + ' / ' + bc.exterieur['DÉD'] + ' / ' + bc.exterieur.HYP + '. <strong>Intérieur : ' + bc.interieur.DOC + ' documentée</strong>, ' + bc.interieur['DÉD'] + ' déduites, ' + bc.interieur.HYP + ' hypothétiques — aucun document ne montre l\'intérieur.</p>';
-    } else h = '<p class="note">Teintes relevées sur les photos (coque sombre, bandes jaune et noir, étiquette orange) ; neutres ailleurs.</p>';
+      ['DOC', 'DÉD', 'HYP'].forEach(function (k) { h += '<div class="ligne"><i class="pastille" style="background:' + CL[k].couleur + '"></i>[' + codeCL(k) + '] ' + esc(trD(CL[k].libelle)) + '<span class="compte">' + D.A.bilan_classement[k] + '</span></div>'; });
+      var bc = D.A.bilan_couches, trio = bc.exterieur.DOC + ' / ' + bc.exterieur['DÉD'] + ' / ' + bc.exterieur.HYP;
+      h += '<p class="note">' + tx('Extérieur (coque, couvercle, platine, télécommande) : ' + trio + '. <strong>Intérieur : ' + bc.interieur.DOC + ' documentée</strong>, ' + bc.interieur['DÉD'] + ' déduites, ' + bc.interieur.HYP + ' hypothétiques — aucun document ne montre l\'intérieur.',
+        'Outside (shell, lid, top deck, remote control): ' + trio + '. <strong>Inside: ' + bc.interieur.DOC + ' documented</strong>, ' + bc.interieur['DÉD'] + ' deduced, ' + bc.interieur.HYP + ' assumed — no document shows the inside.') + '</p>';
+    } else h = '<p class="note">' + tx('Teintes relevées sur les photos (coque sombre, bandes jaune et noir, étiquette orange) ; neutres ailleurs.', 'Colours taken from the photos (dark shell, yellow and black stripes, orange label); neutral elsewhere.') + '</p>';
     $('#ex-legende').innerHTML = h;
     if (!TROIS) return;
     var angleCible = Math.max(ex.etat === 'ouvert' ? D.A.etats.ouvert.angle_couvercle_deg : 0, D.A.etats.ouvert.angle_couvercle_deg * borne(ex.ecl * 4, 0, 1));
@@ -697,45 +764,50 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     habiller(C, ex.coul, ex.fant, function (p) { return !(p.masque && C.angle < 1 && ex.ecl === 0); });
     if (ex.etq) poserEtiquettes(GROUPES.map(function (g) {
       var k = classeMajoritaire(g.f);
-      return { texte: g.t + ' [' + k + ']', court: g.c, couleur: CL[k].couleur, cible: function () { return centreGroupe(C, g.f); }, visible: function () { return S.ex.ecl > 0.12; } };
+      return { texte: tr(g.t) + ' [' + codeCL(k) + ']', court: tr(g.c), couleur: CL[k].couleur, cible: function () { return centreGroupe(C, g.f); }, visible: function () { return S.ex.ecl > 0.12; } };
     })); else poserEtiquettes([]);
     if (recadrer) cadrer(); else demander();
     majHash();
   }
-  function legendePiece(p) {      /* nom d'origine et traduction d'après le repère */
-    var out = [], rep = p.repere || '';
+  function legendePiece(p) {      /* légende d'origine (et traduction française) d'après le repère */
+    var out = [], rep = p.repere || '', no = tx(' n°', ' no. ');
     rep.split(';').forEach(function (part) {
       var doc = (part.match(/DOC-00[78]/) || [])[0], nums = part.match(/n°\s*(\d+)/g);
-      if (doc && nums) nums.forEach(function (n) { var k = n.replace(/\D/g, ''), L = D.legendes[doc][k]; if (L) out.push({ ref: doc + ' n°' + k, o: L[0], f: L[1] }); });
-      var mt = part.match(/texte, système (\d)/); if (mt && D.legendes.texte[mt[1]]) out.push({ ref: 'texte du 2 nov. 2000, système ' + mt[1], o: D.legendes.texte[mt[1]][0], f: D.legendes.texte[mt[1]][1] });
+      if (doc && nums) nums.forEach(function (n) { var k = n.replace(/\D/g, ''), LG = D.legendes[doc][k]; if (LG) out.push({ ref: doc + no + k, o: (LANG === 'en' && LG[2]) || LG[0], f: LG[1] }); });
+      var mt = part.match(/texte, système (\d)/), LT = mt && D.legendes.texte[mt[1]];
+      if (LT) out.push({ ref: tx('texte du 2 nov. 2000, système ', 'text of 2 Nov. 2000, system ') + mt[1], o: LT[0], f: LT[1] });
     });
     return out;
   }
   function decrirePrimitive(g) {
     var mm = function (v) { return Math.round(v * 1000); };
     switch (g.type) {
-      case 'boite': return 'boîte ' + g.dimensions.map(mm).join(' × ') + ' mm';
-      case 'cylindre': return 'cylindre Ø ' + mm(2 * g.rayon) + ' × ' + mm(g.hauteur) + ' mm';
-      case 'sphere': return (g.echelle ? 'ellipsoïde, rayon de base ' : 'sphère Ø ') + mm((g.echelle ? 1 : 2) * g.rayon) + ' mm';
-      case 'tore': return 'tore Ø moyen ' + mm(2 * g.rayon_majeur) + ' mm';
-      case 'prisme': return 'prisme extrudé, épaisseur ' + fx(g.hauteur * 1000, 1) + ' mm';
+      case 'boite': return tx('boîte ', 'box ') + g.dimensions.map(mm).join(' × ') + ' mm';
+      case 'cylindre': return tx('cylindre Ø ', 'cylinder Ø ') + mm(2 * g.rayon) + ' × ' + mm(g.hauteur) + ' mm';
+      case 'sphere': return (g.echelle ? tx('ellipsoïde, rayon de base ', 'ellipsoid, base radius ') : tx('sphère Ø ', 'sphere Ø ')) + mm((g.echelle ? 1 : 2) * g.rayon) + ' mm';
+      case 'tore': return tx('tore Ø moyen ', 'torus, mean Ø ') + mm(2 * g.rayon_majeur) + ' mm';
+      case 'prisme': return tx('prisme extrudé, épaisseur ', 'extruded prism, thickness ') + fx(g.hauteur * 1000, 1) + ' mm';
     }
     return g.type;
   }
   function ficheHTML(p, r1) {
-    var c = CL[p.classement] || { couleur: '#888', libelle: p.classement, definition: '' }, L = legendePiece(p), h = '<h3>' + esc(p.nom) + '</h3>';
-    h += '<span class="badge"><i class="pastille" style="background:' + c.couleur + '"></i>[' + esc(p.classement) + '] ' + esc(c.libelle) + '</span>';
-    if (p.existence) h += '<span class="badge">Existence : ' + esc(p.existence) + '</span>';
+    var c = CL[p.classement] || { couleur: '#888', libelle: p.classement, definition: '' }, LG = legendePiece(p), h = '<h3>' + esc(trD(p.nom)) + '</h3>';
+    h += '<span class="badge"><i class="pastille" style="background:' + c.couleur + '"></i>[' + esc(codeCL(p.classement)) + '] ' + esc(trD(c.libelle)) + '</span>';
+    if (p.existence) h += '<span class="badge">' + tx('Existence : ', 'Existence: ') + esc(trD(p.existence)) + '</span>';
     h += '<dl>';
-    if (!r1 || L.length) {
-      h += '<dt>Nom d\'origine · traduction</dt><dd>' + (L.length ? L.map(function (l) { return '« ' + esc(l.o) + ' » — ' + esc(l.f) + ' <small>(' + esc(l.ref) + ')</small>'; }).join('<br>') : 'Non légendé dans les documents (nom donné par l\'Équipe E).') + '</dd>';
+    if (!r1 || LG.length) {
+      h += '<dt>' + tx('Nom d\'origine · traduction', 'Original caption (as written in the document)') + '</dt><dd>' +
+        (LG.length ? LG.map(function (l) { return tx('« ' + esc(l.o) + ' » — ' + esc(l.f), '“' + esc(l.o) + '”') + ' <small>(' + esc(l.ref) + ')</small>'; }).join('<br>')
+                   : tx('Non légendé dans les documents (nom donné par l\'Équipe E).', 'Not captioned in the documents (name given by Team E).')) + '</dd>';
     }
-    h += '<dt>Repère</dt><dd>' + esc(p.repere) + '</dd><dt>Document source</dt><dd>' + esc(p.source) + (p.appui ? '<br><small>Appui : ' + esc(p.appui) + '</small>' : '') + '</dd>';
-    if (r1 && p.fonction_reelle) h += '<dt>Fonction réelle (palier R1)</dt><dd>' + esc(p.fonction_reelle) + '</dd>';
-    h += '<dt>Fonction revendiquée par les documents</dt><dd>' + esc(p.fonction_revendiquee) + '<br><small>Telle que la donnent les légendes ou le texte : ni vérifiée, ni physiquement établie.</small></dd>';
-    h += '<dt>Niveau de preuve</dt><dd>' + esc(c.definition) + '</dd>';
-    h += '<dt>Forme modélisée (échelle hypothétique)</dt><dd>' + esc(decrirePrimitive(p.primitive)) + ' <small>— ' + esc(p.id) + '</small></dd>';
-    if (p.notes) h += '<dt>Notes</dt><dd>' + esc(p.notes) + '</dd>';
+    h += '<dt>' + tx('Repère', 'Reference') + '</dt><dd>' + esc(trD(p.repere)) + '</dd><dt>' + tx('Document source', 'Source document') + '</dt><dd>' + esc(trD(p.source)) +
+      (p.appui ? '<br><small>' + tx('Appui : ', 'Basis: ') + esc(trD(p.appui)) + '</small>' : '') + '</dd>';
+    if (r1 && p.fonction_reelle) h += '<dt>' + tx('Fonction réelle (palier R1)', 'Real function (stage R1)') + '</dt><dd>' + esc(trD(p.fonction_reelle)) + '</dd>';
+    h += '<dt>' + tx('Fonction revendiquée par les documents', 'Function claimed by the documents') + '</dt><dd>' + esc(trD(p.fonction_revendiquee)) + '<br><small>' +
+      tx('Telle que la donnent les légendes ou le texte : ni vérifiée, ni physiquement établie.', 'As given by the captions or the text: neither verified nor physically established.') + '</small></dd>';
+    h += '<dt>' + tx('Niveau de preuve', 'Level of evidence') + '</dt><dd>' + esc(trD(c.definition)) + '</dd>';
+    h += '<dt>' + tx('Forme modélisée (échelle hypothétique)', 'Modelled shape (assumed scale)') + '</dt><dd>' + esc(decrirePrimitive(p.primitive)) + ' <small>— ' + esc(p.id) + '</small></dd>';
+    if (p.notes) h += '<dt>Notes</dt><dd>' + esc(trD(p.notes)) + '</dd>';
     return h + '</dl>';
   }
   $('#ex-etat').addEventListener('click', function (e) {
@@ -754,13 +826,22 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
      MODE 2 — LE RÉCIT
      ==================================================================================================== */
   var PHASES = [
-    { t0: 0.00, titre: 'Saisie de la date cible', leg: 'les coordonnées de destination sont entrées dans les calculateurs depuis la télécommande.' },
-    { t0: 0.10, titre: 'Montée en puissance', leg: 'l\'unité monte en puissance de 0 à 100 % ; léger bourdonnement, crépitements d\'électricité statique.' },
-    { t0: 0.25, titre: 'Compte à rebours et alarme', leg: 'une alarme sonore et un petit voyant lancent un court compte à rebours ; il faut être attaché.' },
-    { t0: 0.35, titre: 'Apparition du « champ »', leg: 'd\'après le schéma DOC-009 : double entonnoir d\'anneaux « temps négatif, nul, positif » et cône d\'évacuation des rayons X de 78° vers l\'arrière ; traction de 1,5 à 2 g vers l\'unité.' },
-    { t0: 0.45, titre: 'Lumière « courbée »', leg: 'la lumière se courbe autour du véhicule, « comme en passant sous un arc-en-ciel », avec une brève bouffée d\'ultraviolets.' },
-    { t0: 0.52, titre: 'Noir complet : le trajet', leg: 'noir complet tant que l\'unité fonctionne ; forte chaleur à l\'extérieur, petite poche d\'air piégée autour du véhicule ; la date défile à 10 ans par heure.' },
-    { t0: 0.88, titre: 'Arrêt et arrivée', leg: 'le monde réapparaît, « comme en sortant de sous un pont » ; le sol est « raclé » sur un pouce environ.' }
+    { t0: 0.00, titre: ['Saisie de la date cible', 'Entering the target date'],
+      leg: ['les coordonnées de destination sont entrées dans les calculateurs depuis la télécommande.', 'the destination coordinates are entered into the computers from the remote control.'] },
+    { t0: 0.10, titre: ['Montée en puissance', 'Power-up'],
+      leg: ['l\'unité monte en puissance de 0 à 100 % ; léger bourdonnement, crépitements d\'électricité statique.', 'the unit ramps up from 0 to 100% power; a faint hum, crackles of static electricity.'] },
+    { t0: 0.25, titre: ['Compte à rebours et alarme', 'Countdown and alarm'],
+      leg: ['une alarme sonore et un petit voyant lancent un court compte à rebours ; il faut être attaché.', 'an audible alarm and a small light start a short countdown; occupants must be strapped in.'] },
+    { t0: 0.35, titre: ['Apparition du « champ »', 'The “field” appears'],
+      leg: ['d\'après le schéma DOC-009 : double entonnoir d\'anneaux « temps négatif, nul, positif » et cône d\'évacuation des rayons X de 78° vers l\'arrière ; traction de 1,5 à 2 g vers l\'unité.',
+            'after the DOC-009 diagram: a double funnel of “negative, zero, positive time” rings and a 78° X-ray venting cone towards the rear; a pull of 1.5 to 2 g towards the unit.'] },
+    { t0: 0.45, titre: ['Lumière « courbée »', '“Bent” light'],
+      leg: ['la lumière se courbe autour du véhicule, « comme en passant sous un arc-en-ciel », avec une brève bouffée d\'ultraviolets.', 'light bends around the vehicle, like driving under a rainbow, with a short burst of ultraviolet.'] },
+    { t0: 0.52, titre: ['Noir complet : le trajet', 'Total darkness: the trip'],
+      leg: ['noir complet tant que l\'unité fonctionne ; forte chaleur à l\'extérieur, petite poche d\'air piégée autour du véhicule ; la date défile à 10 ans par heure.',
+            'total darkness for as long as the unit runs; intense heat outside, a small pocket of air trapped around the vehicle; the date runs at 10 years per hour.'] },
+    { t0: 0.88, titre: ['Arrêt et arrivée', 'Shutdown and arrival'],
+      leg: ['le monde réapparaît, « comme en sortant de sous un pont » ; le sol est « raclé » sur un pouce environ.', 'the world reappears, like coming out from under a bridge; the ground is scraped about an inch deep.'] }
   ];
   var DUREE_RECIT = 46;      /* secondes de lecture pour toute la frise */
   /* Tracé de DOC-009 relevé en pixels sur l'agrandissement ×4 (centre des singularités à x = 560) : abscisses et demi-hauteurs des anneaux */
@@ -778,8 +859,15 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
   }
   var EC = null;
   function majChamp() {
+    EC = echelleChamp();
+    var doc = S.re.ech === 'doc014';
+    $('#re-ech-note').textContent = doc
+      ? tx('Variante cotée DOC-014 : décalage de masse 5 m, distance de masse arrière 8 m, avant 11 m, distance verticale de sécurité 6 m. Première trace en 2003 sur un site tiers : attribution non établie. Position des anneaux : tracé de DOC-009 mis à l\'échelle de ces cotes (24 m pour 725 px).',
+           'Dimensioned variant DOC-014: mass offset 5 m, rear mass distance 8 m, forward 11 m, vertical safe distance 6 m. First trace in 2003 on a third-party site: attribution not established. Ring positions: DOC-009 outline scaled to these dimensions (24 m for 725 px).')
+      : tx('Texte : centre de gravité réglable sur 4 pieds (' + fx(4 * K.pied, 2) + ' m), champ efficace de 10 à 12 pieds de part et d\'autre (' + fx(10 * K.pied, 2) + ' à ' + fx(12 * K.pied, 2) + ' m), hauteur « nettement plus faible ». Rayon des anneaux : proportions de DOC-009.',
+           'Text: centre of gravity adjustable over 4 feet (' + fx(4 * K.pied, 2) + ' m), effective field 10 to 12 feet either way (' + fx(10 * K.pied, 2) + ' to ' + fx(12 * K.pied, 2) + ' m), height markedly smaller. Ring radius: proportions of DOC-009.');
     if (!TROIS) return;
-    EC = echelleChamp(); champ.position.copy(CENTRE);
+    champ.position.copy(CENTRE);
     for (var i = 0; i < 3; i++) {
       anneaux[i].position.set(-EC.arr[i], 0, 0); anneaux[i].scale.setScalar(EC.rayons[i]);
       anneaux[i + 3].position.set(EC.av[i], 0, 0); anneaux[i + 3].scale.setScalar(EC.rayons[i]);
@@ -787,55 +875,55 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     ellipsoide.scale.set(EC.ell[0], EC.ell[1], EC.ell[1]);
     var h = EC.cone, rc = h * Math.tan(39 * Math.PI / 180);       /* demi-angle 39° : ouverture de 78° */
     cone.scale.set(h, rc, rc);
-    var doc = S.re.ech === 'doc014', P = function (x, y, z) { return new THREE.Vector3(x, y, z); };
+    var P = function (x, y, z) { return new THREE.Vector3(x, y, z); };
     var seg = doc ? [[P(0, 0, -CENTRE.z + 0.02), P(5, 0, -CENTRE.z + 0.02)], [P(0, 0.6, -CENTRE.z + 0.02), P(-8, 0.6, -CENTRE.z + 0.02)], [P(0, -0.6, -CENTRE.z + 0.02), P(11, -0.6, -CENTRE.z + 0.02)], [P(11, 0, -3), P(11, 0, 3)]] : [];
     cotesDoc.forEach(function (l, k) { l.visible = doc; if (doc) l.geometry.setFromPoints(seg[k]); });
-    var e = doc ? '' : ' (' + fx(10 * K.pied, 2) + ' à ' + fx(12 * K.pied, 2) + ' m)';
-    $('#re-ech-note').textContent = doc
-      ? 'Variante cotée DOC-014 : décalage de masse 5 m, distance de masse arrière 8 m, avant 11 m, distance verticale de sécurité 6 m. Première trace en 2003 sur un site tiers : attribution non établie. Position des anneaux : tracé de DOC-009 mis à l\'échelle de ces cotes (24 m pour 725 px).'
-      : 'Texte : centre de gravité réglable sur 4 pieds (' + fx(4 * K.pied, 2) + ' m), champ efficace de 10 à 12 pieds de part et d\'autre' + e + ', hauteur « nettement plus faible ». Rayon des anneaux : proportions de DOC-009.';
   }
   function etiquettesRecit() {
-    var W = function (x, y, z) { return function () { return new THREE.Vector3(x, y, z).add(CENTRE); }; }, noms = ['« temps négatif »', '« temps nul »', '« temps positif »'], cc = ['#2f6fd6', '#8c96a3', '#e58a00'];
-    var vis = function () { return opChamp > 0.25; }, L = [];
-    for (var i = 0; i < 3; i++) L.push({ texte: 'Anneau ' + noms[i] + ' (DOC-009 n° ' + (i + 2) + ')', court: noms[i], couleur: cc[i], cible: (function (i) { return function () { return new THREE.Vector3(EC.av[i], 0, EC.rayons[i]).add(CENTRE); }; })(i), visible: vis });
-    L.push({ texte: 'Cône d\'évacuation des rayons X, 78°, vers l\'arrière (n° 5)', court: 'cône X, 78°', couleur: '#b45309', cible: function () { return new THREE.Vector3(-EC.cone * 0.8, 0, EC.cone * 0.8 * Math.tan(0.5)).add(CENTRE); }, visible: vis });
-    L.push({ texte: '« Singularités dans le champ de Kerr » (n° 1)', court: 'champ central', couleur: '#7c5cc4', cible: W(0, 0, 0), visible: vis });
-    L.push({ texte: 'Véhicule schématique [HYP]', court: 'véhicule [HYP]', couleur: '#7f8b99', cible: function () { return new THREE.Vector3(2.2, 0, 1.22); }, visible: function () { return true; } });
-    L.push({ texte: 'Poche d\'air piégée (selon le récit)', court: 'poche d\'air', couleur: '#4f9ac9', cible: function () { return new THREE.Vector3(0, 0, poche.scale.z); }, visible: function () { return poche.visible; } });
-    L.push({ texte: 'Sol « raclé » sur un pouce (' + fx(K.pouce * 100, 1) + ' cm)', court: 'sol raclé', couleur: '#6b4f2a', cible: function () { return new THREE.Vector3(racle.scale.x * 0.8, -racle.scale.x * 0.5, 0); }, visible: function () { return racle.visible; } });
+    if (!TROIS) return;
+    var W = function (x, y, z) { return function () { return new THREE.Vector3(x, y, z).add(CENTRE); }; }, cc = ['#2f6fd6', '#8c96a3', '#e58a00'];
+    var longs = [['Anneau « temps négatif »', '“Negative time” ring'], ['Anneau « temps nul »', '“Zero time” ring'], ['Anneau « temps positif »', '“Positive time” ring']];
+    var courts = [['« temps négatif »', '“negative time”'], ['« temps nul »', '“zero time”'], ['« temps positif »', '“positive time”']];
+    var vis = function () { return opChamp > 0.25; }, Lst = [], no = tx(' n° ', ' no. ');
+    for (var i = 0; i < 3; i++) Lst.push({ texte: tr(longs[i]) + ' (DOC-009' + no + (i + 2) + ')', court: tr(courts[i]), couleur: cc[i], cible: (function (i) { return function () { return new THREE.Vector3(EC.av[i], 0, EC.rayons[i]).add(CENTRE); }; })(i), visible: vis });
+    Lst.push({ texte: tx('Cône d\'évacuation des rayons X, 78°, vers l\'arrière (n° 5)', 'X-ray venting cone, 78°, towards the rear (no. 5)'), court: tx('cône X, 78°', 'X-ray cone, 78°'), couleur: '#b45309', cible: function () { return new THREE.Vector3(-EC.cone * 0.8, 0, EC.cone * 0.8 * Math.tan(0.5)).add(CENTRE); }, visible: vis });
+    Lst.push({ texte: tx('« Singularités dans le champ de Kerr » (n° 1)', 'Singularities in the Kerr field (no. 1)'), court: tx('champ central', 'central field'), couleur: '#7c5cc4', cible: W(0, 0, 0), visible: vis });
+    Lst.push({ texte: tx('Véhicule schématique [HYP]', 'Schematic vehicle [HYP]'), court: tx('véhicule [HYP]', 'vehicle [HYP]'), couleur: '#7f8b99', cible: function () { return new THREE.Vector3(2.2, 0, 1.22); }, visible: function () { return true; } });
+    Lst.push({ texte: tx('Poche d\'air piégée (selon le récit)', 'Trapped pocket of air (according to the story)'), court: tx('poche d\'air', 'air pocket'), couleur: '#4f9ac9', cible: function () { return new THREE.Vector3(0, 0, poche.scale.z); }, visible: function () { return poche.visible; } });
+    Lst.push({ texte: tx('Sol « raclé » sur un pouce (' + fx(K.pouce * 100, 1) + ' cm)', 'Ground scraped one inch deep (' + fx(K.pouce * 100, 1) + ' cm)'), court: tx('sol raclé', 'scraped ground'), couleur: '#6b4f2a', cible: function () { return new THREE.Vector3(racle.scale.x * 0.8, -racle.scale.x * 0.5, 0); }, visible: function () { return racle.visible; } });
     if (S.re.ech === 'doc014') {
-      L.push({ texte: 'Décalage de masse : 5 m (DOC-014)', court: '5 m', cible: W(2.5, 0, -CENTRE.z), visible: vis }, { texte: 'Distance de masse arrière : 8 m', court: '8 m', cible: W(-4, 0.6, -CENTRE.z), visible: vis },
-             { texte: 'Distance de masse avant : 11 m', court: '11 m', cible: W(5.5, -0.6, -CENTRE.z), visible: vis }, { texte: 'Distance verticale de sécurité : 6 m', court: '6 m', cible: W(11, 0, 3), visible: vis });
+      Lst.push({ texte: tx('Décalage de masse : 5 m (DOC-014)', 'Mass offset: 5 m (DOC-014)'), court: '5 m', cible: W(2.5, 0, -CENTRE.z), visible: vis }, { texte: tx('Distance de masse arrière : 8 m', 'Rear mass distance: 8 m'), court: '8 m', cible: W(-4, 0.6, -CENTRE.z), visible: vis },
+               { texte: tx('Distance de masse avant : 11 m', 'Forward mass distance: 11 m'), court: '11 m', cible: W(5.5, -0.6, -CENTRE.z), visible: vis }, { texte: tx('Distance verticale de sécurité : 6 m', 'Vertical safe distance: 6 m'), court: '6 m', cible: W(11, 0, 3), visible: vis });
     }
-    poserEtiquettes(L);
+    poserEtiquettes(Lst);
   }
   var opChamp = 0;
   function phaseCourante(t) { var k = 0; PHASES.forEach(function (p, i) { if (t >= p.t0 - 1e-9) k = i; }); return k; }
   function majRecit() {
     var re = S.re, t = re.t, k = phaseCourante(t), ecart = Math.abs(re.depart - re.cible), dureeH = ecart / 10;      /* 10 ans par heure */
     var puiss = entre(t, 0.10, 0.25), avance = entre(t, 0.52, 0.88), fin = entre(t, 0.88, 1);
-    var g = puiss * 2 * entre(t, 0.35, 0.40) * (1 - fin);
+    var g = puiss * 2 * entre(t, 0.35, 0.40) * (1 - fin), pPct = Math.round(puiss * (1 - fin) * 100), div = fx(ecart * avance / 60, 2);
     var annee = re.depart + (re.cible - re.depart) * avance;
-    $('#re-t').value = Math.round(t * 1000); $('#re-t-v').textContent = Math.round(t * 100) + ' %';
+    $('#re-t').value = Math.round(t * 1000); $('#re-t-v').textContent = pct(Math.round(t * 100));
     $('#re-cible-v').textContent = re.cible; $('#re-cible').value = re.cible;
     $$('#re-ech button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.ech === re.ech); });
     $$('#etapes button').forEach(function (b, i) { if (i === k) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
-    $('#re-jouer').textContent = re.lecture ? '⏸ Pause' : '▶ Lecture'; $('#re-jouer').setAttribute('aria-pressed', re.lecture);
-    $('#re-puiss').textContent = Math.round(puiss * (1 - fin) * 100) + ' %'; $('#re-puiss-j').style.width = (puiss * (1 - fin) * 100) + '%';
+    $('#re-jouer').textContent = re.lecture ? '⏸ Pause' : tx('▶ Lecture', '▶ Play'); $('#re-jouer').setAttribute('aria-pressed', re.lecture);
+    $('#re-puiss').textContent = pct(pPct); $('#re-puiss-j').style.width = (puiss * (1 - fin) * 100) + '%';
     $('#re-g').textContent = fx(g, 1) + ' g'; $('#re-g-j').style.width = (g / 2.5 * 100) + '%';
-    $('#re-date').textContent = 'année ' + fx(annee, 1);
-    $('#re-duree').textContent = 'Écart : ' + ecart + ' ans → trajet de ' + fx(dureeH, 1) + ' h à bord ; écoulé : ' + fx(dureeH * avance, 1) + ' h';
-    $('#re-div').textContent = fx(ecart * avance / 60, 2) + ' %';
+    $('#re-date').textContent = tx('année ', 'year ') + fx(annee, 1);
+    $('#re-duree').textContent = tx('Écart : ' + ecart + ' ans → trajet de ' + fx(dureeH, 1) + ' h à bord ; écoulé : ' + fx(dureeH * avance, 1) + ' h',
+                                    'Gap: ' + ecart + ' years → a ' + fx(dureeH, 1) + ' h trip on board; elapsed: ' + fx(dureeH * avance, 1) + ' h');
+    $('#re-div').textContent = pct(div);
     var chaud = t >= 0.50 && t < 0.90;
-    $('#re-temp').textContent = chaud ? fx((100 - 32) / 1.8, 0) + ' à ' + fx((120 - 32) / 1.8, 0) + ' °C' : 'ambiante';
-    var hud = '<span>Puissance ' + Math.round(puiss * (1 - fin) * 100) + ' %</span><span>Date à bord : ' + fx(annee, 1) + '</span>';
-    if (t < 0.10) hud += '<span>Cible saisie : ' + String(re.cible).slice(0, Math.max(1, Math.ceil(entre(t, 0.01, 0.08) * 4))) + '</span>';
-    if (k === 2) hud += '<span class="alarme">Alarme · ' + Math.ceil((1 - entre(t, 0.25, 0.35)) * 10) + '</span>';
-    if (g > 0) hud += '<span>Traction ' + fx(g, 1) + ' g</span>';
-    if (avance > 0) hud += '<span>Divergence ' + fx(ecart * avance / 60, 2) + ' %</span>';
+    $('#re-temp').textContent = chaud ? fx((100 - 32) / 1.8, 0) + tx(' à ', ' to ') + fx((120 - 32) / 1.8, 0) + ' °C' : tx('ambiante', 'ambient');
+    var hud = '<span>' + tx('Puissance ', 'Power ') + pct(pPct) + '</span><span>' + tx('Date à bord : ', 'Date on board: ') + fx(annee, 1) + '</span>';
+    if (t < 0.10) hud += '<span>' + tx('Cible saisie : ', 'Target entered: ') + String(re.cible).slice(0, Math.max(1, Math.ceil(entre(t, 0.01, 0.08) * 4))) + '</span>';
+    if (k === 2) hud += '<span class="alarme">' + tx('Alarme · ', 'Alarm · ') + Math.ceil((1 - entre(t, 0.25, 0.35)) * 10) + '</span>';
+    if (g > 0) hud += '<span>' + tx('Traction ', 'Pull ') + fx(g, 1) + ' g</span>';
+    if (avance > 0) hud += '<span>Divergence ' + pct(div) + '</span>';
     $('#hud').innerHTML = hud;
-    $('#sous-titre').innerHTML = '<strong>' + (k + 1) + '. ' + esc(PHASES[k].titre) + '.</strong> Selon le récit : ' + esc(PHASES[k].leg);
+    $('#sous-titre').innerHTML = '<strong>' + (k + 1) + '. ' + esc(tr(PHASES[k].titre)) + '.</strong> ' + tx('Selon le récit : ', 'According to the story: ') + esc(tr(PHASES[k].leg));
     if (!TROIS) return;
     opChamp = lisse(entre(t, 0.35, 0.42)) * (1 - lisse(entre(t, 0.90, 0.97)));
     champ.visible = opChamp > 0.01;
@@ -855,7 +943,7 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     S.re.t += dt / DUREE_RECIT; if (S.re.t >= 1) { S.re.t = 1; S.re.lecture = false; majHash(); }
     majRecit();
   }
-  PHASES.forEach(function (p, i) { var li = document.createElement('li'); li.innerHTML = '<button type="button" data-i="' + i + '">' + esc(p.titre) + '</button>'; $('#etapes').appendChild(li); });
+  function listeEtapes() { $('#etapes').innerHTML = PHASES.map(function (p, i) { return '<li><button type="button" data-i="' + i + '">' + esc(tr(p.titre)) + '</button></li>'; }).join(''); }
   $('#etapes').addEventListener('click', function (e) { var b = e.target.closest('button'); if (b) { S.re.t = PHASES[+b.dataset.i].t0 + 0.012; S.re.lecture = false; majRecit(); majHash(); } });
   $('#re-jouer').addEventListener('click', function () { if (S.re.t >= 1) S.re.t = 0; S.re.lecture = !S.re.lecture; majRecit(); demander(); });
   $('#re-prec').addEventListener('click', function () { var k = phaseCourante(S.re.t - 0.02); S.re.t = PHASES[Math.max(0, k - (S.re.t - PHASES[k].t0 < 0.03 ? 1 : 0))].t0 + 0.012; S.re.lecture = false; majRecit(); majHash(); });
@@ -874,73 +962,97 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
   }
   function logj(x, lo, hi) { return (Math.log10(x) - lo) / (hi - lo); }
   function majPhysique() {
-    var ph = S.ph, P = ph.P * 1e6, r = ph.r, h = '', n = 2, cu = PH.charge_utile_kg, DL = PH.DL50_Gy[1];
+    var ph = S.ph, P = ph.P * 1e6, r = ph.r, h = '', n = 2, cu = PH.charge_utile_kg, DL = PH.DL50_Gy[1], pv = tx(' ; ', '; ');
     $$('#ph-opt input').forEach(function (i) { i.checked = i.value === ph.opt; }); $('#ph-P').value = ph.P; $('#ph-r').value = ph.r;
     $('#ph-P-v').textContent = ph.P + ' MW'; $('#ph-r-v').textContent = fx(r, 1) + ' m'; $('#ph-P').disabled = ph.opt === 'B';
     var rev = 10 * K.an;      /* « 10 ans par heure » : secondes gagnées par heure à bord */
     if (ph.opt === 'A') {
       var M = F.masse(P), Mt = n * M, g = F.pesanteur(Mt, r), d1 = F.dose(1, P, r), d = F.dose(n, P, r), Q = n * (PH.f_gamma + PH.f_e) * P, T = F.temperature(Q), G1 = F.gamma1(Mt, r);
-      h += mesure('Masse de chaque singularité', sci(M) + ' kg', 'soit ' + sci(M / 227) + ' fois la masse annoncée de l\'unité (227 kg) ; température : kT = ' + sci(F.kT(M)) + ' MeV (rayons gamma, non X)',
-        'M = √(α·ħc⁶ / (G²·P)) ; P·M² = α·ħc⁶/G² = ' + sci(F.PM2()) + ' W·kg² ; α = ' + sci(PH.alpha_M12, 4), logj(M, 0, 13));
-      h += mesure('Pesanteur réelle à ' + fx(r, 1) + ' m des deux singularités', sci(g / K.g0) + ' g', 'le récit annonce 1,5 à 2 g ; la pesanteur varie de ' + sci(2 * g / r / K.g0) + ' g par mètre (effet de marée)',
-        'g = G·2M / r² ; exprimé en g₀ = 9,80665 m/s²', logj(g / K.g0, -1, 3));
-      h += mesure('Poids de l\'ensemble comparé à la charge utile d\'un pick-up', sci(Mt / cu[1]) + ' fois', 'masse totale 2M = ' + sci(Mt) + ' kg ; charge utile de ' + ent(cu[0]) + ' à ' + ent(cu[1]) + ' kg [HYP]',
-        'rapport = 2M / charge utile maximale (' + ent(cu[1]) + ' kg)', logj(Mt / cu[1], -1, 10));
-      h += mesure('Débit de dose des photons à ' + fx(r, 1) + ' m (sans blindage)', sci(d) + ' Gy/s', 'par singularité : ' + sci(d1) + ' Gy/s ; les électrons et positons (' + Math.round(PH.f_e * 100) + ' % de la puissance) s\'y ajouteraient',
-        'Ḋ = n·f_γ·P / (4π r²) × (μ_en/ρ) ; f_γ = ' + sci(PH.f_gamma) + ' ; μ_en/ρ = ' + sci(PH.muen_cm2_g * 0.1) + ' m²/kg (eau, 15 MeV)', logj(d, -2, 5));
-      h += mesure('Temps pour recevoir une dose létale', duree(DL / d), 'dose retenue : ' + DL + ' Gy (dose létale médiane : ' + String(PH.DL50_Gy[0]).replace('.', ',') + ' à ' + PH.DL50_Gy[1] + ' Gy) ; un trajet annoncé dure des heures',
-        't = D_létale / Ḋ', 1 - logj(DL / d, -5, 2));
-      h += mesure('Température d\'équilibre du coffre', sci(T) + ' K', 'puissance déposée sur place : ' + sci(Q / 1e6) + ' MW pour ' + sci(F.surface()) + ' m² de surface ; point de fusion du tungstène, pour repère : 3 695 K',
-        'T = [ (f_γ+f_e)·n·P / (ε σ S) + T₀⁴ ]^¼ ; ε = ' + String(PH.EPS).replace('.', ',') + ' ; S = 2(LP+LH+PH) ; T₀ = ' + String(PH.T_AMB).replace('.', ',') + ' K', logj(T, 2, 4.2));
-      h += mesure('Facteur de dilatation réel', 'Γ − 1 = ' + sci(G1), 'en une heure à bord, l\'horloge se décale de ' + duree(G1 * 3600) + ' ; le récit annonce 10 ans, soit ' + sci(rev / (G1 * 3600)) + ' fois plus. Le compteur de date n\'avance pratiquement pas.',
-        'Γ − 1 ≈ G·2M / (r c²) ; décalage par heure = (Γ − 1) × 3 600 s', logj(G1, -26, -12));
+      h += mesure(tx('Masse de chaque singularité', 'Mass of each singularity'), sci(M) + ' kg',
+        tx('soit ' + sci(M / 227) + ' fois la masse annoncée de l\'unité (227 kg) ; température : kT = ' + sci(F.kT(M)) + ' MeV (rayons gamma, non X)',
+           'that is ' + sci(M / 227) + ' times the stated mass of the unit, 500 lb (227 kg); temperature: kT = ' + sci(F.kT(M)) + ' MeV (gamma rays, not X-rays)'),
+        'M = √(α·ħc⁶ / (G²·P))' + pv + 'P·M² = α·ħc⁶/G² = ' + sci(F.PM2()) + ' W·kg²' + pv + 'α = ' + sci(PH.alpha_M12, 4), logj(M, 0, 13));
+      h += mesure(tx('Pesanteur réelle à ' + fx(r, 1) + ' m des deux singularités', 'Real gravity ' + fx(r, 1) + ' m from the two singularities'), sci(g / K.g0) + ' g',
+        tx('le récit annonce 1,5 à 2 g ; la pesanteur varie de ' + sci(2 * g / r / K.g0) + ' g par mètre (effet de marée)', 'the story states 1.5 to 2 g; gravity changes by ' + sci(2 * g / r / K.g0) + ' g per metre (tidal effect)'),
+        'g = G·2M / r²' + pv + tx('exprimé en', 'expressed in') + ' g₀ = ' + num(K.g0) + ' m/s²', logj(g / K.g0, -1, 3));
+      h += mesure(tx('Poids de l\'ensemble comparé à la charge utile d\'un pick-up', 'Weight of the pair compared with the payload of a pickup truck'), sci(Mt / cu[1]) + tx(' fois', ' times'),
+        tx('masse totale 2M = ' + sci(Mt) + ' kg ; charge utile de ' + ent(cu[0]) + ' à ' + ent(cu[1]) + ' kg [HYP]', 'total mass 2M = ' + sci(Mt) + ' kg; payload of ' + ent(cu[0]) + ' to ' + ent(cu[1]) + ' kg [HYP]'),
+        tx('rapport = 2M / charge utile maximale (', 'ratio = 2M / maximum payload (') + ent(cu[1]) + ' kg)', logj(Mt / cu[1], -1, 10));
+      h += mesure(tx('Débit de dose des photons à ' + fx(r, 1) + ' m (sans blindage)', 'Photon dose rate at ' + fx(r, 1) + ' m (unshielded)'), sci(d) + ' Gy/s',
+        tx('par singularité : ' + sci(d1) + ' Gy/s ; les électrons et positons (' + pct(Math.round(PH.f_e * 100)) + ' de la puissance) s\'y ajouteraient',
+           'per singularity: ' + sci(d1) + ' Gy/s; electrons and positrons (' + pct(Math.round(PH.f_e * 100)) + ' of the power) would add to it'),
+        'Ḋ = n·f_γ·P / (4π r²) × (μ_en/ρ)' + pv + 'f_γ = ' + sci(PH.f_gamma) + pv + 'μ_en/ρ = ' + sci(PH.muen_cm2_g * 0.1) + ' m²/kg (' + tx('eau', 'water') + ', ' + PH.E_photon_MeV + ' MeV)', logj(d, -2, 5));
+      h += mesure(tx('Temps pour recevoir une dose létale', 'Time to receive a lethal dose'), duree(DL / d),
+        tx('dose retenue : ' + num(DL) + ' Gy (dose létale médiane : ' + num(PH.DL50_Gy[0]) + ' à ' + num(PH.DL50_Gy[1]) + ' Gy) ; un trajet annoncé dure des heures',
+           'dose used: ' + num(DL) + ' Gy (median lethal dose: ' + num(PH.DL50_Gy[0]) + ' to ' + num(PH.DL50_Gy[1]) + ' Gy); a trip, as described, lasts hours'),
+        tx('t = D_létale / Ḋ', 't = D_lethal / Ḋ'), 1 - logj(DL / d, -5, 2));
+      h += mesure(tx('Température d\'équilibre du coffre', 'Equilibrium temperature of the case'), sci(T) + ' K',
+        tx('puissance déposée sur place : ' + sci(Q / 1e6) + ' MW pour ' + sci(F.surface()) + ' m² de surface ; point de fusion du tungstène, pour repère : ' + ent(3695) + ' K',
+           'power deposited on the spot: ' + sci(Q / 1e6) + ' MW over ' + sci(F.surface()) + ' m² of surface; melting point of tungsten, for reference: ' + ent(3695) + ' K'),
+        'T = [ (f_γ+f_e)·n·P / (ε σ S) + T₀⁴ ]^¼' + pv + 'ε = ' + num(PH.EPS) + pv + 'S = 2(LP+LH+PH)' + pv + 'T₀ = ' + num(PH.T_AMB) + ' K', logj(T, 2, 4.2));
+      h += mesure(tx('Facteur de dilatation réel', 'Real time-dilation factor'), 'Γ − 1 = ' + sci(G1),
+        tx('en une heure à bord, l\'horloge se décale de ' + duree(G1 * 3600) + ' ; le récit annonce 10 ans, soit ' + sci(rev / (G1 * 3600)) + ' fois plus. Le compteur de date n\'avance pratiquement pas.',
+           'in one hour on board the clock shifts by ' + duree(G1 * 3600) + '; the story states 10 years, that is ' + sci(rev / (G1 * 3600)) + ' times more. The date counter practically does not move.'),
+        'Γ − 1 ≈ G·2M / (r c²)' + pv + tx('décalage par heure', 'shift per hour') + ' = (Γ − 1) × ' + ent(3600) + ' s', logj(G1, -26, -12));
     } else {
       var m1 = 227 / 2, mt = 227, gB = F.pesanteur(mt, r), tv = F.vie(m1), E = mt * K.c * K.c, GB = F.gamma1(mt, r);
-      h += mesure('Masse de chaque singularité', fx(m1, 1) + ' kg', 'la moitié des 227 kg annoncés (« environ 500 livres » × 0,4536 kg)', 'M = 227 kg / 2', logj(m1, 0, 13));
-      h += mesure('Puissance de Hawking réelle d\'une telle singularité', sci(F.puissanceUV(m1)) + ' W', 'à comparer aux 300 à 500 MW annoncés (3 à 5×10⁸ W) ; kT = ' + sci(F.kT(m1) / 1000) + ' GeV',
-        'P = α_UV·ħc⁶ / (G²M²) ; α_UV = ' + sci(PH.alpha_UV, 4) + ' (toutes les particules du Modèle standard)', logj(F.puissanceUV(m1), 8, 31));
-      h += mesure('Durée de vie', duree(tv), 'la singularité s\'évapore avant que la lumière ait parcouru ' + sci(K.c * tv * 1000) + ' mm', 'τ = G²M³ / (3·α_UV·ħc⁴)', 0.02);
-      h += mesure('Énergie libérée par les deux singularités', sci(E) + ' J', 'soit ' + sci(E / K.MtTNT / 1000) + ' gigatonnes de TNT, libérées en moins d\'un milliardième de seconde', 'E = 2M·c² ; 1 Mt de TNT = 4,184×10¹⁵ J', logj(E, 0, 20));
-      h += mesure('Pesanteur réelle à ' + fx(r, 1) + ' m', sci(gB / K.g0) + ' g', 'imperceptible ; le récit annonce 1,5 à 2 g', 'g = G·227 kg / r²', logj(gB / K.g0, -10, 3));
-      h += mesure('Poids comparé à la charge utile d\'un pick-up', Math.round(mt / cu[1] * 100) + ' à ' + Math.round(mt / cu[0] * 100) + ' %', 'transportable, comme le dit le récit', 'rapport = 227 kg / charge utile (' + ent(cu[0]) + ' à ' + ent(cu[1]) + ' kg)', mt / cu[0]);
-      h += mesure('Facteur de dilatation réel', 'Γ − 1 = ' + sci(GB), 'en une heure à bord : ' + sci(GB * 3600) + ' s ; le récit annonce 10 ans (' + sci(rev) + ' s)', 'Γ − 1 ≈ G·227 kg / (r c²)', logj(GB, -26, -12));
-      h += '<p class="note">Débit de dose et température d\'équilibre : sans objet, toute l\'énergie étant libérée en ' + duree(tv) + '.</p>';
+      h += mesure(tx('Masse de chaque singularité', 'Mass of each singularity'), fx(m1, 1) + ' kg',
+        tx('la moitié des 227 kg annoncés (« environ 500 livres » × ' + fx(K.lb, 4) + ' kg)', 'half of the stated 500 lb (227 kg, at ' + fx(K.lb, 4) + ' kg per pound)'), 'M = 227 kg / 2', logj(m1, 0, 13));
+      h += mesure(tx('Puissance de Hawking réelle d\'une telle singularité', 'Real Hawking power of such a singularity'), sci(F.puissanceUV(m1)) + ' W',
+        tx('à comparer aux 300 à 500 MW annoncés (3 à 5×10⁸ W) ; kT = ' + sci(F.kT(m1) / 1000) + ' GeV', 'compare with the stated 300 to 500 MW (3 to 5×10⁸ W); kT = ' + sci(F.kT(m1) / 1000) + ' GeV'),
+        'P = α_UV·ħc⁶ / (G²M²)' + pv + 'α_UV = ' + sci(PH.alpha_UV, 4) + tx(' (toutes les particules du Modèle standard)', ' (all Standard Model particles)'), logj(F.puissanceUV(m1), 8, 31));
+      h += mesure(tx('Durée de vie', 'Lifetime'), duree(tv),
+        tx('la singularité s\'évapore avant que la lumière ait parcouru ' + sci(K.c * tv * 1000) + ' mm', 'the singularity evaporates before light has travelled ' + sci(K.c * tv * 1000) + ' mm'), 'τ = G²M³ / (3·α_UV·ħc⁴)', 0.02);
+      h += mesure(tx('Énergie libérée par les deux singularités', 'Energy released by the two singularities'), sci(E) + ' J',
+        tx('soit ' + sci(E / K.MtTNT / 1000) + ' gigatonnes de TNT, libérées en moins d\'un milliardième de seconde', 'that is ' + sci(E / K.MtTNT / 1000) + ' gigatonnes of TNT, released in less than a billionth of a second'),
+        'E = 2M·c²' + pv + tx('1 Mt de TNT = ', '1 Mt of TNT = ') + sci(K.MtTNT, 4) + ' J', logj(E, 0, 20));
+      h += mesure(tx('Pesanteur réelle à ' + fx(r, 1) + ' m', 'Real gravity at ' + fx(r, 1) + ' m'), sci(gB / K.g0) + ' g',
+        tx('imperceptible ; le récit annonce 1,5 à 2 g', 'imperceptible; the story states 1.5 to 2 g'), 'g = G·227 kg / r²', logj(gB / K.g0, -10, 3));
+      h += mesure(tx('Poids comparé à la charge utile d\'un pick-up', 'Weight compared with the payload of a pickup truck'), Math.round(mt / cu[1] * 100) + tx(' à ', ' to ') + pct(Math.round(mt / cu[0] * 100)),
+        tx('transportable, comme le dit le récit', 'transportable, as the story says'), tx('rapport = 227 kg / charge utile (', 'ratio = 227 kg / payload (') + ent(cu[0]) + tx(' à ', ' to ') + ent(cu[1]) + ' kg)', mt / cu[0]);
+      h += mesure(tx('Facteur de dilatation réel', 'Real time-dilation factor'), 'Γ − 1 = ' + sci(GB),
+        tx('en une heure à bord : ' + sci(GB * 3600) + ' s ; le récit annonce 10 ans (' + sci(rev) + ' s)', 'in one hour on board: ' + sci(GB * 3600) + ' s; the story states 10 years (' + sci(rev) + ' s)'), 'Γ − 1 ≈ G·227 kg / (r c²)', logj(GB, -26, -12));
+      h += '<p class="note">' + tx('Débit de dose et température d\'équilibre : sans objet, toute l\'énergie étant libérée en ', 'Dose rate and equilibrium temperature: not applicable, since all the energy is released within ') + duree(tv) + '.</p>';
     }
     $('#ph-res').innerHTML = h;
     if (TROIS && S.mode === 'physique') {
       marqueur.position.set(CENTRE.x + r, CENTRE.y, 0.78);      /* plancher de la benne puis de la cabine */
       ligneDist.geometry.setFromPoints([CENTRE.clone(), new THREE.Vector3(CENTRE.x + r, CENTRE.y, CENTRE.z)]);
-      var A = ph.opt === 'A', d1m = A ? F.dose(n, P, 1) : 0;
+      var A = ph.opt === 'A', d1m = A ? F.dose(n, P, 1) : 0, r1ms = A ? fx(Math.sqrt(d1m * 1e-3 / DL), 1) : '—', r10ms = A ? fx(Math.sqrt(d1m * 1e-2 / DL), 1) : '—';
       [1e-3, 1e-2].forEach(function (tt, i) { var rz = Math.sqrt(d1m * tt / DL); zones[i].visible = A; zones[i].scale.setScalar(rz); zones[i].position.set(CENTRE.x, CENTRE.y, 0.006 - 0.002 * i); });
       poserEtiquettes([
-        { texte: 'Repère de l\'occupant à ' + fx(r, 1) + ' m', court: 'occupant, ' + fx(r, 1) + ' m', couleur: '#8a94a3', cible: function () { return marqueur.position.clone().add(new THREE.Vector3(0, 0, 1.1)); } },
-        { texte: 'Dose létale en moins de 1 ms (rayon ' + (A ? fx(Math.sqrt(d1m * 1e-3 / DL), 1) : '—') + ' m)', court: '< 1 ms', couleur: '#d92d20', cible: function () { return new THREE.Vector3(CENTRE.x, CENTRE.y - zones[0].scale.x * 0.9, 0); }, visible: function () { return zones[0].visible; } },
-        { texte: 'Dose létale en moins de 10 ms (rayon ' + (A ? fx(Math.sqrt(d1m * 1e-2 / DL), 1) : '—') + ' m)', court: '< 10 ms', couleur: '#f59f00', cible: function () { return new THREE.Vector3(CENTRE.x - zones[1].scale.x * 0.7, CENTRE.y + zones[1].scale.x * 0.7, 0); }, visible: function () { return zones[1].visible; } },
-        { texte: 'Unité (coffre de 227 kg annoncés)', court: 'unité', couleur: CL.DOC.couleur, cible: function () { return CENTRE.clone(); } },
-        { texte: 'Véhicule schématique [HYP]', court: 'véhicule [HYP]', couleur: '#7f8b99', cible: function () { return new THREE.Vector3(2.2, 0, 1.22); } }
+        { texte: tx('Repère de l\'occupant à ', 'Occupant marker at ') + fx(r, 1) + ' m', court: 'occupant, ' + fx(r, 1) + ' m', couleur: '#8a94a3', cible: function () { return marqueur.position.clone().add(new THREE.Vector3(0, 0, 1.1)); } },
+        { texte: tx('Dose létale en moins de 1 ms (rayon ', 'Lethal dose in less than 1 ms (radius ') + r1ms + ' m)', court: '< 1 ms', couleur: '#d92d20', cible: function () { return new THREE.Vector3(CENTRE.x, CENTRE.y - zones[0].scale.x * 0.9, 0); }, visible: function () { return zones[0].visible; } },
+        { texte: tx('Dose létale en moins de 10 ms (rayon ', 'Lethal dose in less than 10 ms (radius ') + r10ms + ' m)', court: '< 10 ms', couleur: '#f59f00', cible: function () { return new THREE.Vector3(CENTRE.x - zones[1].scale.x * 0.7, CENTRE.y + zones[1].scale.x * 0.7, 0); }, visible: function () { return zones[1].visible; } },
+        { texte: tx('Unité (coffre de 227 kg annoncés)', 'Unit (case stated at 500 lb, 227 kg)'), court: tx('unité', 'unit'), couleur: CL.DOC.couleur, cible: function () { return CENTRE.clone(); } },
+        { texte: tx('Véhicule schématique [HYP]', 'Schematic vehicle [HYP]'), court: tx('véhicule [HYP]', 'vehicle [HYP]'), couleur: '#7f8b99', cible: function () { return new THREE.Vector3(2.2, 0, 1.22); } }
       ]);
       demander();
     }
     majHash();
   }
   function tableControles() {
-    var M300 = F.masse(300e6), M500 = F.masse(500e6), L = [
+    var M300 = F.masse(300e6), M500 = F.masse(500e6), Lc = [
       ['P·M² = α·ħc⁶/G²', sci(F.PM2()) + ' W·kg²'],
-      ['Masse pour 300 MW · pour 500 MW', sci(M300) + ' · ' + sci(M500) + ' kg'],
-      ['Pesanteur à 1 m, deux singularités (500 · 300 MW)', sci(F.pesanteur(2 * M500, 1) / K.g0) + ' · ' + sci(F.pesanteur(2 * M300, 1) / K.g0) + ' g'],
-      ['Photons d\'une singularité de 400 MW, à 1 m', sci(F.dose(1, 400e6, 1)) + ' Gy/s'],
-      ['Photons d\'une singularité de 400 MW, à 3 m', sci(F.dose(1, 400e6, 3)) + ' Gy/s'],
-      ['Surface du coffre S = 2(LP+LH+PH), ' + PH.coffre_C.map(function (v) { return String(v).replace('.', ','); }).join(' × ') + ' m', sci(F.surface()) + ' m²'],
-      ['Γ − 1 à 0,5 m (2 × 300 MW) · à 4 m (2 × 500 MW)', sci(F.gamma1(2 * M300, 0.5)) + ' · ' + sci(F.gamma1(2 * M500, 4))],
-      ['Durée de vie d\'une singularité de 113,5 kg', sci(F.vie(113.5)) + ' s'],
-      ['Énergie de masse de 227 kg', sci(227 * K.c * K.c) + ' J'],
-      ['Coïncidences de muons attendues (mode 4)', sci(TAUX_MUONS * 3600) + ' par heure']
+      [tx('Masse pour 300 MW · pour 500 MW', 'Mass for 300 MW · for 500 MW'), sci(M300) + ' · ' + sci(M500) + ' kg'],
+      [tx('Pesanteur à 1 m, deux singularités (500 · 300 MW)', 'Gravity at 1 m, two singularities (500 · 300 MW)'), sci(F.pesanteur(2 * M500, 1) / K.g0) + ' · ' + sci(F.pesanteur(2 * M300, 1) / K.g0) + ' g'],
+      [tx('Photons d\'une singularité de 400 MW, à 1 m', 'Photons from one 400 MW singularity, at 1 m'), sci(F.dose(1, 400e6, 1)) + ' Gy/s'],
+      [tx('Photons d\'une singularité de 400 MW, à 3 m', 'Photons from one 400 MW singularity, at 3 m'), sci(F.dose(1, 400e6, 3)) + ' Gy/s'],
+      [tx('Surface du coffre', 'Surface of the case') + ' S = 2(LP+LH+PH), ' + PH.coffre_C.map(num).join(' × ') + ' m', sci(F.surface()) + ' m²'],
+      [tx('Γ − 1 à ' + num(0.5) + ' m (2 × 300 MW) · à 4 m (2 × 500 MW)', 'Γ − 1 at ' + num(0.5) + ' m (2 × 300 MW) · at 4 m (2 × 500 MW)'), sci(F.gamma1(2 * M300, 0.5)) + ' · ' + sci(F.gamma1(2 * M500, 4))],
+      [tx('Durée de vie d\'une singularité de ' + num(113.5) + ' kg', 'Lifetime of a ' + num(113.5) + ' kg singularity'), sci(F.vie(113.5)) + ' s'],
+      [tx('Énergie de masse de 227 kg', 'Mass-energy of 227 kg'), sci(227 * K.c * K.c) + ' J'],
+      [tx('Coïncidences de muons attendues (mode 4)', 'Expected muon coincidences (mode 4)'), sci(TAUX_MUONS * 3600) + tx(' par heure', ' per hour')]
     ];
-    $('#ph-ctl').innerHTML = L.map(function (l) { return '<tr><td>' + l[0] + '</td><td>' + l[1] + '</td></tr>'; }).join('');
-    $('#ph-src').innerHTML = '<p>G = 6,67430×10⁻¹¹ m³·kg⁻¹·s⁻² ; c = 299 792 458 m/s ; ħ = 1,054 571 817×10⁻³⁴ J·s ; σ = 5,670 374×10⁻⁸ W·m⁻²·K⁻⁴ (CODATA 2018).</p>' +
-      '<p>α = ' + sci(PH.alpha_M12, 4) + ' : coefficient de corps gris pour M ≈ 10¹² kg (photons, 3 neutrinos, e±, graviton) — ' + esc(PH.sources.alpha_M12 || '') + '. Répartition : photons ' + sci(PH.f_gamma * 100) + ' %, e± ' + sci(PH.f_e * 100) + ' %, neutrinos ' + sci(PH.f_nu * 100) + ' %.</p>' +
-      '<p>α_UV = ' + sci(PH.alpha_UV, 4) + ' — ' + esc(PH.sources.alpha_UV || '') + '.</p><p>' + esc(PH.sources.dose || '') + '. ' + esc(PH.sources.coffre_C || '') + '. Charge utile : ' + esc(PH.sources.charge_utile_kg || '') + '.</p>' +
-      '<p>Limites : gravitation newtonienne et champ faible (suffisants à ces distances) ; photons primaires seuls pour la dose ; coffre traité comme un corps gris isotherme.</p>';
+    var srcP = function (k) { var v = PH.sources[k]; return v ? esc(tr(v)) : ''; };
+    $('#ph-ctl').innerHTML = Lc.map(function (l) { return '<tr><td>' + l[0] + '</td><td>' + l[1] + '</td></tr>'; }).join('');
+    $('#ph-src').innerHTML = '<p>' + tx('G = 6,67430×10⁻¹¹ m³·kg⁻¹·s⁻² ; c = 299 792 458 m/s ; ħ = 1,054 571 817×10⁻³⁴ J·s ; σ = 5,670 374×10⁻⁸ W·m⁻²·K⁻⁴ (CODATA 2018).',
+                                           'G = 6.67430×10⁻¹¹ m³·kg⁻¹·s⁻²; c = 299,792,458 m/s; ħ = 1.054 571 817×10⁻³⁴ J·s; σ = 5.670 374×10⁻⁸ W·m⁻²·K⁻⁴ (CODATA 2018).') + '</p>' +
+      '<p>α = ' + sci(PH.alpha_M12, 4) + tx(' : coefficient de corps gris pour M ≈ 10¹² kg (photons, 3 neutrinos, e±, graviton) — ', ': grey-body coefficient for M ≈ 10¹² kg (photons, 3 neutrinos, e±, graviton) — ') + srcP('alpha_M12') +
+      tx('. Répartition : photons ', '. Shares: photons ') + pct(sci(PH.f_gamma * 100)) + ', e± ' + pct(sci(PH.f_e * 100)) + ', neutrinos ' + pct(sci(PH.f_nu * 100)) + '.</p>' +
+      '<p>α_UV = ' + sci(PH.alpha_UV, 4) + ' — ' + srcP('alpha_UV') + '.</p><p>' + srcP('dose') + '. ' + srcP('coffre_C') + '. ' + tx('Charge utile : ', 'Payload: ') + srcP('charge_utile_kg') + '.</p>' +
+      '<p>' + tx('Limites : gravitation newtonienne et champ faible (suffisants à ces distances) ; photons primaires seuls pour la dose ; coffre traité comme un corps gris isotherme.',
+                 'Limits: Newtonian gravity and weak field (sufficient at these distances); primary photons only for the dose; case treated as an isothermal grey body.') + '</p>';
   }
   $('#ph-opt').addEventListener('change', function (e) { if (e.target.name === 'ph-opt') { S.ph.opt = e.target.value; majPhysique(); } });
   $('#ph-P').addEventListener('input', function () { S.ph.P = +this.value; majPhysique(); });
@@ -969,36 +1081,47 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     accR1 += dt; if (accR1 > (RM ? 1 : 0.12)) { accR1 = 0; majR1(); }
   }
   function majR1() {
-    var r = S.r1, tr = trajetCourant(), y = F.trajet(tr.h, tr.vE), nsh = y.y * 3600e9, i;
+    var r = S.r1, tr = trajetCourant(), y = F.trajet(tr.h, tr.vE), nsh = y.y * 3600e9, i, pv = tx(' ; ', '; ');      /* ici « tr » est le trajet : utiliser tx() pour les textes */
     var hh = Math.floor(r.t / 3600), mn = Math.floor(r.t % 3600 / 60), ss = Math.floor(r.t % 60);
     $('#r1-t').textContent = hh + ' h ' + ('0' + mn).slice(-2) + ' min ' + ('0' + ss).slice(-2) + ' s';
-    $('#r1-jouer').textContent = r.lecture ? '⏸ Pause' : '▶ Lancer'; $('#r1-jouer').setAttribute('aria-pressed', r.lecture);
+    $('#r1-jouer').textContent = r.lecture ? '⏸ Pause' : tx('▶ Lancer', '▶ Start'); $('#r1-jouer').setAttribute('aria-pressed', r.lecture);
     $$('#r1-vit button').forEach(function (b) { b.setAttribute('aria-pressed', +b.dataset.v === r.vit); });
     $('#r1-trajet').value = r.trajet;
-    $('#r1-y').textContent = (nsh >= 0 ? '+' : '') + fx(nsh, 4) + ' ns par heure';
-    $('#r1-y2').textContent = 'gravitation : ' + sci(y.grav) + ' ; vitesse et cap : ' + sci(y.cin) + ' ; l\'horloge embarquée ' + (nsh > 0 ? 'avance' : (nsh < 0 ? 'retarde' : 'ne se décale pas')) + '.';
+    $('#r1-y').textContent = (nsh >= 0 ? '+' : '') + fx(nsh, 4) + tx(' ns par heure', ' ns per hour');
+    $('#r1-y2').textContent = tx('gravitation : ' + sci(y.grav) + ' ; vitesse et cap : ' + sci(y.cin) + ' ; l\'horloge embarquée ' + (nsh > 0 ? 'avance' : (nsh < 0 ? 'retarde' : 'ne se décale pas')) + '.',
+                                 'gravity: ' + sci(y.grav) + '; speed and heading: ' + sci(y.cin) + '; the on-board clock ' + (nsh > 0 ? 'runs fast' : (nsh < 0 ? 'runs slow' : 'does not shift')) + '.');
     $('#r1-cumul').textContent = (y.y * r.t >= 0 ? '+' : '') + fx(y.y * r.t * 1e9, 3) + ' ns';
-    var moy = (r.x[0] + r.x[1] + r.x[2] + r.x[3]) / 4, sig = R1P.csac_a * Math.sqrt(Math.max(r.t, 1)) * 1e9, ech = Math.max(3 * sig, 0.5), hc = '';
+    var moy = (r.x[0] + r.x[1] + r.x[2] + r.x[3]) / 4, sig = R1P.csac_a * Math.sqrt(Math.max(r.t, 1)) * 1e9, ech = Math.max(3 * sig, 0.5), hc = '', cum = Math.abs(y.y * r.t * 1e9);
     for (i = 0; i < 4; i++) { var e = (r.x[i] - moy) * 1e9, w = borne(Math.abs(e) / ech, 0, 1) * 50;
       hc += '<div class="horloge"><span>H' + (i + 1) + '</span><div class="axe0"><i style="' + (e >= 0 ? 'left:50%' : 'right:50%') + ';width:' + w.toFixed(1) + '%"></i></div><span>' + (e >= 0 ? '+' : '') + fx(e, 2) + ' ns</span></div>'; }
     $('#r1-horloges').innerHTML = hc;
-    $('#r1-h-form').textContent = 'écart affiché = x_i − moyenne des quatre ; bruit simulé : σ_x(t) = a·√t, a = ' + sci(R1P.csac_a) + ' s^½ → ' + fx(sig, 1) + ' ns attendus après ce temps (échelle ± ' + fx(ech, 1) + ' ns)';
-    $('#r1-h-note').textContent = 'Le bruit des horloges miniatures (' + fx(sig, 1) + ' ns) dépasse le décalage du trajet (' + fx(Math.abs(y.y * r.t * 1e9), 2) + ' ns) : dans cette configuration, R1 calcule le décalage à partir de l\'altitude, de la vitesse et du cap ; il ne peut pas le lire sur ses horloges.';
+    $('#r1-h-form').textContent = tx('écart affiché = x_i − moyenne des quatre ; bruit simulé : σ_x(t) = a·√t, a = ' + sci(R1P.csac_a) + ' s^½ → ' + fx(sig, 1) + ' ns attendus après ce temps (échelle ± ' + fx(ech, 1) + ' ns)',
+                                     'offset shown = x_i − mean of the four; simulated noise: σ_x(t) = a·√t, a = ' + sci(R1P.csac_a) + ' s^½ → ' + fx(sig, 1) + ' ns expected after this time (scale ± ' + fx(ech, 1) + ' ns)');
+    $('#r1-h-note').textContent = sig >= cum
+      ? tx('Le bruit des horloges miniatures (' + fx(sig, 1) + ' ns) dépasse le décalage du trajet (' + fx(cum, 2) + ' ns) : dans cette configuration, R1 calcule le décalage à partir de l\'altitude, de la vitesse et du cap ; il ne peut pas le lire sur ses horloges.',
+           'The noise of the miniature clocks (' + fx(sig, 1) + ' ns) exceeds the shift along the route (' + fx(cum, 2) + ' ns): in this configuration R1 computes the shift from altitude, speed and heading; it cannot read it from its clocks.')
+      : tx('Le décalage cumulé du trajet (' + fx(cum, 2) + ' ns) dépasse maintenant le bruit simulé d\'une horloge (' + fx(sig, 1) + ' ns) ; le lire exigerait encore une comparaison avec une horloge restée au sol.',
+           'The accumulated shift along the route (' + fx(cum, 2) + ' ns) now exceeds the simulated noise of one clock (' + fx(sig, 1) + ' ns); reading it would still require a comparison with a clock left on the ground.');
     var v = [0, 1, 2].map(function (k) { return nsh + r.bruit[k] + (r.panne === k + 1 ? R1P_PANNE : 0); }), med = v.slice().sort(function (a, b) { return a - b; })[1], hv = '';
     for (i = 0; i < 3; i++) { var ko = Math.abs(v[i] - med) > R1P_SEUIL;
-      hv += '<div class="calc ' + (ko ? 'ecarte' : 'ok') + '"><span>Calculateur ' + (i + 1) + '</span><span>' + (v[i] >= 0 ? '+' : '') + fx(v[i], 4) + ' ns/h</span><span class="etat">' + (ko ? 'écarté par le voteur' : 'retenu') + '</span></div>'; }
+      hv += '<div class="calc ' + (ko ? 'ecarte' : 'ok') + '"><span>' + tx('Calculateur ', 'Computer ') + (i + 1) + '</span><span>' + (v[i] >= 0 ? '+' : '') + fx(v[i], 4) + ' ns/h</span><span class="etat">' + (ko ? tx('écarté par le voteur', 'rejected by the voter') : tx('retenu', 'kept')) + '</span></div>'; }
     $('#r1-calc').innerHTML = hv;
-    $('#r1-vote').textContent = (med >= 0 ? '+' : '') + fx(med, 4) + ' ns/h' + (r.panne ? ' — panne du calculateur ' + r.panne + ' masquée' : '');
-    $('#r1-vote-form').textContent = 'valeur retenue = médiane(v₁, v₂, v₃) ; un calculateur est écarté si |v − médiane| > ' + String(R1P_SEUIL).replace('.', ',') + ' ns/h ; arrondis simulés : σ = ' + sci(R1P_ARRONDI) + ' ns/h ; panne simulée : + ' + String(R1P_PANNE).replace('.', ',') + ' ns/h sur un calculateur tiré au hasard';
+    $('#r1-vote').textContent = (med >= 0 ? '+' : '') + fx(med, 4) + ' ns/h' + (r.panne ? tx(' — panne du calculateur ' + r.panne + ' masquée', ' — fault of computer ' + r.panne + ' masked') : '');
+    $('#r1-vote-form').textContent = tx('valeur retenue = médiane(v₁, v₂, v₃) ; un calculateur est écarté si |v − médiane| > ' + num(R1P_SEUIL) + ' ns/h ; arrondis simulés : σ = ' + sci(R1P_ARRONDI) + ' ns/h ; panne simulée : + ' + num(R1P_PANNE) + ' ns/h sur un calculateur tiré au hasard',
+                                        'value kept = median(v₁, v₂, v₃); a computer is rejected if |v − median| > ' + num(R1P_SEUIL) + ' ns/h; simulated rounding: σ = ' + sci(R1P_ARRONDI) + ' ns/h; simulated fault: + ' + num(R1P_PANNE) + ' ns/h on a computer picked at random');
     $('#r1-panne').disabled = !!r.panne; $('#r1-repare').disabled = !r.panne;
-    var taux = r.t > 0 ? r.mu / r.t * 3600 : 0, inc = r.t > 0 ? Math.sqrt(Math.max(r.mu, 1)) / r.t * 3600 : 0;
-    $('#r1-mu').textContent = r.mu + ' coïncidences';
-    $('#r1-mu2').textContent = r.t > 0 ? 'taux mesuré : ' + fx(taux, 0) + ' ± ' + fx(inc, 0) + ' par heure (attendu : ' + fx(TAUX_MUONS * 3600, 0) + ')' : 'attendu : ' + fx(TAUX_MUONS * 3600, 0) + ' par heure';
-    $('#r1-mu-form').textContent = 'taux = I_V × G = ' + R1P.I_V + ' m⁻²·s⁻¹·sr⁻¹ × ' + fx(G_MUONS, 2) + ' cm²·sr = ' + sci(TAUX_MUONS) + ' Hz ; G = ∫∫ cos⁴θ/r² dA₁dA₂ (tuiles de ' + R1P.tuile_cm + ' cm écartées de ' + R1P.ecart_cm + ' cm) ; arrivées tirées au hasard (loi de Poisson)';
-    $('#r1-cap').textContent = fx(((r.cap % 360) + 360) % 360, 1) + ' °'; $('#aiguille').style.transform = 'rotate(' + r.cap.toFixed(1) + 'deg)';
+    var taux = r.t > 0 ? r.mu / r.t * 3600 : 0, inc = r.t > 0 ? Math.sqrt(Math.max(r.mu, 1)) / r.t * 3600 : 0, att = fx(TAUX_MUONS * 3600, 0);
+    $('#r1-mu').textContent = r.mu + tx(' coïncidences', ' coincidences');
+    $('#r1-mu2').textContent = r.t > 0 ? tx('taux mesuré : ' + fx(taux, 0) + ' ± ' + fx(inc, 0) + ' par heure (attendu : ' + att + ')', 'measured rate: ' + fx(taux, 0) + ' ± ' + fx(inc, 0) + ' per hour (expected: ' + att + ')')
+                                       : tx('attendu : ' + att + ' par heure', 'expected: ' + att + ' per hour');
+    $('#r1-mu-form').textContent = tx('taux', 'rate') + ' = I_V × G = ' + R1P.I_V + ' m⁻²·s⁻¹·sr⁻¹ × ' + fx(G_MUONS, 2) + ' cm²·sr = ' + sci(TAUX_MUONS) + ' Hz' + pv + 'G = ∫∫ cos⁴θ/r² dA₁dA₂ (' +
+      tx('tuiles de ' + R1P.tuile_cm + ' cm écartées de ' + R1P.ecart_cm + ' cm) ; arrivées tirées au hasard (loi de Poisson)', R1P.tuile_cm + ' cm tiles ' + R1P.ecart_cm + ' cm apart); arrivals drawn at random (Poisson law)');
+    $('#r1-cap').textContent = fx(((r.cap % 360) + 360) % 360, 1) + tx(' °', '°'); $('#aiguille').style.transform = 'rotate(' + r.cap.toFixed(1) + 'deg)';
     var ks = F.sagnac(), om = R1P.OMEGA_TERRE * Math.sin(R1P.lat_deg * Math.PI / 180);
-    $('#r1-sagnac').textContent = 'Facteur d\'échelle 2πLD/(λc) = ' + fx(ks, 3) + ' s ; rotation terrestre à 45° : Δφ = ' + sci(ks * om) + ' rad. Le cap fixe le signe du terme de vitesse (vers l\'est l\'horloge retarde, vers l\'ouest elle avance).';
-    $('#r1-cap-form').textContent = 'Δφ = (2π L D / λc) × Ω ; rotation terrestre verticale : Ω = Ω_T sin φ ; L = ' + ent(R1P.fibre_m) + ' m, D = ' + ent(R1P.bobine_m * 1000) + ' mm, λ = ' + fx(R1P.lambda_m * 1e6, 2) + ' µm ; cap affiché = cap du trajet + bruit simulé (σ = ' + String(R1P_CAP).replace('.', ',') + '°)';
+    $('#r1-sagnac').textContent = tx('Facteur d\'échelle 2πLD/(λc) = ' + fx(ks, 3) + ' s ; rotation terrestre à 45° : Δφ = ' + sci(ks * om) + ' rad. Le cap fixe le signe du terme de vitesse (vers l\'est l\'horloge retarde, vers l\'ouest elle avance).',
+                                     'Scale factor 2πLD/(λc) = ' + fx(ks, 3) + ' s; Earth rotation at 45°: Δφ = ' + sci(ks * om) + ' rad. The heading sets the sign of the velocity term (eastbound the clock runs slow, westbound it runs fast).');
+    $('#r1-cap-form').textContent = 'Δφ = (2π L D / λc) × Ω' + pv + tx('rotation terrestre verticale : Ω = Ω_T sin φ', 'vertical Earth rotation: Ω = Ω_E sin φ') + pv + 'L = ' + ent(R1P.fibre_m) + ' m, D = ' + ent(R1P.bobine_m * 1000) + ' mm, λ = ' + fx(R1P.lambda_m * 1e6, 2) + ' µm' + pv +
+      tx('cap affiché = cap du trajet + bruit simulé (σ = ' + num(R1P_CAP) + '°)', 'heading shown = heading of the route + simulated noise (σ = ' + num(R1P_CAP) + '°)');
     if (TROIS && R) {
       R.objets.forEach(function (o) { var m = o.p.nom.match(/^Calculateur n°(\d)/); o.alerte = !!(m && +m[1] === r.panne); });
       var sig = r.panne + '|' + (R.sel ? R.sel.p.id : '');
@@ -1008,12 +1131,20 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     }
   }
   (function () {
+    /* la légende des couleurs et la liste des trajets sont des fonctions, rappelées à chaque changement de langue */
+  })();
+  function legendeR1() {
     if (!D.R1) { $('#r1-legende-d').hidden = true; return; }
     var n = {}; D.R1.internes.forEach(function (p) { n[p.classement] = (n[p.classement] || 0) + 1; });
-    var h = Object.keys(n).map(function (k) { var c = CL[k] || { couleur: '#888', libelle: k }; return '<div class="ligne"><i class="pastille" style="background:' + c.couleur + '"></i>[' + esc(k) + '] ' + esc(c.libelle) + '<span class="compte">' + n[k] + '</span></div>'; }).join('');
-    $('#r1-legende').innerHTML = h + '<p class="note">Composants internes du palier R1 (Équipe I). L\'enveloppe translucide reprend le coffre du mode 1, avec ses couleurs de niveau de preuve.</p>';
-  })();
-  if (R1P.trajets) $('#r1-trajet').innerHTML = R1P.trajets.map(function (t) { return '<option value="' + t.id + '">' + esc(t.nom) + '</option>'; }).join('');
+    var h = Object.keys(n).map(function (k) { var c = CL[k] || { couleur: '#888', libelle: k }; return '<div class="ligne"><i class="pastille" style="background:' + c.couleur + '"></i>[' + esc(codeCL(k)) + '] ' + esc(trD(c.libelle)) + '<span class="compte">' + n[k] + '</span></div>'; }).join('');
+    $('#r1-legende').innerHTML = h + '<p class="note">' + tx('Composants internes du palier R1 (Équipe I). L\'enveloppe translucide reprend le coffre du mode 1, avec ses couleurs de niveau de preuve.',
+      'Internal components of stage R1 (Team I). The translucent shell is the case of mode 1, with its level-of-evidence colours.') + '</p>';
+  }
+  function listeTrajets() {
+    if (!R1P.trajets) return;
+    $('#r1-trajet').innerHTML = R1P.trajets.map(function (t) { return '<option value="' + t.id + '">' + esc(tx(t.nom, t.nom_en || t.nom)) + '</option>'; }).join('');
+    $('#r1-trajet').value = S.r1.trajet;
+  }
   $('#r1-trajet').addEventListener('change', function () { S.r1.trajet = this.value; S.r1.cap = trajetCourant().cap; majR1(); majHash(); });
   $('#r1-jouer').addEventListener('click', function () { S.r1.lecture = !S.r1.lecture; majR1(); demander(); if (!TROIS && S.r1.lecture) horlogeSans3D(); });
   $('#r1-raz').addEventListener('click', function () { razR1(); majR1(); });
@@ -1029,7 +1160,7 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     S.mode = mode;
     $$('#onglets button').forEach(function (b) { var s = b.dataset.mode === mode; b.setAttribute('aria-selected', s); b.tabIndex = s ? 0 : -1; });
     $$('[role="tabpanel"]').forEach(function (p) { p.hidden = p.id !== 'p-' + mode; });
-    $('#bandeau').textContent = BANDEAUX[mode];
+    $('#bandeau').textContent = tr(BANDEAUX[mode]);
     $('#hud').hidden = mode !== 'recit'; $('#sous-titre').hidden = mode !== 'recit';
     S.re.lecture = false; if (mode !== 'r1') S.r1.lecture = false;
     if (TROIS) {
@@ -1047,7 +1178,7 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     if (mode === 'recit') { majChamp(); etiquettesRecit(); majRecit(); if (TROIS) { champ.visible = true; if (!sansCadrage) cadrer(); champ.visible = opChamp > 0.01; } }
     if (mode === 'physique') { majPhysique(); }
     if (mode === 'r1') {
-      if (!D.R1) $('#r1-intro').textContent = 'Le modèle R1 de l\'Équipe I n\'était pas disponible à la génération de cette page : seuls les calculs sont affichés.';
+      /* texte d'introduction sans modèle R1 : voir textesStatiques() */
       if (TROIS && R) { R.angle = D.R1.etats.ouvert.angle_couvercle_deg; R.ecl = 0; appliquerEtat(R); poserEtiquettes(etiquettesR1()); }
       majR1();
     }
@@ -1055,17 +1186,22 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     majHash();
   }
   function etiquettesR1() {
-    var G4 = [['Télescope à muons (logement principal)', 'muons', 'télescope à muons'], ['Gyromètre Sagnac (logement de direction)', 'gyromètre', 'gyromètre Sagnac'], ['Quatre horloges au césium', 'horloges', 'horloges au césium'],
-              ['Trois calculateurs et voteur', 'calculateurs', 'calculateurs à vote'], ['Batterie et distribution', 'énergie', 'Énergie'], ['Boucle thermique', 'thermique', 'Boucle thermique'], ['Gravité et inertie (accéléromètres)', 'gravité', 'Gravité et inertie']];
-    var L = G4.map(function (g) {
+    var G4 = [[['Télescope à muons (logement principal)', 'Muon telescope (main well)'], ['muons', 'muons'], 'télescope à muons'],
+              [['Gyromètre Sagnac (logement de direction)', 'Sagnac gyroscope (steering well)'], ['gyromètre', 'gyroscope'], 'gyromètre Sagnac'],
+              [['Quatre horloges au césium', 'Four caesium clocks'], ['horloges', 'clocks'], 'horloges au césium'],
+              [['Trois calculateurs et voteur', 'Three computers and voter'], ['calculateurs', 'computers'], 'calculateurs à vote'],
+              [['Batterie et distribution', 'Battery and distribution'], ['énergie', 'power'], 'Énergie'],
+              [['Boucle thermique', 'Thermal loop'], ['thermique', 'thermal'], 'Boucle thermique'],
+              [['Gravité et inertie (accéléromètres)', 'Gravity and inertia (accelerometers)'], ['gravité', 'gravity'], 'Gravité et inertie']];
+    var Lst = G4.map(function (g) {
       var f = function (p) { return p.ensemble.indexOf(g[2]) >= 0; }, p0 = D.R1.internes.filter(f)[0];
-      return { texte: g[0], court: g[1], couleur: p0 ? (CL[p0.classement] || {}).couleur : null, cible: function () { return centreGroupe(R, f); } };
+      return { texte: tr(g[0]), court: tr(g[1]), couleur: p0 ? (CL[p0.classement] || {}).couleur : null, cible: function () { return centreGroupe(R, f); } };
     });
-    L.push({ texte: 'Sens du déplacement (cap du trajet)', court: 'cap', couleur: '#b42318', visible: function () { return fleche.visible; },
-             cible: function () { var a = (90 - trajetCourant().cap) * Math.PI / 180; return new THREE.Vector3(0.4 + 0.3 * Math.cos(a), -0.25 + 0.3 * Math.sin(a), 0.002); } });
-    L.push({ texte: 'Calculateur en panne, écarté par le voteur', court: 'en panne', couleur: '#d92d20', visible: function () { return S.r1.panne > 0; },
-             cible: function () { var o = R.objets.filter(function (o) { return o.alerte; })[0]; if (!o) return null; var v = new THREE.Vector3(); o.mesh.getWorldPosition(v); return v; } });
-    return L;
+    Lst.push({ texte: tx('Sens du déplacement (cap du trajet)', 'Direction of travel (heading of the route)'), court: tx('cap', 'heading'), couleur: '#b42318', visible: function () { return fleche.visible; },
+               cible: function () { var a = (90 - trajetCourant().cap) * Math.PI / 180; return new THREE.Vector3(0.4 + 0.3 * Math.cos(a), -0.25 + 0.3 * Math.sin(a), 0.002); } });
+    Lst.push({ texte: tx('Calculateur en panne, écarté par le voteur', 'Faulty computer, rejected by the voter'), court: tx('en panne', 'faulty'), couleur: '#d92d20', visible: function () { return S.r1.panne > 0; },
+               cible: function () { var o = R.objets.filter(function (o) { return o.alerte; })[0]; if (!o) return null; var v = new THREE.Vector3(); o.mesh.getWorldPosition(v); return v; } });
+    return Lst;
   }
   $('#onglets').addEventListener('click', function (e) { var b = e.target.closest('button[role="tab"]'); if (b) activer(b.dataset.mode); });
   $('#onglets').addEventListener('keydown', function (e) {
@@ -1084,10 +1220,15 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
     for (i = 0; i < T.length; i++) if (T[i].object.material.opacity > 0.5) return T[i].object.userData.o;
     return T[T.length - 1].object.userData.o;
   }
+  function majFiches() {
+    $('#ex-fiche').innerHTML = S.ex.sel ? ficheHTML(S.ex.sel.p, false) : '<span class="note">' + tx('Cliquez ou touchez une pièce pour afficher sa fiche : nom d\'origine, traduction, repère, document, fonction revendiquée, niveau de preuve.',
+      'Click or tap a part to show its data sheet: original caption, reference, source document, claimed function, level of evidence.') + '</span>';
+    $('#r1-fiche').innerHTML = (R && R.sel) ? ficheHTML(R.sel.p, true) : '<span class="note">' + tx('Cliquez ou touchez un composant.', 'Click or tap a component.') + '</span>';
+  }
   function selectionner(o) {
     if (S.mode === 'explorer') { S.ex.sel = o; C.sel = o; habiller(C, S.ex.coul, S.ex.fant, function (p) { return !(p.masque && C.angle < 1 && S.ex.ecl === 0); });
-      $('#ex-fiche').innerHTML = o ? ficheHTML(o.p, false) : '<span class="note">Cliquez ou touchez une pièce pour afficher sa fiche.</span>'; if (o && window.innerWidth <= 820) $('#ex-fiche').scrollIntoView({ block: 'nearest', behavior: RM ? 'auto' : 'smooth' }); }
-    else if (S.mode === 'r1' && R) { R.sel = o; majR1(); $('#r1-fiche').innerHTML = o ? ficheHTML(o.p, true) : '<span class="note">Cliquez ou touchez un composant.</span>'; if (o && window.innerWidth <= 820) $('#r1-fiche').scrollIntoView({ block: 'nearest', behavior: RM ? 'auto' : 'smooth' }); }
+      majFiches(); if (o && window.innerWidth <= 820) $('#ex-fiche').scrollIntoView({ block: 'nearest', behavior: RM ? 'auto' : 'smooth' }); }
+    else if (S.mode === 'r1' && R) { R.sel = o; majR1(); majFiches(); if (o && window.innerWidth <= 820) $('#r1-fiche').scrollIntoView({ block: 'nearest', behavior: RM ? 'auto' : 'smooth' }); }
     demander();
   }
 
@@ -1135,7 +1276,7 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
   var hashPret = false;
   function majHash() {
     if (!hashPret) return;
-    var p = ['mode=' + S.mode];
+    var p = ['mode=' + S.mode, 'lang=' + LANG];
     if (S.mode === 'explorer') p.push('etat=' + S.ex.etat, 'ecl=' + Math.round(S.ex.ecl * 100), 'coul=' + S.ex.coul, 'etq=' + (S.ex.etq ? 1 : 0), 'fant=' + (S.ex.fant ? 1 : 0));
     if (S.mode === 'recit') p.push('t=' + S.re.t.toFixed(3), 'ech=' + S.re.ech, 'cible=' + S.re.cible);
     if (S.mode === 'physique') p.push('P=' + S.ph.P, 'r=' + S.ph.r, 'opt=' + S.ph.opt);
@@ -1159,20 +1300,22 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
 
   /* ---------- démarrage ---------- */
   var mode0 = lireHash();
+  textesStatiques();
   appliquerTheme();
   if (TROIS) { construireScene(); majFond(); dimensionner(); majCamera(); if (window.ResizeObserver) new ResizeObserver(dimensionner).observe($('#vue')); else window.addEventListener('resize', dimensionner);
     if (window.matchMedia) { var mq = window.matchMedia('(prefers-color-scheme: dark)'), surTheme = function () { majFond(); demander(); }; if (mq.addEventListener) mq.addEventListener('change', surTheme); else if (mq.addListener) mq.addListener(surTheme); } }
-  tableControles(); razR1();
+  listeEtapes(); listeTrajets(); legendeR1(); majFiches(); tableControles(); razR1();
   if (S._avance > 0) { var reste = S._avance; while (reste > 0) { pasR1(Math.min(10, reste)); reste -= 10; } }
   activer(mode0);
   if (TROIS && S._vue && VUES[S._vue]) { orb.az = VUES[S._vue][0]; orb.el = VUES[S._vue][1]; cadrer(); }
   if (S._voir && /^[a-z0-9-]+$/.test(S._voir)) { var cibleVoir = document.getElementById(S._voir); if (cibleVoir && $('#panneaux').contains(cibleVoir)) { if (cibleVoir.tagName === 'DETAILS') cibleVoir.open = true; cibleVoir.scrollIntoView({ block: 'start' }); } }
   hashPret = true; majHash();
   window.C204SIM = { etat: S, donnees: D, formules: F, constantes: K, activer: activer, cadrer: cadrer, majRecit: majRecit, majPhysique: majPhysique, majR1: majR1, pasR1: pasR1, tauxMuons: TAUX_MUONS,
+                     langue: function () { return LANG; }, changerLangue: changerLangue,
                      scene: function () { return scene; }, camera: function () { return camera; }, ensembles: function () { return { C: C, R: R }; }, etiquettes: function () { return etiquettes; } };
 })();
 </script>
-<noscript><p style="padding:16px">Cette page nécessite JavaScript.</p></noscript>
+<noscript><p style="padding:16px">Cette page nécessite JavaScript. <span lang="en">This page requires JavaScript.</span></p></noscript>
 <!-- Généré le __DATE__ par 06_modele_3D/generer_simulateur.py — Programme C204, Équipe E. Seule ressource externe : three.js r128 (cdnjs). -->
 </body>
 </html>

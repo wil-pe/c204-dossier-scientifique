@@ -62,7 +62,9 @@ GABARIT = r"""<!DOCTYPE html>
 *{box-sizing:border-box}
 html,body{height:100%;margin:0}
 body{background:var(--fond);color:var(--texte);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;overflow:hidden}
-#app{position:fixed;inset:0;display:grid;grid-template-rows:auto 1fr}
+#app{position:fixed;inset:0;display:grid;grid-template-rows:auto auto 1fr}
+#note-langue{margin:0;padding:4px 14px;font-size:12.5px;line-height:1.35;background:var(--alerte-fond);color:var(--alerte);border-bottom:1px solid var(--trait)}
+#note-langue a{color:inherit;font-weight:650}
 header{display:flex;align-items:center;gap:12px;padding:8px 14px;background:var(--carte);border-bottom:1px solid var(--trait);min-width:0}
 header h1{font-size:15px;margin:0;font-weight:650;white-space:nowrap}
 header p{margin:0;color:var(--alerte);background:var(--alerte-fond);padding:3px 9px;border-radius:999px;font-size:12px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1 1 auto}
@@ -135,6 +137,7 @@ details summary{cursor:pointer;color:var(--texte2);font-size:11px;letter-spacing
       <button id="theme" type="button" title="Thème : automatique, clair, sombre">Thème : auto</button>
     </div>
   </header>
+  <p id="note-langue"><span lang="en">This page is in French — <a href="simulateur.html#lang=en">the simulator has an English version</a>.</span> <span lang="fr">Page en français ; <a href="simulateur.html#lang=fr">le simulateur existe aussi en anglais</a>.</span></p>
   <main>
     <div id="scene"><canvas id="toile" tabindex="0" aria-label="Vue 3D du modèle ; glisser pour tourner, molette ou pincement pour zoomer"></canvas></div>
 

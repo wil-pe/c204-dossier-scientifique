@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C204 — John Titor&#x27;s “time machine”, taken apart by physics</title>
+<meta name="description" content="A playable 3D simulator, a reconstruction of the 2000–2001 documents, calculations, simulations and a build guide: a critical study of the C204 machine attributed to John Titor.">
+<meta property="og:type" content="website"><meta property="og:url" content="https://wil-pe.github.io/c204-dossier-scientifique/en/"><meta property="og:title" content="C204 — John Titor&#x27;s “time machine”, taken apart by physics"><meta property="og:description" content="A playable 3D simulator, a reconstruction of the 2000–2001 documents, calculations, simulations and a build guide: a critical study of the C204 machine attributed to John Titor."><meta property="og:locale" content="en_GB"><meta property="og:image" content="https://wil-pe.github.io/c204-dossier-scientifique/figures/banniere.png"><meta property="og:image:width" content="1280"><meta property="og:image:height" content="640"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://wil-pe.github.io/c204-dossier-scientifique/figures/banniere.png"><link rel="canonical" href="https://wil-pe.github.io/c204-dossier-scientifique/en/"><link rel="alternate" hreflang="fr" href="https://wil-pe.github.io/c204-dossier-scientifique/"><link rel="alternate" hreflang="en" href="https://wil-pe.github.io/c204-dossier-scientifique/en/"><link rel="alternate" hreflang="x-default" href="https://wil-pe.github.io/c204-dossier-scientifique/en/">
+<style>
+:root{--fond:#fbfaf7;--carte:#ffffff;--texte:#1d1c1a;--discret:#5f5b55;--trait:#dedad2;--accent:#0b5c8a;--chaud:#b3541e;--nuit:#0e1116;--nuit-texte:#f0eee9;--nuit-discret:#a0a6b0;--nuit-accent:#6fb6e0;--nuit-chaud:#e59a66}
+@media (prefers-color-scheme:dark){:root{--fond:#15171a;--carte:#1d2024;--texte:#eceae6;--discret:#a39f98;--trait:#32363c;--accent:#6fb6e0;--chaud:#e59a66}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;overflow-x:hidden;background:var(--fond);color:var(--texte);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+img{max-width:100%;height:auto;display:block}
+.hero{background:var(--nuit);color:var(--nuit-texte);overflow:hidden}
+.langues{max-width:1180px;margin:0 auto;padding:14px 16px 0;display:flex;justify-content:flex-end;gap:6px}
+.langues a{padding:6px 12px;border-radius:999px;border:1px solid #3a4250;color:var(--nuit-discret);text-decoration:none;font-size:.86rem;font-weight:600}
+.langues a:hover,.langues a:focus-visible{border-color:var(--nuit-accent);color:var(--nuit-texte);outline:none}
+.langues a[aria-current="page"]{background:var(--nuit-texte);border-color:var(--nuit-texte);color:var(--nuit)}
+.hero-in{max-width:1180px;margin:0 auto;padding:32px 16px 0;display:grid;gap:8px 40px;grid-template-columns:minmax(0,1fr);align-items:center}
+@media (min-width:920px){.hero-in{grid-template-columns:minmax(0,5fr) minmax(0,6fr);padding-top:44px}}
+.surtitre{overflow-wrap:anywhere;margin:0 0 14px;color:var(--nuit-accent);font-weight:700;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase}
+.hero h1{font-size:clamp(2rem,5.2vw,3.3rem);line-height:1.08;margin:0 0 18px;letter-spacing:-.015em;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--nuit-chaud)}
+.hero .chapeau{color:var(--nuit-discret);font-size:1.08rem;max-width:56ch;margin:0 0 26px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 40px}
+.bouton{display:inline-block;padding:12px 20px;border-radius:8px;border:1px solid #3a4250;color:var(--nuit-texte);text-decoration:none;font-weight:600}
+.bouton:hover,.bouton:focus-visible{border-color:var(--nuit-accent);outline:none}
+.bouton.plein{background:var(--nuit-accent);border-color:var(--nuit-accent);color:#08131c}
+.bouton.plein:hover,.bouton.plein:focus-visible{background:#8cc6ea}
+.hero-img{align-self:end;border-radius:12px 12px 0 0;border:1px solid #262c36;border-bottom:0}
+main{max-width:1180px;margin:0 auto;padding:8px 16px 72px}
+h2{font-size:1.5rem;line-height:1.2;margin:64px 0 6px;letter-spacing:-.01em}
+.sous-titre{color:var(--discret);margin:0 0 22px;max-width:70ch}
+.avert{border-left:4px solid var(--chaud);background:var(--carte);padding:12px 16px;margin:32px 0 0;max-width:86ch}
+.grille{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.grille.deux{grid-template-columns:minmax(0,1fr)}
+@media (min-width:720px){.grille.deux{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.carte{background:var(--carte);border:1px solid var(--trait);border-radius:12px;display:block;text-decoration:none;color:inherit;overflow:hidden}
+a.carte:hover,a.carte:focus-visible{border-color:var(--accent);outline:none}
+.carte .corps{padding:16px 18px 18px}
+.carte strong{display:block;font-size:1.08rem;margin-bottom:4px;color:var(--accent)}
+.carte span{color:var(--discret);font-size:.95rem}
+.carte img.capture{aspect-ratio:860/632;width:100%;object-fit:cover;border-bottom:1px solid var(--trait)}
+.numero{display:inline-block;font-size:.8rem;font-weight:700;color:var(--chaud);letter-spacing:.06em;margin-bottom:2px}
+.chiffres{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:520px){.chiffres{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:860px){.chiffres{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.chiffre{background:var(--carte);border:1px solid var(--trait);border-radius:12px;padding:18px}
+.chiffre b{display:block;font-size:2rem;line-height:1.1;color:var(--chaud);font-variant-numeric:tabular-nums;margin-bottom:8px}
+.chiffre span{color:var(--discret);font-size:.95rem}
+.galerie{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.galerie figure{margin:0;background:var(--carte);border:1px solid var(--trait);border-radius:12px;overflow:hidden}
+.galerie img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;border-bottom:1px solid var(--trait)}
+.galerie figcaption{padding:10px 12px 12px;font-size:.9rem}
+.galerie figcaption small{display:block;color:var(--discret)}
+.prix{display:flex;gap:14px;margin-top:10px;font-size:.92rem;color:var(--texte);font-variant-numeric:tabular-nums}
+.prix b{color:var(--chaud)}
+.methode{columns:2 320px;column-gap:40px;max-width:1000px}
+.methode p{margin:0 0 12px;break-inside:avoid}
+figure.pleine{margin:0}
+figure.pleine img{border:1px solid var(--trait);border-radius:12px;background:#fff}
+figcaption{color:var(--discret);font-size:.9rem;margin-top:6px}
+.etiquette-langue{font-size:.78rem;color:var(--discret);border:1px solid var(--trait);border-radius:999px;padding:1px 8px;margin-left:6px;white-space:nowrap}
+footer{margin-top:64px;color:var(--discret);font-size:.9rem;border-top:1px solid var(--trait);padding-top:16px}
+</style></head><body>
+<header class="hero">
+<nav class="langues" aria-label="Language"><a href="../" lang="fr" hreflang="fr">Français</a><a href="./" lang="en" hreflang="en" aria-current="page">English</a></nav>
+<div class="hero-in">
+<div>
+<p class="surtitre">Critical study · 3D simulator · open dossier</p>
+<h1>John Titor's “time machine”, <em>taken apart by physics</em></h1>
+<p class="chapeau">In November 2000 an anonymous poster claiming to come from 2036 published photos and manual pages of his machine, the C204. We took those documents at face value, just long enough to take them apart: a 3D reconstruction, calculations, simulations, and what could actually be built.</p>
+<p class="actions"><a class="bouton plein" href="../simulateur.html#mode=recit&lang=en">Launch the 3D simulator</a><a class="bouton" href="https://github.com/wil-pe/c204-dossier-scientifique">View the GitHub repository</a></p>
+</div>
+<img class="hero-img" src="../figures/hero_scene.jpg" width="1400" height="1022" alt="3D view: a schematic pickup truck carrying the unit, surrounded by the rings and cone drawn in the original manual">
+</div></header>
+<main>
+<p class="avert">Nothing claimed in the original documents is taken as true. The “if it worked” views put a story into pictures; they do not correspond to any observed phenomenon. No experiment was run: everything here is reconstruction, calculation and simulation.</p>
+
+<section aria-labelledby="t-modes">
+<h2 id="t-modes">Four ways to explore</h2>
+<p class="sous-titre">The simulator runs in the browser, nothing to install. Each card opens the matching mode directly.</p>
+<div class="grille deux">
+<a class="carte" href="../simulateur.html#mode=explorer&lang=en"><img class="capture" src="../figures/mode_explorer_vue_en.png" alt="The C204 in exploded view, each sub-assembly labelled" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 1</span><strong>Explore the machine</strong><span>Open the case, drag the exploded-view slider, click a part to see where it comes from.</span></div></a>
+<a class="carte" href="../simulateur.html#mode=recit&lang=en"><img class="capture" src="../figures/mode_recit_vue_en.png" alt="A schematic pickup truck surrounded by the rings of the original diagram" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 2</span><strong>If it worked</strong><span>The story in pictures, step by step: power-up, “field”, bent light, total darkness.</span></div></a>
+<a class="carte" href="../simulateur.html#mode=physique&lang=en"><img class="capture" src="../figures/mode_physique_vue_en.png" alt="The same scene with lethal-dose zones and computed results" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 3</span><strong>What physics says</strong><span>Move two sliders and read the mass, gravity, dose and temperature those figures really imply.</span></div></a>
+<a class="carte" href="../simulateur.html#mode=r1&lang=en"><img class="capture" src="../figures/mode_r1_vue_en.png" alt="The R1 case with its real components" loading="lazy" width="860" height="632"><div class="corps"><span class="numero">MODE 4</span><strong>The buildable version</strong><span>Four clocks, three voting computers, a muon counter. Inject a fault and watch.</span></div></a>
+</div>
+</section>
+
+<section aria-labelledby="t-chiffres">
+<h2 id="t-chiffres">The numbers that don't add up</h2>
+<p class="sous-titre">The story's own figures, taken literally and run through the calculations. Every value is recomputed by a script in the repository.</p>
+<div class="chiffres">
+<div class="chiffre"><b>500 lb</b><span>the stated mass of the unit (227 kg)</span></div>
+<div class="chiffre"><b>4–5 Gt</b><span>the mass of each “singularity” required by the stated 300–500 MW: billions of tonnes</span></div>
+<div class="chiffre"><b>≈ 1 ms</b><span>the time to receive a lethal dose at one metre, according to those same figures</span></div>
+<div class="chiffre"><b>87,660</b><span>the factor behind “ten years per hour”. LEP's electrons at CERN nearly reached it: 89,000</span></div>
+<div class="chiffre"><b>0.5 ns/h</b><span>what the buildable version really gains at 130 km/h heading east. A sandbag would do the same</span></div>
+<div class="chiffre"><b>58</b><span>errors our red team found in our own work, all fixed and logged</span></div>
+</div>
+</section>
+
+<section aria-labelledby="t-docs">
+<h2 id="t-docs">The exhibits</h2>
+<p class="sous-titre">Six of the twenty-two inventoried documents. These are anonymous images circulated on forums in 2000–2001, reproduced here for analysis. Their provenance and hashes are in <a href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/01_archive/INVENTAIRE.md">the inventory</a> (in French).</p>
+<div class="galerie">
+<figure><img src="../figures/documents/doc003_photo_vehicule.jpg" alt="The unit photographed in a vehicle" loading="lazy"><figcaption>The unit photographed in a vehicle<small>2001 photo</small></figcaption></figure>
+<figure><img src="../figures/documents/doc004_unite_ouverte.jpg" alt="The unit open, with its remote control" loading="lazy"><figcaption>The unit open, with its remote control<small>Manual page</small></figcaption></figure>
+<figure><img src="../figures/documents/doc007_vue_de_dessus.jpg" alt="Top view: “main” and “steering singularity”" loading="lazy"><figcaption>Top view: “main” and “steering singularity”<small>Manual page</small></figcaption></figure>
+<figure><img src="../figures/documents/doc008_composants.jpg" alt="The twelve “basic components”" loading="lazy"><figcaption>The twelve “basic components”<small>Manual page</small></figcaption></figure>
+<figure><img src="../figures/documents/doc009_champ.jpg" alt="The “Tipler sinusoid field”" loading="lazy"><figcaption>The “Tipler sinusoid field”<small>Manual page</small></figcaption></figure>
+<figure><img src="../figures/documents/doc005_ecorche.jpg" alt="The 35-callout cutaway, no legend" loading="lazy"><figcaption>The 35-callout cutaway, no legend<small>Origin unknown</small></figcaption></figure>
+</div>
+</section>
+
+<section aria-labelledby="t-modele">
+<h2 id="t-modele">From document to model</h2>
+<p class="sous-titre">Every part of the 3D model carries its level of evidence: read on a document, deduced, or assumed. Nothing is documented below the top plate, so the interior is a hypothesis, and the model says so.</p>
+<figure class="pleine"><img src="../figures/comparaison_document_modele.png" alt="Left, the original manual page; right, the 3D model seen from the same viewpoint" loading="lazy"><figcaption>The manual page and the reconstructed model, seen from the same viewpoint. <a href="../visionneuse.html">Open the part-by-part viewer (in French)</a></figcaption></figure>
+</section>
+
+<section aria-labelledby="t-construire">
+<h2 id="t-construire">What can actually be built</h2>
+<p class="sous-titre">Not a time machine: a measuring instrument in the same case. Costs and durations are estimates without quotes, and we have built none of it. <a href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/10_machine_optimisee/GUIDE_CONSTRUCTION.md">Read the build guide</a> (in French)</p>
+<div class="grille">
+<div class="carte"><div class="corps"><span class="numero">BUILD A</span><strong>Inert replica</strong><span>The case as documented, as a display model.</span><div class="prix"><span><b>€140–240</b></span><span>15–25 h</span></div></div></div>
+<div class="carte"><div class="corps"><span class="numero">BUILD B</span><strong>C204-R1 Lite</strong><span>Entry-level version: time references compared, three voting computers, a muon counter.</span><div class="prix"><span><b>€350–730</b></span><span>40–80 h</span></div></div></div>
+<div class="carte"><div class="corps"><span class="numero">BUILD C</span><strong>Full C204-R1</strong><span>Four chip-scale atomic clocks and a fibre-optic gyroscope, in the same case.</span><div class="prix"><span><b>≈ €49k</b></span><span>300–600 h</span></div></div></div>
+</div>
+</section>
+
+<section aria-labelledby="t-rapports">
+<h2 id="t-rapports">The full dossier</h2>
+<p class="sous-titre">Twelve reports with their scripts and data. The reports are in French; a summary in English is linked first. Everything can be re-run from the repository.</p>
+<div class="grille">
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/11_dossier_final/SUMMARY_EN.md"><div class="corps"><strong>Summary in English</strong><span>The verdict, the ten questions, the limits</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/11_dossier_final/DOSSIER_SCIENTIFIQUE_C204.md"><div class="corps"><strong>Programme synthesis <span class="etiquette-langue">in French</span></strong><span>The thirteen deliverables, the ten questions, the limits</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/10_machine_optimisee/GUIDE_CONSTRUCTION.md"><div class="corps"><strong>Build guide <span class="etiquette-langue">in French</span></strong><span>Inert replica, entry-level version, full R1</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/01_archive/INVENTAIRE.md"><div class="corps"><strong>Document inventory <span class="etiquette-langue">in French</span></strong><span>The 22 exhibits, their provenance and attribution</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/01_archive/HISTORIQUE.md"><div class="corps"><strong>History <span class="etiquette-langue">in French</span></strong><span>Timeline of 2000–2001 and later circulation</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/02_reconstruction/DOSSIER_TECHNIQUE.md"><div class="corps"><strong>Technical file <span class="etiquette-langue">in French</span></strong><span>The object as described, drawings, dimensions</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/03_physique_theorique/RAPPORT_B.md"><div class="corps"><strong>Theoretical physics <span class="etiquette-langue">in French</span></strong><span>Kerr, Tipler, micro black holes, causality</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/04_ingenierie/RAPPORT_C.md"><div class="corps"><strong>Engineering <span class="etiquette-langue">in French</span></strong><span>Subsystem by subsystem: buildable or not</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/05_simulations/RAPPORT_D.md"><div class="corps"><strong>Simulations <span class="etiquette-langue">in French</span></strong><span>Nine reproducible simulations</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/07_experiences/RAPPORT_F.md"><div class="corps"><strong>Experiments <span class="etiquette-langue">in French</span></strong><span>Twelve safe protocols</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/08_red_team/RAPPORT_RED_TEAM_2.md"><div class="corps"><strong>Criticism of our own work <span class="etiquette-langue">in French</span></strong><span>Adversarial validation and corrections</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/09_recherche_contemporaine/RAPPORT_H.md"><div class="corps"><strong>Contemporary research <span class="etiquette-langue">in French</span></strong><span>Literature 2001–2026, verified bibliography</span></div></a>
+<a class="carte" href="https://github.com/wil-pe/c204-dossier-scientifique/blob/main/10_machine_optimisee/RAPPORT_I.md"><div class="corps"><strong>Optimised machine <span class="etiquette-langue">in French</span></strong><span>Three tiers of a coherent machine</span></div></a>
+</div>
+</section>
+
+<section aria-labelledby="t-methode">
+<h2 id="t-methode">Method and limits</h2>
+<div class="methode">
+<p><strong>How it was made.</strong> Eight specialised AI agent teams, driven with Claude Code: archives, theoretical physics, engineering, simulation, 3D model, experiments, recent literature, optimised machine. A ninth, the red team, had one job: tear the others' work apart.</p>
+<p><strong>What the red team found.</strong> 58 errors or overstated conclusions in our own dossier, all fixed. Each report ends with its correction log.</p>
+<p><strong>What is verified.</strong> The calculations re-run identically. 446 references were checked online, from their metadata and abstracts, not their full text.</p>
+<p><strong>What is not.</strong> No experiment was run and nothing was built. The simulations are illustrative. The scale of the case rests on assumed reference objects.</p>
+<p><strong>What we do not know.</strong> Who the author was, where the 35-callout cutaway comes from, and how the “bent laser” photo was made.</p>
+<p><strong>What we do not claim.</strong> Enthusiasts were already poring over these images in 2003. This dossier covers the whole path, from the archive to the simulator, and shows its sources.</p>
+</div>
+</section>
+
+<footer>C204 programme — a critical study. <a href="https://github.com/wil-pe/c204-dossier-scientifique">GitHub repository</a> · <a href="../simulateur.html#lang=en">Simulator</a> · <a href="../visionneuse.html">Viewer (in French)</a></footer>
+</main></body></html>
