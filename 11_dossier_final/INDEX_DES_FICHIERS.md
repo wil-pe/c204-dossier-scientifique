@@ -17,9 +17,9 @@ dossier de travail local ; les sous-dossiers marqués « hors dépôt en ligne �
 | `08_red_team/` | Équipe G — Red Team, deux passages | 222 | 11,5 Mo |
 | `09_recherche_contemporaine/` | Équipe H — littérature 2001-2026 | 531 | 19,9 Mo |
 | `10_machine_optimisee/` | Équipe I — machine optimisée, trois paliers | 140 | 3,2 Mo |
-| `11_dossier_final/` | Direction — synthèse finale | 4 | 66,7 ko |
-| `docs/` | Site statique : page d'accueil, simulateur, visionneuse | 9 | 1,9 Mo |
-| **Total** | | **1880** | **159,9 Mo** |
+| `11_dossier_final/` | Direction — synthèse finale | 6 | 659,1 ko |
+| `docs/` | Site statique : page d'accueil, simulateur, visionneuse | 25 | 4,1 Mo |
+| **Total** | | **1898** | **162,7 Mo** |
 
 ## `01_archive/`
 
@@ -235,7 +235,11 @@ Direction — synthèse finale.
 | Fichier | Taille | Titre ou nature |
 |---|---|---|
 | `11_dossier_final/DOSSIER_SCIENTIFIQUE_C204.md` | 40,4 ko | Dossier scientifique — La « machine temporelle C204 » attribuée à John Titor |
-| `11_dossier_final/INDEX_DES_FICHIERS.md` | 12,1 ko | Index des livrables du programme C204 |
+| `11_dossier_final/INDEX_DES_FICHIERS.md` | 12,7 ko | Index des livrables du programme C204 |
+
+| Sous-dossier | Fichiers | Types principaux |
+|---|---|---|
+| `11_dossier_final/visuels_source/` | 1 | .png ×1 |
 
 ## `docs/`
 
@@ -243,11 +247,11 @@ Site statique : page d'accueil, simulateur, visionneuse.
 
 | Fichier | Taille | Titre ou nature |
 |---|---|---|
-| `docs/index.html` | 7,6 ko | page interactive |
+| `docs/index.html` | 19,0 ko | page interactive |
 | `docs/simulateur.html` | 263,5 ko | page interactive |
 | `docs/visionneuse.html` | 327,9 ko | page interactive |
 
 | Sous-dossier | Fichiers | Types principaux |
 |---|---|---|
-| `docs/figures/` | 5 | .png ×5 |
+| `docs/figures/` | 21 | .png ×14, .jpg ×7 |
 
